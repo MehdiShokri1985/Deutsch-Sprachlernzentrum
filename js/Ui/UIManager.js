@@ -238,12 +238,20 @@ export class UIManager {
       if (!body) return;
       const isOpen = item.classList.toggle("is-open");
       body.style.maxHeight = isOpen ? `${body.scrollHeight}px` : "0";
+      const chevron = item.querySelector(".accordion-chevron");
+      if (chevron) {
+        chevron.style.transform = isOpen ? "rotate(180deg)" : "rotate(0deg)";
+        chevron.style.opacity = isOpen ? "0.85" : "0.4";
+      }
     };
     document
       .getElementById("correctAnswersList")
       ?.addEventListener("click", handleClick);
     document
       .getElementById("mistakesList")
+      ?.addEventListener("click", handleClick);
+    document
+      .getElementById("modalDetails")
       ?.addEventListener("click", handleClick);
   }
 
@@ -598,22 +606,12 @@ export class UIManager {
       content += `<div class="md-pair-row" style="font-size:0.85rem;color:#4f6f0c;background-color: #f9fff2"><span style="font-weight:400">. ${w.prasens[0].form} / ${w.perfekt?.[3]?.form || '?'} / ${w.prateritum?.[0]?.form || '?'}</span></div>`;
     }
 
-    if (w.caseverb && w.caseverb.length > 0) {
-      const caseColors = {
-        "Intransitiv": '#6b7280',
-        "Akk": '#2563eb',
-        "Dativ": '#0d9488',
-        'Dativ für Person': '#0f766e',
-        gen: '#7c3aed',
-        nom: '#d97706'
-      };
-      w.caseverb.forEach((cv) => {
-        const color = caseColors[cv.case] || '#6b7280';
-        content += `<div style="margin-top:0.2rem"><span style="font-size:0.7rem;font-weight:700;color:${color};text-transform:uppercase;letter-spacing:0.04em">${cv.case}</span></div>`;
-        cv.examples.forEach((ex) => {
-          content += `<div class="md-pair-row" style="margin-top:0.05rem"><div class="md-pair-start" style="color:#1f2937;font-weight:500"><a href="https://translate.google.com/?sl=de&tl=fa&text=${encodeURIComponent(ex.german)}" target="_blank" class="hover:underline" style="color:inherit">${ex.german}</a></div><div class="md-pair-end" dir="rtl" style="font-size:0.8rem;color:#6b7280">${ex.persian}</div></div>`;
-        });
-      });
+    const synTags = w.synonyms?.length > 0 ? w.synonyms.map(s => `<a href="https://translate.google.com/?sl=de&tl=fa&text=${encodeURIComponent(s)}&op=translate" target="_blank" rel="noopener noreferrer" style="display:inline-block;padding:0.1rem 0.5rem;font-size:0.75rem;font-weight:500;color:#065f46;background:#d1fae5;border-radius:999px;text-decoration:none;transition:background 0.15s" onmouseover="this.style.background='#a7f3d0'" onmouseout="this.style.background='#d1fae5'">${s}</a>`).join('') : '';
+    const antTags = w.antonyms?.length > 0 ? w.antonyms.map(a => `<a href="https://translate.google.com/?sl=de&tl=fa&text=${encodeURIComponent(a)}&op=translate" target="_blank" rel="noopener noreferrer" style="display:inline-block;padding:0.1rem 0.5rem;font-size:0.75rem;font-weight:500;color:#991b1b;background:#fee2e2;border-radius:999px;text-decoration:none;transition:background 0.15s" onmouseover="this.style.background='#fecaca'" onmouseout="this.style.background='#fee2e2'">${a}</a>`).join('') : '';
+    const synCol = synTags ? `<div style="flex:1 1 160px;min-width:0"><div style="font-size:0.7rem;font-weight:600;color:#6b7280;text-transform:uppercase;letter-spacing:0.04em;margin-bottom:0.15rem">Synonyms</div><div style="display:flex;flex-wrap:wrap;gap:0.3rem">${synTags}</div></div>` : '';
+    const antCol = antTags ? `<div style="flex:1 1 160px;min-width:0"><div style="font-size:0.7rem;font-weight:600;color:#6b7280;text-transform:uppercase;letter-spacing:0.04em;margin-bottom:0.15rem">Antonyms</div><div style="display:flex;flex-wrap:wrap;gap:0.3rem">${antTags}</div></div>` : '';
+    if (synCol || antCol) {
+      content += `<div style="display:flex;flex-wrap:wrap;gap:0.5rem;margin-top:0.3rem">${synCol}${antCol}</div>`;
     }
 
     if (
@@ -626,13 +624,55 @@ export class UIManager {
       });
     }
 
-    const synTags = w.synonyms?.length > 0 ? w.synonyms.map(s => `<a href="https://translate.google.com/?sl=de&tl=fa&text=${encodeURIComponent(s)}&op=translate" target="_blank" rel="noopener noreferrer" style="display:inline-block;padding:0.1rem 0.5rem;font-size:0.75rem;font-weight:500;color:#065f46;background:#d1fae5;border-radius:999px;text-decoration:none;transition:background 0.15s" onmouseover="this.style.background='#a7f3d0'" onmouseout="this.style.background='#d1fae5'">${s}</a>`).join('') : '';
-    const antTags = w.antonyms?.length > 0 ? w.antonyms.map(a => `<a href="https://translate.google.com/?sl=de&tl=fa&text=${encodeURIComponent(a)}&op=translate" target="_blank" rel="noopener noreferrer" style="display:inline-block;padding:0.1rem 0.5rem;font-size:0.75rem;font-weight:500;color:#991b1b;background:#fee2e2;border-radius:999px;text-decoration:none;transition:background 0.15s" onmouseover="this.style.background='#fecaca'" onmouseout="this.style.background='#fee2e2'">${a}</a>`).join('') : '';
-    const synCol = synTags ? `<div style="flex:1 1 160px;min-width:0"><div style="font-size:0.7rem;font-weight:600;color:#6b7280;text-transform:uppercase;letter-spacing:0.04em;margin-bottom:0.15rem">Synonyms</div><div style="display:flex;flex-wrap:wrap;gap:0.3rem">${synTags}</div></div>` : '';
-    const antCol = antTags ? `<div style="flex:1 1 160px;min-width:0"><div style="font-size:0.7rem;font-weight:600;color:#6b7280;text-transform:uppercase;letter-spacing:0.04em;margin-bottom:0.15rem">Antonyms</div><div style="display:flex;flex-wrap:wrap;gap:0.3rem">${antTags}</div></div>` : '';
-    if (synCol || antCol) {
-      content += `<div style="display:flex;flex-wrap:wrap;gap:0.5rem;margin-top:0.3rem">${synCol}${antCol}</div>`;
+    if (w.caseverb && w.caseverb.length > 0) {
+      const caseColors = {
+        "Intransitiv": '#6b7280',
+        "Akk": '#e11d48',
+        "Dativ": '#0d9488',
+        'Dativ für Person': '#0f766e',
+        gen: '#7c3aed',
+        nom: '#2563eb'
+      };
+      w.caseverb.forEach((cv) => {
+        const color = caseColors[cv.case] || '#6b7280';
+        content += `<div class="accordion-item">`;
+        content += `<div class="accordion-header" role="button" tabindex="0" style="display:flex;align-items:center;justify-content:space-between;cursor:pointer;padding-top:0.3rem;padding-bottom:0.15rem;user-select:none">`;
+        content += `<span style="font-size:0.7rem;font-weight:700;color:${color};text-transform:uppercase;letter-spacing:0.04em">${cv.case}</span>`;
+        content += `<svg class="accordion-chevron" width="14" height="14" viewBox="0 0 22 22" fill="none" aria-hidden="true" style="opacity:0.4;transition:transform 0.35s ease,opacity 0.2s ease;flex-shrink:0"><path d="M6.5 9L11 13.5L15.5 9" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>`;
+        content += `</div>`;
+        content += `<div class="accordion-body" style="max-height:0;overflow:hidden;transition:max-height 0.35s ease">`;
+        content += `<div style="border-left:2px solid ${color};padding-left:0.5rem;padding-top:0.1rem;padding-bottom:0.1rem">`;
+        cv.examples.forEach((ex) => {
+          content += `<div class="md-pair-row" style="font-size:0.75rem;margin-bottom:0.1rem"><div class="md-pair-start" style="color:#1f2937;font-weight:500"><a href="https://translate.google.com/?sl=de&tl=fa&text=${encodeURIComponent(ex.german)}&op=translate" target="_blank" rel="noopener noreferrer" style="color:inherit;text-decoration:none;transition:opacity 0.15s" onmouseover="this.style.opacity='0.65'" onmouseout="this.style.opacity='1'">${ex.german}</a></div><div class="md-pair-end" dir="rtl" style="color:#4b5563;font-size:0.75rem">${ex.persian}</div></div>`;
+        });
+        content += `</div></div></div>`;
+      });
     }
+
+    const tenseConfigs = [
+      { key: 'prasens', label: 'Präsens', color: '#2563eb' },
+      { key: 'perfekt', label: 'Perfekt', color: '#16a34a' },
+      { key: 'prateritum', label: 'Präteritum', color: '#d97706' },
+      { key: 'futur', label: 'Futur', color: '#7c3aed' },
+    ];
+    tenseConfigs.forEach(({ key, label, color }) => {
+      const tenseData = w[key];
+      if (!tenseData || tenseData.length === 0) return;
+      const lastEntry = tenseData[tenseData.length - 1];
+      const sentences = lastEntry.sentences || lastEntry.examples || [];
+      if (sentences.length === 0) return;
+      content += `<div class="accordion-item">`;
+      content += `<div class="accordion-header" role="button" tabindex="0" style="display:flex;align-items:center;justify-content:space-between;cursor:pointer;padding-top:0.3rem;padding-bottom:0.15rem;user-select:none">`;
+      content += `<span style="font-size:0.7rem;font-weight:700;color:${color};text-transform:uppercase;letter-spacing:0.04em">${label}</span>`;
+      content += `<svg class="accordion-chevron" width="14" height="14" viewBox="0 0 22 22" fill="none" aria-hidden="true" style="opacity:0.4;transition:transform 0.35s ease,opacity 0.2s ease;flex-shrink:0"><path d="M6.5 9L11 13.5L15.5 9" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>`;
+      content += `</div>`;
+      content += `<div class="accordion-body" style="max-height:0;overflow:hidden;transition:max-height 0.35s ease">`;
+      content += `<div style="border-left:2px solid ${color};padding-left:0.5rem;padding-top:0.1rem;padding-bottom:0.1rem">`;
+      sentences.forEach(s => {
+        content += `<div class="md-pair-row" style="font-size:0.75rem;margin-bottom:0.1rem"><div class="md-pair-start" style="color:#1f2937;font-weight:500"><a href="https://translate.google.com/?sl=de&tl=fa&text=${encodeURIComponent(s.de)}&op=translate" target="_blank" rel="noopener noreferrer" style="color:inherit;text-decoration:none;transition:opacity 0.15s" onmouseover="this.style.opacity='0.65'" onmouseout="this.style.opacity='1'">${s.de}</a></div><div class="md-pair-end" dir="rtl" style="color:#4b5563;font-size:0.75rem">${s.fa}</div></div>`;
+      });
+      content += `</div></div></div>`;
+    });
 
     document.getElementById("modalDetails").innerHTML = content;
 
