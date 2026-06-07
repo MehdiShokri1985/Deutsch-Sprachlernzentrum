@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Dynamic Exam Generator Engine</title>
+        <style>
+          body {
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+          }
+        </style>
+        <link rel="stylesheet" href="style.css" />
+         <script src="https://cdn.tailwindcss.com"></script>
+    </head>
+    <body>
+        <header>
+              <a
+            href="../index.html"
+            id="headerTitle"
+            class="game-header-title font-bold transition-colors  items-center gap-2"
+          >
+            <h1>German Grammar Exam</h1>
+          </a>
+           
+            <!-- <p>Artikel &middot; Personalpronomen &middot; Possessivpronomen &middot; Adjektivdeklination</p> -->
+        </header>
+
+        <main id="app">
+            <section id="config-panel" class="card">
+                <div class="cp-header">
+                    <h2>Exam Configuration</h2>
+                    <p class="cp-subtitle">Configure your German grammar exam settings</p>
+                </div>
+
+                <div class="cp-body">
+                    <!-- Section: Data Source -->
+                    <div class="cp-section">
+                        <div class="cp-section-header">
+                            <span class="cp-section-accent"></span>
+                            <h3>Data Source</h3>
+                        </div>
+                        <div class="cp-section-body">
+                            <div class="config-group">
+                                <label for="file-selector">Select Exam Data:</label>
+                                <select id="file-selector" style="padding-left:10px;">
+                                    <option value="" disabled selected style="padding-left:10px;" >
+                                        Choose a JSON file...
+                                    </option>
+                                </select>
+                            </div>
+
+                            <div id="file-preview" class="file-preview hidden">
+                                <div class="preview-header"></div>
+                                <div class="preview-pairs"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="dynamic-config" class="hidden">
+                        <!-- Removed Kasus selector: all groups processed automatically -->
+
+                        <!-- Section: Content Mapping -->
+                        <div class="cp-section">
+                            <div class="cp-section-header">
+                                <span class="cp-section-accent"></span>
+                                <h3>Content Mapping</h3>
+                            </div>
+                            <div class="cp-section-body">
+                                <div class="config-grid">
+                                    <div class="config-item">
+                                        <h3>Question Design</h3>
+                                        <label for="q-title-selector">Title Mode:</label>
+                                        <select id="q-title-selector" style="padding-left:10px;">
+                                            <option value="none">None</option>
+                                            <option value="0">title1</option>
+                                            <option value="1">title2</option>
+                                            <option value="2">title3</option>
+                                            <option value="3">title4</option>
+                                        </select>
+
+                                        <label for="q-value-selector">Value Mode:</label>
+                                        <select id="q-value-selector" style="padding-left:10px;">
+                                            <option value="none">None</option>
+                                            <option value="0">value1</option>
+                                            <option value="1">value2</option>
+                                            <option value="2">value3</option>
+                                            <option value="3">value4</option>
+                                        </select>
+                                    </div>
+
+                                    <div class="config-item">
+                                        <h3>Answer Design</h3>
+                                        <label for="a-value-selector">Value Mode:</label>
+                                        <select id="a-value-selector" style="padding-left:10px;">
+                                            <option value="0">value1</option>
+                                            <option value="1">value2</option>
+                                            <option value="2">value3</option>
+                                            <option value="3">value4</option>
+                                        </select>
+                                    </div>
+
+                                    <div class="config-item">
+                                        <h3>Inline Example Design</h3>
+                                        <div
+                                            id="example-value-selectors"
+                                            class="checkbox-group"
+                                        >
+                                            <!-- Dynamically populated -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Section: Behavior -->
+                        <div class="cp-section">
+                            <div class="cp-section-header">
+                                <span class="cp-section-accent"></span>
+                                <h3>Behavior</h3>
+                            </div>
+                            <div class="cp-section-body">
+                                <div class="config-grid">
+                                    <div class="config-item">
+                                        <h3>Order</h3>
+                                        <label for="q-order">Question Order:</label>
+                                        <select id="q-order" style="padding-left:10px;">
+                                            <option value="sequential">Sequential</option>
+                                            <option value="random">Random</option>
+                                        </select>
+
+                                        <label for="a-order">Answer Order:</label>
+                                        <select id="a-order" style="padding-left:10px;">
+                                            <option value="sequential">Sequential</option>
+                                            <option value="random">Random</option>
+                                        </select>
+                                    </div>
+
+                                    <div class="config-item">
+                                        <h3>Mode</h3>
+                                        <div class="radio-group">
+                                            <input
+                                                type="radio"
+                                                id="mode-exam"
+                                                name="app-mode"
+                                                value="exam"
+                                                checked
+                                            />
+                                            <label for="mode-exam">Exam Mode</label>
+
+                                            <input
+                                                type="radio"
+                                                id="mode-study"
+                                                name="app-mode"
+                                                value="study"
+                                            />
+                                            <label for="mode-study">Study Mode</label>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <button id="start-btn" class="primary-btn">
+                                    Start Engine
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="display-area" class="card hidden">
+                <div id="progress-container" class="hidden">
+                    <div class="progress-track">
+                        <div id="progress-bar"></div>
+                    </div>
+                    <span id="progress-text">0 / 0</span>
+                    <span id="mode-badge"></span>
+                </div>
+                <div id="exam-container"></div>
+                <div id="study-container"></div>
+                <button id="reset-btn" class="secondary-btn">
+                    Reset Configuration
+                </button>
+            </section>
+        </main>
+
+        <script src="engine.js"></script>
+    </body>
+</html>

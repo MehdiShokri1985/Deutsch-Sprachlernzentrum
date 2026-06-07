@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wörter — Visual Vocabulary</title>
+  <style>
+    *, *::before, *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+      background: #f8f9fb;
+      color: #1a1a2e;
+      min-height: 100vh;
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+       text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+    }
+       
+    .container {
+      max-width: 1280px;
+      margin: 0 auto;
+      padding: 2rem 1.5rem;
+    }
+
+    a{
+      color: inherit;
+      text-decoration: none;  
+      font-size: 3rem;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+
+    header h1 {
+      font-size: 2rem;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      color: #1a1a2e;
+    }
+
+    header h1 span {
+      color: #3730a3;
+    }
+
+    header p {
+      font-size: 1rem;
+      color: #6b7280;
+      margin-top: 0.35rem;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+      gap: 1rem;
+    }
+
+    .card {
+      background: #fff;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 3px 12px rgba(0,0,0,0.05);
+      cursor: pointer;
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+      position: relative;
+      text-decoration: none;
+      color: inherit;
+    }
+
+    .card:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+    }
+
+    .card:focus-visible {
+      outline: 3px solid #4a6cf7;
+      outline-offset: 2px;
+    }
+
+    .card-image {
+      width: 100%;
+      aspect-ratio: 4 / 3;
+      object-fit: cover;
+      display: block;
+      background: #e5e7eb;
+      transition: transform 0.35s ease;
+    }
+
+    .card:hover .card-image {
+      transform: scale(1.05);
+    }
+
+    .card-overlay {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      padding: 1.5rem 0.875rem 0.75rem;
+      background: linear-gradient(transparent, rgba(0,0,0,0.55));
+      pointer-events: none;
+    }
+
+    .card-overlay h3 {
+      color: #fff;
+      font-size: 0.95rem;
+      font-weight: 600;
+      text-shadow: 0 1px 4px rgba(0,0,0,0.3);
+    }
+
+    .card-badge {
+      display: inline-block;
+      background: rgba(74, 108, 247, 0.9);
+      color: #fff;
+      font-size: 0.75rem;
+      font-weight: 600;
+      padding: 0.2rem 0.65rem;
+      border-radius: 20px;
+      margin-top: 0.35rem;
+    }
+
+    .empty {
+      text-align: center;
+      padding: 4rem 1rem;
+      color: #9ca3af;
+      font-size: 1.1rem;
+    }
+
+    .empty strong {
+      color: #6b7280;
+    }
+
+    @media (max-width: 640px) {
+      .container {
+        padding: 1rem 0.875rem;
+      }
+
+      header {
+        margin-bottom: 1.25rem;
+      }
+
+      header h1 {
+        font-size: 3rem;
+      }
+
+      header p {
+        font-size: 0.85rem;
+      }
+
+      .gallery {
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+        gap: 0.625rem;
+      }
+
+      .card-overlay h3 {
+        font-size: 0.85rem;
+      }
+    }
+
+    @media (min-width: 641px) and (max-width: 1024px) {
+      .gallery {
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        gap: 0.875rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+         <a
+            href="../index.html"
+            id="headerTitle"
+            class="game-header-title font-bold transition-colors  items-center gap-2"
+          >
+      <h1>Wör<span>ter</span></h1>
+      </a>
+      <p>Visual vocabulary — click any image to explore</p>
+    </header>
+
+    <div id="gallery" class="gallery"></div>
+  </div>
+
+  <script>
+    async function init() {
+      const gallery = document.getElementById('gallery');
+
+      try {
+        const res = await fetch('worter.json');
+        if (!res.ok) throw new Error('Failed to load worter.json');
+        const data = await res.json();
+
+        if (!Array.isArray(data) || data.length === 0) {
+          gallery.innerHTML = '<div class="empty"><strong>No vocabulary found.</strong></div>';
+          return;
+        }
+
+        renderGallery(gallery, data);
+      } catch (err) {
+        gallery.innerHTML = `<div class="empty"><strong>Error loading vocabulary.</strong><br>${err.message}</div>`;
+      }
+    }
+
+    function renderGallery(container, items) {
+      container.innerHTML = items.map(item => {
+        const id = item.id;
+        const wordCount = Array.isArray(item.words) ? item.words.length : 0;
+        return `
+          <a class="card" href="detail.html?id=${id}" tabindex="0">
+            <img
+              class="card-image"
+              src="images/${id}.jpg"
+              alt="Vocabulary set ${id}"
+              loading="lazy"
+            >
+            <div class="card-overlay">
+              <h3>Set ${id}</h3>
+              <div class="card-badge">${wordCount} word${wordCount !== 1 ? 's' : ''}</div>
+            </div>
+          </a>
+        `;
+      }).join('');
+    }
+
+    init();
+  </script>
+</body>
+</html>

@@ -1,0 +1,316 @@
+/* Word progress squares — calm chaos → shape emotional layer */
+
+.wps-root {
+      width: 100%;
+    margin-bottom: 0.35rem;
+    /* padding: 0.38rem 0.5rem 0.32rem; */
+    border-radius: 0.5rem;
+    /* background: linear-gradient(
+    165deg,
+    rgba(255, 255, 255, 0.72) 0%,
+    rgba(241, 245, 255, 0.55) 48%,
+    rgba(236, 253, 245, 0.35) 100%
+  ); */
+    /* border: 1px solid rgba(148, 163, 184, 0.28); */
+    /* box-shadow: 0 1px 1px rgb(18 47 117 / 88%), 0px 0px 10px 1px rgb(3 14 35); */
+    --tw-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+    --tw-shadow-colored: 0 1px 3px 0 var(--tw-shadow-color), 0 1px 2px -1px var(--tw-shadow-color);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.wps-chaotic-area {
+  position: relative;
+  width: 100%;
+  min-height: 2.65rem;
+  padding: 0.32rem 0.26rem 0.22rem;
+  border-radius: 0.55rem;
+    background: linear-gradient(239deg, rgb(8 9 0) 0%, rgb(7 7 43 / 96%) 100%);
+  /* border: 1px dashed rgba(148, 163, 184, 0.35);
+  box-shadow: inset 0 1px 3px rgba(15, 23, 42, 0.04); */
+}
+
+.wps-chaotic-area:empty {
+  display: none;
+  min-height: 0;
+  padding: 0;
+  border: none;
+  box-shadow: none;
+}
+
+/* Shared square base */
+.wps-square {
+  width: 0.75rem;
+  height: 0.75rem;
+  border-radius: 5px;
+  cursor: pointer;
+  flex-shrink: 0;
+  will-change: transform, opacity;
+  backface-visibility: hidden;
+  -webkit-tap-highlight-color: transparent;
+  transition: background-color 0.65s ease;
+  box-shadow: 0 0 0 1px rgba(15, 23, 42, 0.06);
+}
+
+.wps-square:hover {
+  filter: brightness(1.14);
+  z-index: 4;
+}
+
+.wps-square--chaotic {
+  position: absolute;
+  margin: 0;
+  animation:
+    wps-drift-organic var(--wps-drift-dur, 14s) ease-in-out infinite,
+    wps-pulse var(--wps-pulse-dur, 3.2s) ease-in-out infinite;
+  animation-delay: var(--wps-anim-delay, 0s), var(--wps-pulse-delay, 0s);
+}
+
+.wps-square--settled {
+  position: absolute;
+  margin: 0;
+  animation:
+    wps-drift-organic var(--wps-drift-dur, 28s) ease-in-out infinite,
+    wps-rest-pulse var(--wps-pulse-dur, 8.5s) ease-in-out infinite;
+  animation-delay: var(--wps-anim-delay, 0s), var(--wps-pulse-delay, 0s);
+}
+
+.wps-square--settled.wps-square--living {
+  animation: wps-member-glow var(--wps-pulse-dur, 6s) ease-in-out infinite;
+  animation-delay: var(--wps-pulse-delay, 0s);
+}
+
+.wps-chaotic-area--living {
+  transform-origin: center center;
+  animation: wps-ensemble-float var(--wps-ensemble-dur, 26s) ease-in-out infinite;
+  box-shadow:
+    inset 0 1px 3px rgba(15, 23, 42, 0.04),
+    0 0 24px rgba(74, 222, 128, 0.06);
+}
+
+.wps-square--settled:hover {
+  filter: brightness(1.1);
+}
+
+/* Organic drift — bounded breathing path */
+@keyframes wps-drift-organic {
+  0%,
+  100% {
+    transform: translate3d(0, 0, 0);
+  }
+  33% {
+    transform: translate3d(var(--wps-dx-a, 10px), var(--wps-dy-a, 8px), 0);
+  }
+  66% {
+    transform: translate3d(var(--wps-dx-b, -9px), var(--wps-dy-b, 11px), 0);
+  }
+}
+
+@keyframes wps-pulse {
+  0%,
+  100% {
+    opacity: var(--wps-op-min, 0.38);
+    filter: brightness(var(--wps-br-min, 0.84));
+  }
+  50% {
+    opacity: var(--wps-op-max, 0.96);
+    filter: brightness(var(--wps-br-max, 1.16));
+  }
+}
+
+@keyframes wps-rest-pulse {
+  0%,
+  100% {
+    opacity: var(--wps-op-min, 0.72);
+    filter: brightness(var(--wps-br-min, 0.95));
+  }
+  50% {
+    opacity: var(--wps-op-max, 0.98);
+    filter: brightness(var(--wps-br-max, 1.07));
+  }
+}
+
+@keyframes wps-alive-pulse {
+  0%,
+  100% {
+    opacity: var(--wps-op-min, 0.64);
+    filter: brightness(var(--wps-br-min, 0.92));
+  }
+  38% {
+    opacity: var(--wps-op-max, 1);
+    filter: brightness(var(--wps-br-max, 1.1));
+  }
+  62% {
+    opacity: calc(var(--wps-op-min, 0.64) + 0.08);
+    filter: brightness(calc(var(--wps-br-min, 0.92) + 0.04));
+  }
+}
+
+@keyframes wps-ensemble-float {
+  0%,
+  100% {
+    transform: translate3d(0, 0, 0) scale(1);
+  }
+  35% {
+    transform: translate3d(var(--wps-ensemble-dx, 2px), var(--wps-ensemble-dy, -1px), 0)
+      scale(1.006);
+  }
+  68% {
+    transform: translate3d(
+        calc(var(--wps-ensemble-dx, 2px) * -0.55),
+        calc(var(--wps-ensemble-dy, -1px) * 0.45),
+        0
+      )
+      scale(0.997);
+  }
+}
+
+@keyframes wps-member-glow {
+  0%,
+  100% {
+    opacity: var(--wps-op-min, 0.66);
+    filter: brightness(var(--wps-br-min, 0.94));
+  }
+  50% {
+    opacity: var(--wps-op-max, 1);
+    filter: brightness(var(--wps-br-max, 1.08));
+  }
+}
+
+/* Mastery travel */
+.wps-square--traveling {
+  position: fixed !important;
+  margin: 0 !important;
+  left: 0;
+  top: 0;
+  animation: none !important;
+  pointer-events: none;
+  z-index: 300;
+  transition:
+    transform 1.15s cubic-bezier(0.22, 0.84, 0.28, 1),
+    opacity 0.4s ease,
+    box-shadow 1.15s ease;
+  box-shadow: 0 0 0 rgba(74, 222, 128, 0);
+}
+
+.wps-square--traveling.wps-square--traveling-active {
+  box-shadow: 0 2px 14px rgba(74, 222, 128, 0.32);
+}
+
+.wps-transition-placeholder {
+  visibility: hidden;
+  pointer-events: none;
+}
+
+/* Visual states — stronger motion before mastery */
+.wps-state-neutral {
+  --wps-drift-dur: 15s;
+  --wps-pulse-dur: 3.2s;
+  --wps-op-min: 0.32;
+  --wps-op-max: 0.9;
+  --wps-br-min: 0.84;
+  --wps-br-max: 1.14;
+}
+
+.wps-state-learning {
+  --wps-drift-dur: 18s;
+  --wps-pulse-dur: 4s;
+  --wps-op-min: 0.5;
+  --wps-op-max: 0.96;
+  --wps-br-min: 0.92;
+  --wps-br-max: 1.16;
+}
+
+.wps-state-warning {
+  --wps-drift-dur: 12s;
+  --wps-pulse-dur: 2.4s;
+  --wps-op-min: 0.44;
+  --wps-op-max: 0.97;
+  --wps-br-min: 0.88;
+  --wps-br-max: 1.18;
+}
+
+.wps-state-tense-2 {
+  --wps-drift-dur: 10s;
+  --wps-pulse-dur: 2s;
+  --wps-op-min: 0.48;
+  --wps-op-max: 0.99;
+  --wps-br-min: 0.9;
+  --wps-br-max: 1.2;
+}
+
+.wps-state-tense-deep {
+  --wps-drift-dur: 8.5s;
+  --wps-pulse-dur: 1.7s;
+  --wps-op-min: 0.52;
+  --wps-op-max: 1;
+  --wps-br-min: 0.92;
+  --wps-br-max: 1.22;
+}
+
+.wps-state-mastered {
+  --wps-drift-dur: 30s;
+  --wps-pulse-dur: 9s;
+  --wps-op-min: 0.72;
+  --wps-op-max: 0.98;
+  --wps-br-min: 0.96;
+  --wps-br-max: 1.06;
+}
+
+/* Responsive scaling — squares stay inside bounds */
+.wps-root {
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.wps-chaotic-area {
+  overflow: hidden;
+  max-width: 100%;
+}
+
+@media (max-width: 640px) {
+  .wps-root {
+    padding: 0.3rem 0.36rem 0.26rem;
+    margin-bottom: 0.3rem;
+  }
+
+  .wps-chaotic-area {
+    min-height: 2.25rem;
+    padding: 0.26rem 0.2rem 0.2rem;
+  }
+
+  .wps-square {
+    width: 0.65rem;
+    height: 0.65rem;
+  }
+}
+
+@media (max-width: 380px) {
+  .wps-square {
+    width: 0.6rem;
+    height: 0.6rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .wps-root {
+    background: rgba(248, 250, 252, 0.9);
+  }
+
+  .wps-square--chaotic,
+  .wps-square--settled,
+  .wps-square--settled.wps-square--living,
+  .wps-square--traveling,
+  .wps-chaotic-area--living {
+    animation: none !important;
+    transition: none !important;
+    opacity: 0.88;
+  }
+
+  .wps-chaotic-area--living {
+    transform: none !important;
+  }
+
+  .wps-square:hover {
+    filter: none;
+  }
+}

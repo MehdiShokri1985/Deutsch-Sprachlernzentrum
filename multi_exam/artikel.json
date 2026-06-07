@@ -1,0 +1,67 @@
+{
+  "id": "1",
+  "Kasus": "Artikel",
+  "Nominativ": [
+    { "Maskulin": "der", "de": "der Mann", "fa": "آن مرد" },
+    { "Feminin": "die", "de": "die Frau", "fa": "آن زن" },
+    { "Neutral": "das", "de": "das Kind", "fa": "آن کودک" },
+    { "Plural": "die", "de": "die Kinder", "fa": "آن کودکان" },
+    {
+      "sentences": [
+        { "de": "Der Mann ist hier.", "fa": "آن مرد اینجاست." },
+        { "de": "Die Frau lernt Deutsch.", "fa": "آن زن آلمانی یاد می‌گیرد." },
+        { "de": "Das Kind spielt.", "fa": "آن کودک بازی می‌کند." },
+        { "de": "Die Kinder lachen.", "fa": "آن کودکان می‌خندند." }
+      ]
+    }
+  ],
+
+  "Akkusativ": [
+    { "Maskulin": "den", "de": "den Mann", "fa": "آن مرد را" },
+    { "Feminin": "die", "de": "die Frau", "fa": "آن زن را" },
+    { "Neutral": "das", "de": "das Kind", "fa": "آن کودک را" },
+    { "Plural": "die", "de": "die Kinder", "fa": "آن کودکان را" },
+    {
+      "sentences": [
+        { "de": "Ich sehe den Mann.", "fa": "من آن مرد را می‌بینم." },
+        { "de": "Ich kenne die Frau.", "fa": "من آن زن را می‌شناسم." },
+        { "de": "Wir besuchen das Kind.", "fa": "ما آن کودک را ملاقات می‌کنیم." },
+        { "de": "Der Lehrer ruft die Kinder.", "fa": "معلم آن کودکان را صدا می‌زند." }
+      ]
+    }
+  ],
+
+  "Dativ": [
+    { "Maskulin": "dem", "de": "dem Mann", "fa": "به آن مرد" },
+    { "Feminin": "der", "de": "der Frau", "fa": "به آن زن" },
+    { "Neutral": "dem", "de": "dem Kind", "fa": "به آن کودک" },
+    { "Plural": "den", "de": "den Kindern", "fa": "به آن کودکان" },
+    {
+      "sentences": [
+        { "de": "Ich helfe dem Mann.", "fa": "من به آن مرد کمک می‌کنم." },
+        { "de": "Das Buch gehört der Frau.", "fa": "کتاب متعلق به آن زن است." },
+        { "de": "Wir geben dem Kind ein Geschenk.", "fa": "ما به آن کودک یک هدیه می‌دهیم." },
+        { "de": "Die Lehrerin erzählt den Kindern eine Geschichte.", "fa": "معلم برای آن کودکان یک داستان تعریف می‌کند." }
+      ]
+    }
+  ],
+
+  "Genitiv": [
+    { "Maskulin": "des", "de": "des Mannes", "fa": "مالِ آن مرد" },
+    { "Feminin": "der", "de": "der Frau", "fa": "مالِ آن زن" },
+    { "Neutral": "des", "de": "des Kindes", "fa": "مالِ آن کودک" },
+    { "Plural": "der", "de": "der Kinder", "fa": "مالِ آن کودکان" },
+    {
+      "sentences": [
+        { "de": "Das Auto des Mannes ist neu.", "fa": "ماشین آن مرد جدید است." },
+        { "de": "Die Tasche der Frau ist teuer.", "fa": "کیف آن زن گران است." },
+        { "de": "Die Spielsachen des Kindes sind bunt.", "fa": "اسباب‌بازی‌های آن کودک رنگارنگ هستند." },
+        { "de": "Die Schule der Kinder ist groß.", "fa": "مدرسه آن کودکان بزرگ است." }
+      ]
+    }
+  ]
+}
+
+
+
+    

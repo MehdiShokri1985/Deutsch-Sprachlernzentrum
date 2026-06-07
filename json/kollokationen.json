@@ -1,0 +1,4281 @@
+[
+  {
+    "id": "1",
+    "level": "A1",
+    "type": "sehr häufig",
+    "word": "Angst haben (vor + D)",
+    "meaning": "ترس داشتن (از)",
+    "antonyms": [],
+    "synonyms": ["sich fürchten"],
+    "sentences": [
+      { "de": "Ich habe Angst vor Hunden.", "fa": "من از سگ‌ها ترس دارم." },
+      { "de": "Sie hat Angst vor der Prüfung.", "fa": "او از امتحان ترس دارد." },
+      { "de": "Wir haben Angst vor dem dunklen Zimmer.", "fa": "ما از اتاق تاریک ترس داریم." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "2",
+    "level": "A1",
+    "type": "sehr häufig",
+    "word": "einen Fehler machen",
+    "meaning": "اشتباه کردن",
+    "antonyms": [],
+    "synonyms": ["sich irren"],
+    "sentences": [
+      { "de": "Ich mache einen Fehler in der Aufgabe.", "fa": "من در تکلیف اشتباه می‌کنم." },
+      { "de": "Er macht oft einen Fehler beim Sprechen.", "fa": "او اغلب موقع صحبت کردن اشتباه می‌کند." },
+      { "de": "Wir machen keinen Fehler mehr.", "fa": "ما دیگر اشتباهی نمی‌کنیم." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "3",
+    "level": "A1",
+    "type": "sehr häufig",
+    "word": "Foto machen",
+    "meaning": "عکس گرفتن",
+    "antonyms": [],
+    "synonyms": ["fotografieren"],
+    "sentences": [
+      { "de": "Ich mache ein Foto von der Stadt.", "fa": "من از شهر عکس می‌گیرم." },
+      { "de": "Sie macht ein Foto mit dem Handy.", "fa": "او با گوشی عکس می‌گیرد." },
+      { "de": "Wir machen viele Fotos im Urlaub.", "fa": "ما در تعطیلات عکس‌های زیادی می‌گیریم." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "4",
+    "level": "A1",
+    "type": "sehr häufig",
+    "word": "Pause machen",
+    "meaning": "استراحت کردن / مکث کردن",
+    "antonyms": [],
+    "synonyms": ["sich ausruhen"],
+    "sentences": [
+      { "de": "Ich mache eine Pause nach der Arbeit.", "fa": "من بعد از کار استراحت می‌کنم." },
+      { "de": "Er macht Pause um zehn Uhr.", "fa": "او ساعت ده استراحت می‌کند." },
+      { "de": "Wir machen eine kurze Pause.", "fa": "ما یک استراحت کوتاه می‌کنیم." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "5",
+    "level": "A1",
+    "type": "sehr häufig",
+    "word": "Hausaufgaben machen",
+    "meaning": "تکالیف خانه را انجام دادن",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      { "de": "Ich mache Hausaufgaben am Abend.", "fa": "من شب‌ها تکالیف خانه را انجام می‌دهم." },
+      { "de": "Sie macht Hausaufgaben in der Küche.", "fa": "او در آشپزخانه تکالیفش را انجام می‌دهد." },
+      { "de": "Wir machen Hausaufgaben zusammen.", "fa": "ما با هم تکالیف خانه را انجام می‌دهیم." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "6",
+    "level": "A1",
+    "type": "sehr häufig",
+    "word": "Musik hören",
+    "meaning": "موسیقی گوش دادن",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      { "de": "Ich höre Musik im Auto.", "fa": "من در ماشین موسیقی گوش می‌دهم." },
+      { "de": "Er hört Musik mit Kopfhörern.", "fa": "او با هدفون موسیقی گوش می‌دهد." },
+      { "de": "Wir hören Musik jeden Tag.", "fa": "ما هر روز موسیقی گوش می‌دهیم." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "7",
+    "level": "A1",
+    "type": "sehr häufig",
+    "word": "Fußball spielen",
+    "meaning": "فوتبال بازی کردن",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      { "de": "Ich spiele Fußball mit Freunden.", "fa": "من با دوستانم فوتبال بازی می‌کنم." },
+      { "de": "Er spielt Fußball am Wochenende.", "fa": "او آخر هفته فوتبال بازی می‌کند." },
+      { "de": "Wir spielen Fußball im Park.", "fa": "ما در پارک فوتبال بازی می‌کنیم." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "8",
+    "level": "A1",
+    "type": "sehr häufig",
+    "word": "Fahrrad fahren",
+    "meaning": "دوچرخه سواری کردن",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      { "de": "Ich fahre Fahrrad zur Schule.", "fa": "من با دوچرخه به مدرسه می‌روم." },
+      { "de": "Sie fährt Fahrrad im Sommer.", "fa": "او در تابستان دوچرخه سواری می‌کند." },
+      { "de": "Wir fahren Fahrrad jeden Morgen.", "fa": "ما هر صبح دوچرخه سواری می‌کنیم." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "9",
+    "level": "A1",
+    "type": "sehr häufig",
+    "word": "Auto fahren",
+    "meaning": "ماشین راندن",
+    "antonyms": [],
+    "synonyms": ["fahren"],
+    "sentences": [
+      { "de": "Ich fahre Auto in der Stadt.", "fa": "من در شهر ماشین می‌رانم." },
+      { "de": "Er fährt Auto sehr schnell.", "fa": "او خیلی سریع ماشین می‌راند." },
+      { "de": "Wir fahren Auto zusammen.", "fa": "ما با هم ماشین می‌رانیم." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "10",
+    "level": "A1",
+    "type": "sehr häufig",
+    "word": "zur Schule gehen",
+    "meaning": "به مدرسه رفتن",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      { "de": "Ich gehe zur Schule um acht Uhr.", "fa": "من ساعت هشت به مدرسه می‌روم." },
+      { "de": "Sie geht zur Schule mit dem Bus.", "fa": "او با اتوبوس به مدرسه می‌رود." },
+      { "de": "Wir gehen zur Schule jeden Tag.", "fa": "ما هر روز به مدرسه می‌رویم." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "11",
+    "level": "A1",
+    "type": "sehr häufig",
+    "word": "zu Bett gehen",
+    "meaning": "به رختخواب رفتن / خوابیدن",
+    "antonyms": [],
+    "synonyms": ["schlafen gehen"],
+    "sentences": [
+      { "de": "Ich gehe um zehn Uhr zu Bett.", "fa": "من ساعت ده به رختخواب می‌روم." },
+      { "de": "Er geht früh zu Bett.", "fa": "او زود به رختخواب می‌رود." },
+      { "de": "Wir gehen zusammen zu Bett.", "fa": "ما با هم به رختخواب می‌رویم." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "12",
+    "level": "A1",
+    "type": "sehr häufig",
+    "word": "Frühstück essen",
+    "meaning": "صبحانه خوردن",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      { "de": "Ich esse Frühstück um sieben Uhr.", "fa": "من ساعت هفت صبحانه می‌خورم." },
+      { "de": "Sie isst Frühstück mit Kaffee.", "fa": "او صبحانه را با قهوه می‌خورد." },
+      { "de": "Wir essen Frühstück zusammen.", "fa": "ما با هم صبحانه می‌خوریم." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "13",
+    "level": "A1",
+    "type": "sehr häufig",
+    "word": "Kaffee trinken",
+    "meaning": "قهوه نوشیدن",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      { "de": "Ich trinke Kaffee am Morgen.", "fa": "من صبح قهوه می‌نوشم." },
+      { "de": "Er trinkt Kaffee ohne Zucker.", "fa": "او قهوه را بدون شکر می‌نوشد." },
+      { "de": "Wir trinken Kaffee in der Pause.", "fa": "ما در استراحت قهوه می‌نوشیم." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "14",
+    "level": "A1",
+    "type": "sehr häufig",
+    "word": "Guten Morgen sagen",
+    "meaning": "صبح بخیر گفتن",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      { "de": "Ich sage Guten Morgen zu meiner Mutter.", "fa": "من به مادرم صبح بخیر می‌گویم." },
+      { "de": "Er sagt Guten Morgen jeden Tag.", "fa": "او هر روز صبح بخیر می‌گوید." },
+      { "de": "Wir sagen Guten Morgen in der Klasse.", "fa": "ما در کلاس صبح بخیر می‌گوییم." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "15",
+    "level": "A1",
+    "type": "sehr häufig",
+    "word": "Geburtstag feiern",
+    "meaning": "تولد جشن گرفتن",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      { "de": "Ich feiere Geburtstag mit Freunden.", "fa": "من تولدم را با دوستان جشن می‌گیرم." },
+      { "de": "Sie feiert Geburtstag im Restaurant.", "fa": "او تولدش را در رستوران جشن می‌گیرد." },
+      { "de": "Wir feiern Geburtstag am Samstag.", "fa": "ما تولد را روز شنبه جشن می‌گیریم." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "16",
+    "level": "A1",
+    "type": "sehr häufig",
+    "word": "ein Geschenk bekommen",
+    "meaning": "هدیه دریافت کردن",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      { "de": "Ich bekomme ein Geschenk zum Geburtstag.", "fa": "من برای تولدم هدیه دریافت می‌کنم." },
+      { "de": "Er bekommt ein Geschenk von seiner Schwester.", "fa": "او از خواهرش هدیه می‌گیرد." },
+      { "de": "Wir bekommen ein Geschenk von den Eltern.", "fa": "ما از والدین هدیه دریافت می‌کنیم." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "17",
+    "level": "A1",
+    "type": "sehr häufig",
+    "word": "einen Brief schreiben",
+    "meaning": "نامه نوشتن",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      { "de": "Ich schreibe einen Brief an meinen Freund.", "fa": "من به دوستم نامه می‌نویسم." },
+      { "de": "Sie schreibt einen Brief mit der Hand.", "fa": "او نامه را با دست می‌نویسد." },
+      { "de": "Wir schreiben einen Brief zusammen.", "fa": "ما با هم نامه می‌نویسیم." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "18",
+    "level": "A1",
+    "type": "sehr häufig",
+    "word": "Telefonnummer geben",
+    "meaning": "شماره تلفن دادن",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      { "de": "Ich gebe meine Telefonnummer.", "fa": "من شماره تلفنم را می‌دهم." },
+      { "de": "Er gibt die Telefonnummer an die Lehrerin.", "fa": "او شماره تلفن را به معلم خانم می‌دهد." },
+      { "de": "Wir geben unsere Telefonnummer.", "fa": "ما شماره تلفنمان را می‌دهیم." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "19",
+    "level": "A1",
+    "type": "sehr häufig",
+    "word": "Zeit haben",
+    "meaning": "وقت داشتن",
+    "antonyms": ["keine Zeit haben"],
+    "synonyms": [],
+    "sentences": [
+      { "de": "Ich habe Zeit für dich.", "fa": "من برای تو وقت دارم." },
+      { "de": "Er hat Zeit am Nachmittag.", "fa": "او بعدازظهر وقت دارد." },
+      { "de": "Wir haben Zeit für einen Kaffee.", "fa": "ما برای یک قهوه وقت داریم." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "20",
+    "level": "A1",
+    "type": "sehr häufig",
+    "word": "Hunger haben",
+    "meaning": "گرسنه بودن",
+    "antonyms": ["keinen Hunger haben"],
+    "synonyms": [],
+    "sentences": [
+      { "de": "Ich habe Hunger jetzt.", "fa": "من الان گرسنه‌ام." },
+      { "de": "Er hat Hunger nach der Schule.", "fa": "او بعد از مدرسه گرسنه است." },
+      { "de": "Wir haben großen Hunger.", "fa": "ما خیلی گرسنه‌ایم." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "21",
+    "level": "A1",
+    "type": "sehr häufig",
+    "word": "Durst haben",
+    "meaning": "تشنه بودن",
+    "antonyms": ["keinen Durst haben"],
+    "synonyms": [],
+    "sentences": [
+      { "de": "Ich habe Durst nach dem Sport.", "fa": "من بعد از ورزش تشنه‌ام." },
+      { "de": "Sie hat Durst und trinkt Wasser.", "fa": "او تشنه است و آب می‌نوشد." },
+      { "de": "Wir haben Durst bei der Hitze.", "fa": "ما در گرما تشنه‌ایم." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "22",
+    "level": "A1",
+    "type": "sehr häufig",
+    "word": "Spaß haben",
+    "meaning": "سرگرم بودن / خوش گذراندن",
+    "antonyms": [],
+    "synonyms": ["Spaß machen"],
+    "sentences": [
+      { "de": "Ich habe Spaß beim Spielen.", "fa": "من موقع بازی خوش می‌گذرانم." },
+      { "de": "Er hat Spaß mit seinen Freunden.", "fa": "او با دوستانش خوش می‌گذراند." },
+      { "de": "Wir haben viel Spaß im Park.", "fa": "ما در پارک خیلی خوش می‌گذرانیم." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "23",
+    "level": "A1",
+    "type": "sehr häufig",
+    "word": "Recht haben",
+    "meaning": "حق داشتن / درست گفتن",
+    "antonyms": ["unrecht haben"],
+    "synonyms": [],
+    "sentences": [
+      { "de": "Ich habe Recht mit meiner Meinung.", "fa": "من با نظرم حق دارم." },
+      { "de": "Er hat Recht in dieser Sache.", "fa": "او در این موضوع درست می‌گوید." },
+      { "de": "Wir haben Recht.", "fa": "ما حق داریم." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "24",
+    "level": "A1",
+    "type": "sehr häufig",
+    "word": "Lust haben (auf + A)",
+    "meaning": "میل داشتن (به)",
+    "antonyms": [],
+    "synonyms": ["mögen"],
+    "sentences": [
+      { "de": "Ich habe Lust auf Eis.", "fa": "من دلم بستنی می‌خواهد." },
+      { "de": "Er hat Lust auf einen Film.", "fa": "او دلش فیلم دیدن می‌خواهد." },
+      { "de": "Wir haben Lust auf einen Spaziergang.", "fa": "ما دلمان پیاده‌روی می‌خواهد." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "25",
+    "level": "A1",
+    "type": "Adjektiv + Nomen",
+    "word": "gutes Wetter",
+    "meaning": "هوای خوب",
+    "antonyms": ["schlechtes Wetter"],
+    "synonyms": ["schönes Wetter"],
+    "sentences": [
+      { "de": "Wir haben heute gutes Wetter.", "fa": "امروز هوای خوبی داریم." },
+      { "de": "Bei gutem Wetter gehe ich gern spazieren.", "fa": "با هوای خوب دوست دارم پیاده‌روی کنم." },
+      { "de": "Das ist das beste gute Wetter dieses Jahr.", "fa": "این بهترین هوای خوب امسال است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "26",
+    "level": "A1",
+    "type": "Adjektiv + Nomen",
+    "word": "schlechtes Wetter",
+    "meaning": "هوای بد",
+    "antonyms": ["gutes Wetter"],
+    "synonyms": ["unangenehmes Wetter"],
+    "sentences": [
+      { "de": "Bei schlechtem Wetter bleiben wir zu Hause.", "fa": "با هوای بد در خانه می‌مانیم." },
+      { "de": "Das schlechte Wetter macht mich traurig.", "fa": "هوای بد مرا غمگین می‌کند." },
+      { "de": "Es gibt kein schlechteres Wetter als dieses.", "fa": "هیچ هوای بدتری از این وجود ندارد." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "27",
+    "level": "A1",
+    "type": "Adjektiv + Nomen",
+    "word": "großer Hunger",
+    "meaning": "گرسنگی شدید",
+    "antonyms": ["kleiner Hunger"],
+    "synonyms": ["starker Hunger"],
+    "sentences": [
+      { "de": "Ich habe großen Hunger.", "fa": "من گرسنگی شدیدی دارم." },
+      { "de": "Nach der Arbeit hatte er großen Hunger.", "fa": "بعد از کار گرسنگی شدیدی داشت." },
+      { "de": "Das ist der größte Hunger, den ich je hatte.", "fa": "این بزرگ‌ترین گرسنگی است که تا به حال داشته‌ام." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "28",
+    "level": "A1",
+    "type": "Adjektiv + Nomen",
+    "word": "kleine Pause",
+    "meaning": "استراحت کوتاه",
+    "antonyms": ["lange Pause"],
+    "synonyms": ["kurze Pause"],
+    "sentences": [
+      { "de": "Wir machen eine kleine Pause.", "fa": "یک استراحت کوتاه می‌کنیم." },
+      { "de": "Nach einer kleinen Pause fühle ich mich besser.", "fa": "بعد از یک استراحت کوتاه احساس بهتری دارم." },
+      { "de": "Die kleine Pause war zu kurz für ihn.", "fa": "استراحت کوتاه برای او خیلی کوتاه بود." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "29",
+    "level": "A1",
+    "type": "Adjektiv + Nomen",
+    "word": "frische Luft",
+    "meaning": "هوای تازه",
+    "antonyms": ["verbrauchte Luft"],
+    "synonyms": ["saubere Luft"],
+    "sentences": [
+      { "de": "Ich brauche frische Luft.", "fa": "به هوای تازه نیاز دارم." },
+      { "de": "Im Park atmen wir frische Luft.", "fa": "در پارک هوای تازه تنفس می‌کنیم." },
+      { "de": "Frische Luft ist gut für die Gesundheit.", "fa": "هوای تازه برای سلامتی خوب است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "30",
+    "level": "A1",
+    "type": "Adjektiv + Nomen",
+    "word": "starke Schmerzen",
+    "meaning": "دردهای شدید",
+    "antonyms": ["leichte Schmerzen"],
+    "synonyms": ["heftige Schmerzen"],
+    "sentences": [
+      { "de": "Sie hat starke Schmerzen im Rücken.", "fa": "او درد شدید در کمر دارد." },
+      { "de": "Die starken Schmerzen hören nicht auf.", "fa": "دردهای شدید متوقف نمی‌شوند." },
+      { "de": "Er kann mit starken Schmerzen nicht arbeiten.", "fa": "او با دردهای شدید نمی‌تواند کار کند." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "31",
+    "level": "A1",
+    "type": "Adjektiv + Nomen",
+    "word": "schönes Wochenende",
+    "meaning": "آخر هفته خوب",
+    "antonyms": ["schlechtes Wochenende"],
+    "synonyms": ["tolles Wochenende"],
+    "sentences": [
+      { "de": "Wir wünschen dir ein schönes Wochenende.", "fa": "برای تو آخر هفته خوبی آرزو می‌کنیم." },
+      { "de": "Das war ein sehr schönes Wochenende.", "fa": "این یک آخر هفته خیلی خوب بود." },
+      { "de": "Hast du ein schönes Wochenende geplant?", "fa": "آخر هفته خوبی برنامه‌ریزی کرده‌ای؟" }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "32",
+    "level": "A1",
+    "type": "Adjektiv + Nomen",
+    "word": "neues Auto",
+    "meaning": "ماشین جدید",
+    "antonyms": ["altes Auto"],
+    "synonyms": ["brandneues Auto"],
+    "sentences": [
+      { "de": "Er hat ein neues Auto gekauft.", "fa": "او یک ماشین جدید خریده است." },
+      { "de": "Mit dem neuen Auto fährt es sich gut.", "fa": "با ماشین جدید رانندگی خوبی می‌شود." },
+      { "de": "Das neue Auto ist schneller als das alte.", "fa": "ماشین جدید سریع‌تر از ماشین قدیمی است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "33",
+    "level": "A1",
+    "type": "Adjektiv + Nomen",
+    "word": "altes Haus",
+    "meaning": "خانه قدیمی",
+    "antonyms": ["neues Haus"],
+    "synonyms": ["historisches Haus"],
+    "sentences": [
+      { "de": "Sie wohnen in einem alten Haus.", "fa": "آنها در یک خانه قدیمی زندگی می‌کنند." },
+      { "de": "Das alte Haus braucht eine Renovierung.", "fa": "خانه قدیمی به بازسازی نیاز دارد." },
+      { "de": "In dem alten Haus gibt es viele Erinnerungen.", "fa": "در آن خانه قدیمی خاطرات زیادی وجود دارد." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "34",
+    "level": "A2",
+    "type": "Elementarstufe",
+    "word": "(keine) Ahnung haben (von + D)",
+    "meaning": "اطلاع داشتن / نداشتن (از چیزی)",
+    "antonyms": ["Bescheid wissen"],
+    "synonyms": ["wissen", "kennen"],
+    "sentences": [
+      { "de": "Ich habe keine Ahnung von diesem Thema.", "fa": "من هیچ اطلاعی از این موضوع ندارم." },
+      { "de": "Hast du Ahnung von Computern?", "fa": "تو از کامپیوترها اطلاع داری؟" },
+      { "de": "Sie hat keine Ahnung davon, was passiert ist.", "fa": "او هیچ ایده‌ای ندارد که چه اتفاقی افتاده است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "35",
+    "level": "A2",
+    "type": "Elementarstufe",
+    "word": "Abschied nehmen (von + D)",
+    "meaning": "خداحافظی کردن (با کسی)",
+    "antonyms": [],
+    "synonyms": ["sich verabschieden"],
+    "sentences": [
+      { "de": "Ich muss jetzt Abschied von dir nehmen.", "fa": "حالا باید از تو خداحافظی کنم." },
+      { "de": "Sie nehmen Abschied von ihren Freunden am Bahnhof.", "fa": "آنها در ایستگاه از دوستانشان خداحافظی می‌کنند." },
+      { "de": "Er nimmt schweren Herzens Abschied von seiner Heimatstadt.", "fa": "او با قلب سنگین از شهر زادگاهش خداحافظی می‌کند." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "36",
+    "level": "A2",
+    "type": "Elementarstufe",
+    "word": "Bescheid geben/sagen (+ D)",
+    "meaning": "اطلاع دادن (به کسی)",
+    "antonyms": [],
+    "synonyms": ["informieren"],
+    "sentences": [
+      { "de": "Bitte gib mir Bescheid, wenn du ankommst.", "fa": "لطفاً وقتی رسیدی به من اطلاع بده." },
+      { "de": "Ich sage dir morgen Bescheid über den Termin.", "fa": "فردا در مورد قرار به تو اطلاع می‌دهم." },
+      { "de": "Sie hat uns noch nicht Bescheid gegeben.", "fa": "او هنوز به ما اطلاع نداده است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "37",
+    "level": "A2",
+    "type": "Elementarstufe",
+    "word": "Bescheid wissen (über/von)",
+    "meaning": "مطلع بودن (از چیزی)",
+    "antonyms": ["keine Ahnung haben"],
+    "synonyms": [],
+    "sentences": [
+      { "de": "Weißt du Bescheid über das neue Projekt?", "fa": "از پروژه جدید مطلع هستی؟" },
+      { "de": "Er weiß gut Bescheid von den Regeln.", "fa": "او خوب از قوانین مطلع است." },
+      { "de": "Meine Schwester weiß Bescheid über die Prüfung.", "fa": "خواهرم از امتحان مطلع است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "38",
+    "level": "A2",
+    "type": "Elementarstufe",
+    "word": "die Ruhe bewahren",
+    "meaning": "آرامش خود را حفظ کردن",
+    "antonyms": ["in Panik geraten"],
+    "synonyms": ["ruhig bleiben"],
+    "sentences": [
+      { "de": "Bitte bewahre die Ruhe in dieser Situation.", "fa": "لطفاً در این موقعیت آرامشت را حفظ کن." },
+      { "de": "Er bewahrt immer die Ruhe, wenn es Probleme gibt.", "fa": "او همیشه وقتی مشکل پیش می‌آید آرامش خود را حفظ می‌کند." },
+      { "de": "Sie hat die Ruhe bewahrt und die Lösung gefunden.", "fa": "او آرامش خود را حفظ کرد و راه‌حل را پیدا کرد." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "39",
+    "level": "A2",
+    "type": "Elementarstufe",
+    "word": "ein Versprechen halten / brechen",
+    "meaning": "به وعده عمل کردن / وعده را شکستن",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      { "de": "Ich halte immer mein Versprechen.", "fa": "من همیشه به وعده‌ام عمل می‌کنم." },
+      { "de": "Er hat sein Versprechen gebrochen.", "fa": "او وعده‌اش را شکست." },
+      { "de": "Sie hält ihr Versprechen gegenüber den Kindern.", "fa": "او به وعده‌اش در برابر کودکان عمل می‌کند." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "40",
+    "level": "A2",
+    "type": "Elementarstufe",
+    "word": "eine Rede halten",
+    "meaning": "سخنرانی کردن",
+    "antonyms": [],
+    "synonyms": ["sprechen"],
+    "sentences": [
+      { "de": "Der Direktor hält eine Rede vor den Schülern.", "fa": "مدیر مدرسه در مقابل دانش‌آموزان سخنرانی می‌کند." },
+      { "de": "Sie hat gestern eine sehr gute Rede gehalten.", "fa": "او دیروز سخنرانی خیلی خوبی کرد." },
+      { "de": "Ich muss morgen eine Rede halten.", "fa": "فردا باید سخنرانی کنم." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "41",
+    "level": "A2",
+    "type": "Elementarstufe",
+    "word": "einen Antrag stellen (auf + A)",
+    "meaning": "درخواست دادن (برای چیزی)",
+    "antonyms": [],
+    "synonyms": ["beantragen"],
+    "sentences": [
+      { "de": "Ich stelle einen Antrag auf Urlaub.", "fa": "من درخواست مرخصی می‌دهم." },
+      { "de": "Sie stellen einen Antrag auf Visum.", "fa": "آنها درخواست ویزا می‌دهند." },
+      { "de": "Er hat einen Antrag auf Hilfe gestellt.", "fa": "او درخواست کمک داده است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "42",
+    "level": "A2",
+    "type": "Elementarstufe",
+    "word": "einen Rat geben",
+    "meaning": "مشورت دادن / نصیحت کردن",
+    "antonyms": [],
+    "synonyms": ["beraten"],
+    "sentences": [
+      { "de": "Kannst du mir einen Rat geben?", "fa": "می‌توانی به من مشورت بدهی؟" },
+      { "de": "Mein Vater gibt mir immer gute Ratschläge.", "fa": "پدرم همیشه نصیحت‌های خوبی به من می‌دهد." },
+      { "de": "Sie hat mir einen wichtigen Rat gegeben.", "fa": "او یک مشورت مهم به من داد." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "43",
+    "level": "A2",
+    "type": "Elementarstufe",
+    "word": "Platz nehmen",
+    "meaning": "جایگزین شدن / نشستن",
+    "antonyms": [],
+    "synonyms": ["sich setzen"],
+    "sentences": [
+      { "de": "Bitte nehmen Sie Platz.", "fa": "لطفاً بنشینید." },
+      { "de": "Die Gäste nehmen Platz im Saal.", "fa": "مهمانان در سالن می‌نشینند." },
+      { "de": "Er nimmt schnell Platz neben seiner Freundin.", "fa": "او سریع کنار دوست دخترش می‌نشیند." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "44",
+    "level": "A2",
+    "type": "Elementarstufe",
+    "word": "sich Mühe geben",
+    "meaning": "تلاش کردن",
+    "antonyms": ["sich keine Mühe geben"],
+    "synonyms": ["sich anstrengen"],
+    "sentences": [
+      { "de": "Ich gebe mir Mühe, Deutsch zu lernen.", "fa": "من تلاش می‌کنم آلمانی یاد بگیرم." },
+      { "de": "Sie gibt sich immer viel Mühe in der Schule.", "fa": "او همیشه در مدرسه خیلی تلاش می‌کند." },
+      { "de": "Gib dir bitte mehr Mühe beim Kochen.", "fa": "لطفاً در آشپزی بیشتر تلاش کن." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "45",
+    "level": "A2",
+    "type": "Elementarstufe",
+    "word": "in Ordnung bringen",
+    "meaning": "مرتب کردن / درست کردن",
+    "antonyms": [],
+    "synonyms": ["reparieren", "ordnen"],
+    "sentences": [
+      { "de": "Ich bringe mein Zimmer in Ordnung.", "fa": "اتاقم را مرتب می‌کنم." },
+      { "de": "Kannst du das Problem in Ordnung bringen?", "fa": "می‌توانی این مشکل را درست کنی؟" },
+      { "de": "Sie bringt die Sachen schnell in Ordnung.", "fa": "او سریع وسایل را مرتب می‌کند." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "46",
+    "level": "A2",
+    "type": "Elementarstufe",
+    "word": "Hilfe leisten (+ D)",
+    "meaning": "کمک کردن (به کسی)",
+    "antonyms": [],
+    "synonyms": ["helfen"],
+    "sentences": [
+      { "de": "Die Feuerwehr leistet den Opfern Hilfe.", "fa": "آتش‌نشانی به قربانیان کمک می‌کند." },
+      { "de": "Ich leiste dir gerne Hilfe bei den Hausaufgaben.", "fa": "من با کمال میل در تکالیف به تو کمک می‌کنم." },
+      { "de": "Sie leisten Hilfe in der Not.", "fa": "آنها در مواقع ضروری کمک می‌کنند." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "47",
+    "level": "A2",
+    "type": "Elementarstufe",
+    "word": "Schluss machen (mit + D)",
+    "meaning": "پایان دادن (به چیزی) / جدا شدن",
+    "antonyms": [],
+    "synonyms": ["beenden"],
+    "sentences": [
+      { "de": "Ich mache Schluss mit dem Rauchen.", "fa": "من سیگار را ترک می‌کنم." },
+      { "de": "Sie hat Schluss mit ihrem Freund gemacht.", "fa": "او با دوست‌پسرش جدا شده است." },
+      { "de": "Er macht endlich Schluss mit den alten Gewohnheiten.", "fa": "او بالاخره به عادت‌های قدیمی پایان می‌دهد." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "48",
+    "level": "A2",
+    "type": "Elementarstufe",
+    "word": "eine Entscheidung treffen",
+    "meaning": "تصمیم گرفتن",
+    "antonyms": [],
+    "synonyms": ["entscheiden"],
+    "sentences": [
+      { "de": "Ich habe eine wichtige Entscheidung getroffen.", "fa": "من یک تصمیم مهم گرفتم." },
+      { "de": "Sie treffen die Entscheidung gemeinsam.", "fa": "آنها تصمیم را با هم می‌گیرند." },
+      { "de": "Er trifft immer gute Entscheidungen.", "fa": "او همیشه تصمیم‌های خوبی می‌گیرد." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "49",
+    "level": "A2",
+    "type": "Elementarstufe",
+    "word": "Kontakt aufnehmen",
+    "meaning": "تماس گرفتن / ارتباط برقرار کردن",
+    "antonyms": [],
+    "synonyms": ["sich melden"],
+    "sentences": [
+      { "de": "Ich nehme Kontakt mit der Firma auf.", "fa": "من با شرکت تماس می‌گیرم." },
+      { "de": "Sie haben Kontakt mit alten Freunden aufgenommen.", "fa": "آنها با دوستان قدیمی ارتباط برقرار کردند." },
+      { "de": "Bitte nimm bald Kontakt auf.", "fa": "لطفاً زود تماس بگیر." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "50",
+    "level": "A2",
+    "type": "Elementarstufe",
+    "word": "eine Frage stellen",
+    "meaning": "سؤال پرسیدن",
+    "antonyms": [],
+    "synonyms": ["fragen"],
+    "sentences": [
+      { "de": "Darf ich eine Frage stellen?", "fa": "می‌توانم یک سؤال بپرسم؟" },
+      { "de": "Der Lehrer stellt viele Fragen in der Stunde.", "fa": "معلم در کلاس سؤالات زیادی می‌پرسد." },
+      { "de": "Sie stellt eine interessante Frage.", "fa": "او یک سؤال جالب می‌پرسد." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "51",
+    "level": "A2",
+    "type": "Elementarstufe",
+    "word": "einen Termin machen",
+    "meaning": "وقت گرفتن / قرار گذاشتن",
+    "antonyms": [],
+    "synonyms": ["vereinbaren"],
+    "sentences": [
+      { "de": "Ich mache einen Termin beim Arzt.", "fa": "من وقت دکتر می‌گیرم." },
+      { "de": "Sie hat einen Termin für morgen gemacht.", "fa": "او قرار فردا را گذاشته است." },
+      { "de": "Kannst du einen Termin mit dem Chef machen?", "fa": "می‌توانی با رئیس قرار بگذاری؟" }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "52",
+    "level": "A2",
+    "type": "Elementarstufe",
+    "word": "Urlaub machen",
+    "meaning": "مرخصی رفتن / تعطیلات رفتن",
+    "antonyms": [],
+    "synonyms": ["ferien machen"],
+    "sentences": [
+      { "de": "Wir machen nächsten Monat Urlaub am Meer.", "fa": "ما ماه آینده به تعطیلات کنار دریا می‌رویم." },
+      { "de": "Sie macht Urlaub in den Bergen.", "fa": "او به تعطیلات در کوهستان می‌رود." },
+      { "de": "Wo machst du dieses Jahr Urlaub?", "fa": "امسال کجا تعطیلات می‌روی؟" }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "53",
+    "level": "A2",
+    "type": "Elementarstufe",
+    "word": "ein Gespräch führen",
+    "meaning": "گفتگو کردن",
+    "antonyms": [],
+    "synonyms": ["sprechen"],
+    "sentences": [
+      { "de": "Ich führe ein langes Gespräch mit meiner Mutter.", "fa": "من با مادرم یک گفتگوی طولانی می‌کنم." },
+      { "de": "Sie führen ein wichtiges Gespräch im Büro.", "fa": "آنها در دفتر یک گفتگوی مهم انجام می‌دهند." },
+      { "de": "Er führt das Gespräch auf Deutsch.", "fa": "او گفتگو را به زبان آلمانی انجام می‌دهد." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "54",
+    "level": "A2",
+    "type": "Elementarstufe",
+    "word": "ein Bild malen",
+    "meaning": "نقاشی کشیدن",
+    "antonyms": [],
+    "synonyms": ["zeichnen"],
+    "sentences": [
+      { "de": "Das Kind malt ein schönes Bild.", "fa": "کودک یک نقاشی زیبا می‌کشد." },
+      { "de": "Ich male ein Bild von meiner Familie.", "fa": "من نقاشی از خانواده‌ام می‌کشم." },
+      { "de": "Sie malt ein Bild mit bunten Farben.", "fa": "او با رنگ‌های روشن نقاشی می‌کشد." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "55",
+    "level": "A2",
+    "type": "Elementarstufe",
+    "word": "einen Film sehen",
+    "meaning": "فیلم دیدن",
+    "antonyms": [],
+    "synonyms": ["einen Film schauen"],
+    "sentences": [
+      { "de": "Wir sehen heute Abend einen Film.", "fa": "امشب یک فیلم می‌بینیم." },
+      { "de": "Hast du diesen Film schon gesehen?", "fa": "این فیلم را قبلاً دیده‌ای؟" },
+      { "de": "Sie sehen einen spannenden Film im Kino.", "fa": "آنها یک فیلم هیجان‌انگیز در سینما می‌بینند." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "56",
+    "level": "A2",
+    "type": "Elementarstufe",
+    "word": "Sport treiben",
+    "meaning": "ورزش کردن",
+    "antonyms": [],
+    "synonyms": ["Sport machen"],
+    "sentences": [
+      { "de": "Ich treibe jeden Tag Sport.", "fa": "من هر روز ورزش می‌کنم." },
+      { "de": "Sie treibt viel Sport im Fitnessstudio.", "fa": "او خیلی در باشگاه ورزشی ورزش می‌کند." },
+      { "de": "Die Kinder treiben Sport im Park.", "fa": "کودکان در پارک ورزش می‌کنند." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "57",
+    "level": "A2",
+    "type": "Adjektiv + Nomen",
+    "word": "harte Arbeit",
+    "meaning": "کار سخت",
+    "antonyms": ["leichte Arbeit"],
+    "synonyms": ["anstrengende Arbeit"],
+    "sentences": [
+      { "de": "Harte Arbeit ist wichtig für den Erfolg.", "fa": "کار سخت برای موفقیت مهم است." },
+      { "de": "Sie hat harte Arbeit in ihrem Beruf.", "fa": "او کار سخت در شغلش دارد." },
+      { "de": "Nach harter Arbeit braucht er eine Pause.", "fa": "پس از کار سخت به استراحت نیاز دارد." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "58",
+    "level": "A2",
+    "type": "Adjektiv + Nomen",
+    "word": "große Freude",
+    "meaning": "شادی بزرگ",
+    "antonyms": ["große Trauer"],
+    "synonyms": ["viel Freude"],
+    "sentences": [
+      { "de": "Die Geburt des Kindes bringt große Freude.", "fa": "تولد کودک شادی بزرگ به همراه می‌آورد." },
+      { "de": "Er macht seiner Mutter große Freude.", "fa": "او مادرش را خیلی شاد می‌کند." },
+      { "de": "Mit großer Freude öffnet sie das Geschenk.", "fa": "او با شادی بزرگ هدیه را باز می‌کند." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "59",
+    "level": "A2",
+    "type": "Adjektiv + Nomen",
+    "word": "schwere Prüfung",
+    "meaning": "آزمون سخت",
+    "antonyms": ["leichte Prüfung"],
+    "synonyms": ["schwierige Prüfung"],
+    "sentences": [
+      { "de": "Die Mathematikprüfung war eine schwere Prüfung.", "fa": "آزمون ریاضی یک آزمون سخت بود." },
+      { "de": "Er bereitet sich auf die schwere Prüfung vor.", "fa": "او برای آزمون سخت آماده می‌شود." },
+      { "de": "Nach der schweren Prüfung fühlt er sich müde.", "fa": "پس از آزمون سخت احساس خستگی می‌کند." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "60",
+    "level": "A2",
+    "type": "Adjektiv + Nomen",
+    "word": "starker Kaffee",
+    "meaning": "قهوه قوی",
+    "antonyms": ["schwacher Kaffee"],
+    "synonyms": ["kräftiger Kaffee"],
+    "sentences": [
+      { "de": "Am Morgen trinke ich starken Kaffee.", "fa": "صبح‌ها قهوه قوی می‌نوشم." },
+      { "de": "Dieser starke Kaffee weckt mich auf.", "fa": "این قهوه قوی مرا بیدار می‌کند." },
+      { "de": "Sie bestellt einen starken Kaffee im Café.", "fa": "او در کافه یک قهوه قوی سفارش می‌دهد." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "61",
+    "level": "A2",
+    "type": "Adjektiv + Nomen",
+    "word": "tiefe Enttäuschung",
+    "meaning": "ناامیدی عمیق",
+    "antonyms": ["große Freude"],
+    "synonyms": ["starke Enttäuschung"],
+    "sentences": [
+      { "de": "Die Absage war eine tiefe Enttäuschung.", "fa": "رد شدن یک ناامیدی عمیق بود." },
+      { "de": "Er erlebt tiefe Enttäuschung nach dem Spiel.", "fa": "او پس از بازی ناامیدی عمیق را تجربه می‌کند." },
+      { "de": "Mit tiefer Enttäuschung verlässt sie den Raum.", "fa": "او با ناامیدی عمیق اتاق را ترک می‌کند." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "62",
+    "level": "A2",
+    "type": "Adjektiv + Nomen",
+    "word": "hohe Qualität",
+    "meaning": "کیفیت بالا",
+    "antonyms": ["niedrige Qualität"],
+    "synonyms": ["gute Qualität"],
+    "sentences": [
+      { "de": "Das Produkt hat hohe Qualität.", "fa": "این محصول کیفیت بالا دارد." },
+      { "de": "Wir achten auf hohe Qualität.", "fa": "ما به کیفیت بالا توجه می‌کنیم." },
+      { "de": "Hohe Qualität kostet mehr Geld.", "fa": "کیفیت بالا هزینه بیشتری دارد." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "63",
+    "level": "A2",
+    "type": "Adjektiv + Nomen",
+    "word": "wichtiger Termin",
+    "meaning": "قرار مهم",
+    "antonyms": ["unwichtiger Termin"],
+    "synonyms": ["bedeutender Termin"],
+    "sentences": [
+      { "de": "Ich habe morgen einen wichtigen Termin.", "fa": "فردا یک قرار مهم دارم." },
+      { "de": "Der wichtige Termin beginnt um neun Uhr.", "fa": "قرار مهم ساعت نه شروع می‌شود." },
+      { "de": "Sie bereitet sich auf den wichtigen Termin vor.", "fa": "او برای قرار مهم آماده می‌شود." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "64",
+    "level": "A2",
+    "type": "Adjektiv + Nomen",
+    "word": "frische Brötchen",
+    "meaning": "نان‌های تازه",
+    "antonyms": ["alte Brötchen"],
+    "synonyms": ["knusprige Brötchen"],
+    "sentences": [
+      { "de": "Zum Frühstück gibt es frische Brötchen.", "fa": "برای صبحانه نان‌های تازه وجود دارد." },
+      { "de": "Er kauft jeden Morgen frische Brötchen.", "fa": "او هر صبح نان‌های تازه می‌خرد." },
+      { "de": "Die frischen Brötchen duften wunderbar.", "fa": "نان‌های تازه بوی عالی می‌دهند." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "65",
+    "level": "A2",
+    "type": "Adjektiv + Nomen",
+    "word": "kalte Getränke",
+    "meaning": "نوشیدنی‌های سرد",
+    "antonyms": ["warme Getränke"],
+    "synonyms": ["eiskalte Getränke"],
+    "sentences": [
+      { "de": "Im Sommer trinken wir kalte Getränke.", "fa": "در تابستان نوشیدنی‌های سرد می‌نوشیم." },
+      { "de": "Die kalten Getränke stehen im Kühlschrank.", "fa": "نوشیدنی‌های سرد در یخچال هستند." },
+      { "de": "Er bestellt kalte Getränke für alle.", "fa": "او برای همه نوشیدنی‌های سرد سفارش می‌دهد." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+
+  {
+    "id": "66",
+    "level": "B1",
+    "type": "Mittelstufe",
+    "word": "eine Lösung finden",
+    "meaning": "راه‌حل پیدا کردن",
+    "antonyms": ["keine Lösung finden"],
+    "synonyms": ["eine Lösung suchen", "eine Lösung erarbeiten"],
+    "sentences": [
+      { "de": "Wir müssen schnell eine Lösung für das Problem finden.", "fa": "ما باید سریع راه‌حلی برای این مشکل پیدا کنیم." },
+      { "de": "Das Team hat endlich eine gute Lösung gefunden.", "fa": "تیم بالاخره یک راه‌حل خوب پیدا کرد." },
+      { "de": "Er hat keine Lösung gefunden und gibt jetzt auf.", "fa": "او هیچ راه‌حلی پیدا نکرد و حالا تسلیم شده است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "67",
+    "level": "B1",
+    "type": "Mittelstufe",
+    "word": "einen Entschluss fassen",
+    "meaning": "تصمیم گرفتن",
+    "antonyms": ["einen Entschluss ändern"],
+    "synonyms": ["eine Entscheidung treffen"],
+    "sentences": [
+      { "de": "Sie hat den Entschluss gefasst, ins Ausland zu gehen.", "fa": "او تصمیم گرفت به خارج برود." },
+      { "de": "Nach langer Überlegung fasste er einen wichtigen Entschluss.", "fa": "پس از فکر کردن طولانی، او یک تصمیم مهم گرفت." },
+      { "de": "Es fällt mir schwer, einen endgültigen Entschluss zu fassen.", "fa": "برای من سخت است که یک تصمیم قطعی بگیرم." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "68",
+    "level": "B1",
+    "type": "Mittelstufe",
+    "word": "in Betracht ziehen",
+    "meaning": "در نظر گرفتن",
+    "antonyms": ["außer Betracht lassen"],
+    "synonyms": ["berücksichtigen"],
+    "sentences": [
+      { "de": "Wir sollten auch die Kosten in Betracht ziehen.", "fa": "ما باید هزینه‌ها را هم در نظر بگیریم." },
+      { "de": "Der Arzt zieht mehrere Möglichkeiten in Betracht.", "fa": "پزشک چندین可能性 را در نظر می‌گیرد." },
+      { "de": "Sie hat diese Option nie in Betracht gezogen.", "fa": "او هرگز این گزینه را در نظر نگرفته است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "69",
+    "level": "B1",
+    "type": "Mittelstufe",
+    "word": "zur Sprache bringen",
+    "meaning": "مطرح کردن",
+    "antonyms": ["verschweigen"],
+    "synonyms": ["ansprechen"],
+    "sentences": [
+      { "de": "Er brachte das Thema beim Meeting zur Sprache.", "fa": "او موضوع را در جلسه مطرح کرد." },
+      { "de": "Wir müssen dieses Problem endlich zur Sprache bringen.", "fa": "ما باید بالاخره این مشکل را مطرح کنیم." },
+      { "de": "Sie hat die Idee gestern zur Sprache gebracht.", "fa": "او ایده را دیروز مطرح کرد." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "70",
+    "level": "B1",
+    "type": "Mittelstufe",
+    "word": "Stellung nehmen (zu + D)",
+    "meaning": "موضع‌گیری کردن (درباره)",
+    "antonyms": ["schweigen"],
+    "synonyms": ["sich äußern"],
+    "sentences": [
+      { "de": "Der Minister nahm zu der Frage Stellung.", "fa": "وزیر درباره این سؤال موضع‌گیری کرد." },
+      { "de": "Ich möchte nicht zu diesem Thema Stellung nehmen.", "fa": "من نمی‌خواهم درباره این موضوع موضع‌گیری کنم." },
+      { "de": "Sie hat klar Stellung zu dem Konflikt genommen.", "fa": "او به طور واضح درباره درگیری موضع‌گیری کرد." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "71",
+    "level": "B1",
+    "type": "Mittelstufe",
+    "word": "eine Rolle spielen",
+    "meaning": "نقش داشتن / مهم بودن",
+    "antonyms": ["keine Rolle spielen"],
+    "synonyms": ["bedeutsam sein"],
+    "sentences": [
+      { "de": "Geld spielt in dieser Entscheidung eine große Rolle.", "fa": "پول در این تصمیم نقش بزرگی دارد." },
+      { "de": "Er spielt in der Firma eine wichtige Rolle.", "fa": "او در شرکت نقش مهمی دارد." },
+      { "de": "Das Wetter spielte keine Rolle bei unserer Planung.", "fa": "آب و هوا در برنامه‌ریزی ما نقشی نداشت." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "72",
+    "level": "B1",
+    "type": "Mittelstufe",
+    "word": "Einfluss haben (auf + A)",
+    "meaning": "تأثیر داشتن (بر)",
+    "antonyms": ["keinen Einfluss haben"],
+    "synonyms": ["beeinflussen"],
+    "sentences": [
+      { "de": "Das Elternhaus hat großen Einfluss auf die Kinder.", "fa": "خانه والدین تأثیر زیادی بر کودکان دارد." },
+      { "de": "Seine Meinung hat Einfluss auf meine Entscheidung.", "fa": "نظر او بر تصمیم من تأثیر دارد." },
+      { "de": "Der Film hatte starken Einfluss auf die Zuschauer.", "fa": "فیلم تأثیر قوی بر تماشاگران داشت." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "73",
+    "level": "B1",
+    "type": "Mittelstufe",
+    "word": "Rücksicht nehmen (auf + A)",
+    "meaning": "توجه کردن / ملاحظه کردن",
+    "antonyms": ["keine Rücksicht nehmen"],
+    "synonyms": ["berücksichtigen"],
+    "sentences": [
+      { "de": "Bitte nehmen Sie Rücksicht auf die älteren Gäste.", "fa": "لطفاً به مهمانان مسن توجه کنید." },
+      { "de": "Er nimmt nie Rücksicht auf die Gefühle anderer.", "fa": "او هرگز به احساسات دیگران توجه نمی‌کند." },
+      { "de": "Wir müssen Rücksicht auf die Umwelt nehmen.", "fa": "ما باید به محیط زیست توجه کنیم." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "74",
+    "level": "B1",
+    "type": "Mittelstufe",
+    "word": "Verantwortung übernehmen",
+    "meaning": "مسئولیت قبول کردن",
+    "antonyms": ["Verantwortung ablehnen"],
+    "synonyms": ["die Verantwortung tragen"],
+    "sentences": [
+      { "de": "Als Chef muss ich die Verantwortung übernehmen.", "fa": "به عنوان رئیس باید مسئولیت را قبول کنم." },
+      { "de": "Sie hat die Verantwortung für das Projekt übernommen.", "fa": "او مسئولیت پروژه را قبول کرد." },
+      { "de": "Niemand wollte die Verantwortung übernehmen.", "fa": "هیچ‌کس نمی‌خواست مسئولیت را قبول کند." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "75",
+    "level": "B1",
+    "type": "Mittelstufe",
+    "word": "Geduld haben",
+    "meaning": "صبر داشتن",
+    "antonyms": ["die Geduld verlieren"],
+    "synonyms": ["geduldig sein"],
+    "sentences": [
+      { "de": "Du musst etwas mehr Geduld haben.", "fa": "باید کمی بیشتر صبر داشته باشی." },
+      { "de": "Die Lehrerin hat viel Geduld mit den Schülern.", "fa": "معلم خانم صبر زیادی با دانش‌آموزان دارد." },
+      { "de": "Ich habe keine Geduld mehr für solche Fehler.", "fa": "من دیگر برای چنین اشتباهاتی صبر ندارم." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "76",
+    "level": "B1",
+    "type": "Mittelstufe",
+    "word": "einen guten Eindruck machen",
+    "meaning": "تأثیر خوب گذاشتن",
+    "antonyms": ["einen schlechten Eindruck machen"],
+    "synonyms": ["gut ankommen"],
+    "sentences": [
+      { "de": "Sie hat bei dem Vorstellungsgespräch einen guten Eindruck gemacht.", "fa": "او در مصاحبه شغلی تأثیر خوبی گذاشت." },
+      { "de": "Der neue Kollege macht einen sehr guten Eindruck.", "fa": "همکار جدید تأثیر خیلی خوبی می‌گذارد." },
+      { "de": "Mit diesem Verhalten wirst du keinen guten Eindruck machen.", "fa": "با این رفتار تأثیر خوبی نخواهی گذاشت." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "77",
+    "level": "B1",
+    "type": "Mittelstufe",
+    "word": "in Kontakt bleiben",
+    "meaning": "در تماس ماندن",
+    "antonyms": ["den Kontakt verlieren"],
+    "synonyms": ["Kontakt halten"],
+    "sentences": [
+      { "de": "Wir sollten nach dem Studium in Kontakt bleiben.", "fa": "باید بعد از تحصیل در تماس بمانیم." },
+      { "de": "Trotz der Entfernung sind sie in Kontakt geblieben.", "fa": "با وجود فاصله، آن‌ها در تماس مانده‌اند." },
+      { "de": "Ich versuche, mit alten Freunden in Kontakt zu bleiben.", "fa": "سعی می‌کنم با دوستان قدیمی در تماس بمانم." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "78",
+    "level": "B1",
+    "type": "Mittelstufe",
+    "word": "eine Wahl treffen",
+    "meaning": "انتخاب کردن",
+    "antonyms": ["unentschlossen sein"],
+    "synonyms": ["sich entscheiden"],
+    "sentences": [
+      { "de": "Ich habe eine gute Wahl getroffen.", "fa": "من انتخاب خوبی کردم." },
+      { "de": "Sie musste zwischen zwei Angeboten eine Wahl treffen.", "fa": "او باید بین دو پیشنهاد انتخاب می‌کرد." },
+      { "de": "Die Wahl, die er getroffen hat, war falsch.", "fa": "انتخابی که او کرد اشتباه بود." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "79",
+    "level": "B1",
+    "type": "Mittelstufe",
+    "word": "den Mut verlieren",
+    "meaning": "دل و جرأت را از دست دادن",
+    "antonyms": ["Mut fassen"],
+    "synonyms": ["entmutigt sein"],
+    "sentences": [
+      { "de": "Gib nicht auf und verliere nicht den Mut.", "fa": "تسلیم نشو و دل و جرأتت را از دست نده." },
+      { "de": "Nach dem Misserfolg verlor er den Mut.", "fa": "پس از شکست، دل و جرأتش را از دست داد." },
+      { "de": "Sie hat nie den Mut verloren.", "fa": "او هرگز دل و جرأتش را از دست نداد." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "80",
+    "level": "B1",
+    "type": "Mittelstufe",
+    "word": "eine Ausbildung machen/absolvieren",
+    "meaning": "آموزش حرفه‌ای دیدن / گذراندن",
+    "antonyms": ["die Ausbildung abbrechen"],
+    "synonyms": ["eine Lehre machen"],
+    "sentences": [
+      { "de": "Er macht eine Ausbildung zum Mechaniker.", "fa": "او آموزش مکانیکی می‌بیند." },
+      { "de": "Sie hat ihre Ausbildung erfolgreich absolviert.", "fa": "او آموزشش را با موفقیت گذراند." },
+      { "de": "Viele junge Leute machen eine Ausbildung in der Firma.", "fa": "بسیاری از جوانان در شرکت آموزش حرفه‌ای می‌بینند." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "81",
+    "level": "B1",
+    "type": "Mittelstufe",
+    "word": "einen Beruf ausüben",
+    "meaning": "شغلی را تمرین کردن / انجام دادن",
+    "antonyms": [],
+    "synonyms": ["arbeiten als", "beruflich tätig sein"],
+    "sentences": [
+      { "de": "Er übt seit zehn Jahren den Beruf eines Lehrers aus.", "fa": "او از ده سال پیش شغل معلم را انجام می‌دهد." },
+      { "de": "Sie möchte nach dem Studium den Beruf einer Ärztin ausüben.", "fa": "او بعد از تحصیل می‌خواهد شغل پزشک را تمرین کند." },
+      { "de": "In diesem Land darf man diesen Beruf nur mit einer speziellen Genehmigung ausüben.", "fa": "در این کشور فقط با مجوز ویژه می‌توان این شغل را انجام داد." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "82",
+    "level": "B1",
+    "type": "Mittelstufe",
+    "word": "eine Chance nutzen",
+    "meaning": "از فرصتی استفاده کردن",
+    "antonyms": ["eine Chance verpassen"],
+    "synonyms": ["eine Gelegenheit ergreifen"],
+    "sentences": [
+      { "de": "Du solltest diese Chance nutzen, um im Ausland zu arbeiten.", "fa": "باید از این فرصت استفاده کنی تا در خارج کار کنی." },
+      { "de": "Sie hat die Chance genutzt und ihr eigenes Unternehmen gegründet.", "fa": "او از فرصت استفاده کرد و شرکت خودش را تأسیس کرد." },
+      { "de": "Wir müssen jede Chance nutzen, um unsere Ziele zu erreichen.", "fa": "باید از هر فرصتی استفاده کنیم تا به اهدافمان برسیم." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "83",
+    "level": "B1",
+    "type": "Mittelstufe",
+    "word": "den Überblick behalten",
+    "meaning": "بررسی کلی را حفظ کردن / گم نکردن",
+    "antonyms": ["den Überblick verlieren"],
+    "synonyms": ["den Überblick haben"],
+    "sentences": [
+      { "de": "Auch in stressigen Situationen behält sie immer den Überblick.", "fa": "او حتی در موقعیت‌های پراسترس همیشه بررسی کلی را حفظ می‌کند." },
+      { "de": "Es ist wichtig, bei so vielen Aufgaben den Überblick zu behalten.", "fa": "با این همه کار مهم است که بررسی کلی را حفظ کنیم." },
+      { "de": "Der Manager behält trotz der vielen Projekte den Überblick.", "fa": "مدیر با وجود پروژه‌های زیاد بررسی کلی را حفظ می‌کند." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "84",
+    "level": "B1",
+    "type": "Mittelstufe",
+    "word": "Maßnahmen ergreifen",
+    "meaning": "اقداماتی انجام دادن",
+    "antonyms": [],
+    "synonyms": ["etwas unternehmen", "Maßnahmen treffen"],
+    "sentences": [
+      { "de": "Die Regierung muss sofort Maßnahmen ergreifen, um das Problem zu lösen.", "fa": "دولت باید فوراً اقداماتی انجام دهد تا مشکل را حل کند." },
+      { "de": "Wir haben Maßnahmen ergriffen, um die Sicherheit zu verbessern.", "fa": "ما اقداماتی انجام دادیم تا امنیت را بهبود ببخشیم." },
+      { "de": "Es ist Zeit, geeignete Maßnahmen zu ergreifen.", "fa": "زمان آن رسیده که اقدامات مناسب انجام دهیم." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "85",
+    "level": "B1",
+    "type": "Mittelstufe",
+    "word": "Kritik üben (an + D)",
+    "meaning": "انتقاد کردن (به)",
+    "antonyms": ["loben"],
+    "synonyms": ["kritisieren"],
+    "sentences": [
+      { "de": "Viele Experten üben Kritik an der neuen Politik der Regierung.", "fa": "بسیاری از کارشناسان به سیاست جدید دولت انتقاد می‌کنند." },
+      { "de": "Man sollte konstruktiv Kritik üben, anstatt nur zu meckern.", "fa": "باید انتقاد سازنده کرد، نه فقط غر زدن." },
+      { "de": "Sie übt oft Kritik an der Arbeitsweise ihres Chefs.", "fa": "او اغلب به نحوه کار رئیسش انتقاد می‌کند." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "86",
+    "level": "B1",
+    "type": "Mittelstufe",
+    "word": "einen Beitrag leisten (zu + D)",
+    "meaning": "مشارکت کردن / کمک کردن (به)",
+    "antonyms": [],
+    "synonyms": ["beitragen"],
+    "sentences": [
+      { "de": "Jeder kann einen Beitrag zum Umweltschutz leisten.", "fa": "هر کسی می‌تواند به حفاظت از محیط زیست کمک کند." },
+      { "de": "Sie hat mit ihrer Forschung einen wichtigen Beitrag zur Wissenschaft geleistet.", "fa": "او با تحقیقش کمک مهمی به علم کرده است." },
+      { "de": "Wir wollen alle einen Beitrag zum Erfolg des Projekts leisten.", "fa": "همه ما می‌خواهیم به موفقیت پروژه مشارکت کنیم." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "87",
+    "level": "B1",
+    "type": "Mittelstufe",
+    "word": "in Erfüllung gehen",
+    "meaning": "تحقق یافتن / برآورده شدن",
+    "antonyms": ["scheitern"],
+    "synonyms": ["sich erfüllen"],
+    "sentences": [
+      { "de": "Ihr größter Wunsch ist endlich in Erfüllung gegangen.", "fa": "بزرگ‌ترین آرزویش بالاخره تحقق یافت." },
+      { "de": "Hoffentlich gehen alle unsere Pläne in Erfüllung.", "fa": "امیدوارم همه برنامه‌هایمان برآورده شود." },
+      { "de": "Nach vielen Jahren ist sein Traum in Erfüllung gegangen.", "fa": "بعد از سال‌ها رویایش تحقق یافت." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "88",
+    "level": "B1",
+    "type": "Mittelstufe",
+    "word": "einen Kompromiss schließen",
+    "meaning": "سازش کردن / مصالحه کردن",
+    "antonyms": ["einen Konflikt verschärfen"],
+    "synonyms": ["kompromissbereit sein"],
+    "sentences": [
+      { "de": "Die beiden Parteien haben endlich einen Kompromiss geschlossen.", "fa": "دو طرف بالاخره سازش کردند." },
+      { "de": "Wir müssen einen Kompromiss schließen, um das Projekt fortzusetzen.", "fa": "باید مصالحه کنیم تا پروژه ادامه پیدا کند." },
+      { "de": "Nach langen Verhandlungen schlossen sie einen fairen Kompromiss.", "fa": "پس از مذاکرات طولانی، سازش عادلانه‌ای کردند." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "89",
+    "level": "B1",
+    "type": "Mittelstufe",
+    "word": "die Geduld verlieren",
+    "meaning": "حوصله را از دست دادن",
+    "antonyms": ["geduldig bleiben"],
+    "synonyms": ["ungeduldig werden"],
+    "sentences": [
+      { "de": "Der Lehrer hat langsam die Geduld verloren.", "fa": "معلم کم‌کم حوصله‌اش را از دست داد." },
+      { "de": "Ich verliere nie die Geduld, auch wenn es lange dauert.", "fa": "من هرگز حوصله‌ام را از دست نمی‌دهم، حتی اگر طولانی شود." },
+      { "de": "Sie verliert schnell die Geduld mit schwierigen Kunden.", "fa": "او سریع با مشتریان مشکل‌دار حوصله‌اش را از دست می‌دهد." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "90",
+    "level": "B1",
+    "type": "Mittelstufe",
+    "word": "unter Druck stehen",
+    "meaning": "تحت فشار بودن",
+    "antonyms": ["entspannt sein"],
+    "synonyms": ["gestresst sein"],
+    "sentences": [
+      { "de": "Die Studenten stehen vor den Prüfungen unter großem Druck.", "fa": "دانشجویان قبل از امتحانات تحت فشار زیادی هستند." },
+      { "de": "Er steht beruflich sehr unter Druck.", "fa": "او از نظر شغلی خیلی تحت فشار است." },
+      { "de": "Das Team steht unter Druck, das Ziel bis Ende des Monats zu erreichen.", "fa": "تیم تحت فشار است که هدف را تا پایان ماه برآورده کند." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "91",
+    "level": "B1",
+    "type": "Mittelstufe",
+    "word": "einen guten Ruf haben",
+    "meaning": "شهرت خوب داشتن",
+    "antonyms": ["einen schlechten Ruf haben"],
+    "synonyms": ["angesehen sein"],
+    "sentences": [
+      { "de": "Das Restaurant hat einen sehr guten Ruf in der Stadt.", "fa": "این رستوران در شهر شهرت خیلی خوبی دارد." },
+      { "de": "Sie hat als zuverlässige Mitarbeiterin einen guten Ruf.", "fa": "او به عنوان کارمند قابل اعتماد شهرت خوبی دارد." },
+      { "de": "Die Firma hat einen guten Ruf für ihre Qualitätsprodukte.", "fa": "شرکت به خاطر محصولات باکیفیتش شهرت خوبی دارد." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "92",
+    "level": "B1",
+    "type": "Mittelstufe",
+    "word": "Anschluss finden",
+    "meaning": "ارتباط برقرار کردن / جفت و جور شدن",
+    "antonyms": ["isoliert sein"],
+    "synonyms": ["sich integrieren"],
+    "sentences": [
+      { "de": "In der neuen Schule hat er schnell Anschluss gefunden.", "fa": "او در مدرسه جدید سریع ارتباط برقرار کرد." },
+      { "de": "Viele Ausländer finden in der Stadt leicht Anschluss.", "fa": "بسیاری از خارجی‌ها در شهر به راحتی ارتباط برقرار می‌کنند." },
+      { "de": "Es war nicht einfach, aber sie hat schließlich Anschluss gefunden.", "fa": "آسان نبود، اما بالاخره ارتباط برقرار کرد." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "93",
+    "level": "B1",
+    "type": "Mittelstufe",
+    "word": "eine Abmachung treffen",
+    "meaning": "توافق کردن / قرار گذاشتن",
+    "antonyms": [],
+    "synonyms": ["eine Vereinbarung treffen"],
+    "sentences": [
+      { "de": "Wir haben eine Abmachung getroffen, uns nächste Woche zu treffen.", "fa": "ما توافق کردیم هفته آینده همدیگر را ببینیم." },
+      { "de": "Die Nachbarn haben eine Abmachung getroffen, den Garten gemeinsam zu pflegen.", "fa": "همسایه‌ها توافق کردند باغ را با هم نگهداری کنند." },
+      { "de": "Sie trafen eine klare Abmachung über die Kosten.", "fa": "آنها توافق روشنی درباره هزینه‌ها کردند." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "94",
+    "level": "B1",
+    "type": "Mittelstufe",
+    "word": "einen Vertrag schließen",
+    "meaning": "قرارداد بستن",
+    "antonyms": ["einen Vertrag kündigen"],
+    "synonyms": ["vertraglich vereinbaren"],
+    "sentences": [
+      { "de": "Das Unternehmen hat einen neuen Vertrag mit einem Lieferanten geschlossen.", "fa": "شرکت قرارداد جدیدی با تأمین‌کننده بست." },
+      { "de": "Sie haben gestern den Mietvertrag geschlossen.", "fa": "آنها دیروز قرارداد اجاره را بستند." },
+      { "de": "Bevor wir einen Vertrag schließen, sollten wir alles prüfen.", "fa": "قبل از بستن قرارداد باید همه چیز را بررسی کنیم." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "95",
+    "level": "B1",
+    "type": "Mittelstufe",
+    "word": "einen Wunsch erfüllen",
+    "meaning": "آرزویی را برآورده کردن",
+    "antonyms": ["einen Wunsch ablehnen"],
+    "synonyms": ["einen Traum verwirklichen"],
+    "sentences": [
+      { "de": "Die Eltern haben ihrem Kind den Wunsch nach einem Hund erfüllt.", "fa": "والدین آرزوی سگ داشتن فرزندشان را برآورده کردند." },
+      { "de": "Es ist schön, wenn man anderen einen Wunsch erfüllen kann.", "fa": "خوشایند است که بتوان آرزوی دیگران را برآورده کرد." },
+      { "de": "Sie hat sich ihren größten Wunsch selbst erfüllt.", "fa": "او بزرگ‌ترین آرزویش را خودش برآورده کرد." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "96",
+    "level": "B1",
+    "type": "Mittelstufe",
+    "word": "eine Bitte ablehnen / erfüllen",
+    "meaning": "درخواستی را رد کردن / برآورده کردن",
+    "antonyms": [],
+    "synonyms": ["eine Anfrage ablehnen / erfüllen"],
+    "sentences": [
+      { "de": "Der Chef hat meine Bitte um Urlaub erfüllt.", "fa": "رئیس درخواست مرخصی‌ام را برآورده کرد." },
+      { "de": "Es tut mir leid, aber ich muss Ihre Bitte ablehnen.", "fa": "متأسفم، اما باید درخواستتان را رد کنم." },
+      { "de": "Sie erfüllt gerne die Bitten ihrer Freunde.", "fa": "او با خوشحالی درخواست‌های دوستانش را برآورده می‌کند." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "97",
+    "level": "B1",
+    "type": "Mittelstufe",
+    "word": "eine Nachricht hinterlassen",
+    "meaning": "پیامی به جا گذاشتن",
+    "antonyms": [],
+    "synonyms": ["eine Mitteilung hinterlassen"],
+    "sentences": [
+      { "de": "Ich habe eine Nachricht auf dem Anrufbeantworter hinterlassen.", "fa": "من پیامی روی دستگاه پاسخگو به جا گذاشتم." },
+      { "de": "Sie hat eine kurze Nachricht für ihren Kollegen hinterlassen.", "fa": "او پیام کوتاهی برای همکارش به جا گذاشت." },
+      { "de": "Kannst du eine Nachricht hinterlassen, falls ich nicht da bin?", "fa": "اگر نبودم می‌توانی پیامی به جا بگذاری؟" }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "98",
+    "level": "B1",
+    "type": "Mittelstufe",
+    "word": "eine Rechnung bezahlen",
+    "meaning": "صورت‌حسابی را پرداخت کردن",
+    "antonyms": ["eine Rechnung ignorieren"],
+    "synonyms": ["bezahlen"],
+    "sentences": [
+      { "de": "Ich habe die Rechnung gestern online bezahlt.", "fa": "من صورت‌حساب را دیروز آنلاین پرداخت کردم." },
+      { "de": "Bitte bezahlen Sie die Rechnung innerhalb von 14 Tagen.", "fa": "لطفاً صورت‌حساب را ظرف ۱۴ روز پرداخت کنید." },
+      { "de": "Er hat alle offenen Rechnungen pünktlich bezahlt.", "fa": "او همه صورت‌حساب‌های باز را به موقع پرداخت کرد." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "99",
+    "level": "B1",
+    "type": "Mittelstufe",
+    "word": "einen Vorschlag machen",
+    "meaning": "پیشنهادی کردن",
+    "antonyms": [],
+    "synonyms": ["vorschlagen"],
+    "sentences": [
+      { "de": "Darf ich einen Vorschlag machen?", "fa": "می‌توانم پیشنهادی کنم؟" },
+      { "de": "Sie hat einen guten Vorschlag gemacht, wie wir das Problem lösen können.", "fa": "او پیشنهاد خوبی کرد که چطور مشکل را حل کنیم." },
+      { "de": "Der Kollege machte einen interessanten Vorschlag für das Meeting.", "fa": "همکار پیشنهاد جالبی برای جلسه کرد." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "100",
+    "level": "B1",
+    "type": "Mittelstufe",
+    "word": "eine Meinung äußern",
+    "meaning": "نظر دادن / ابراز کردن",
+    "antonyms": ["schweigen"],
+    "synonyms": ["seine Meinung sagen"],
+    "sentences": [
+      { "de": "Jeder darf in der Diskussion frei seine Meinung äußern.", "fa": "هر کسی می‌تواند در بحث آزادانه نظرش را ابراز کند." },
+      { "de": "Sie hat ihre ehrliche Meinung zu dem Thema geäußert.", "fa": "او نظر صادقانه‌اش را درباره موضوع ابراز کرد." },
+      { "de": "Es ist wichtig, eine fundierte Meinung zu äußern.", "fa": "مهم است که نظر مستدل ابراز کنیم." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "101",
+    "level": "B1",
+    "type": "Mittelstufe",
+    "word": "eine Erfahrung sammeln",
+    "meaning": "تجربه جمع کردن",
+    "antonyms": [],
+    "synonyms": ["Erfahrungen machen"],
+    "sentences": [
+      { "de": "Im Ausland kann man viele neue Erfahrungen sammeln.", "fa": "در خارج می‌توان تجربه‌های جدید زیادی جمع کرد." },
+      { "de": "Sie hat in ihrem Beruf schon viel Erfahrung gesammelt.", "fa": "او در شغلش تجربه زیادی جمع کرده است." },
+      { "de": "Während des Praktikums sammelt er wertvolle Erfahrungen.", "fa": "او در طول کارآموزی تجربه‌های ارزشمندی جمع می‌کند." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "102",
+    "level": "B1",
+    "type": "Mittelstufe",
+    "word": "einen Grund finden",
+    "meaning": "دلیلی پیدا کردن",
+    "antonyms": ["keinen Grund haben"],
+    "synonyms": ["begründen"],
+    "sentences": [
+      { "de": "Ich konnte keinen guten Grund finden, um abzulehnen.", "fa": "نتوانستم دلیل خوبی برای رد کردن پیدا کنم." },
+      { "de": "Sie findet immer einen Grund, um früher nach Hause zu gehen.", "fa": "او همیشه دلیلی پیدا می‌کند تا زودتر به خانه برود." },
+      { "de": "Wir müssen einen vernünftigen Grund finden.", "fa": "باید دلیل منطقی پیدا کنیم." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "103",
+    "level": "B1",
+    "type": "Mittelstufe",
+    "word": "eine Ausrede suchen",
+    "meaning": "بهانه جستجو کردن",
+    "antonyms": ["die Wahrheit sagen"],
+    "synonyms": ["eine Ausrede erfinden"],
+    "sentences": [
+      { "de": "Er sucht immer eine Ausrede, wenn er zu spät kommt.", "fa": "او همیشه وقتی دیر می‌رسد بهانه جستجو می‌کند." },
+      { "de": "Statt eine Ausrede zu suchen, solltest du ehrlich sein.", "fa": "به جای جستجوی بهانه باید صادق باشی." },
+      { "de": "Sie hat schnell eine Ausrede gesucht, um nicht zu helfen.", "fa": "او سریع بهانه‌ای جستجو کرد تا کمک نکند." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "104",
+    "level": "B1",
+    "type": "Mittelstufe",
+    "word": "einen Streit vermeiden",
+    "meaning": "از دعوا اجتناب کردن",
+    "antonyms": ["einen Streit anfangen"],
+    "synonyms": ["Konflikte vermeiden"],
+    "sentences": [
+      { "de": "Ich versuche immer, einen Streit zu vermeiden.", "fa": "همیشه سعی می‌کنم از دعوا اجتناب کنم." },
+      { "de": "Durch Kompromisse kann man viele Streitigkeiten vermeiden.", "fa": "با سازش می‌توان از بسیاری دعواها اجتناب کرد." },
+      { "de": "Sie hat das Thema gewechselt, um einen Streit zu vermeiden.", "fa": "او موضوع را عوض کرد تا از دعوا اجتناب کند." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "105",
+    "level": "B1",
+    "type": "Mittelstufe",
+    "word": "Frieden schließen",
+    "meaning": "صلح کردن",
+    "antonyms": ["Krieg führen"],
+    "synonyms": ["sich versöhnen"],
+    "sentences": [
+      { "de": "Nach dem langen Konflikt haben die beiden Länder endlich Frieden geschlossen.", "fa": "پس از درگیری طولانی، دو کشور بالاخره صلح کردند." },
+      { "de": "Die Geschwister haben Frieden geschlossen und spielen wieder zusammen.", "fa": "خواهر و برادر صلح کردند و دوباره با هم بازی می‌کنند." },
+      { "de": "Es ist Zeit, Frieden zu schließen und voranzugehen.", "fa": "زمان آن رسیده که صلح کنیم و به جلو برویم." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "106",
+    "level": "B1",
+    "type": "Adjektiv + Nomen",
+    "word": "schwere Entscheidung",
+    "meaning": "تصمیم سخت",
+    "antonyms": ["einfache Entscheidung"],
+    "synonyms": ["schwierige Entscheidung"],
+    "sentences": [
+      { "de": "Die schwere Entscheidung hat ihn mehrere Nächte nicht schlafen lassen.", "fa": "تصمیم سخت او را چندین شب بیدار نگه داشت." },
+      { "de": "Sie muss jetzt eine schwere Entscheidung zwischen Job und Familie treffen.", "fa": "او حالا باید تصمیمی سخت بین کار و خانواده بگیرد." },
+      { "de": "Das war die schwerste Entscheidung in ihrem bisherigen Leben.", "fa": "این سخت‌ترین تصمیم در زندگی تا به حال او بود." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "107",
+    "level": "B1",
+    "type": "Adjektiv + Nomen",
+    "word": "große Sorge",
+    "meaning": "نگرانی بزرگ",
+    "antonyms": ["kleine Sorge"],
+    "synonyms": ["starke Sorge"],
+    "sentences": [
+      { "de": "Seine große Sorge um die Gesundheit der Eltern ist verständlich.", "fa": "نگرانی بزرگ او نسبت به سلامت والدینش قابل درک است." },
+      { "de": "Sie macht sich große Sorgen wegen der Prüfung nächste Woche.", "fa": "او به خاطر امتحان هفته آینده نگرانی‌های بزرگی دارد." },
+      { "de": "Das ist eine der größten Sorgen der Menschen in dieser Region.", "fa": "این یکی از بزرگ‌ترین نگرانی‌های مردم در این منطقه است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "108",
+    "level": "B1",
+    "type": "Adjektiv + Nomen",
+    "word": "tiefe Trauer",
+    "meaning": "غم عمیق",
+    "antonyms": ["oberflächliche Trauer"],
+    "synonyms": ["große Trauer"],
+    "sentences": [
+      { "de": "In tiefer Trauer nahmen sie Abschied von ihrem Großvater.", "fa": "آنها با غم عمیق از پدربزرگشان خداحافظی کردند." },
+      { "de": "Die ganze Familie versank in tiefer Trauer nach dem Unfall.", "fa": "کل خانواده بعد از تصادف در غم عمیقی فرو رفت." },
+      { "de": "Seine tiefe Trauer war in seinem Gesicht deutlich zu sehen.", "fa": "غم عمیق او به وضوح در صورتش دیده می‌شد." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "109",
+    "level": "B1",
+    "type": "Adjektiv + Nomen",
+    "word": "hohes Risiko",
+    "meaning": "ریسک بالا",
+    "antonyms": ["niedriges Risiko"],
+    "synonyms": ["großes Risiko"],
+    "sentences": [
+      { "de": "Das hohe Risiko dieser Operation war den Ärzten bewusst.", "fa": "ریسک بالای این عمل برای پزشکان واضح بود." },
+      { "de": "Investoren vermeiden oft Projekte mit hohem Risiko.", "fa": "سرمایه‌گذاران اغلب پروژه‌هایی با ریسک بالا را اجتناب می‌کنند." },
+      { "de": "Es gibt ein hohes Risiko, dass das Wetter morgen schlecht wird.", "fa": "ریسک بالایی وجود دارد که هوا فردا بد شود." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "110",
+    "level": "B1",
+    "type": "Adjektiv + Nomen",
+    "word": "starke Erkältung",
+    "meaning": "سرماخوردگی شدید",
+    "antonyms": ["leichte Erkältung"],
+    "synonyms": ["schwere Erkältung"],
+    "sentences": [
+      { "de": "Wegen einer starken Erkältung konnte er nicht zur Arbeit gehen.", "fa": "به خاطر سرماخوردگی شدید نتوانست به سر کار برود." },
+      { "de": "Sie hat eine starke Erkältung mit Fieber und Husten.", "fa": "او سرماخوردگی شدیدی با تب و سرفه دارد." },
+      { "de": "Die stärkste Erkältung des Winters hat ihn eine Woche ans Bett gefesselt.", "fa": "شدیدترین سرماخوردگی زمستان او را یک هفته به تختخواب میخکوب کرد." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "111",
+    "level": "B1",
+    "type": "Adjektiv + Nomen",
+    "word": "enge Freundschaft",
+    "meaning": "دوستی نزدیک",
+    "antonyms": ["lose Freundschaft"],
+    "synonyms": ["feste Freundschaft"],
+    "sentences": [
+      { "de": "Ihre enge Freundschaft hält schon seit der Schulzeit.", "fa": "دوستی نزدیک آنها از زمان مدرسه ادامه دارد." },
+      { "de": "In enger Freundschaft helfen sie sich gegenseitig bei Problemen.", "fa": "آنها در دوستی نزدیک در مشکلات به یکدیگر کمک می‌کنند." },
+      { "de": "Das ist eine der engsten Freundschaften, die ich je gesehen habe.", "fa": "این یکی از نزدیک‌ترین دوستی‌هایی است که تا به حال دیده‌ام." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "112",
+    "level": "B1",
+    "type": "Adjektiv + Nomen",
+    "word": "breites Wissen",
+    "meaning": "دانش وسیع",
+    "antonyms": ["begrenztes Wissen"],
+    "synonyms": ["umfangreiches Wissen"],
+    "sentences": [
+      { "de": "Sein breites Wissen in Geschichte beeindruckt alle Kollegen.", "fa": "دانش وسیع او در تاریخ همه همکاران را تحت تأثیر قرار می‌دهد." },
+      { "de": "Mit breitem Wissen kann man in vielen Bereichen arbeiten.", "fa": "با دانش وسیع می‌توان در زمینه‌های زیادی کار کرد." },
+      { "de": "Ihr breites Wissen macht sie zur besten Kandidatin für die Stelle.", "fa": "دانش وسیع او او را به بهترین کاندید برای این موقعیت تبدیل کرده است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "113",
+    "level": "B1",
+    "type": "Adjektiv + Nomen",
+    "word": "schnelle Lösung",
+    "meaning": "راه‌حل سریع",
+    "antonyms": ["langsame Lösung"],
+    "synonyms": ["einfache Lösung"],
+    "sentences": [
+      { "de": "Wir brauchen eine schnelle Lösung für das aktuelle Problem.", "fa": "ما به یک راه‌حل سریع برای مشکل فعلی نیاز داریم." },
+      { "de": "Die schnelle Lösung hat leider nicht lange funktioniert.", "fa": "راه‌حل سریع متأسفانه مدت زیادی کار نکرد." },
+      { "de": "Das war die schnellste Lösung, die uns eingefallen ist.", "fa": "این سریع‌ترین راه‌حلی بود که به ذهنمان رسید." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "114",
+    "level": "B1",
+    "type": "Adjektiv + Nomen",
+    "word": "klare Antwort",
+    "meaning": "پاسخ واضح",
+    "antonyms": ["unklare Antwort"],
+    "synonyms": ["deutliche Antwort"],
+    "sentences": [
+      { "de": "Ich erwarte von dir eine klare Antwort bis morgen.", "fa": "من از تو تا فردا یک پاسخ واضح انتظار دارم." },
+      { "de": "Die klare Antwort des Lehrers hat alle Zweifel beseitigt.", "fa": "پاسخ واضح معلم همه شک‌ها را برطرف کرد." },
+      { "de": "Das war die klarste Antwort, die er in der Diskussion gegeben hat.", "fa": "این واضح‌ترین پاسخی بود که او در بحث داد." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "115",
+    "level": "B1",
+    "type": "Adjektiv + Nomen",
+    "word": "ernste Situation",
+    "meaning": "وضعیت جدی",
+    "antonyms": ["harmlose Situation"],
+    "synonyms": ["kritische Situation"],
+    "sentences": [
+      { "de": "In dieser ernsten Situation müssen wir ruhig bleiben.", "fa": "در این وضعیت جدی باید آرام بمانیم." },
+      { "de": "Die ernste Situation im Krankenhaus erfordert schnelles Handeln.", "fa": "وضعیت جدی در بیمارستان نیازمند اقدام سریع است." },
+      { "de": "Das ist eine der ernstesten Situationen, mit denen wir je konfrontiert waren.", "fa": "این یکی از جدی‌ترین وضعیت‌هایی است که تا به حال با آن روبرو شده‌ایم." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+
+  {
+    "id": "116",
+    "level": "B2",
+    "type": "Fortgeschrittene Stufe",
+    "word": "in Anspruch nehmen",
+    "meaning": "استفاده کردن، به کار بردن، ادعا کردن",
+    "antonyms": ["freigeben"],
+    "synonyms": ["beanspruchen", "nutzen"],
+    "sentences": [
+      { "de": "Der neue Mitarbeiter nimmt die Unterstützung des Teams voll in Anspruch.", "fa": "کارمند جدید کاملاً از حمایت تیم استفاده می‌کند." },
+      { "de": "Diese Regelung nimmt viel Zeit in Anspruch und belastet uns alle.", "fa": "این مقررات زمان زیادی می‌گیرد و همه ما را تحت فشار قرار می‌دهد." },
+      { "de": "Sie nimmt ihre Rechte energisch in Anspruch, wenn es notwendig ist.", "fa": "او حقوق خود را با انرژی ادعا می‌کند، وقتی لازم باشد." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "117",
+    "level": "B2",
+    "type": "Fortgeschrittene Stufe",
+    "word": "zur Verfügung stellen",
+    "meaning": "در اختیار قرار دادن",
+    "antonyms": ["zurückziehen"],
+    "synonyms": ["bereitstellen", "überlassen"],
+    "sentences": [
+      { "de": "Die Firma stellt uns moderne Geräte zur Verfügung, damit wir effizient arbeiten können.", "fa": "شرکت تجهیزات مدرن را در اختیار ما قرار می‌دهد تا بتوانیم کارآمد کار کنیم." },
+      { "de": "Der Verein stellt den Raum den Teilnehmern kostenlos zur Verfügung.", "fa": "انجمن اتاق را به صورت رایگان در اختیار شرکت‌کنندگان قرار می‌دهد." },
+      { "de": "Sie hat mir ihre Kontakte zur Verfügung gestellt, was sehr hilfreich war.", "fa": "او تماس‌هایش را در اختیار من قرار داد که خیلی مفید بود." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "118",
+    "level": "B2",
+    "type": "Fortgeschrittene Stufe",
+    "word": "in Erwägung ziehen",
+    "meaning": "در نظر گرفتن، بررسی کردن",
+    "antonyms": ["ausschließen"],
+    "synonyms": ["berücksichtigen", "überlegen"],
+    "sentences": [
+      { "de": "Der Chef zieht eine Gehaltserhöhung in Erwägung, wenn die Ziele erreicht werden.", "fa": "رئیس افزایش حقوق را در نظر می‌گیرد، اگر اهداف محقق شود." },
+      { "de": "Wir ziehen verschiedene Optionen in Erwägung, bevor wir entscheiden.", "fa": "ما گزینه‌های مختلفی را قبل از تصمیم‌گیری در نظر می‌گیریم." },
+      { "de": "Die Regierung zieht neue Maßnahmen in Erwägung, um das Problem zu lösen.", "fa": "دولت اقدامات جدیدی را برای حل مشکل در نظر می‌گیرد." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "119",
+    "level": "B2",
+    "type": "Fortgeschrittene Stufe",
+    "word": "auf Ablehnung stoßen",
+    "meaning": "با رد مواجه شدن",
+    "antonyms": ["Zustimmung finden"],
+    "synonyms": ["abgelehnt werden"],
+    "sentences": [
+      { "de": "Der Vorschlag ist auf Ablehnung gestoßen, weil er zu teuer war.", "fa": "پیشنهاد با رد مواجه شد، چون خیلی گران بود." },
+      { "de": "Ihre Idee stößt bei den Kollegen leider auf Ablehnung.", "fa": "ایده او متأسفانه با رد همکاران مواجه می‌شود." },
+      { "de": "Die Reform ist auf breite Ablehnung in der Bevölkerung gestoßen.", "fa": "اصلاحات با رد گسترده در میان مردم مواجه شد." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "120",
+    "level": "B2",
+    "type": "Fortgeschrittene Stufe",
+    "word": "den Überblick verlieren",
+    "meaning": "کنترل را از دست دادن، گم کردن دید کلی",
+    "antonyms": ["den Überblick behalten"],
+    "synonyms": ["die Orientierung verlieren"],
+    "sentences": [
+      { "de": "Bei so vielen Aufgaben verliert man schnell den Überblick.", "fa": "با این همه وظیفه، سریع کنترل را از دست می‌دهی." },
+      { "de": "Er hat bei der komplizierten Planung den Überblick verloren.", "fa": "او در برنامه‌ریزی پیچیده، دید کلی را از دست داد." },
+      { "de": "Wir dürfen nicht den Überblick verlieren, obwohl das Projekt groß ist.", "fa": "نباید کنترل را از دست بدهیم، هرچند پروژه بزرگ است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "121",
+    "level": "B2",
+    "type": "Fortgeschrittene Stufe",
+    "word": "Rechnung tragen",
+    "meaning": "توجه کردن، در نظر گرفتن (با داتیو)",
+    "antonyms": ["ignorieren"],
+    "synonyms": ["berücksichtigen"],
+    "sentences": [
+      { "de": "Wir müssen den Bedürfnissen der Kunden Rechnung tragen.", "fa": "باید به نیازهای مشتریان توجه کنیم." },
+      { "de": "Die neue Politik trägt den wirtschaftlichen Schwierigkeiten Rechnung.", "fa": "سیاست جدید به مشکلات اقتصادی توجه دارد." },
+      { "de": "Der Plan trägt den aktuellen Umständen Rechnung.", "fa": "طرح به شرایط فعلی توجه دارد." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "122",
+    "level": "B2",
+    "type": "Fortgeschrittene Stufe",
+    "word": "zum Ausdruck bringen",
+    "meaning": "ابراز کردن، بیان کردن",
+    "antonyms": ["verschweigen"],
+    "synonyms": ["ausdrücken"],
+    "sentences": [
+      { "de": "In seiner Rede brachte er seine Dankbarkeit zum Ausdruck.", "fa": "در سخنرانی‌اش قدردانی خود را ابراز کرد." },
+      { "de": "Sie bringt ihre Meinung immer klar zum Ausdruck.", "fa": "او همیشه نظرش را به وضوح بیان می‌کند." },
+      { "de": "Der Künstler bringt seine Gefühle in den Bildern zum Ausdruck.", "fa": "هنرمند احساساتش را در نقاشی‌ها ابراز می‌کند." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "123",
+    "level": "B2",
+    "type": "Fortgeschrittene Stufe",
+    "word": "in Kraft treten",
+    "meaning": "به اجرا درآمدن، لازم‌الاجرا شدن",
+    "antonyms": ["außer Kraft treten"],
+    "synonyms": ["gültig werden"],
+    "sentences": [
+      { "de": "Das neue Gesetz tritt nächste Woche in Kraft.", "fa": "قانون جدید هفته آینده لازم‌الاجرا می‌شود." },
+      { "de": "Die Vereinbarung ist bereits in Kraft getreten.", "fa": "توافق‌نامه قبلاً به اجرا درآمده است." },
+      { "de": "Wann tritt die neue Regelung offiziell in Kraft?", "fa": "مقررات جدید کی به طور رسمی لازم‌الاجرا می‌شود؟" }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "124",
+    "level": "B2",
+    "type": "Fortgeschrittene Stufe",
+    "word": "Anspruch erheben",
+    "meaning": "ادعا کردن (حق)، مطالبه کردن",
+    "antonyms": ["verzichten"],
+    "synonyms": ["fordern"],
+    "sentences": [
+      { "de": "Er erhebt Anspruch auf einen Teil des Erbes.", "fa": "او ادعای بخشی از ارث را دارد." },
+      { "de": "Die Firma erhebt Anspruch auf Schadenersatz.", "fa": "شرکت ادعای خسارت دارد." },
+      { "de": "Niemand sollte unbegründet Anspruch auf diese Leistung erheben.", "fa": "هیچ‌کس نباید بدون دلیل ادعای این خدمت را داشته باشد." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "125",
+    "level": "B2",
+    "type": "Fortgeschrittene Stufe",
+    "word": "Anklage erheben",
+    "meaning": "اتهام زدن، کیفرخواست صادر کردن",
+    "antonyms": ["freisprechen"],
+    "synonyms": ["anklagen"],
+    "sentences": [
+      { "de": "Die Staatsanwaltschaft erhebt Anklage gegen den Manager.", "fa": "دادستانی علیه مدیر کیفرخواست صادر می‌کند." },
+      { "de": "Gegen ihn wurde Anklage wegen Betrugs erhoben.", "fa": "علیه او به دلیل کلاهبرداری اتهام وارد شد." },
+      { "de": "Die Behörden erheben Anklage, sobald Beweise vorliegen.", "fa": "مقامات به محض وجود مدارک، اتهام وارد می‌کنند." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "126",
+    "level": "B2",
+    "type": "Fortgeschrittene Stufe",
+    "word": "Bezug nehmen (auf + A)",
+    "meaning": "ارجاع دادن (به)",
+    "antonyms": [],
+    "synonyms": ["sich beziehen auf"],
+    "sentences": [
+      { "de": "In seinem Bericht nimmt er Bezug auf die neuesten Statistiken.", "fa": "در گزارش خود به جدیدترین آمار ارجاع می‌دهد." },
+      { "de": "Wir nehmen Bezug auf Ihr Schreiben vom letzten Monat.", "fa": "ما به نامه شما از ماه گذشته ارجاع می‌دهیم." },
+      { "de": "Der Redner nahm mehrmals Bezug auf die wirtschaftliche Lage.", "fa": "سخنران چندین بار به وضعیت اقتصادی ارجاع داد." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "127",
+    "level": "B2",
+    "type": "Fortgeschrittene Stufe",
+    "word": "Einspruch einlegen (gegen + A)",
+    "meaning": "اعتراض کردن (به)",
+    "antonyms": ["zustimmen"],
+    "synonyms": ["widersprechen"],
+    "sentences": [
+      { "de": "Der Anwalt legt Einspruch gegen das Urteil ein.", "fa": "وکیل علیه حکم اعتراض می‌کند." },
+      { "de": "Sie haben das Recht, gegen diese Entscheidung Einspruch einzulegen.", "fa": "شما حق دارید علیه این تصمیم اعتراض کنید." },
+      { "de": "Gegen den Bauplan wurde von den Nachbarn Einspruch eingelegt.", "fa": "همسایه‌ها علیه طرح ساختمانی اعتراض کردند." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "128",
+    "level": "B2",
+    "type": "Fortgeschrittene Stufe",
+    "word": "Stellung beziehen",
+    "meaning": "موضع گرفتن",
+    "antonyms": [],
+    "synonyms": ["eine Position beziehen"],
+    "sentences": [
+      { "de": "Die Partei bezieht klar Stellung zu diesem Thema.", "fa": "حزب در مورد این موضوع موضع واضحی می‌گیرد." },
+      { "de": "Es ist wichtig, in dieser Debatte Stellung zu beziehen.", "fa": "در این بحث مهم است که موضع بگیریم." },
+      { "de": "Der Minister bezog Stellung gegen die neuen Gesetze.", "fa": "وزیر علیه قوانین جدید موضع گرفت." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "129",
+    "level": "B2",
+    "type": "Fortgeschrittene Stufe",
+    "word": "zur Kenntnis nehmen",
+    "meaning": "مطلع شدن / به اطلاع رساندن",
+    "antonyms": [],
+    "synonyms": ["notieren"],
+    "sentences": [
+      { "de": "Wir haben Ihre Beschwerde zur Kenntnis genommen.", "fa": "ما از شکایت شما مطلع شدیم." },
+      { "de": "Der Vorstand nahm den Bericht zur Kenntnis.", "fa": "هیئت مدیره گزارش را به اطلاع رساند." },
+      { "de": "Bitte nehmen Sie diese Information zur Kenntnis.", "fa": "لطفاً از این اطلاعات مطلع شوید." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "130",
+    "level": "B2",
+    "type": "Fortgeschrittene Stufe",
+    "word": "in Erwägung ziehen",
+    "meaning": "در نظر گرفتن",
+    "antonyms": ["ausschließen"],
+    "synonyms": ["berücksichtigen"],
+    "sentences": [
+      { "de": "Die Firma zieht eine neue Strategie in Erwägung.", "fa": "شرکت یک استراتژی جدید را در نظر می‌گیرد." },
+      { "de": "Wir ziehen in Erwägung, den Vertrag zu verlängern.", "fa": "ما تمدید قرارداد را در نظر می‌گیریم." },
+      { "de": "Der Manager zog mehrere Optionen in Erwägung.", "fa": "مدیر چندین گزینه را در نظر گرفت." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "131",
+    "level": "B2",
+    "type": "Fortgeschrittene Stufe",
+    "word": "einen Beitrag leisten",
+    "meaning": "مشارکت کردن / کمک کردن",
+    "antonyms": [],
+    "synonyms": ["beitragen"],
+    "sentences": [
+      { "de": "Jeder kann einen Beitrag zum Umweltschutz leisten.", "fa": "هر کسی می‌تواند به حفاظت از محیط زیست کمک کند." },
+      { "de": "Sie hat einen wichtigen Beitrag zur Entwicklung des Projekts geleistet.", "fa": "او مشارکت مهمی در توسعه پروژه داشته است." },
+      { "de": "Die Spende leistet einen wertvollen Beitrag.", "fa": "این کمک مالی مشارکت ارزشمندی است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "132",
+    "level": "B2",
+    "type": "Fortgeschrittene Stufe",
+    "word": "eine Bilanz ziehen",
+    "meaning": "نتیجه‌گیری کردن / ارزیابی کردن",
+    "antonyms": [],
+    "synonyms": ["bilanzieren"],
+    "sentences": [
+      { "de": "Nach einem Jahr ziehen wir eine positive Bilanz.", "fa": "پس از یک سال نتیجه‌گیری مثبتی می‌کنیم." },
+      { "de": "Lassen Sie uns eine Bilanz aus dem Projekt ziehen.", "fa": "بیایید از پروژه ارزیابی کنیم." },
+      { "de": "Die Bilanz, die er zog, war enttäuschend.", "fa": "نتیجه‌گیری او ناامیدکننده بود." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "133",
+    "level": "B2",
+    "type": "Fortgeschrittene Stufe",
+    "word": "Gewicht legen (auf + A)",
+    "meaning": "اهمیت دادن (به)",
+    "antonyms": [],
+    "synonyms": ["Wert legen auf"],
+    "sentences": [
+      { "de": "Das Unternehmen legt großes Gewicht auf Qualität.", "fa": "شرکت اهمیت زیادی به کیفیت می‌دهد." },
+      { "de": "Sie legt viel Gewicht auf pünktliche Lieferung.", "fa": "او اهمیت زیادی به تحویل به‌موقع می‌دهد." },
+      { "de": "Wir legen besonderes Gewicht auf Kundenzufriedenheit.", "fa": "ما به رضایت مشتری اهمیت ویژه‌ای می‌دهیم." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "134",
+    "level": "B2",
+    "type": "Fortgeschrittene Stufe",
+    "word": "Wert legen (auf + A)",
+    "meaning": "اهمیت دادن (به)",
+    "antonyms": [],
+    "synonyms": ["Gewicht legen auf"],
+    "sentences": [
+      { "de": "Er legt großen Wert auf gute Manieren.", "fa": "او اهمیت زیادی به آداب خوب می‌دهد." },
+      { "de": "Die Schule legt Wert auf Disziplin.", "fa": "مدرسه به انضباط اهمیت می‌دهد." },
+      { "de": "Wir legen Wert auf eine offene Kommunikation.", "fa": "ما به ارتباط باز اهمیت می‌دهیم." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "135",
+    "level": "B2",
+    "type": "Fortgeschrittene Stufe",
+    "word": "die Initiative ergreifen",
+    "meaning": "ابتکار عمل را به دست گرفتن",
+    "antonyms": [],
+    "synonyms": ["aktiv werden"],
+    "sentences": [
+      { "de": "Die Regierung muss die Initiative ergreifen.", "fa": "دولت باید ابتکار عمل را به دست بگیرد." },
+      { "de": "Sie ergriff die Initiative und organisierte das Treffen.", "fa": "او ابتکار عمل را به دست گرفت و جلسه را سازماندهی کرد." },
+      { "de": "Es ist Zeit, Initiative zu ergreifen.", "fa": "زمان آن رسیده که ابتکار عمل را به دست بگیریم." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "136",
+    "level": "B2",
+    "type": "Fortgeschrittene Stufe",
+    "word": "einen Impuls geben",
+    "meaning": "انگیزه دادن / محرک ایجاد کردن",
+    "antonyms": [],
+    "synonyms": ["anstoßen"],
+    "sentences": [
+      { "de": "Der Vortrag gab einen wichtigen Impuls für die Diskussion.", "fa": "سخنرانی محرک مهمی برای بحث ایجاد کرد." },
+      { "de": "Diese Investition gibt der Wirtschaft einen neuen Impuls.", "fa": "این سرمایه‌گذاری به اقتصاد انگیزه جدیدی می‌دهد." },
+      { "de": "Sie hat der Gruppe einen kreativen Impuls gegeben.", "fa": "او به گروه انگیزه خلاقانه‌ای داد." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "137",
+    "level": "B2",
+    "type": "Fortgeschrittene Stufe",
+    "word": "in Gang setzen",
+    "meaning": "راه‌اندازی کردن",
+    "antonyms": ["stoppen"],
+    "synonyms": ["starten"],
+    "sentences": [
+      { "de": "Das Projekt wurde endlich in Gang gesetzt.", "fa": "پروژه سرانجام راه‌اندازی شد." },
+      { "de": "Wir müssen den Prozess schnell in Gang setzen.", "fa": "باید فرآیند را سریع راه‌اندازی کنیم." },
+      { "de": "Die neue Maschine wurde gestern in Gang gesetzt.", "fa": "ماشین جدید دیروز راه‌اندازی شد." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "138",
+    "level": "B2",
+    "type": "Fortgeschrittene Stufe",
+    "word": "zum Tragen kommen",
+    "meaning": "به کار گرفته شدن / آشکار شدن",
+    "antonyms": [],
+    "synonyms": ["wirksam werden"],
+    "sentences": [
+      { "de": "Seine Erfahrung kommt in dieser Position zum Tragen.", "fa": "تجربه او در این موقعیت به کار گرفته می‌شود." },
+      { "de": "Die Vorteile des Systems kommen erst jetzt zum Tragen.", "fa": "مزایای سیستم تازه حالا آشکار می‌شود." },
+      { "de": "Ihre Fähigkeiten kamen voll zum Tragen.", "fa": "توانایی‌های او کاملاً آشکار شد." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "139",
+    "level": "B2",
+    "type": "Fortgeschrittene Stufe",
+    "word": "zur Anwendung bringen",
+    "meaning": "به کار بردن / اعمال کردن",
+    "antonyms": [],
+    "synonyms": ["anwenden"],
+    "sentences": [
+      { "de": "Die neue Methode wurde erfolgreich zur Anwendung gebracht.", "fa": "روش جدید با موفقیت به کار گرفته شد." },
+      { "de": "Wir bringen diese Technik in der Produktion zur Anwendung.", "fa": "این تکنیک را در تولید اعمال می‌کنیم." },
+      { "de": "Die Regeln müssen streng zur Anwendung gebracht werden.", "fa": "قوانین باید به طور جدی اعمال شوند." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "140",
+    "level": "B2",
+    "type": "Fortgeschrittene Stufe",
+    "word": "in Frage stellen",
+    "meaning": "زیر سؤال بردن",
+    "antonyms": ["akzeptieren"],
+    "synonyms": ["bezweifeln"],
+    "sentences": [
+      { "de": "Er stellt die bisherigen Ergebnisse in Frage.", "fa": "او نتایج قبلی را زیر سؤال می‌برد." },
+      { "de": "Die Sicherheit des Systems wurde in Frage gestellt.", "fa": "امنیت سیستم زیر سؤال رفت." },
+      { "de": "Niemand sollte diese These in Frage stellen.", "fa": "هیچ‌کس نباید این تز را زیر سؤال ببرد." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "141",
+    "level": "B2",
+    "type": "Fortgeschrittene Stufe",
+    "word": "unter Beweis stellen",
+    "meaning": "اثبات کردن",
+    "antonyms": [],
+    "synonyms": ["beweisen"],
+    "sentences": [
+      { "de": "Sie stellte ihr Können unter Beweis.", "fa": "او توانایی خود را اثبات کرد." },
+      { "de": "Das Team hat seine Stärke unter Beweis gestellt.", "fa": "تیم قدرت خود را اثبات کرد." },
+      { "de": "Er stellte seine Zuverlässigkeit unter Beweis.", "fa": "او قابلیت اعتماد خود را اثبات کرد." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "142",
+    "level": "B2",
+    "type": "Fortgeschrittene Stufe",
+    "word": "zur Verfügung stehen",
+    "meaning": "در دسترس بودن",
+    "antonyms": [],
+    "synonyms": ["verfügbar sein"],
+    "sentences": [
+      { "de": "Alle Dokumente stehen Ihnen zur Verfügung.", "fa": "تمام اسناد در دسترس شماست." },
+      { "de": "Der Raum steht für das Meeting zur Verfügung.", "fa": "اتاق برای جلسه در دسترس است." },
+      { "de": "Die Mittel stehen ab sofort zur Verfügung.", "fa": "منابع از همین حالا در دسترس هستند." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "143",
+    "level": "B2",
+    "type": "Fortgeschrittene Stufe",
+    "word": "in Anspruch nehmen",
+    "meaning": "استفاده کردن / ادعا کردن",
+    "antonyms": [],
+    "synonyms": ["nutzen"],
+    "sentences": [
+      { "de": "Viele Studenten nehmen das Stipendium in Anspruch.", "fa": "بسیاری از دانشجویان از بورسیه استفاده می‌کنند." },
+      { "de": "Er nimmt seine Rechte voll in Anspruch.", "fa": "او کاملاً از حقوق خود استفاده می‌کند." },
+      { "de": "Das Hotel nimmt eine hohe Auslastung in Anspruch.", "fa": "هتل از ظرفیت بالایی استفاده می‌کند." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "144",
+    "level": "B2",
+    "type": "Fortgeschrittene Stufe",
+    "word": "einen Kompromiss eingehen",
+    "meaning": "سازش کردن",
+    "antonyms": ["hart bleiben"],
+    "synonyms": ["kompromittieren"],
+    "sentences": [
+      { "de": "Beide Seiten gingen einen Kompromiss ein.", "fa": "هر دو طرف سازش کردند." },
+      { "de": "Wir müssen einen Kompromiss eingehen, um voranzukommen.", "fa": "برای پیشرفت باید سازش کنیم." },
+      { "de": "Der Kompromiss, den sie eingingen, war fair.", "fa": "سازشی که کردند عادلانه بود." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "145",
+    "level": "B2",
+    "type": "Fortgeschrittene Stufe",
+    "word": "eine Vereinbarung treffen",
+    "meaning": "توافق کردن",
+    "antonyms": [],
+    "synonyms": ["vereinbaren"],
+    "sentences": [
+      { "de": "Die Parteien trafen eine klare Vereinbarung.", "fa": "طرفین توافق روشنی کردند." },
+      { "de": "Wir haben eine Vereinbarung über die Preise getroffen.", "fa": "در مورد قیمت‌ها توافق کردیم." },
+      { "de": "Eine gute Vereinbarung wurde gestern getroffen.", "fa": "توافق خوبی دیروز انجام شد." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "146",
+    "level": "B2",
+    "type": "Fortgeschrittene Stufe",
+    "word": "eine Verpflichtung eingehen",
+    "meaning": "تعهد کردن",
+    "antonyms": [],
+    "synonyms": ["sich verpflichten"],
+    "sentences": [
+      { "de": "Das Unternehmen ging eine langfristige Verpflichtung ein.", "fa": "شرکت تعهد بلندمدت کرد." },
+      { "de": "Sie ist eine finanzielle Verpflichtung eingegangen.", "fa": "او تعهد مالی کرده است." },
+      { "de": "Wir gehen keine unnötigen Verpflichtungen ein.", "fa": "ما تعهدات غیرضروری نمی‌کنیم." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "147",
+    "level": "B2",
+    "type": "Fortgeschrittene Stufe",
+    "word": "die Verantwortung tragen",
+    "meaning": "مسئولیت را بر عهده داشتن",
+    "antonyms": ["ablehnen"],
+    "synonyms": ["verantwortlich sein"],
+    "sentences": [
+      { "de": "Der Manager trägt die volle Verantwortung.", "fa": "مدیر مسئولیت کامل را بر عهده دارد." },
+      { "de": "Jeder muss seine Verantwortung tragen.", "fa": "هر کسی باید مسئولیت خود را بر عهده بگیرد." },
+      { "de": "Sie trägt die Verantwortung für das Team.", "fa": "او مسئولیت تیم را بر عهده دارد." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "148",
+    "level": "B2",
+    "type": "Fortgeschrittene Stufe",
+    "word": "einen Konflikt lösen",
+    "meaning": "حل کردن یک تعارض",
+    "antonyms": ["verschärfen"],
+    "synonyms": ["schlichten"],
+    "sentences": [
+      { "de": "Der Mediator half, den Konflikt zu lösen.", "fa": "میانجی به حل تعارض کمک کرد." },
+      { "de": "Wir müssen diesen Konflikt schnell lösen.", "fa": "باید این تعارض را سریع حل کنیم." },
+      { "de": "Der Konflikt wurde durch Verhandlungen gelöst.", "fa": "تعارض از طریق مذاکره حل شد." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "149",
+    "level": "B2",
+    "type": "Fortgeschrittene Stufe",
+    "word": "eine Debatte führen",
+    "meaning": "بحث کردن",
+    "antonyms": [],
+    "synonyms": ["diskutieren"],
+    "sentences": [
+      { "de": "Die Politiker führten eine hitzige Debatte.", "fa": "سیاستمداران بحث داغی کردند." },
+      { "de": "Wir führen eine Debatte über die Zukunft des Unternehmens.", "fa": "در مورد آینده شرکت بحث می‌کنیم." },
+      { "de": "Eine offene Debatte wurde im Parlament geführt.", "fa": "بحث آزادی در پارلمان انجام شد." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "150",
+    "level": "B2",
+    "type": "Fortgeschrittene Stufe",
+    "word": "eine These aufstellen",
+    "meaning": "تز مطرح کردن",
+    "antonyms": [],
+    "synonyms": ["behaupten"],
+    "sentences": [
+      { "de": "Der Professor stellte eine interessante These auf.", "fa": "استاد تز جالبی مطرح کرد." },
+      { "de": "Sie hat eine neue These aufgestellt.", "fa": "او تز جدیدی مطرح کرده است." },
+      { "de": "Diese These wurde in der Studie aufgestellt.", "fa": "این تز در مطالعه مطرح شد." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "151",
+    "level": "B2",
+    "type": "Fortgeschrittene Stufe",
+    "word": "Argumente vorbringen",
+    "meaning": "دلایل آوردن",
+    "antonyms": [],
+    "synonyms": ["argumentieren"],
+    "sentences": [
+      { "de": "Die Anwälte brachten starke Argumente vor.", "fa": "وکلا دلایل قوی آوردند." },
+      { "de": "Er brachte gute Argumente gegen den Plan vor.", "fa": "او دلایل خوبی علیه طرح آورد." },
+      { "de": "Wichtige Argumente wurden in der Diskussion vorgebracht.", "fa": "دلایل مهمی در بحث آورده شد." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "152",
+    "level": "B2",
+    "type": "Fortgeschrittene Stufe",
+    "word": "eine These vertreten",
+    "meaning": "از تز دفاع کردن",
+    "antonyms": [],
+    "synonyms": ["verteidigen"],
+    "sentences": [
+      { "de": "Sie vertritt diese These seit Jahren.", "fa": "او سال‌هاست از این تز دفاع می‌کند." },
+      { "de": "Der Wissenschaftler vertritt eine kontroverse These.", "fa": "دانشمند از تز بحث‌برانگیزی دفاع می‌کند." },
+      { "de": "In der Präsentation vertrat er seine These überzeugend.", "fa": "در ارائه، از تز خود به طور قانع‌کننده دفاع کرد." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "153",
+    "level": "B2",
+    "type": "Fortgeschrittene Stufe",
+    "word": "Kritik äußern",
+    "meaning": "انتقاد کردن",
+    "antonyms": ["loben"],
+    "synonyms": ["kritisieren"],
+    "sentences": [
+      { "de": "Der Chef äußerte konstruktive Kritik.", "fa": "رئیس انتقاد سازنده‌ای کرد." },
+      { "de": "Sie äußerte offene Kritik am Management.", "fa": "او انتقاد آشکاری از مدیریت کرد." },
+      { "de": "Kritik wurde höflich geäußert.", "fa": "انتقاد به طور مودبانه بیان شد." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "154",
+    "level": "B2",
+    "type": "Fortgeschrittene Stufe",
+    "word": "Lob aussprechen",
+    "meaning": "ستایش کردن",
+    "antonyms": ["kritisieren"],
+    "synonyms": ["loben"],
+    "sentences": [
+      { "de": "Der Lehrer sprach ein großes Lob aus.", "fa": "معلم ستایش زیادی کرد." },
+      { "de": "Sie sprach Lob für die gute Arbeit aus.", "fa": "او برای کار خوب ستایش کرد." },
+      { "de": "Öffentliches Lob wurde ausgesprochen.", "fa": "ستایش عمومی بیان شد." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "155",
+    "level": "B2",
+    "type": "Fortgeschrittene Stufe",
+    "word": "Anerkennung finden",
+    "meaning": "به رسمیت شناخته شدن",
+    "antonyms": [],
+    "synonyms": ["gewürdigt werden"],
+    "sentences": [
+      { "de": "Seine Leistung fand endlich Anerkennung.", "fa": "عملکرد او سرانجام به رسمیت شناخته شد." },
+      { "de": "Die Idee fand breite Anerkennung.", "fa": "این ایده به رسمیت گسترده‌ای یافت." },
+      { "de": "Ihre Arbeit findet viel Anerkennung.", "fa": "کار او مورد توجه و رسمیت زیادی قرار می‌گیرد." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "156",
+    "level": "B2",
+    "type": "Fortgeschrittene Stufe",
+    "word": "Aufmerksamkeit schenken",
+    "meaning": "توجه کردن",
+    "antonyms": ["ignorieren"],
+    "synonyms": ["beachten"],
+    "sentences": [
+      { "de": "Schenken Sie diesem Detail mehr Aufmerksamkeit.", "fa": "به این جزئیات توجه بیشتری کنید." },
+      { "de": "Die Presse schenkte dem Ereignis große Aufmerksamkeit.", "fa": "مطبوعات توجه زیادی به این رویداد کردند." },
+      { "de": "Er schenkte seiner Familie mehr Aufmerksamkeit.", "fa": "او به خانواده‌اش توجه بیشتری کرد." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "157",
+    "level": "B2",
+    "type": "Fortgeschrittene Stufe",
+    "word": "einen Hinweis geben",
+    "meaning": "راهنمایی دادن / اشاره کردن",
+    "antonyms": [],
+    "synonyms": ["hinweisen"],
+    "sentences": [
+      { "de": "Der Lehrer gab einen wichtigen Hinweis.", "fa": "معلم راهنمایی مهمی داد." },
+      { "de": "Kannst du mir einen Hinweis geben?", "fa": "می‌توانی به من اشاره‌ای کنی؟" },
+      { "de": "Ein anonymer Hinweis wurde der Polizei gegeben.", "fa": "یک اشاره ناشناس به پلیس داده شد." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "158",
+    "level": "B2",
+    "type": "Fortgeschrittene Stufe",
+    "word": "einen Verdacht äußern",
+    "meaning": "اظهار شک کردن",
+    "antonyms": [],
+    "synonyms": ["verdächtigen"],
+    "sentences": [
+      { "de": "Die Polizei äußerte einen Verdacht gegen ihn.", "fa": "پلیس شک خود را نسبت به او ابراز کرد." },
+      { "de": "Niemand wagte, einen Verdacht zu äußern.", "fa": "هیچ‌کس جرات نکرد شک خود را ابراز کند." },
+      { "de": "Sie äußerte leise einen Verdacht.", "fa": "او به آرامی شک خود را بیان کرد." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "159",
+    "level": "B2",
+    "type": "Fortgeschrittene Stufe",
+    "word": "eine Vermutung anstellen",
+    "meaning": "فرضیه کردن / حدس زدن",
+    "antonyms": [],
+    "synonyms": ["vermuten"],
+    "sentences": [
+      { "de": "Der Detektiv stellte eine Vermutung an.", "fa": "کارآگاه فرضیه‌ای مطرح کرد." },
+      { "de": "Wir stellen die Vermutung an, dass es ein Fehler war.", "fa": "ما حدس می‌زنیم که یک اشتباه بوده است." },
+      { "de": "Eine interessante Vermutung wurde angestellt.", "fa": "یک حدس جالب زده شد." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "160",
+    "level": "B2",
+    "type": "Fortgeschrittene Stufe",
+    "word": "einen Eindruck hinterlassen",
+    "meaning": "تأثیر گذاشتن",
+    "antonyms": [],
+    "synonyms": ["beeindrucken"],
+    "sentences": [
+      { "de": "Der Vortrag hinterließ einen starken Eindruck.", "fa": "سخنرانی تأثیر قوی گذاشت." },
+      { "de": "Sie hat einen positiven Eindruck hinterlassen.", "fa": "او تأثیر مثبتی گذاشت." },
+      { "de": "Das Erlebnis hinterließ einen bleibenden Eindruck.", "fa": "این تجربه تأثیر ماندگاری گذاشت." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "161",
+    "level": "B2",
+    "type": "Fortgeschrittene Stufe",
+    "word": "einen Einfluss ausüben",
+    "meaning": "تأثیر گذاشتن",
+    "antonyms": [],
+    "synonyms": ["beeinflussen"],
+    "sentences": [
+      { "de": "Die Medien üben großen Einfluss aus.", "fa": "رسانه‌ها تأثیر زیادی می‌گذارند." },
+      { "de": "Er übt positiven Einfluss auf die Kinder aus.", "fa": "او تأثیر مثبتی روی کودکان می‌گذارد." },
+      { "de": "Politische Entscheidungen üben Einfluss auf die Wirtschaft aus.", "fa": "تصمیمات سیاسی بر اقتصاد تأثیر می‌گذارند." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "162",
+    "level": "B2",
+    "type": "Fortgeschrittene Stufe",
+    "word": "eine Wirkung erzielen",
+    "meaning": "اثر بخشیدن",
+    "antonyms": [],
+    "synonyms": ["wirken"],
+    "sentences": [
+      { "de": "Die Kampagne erzielte die gewünschte Wirkung.", "fa": "کمپین اثر مورد نظر را بخشید." },
+      { "de": "Mit dieser Methode erzielen wir eine schnelle Wirkung.", "fa": "با این روش اثر سریع می‌بخشیم." },
+      { "de": "Die Maßnahme erzielte keine Wirkung.", "fa": "این اقدام اثری نداشت." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "163",
+    "level": "B2",
+    "type": "Fortgeschrittene Stufe",
+    "word": "einen Zweck erfüllen",
+    "meaning": "هدف را برآورده کردن",
+    "antonyms": [],
+    "synonyms": ["erfüllen"],
+    "sentences": [
+      { "de": "Das Tool erfüllt seinen Zweck hervorragend.", "fa": "این ابزار هدف خود را عالی برآورده می‌کند." },
+      { "de": "Die Investition erfüllt den gewünschten Zweck.", "fa": "سرمایه‌گذاری هدف مورد نظر را برآورده می‌کند." },
+      { "de": "Dieses Gerät erfüllt mehrere Zwecke.", "fa": "این دستگاه چندین هدف را برآورده می‌کند." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "164",
+    "level": "B2",
+    "type": "Fortgeschrittene Stufe",
+    "word": "eine Rolle übernehmen",
+    "meaning": "نقش را بر عهده گرفتن",
+    "antonyms": [],
+    "synonyms": ["übernehmen"],
+    "sentences": [
+      { "de": "Sie übernahm die Rolle der Projektleiterin.", "fa": "او نقش مدیر پروژه را بر عهده گرفت." },
+      { "de": "Der Schauspieler übernahm eine neue Rolle.", "fa": "بازیگر نقش جدیدی را پذیرفت." },
+      { "de": "In der Krise übernahm er eine wichtige Rolle.", "fa": "در بحران نقش مهمی بر عهده گرفت." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "165",
+    "level": "B2",
+    "type": "Fortgeschrittene Stufe",
+    "word": "den Vorrang haben",
+    "meaning": "اولویت داشتن",
+    "antonyms": [],
+    "synonyms": ["vorrangig sein"],
+    "sentences": [
+      { "de": "Sicherheit hat in diesem Bereich den Vorrang.", "fa": "امنیت در این زمینه اولویت دارد." },
+      { "de": "Die Qualität hat immer den Vorrang.", "fa": "کیفیت همیشه اولویت دارد." },
+      { "de": "Umweltschutz hat bei uns den Vorrang.", "fa": "حفاظت از محیط زیست نزد ما اولویت دارد." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "166",
+    "level": "B2",
+    "type": "Fortgeschrittene Stufe",
+    "word": "eine Priorität setzen",
+    "meaning": "اولویت تعیین کردن",
+    "antonyms": [],
+    "synonyms": ["priorisieren"],
+    "sentences": [
+      { "de": "Wir setzen klare Prioritäten für das nächste Quartal.", "fa": "ما برای فصل بعدی اولویت‌های روشنی تعیین می‌کنیم." },
+      { "de": "Die Regierung setzte Bildung als Priorität.", "fa": "دولت آموزش را به عنوان اولویت تعیین کرد." },
+      { "de": "Es ist wichtig, die richtigen Prioritäten zu setzen.", "fa": "تعیین اولویت‌های درست مهم است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "167",
+    "level": "B2",
+    "type": "Fortgeschrittene Stufe",
+    "word": "eine Frist einhalten / setzen",
+    "meaning": "مهلت رعایت کردن / تعیین کردن",
+    "antonyms": ["überschreiten"],
+    "synonyms": [],
+    "sentences": [
+      { "de": "Bitte halten Sie die Frist ein.", "fa": "لطفاً مهلت را رعایت کنید." },
+      { "de": "Der Manager setzte eine neue Frist.", "fa": "مدیر مهلت جدیدی تعیین کرد." },
+      { "de": "Es war schwierig, diese kurze Frist einzuhalten.", "fa": "رعایت این مهلت کوتاه دشوار بود." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "168",
+    "level": "B2",
+    "type": "Fortgeschrittene Stufe",
+    "word": "einen Termin vereinbaren",
+    "meaning": "قرار ملاقات گذاشتن",
+    "antonyms": [],
+    "synonyms": ["einen Termin ausmachen"],
+    "sentences": [
+      { "de": "Wir haben einen Termin beim Arzt vereinbart.", "fa": "ما قرار ملاقات با پزشک گذاشتیم." },
+      { "de": "Können wir einen Termin für nächste Woche vereinbaren?", "fa": "می‌توانیم قرار ملاقاتی برای هفته آینده بگذاریم؟" },
+      { "de": "Der Termin wurde telefonisch vereinbart.", "fa": "قرار ملاقات تلفنی گذاشته شد." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "169",
+    "level": "B2",
+    "type": "Fortgeschrittene Stufe",
+    "word": "eine Frist verlängern",
+    "meaning": "تمدید مهلت کردن",
+    "antonyms": ["verkürzen"],
+    "synonyms": [],
+    "sentences": [
+      { "de": "Die Bank hat die Frist verlängert.", "fa": "بانک مهلت را تمدید کرد." },
+      { "de": "Können Sie die Frist um zwei Wochen verlängern?", "fa": "می‌توانید مهلت را دو هفته تمدید کنید؟" },
+      { "de": "Die Frist wurde auf Antrag verlängert.", "fa": "مهلت به درخواست تمدید شد." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "170",
+    "level": "B2",
+    "type": "Fortgeschrittene Stufe",
+    "word": "eine Genehmigung erteilen / erhalten",
+    "meaning": "مجوز دادن / گرفتن",
+    "antonyms": ["ablehnen"],
+    "synonyms": [],
+    "sentences": [
+      { "de": "Die Behörde erteilte die Genehmigung.", "fa": "مقامات مجوز را صادر کردند." },
+      { "de": "Wir haben die Genehmigung endlich erhalten.", "fa": "سرانجام مجوز را دریافت کردیم." },
+      { "de": "Ohne Genehmigung dürfen Sie nicht bauen.", "fa": "بدون مجوز اجازه ساخت ندارید." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "171",
+    "level": "B2",
+    "type": "Fortgeschrittene Stufe",
+    "word": "einen Antrag stellen / ablehnen",
+    "meaning": "درخواست دادن / رد کردن",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      { "de": "Er stellte einen Antrag auf Urlaub.", "fa": "او درخواست مرخصی داد." },
+      { "de": "Der Antrag wurde leider abgelehnt.", "fa": "درخواست متأسفانه رد شد." },
+      { "de": "Sie können den Antrag online stellen.", "fa": "می‌توانید درخواست را آنلاین بدهید." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "172",
+    "level": "B2",
+    "type": "Fortgeschrittene Stufe",
+    "word": "eine Bewerbung einreichen",
+    "meaning": "درخواست شغلی ارسال کردن",
+    "antonyms": [],
+    "synonyms": ["sich bewerben"],
+    "sentences": [
+      { "de": "Ich habe meine Bewerbung eingereicht.", "fa": "درخواست شغلی‌ام را ارسال کردم." },
+      { "de": "Bewerbungen müssen bis Freitag eingereicht werden.", "fa": "درخواست‌ها باید تا جمعه ارسال شوند." },
+      { "de": "Sie reichte eine vollständige Bewerbung ein.", "fa": "او درخواست کامل ارسال کرد." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "173",
+    "level": "B2",
+    "type": "Fortgeschrittene Stufe",
+    "word": "ein Angebot abgeben / annehmen",
+    "meaning": "پیشنهاد دادن / قبول کردن",
+    "antonyms": ["ablehnen"],
+    "synonyms": [],
+    "sentences": [
+      { "de": "Die Firma gab ein günstiges Angebot ab.", "fa": "شرکت پیشنهاد مناسبی داد." },
+      { "de": "Wir haben das Angebot angenommen.", "fa": "پیشنهاد را قبول کردیم." },
+      { "de": "Er gab ein höheres Angebot ab.", "fa": "او پیشنهاد بالاتری داد." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "174",
+    "level": "B2",
+    "type": "Fortgeschrittene Stufe",
+    "word": "eine Bestellung aufgeben",
+    "meaning": "سفارش دادن",
+    "antonyms": [],
+    "synonyms": ["bestellen"],
+    "sentences": [
+      { "de": "Ich habe eine Bestellung online aufgegeben.", "fa": "سفارشی آنلاین دادم." },
+      { "de": "Die Bestellung wurde gestern aufgegeben.", "fa": "سفارش دیروز داده شد." },
+      { "de": "Kunden geben regelmäßig Bestellungen auf.", "fa": "مشتریان به طور منظم سفارش می‌دهند." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "175",
+    "level": "B2",
+    "type": "Fortgeschrittene Stufe",
+    "word": "eine Lieferung erhalten",
+    "meaning": "تحویل دریافت کردن",
+    "antonyms": [],
+    "synonyms": ["erhalten"],
+    "sentences": [
+      { "de": "Wir haben die Lieferung heute erhalten.", "fa": "تحویل امروز را دریافت کردیم." },
+      { "de": "Die Lieferung wurde pünktlich erhalten.", "fa": "تحویل به موقع دریافت شد." },
+      { "de": "Bitte bestätigen Sie, dass Sie die Lieferung erhalten haben.", "fa": "لطفاً تأیید کنید که تحویل را دریافت کرده‌اید." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "176",
+    "level": "B2",
+    "type": "Fortgeschrittene Stufe",
+    "word": "eine Rechnung ausstellen",
+    "meaning": "صورت‌حساب صادر کردن",
+    "antonyms": [],
+    "synonyms": ["rechnen"],
+    "sentences": [
+      { "de": "Der Verkäufer stellte eine Rechnung aus.", "fa": "فروشنده صورت‌حساب صادر کرد." },
+      { "de": "Bitte stellen Sie mir eine Rechnung aus.", "fa": "لطفاً برای من صورت‌حساب صادر کنید." },
+      { "de": "Die Rechnung wurde per E-Mail ausgestellt.", "fa": "صورت‌حساب از طریق ایمیل صادر شد." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "177",
+    "level": "B2",
+    "type": "Fortgeschrittene Stufe",
+    "word": "Zahlung leisten",
+    "meaning": "پرداخت انجام دادن",
+    "antonyms": [],
+    "synonyms": ["bezahlen"],
+    "sentences": [
+      { "de": "Die Zahlung muss bis Ende des Monats geleistet werden.", "fa": "پرداخت باید تا پایان ماه انجام شود." },
+      { "de": "Wir haben die Zahlung bereits geleistet.", "fa": "ما پرداخت را قبلاً انجام داده‌ایم." },
+      { "de": "Die Zahlung wurde per Überweisung geleistet.", "fa": "پرداخت از طریق انتقال بانکی انجام شد." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "178",
+    "level": "B2",
+    "type": "Fortgeschrittene Stufe",
+    "word": "eine Kaution hinterlegen",
+    "meaning": "ودیعه گذاشتن",
+    "antonyms": [],
+    "synonyms": ["Kaution zahlen"],
+    "sentences": [
+      { "de": "Der Mieter hinterlegte eine Kaution.", "fa": "مستأجر ودیعه گذاشت." },
+      { "de": "Eine hohe Kaution musste hinterlegt werden.", "fa": "ودیعه بالایی باید گذاشته می‌شد." },
+      { "de": "Die Kaution wurde bei Vertragsabschluss hinterlegt.", "fa": "ودیعه هنگام انعقاد قرارداد گذاشته شد." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "179",
+    "level": "B2",
+    "type": "Fortgeschrittene Stufe",
+    "word": "einen Kredit aufnehmen",
+    "meaning": "وام گرفتن",
+    "antonyms": [],
+    "synonyms": ["einen Kredit beantragen"],
+    "sentences": [
+      { "de": "Die Firma nahm einen großen Kredit auf.", "fa": "شرکت وام بزرگی گرفت." },
+      { "de": "Er möchte einen Kredit aufnehmen.", "fa": "او می‌خواهد وام بگیرد." },
+      { "de": "Der Kredit wurde bei der Bank aufgenommen.", "fa": "وام از بانک گرفته شد." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "180",
+    "level": "B2",
+    "type": "Fortgeschrittene Stufe",
+    "word": "Zinsen zahlen",
+    "meaning": "بهره پرداخت کردن",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      { "de": "Wir zahlen monatlich Zinsen.", "fa": "ما ماهانه بهره پرداخت می‌کنیم." },
+      { "de": "Die Zinsen müssen pünktlich gezahlt werden.", "fa": "بهره باید به موقع پرداخت شود." },
+      { "de": "Hohe Zinsen zahlen viele Kreditnehmer.", "fa": "بسیاری از وام‌گیرندگان بهره بالایی پرداخت می‌کنند." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "181",
+    "level": "B2",
+    "type": "Fortgeschrittene Stufe",
+    "word": "eine Investition tätigen",
+    "meaning": "سرمایه‌گذاری کردن",
+    "antonyms": [],
+    "synonyms": ["investieren"],
+    "sentences": [
+      { "de": "Das Unternehmen tätigte eine große Investition.", "fa": "شرکت سرمایه‌گذاری بزرگی کرد." },
+      { "de": "Wir planen, in neue Technologie zu investieren.", "fa": "ما برنامه داریم در فناوری جدید سرمایه‌گذاری کنیم." },
+      { "de": "Eine rentable Investition wurde getätigt.", "fa": "سرمایه‌گذاری سودآوری انجام شد." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "182",
+    "level": "B2",
+    "type": "Fortgeschrittene Stufe",
+    "word": "Gewinn erzielen",
+    "meaning": "سود کردن",
+    "antonyms": ["Verlust machen"],
+    "synonyms": ["profitieren"],
+    "sentences": [
+      { "de": "Die Firma erzielte im letzten Jahr hohen Gewinn.", "fa": "شرکت سال گذشته سود بالایی کرد." },
+      { "de": "Mit diesem Geschäft kann man guten Gewinn erzielen.", "fa": "با این معامله می‌توان سود خوبی کرد." },
+      { "de": "Sie erzielten einen unerwarteten Gewinn.", "fa": "آنها سود غیرمنتظره‌ای به دست آوردند." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "183",
+    "level": "B2",
+    "type": "Fortgeschrittene Stufe",
+    "word": "Verlust erleiden",
+    "meaning": "ضرر کردن",
+    "antonyms": ["Gewinn machen"],
+    "synonyms": ["verlieren"],
+    "sentences": [
+      { "de": "Viele Investoren erlitten hohe Verluste.", "fa": "بسیاری از سرمایه‌گذاران ضررهای سنگینی کردند." },
+      { "de": "Das Unternehmen erlitt einen finanziellen Verlust.", "fa": "شرکت ضرر مالی کرد." },
+      { "de": "Trotz Bemühungen erlitten sie Verlust.", "fa": "با وجود تلاش‌ها ضرر کردند." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "184",
+    "level": "B2",
+    "type": "Fortgeschrittene Stufe",
+    "word": "eine Bilanz erstellen",
+    "meaning": "ترازنامه تهیه کردن",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      { "de": "Der Buchhalter erstellt die Bilanz.", "fa": "حسابدار ترازنامه را تهیه می‌کند." },
+      { "de": "Am Jahresende muss eine Bilanz erstellt werden.", "fa": "در پایان سال باید ترازنامه تهیه شود." },
+      { "de": "Die Bilanz wurde von einem Experten erstellt.", "fa": "ترازنامه توسط متخصص تهیه شد." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "185",
+    "level": "B2",
+    "type": "Fortgeschrittene Stufe",
+    "word": "einen Bericht abgeben",
+    "meaning": "گزارش دادن",
+    "antonyms": [],
+    "synonyms": ["berichten"],
+    "sentences": [
+      { "de": "Der Mitarbeiter gab einen detaillierten Bericht ab.", "fa": "کارمند گزارش مفصلی داد." },
+      { "de": "Bitte geben Sie den Bericht bis morgen ab.", "fa": "لطفاً گزارش را تا فردا تحویل دهید." },
+      { "de": "Ein schriftlicher Bericht wurde abgegeben.", "fa": "گزارش کتبی تحویل داده شد." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "186",
+    "level": "B2",
+    "type": "Fortgeschrittene Stufe",
+    "word": "eine Analyse durchführen",
+    "meaning": "تحلیل انجام دادن",
+    "antonyms": [],
+    "synonyms": ["analysieren"],
+    "sentences": [
+      { "de": "Das Team führte eine gründliche Analyse durch.", "fa": "تیم تحلیل کاملی انجام داد." },
+      { "de": "Wir müssen eine Marktanalyse durchführen.", "fa": "باید تحلیل بازار انجام دهیم." },
+      { "de": "Die Analyse wurde mit modernen Tools durchgeführt.", "fa": "تحلیل با ابزارهای مدرن انجام شد." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "187",
+    "level": "B2",
+    "type": "Fortgeschrittene Stufe",
+    "word": "Daten erheben",
+    "meaning": "داده جمع‌آوری کردن",
+    "antonyms": [],
+    "synonyms": ["Daten sammeln"],
+    "sentences": [
+      { "de": "Die Forscher erheben Daten für die Studie.", "fa": "پژوهشگران برای مطالعه داده جمع‌آوری می‌کنند." },
+      { "de": "Es ist notwendig, aktuelle Daten zu erheben.", "fa": "جمع‌آوری داده‌های به‌روز لازم است." },
+      { "de": "Daten wurden über mehrere Monate erhoben.", "fa": "داده‌ها طی چندین ماه جمع‌آوری شد." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "188",
+    "level": "B2",
+    "type": "Fortgeschrittene Stufe",
+    "word": "eine Studie veröffentlichen",
+    "meaning": "مطالعه منتشر کردن",
+    "antonyms": [],
+    "synonyms": ["publizieren"],
+    "sentences": [
+      { "de": "Die Universität veröffentlichte eine neue Studie.", "fa": "دانشگاه مطالعه جدیدی منتشر کرد." },
+      { "de": "Die Studie wurde in einer Fachzeitschrift veröffentlicht.", "fa": "مطالعه در یک مجله تخصصی منتشر شد." },
+      { "de": "Sie plant, die Ergebnisse bald zu veröffentlichen.", "fa": "او برنامه دارد نتایج را به زودی منتشر کند." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "189",
+    "level": "B2",
+    "type": "Fortgeschrittene Stufe",
+    "word": "eine Umfrage durchführen",
+    "meaning": "نظرسنجی انجام دادن",
+    "antonyms": [],
+    "synonyms": ["befragen"],
+    "sentences": [
+      { "de": "Das Institut führte eine Umfrage durch.", "fa": "مؤسسه نظرسنجی انجام داد." },
+      { "de": "Wir führen eine Umfrage unter Kunden durch.", "fa": "نظرسنجی میان مشتریان انجام می‌دهیم." },
+      { "de": "Die Umfrage wurde online durchgeführt.", "fa": "نظرسنجی به صورت آنلاین انجام شد." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "190",
+    "level": "B2",
+    "type": "Adjektiv + Nomen",
+    "word": "hohe Anforderungen",
+    "meaning": "الزامات بالا / تقاضاهای زیاد",
+    "antonyms": ["niedrige Anforderungen"],
+    "synonyms": ["strenge Anforderungen", "hohe Erwartungen"],
+    "sentences": [
+      { "de": "Der neue Job stellt hohe Anforderungen an die Mitarbeiter.", "fa": "شغل جدید الزامات بالایی برای کارکنان ایجاد می‌کند." },
+      { "de": "Wegen der hohen Anforderungen musste sie viele Stunden arbeiten.", "fa": "به دلیل الزامات بالا، او مجبور شد ساعت‌های زیادی کار کند." },
+      { "de": "Die Universität hat sehr hohe Anforderungen an die Bewerber.", "fa": "دانشگاه الزامات بسیار بالایی برای متقاضیان دارد." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "191",
+    "level": "B2",
+    "type": "Adjektiv + Nomen",
+    "word": "tiefe Kenntnisse",
+    "meaning": "دانش عمیق",
+    "antonyms": ["oberflächliche Kenntnisse"],
+    "synonyms": ["gründliche Kenntnisse", "umfassende Kenntnisse"],
+    "sentences": [
+      { "de": "Für diese Position braucht man tiefe Kenntnisse in der Programmierung.", "fa": "برای این موقعیت به دانش عمیق در برنامه‌نویسی نیاز است." },
+      { "de": "Er hat tiefe Kenntnisse über die Geschichte Europas gesammelt.", "fa": "او دانش عمیقی درباره تاریخ اروپا جمع‌آوری کرده است." },
+      { "de": "Mit ihren tiefen Kenntnissen konnte sie das Problem schnell lösen.", "fa": "با دانش عمیق خود توانست مشکل را سریع حل کند." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "192",
+    "level": "B2",
+    "type": "Adjektiv + Nomen",
+    "word": "enge Zusammenarbeit",
+    "meaning": "همکاری نزدیک",
+    "antonyms": ["lose Zusammenarbeit"],
+    "synonyms": ["intensive Zusammenarbeit", "gute Zusammenarbeit"],
+    "sentences": [
+      { "de": "Die enge Zusammenarbeit zwischen den Teams war entscheidend für den Erfolg.", "fa": "همکاری نزدیک بین تیم‌ها برای موفقیت تعیین‌کننده بود." },
+      { "de": "In diesem Projekt ist enge Zusammenarbeit mit dem Kunden notwendig.", "fa": "در این پروژه همکاری نزدیک با مشتری ضروری است." },
+      { "de": "Durch enge Zusammenarbeit konnten sie das Ziel früher erreichen.", "fa": "آنها با همکاری نزدیک توانستند هدف را زودتر به دست آورند." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "193",
+    "level": "B2",
+    "type": "Adjektiv + Nomen",
+    "word": "starke Konkurrenz",
+    "meaning": "رقابت شدید / رقابتی قوی",
+    "antonyms": ["schwache Konkurrenz"],
+    "synonyms": ["harte Konkurrenz", "intensive Konkurrenz"],
+    "sentences": [
+      { "de": "Auf dem Markt gibt es starke Konkurrenz aus Asien.", "fa": "در بازار رقابت شدیدی از آسیا وجود دارد." },
+      { "de": "Trotz starker Konkurrenz konnte das Unternehmen seinen Marktanteil halten.", "fa": "با وجود رقابت شدید، شرکت توانست سهم بازار خود را حفظ کند." },
+      { "de": "Die starke Konkurrenz zwingt uns, innovativer zu werden.", "fa": "رقابت شدید ما را مجبور می‌کند نوآورتر شویم." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "194",
+    "level": "B2",
+    "type": "Adjektiv + Nomen",
+    "word": "breites Spektrum",
+    "meaning": "طیف گسترده",
+    "antonyms": ["eng begrenztes Spektrum"],
+    "synonyms": ["großes Spektrum", "vielfältiges Spektrum"],
+    "sentences": [
+      { "de": "Das Angebot umfasst ein breites Spektrum an Produkten.", "fa": "پیشنهاد شامل طیف گسترده‌ای از محصولات است." },
+      { "de": "Sie hat ein breites Spektrum an Interessen und Hobbys.", "fa": "او طیف گسترده‌ای از علایق و سرگرمی‌ها دارد." },
+      { "de": "Das Seminar deckt ein breites Spektrum von Themen ab.", "fa": "سمینار طیف گسترده‌ای از موضوعات را پوشش می‌دهد." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "195",
+    "level": "B2",
+    "type": "Adjektiv + Nomen",
+    "word": "wesentlicher Beitrag",
+    "meaning": "سهم اساسی / contribution مهم",
+    "antonyms": ["unwesentlicher Beitrag"],
+    "synonyms": ["wichtiger Beitrag", "bedeutender Beitrag"],
+    "sentences": [
+      { "de": "Sie hat einen wesentlichen Beitrag zur Entwicklung des Projekts geleistet.", "fa": "او سهم اساسی در توسعه پروژه داشته است." },
+      { "de": "Der Bericht enthält einen wesentlichen Beitrag zur Lösung des Problems.", "fa": "گزارش شامل سهم اساسی برای حل مشکل است." },
+      { "de": "Sein wesentlicher Beitrag wurde von allen Kollegen anerkannt.", "fa": "سهم اساسی او توسط همه همکاران 인정 شد." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "196",
+    "level": "B2",
+    "type": "Adjektiv + Nomen",
+    "word": "erheblicher Fortschritt",
+    "meaning": "پیشرفت قابل توجه",
+    "antonyms": ["geringer Fortschritt"],
+    "synonyms": ["deutlicher Fortschritt", "bedeutender Fortschritt"],
+    "sentences": [
+      { "de": "In den letzten Monaten gab es erheblichen Fortschritt bei den Verhandlungen.", "fa": "در ماه‌های اخیر پیشرفت قابل توجهی در مذاکرات وجود داشته است." },
+      { "de": "Die Medizin hat in diesem Bereich erheblichen Fortschritt gemacht.", "fa": "پزشکی در این زمینه پیشرفت قابل توجهی کرده است." },
+      { "de": "Trotz erheblichen Fortschritts bleibt noch viel zu tun.", "fa": "با وجود پیشرفت قابل توجه، هنوز کارهای زیادی باقی مانده است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "197",
+    "level": "B2",
+    "type": "Adjektiv + Nomen",
+    "word": "gravierende Probleme",
+    "meaning": "مشکلات جدی / مشکلات حاد",
+    "antonyms": ["geringfügige Probleme"],
+    "synonyms": ["schwere Probleme", "ernste Probleme"],
+    "sentences": [
+      { "de": "Das Unternehmen hat gravierende Probleme mit der Lieferkette.", "fa": "شرکت مشکلات جدی با زنجیره تأمین دارد." },
+      { "de": "Gravierende Probleme in der Umwelt erfordern sofortiges Handeln.", "fa": "مشکلات جدی در محیط زیست نیازمند اقدام فوری است." },
+      { "de": "Trotz gravierender Probleme konnte das Team das Ziel erreichen.", "fa": "با وجود مشکلات جدی، تیم توانست به هدف برسد." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "198",
+    "level": "B2",
+    "type": "Adjektiv + Nomen",
+    "word": "nachhaltige Entwicklung",
+    "meaning": "توسعه پایدار",
+    "antonyms": ["kurzfristige Entwicklung"],
+    "synonyms": ["umweltfreundliche Entwicklung", "langfristige Entwicklung"],
+    "sentences": [
+      { "de": "Die Regierung fördert die nachhaltige Entwicklung der Region.", "fa": "دولت توسعه پایدار منطقه را ترویج می‌کند." },
+      { "de": "Nachhaltige Entwicklung ist wichtig für die Zukunft unseres Planeten.", "fa": "توسعه پایدار برای آینده سیاره ما مهم است." },
+      { "de": "Das Unternehmen setzt auf nachhaltige Entwicklung in allen Bereichen.", "fa": "شرکت بر توسعه پایدار در همه زمینه‌ها تمرکز دارد." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "199",
+    "level": "B2",
+    "type": "Adjektiv + Nomen",
+    "word": "strategische Entscheidung",
+    "meaning": "تصمیم استراتژیک",
+    "antonyms": ["taktische Entscheidung"],
+    "synonyms": ["wichtige Entscheidung", "langfristige Entscheidung"],
+    "sentences": [
+      { "de": "Die strategische Entscheidung des Managers hat das Unternehmen gerettet.", "fa": "تصمیم استراتژیک مدیر شرکت را نجات داد." },
+      { "de": "Strategische Entscheidungen erfordern sorgfältige Planung.", "fa": "تصمیمات استراتژیک نیازمند برنامه‌ریزی دقیق هستند." },
+      { "de": "Sie traf eine strategische Entscheidung für die Expansion ins Ausland.", "fa": "او یک تصمیم استراتژیک برای گسترش به خارج از کشور گرفت." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "200",
+    "level": "B2",
+    "type": "Adjektiv + Nomen",
+    "word": "emotionale Belastung",
+    "meaning": "بار عاطفی / فشار روانی",
+    "antonyms": ["geringe Belastung"],
+    "synonyms": ["psychische Belastung", "starke Belastung"],
+    "sentences": [
+      { "de": "Die Arbeit mit Patienten verursacht eine hohe emotionale Belastung.", "fa": "کار با بیماران بار عاطفی بالایی ایجاد می‌کند." },
+      { "de": "Er konnte die emotionale Belastung des Streits nicht mehr ertragen.", "fa": "او دیگر نمی‌توانست بار عاطفی دعوا را تحمل کند." },
+      { "de": "Emotionale Belastung am Arbeitsplatz kann zu Burnout führen.", "fa": "بار عاطفی در محل کار می‌تواند منجر به فرسودگی شود." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "201",
+    "level": "B2",
+    "type": "Adjektiv + Nomen",
+    "word": "finanzielle Unabhängigkeit",
+    "meaning": "استقلال مالی",
+    "antonyms": ["finanzielle Abhängigkeit"],
+    "synonyms": ["wirtschaftliche Unabhängigkeit", "finanzielle Freiheit"],
+    "sentences": [
+      { "de": "Sie strebt nach finanzieller Unabhängigkeit von ihren Eltern.", "fa": "او به دنبال استقلال مالی از والدینش است." },
+      { "de": "Finanzielle Unabhängigkeit gibt einem mehr Freiheit im Leben.", "fa": "استقلال مالی آزادی بیشتری در زندگی به انسان می‌دهد." },
+      { "de": "Durch Sparen erreicht man langfristig finanzielle Unabhängigkeit.", "fa": "با پس‌انداز در بلندمدت به استقلال مالی می‌رسیم." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "202",
+    "level": "B2",
+    "type": "Adjektiv + Nomen",
+    "word": "rechtliche Grundlage",
+    "meaning": "اساس قانونی / پایه حقوقی",
+    "antonyms": ["rechtliche Unsicherheit"],
+    "synonyms": ["gesetzliche Grundlage", "juristische Basis"],
+    "sentences": [
+      { "de": "Das Projekt hat eine solide rechtliche Grundlage.", "fa": "این پروژه دارای اساس قانونی محکمی است." },
+      { "de": "Ohne rechtliche Grundlage darf die Maßnahme nicht umgesetzt werden.", "fa": "بدون اساس قانونی نمی‌توان این اقدام را اجرا کرد." },
+      { "de": "Die rechtliche Grundlage für den Vertrag wurde sorgfältig geprüft.", "fa": "اساس قانونی قرارداد با دقت بررسی شد." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "203",
+    "level": "B2",
+    "type": "Adjektiv + Nomen",
+    "word": "wissenschaftliche Erkenntnisse",
+    "meaning": "یافته‌های علمی",
+    "antonyms": ["unwissenschaftliche Erkenntnisse"],
+    "synonyms": ["wissenschaftliche Ergebnisse", "neue Erkenntnisse"],
+    "sentences": [
+      { "de": "Die neuesten wissenschaftlichen Erkenntnisse wurden auf der Konferenz vorgestellt.", "fa": "جدیدترین یافته‌های علمی در کنفرانس ارائه شد." },
+      { "de": "Wissenschaftliche Erkenntnisse helfen uns, die Welt besser zu verstehen.", "fa": "یافته‌های علمی به ما کمک می‌کنند جهان را بهتر بفهمیم." },
+      { "de": "Basierend auf wissenschaftlichen Erkenntnissen wurde die Therapie verbessert.", "fa": "بر اساس یافته‌های علمی، درمان بهبود یافت." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "204",
+    "level": "C1",
+    "type": "Adverbial Phrase",
+    "word": "weit entfernt",
+    "meaning": "دور از انتظار، خیلی فاصله‌دار",
+    "antonyms": ["nah", "in der Nähe"],
+    "synonyms": ["weit weg", "entfernt"],
+    "sentences": [
+      { "de": "Das Ziel scheint noch weit entfernt zu sein.", "fa": "هدف هنوز خیلی دور به نظر می‌رسد." },
+      { "de": "Die Lösung ist weit entfernt von dem, was wir erwartet haben.", "fa": "راه‌حل خیلی دور از چیزی است که انتظار داشتیم." },
+      { "de": "Seine Meinung ist von meiner weit entfernt.", "fa": "نظر او خیلی از نظر من فاصله دارد." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "205",
+    "level": "C1",
+    "type": "Adverbial Phrase",
+    "word": "stark gesunken",
+    "meaning": "به شدت کاهش یافته",
+    "antonyms": ["stark gestiegen"],
+    "synonyms": ["deutlich gefallen", "stark verringert"],
+    "sentences": [
+      { "de": "Der Preis ist stark gesunken.", "fa": "قیمت به شدت کاهش یافته است." },
+      { "de": "Das Interesse der Öffentlichkeit ist stark gesunken.", "fa": "علاقه عمومی به شدت کاهش یافته است." },
+      { "de": "Die Temperatur ist in der Nacht stark gesunken.", "fa": "دما در شب به شدت پایین آمده است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "206",
+    "level": "C1",
+    "type": "Adverbial Phrase",
+    "word": "deutlich besser",
+    "meaning": "به طور واضح بهتر",
+    "antonyms": ["deutlich schlechter"],
+    "synonyms": ["wesentlich besser", "spürbar besser"],
+    "sentences": [
+      { "de": "Seine Leistung ist deutlich besser geworden.", "fa": "عملکرد او به طور واضح بهتر شده است." },
+      { "de": "Das neue Modell ist deutlich besser als das alte.", "fa": "مدل جدید به طور واضح بهتر از مدل قدیمی است." },
+      { "de": "Die Situation hat sich deutlich besser entwickelt.", "fa": "وضعیت به طور واضح بهتر پیشرفت کرده است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "207",
+    "level": "C1",
+    "type": "Adverbial Phrase",
+    "word": "erheblich höher",
+    "meaning": "به طور قابل توجهی بالاتر",
+    "antonyms": ["erheblich niedriger"],
+    "synonyms": ["viel höher", "deutlich höher"],
+    "sentences": [
+      { "de": "Die Kosten sind erheblich höher als geplant.", "fa": "هزینه‌ها به طور قابل توجهی بالاتر از برنامه‌ریزی شده است." },
+      { "de": "Das Niveau ist erheblich höher als früher.", "fa": "سطح به طور قابل توجهی بالاتر از قبل است." },
+      { "de": "Die Chancen sind erheblich höher geworden.", "fa": "شانس‌ها به طور قابل توجهی بالاتر رفته است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "208",
+    "level": "C1",
+    "type": "Adverbial Phrase",
+    "word": "vollständig zerstört",
+    "meaning": "کاملاً نابود شده",
+    "antonyms": ["vollständig erhalten"],
+    "synonyms": ["völlig zerstört", "total vernichtet"],
+    "sentences": [
+      { "de": "Das Gebäude wurde vollständig zerstört.", "fa": "ساختمان کاملاً نابود شده است." },
+      { "de": "Die Hoffnungen sind vollständig zerstört worden.", "fa": "امیدها کاملاً نابود شده‌اند." },
+      { "de": "Die alte Brücke ist vollständig zerstört.", "fa": "پل قدیمی کاملاً نابود شده است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "209",
+    "level": "C1",
+    "type": "Verb + Adverb",
+    "word": "erfolgreich abschließen",
+    "meaning": "با موفقیت به پایان رساندن",
+    "antonyms": ["erfolglos abschließen"],
+    "synonyms": ["erfolgreich beenden"],
+    "sentences": [
+      { "de": "Er konnte das Projekt erfolgreich abschließen.", "fa": "او توانست پروژه را با موفقیت به پایان برساند." },
+      { "de": "Sie hat ihr Studium erfolgreich abgeschlossen.", "fa": "او تحصیلات خود را با موفقیت به پایان رساند." },
+      { "de": "Das Team wird die Verhandlungen erfolgreich abschließen.", "fa": "تیم مذاکرات را با موفقیت به پایان خواهد رساند." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "210",
+    "level": "C1",
+    "type": "Verb + Adverb",
+    "word": "rechtzeitig ankommen",
+    "meaning": "به موقع رسیدن",
+    "antonyms": ["zu spät ankommen"],
+    "synonyms": ["pünktlich ankommen"],
+    "sentences": [
+      { "de": "Wir müssen rechtzeitig ankommen, um den Zug nicht zu verpassen.", "fa": "باید به موقع برسیم تا قطار را از دست ندهیم." },
+      { "de": "Der Brief ist rechtzeitig angekommen.", "fa": "نامه به موقع رسیده است." },
+      { "de": "Sie werden rechtzeitig ankommen, wenn sie jetzt losfahren.", "fa": "اگر الان حرکت کنند، به موقع خواهند رسید." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "211",
+    "level": "C1",
+    "type": "Verb + Adverb",
+    "word": "sorgfältig prüfen",
+    "meaning": "با دقت بررسی کردن",
+    "antonyms": ["oberflächlich prüfen"],
+    "synonyms": ["genau prüfen"],
+    "sentences": [
+      { "de": "Man sollte den Vertrag sorgfältig prüfen.", "fa": "باید قرارداد را با دقت بررسی کرد." },
+      { "de": "Der Arzt hat die Ergebnisse sorgfältig geprüft.", "fa": "پزشک نتایج را با دقت بررسی کرده است." },
+      { "de": "Ich werde die Dokumente sorgfältig prüfen.", "fa": "اسناد را با دقت بررسی خواهم کرد." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "212",
+    "level": "C1",
+    "type": "Verb + Adverb",
+    "word": "öffentlich äußern",
+    "meaning": "به طور عمومی بیان کردن",
+    "antonyms": ["privat äußern"],
+    "synonyms": ["öffentlich sagen"],
+    "sentences": [
+      { "de": "Er wagte es nicht, seine Meinung öffentlich zu äußern.", "fa": "او جرات نکرد نظر خود را به طور عمومی بیان کند." },
+      { "de": "Die Kritik wurde öffentlich geäußert.", "fa": "انتقاد به طور عمومی بیان شد." },
+      { "de": "Sie wird ihre Bedenken öffentlich äußern.", "fa": "او نگرانی‌های خود را به طور عمومی بیان خواهد کرد." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "213",
+    "level": "C1",
+    "type": "Verb + Adverb",
+    "word": "strikt ablehnen",
+    "meaning": "به شدت رد کردن",
+    "antonyms": ["akzeptieren"],
+    "synonyms": ["entschieden ablehnen"],
+    "sentences": [
+      { "de": "Die Regierung hat den Vorschlag strikt abgelehnt.", "fa": "دولت پیشنهاد را به شدت رد کرده است." },
+      { "de": "Ich lehne diese Idee strikt ab.", "fa": "این ایده را به شدت رد می‌کنم." },
+      { "de": "Das Unternehmen wird die Bedingungen strikt ablehnen.", "fa": "شرکت شرایط را به شدت رد خواهد کرد." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "214",
+    "level": "C1",
+    "type": "Idiom",
+    "word": "einen Streit vom Zaun brechen",
+    "meaning": "دعوا راه انداختن، بهانه برای مشاجره گرفتن",
+    "antonyms": ["Frieden halten"],
+    "synonyms": ["einen Streit provozieren"],
+    "sentences": [
+      { "de": "Er hat wieder einen Streit vom Zaun gebrochen.", "fa": "او دوباره دعوا راه انداخته است." },
+      { "de": "Warum musst du immer einen Streit vom Zaun brechen?", "fa": "چرا همیشه باید دعوا راه بیندازی؟" },
+      { "de": "Sie versuchte, keinen Streit vom Zaun zu brechen.", "fa": "او تلاش کرد دعوایی راه نیندازد." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "215",
+    "level": "C1",
+    "type": "Idiom",
+    "word": "einen Skandal auslösen",
+    "meaning": "ایجاد رسوایی کردن",
+    "antonyms": ["keinen Skandal verursachen"],
+    "synonyms": ["einen Skandal verursachen"],
+    "sentences": [
+      { "de": "Die Enthüllung löste einen großen Skandal aus.", "fa": "افشاگری یک رسوایی بزرگ ایجاد کرد." },
+      { "de": "Seine Aussage hat einen Skandal ausgelöst.", "fa": "اظهار نظر او رسوایی به پا کرد." },
+      { "de": "Das Foto könnte einen Skandal auslösen.", "fa": "این عکس ممکن است رسوایی ایجاد کند." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "216",
+    "level": "C1",
+    "type": "Idiom",
+    "word": "eine Krise bewältigen",
+    "meaning": "بحران را مدیریت کردن، بر بحران غلبه کردن",
+    "antonyms": ["eine Krise verschärfen"],
+    "synonyms": ["eine Krise meistern"],
+    "sentences": [
+      { "de": "Die Regierung muss die aktuelle Krise bewältigen.", "fa": "دولت باید بحران فعلی را مدیریت کند." },
+      { "de": "Sie haben die finanzielle Krise erfolgreich bewältigt.", "fa": "آنها بحران مالی را با موفقیت پشت سر گذاشتند." },
+      { "de": "Es ist schwer, diese Krise zu bewältigen.", "fa": "مدیریت این بحران دشوار است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "217",
+    "level": "C1",
+    "type": "Idiom",
+    "word": "die Geduld auf die Probe stellen",
+    "meaning": "صبر کسی را به چالش کشیدن",
+    "antonyms": ["Geduld zeigen"],
+    "synonyms": ["jemandes Geduld strapazieren"],
+    "sentences": [
+      { "de": "Seine Verspätungen stellen meine Geduld auf die Probe.", "fa": "تأخیرهای او صبر مرا به چالش می‌کشد." },
+      { "de": "Das Projekt stellt die Geduld aller Beteiligten auf die Probe.", "fa": "این پروژه صبر همه دست‌اندرکاران را به چالش می‌کشد." },
+      { "de": "Bitte stell meine Geduld nicht auf die Probe.", "fa": "لطفاً صبر مرا به چالش نکش." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "218",
+    "level": "C1",
+    "type": "Idiom",
+    "word": "den Nagel auf den Kopf treffen",
+    "meaning": "مخ می‌زدن، دقیقاً درست گفتن",
+    "antonyms": ["völlig danebenliegen"],
+    "synonyms": ["genau richtig liegen"],
+    "sentences": [
+      { "de": "Mit seiner Analyse hat er den Nagel auf den Kopf getroffen.", "fa": "با تحلیلش دقیقاً مخ زده است." },
+      { "de": "Du hast den Nagel auf den Kopf getroffen.", "fa": "دقیقاً درست گفتی." },
+      { "de": "Ihre Bemerkung traf den Nagel auf den Kopf.", "fa": "اظهار نظر او دقیقاً به هدف خورد." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "219",
+    "level": "C1",
+    "type": "Idiom",
+    "word": "den Mund halten",
+    "meaning": "دهان خود را بستن، ساکت ماندن",
+    "antonyms": ["reden"],
+    "synonyms": ["schweigen"],
+    "sentences": [
+      { "de": "Du solltest besser den Mund halten.", "fa": "بهتر است دهانت را ببندی." },
+      { "de": "Er konnte einfach nicht den Mund halten.", "fa": "او اصلاً نمی‌توانست ساکت بماند." },
+      { "de": "Halt einfach den Mund darüber.", "fa": "فقط در این مورد ساکت باش." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "220",
+    "level": "C1",
+    "type": "Idiom",
+    "word": "die Karten auf den Tisch legen",
+    "meaning": "رو کردن کارت‌ها، همه چیز را آشکار کردن",
+    "antonyms": ["etwas verheimlichen"],
+    "synonyms": ["offenlegen"],
+    "sentences": [
+      { "de": "Es ist Zeit, die Karten auf den Tisch zu legen.", "fa": "زمان آن رسیده که کارت‌ها را رو کنیم." },
+      { "de": "Er legte endlich die Karten auf den Tisch.", "fa": "او بالاخره همه چیز را آشکار کرد." },
+      { "de": "Sie weigerte sich, die Karten auf den Tisch zu legen.", "fa": "او از آشکار کردن همه چیز امتناع کرد." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "221",
+    "level": "C1",
+    "type": "Idiom",
+    "word": "einen Stein ins Rollen bringen",
+    "meaning": "سنگ را به غلتاندن، کاری را آغاز کردن",
+    "antonyms": ["nichts tun"],
+    "synonyms": ["etwas in Gang setzen"],
+    "sentences": [
+      { "de": "Mit seinem Brief hat er einen Stein ins Rollen gebracht.", "fa": "با نامه‌اش سنگ را به غلتاند." },
+      { "de": "Die Untersuchung brachte einen Stein ins Rollen.", "fa": "تحقیقات کاری را آغاز کرد." },
+      { "de": "Sie wollen einen Stein ins Rollen bringen.", "fa": "آنها می‌خواهند کاری را شروع کنند." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "222",
+    "level": "C1",
+    "type": "Idiom",
+    "word": "den Bogen überspannen",
+    "meaning": "زیاده‌روی کردن، از حد گذشتن",
+    "antonyms": ["Maß halten"],
+    "synonyms": ["übertreiben"],
+    "sentences": [
+      { "de": "Mit seiner Forderung hat er den Bogen überspannt.", "fa": "با درخواستش از حد گذشت." },
+      { "de": "Du spannst den Bogen zu weit überspannt.", "fa": "داری خیلی زیاده‌روی می‌کنی." },
+      { "de": "Er sollte den Bogen nicht überspannen.", "fa": "نباید از حد بگذرد." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "223",
+    "level": "C1",
+    "type": "Idiom",
+    "word": "die Flinte ins Korn werfen",
+    "meaning": "ناامید شدن و تسلیم شدن، زود تسلیم شدن",
+    "antonyms": ["durchhalten"],
+    "synonyms": ["aufgeben"],
+    "sentences": [
+      { "de": "Wirf nicht gleich die Flinte ins Korn.", "fa": "زود تسلیم نشو." },
+      { "de": "Er hat die Flinte ins Korn geworfen.", "fa": "او ناامید شد و تسلیم شد." },
+      { "de": "Sie ist nicht der Typ, der die Flinte ins Korn wirft.", "fa": "او از آن آدم‌هایی نیست که زود تسلیم شوند." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "224",
+    "level": "C1",
+    "type": "Idiom",
+    "word": "einen Schritt zurücktreten",
+    "meaning": "یک قدم عقب رفتن، عقب‌نشینی کردن",
+    "antonyms": ["voranschreiten"],
+    "synonyms": ["zurückweichen"],
+    "sentences": [
+      { "de": "Manchmal muss man einen Schritt zurücktreten.", "fa": "گاهی باید یک قدم عقب رفت." },
+      { "de": "Er trat einen Schritt zurück, um die Situation zu überblicken.", "fa": "او یک قدم عقب رفت تا وضعیت را بهتر ببیند." },
+      { "de": "Die Partei ist einen Schritt zurückgetreten.", "fa": "حزب یک قدم عقب‌نشینی کرده است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "225",
+    "level": "C1",
+    "type": "Idiom",
+    "word": "die Oberhand gewinnen",
+    "meaning": "برتری یافتن، کنترل را به دست گرفتن",
+    "antonyms": ["die Oberhand verlieren"],
+    "synonyms": ["die Oberhand behalten"],
+    "sentences": [
+      { "de": "Das Team gewann schließlich die Oberhand.", "fa": "تیم در نهایت برتری یافت." },
+      { "de": "Er hat in der Diskussion die Oberhand gewonnen.", "fa": "او در بحث برتری یافت." },
+      { "de": "Die Vernunft wird die Oberhand gewinnen.", "fa": "عقل سرانجام برتری خواهد یافت." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  }
+
+
+]

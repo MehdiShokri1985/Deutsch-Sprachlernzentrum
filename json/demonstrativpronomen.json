@@ -1,0 +1,827 @@
+[
+  {
+    "id": "1",
+    "level": "A1",
+    "type": "Nominativ",
+    "word": "dieser",
+    "meaning": "این (مذکر)",
+    "antonyms": ["jener"],
+    "synonyms": ["der"],
+    "sentences": [
+      { "de": "Dieser Mann ist mein Lehrer.", "fa": "این مرد معلم من است." },
+      { "de": "Dieser Apfel ist rot und groß.", "fa": "این سیب قرمز و بزرگ است." },
+      { "de": "Dieser Film war sehr interessant.", "fa": "این فیلم خیلی جالب بود." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "2",
+    "level": "A1",
+    "type": "Nominativ",
+    "word": "diese",
+    "meaning": "این (مونث / جمع)",
+    "antonyms": ["jene"],
+    "synonyms": ["die"],
+    "sentences": [
+      { "de": "Diese Frau ist meine Schwester.", "fa": "این زن خواهر من است." },
+      { "de": "Diese Blume ist sehr schön.", "fa": "این گل خیلی زیبا است." },
+      { "de": "Diese Bücher sind neu.", "fa": "این کتاب‌ها جدید هستند." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "3",
+    "level": "A1",
+    "type": "Nominativ",
+    "word": "dieses",
+    "meaning": "این (خنثی)",
+    "antonyms": ["jenes"],
+    "synonyms": ["das"],
+    "sentences": [
+      { "de": "Dieses Kind spielt im Garten.", "fa": "این کودک در باغ بازی می‌کند." },
+      { "de": "Dieses Haus ist sehr alt.", "fa": "این خانه خیلی قدیمی است." },
+      { "de": "Dieses Auto fährt schnell.", "fa": "این ماشین سریع حرکت می‌کند." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "4",
+    "level": "A1",
+    "type": "Nominativ",
+    "word": "jener",
+    "meaning": "آن (مذکر)",
+    "antonyms": ["dieser"],
+    "synonyms": ["der"],
+    "sentences": [
+      { "de": "Jener Mann dort ist mein Onkel.", "fa": "آن مرد آنجا عموی من است." },
+      { "de": "Jener Berg ist sehr hoch.", "fa": "آن کوه خیلی بلند است." },
+      { "de": "Jener Hund gehört meinem Nachbarn.", "fa": "آن سگ متعلق به همسایه من است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "5",
+    "level": "A1",
+    "type": "Nominativ",
+    "word": "jene",
+    "meaning": "آن (مونث / جمع)",
+    "antonyms": ["diese"],
+    "synonyms": ["die"],
+    "sentences": [
+      { "de": "Jene Frau ist unsere Lehrerin.", "fa": "آن زن معلم ماست." },
+      { "de": "Jene Stadt ist sehr groß.", "fa": "آن شهر خیلی بزرگ است." },
+      { "de": "Jene Bücher sind alt.", "fa": "آن کتاب‌ها قدیمی هستند." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "6",
+    "level": "A1",
+    "type": "Nominativ",
+    "word": "jenes",
+    "meaning": "آن (خنثی)",
+    "antonyms": ["dieses"],
+    "synonyms": ["das"],
+    "sentences": [
+      { "de": "Jenes Kind ist sehr ruhig.", "fa": "آن کودک خیلی آرام است." },
+      { "de": "Jenes Problem ist kompliziert.", "fa": "آن مشکل پیچیده است." },
+      { "de": "Jenes Haus gehört meiner Tante.", "fa": "آن خانه متعلق به عمه من است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "7",
+    "level": "A1",
+    "type": "Nominativ",
+    "word": "der",
+    "meaning": "مرد / آن (مذکر معین)",
+    "antonyms": [],
+    "synonyms": ["dieser", "jener"],
+    "sentences": [
+      { "de": "Der Mann arbeitet hier.", "fa": "مرد اینجا کار می‌کند." },
+      { "de": "Der Tisch ist rund.", "fa": "میز گرد است." },
+      { "de": "Der Himmel ist blau.", "fa": "آسمان آبی است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "8",
+    "level": "A1",
+    "type": "Nominativ",
+    "word": "die",
+    "meaning": "زن / آن (مونث معین / جمع)",
+    "antonyms": [],
+    "synonyms": ["diese", "jene"],
+    "sentences": [
+      { "de": "Die Frau liest ein Buch.", "fa": "زن کتاب می‌خواند." },
+      { "de": "Die Blumen sind schön.", "fa": "گل‌ها زیبا هستند." },
+      { "de": "Die Katze schläft.", "fa": "گربه خوابیده است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "9",
+    "level": "A1",
+    "type": "Nominativ",
+    "word": "das",
+    "meaning": "آن (خنثی معین)",
+    "antonyms": [],
+    "synonyms": ["dieses", "jenes"],
+    "sentences": [
+      { "de": "Das Kind spielt Fußball.", "fa": "کودک فوتبال بازی می‌کند." },
+      { "de": "Das Haus ist weiß.", "fa": "خانه سفید است." },
+      { "de": "Das Auto ist neu.", "fa": "ماشین جدید است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "10",
+    "level": "A2",
+    "type": "Nominativ ",
+    "word": "dieser",
+    "meaning": "این (مذکر)",
+    "antonyms": [],
+    "synonyms": ["der da"],
+    "sentences": [
+      { "de": "Dieser Mann ist mein Lehrer.", "fa": "این مرد معلم من است." },
+      { "de": "Dieser Tisch ist größer als der andere.", "fa": "این میز بزرگ‌تر از میز دیگر است." },
+      { "de": "Dieser Film war sehr spannend.", "fa": "این فیلم خیلی هیجان‌انگیز بود." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "11",
+    "level": "A2",
+    "type": "Nominativ ",
+    "word": "diese",
+    "meaning": "این (مؤنث)",
+    "antonyms": [],
+    "synonyms": ["die da"],
+    "sentences": [
+      { "de": "Diese Frau arbeitet in der Bank.", "fa": "این زن در بانک کار می‌کند." },
+      { "de": "Diese Blume ist sehr schön.", "fa": "این گل خیلی زیبا است." },
+      { "de": "Diese Idee gefällt mir gut.", "fa": "این ایده خیلی به من خوش می‌آید." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "12",
+    "level": "A2",
+    "type": "Nominativ ",
+    "word": "dieses",
+    "meaning": "این (خنثی)",
+    "antonyms": [],
+    "synonyms": ["das da"],
+    "sentences": [
+      { "de": "Dieses Buch ist interessant.", "fa": "این کتاب جالب است." },
+      { "de": "Dieses Haus ist neu.", "fa": "این خانه جدید است." },
+      { "de": "Dieses Problem ist einfach.", "fa": "این مشکل ساده است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "13",
+    "level": "A2",
+    "type": "Nominativ ",
+    "word": "jener",
+    "meaning": "آن (مذکر)",
+    "antonyms": [],
+    "synonyms": ["der dort"],
+    "sentences": [
+      { "de": "Jener Mann dort ist mein Nachbar.", "fa": "آن مرد آنجا همسایه من است." },
+      { "de": "Jener Berg ist sehr hoch.", "fa": "آن کوه خیلی بلند است." },
+      { "de": "Jener Wagen gehört meinem Freund.", "fa": "آن ماشین متعلق به دوست من است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "14",
+    "level": "A2",
+    "type": "Nominativ ",
+    "word": "jene",
+    "meaning": "آن (مؤنث)",
+    "antonyms": [],
+    "synonyms": ["die dort"],
+    "sentences": [
+      { "de": "Jene Frau ist meine Tante.", "fa": "آن زن عمه/خاله من است." },
+      { "de": "Jene Stadt liegt weit weg.", "fa": "آن شهر خیلی دور است." },
+      { "de": "Jene Lösung ist besser.", "fa": "آن راه‌حل بهتر است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "15",
+    "level": "A2",
+    "type": "Nominativ ",
+    "word": "jenes",
+    "meaning": "آن (خنثی)",
+    "antonyms": [],
+    "synonyms": ["das dort"],
+    "sentences": [
+      { "de": "Jenes Kind spielt im Garten.", "fa": "آن کودک در باغ بازی می‌کند." },
+      { "de": "Jenes Auto ist sehr alt.", "fa": "آن ماشین خیلی قدیمی است." },
+      { "de": "Jenes Haus gehört meiner Familie.", "fa": "آن خانه متعلق به خانواده من است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "16",
+    "level": "A2",
+    "type": "Akkusativ ",
+    "word": "diesen",
+    "meaning": "این (مذکر مفعول مستقیم)",
+    "antonyms": ["jenen"],
+    "synonyms": ["den"],
+    "sentences": [
+      { "de": "Ich kenne diesen Mann gut.", "fa": "من این مرد را خوب می‌شناسم." },
+      { "de": "Kannst du diesen Tisch bitte bewegen?", "fa": "می‌توانی لطفاً این میز را جابه‌جا کنی؟" },
+      { "de": "Sie hat diesen Vorschlag gestern akzeptiert.", "fa": "او این پیشنهاد را دیروز پذیرفت." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "17",
+    "level": "A2",
+    "type": "Akkusativ ",
+    "word": "diese",
+    "meaning": "این (مونث یا جمع مفعول مستقیم)",
+    "antonyms": ["jene"],
+    "synonyms": ["die"],
+    "sentences": [
+      { "de": "Ich sehe diese Frau jeden Tag.", "fa": "من این زن را هر روز می‌بینم." },
+      { "de": "Wir brauchen diese Bücher für die Prüfung.", "fa": "ما این کتاب‌ها را برای امتحان نیاز داریم." },
+      { "de": "Hast du diese Idee schon jemandem erzählt?", "fa": "آیا این ایده را قبلاً برای کسی تعریف کرده‌ای؟" }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "18",
+    "level": "A2",
+    "type": "Akkusativ ",
+    "word": "dieses",
+    "meaning": "این (خنثی مفعول مستقیم)",
+    "antonyms": ["jenes"],
+    "synonyms": ["das"],
+    "sentences": [
+      { "de": "Ich habe dieses Auto letzte Woche gekauft.", "fa": "من این ماشین را هفته گذشته خریدم." },
+      { "de": "Kannst du dieses Geschenk für mich einpacken?", "fa": "می‌توانی این هدیه را برای من بسته‌بندی کنی؟" },
+      { "de": "Sie hat dieses Problem schnell gelöst.", "fa": "او این مشکل را سریع حل کرد." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "19",
+    "level": "A2",
+    "type": "Akkusativ ",
+    "word": "jenen",
+    "meaning": "آن (مذکر مفعول مستقیم)",
+    "antonyms": ["diesen"],
+    "synonyms": ["den"],
+    "sentences": [
+      { "de": "Er spricht mit jenen Leuten dort drüben.", "fa": "او با آن مردم آنجا صحبت می‌کند." },
+      { "de": "Ich erinnere mich an jenen Tag im Sommer.", "fa": "من آن روز تابستانی را به یاد می‌آورم." },
+      { "de": "Wir haben jenen Film schon zweimal gesehen.", "fa": "ما آن فیلم را قبلاً دو بار دیده‌ایم." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "20",
+    "level": "A2",
+    "type": "Akkusativ ",
+    "word": "jene",
+    "meaning": "آن (مونث یا جمع مفعول مستقیم)",
+    "antonyms": ["diese"],
+    "synonyms": ["die"],
+    "sentences": [
+      { "de": "Sie besucht jene Stadt jeden Sommer.", "fa": "او هر تابستان به آن شهر می‌رود." },
+      { "de": "Ich mag jene Blumen im Garten.", "fa": "من آن گل‌ها در باغ را دوست دارم." },
+      { "de": "Kannst du jene Fragen später beantworten?", "fa": "می‌توانی آن سؤال‌ها را بعداً جواب دهی؟" }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "21",
+    "level": "A2",
+    "type": "Akkusativ ",
+    "word": "jenes",
+    "meaning": "آن (خنثی مفعول مستقیم)",
+    "antonyms": ["dieses"],
+    "synonyms": ["das"],
+    "sentences": [
+      { "de": "Ich habe jenes Haus früher einmal besucht.", "fa": "من قبلاً یک بار به آن خانه رفته‌ام." },
+      { "de": "Er hat jenes Problem nicht verstanden.", "fa": "او آن مشکل را متوجه نشد." },
+      { "de": "Wir diskutieren über jenes Thema morgen.", "fa": "ما فردا درباره آن موضوع بحث می‌کنیم." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "22",
+    "level": "B1",
+    "type": "Dativ",
+    "word": "diesem",
+    "meaning": "به این (مذکر/خنثی)",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      { "de": "Ich habe diesem Mann ein Buch gegeben.", "fa": "من به این مرد یک کتاب دادم." },
+      { "de": "Sie hat diesem Problem viel Zeit gewidmet.", "fa": "او زمان زیادی را به این مشکل اختصاص داد." },
+      { "de": "Der Lehrer erklärt die Regel diesem Schüler ausführlich.", "fa": "معلم این قاعده را به این دانش‌آموز به طور مفصل توضیح می‌دهد." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "23",
+    "level": "B1",
+    "type": "Dativ",
+    "word": "dieser",
+    "meaning": "به این (مؤنث)",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      { "de": "Ich habe dieser Frau geholfen.", "fa": "من به این زن کمک کردم." },
+      { "de": "Er hat dieser Idee zugestimmt.", "fa": "او با این ایده موافقت کرد." },
+      { "de": "Die Firma hat dieser Kundin ein Angebot geschickt.", "fa": "شرکت به این مشتری زن یک پیشنهاد ارسال کرد." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "24",
+    "level": "B1",
+    "type": "Dativ",
+    "word": "diesem",
+    "meaning": "به این (مذکر/خنثی)",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      { "de": "Wir vertrauen diesem Kollegen vollkommen.", "fa": "ما کاملاً به این همکار اعتماد داریم." },
+      { "de": "Sie hat diesem Projekt viel Arbeit investiert.", "fa": "او کار زیادی را به این پروژه سرمایه‌گذاری کرد." },
+      { "de": "Der Vater hat diesem Kind ein neues Fahrrad gekauft.", "fa": "پدر برای این کودک یک دوچرخه جدید خرید." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "25",
+    "level": "B1",
+    "type": "Dativ",
+    "word": "jenem",
+    "meaning": "به آن (مذکر/خنثی)",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      { "de": "Ich habe jenem Mann die Adresse gegeben.", "fa": "من آدرس را به آن مرد دادم." },
+      { "de": "Sie denkt oft an jenem Ereignis zurück.", "fa": "او اغلب به آن رویداد فکر می‌کند." },
+      { "de": "Der Polizist hat jenem Fahrer eine Strafe gegeben.", "fa": "پلیس به آن راننده جریمه داد." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "26",
+    "level": "B1",
+    "type": "Dativ",
+    "word": "jener",
+    "meaning": "به آن (مؤنث)",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      { "de": "Er hat jener Dame die Tür geöffnet.", "fa": "او در را برای آن خانم باز کرد." },
+      { "de": "Wir haben jener Frage keine Aufmerksamkeit geschenkt.", "fa": "ما به آن سؤال هیچ توجهی نکردیم." },
+      { "de": "Die Lehrerin hat jener Schülerin extra Hilfe angeboten.", "fa": "معلم زن به آن دانش‌آموز دختر کمک اضافی پیشنهاد کرد." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "27",
+    "level": "B1",
+    "type": "Dativ",
+    "word": "jenem",
+    "meaning": "به آن (مذکر/خنثی)",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      { "de": "Ich erinnere mich an jenem Tag sehr gut.", "fa": "من آن روز را خیلی خوب به یاد دارم." },
+      { "de": "Sie hat jenem Vorschlag zugestimmt.", "fa": "او با آن پیشنهاد موافقت کرد." },
+      { "de": "Der Manager hat jenem Team mehr Ressourcen gegeben.", "fa": "مدیر به آن تیم منابع بیشتری داد." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  }, 
+  {
+    "id": "28",
+    "level": "B1",
+    "type": "Genitiv ",
+    "word": "dieses",
+    "meaning": "این (ملکی - مذکر/خنثی)",
+    "antonyms": [],
+    "synonyms": ["jenes"],
+    "sentences": [
+      { "de": "Der Preis dieses Autos ist sehr hoch.", "fa": "قیمت این ماشین خیلی بالاست." },
+      { "de": "Wegen dieses Problems konnten wir nicht weiterfahren.", "fa": "به خاطر این مشکل نتوانستیم ادامه دهیم." },
+      { "de": "Die Farbe dieses Hauses gefällt mir besser als die des anderen.", "fa": "رنگ این خانه بیشتر از خانه دیگر به من خوش می‌آید." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "29",
+    "level": "B1",
+    "type": "Genitiv ",
+    "word": "dieser",
+    "meaning": "این (ملکی - مؤنث)",
+    "antonyms": [],
+    "synonyms": ["jener"],
+    "sentences": [
+      { "de": "Die Qualität dieser Arbeit ist ausgezeichnet.", "fa": "کیفیت این کار عالی است." },
+      { "de": "Trotz dieser Gelegenheit hat er nichts unternommen.", "fa": "با وجود این فرصت، او هیچ کاری انجام نداد." },
+      { "de": "Der Erfolg dieser Firma hängt von ihren Mitarbeitern ab.", "fa": "موفقیت این شرکت به کارکنانش بستگی دارد." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "30",
+    "level": "B1",
+    "type": "Genitiv ",
+    "word": "dieses",
+    "meaning": "این (ملکی - خنثی)",
+    "antonyms": [],
+    "synonyms": ["jenes"],
+    "sentences": [
+      { "de": "Die Bedeutung dieses Themas ist sehr groß.", "fa": "اهمیت این موضوع بسیار زیاد است." },
+      { "de": "Im Rahmen dieses Projekts haben wir viel gelernt.", "fa": "در چارچوب این پروژه چیزهای زیادی یاد گرفتیم." },
+      { "de": "Die Lösung dieses Rätsels war einfacher als erwartet.", "fa": "راه‌حل این معما ساده‌تر از آنچه انتظار می‌رفت بود." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "31",
+    "level": "B1",
+    "type": "Genitiv ",
+    "word": "jenes",
+    "meaning": "آن (ملکی - مذکر/خنثی)",
+    "antonyms": [],
+    "synonyms": ["dieses"],
+    "sentences": [
+      { "de": "Die Lage jenes Landes hat sich verbessert.", "fa": "وضعیت آن کشور بهبود یافته است." },
+      { "de": "Erinnerst du dich an die Farbe jenes Buches?", "fa": "رنگ آن کتاب را به یاد می‌آوری؟" },
+      { "de": "Der Stil jenes Gebäudes ist sehr modern.", "fa": "سبک آن ساختمان بسیار مدرن است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "32",
+    "level": "B1",
+    "type": "Genitiv ",
+    "word": "jener",
+    "meaning": "آن (ملکی - مؤنث)",
+    "antonyms": [],
+    "synonyms": ["dieser"],
+    "sentences": [
+      { "de": "Die Bewohner jener Stadt sind sehr freundlich.", "fa": "مردم آن شهر بسیار دوستانه هستند." },
+      { "de": "Trotz jener Schwierigkeit haben wir das Ziel erreicht.", "fa": "با وجود آن مشکل به هدف رسیدیم." },
+      { "de": "Die Geschichte jener Frau ist wirklich beeindruckend.", "fa": "داستان آن زن واقعاً تأثیرگذار است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "33",
+    "level": "B1",
+    "type": "Genitiv ",
+    "word": "jenes",
+    "meaning": "آن (ملکی - خنثی)",
+    "antonyms": [],
+    "synonyms": ["dieses"],
+    "sentences": [
+      { "de": "Die Bedeutung jenes Ereignisses wurde unterschätzt.", "fa": "اهمیت آن رویداد دست‌کم گرفته شد." },
+      { "de": "Die Regeln jenes Spiels sind kompliziert.", "fa": "قوانین آن بازی پیچیده هستند." },
+      { "de": "Der Inhalt jenes Briefes hat mich überrascht.", "fa": "محتوای آن نامه مرا شگفت‌زده کرد." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+
+  {
+    "id": "34",
+    "level": "B1",
+    "type": "",
+    "word": "solcher",
+    "meaning": "چنین / این چنین (مذکر)",
+    "antonyms": [],
+    "synonyms": ["derartiger", "dergleichen"],
+    "sentences": [
+      { "de": "Ich habe noch nie solcher Schwierigkeiten erlebt.", "fa": "من هنوز هرگز با چنین مشکلاتی روبرو نشده‌ام." },
+      { "de": "Solcher Mann kann die Aufgabe nicht allein schaffen.", "fa": "چنین مردی نمی‌تواند این کار را به تنهایی انجام دهد." },
+      { "de": "In solcher Situation muss man ruhig bleiben.", "fa": "در چنین موقعیتی باید آرام بماند." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "35",
+    "level": "B1",
+    "type": "",
+    "word": "solche",
+    "meaning": "چنین / این چنین (مؤنث)",
+    "antonyms": [],
+    "synonyms": ["derartige", "dergleichen"],
+    "sentences": [
+      { "de": "Solche Frau findet man nicht oft.", "fa": "چنین زنی را اغلب پیدا نمی‌کنی." },
+      { "de": "Ich möchte keine solche Verantwortung übernehmen.", "fa": "نمی‌خواهم چنین مسئولیتی را بر عهده بگیرم." },
+      { "de": "Solche Gelegenheit kommt nicht zweimal.", "fa": "چنین فرصتی دو بار پیش نمی‌آید." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "36",
+    "level": "B1",
+    "type": "",
+    "word": "solches",
+    "meaning": "چنین / این چنین (خنثی)",
+    "antonyms": [],
+    "synonyms": ["derartiges", "dergleichen"],
+    "sentences": [
+      { "de": "Solches Verhalten ist nicht akzeptabel.", "fa": "چنین رفتاری قابل قبول نیست." },
+      { "de": "Ich habe noch nie solches Glück gehabt.", "fa": "من هنوز هرگز چنین شانسی نداشته‌ام." },
+      { "de": "Solches Problem lässt sich leicht lösen.", "fa": "چنین مشکلی را می‌توان به راحتی حل کرد." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "37",
+    "level": "B1",
+    "type": "",
+    "word": "solche",
+    "meaning": "چنین / این چنین‌ها (جمع)",
+    "antonyms": [],
+    "synonyms": ["derartige", "dergleichen"],
+    "sentences": [
+      { "de": "Solche Leute sollte man meiden.", "fa": "باید از چنین آدم‌هایی دوری کرد." },
+      { "de": "Ich mag solche Bücher nicht lesen.", "fa": "دوست ندارم چنین کتاب‌هایی بخوانم." },
+      { "de": "Solche Fragen werden in der Prüfung gestellt.", "fa": "چنین سوال‌هایی در امتحان مطرح می‌شوند." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "38",
+    "level": "B1",
+    "type": "Akkusativ",
+    "word": "solchen",
+    "meaning": "چنین (مذکر)",
+    "antonyms": [],
+    "synonyms": ["derartigen"],
+    "sentences": [
+      { "de": "Ich habe noch nie solchen Erfolg erlebt.", "fa": "من هنوز هرگز چنین موفقیتی تجربه نکرده‌ام." },
+      { "de": "Der Lehrer bestraft solchen Fehler nicht streng.", "fa": "معلم چنین اشتباهی را خیلی سخت مجازات نمی‌کند." },
+      { "de": "Sie möchte solchen Mann wie ihn heiraten.", "fa": "او می‌خواهد با چنین مردی مثل او ازدواج کند." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "39",
+    "level": "B1",
+    "type": "Akkusativ",
+    "word": "solche",
+    "meaning": "چنین (مونث/جمع)",
+    "antonyms": [],
+    "synonyms": ["derartige"],
+    "sentences": [
+      { "de": "Kannst du solche Schuhe finden?", "fa": "می‌توانی چنین کفش‌هایی پیدا کنی؟" },
+      { "de": "Ich mag solche Musik sehr gern.", "fa": "من چنین موسیقی‌ای را خیلی دوست دارم." },
+      { "de": "Sie hat solche Probleme schon oft gelöst.", "fa": "او چنین مشکل‌هایی را قبلاً اغلب حل کرده است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "40",
+    "level": "B1",
+    "type": "Akkusativ",
+    "word": "solches",
+    "meaning": "چنین (خنثی)",
+    "antonyms": [],
+    "synonyms": ["derartiges"],
+    "sentences": [
+      { "de": "Hast du schon solches Glück gehabt?", "fa": "آیا قبلاً چنین شانسی داشته‌ای؟" },
+      { "de": "Er hat solches Verhalten nie erwartet.", "fa": "او چنین رفتاری را هرگز انتظار نداشته است." },
+      { "de": "Das Kind braucht solches Spielzeug nicht.", "fa": "این کودک به چنین اسباب‌بازی‌ای نیاز ندارد." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "41",
+    "level": "B1",
+    "type": "Dativ",
+    "word": "solchem",
+    "meaning": "چنین (مذکر/خنثی داتیو)",
+    "antonyms": [],
+    "synonyms": ["diesem", "jenem"],
+    "sentences": [
+      { "de": "Ich helfe solchem Mann nicht.", "fa": "من به چنین مردی کمک نمی‌کنم." },
+      { "de": "Mit solchem Wetter kann man nicht reisen.", "fa": "با چنین آب و هوایی نمی‌توان سفر کرد." },
+      { "de": "Er spricht mit solchem Enthusiasmus über das Projekt.", "fa": "او با چنین اشتیاقی درباره پروژه صحبت می‌کند." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "42",
+    "level": "B1",
+    "type": "Dativ",
+    "word": "solcher",
+    "meaning": "چنین (مونث داتیو)",
+    "antonyms": [],
+    "synonyms": ["dieser", "jener"],
+    "sentences": [
+      { "de": "Ich vertraue solcher Frau nicht ganz.", "fa": "من به چنین زنی کاملاً اعتماد ندارم." },
+      { "de": "Er widerspricht solcher Meinung immer.", "fa": "او همیشه با چنین نظری مخالفت می‌کند." },
+      { "de": "Die Lehrerin hilft solcher Schülerin geduldig.", "fa": "معلم به چنین دانش‌آموزی با صبوری کمک می‌کند." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "43",
+    "level": "B1",
+    "type": "Dativ",
+    "word": "solchem",
+    "meaning": "چنین (خنثی داتیو)",
+    "antonyms": [],
+    "synonyms": ["diesem", "jenem"],
+    "sentences": [
+      { "de": "Wir passen uns solchem Problem schnell an.", "fa": "ما خودمان را سریع با چنین مشکلی تطبیق می‌دهیم." },
+      { "de": "Sie reagiert auf solchem Verhalten sehr sensibel.", "fa": "او به چنین رفتاری خیلی حساس واکنش نشان می‌دهد." },
+      { "de": "Das Kind träumt von solchem Spielzeug jeden Tag.", "fa": "کودک هر روز درباره چنین اسباب‌بازی‌ای خیال‌پردازی می‌کند." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  }
+
+
+
+
+
+
+
+]

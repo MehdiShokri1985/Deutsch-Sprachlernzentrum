@@ -1,0 +1,396 @@
+/* ==========================================================================
+   Game page — responsive layout (single breakpoint system)
+   ========================================================================== */
+
+:root {
+  --game-pad-inline: clamp(0.65rem, 3vw, 1rem);
+  --game-pad-block: clamp(0.45rem, 2vh, 0.85rem);
+  --game-word-size: clamp(0.9rem, 4vw + 0.45rem, 1.6rem);
+  --game-sentence-size: clamp(0.875rem, 1.8vw + 0.4rem, 1.125rem);
+  /* --game-modal-title: clamp(1.125rem, 3vw + 0.5rem, 1.5rem); */
+  --game-result-btn-x: clamp(0.45rem, 2vw, 0.85rem);
+  --game-result-btn-y: clamp(0.26rem, 1vh, 0.38rem);
+  --game-result-btn-text: clamp(0.6875rem, 1.7vw + 0.28rem, 0.8125rem);
+}
+
+html {
+  overflow-x: clip;
+}
+
+body.game-page {
+  overflow-x: clip;
+  max-width: 100%;
+  min-height: 100dvh;
+}
+
+body.game-page .container {
+  max-width: 100%;
+}
+
+#wordProgressSquares {
+  min-width: 0;
+  max-width: 100%;
+}
+
+/* ----- Header ----- */
+.game-header-inner {
+  gap: 0.5rem 0.75rem;
+}
+
+.game-header-title {
+  min-width: 0;
+  flex: 1 1 auto;
+  font-size: clamp(1rem, 3.5vw + 0.35rem, 1.5rem);
+  line-height: 1.25;
+}
+
+.game-header-stats {
+  flex-shrink: 0;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+/* ----- Progress card ----- */
+.game-progress-card {
+  padding: clamp(0.65rem, 2.5vw, 0rem);
+}
+
+.game-level-stats {
+  font-size: clamp(0.7rem, 2vw + 0.35rem, 0.8125rem);
+  line-height: 1.4;
+  word-break: break-word;
+}
+
+/* ----- Word panel ----- */
+.game-panel {
+  padding: clamp(0.85rem, 3vw, 1.5rem);
+  min-height: clamp(4.5rem, 18vh, 7.5rem);
+}
+
+#wordDisplay {
+  min-width: 0;
+  padding-inline: 0.15rem;
+}
+
+#wordDisplay .falling-word.relative {
+  padding-top: 0rem;
+}
+
+#modalDetails a,
+#mistakesList {
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+
+#fallingWord.falling-word {
+  font-size: var(--game-word-size);
+  line-height: 1.2;
+  margin-bottom: clamp(0.35rem, 1.5vh, 1rem);
+  overflow-wrap: anywhere;
+  word-break: break-word;
+  hyphens: auto;
+}
+
+#sentenceDisplay {
+  font-size: var(--game-sentence-size);
+  line-height: 1;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+
+#questionType {
+  font-size: clamp(0.7rem, 1.8vw + 0.3rem, 0.875rem);
+}
+
+/* ----- Answer options ----- */
+#answerOptions {
+  gap: clamp(0.4rem, 2vw, 1rem);
+}
+
+.game-answer-btn {
+  min-height: 2rem;
+  padding: clamp(0.55rem, 2vw, 0.3rem);
+  font-size: clamp(0.78rem, 2vw + 0.35rem, 1rem);
+  line-height: 1.35;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+  hyphens: auto;
+}
+
+.game-answer-btn .flex {
+  flex-wrap: wrap;
+  gap: 0.25rem 0.5rem;
+  justify-content: center;
+}
+
+@media (max-width: 380px) {
+  #answerOptions {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ----- Result modal (inline) ----- */
+#resultModal {
+  padding: clamp(0.45rem, 2vw, 0.5rem);
+  min-height: 0;
+}
+
+#resultModal #modalIcon {
+  font-size: clamp(2rem, 8vw, 3.75rem);
+  line-height: 1;
+}
+
+#resultModal #modalTitle {
+  font-size: var(--game-modal-title);
+  line-height: 1.25;
+  margin-bottom: 0.25rem;
+}
+
+.game-result-actions {
+  gap: clamp(0.28rem, 1.5vw, 0.5rem);
+  width: 100%;
+  max-width: 100%;
+}
+
+.game-result-btn {
+  flex: 0 1 auto;
+  min-width: min(100%, 5.25rem);
+  max-width: 100%;
+  min-height: 2rem;
+  padding: var(--game-result-btn-y) var(--game-result-btn-x);
+  font-size: var(--game-result-btn-text);
+  line-height: 1.2;
+  font-weight: 600;
+  white-space: nowrap;
+  text-align: center;
+  border-radius: 0.625rem;
+  border: 1px solid transparent;
+  transition:
+    background-color 0.2s ease,
+    border-color 0.2s ease,
+    box-shadow 0.2s ease,
+    transform 0.15s ease;
+}
+
+.game-result-btn:hover {
+  transform: translateY(-1px);
+}
+
+.game-result-btn--sure {
+  background: #ecfdf5;
+  color: #047857;
+  border-color: rgba(16, 185, 129, 0.24);
+}
+
+.game-result-btn--sure:hover {
+  background: #d1fae5;
+  box-shadow: 0 2px 8px rgba(16, 185, 129, 0.12);
+}
+
+.game-result-btn--maybe {
+  background: #fffbeb;
+  color: #b45309;
+  border-color: rgba(245, 158, 11, 0.22);
+}
+
+.game-result-btn--maybe:hover {
+  background: #fef3c7;
+  box-shadow: 0 2px 8px rgba(245, 158, 11, 0.1);
+}
+
+.game-result-btn--easy {
+  background: #f5f3ff;
+  color: #6d28d9;
+  border-color: rgba(139, 92, 246, 0.22);
+}
+
+.game-result-btn--easy:hover {
+  background: #ede9fe;
+  box-shadow: 0 2px 8px rgba(139, 92, 246, 0.12);
+}
+
+.game-result-btn--practice {
+  background: #eff6ff;
+  color: #1d4ed8;
+  border-color: rgba(59, 130, 246, 0.22);
+}
+
+.game-result-btn--practice:hover {
+  background: #dbeafe;
+  box-shadow: 0 2px 8px rgba(59, 130, 246, 0.1);
+}
+
+@media (max-width: 400px) {
+  .game-result-actions {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .game-result-btn {
+    flex: 1 1 calc(50% - 0.2rem);
+    min-width: calc(50% - 0.2rem);
+    max-width: calc(50% - 0.2rem);
+  }
+
+  .game-result-btn--practice {
+    flex: 1 1 100%;
+    min-width: 100%;
+    max-width: 12rem;
+  }
+}
+
+/* ----- modalDetails ----- */
+#modalDetails {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  line-height: 1.35;
+  max-width: 100%;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+
+#modalDetails .md-pair-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  column-gap: 0.65rem;
+  row-gap: 0.12rem;
+}
+
+#modalDetails .md-pair-start {
+  flex: 1 1 auto;
+  min-width: 0;
+  text-align: left;
+  color:#1d4ed8;
+  font-weight: bold;
+}
+
+#modalDetails .md-pair-end {
+  flex: 0 1 auto;
+  margin-left: auto;
+  max-width: min(46%, 100%);
+  text-align: right;
+  color: #374151;
+}
+
+#modalDetails .md-word-row .md-pair-end {
+  font-weight: 500;
+  color: #1f2937;
+}
+
+#modalDetails .md-label {
+  font-weight: 600;
+  color: #4b5563;
+  margin-right: 0.15rem;
+}
+
+#modalDetails .md-section-label {
+  margin-top: 0.1rem;
+  margin-bottom: 0;
+  font-size: 0.7rem;
+  line-height: 1.2;
+  color: #6b7280;
+  letter-spacing: 0.02em;
+}
+
+#modalDetails .md-example-row .md-pair-end {
+  font-size: 0.8125rem;
+  color: #480d70;
+}
+
+@media (max-width: 480px) {
+  #modalDetails .md-pair-end {
+    max-width: 100%;
+    flex-basis: 100%;
+  }
+}
+
+/* ----- Hard mode input ----- */
+#hardInputContainer .flex.gap-3 {
+  flex-wrap: wrap;
+}
+
+#hardInput {
+  font-size: clamp(0.95rem, 2.5vw + 0.4rem, 1.25rem);
+  min-width: 0;
+}
+
+#hardInputContainer button[id^="ac"] {
+  min-height: 2.25rem;
+  font-size: clamp(0.65rem, 1.8vw + 0.25rem, 0.75rem);
+}
+
+/* ----- Hard mode autocomplete chips (under question) ----- */
+#autocompleteList {
+  min-height: 0;
+  max-width: 100%;
+  line-height: 1.2;
+}
+
+#autocompleteList .game-autocomplete-chip {
+  flex: 0 1 auto;
+  max-width: 100%;
+  min-height: 1.625rem;
+  padding: 0.18rem 0.5rem;
+  font-size: clamp(0.68rem, 1.6vw + 0.22rem, 0.78rem);
+  font-weight: 500;
+  line-height: 1.25;
+  color: #3730a3;
+  background: #eef2ff;
+  border: 1px solid rgba(99, 102, 241, 0.28);
+  border-radius: 0.5rem;
+  cursor: pointer;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  transition:
+    background-color 0.15s ease,
+    border-color 0.15s ease,
+    transform 0.12s ease;
+}
+
+#autocompleteList .game-autocomplete-chip:hover {
+  background: #e0e7ff;
+  border-color: rgba(79, 70, 229, 0.45);
+  transform: translateY(-1px);
+}
+
+#autocompleteList .game-autocomplete-chip:active {
+  transform: translateY(0);
+}
+
+/* ----- Modals (overlay) ----- */
+.game-overlay-modal {
+  padding: max(0.5rem, env(safe-area-inset-top, 0))
+    max(0.5rem, env(safe-area-inset-right, 0))
+    max(0.5rem, env(safe-area-inset-bottom, 0))
+    max(0.5rem, env(safe-area-inset-left, 0));
+}
+
+.game-overlay-panel {
+  max-height: min(85dvh, calc(100dvh - 1.5rem));
+  width: min(100%, 28rem);
+}
+
+/* ----- Short viewport ----- */
+@media (max-height: 640px) {
+  .game-panel {
+    min-height: 3.5rem;
+    padding-block: 0.65rem;
+  }
+
+  #fallingWord.falling-word {
+    margin-bottom: 0.35rem;
+  }
+
+  #resultModal #modalIcon {
+    font-size: 1.75rem;
+  }
+
+  .game-result-btn {
+    padding-block: 0.35rem;
+  }
+}

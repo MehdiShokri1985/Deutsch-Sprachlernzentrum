@@ -1,0 +1,232 @@
+{
+  "id": "6",
+  "Kasus": "Possessivpronomen",
+
+  "Nominativ": [
+    { "Person": "ich", "Maskulin": "mein", "fa": "برای من" },
+    { "Person": "ich", "Feminin": "meine", "fa": "برای من" },
+    { "Person": "ich", "Neutral": "mein", "fa": "برای من" },
+    { "Person": "ich", "Plural": "meine", "fa": "برای من" },
+
+    { "Person": "du", "Maskulin": "dein", "fa": "برای تو" },
+    { "Person": "du", "Feminin": "deine", "fa": "برای تو" },
+    { "Person": "du", "Neutral": "dein", "fa": "برای تو" },
+    { "Person": "du", "Plural": "deine", "fa": "برای تو" },
+
+    { "Person": "er", "Maskulin": "sein", "fa": "برای او (مذکر)" },
+    { "Person": "er", "Feminin": "seine", "fa": "برای او (مونث)" },
+    { "Person": "er", "Neutral": "sein", "fa": "برای او (خنثی)" },
+    { "Person": "er", "Plural": "seine", "fa": "برای او" },
+
+    { "Person": "sie (sg.)", "Maskulin": "ihr", "fa": "برای او (مونث)" },
+    { "Person": "sie (sg.)", "Feminin": "ihre", "fa": "برای او (مونث)" },
+    { "Person": "sie (sg.)", "Neutral": "ihr", "fa": "برای او" },
+    { "Person": "sie (sg.)", "Plural": "ihre", "fa": "برای او" },
+
+    { "Person": "es", "Maskulin": "sein", "fa": "برای آن" },
+    { "Person": "es", "Feminin": "seine", "fa": "برای آن" },
+    { "Person": "es", "Neutral": "sein", "fa": "برای آن" },
+    { "Person": "es", "Plural": "seine", "fa": "برای آن" },
+
+    { "Person": "wir", "Maskulin": "unser", "fa": "برای ما" },
+    { "Person": "wir", "Feminin": "unsere", "fa": "برای ما" },
+    { "Person": "wir", "Neutral": "unser", "fa": "برای ما" },
+    { "Person": "wir", "Plural": "unsere", "fa": "برای ما" },
+
+    { "Person": "ihr", "Maskulin": "euer", "fa": "برای شما" },
+    { "Person": "ihr", "Feminin": "eure", "fa": "برای شما" },
+    { "Person": "ihr", "Neutral": "euer", "fa": "برای شما" },
+    { "Person": "ihr", "Plural": "eure", "fa": "برای شما" },
+
+    { "Person": "sie (pl.)", "Maskulin": "ihr", "fa": "برای آنها" },
+    { "Person": "sie (pl.)", "Feminin": "ihre", "fa": "برای آنها" },
+    { "Person": "sie (pl.)", "Neutral": "ihr", "fa": "برای آنها" },
+    { "Person": "sie (pl.)", "Plural": "ihre", "fa": "برای آنها" },
+
+    { "Person": "Sie (formal)", "Maskulin": "Ihr", "fa": "برای شما رسمی" },
+    { "Person": "Sie (formal)", "Feminin": "Ihre", "fa": "برای شما رسمی" },
+    { "Person": "Sie (formal)", "Neutral": "Ihr", "fa": "برای شما رسمی" },
+    { "Person": "Sie (formal)", "Plural": "Ihre", "fa": "برای شما رسمی" },
+
+    {
+      "sentences": [
+        { "de": "Mein Vater ist hier.", "fa": "پدر من اینجاست." },
+        { "de": "Deine Mutter ist nett.", "fa": "مادر تو مهربان است." },
+        { "de": "Unser Kind spielt.", "fa": "کودک ما بازی می‌کند." },
+        { "de": "Ihre Freunde kommen.", "fa": "دوستان آنها می‌آیند." }
+      ]
+    }
+  ],
+
+  "Akkusativ": [
+    { "Person": "ich", "Maskulin": "meinen", "fa": "برای من" },
+    { "Person": "ich", "Feminin": "meine", "fa": "برای من" },
+    { "Person": "ich", "Neutral": "mein", "fa": "برای من" },
+    { "Person": "ich", "Plural": "meine", "fa": "برای من" },
+
+    { "Person": "du", "Maskulin": "deinen", "fa": "برای تو" },
+    { "Person": "du", "Feminin": "deine", "fa": "برای تو" },
+    { "Person": "du", "Neutral": "dein", "fa": "برای تو" },
+    { "Person": "du", "Plural": "deine", "fa": "برای تو" },
+
+    { "Person": "er", "Maskulin": "seinen", "fa": "برای او (مذکر)" },
+    { "Person": "er", "Feminin": "seine", "fa": "برای او (مونث)" },
+    { "Person": "er", "Neutral": "sein", "fa": "برای او (خنثی)" },
+    { "Person": "er", "Plural": "seine", "fa": "برای او" },
+
+    { "Person": "sie (sg.)", "Maskulin": "ihren", "fa": "برای او (مونث)" },
+    { "Person": "sie (sg.)", "Feminin": "ihre", "fa": "برای او (مونث)" },
+    { "Person": "sie (sg.)", "Neutral": "ihr", "fa": "برای او" },
+    { "Person": "sie (sg.)", "Plural": "ihre", "fa": "برای او" },
+
+    { "Person": "es", "Maskulin": "seinen", "fa": "برای آن" },
+    { "Person": "es", "Feminin": "seine", "fa": "برای آن" },
+    { "Person": "es", "Neutral": "sein", "fa": "برای آن" },
+    { "Person": "es", "Plural": "seine", "fa": "برای آن" },
+
+    { "Person": "wir", "Maskulin": "unseren", "fa": "برای ما" },
+    { "Person": "wir", "Feminin": "unsere", "fa": "برای ما" },
+    { "Person": "wir", "Neutral": "unser", "fa": "برای ما" },
+    { "Person": "wir", "Plural": "unsere", "fa": "برای ما" },
+
+    { "Person": "ihr", "Maskulin": "euren", "fa": "برای شما" },
+    { "Person": "ihr", "Feminin": "eure", "fa": "برای شما" },
+    { "Person": "ihr", "Neutral": "euer", "fa": "برای شما" },
+    { "Person": "ihr", "Plural": "eure", "fa": "برای شما" },
+
+    { "Person": "sie (pl.)", "Maskulin": "ihren", "fa": "برای آنها" },
+    { "Person": "sie (pl.)", "Feminin": "ihre", "fa": "برای آنها" },
+    { "Person": "sie (pl.)", "Neutral": "ihr", "fa": "برای آنها" },
+    { "Person": "sie (pl.)", "Plural": "ihre", "fa": "برای آنها" },
+
+    { "Person": "Sie (formal)", "Maskulin": "Ihren", "fa": "برای شما رسمی" },
+    { "Person": "Sie (formal)", "Feminin": "Ihre", "fa": "برای شما رسمی" },
+    { "Person": "Sie (formal)", "Neutral": "Ihr", "fa": "برای شما رسمی" },
+    { "Person": "Sie (formal)", "Plural": "Ihre", "fa": "برای شما رسمی" },
+
+    {
+      "sentences": [
+        { "de": "Ich sehe meinen Vater.", "fa": "پدرم را می‌بینم." },
+        { "de": "Du kennst deine Mutter.", "fa": "مادرت را می‌شناسی." },
+        { "de": "Er besucht sein Kind.", "fa": "او کودک خود را می‌بیند." },
+        { "de": "Wir lieben unsere Freunde.", "fa": "ما دوستانمان را دوست داریم." },
+        { "de": "Ihr ruft eure Eltern.", "fa": "شما والدینتان را صدا می‌زنید." },
+        { "de": "Sie sehen ihre Kinder.", "fa": "آنها فرزندانشان را می‌بینند." },
+        { "de": "Ich kaufe meinen Freund ein Geschenk.", "fa": "من برای دوستم یک هدیه می‌خرم." }
+      ]
+    }
+  ],
+
+  "Dativ": [
+    { "Person": "ich", "Maskulin": "meinem", "fa": "به من" },
+    { "Person": "ich", "Feminin": "meiner", "fa": "به من" },
+    { "Person": "ich", "Neutral": "meinem", "fa": "به من" },
+    { "Person": "ich", "Plural": "meinen", "fa": "به من" },
+
+    { "Person": "du", "Maskulin": "deinem", "fa": "به تو" },
+    { "Person": "du", "Feminin": "deiner", "fa": "به تو" },
+    { "Person": "du", "Neutral": "deinem", "fa": "به تو" },
+    { "Person": "du", "Plural": "deinen", "fa": "به تو" },
+
+    { "Person": "er", "Maskulin": "seinem", "fa": "به او" },
+    { "Person": "er", "Feminin": "seiner", "fa": "به او" },
+    { "Person": "er", "Neutral": "seinem", "fa": "به او" },
+    { "Person": "er", "Plural": "seinen", "fa": "به او" },
+
+    { "Person": "sie (sg.)", "Maskulin": "ihrem", "fa": "به او" },
+    { "Person": "sie (sg.)", "Feminin": "ihrer", "fa": "به او" },
+    { "Person": "sie (sg.)", "Neutral": "ihrem", "fa": "به او" },
+    { "Person": "sie (sg.)", "Plural": "ihren", "fa": "به او" },
+
+    { "Person": "es", "Maskulin": "seinem", "fa": "به آن" },
+    { "Person": "es", "Feminin": "seiner", "fa": "به آن" },
+    { "Person": "es", "Neutral": "seinem", "fa": "به آن" },
+    { "Person": "es", "Plural": "seinen", "fa": "به آن" },
+
+    { "Person": "wir", "Maskulin": "unserem", "fa": "به ما" },
+    { "Person": "wir", "Feminin": "unserer", "fa": "به ما" },
+    { "Person": "wir", "Neutral": "unserem", "fa": "به ما" },
+    { "Person": "wir", "Plural": "unseren", "fa": "به ما" },
+
+    { "Person": "ihr", "Maskulin": "eurem", "fa": "به شما" },
+    { "Person": "ihr", "Feminin": "eurer", "fa": "به شما" },
+    { "Person": "ihr", "Neutral": "eurem", "fa": "به شما" },
+    { "Person": "ihr", "Plural": "euren", "fa": "به شما" },
+
+    { "Person": "sie (pl.)", "Maskulin": "ihrem", "fa": "به آنها" },
+    { "Person": "sie (pl.)", "Feminin": "ihrer", "fa": "به آنها" },
+    { "Person": "sie (pl.)", "Neutral": "ihrem", "fa": "به آنها" },
+    { "Person": "sie (pl.)", "Plural": "ihren", "fa": "به آنها" },
+
+    { "Person": "Sie (formal)", "Maskulin": "Ihrem", "fa": "به شما رسمی" },
+    { "Person": "Sie (formal)", "Feminin": "Ihrer", "fa": "به شما رسمی" },
+    { "Person": "Sie (formal)", "Neutral": "Ihrem", "fa": "به شما رسمی" },
+    { "Person": "Sie (formal)", "Plural": "Ihren", "fa": "به شما رسمی" },
+
+    {
+      "sentences": [
+        { "de": "Ich helfe meinem Vater.", "fa": "به پدرم کمک می‌کنم." },
+        { "de": "Du dankst deiner Mutter.", "fa": "از مادرت تشکر می‌کنی." },
+        { "de": "Er schreibt seinem Freund.", "fa": "او به دوستش می‌نویسد." },
+        { "de": "Wir geben unserem Kind ein Geschenk.", "fa": "به کودکمان هدیه می‌دهیم." },
+        { "de": "Ihr antwortet euren Lehrern.", "fa": "به معلمانتان جواب می‌دهید." },
+        { "de": "Sie glauben ihren Eltern.", "fa": "به والدینشان اعتماد دارند." },
+        { "de": "Ich telefoniere mit meiner Freundin.", "fa": "با دوستم تلفنی صحبت می‌کنم." }
+      ]
+    }
+  ],
+
+  "Genitiv": [
+    { "Person": "ich", "Maskulin": "meines", "fa": "مال من" },
+    { "Person": "ich", "Feminin": "meiner", "fa": "مال من" },
+    { "Person": "ich", "Neutral": "meines", "fa": "مال من" },
+    { "Person": "ich", "Plural": "meiner", "fa": "مال من" },
+
+    { "Person": "du", "Maskulin": "deines", "fa": "مال تو" },
+    { "Person": "du", "Feminin": "deiner", "fa": "مال تو" },
+    { "Person": "du", "Neutral": "deines", "fa": "مال تو" },
+    { "Person": "du", "Plural": "deiner", "fa": "مال تو" },
+
+    { "Person": "er", "Maskulin": "seines", "fa": "مال او" },
+    { "Person": "er", "Feminin": "seiner", "fa": "مال او" },
+    { "Person": "er", "Neutral": "seines", "fa": "مال او" },
+    { "Person": "er", "Plural": "seiner", "fa": "مال او" },
+
+    { "Person": "sie (sg.)", "Maskulin": "ihres", "fa": "مال او" },
+    { "Person": "sie (sg.)", "Feminin": "ihrer", "fa": "مال او" },
+    { "Person": "sie (sg.)", "Neutral": "ihres", "fa": "مال او" },
+    { "Person": "sie (sg.)", "Plural": "ihrer", "fa": "مال او" },
+
+    { "Person": "wir", "Maskulin": "unseres", "fa": "مال ما" },
+    { "Person": "wir", "Feminin": "unserer", "fa": "مال ما" },
+    { "Person": "wir", "Neutral": "unseres", "fa": "مال ما" },
+    { "Person": "wir", "Plural": "unserer", "fa": "مال ما" },
+
+    { "Person": "ihr", "Maskulin": "eures", "fa": "مال شما" },
+    { "Person": "ihr", "Feminin": "eurer", "fa": "مال شما" },
+    { "Person": "ihr", "Neutral": "eures", "fa": "مال شما" },
+    { "Person": "ihr", "Plural": "eurer", "fa": "مال شما" },
+
+    { "Person": "sie (pl.)", "Maskulin": "ihres", "fa": "مال آنها" },
+    { "Person": "sie (pl.)", "Feminin": "ihrer", "fa": "مال آنها" },
+    { "Person": "sie (pl.)", "Neutral": "ihres", "fa": "مال آنها" },
+    { "Person": "sie (pl.)", "Plural": "ihrer", "fa": "مال آنها" },
+
+    { "Person": "Sie (formal)", "Maskulin": "Ihres", "fa": "مال شما رسمی" },
+    { "Person": "Sie (formal)", "Feminin": "Ihrer", "fa": "مال شما رسمی" },
+    { "Person": "Sie (formal)", "Neutral": "Ihres", "fa": "مال شما رسمی" },
+    { "Person": "Sie (formal)", "Plural": "Ihrer", "fa": "مال شما رسمی" },
+
+    {
+      "sentences": [
+        { "de": "Das Auto meines Vaters ist neu.", "fa": "ماشین پدرم جدید است." },
+        { "de": "Die Tasche deiner Mutter ist schön.", "fa": "کیف مادرت زیبا است." },
+        { "de": "Die Schule unseres Kindes ist groß.", "fa": "مدرسه کودک ما بزرگ است." },
+        { "de": "Die Freunde ihrer Familie sind nett.", "fa": "دوستان خانواده آنها مهربان هستند." },
+        { "de": "Das Haus eures Lehrers ist alt.", "fa": "خانه معلم شما قدیمی است." },
+        { "de": "Die Bücher ihrer Kinder sind interessant.", "fa": "کتاب‌های فرزندانشان جالب است." },
+        { "de": "Der Erfolg meiner Arbeit ist wichtig.", "fa": "موفقیت کار من مهم است." }
+      ]
+    }
+  ]
+}

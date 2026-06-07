@@ -1,0 +1,2158 @@
+[
+  {
+    "id": "1",
+    "level": "A2",
+    "type": "mit Akkusativ",
+    "word": "sich anziehen",
+    "meaning": "لباس پوشیدن",
+    "antonyms": ["sich ausziehen"],
+    "synonyms": ["sich ankleiden"],
+    "sentences": [
+      { "de": "Ich ziehe mich schnell an.", "fa": "من سریع لباس می‌پوشم." },
+      { "de": "Sie zieht sich jeden Morgen elegant an.", "fa": "او هر صبح لباس شیک می‌پوشد." },
+      { "de": "Wir ziehen uns warm an, weil es kalt ist.", "fa": "ما لباس گرم می‌پوشیم چون هوا سرد است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "2",
+    "level": "A2",
+    "type": "mit Akkusativ",
+    "word": "sich ausziehen",
+    "meaning": "لباس درآوردن",
+    "antonyms": ["sich anziehen"],
+    "synonyms": ["sich entkleiden"],
+    "sentences": [
+      { "de": "Er zieht sich vor dem Schlafen aus.", "fa": "او قبل از خواب لباسش را درمی‌آورد." },
+      { "de": "Die Kinder ziehen sich selbst aus.", "fa": "کودکان خودشان لباسشان را درمی‌آورند." },
+      { "de": "Zieh dich warm aus, es ist heiß hier.", "fa": "لباس گرم خودت را دربیاور، اینجا گرم است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "3",
+    "level": "A2",
+    "type": "mit Akkusativ",
+    "word": "sich baden",
+    "meaning": "حمام کردن",
+    "antonyms": [],
+    "synonyms": ["baden"],
+    "sentences": [
+      { "de": "Das Baby badet sich in der Wanne.", "fa": "نوزاد در وان حمام می‌کند." },
+      { "de": "Ich bade mich gerne mit Schaum.", "fa": "من دوست دارم با کف حمام کنم." },
+      { "de": "Sie badet sich jeden Abend entspannt.", "fa": "او هر شب با آرامش حمام می‌کند." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "4",
+    "level": "A2",
+    "type": "mit Akkusativ",
+    "word": "sich befinden",
+    "meaning": "قرار داشتن، بودن",
+    "antonyms": [],
+    "synonyms": ["sich befinden in"],
+    "sentences": [
+      { "de": "Das Hotel befindet sich in der Stadtmitte.", "fa": "هتل در مرکز شهر قرار دارد." },
+      { "de": "Die Schlüssel befinden sich auf dem Tisch.", "fa": "کلیدها روی میز قرار دارند." },
+      { "de": "Wir befinden uns gerade in einer schwierigen Situation.", "fa": "ما در حال حاضر در یک وضعیت دشوار قرار داریم." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "5",
+    "level": "A2",
+    "type": "mit Akkusativ",
+    "word": "sich beschweren",
+    "meaning": "شکایت کردن",
+    "antonyms": [],
+    "synonyms": ["klagen"],
+    "sentences": [
+      { "de": "Er beschwert sich über das Essen.", "fa": "او از غذا شکایت می‌کند." },
+      { "de": "Die Gäste beschweren sich beim Manager.", "fa": "مهمانان از مدیر شکایت می‌کنند." },
+      { "de": "Warum beschwerst du dich immer über das Wetter?", "fa": "چرا همیشه از آب و هوا شکایت می‌کنی؟" }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "6",
+    "level": "A2",
+    "type": "mit Akkusativ",
+    "word": "sich duschen",
+    "meaning": "دوش گرفتن",
+    "antonyms": [],
+    "synonyms": ["duschen"],
+    "sentences": [
+      { "de": "Ich dusche mich jeden Morgen kalt.", "fa": "من هر صبح دوش سرد می‌گیرم." },
+      { "de": "Sie duscht sich nach dem Sport.", "fa": "او بعد از ورزش دوش می‌گیرد." },
+      { "de": "Dusch dich bitte schnell, wir müssen gehen.", "fa": "لطفاً سریع دوش بگیر، باید برویم." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "7",
+    "level": "A2",
+    "type": "mit Akkusativ",
+    "word": "sich freuen",
+    "meaning": "خوشحال شدن",
+    "antonyms": ["sich ärgern"],
+    "synonyms": ["froh sein"],
+    "sentences": [
+      { "de": "Ich freue mich auf den Urlaub.", "fa": "من به تعطیلات خوشحال می‌شوم." },
+      { "de": "Sie freut sich sehr über das Geschenk.", "fa": "او خیلی از هدیه خوشحال می‌شود." },
+      { "de": "Wir freuen uns, dich zu sehen.", "fa": "ما خوشحال می‌شویم که تو را ببینیم." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "8",
+    "level": "A2",
+    "type": "mit Akkusativ",
+    "word": "sich fühlen",
+    "meaning": "احساس کردن",
+    "antonyms": [],
+    "synonyms": ["fühlen"],
+    "sentences": [
+      { "de": "Ich fühle mich heute müde.", "fa": "امروز احساس خستگی می‌کنم." },
+      { "de": "Wie fühlst du dich jetzt?", "fa": "الان چه احساسی داری؟" },
+      { "de": "Sie fühlt sich nicht wohl.", "fa": "او احساس خوبی ندارد." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "9",
+    "level": "A2",
+    "type": "mit Akkusativ",
+    "word": "sich informieren",
+    "meaning": "اطلاعات گرفتن، مطلع شدن",
+    "antonyms": [],
+    "synonyms": ["sich erkundigen"],
+    "sentences": [
+      { "de": "Ich informiere mich über die Preise.", "fa": "من درباره قیمت‌ها اطلاعات می‌گیرم." },
+      { "de": "Sie informiert sich immer im Internet.", "fa": "او همیشه در اینترنت اطلاعات می‌گیرد." },
+      { "de": "Wir informieren uns über die neuen Regeln.", "fa": "ما درباره قوانین جدید مطلع می‌شویم." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "10",
+    "level": "A2",
+    "type": "mit Akkusativ",
+    "word": "sich interessieren",
+    "meaning": "علاقه‌مند بودن",
+    "antonyms": [],
+    "synonyms": ["interessiert sein"],
+    "sentences": [
+      { "de": "Ich interessiere mich für Musik.", "fa": "من به موسیقی علاقه‌مندم." },
+      { "de": "Er interessiert sich nicht für Politik.", "fa": "او به سیاست علاقه‌مند نیست." },
+      { "de": "Für was interessierst du dich?", "fa": "به چه چیزی علاقه‌مندی؟" }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "11",
+    "level": "A2",
+    "type": "mit Akkusativ",
+    "word": "sich kämmen",
+    "meaning": "شانه زدن (موها)",
+    "antonyms": [],
+    "synonyms": ["kämmen"],
+    "sentences": [
+      { "de": "Sie kämmt sich die Haare.", "fa": "او موهایش را شانه می‌زند." },
+      { "de": "Kämm dich bitte vor dem Spiegel.", "fa": "لطفاً جلوی آینه شانه بزن." },
+      { "de": "Das Kind kämmt sich selbst.", "fa": "کودک خودش موهایش را شانه می‌زند." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "12",
+    "level": "A2",
+    "type": "mit Akkusativ",
+    "word": "sich legen",
+    "meaning": "دراز کشیدن",
+    "antonyms": ["sich erheben"],
+    "synonyms": ["sich hinlegen"],
+    "sentences": [
+      { "de": "Ich lege mich auf das Sofa.", "fa": "من روی کاناپه دراز می‌کشم." },
+      { "de": "Er legt sich ins Bett.", "fa": "او به تخت دراز می‌کشد." },
+      { "de": "Leg dich bitte ein bisschen hin.", "fa": "لطفاً کمی دراز بکش." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "13",
+    "level": "A2",
+    "type": "mit Akkusativ",
+    "word": "sich rasieren",
+    "meaning": "ریش تراشیدن",
+    "antonyms": [],
+    "synonyms": ["rasieren"],
+    "sentences": [
+      { "de": "Er rasiert sich jeden Morgen.", "fa": "او هر صبح ریشش را می‌تراشد." },
+      { "de": "Rasierst du dich mit dem Elektrorasierer?", "fa": "با ماشین اصلاح ریشت را می‌تراشی؟" },
+      { "de": "Sie rasiert sich die Beine.", "fa": "او پاهایش را اصلاح می‌کند." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "14",
+    "level": "A2",
+    "type": "mit Akkusativ",
+    "word": "sich setzen",
+    "meaning": "نشستن",
+    "antonyms": ["sich erheben"],
+    "synonyms": ["sich hinsetzen"],
+    "sentences": [
+      { "de": "Ich setze mich auf den Stuhl.", "fa": "من روی صندلی می‌نشینم." },
+      { "de": "Setz dich bitte neben mich.", "fa": "لطفاً کنار من بنشین." },
+      { "de": "Die Gäste setzen sich an den Tisch.", "fa": "مهمانان سر میز می‌نشینند." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "15",
+    "level": "A2",
+    "type": "mit Akkusativ",
+    "word": "sich stellen",
+    "meaning": "ایستادن، قرار گرفتن",
+    "antonyms": [],
+    "synonyms": ["sich hinstellen"],
+    "sentences": [
+      { "de": "Ich stelle mich vor die Tür.", "fa": "من جلوی در می‌ایستم." },
+      { "de": "Stell dich bitte in die Reihe.", "fa": "لطفاً در صف قرار بگیر." },
+      { "de": "Sie stellt sich ans Fenster.", "fa": "او کنار پنجره می‌ایستد." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "16",
+    "level": "A2",
+    "type": "mit Akkusativ",
+    "word": "sich treffen",
+    "meaning": "ملاقات کردن",
+    "antonyms": [],
+    "synonyms": ["sich verabreden"],
+    "sentences": [
+      { "de": "Wir treffen uns morgen um 10 Uhr.", "fa": "ما فردا ساعت ۱۰ ملاقات می‌کنیم." },
+      { "de": "Ich treffe mich mit meinen Freunden.", "fa": "من با دوستانم ملاقات می‌کنم." },
+      { "de": "Wo treffen wir uns?", "fa": "کجا ملاقات می‌کنیم؟" }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "17",
+    "level": "A2",
+    "type": "mit Akkusativ",
+    "word": "sich verabschieden",
+    "meaning": "خداحافظی کردن",
+    "antonyms": [],
+    "synonyms": ["Abschied nehmen"],
+    "sentences": [
+      { "de": "Ich verabschiede mich von meinen Eltern.", "fa": "من از والدینم خداحافظی می‌کنم." },
+      { "de": "Sie verabschiedet sich höflich.", "fa": "او مودبانه خداحافظی می‌کند." },
+      { "de": "Verabschieden wir uns jetzt.", "fa": "حالا خداحافظی کنیم." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "18",
+    "level": "A2",
+    "type": "mit Akkusativ",
+    "word": "sich verletzen",
+    "meaning": "مجروح شدن، آسیب دیدن",
+    "antonyms": [],
+    "synonyms": ["sich verletzen an"],
+    "sentences": [
+      { "de": "Er verletzt sich beim Fußball.", "fa": "او موقع فوتبال آسیب می‌بیند." },
+      { "de": "Pass auf, dass du dich nicht verletzt.", "fa": "مراقب باش آسیب نبینی." },
+      { "de": "Sie hat sich am Finger verletzt.", "fa": "او انگشتش آسیب دیده است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "19",
+    "level": "A2",
+    "type": "mit Akkusativ",
+    "word": "sich vorstellen",
+    "meaning": "خود را معرفی کردن",
+    "antonyms": [],
+    "synonyms": ["sich bekannt machen"],
+    "sentences": [
+      { "de": "Ich stelle mich vor: Mein Name ist Anna.", "fa": "خودم را معرفی می‌کنم: اسم من آنا است." },
+      { "de": "Stell dich bitte der Klasse vor.", "fa": "لطفاً خودت را به کلاس معرفی کن." },
+      { "de": "Sie stellt sich als neue Lehrerin vor.", "fa": "او خودش را به عنوان معلم جدید معرفی می‌کند." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "20",
+    "level": "A2",
+    "type": "mit Akkusativ",
+    "word": "sich waschen",
+    "meaning": "شستن (خودش را)",
+    "antonyms": [],
+    "synonyms": ["waschen"],
+    "sentences": [
+      { "de": "Ich wasche mich mit Seife.", "fa": "من با صابون خودم را می‌شویم." },
+      { "de": "Wasch dich gut vor dem Essen.", "fa": "قبل از غذا خوب خودت را بشوی." },
+      { "de": "Die Kinder waschen sich die Hände.", "fa": "کودکان دست‌هایشان را می‌شویند." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "21",
+    "level": "A2",
+    "type": "mit Dativ ",
+    "word": "sich die Haare bürsten",
+    "meaning": "موهایش را برس کشیدن",
+    "antonyms": [],
+    "synonyms": ["sich die Haare kämmen"],
+    "sentences": [
+      { "de": "Ich bürste mir jeden Morgen die Haare.", "fa": "من هر صبح موهایم را برس می‌کشم." },
+      { "de": "Sie bürstet sich vor dem Spiegel die Haare.", "fa": "او جلوی آینه موهایش را برس می‌کشد." },
+      { "de": "Bürstest du dir die Haare nach dem Duschen?", "fa": "آیا بعد از دوش گرفتن موهایت را برس می‌کشی؟" }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "22",
+    "level": "A2",
+    "type": "mit Dativ ",
+    "word": "sich die Haare kämmen",
+    "meaning": "موهایش را شانه زدن",
+    "antonyms": [],
+    "synonyms": ["sich die Haare bürsten"],
+    "sentences": [
+      { "de": "Er kämmt sich die Haare schnell vor der Schule.", "fa": "او قبل از مدرسه سریع موهایش را شانه می‌زند." },
+      { "de": "Kämmst du dir die Haare jeden Tag?", "fa": "آیا هر روز موهایت را شانه می‌زنی؟" },
+      { "de": "Sie kämmt sich die langen Haare sorgfältig.", "fa": "او موهای بلندش را با دقت شانه می‌زند." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "23",
+    "level": "A2",
+    "type": "mit Dativ ",
+    "word": "sich etwas anziehen",
+    "meaning": "چیزی را پوشیدن (لباس)",
+    "antonyms": ["sich etwas ausziehen"],
+    "synonyms": [],
+    "sentences": [
+      { "de": "Ich ziehe mir eine warme Jacke an.", "fa": "من یک کت گرم به تن می‌کنم." },
+      { "de": "Ziehst du dir heute den neuen Pullover an?", "fa": "آیا امروز پلیور جدیدت را می‌پوشی؟" },
+      { "de": "Sie zieht sich schnell etwas Bequemes an.", "fa": "او سریع چیزی راحت به تن می‌کند." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "24",
+    "level": "A2",
+    "type": "mit Dativ ",
+    "word": "sich etwas ausziehen",
+    "meaning": "چیزی را درآوردن (لباس)",
+    "antonyms": ["sich etwas anziehen"],
+    "synonyms": [],
+    "sentences": [
+      { "de": "Ich ziehe mir die nassen Schuhe aus.", "fa": "من کفش‌های خیسم را درمی‌آورم." },
+      { "de": "Zieh dir die Jacke aus, es ist warm hier.", "fa": "کتت را دربیاور، اینجا گرم است." },
+      { "de": "Er zieht sich die Hose aus und geht ins Bett.", "fa": "او شلوارش را درمی‌آورد و به رختخواب می‌رود." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "25",
+    "level": "A2",
+    "type": "mit Dativ ",
+    "word": "sich etwas putzen",
+    "meaning": "چیزی را تمیز کردن (مثل دندان)",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      { "de": "Ich putze mir zweimal am Tag die Zähne.", "fa": "من روزی دو بار دندان‌هایم را مسواک می‌زنم." },
+      { "de": "Putzt du dir die Schuhe vor dem Ausgehen?", "fa": "آیا قبل از بیرون رفتن کفش‌هایت را تمیز می‌کنی؟" },
+      { "de": "Sie putzt sich die Brille mit einem Tuch.", "fa": "او عینک‌اش را با پارچه تمیز می‌کند." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "26",
+    "level": "A2",
+    "type": "mit Dativ ",
+    "word": "sich wehtun",
+    "meaning": "به خودش آسیب زدن / درد گرفتن",
+    "antonyms": [],
+    "synonyms": ["sich verletzen"],
+    "sentences": [
+      { "de": "Ich habe mir beim Sport wehgetan.", "fa": "من موقع ورزش به خودم آسیب زدم." },
+      { "de": "Hast du dir beim Fallen wehgetan?", "fa": "آیا موقع افتادن درد گرفتی؟" },
+      { "de": "Sie tut sich nicht weh, wenn sie vorsichtig ist.", "fa": "او به خودش آسیب نمی‌زند اگر مراقب باشد." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "27",
+    "level": "B1",
+    "type": "mit Akkusativ",
+    "word": "sich ändern",
+    "meaning": "تغییر کردن",
+    "antonyms": ["gleich bleiben"],
+    "synonyms": ["sich wandeln"],
+    "sentences": [
+      { "de": "Das Wetter ändert sich schnell.", "fa": "هوا سریع تغییر می‌کند." },
+      { "de": "Ich habe mich in den letzten Jahren sehr geändert.", "fa": "من در سال‌های اخیر خیلی تغییر کرده‌ام." },
+      { "de": "Die Zeiten ändern sich und wir ändern uns mit ihnen.", "fa": "زمان‌ها تغییر می‌کنند و ما با آن‌ها تغییر می‌کنیم." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "28",
+    "level": "B1",
+    "type": "mit Akkusativ",
+    "word": "sich anmelden",
+    "meaning": "ثبت نام کردن",
+    "antonyms": ["sich abmelden"],
+    "synonyms": ["sich einschreiben"],
+    "sentences": [
+      { "de": "Ich melde mich für den Deutschkurs an.", "fa": "من برای دوره آلمانی ثبت‌نام می‌کنم." },
+      { "de": "Du musst dich rechtzeitig beim Arzt anmelden.", "fa": "باید به موقع نزد پزشک ثبت‌نام کنی." },
+      { "de": "Wir haben uns für das Seminar angemeldet.", "fa": "ما برای سمینار ثبت‌نام کرده‌ایم." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "29",
+    "level": "B1",
+    "type": "mit Akkusativ",
+    "word": "sich anschauen",
+    "meaning": "نگاه کردن (به چیزی برای خود)",
+    "antonyms": [],
+    "synonyms": ["sich ansehen"],
+    "sentences": [
+      { "de": "Ich schaue mir den Film heute Abend an.", "fa": "امشب فیلم را نگاه می‌کنم." },
+      { "de": "Wir schauen uns die neue Ausstellung an.", "fa": "ما نمایشگاه جدید را نگاه می‌کنیم." },
+      { "de": "Schau dir das Foto genau an!", "fa": "به عکس دقیق نگاه کن!" }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "30",
+    "level": "B1",
+    "type": "mit Akkusativ",
+    "word": "sich anschnallen",
+    "meaning": "کمربند ایمنی بستن",
+    "antonyms": ["sich abschnallen"],
+    "synonyms": [],
+    "sentences": [
+      { "de": "Bitte schnallen Sie sich an.", "fa": "لطفاً کمربند را ببندید." },
+      { "de": "Ich schnalle mich immer sofort an.", "fa": "من همیشه فوراً کمربند را می‌بندم." },
+      { "de": "Die Kinder haben sich schon angeschnallt.", "fa": "کودکان قبلاً کمربند بسته‌اند." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "31",
+    "level": "B1",
+    "type": "mit Akkusativ",
+    "word": "sich ärgern",
+    "meaning": "عصبانی شدن",
+    "antonyms": ["sich freuen"],
+    "synonyms": ["sich aufregen"],
+    "sentences": [
+      { "de": "Ich ärgere mich über den Verkehr.", "fa": "از ترافیک عصبانی می‌شوم." },
+      { "de": "Ärgere dich nicht über kleine Dinge.", "fa": "از چیزهای کوچک عصبانی نشو." },
+      { "de": "Er ärgert sich, weil der Zug Verspätung hat.", "fa": "او عصبانی است چون قطار تأخیر دارد." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "32",
+    "level": "B1",
+    "type": "mit Akkusativ",
+    "word": "sich bedanken",
+    "meaning": "تشکر کردن",
+    "antonyms": [],
+    "synonyms": ["danken"],
+    "sentences": [
+      { "de": "Ich bedanke mich bei dir für die Hilfe.", "fa": "از تو برای کمک تشکر می‌کنم." },
+      { "de": "Wir bedanken uns herzlich bei allen Gästen.", "fa": "از همه مهمانان صمیمانه تشکر می‌کنیم." },
+      { "de": "Bedankst du dich immer so nett?", "fa": "همیشه اینقدر مودبانه تشکر می‌کنی؟" }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "33",
+    "level": "B1",
+    "type": "mit Akkusativ",
+    "word": "sich beeilen",
+    "meaning": "عجله کردن",
+    "antonyms": ["sich Zeit lassen"],
+    "synonyms": [],
+    "sentences": [
+      { "de": "Beeil dich, der Bus kommt gleich!", "fa": "عجله کن، اتوبوس الان می‌آید!" },
+      { "de": "Ich beeile mich, um pünktlich zu sein.", "fa": "عجله می‌کنم تا به موقع برسم." },
+      { "de": "Wir müssen uns beeilen, sonst verpassen wir den Zug.", "fa": "باید عجله کنیم وگرنه قطار را از دست می‌دهیم." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "34",
+    "level": "B1",
+    "type": "mit Akkusativ",
+    "word": "sich bewegen",
+    "meaning": "حرکت کردن",
+    "antonyms": ["still stehen"],
+    "synonyms": ["sich rühren"],
+    "sentences": [
+      { "de": "Ich bewege mich jeden Tag im Park.", "fa": "هر روز در پارک حرکت می‌کنم." },
+      { "de": "Beweg dich ein bisschen mehr!", "fa": "کمی بیشتر حرکت کن!" },
+      { "de": "Die Blätter bewegen sich im Wind.", "fa": "برگ‌ها در باد حرکت می‌کنند." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "35",
+    "level": "B1",
+    "type": "mit Akkusativ",
+    "word": "sich bewerben",
+    "meaning": "درخواست دادن (برای شغل)",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      { "de": "Ich bewerbe mich um die Stelle.", "fa": "برای آن موقعیت شغلی درخواست می‌دهم." },
+      { "de": "Sie bewirbt sich bei einer großen Firma.", "fa": "او برای یک شرکت بزرگ درخواست می‌دهد." },
+      { "de": "Wir haben uns schon für das Praktikum beworben.", "fa": "ما قبلاً برای کارآموزی درخواست داده‌ایم." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "36",
+    "level": "B1",
+    "type": "mit Akkusativ",
+    "word": "sich entscheiden",
+    "meaning": "تصمیم گرفتن",
+    "antonyms": ["unentschlossen sein"],
+    "synonyms": ["eine Entscheidung treffen"],
+    "sentences": [
+      { "de": "Ich entscheide mich für das blaue Auto.", "fa": "تصمیم به انتخاب ماشین آبی می‌گیرم." },
+      { "de": "Hast du dich schon entschieden?", "fa": "قبلاً تصمیم گرفته‌ای؟" },
+      { "de": "Wir entscheiden uns morgen endgültig.", "fa": "فردا تصمیم نهایی را می‌گیریم." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "37",
+    "level": "B1",
+    "type": "mit Akkusativ",
+    "word": "sich entschuldigen",
+    "meaning": "عذرخواهی کردن",
+    "antonyms": [],
+    "synonyms": ["um Entschuldigung bitten"],
+    "sentences": [
+      { "de": "Ich entschuldige mich für die Verspätung.", "fa": "برای تأخیر عذرخواهی می‌کنم." },
+      { "de": "Entschuldige dich bei deiner Schwester!", "fa": "از خواهرت عذرخواهی کن!" },
+      { "de": "Er hat sich bei allen entschuldigt.", "fa": "او از همه عذرخواهی کرده است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "38",
+    "level": "B1",
+    "type": "mit Akkusativ",
+    "word": "sich erholen",
+    "meaning": "استراحت کردن / بهبود یافتن",
+    "antonyms": ["sich anstrengen"],
+    "synonyms": ["sich ausruhen"],
+    "sentences": [
+      { "de": "Ich erhole mich am Wochenende.", "fa": "آخر هفته استراحت می‌کنم." },
+      { "de": "Nach der Krankheit erholt er sich langsam.", "fa": "پس از بیماری به آرامی بهبود می‌یابد." },
+      { "de": "Wir erholen uns im Urlaub am Meer.", "fa": "در تعطیلات کنار دریا استراحت می‌کنیم." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "39",
+    "level": "B1",
+    "type": "mit Akkusativ",
+    "word": "sich hinlegen",
+    "meaning": "دراز کشیدن",
+    "antonyms": ["aufstehen"],
+    "synonyms": ["sich niederlegen"],
+    "sentences": [
+      { "de": "Ich lege mich ein bisschen hin.", "fa": "کمی دراز می‌کشم." },
+      { "de": "Leg dich hin und ruh dich aus!", "fa": "دراز بکش و استراحت کن!" },
+      { "de": "Sie hat sich nach dem Essen hingelegt.", "fa": "او بعد از غذا دراز کشیده است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "40",
+    "level": "B1",
+    "type": "mit Akkusativ",
+    "word": "sich hinsetzen",
+    "meaning": "نشستن",
+    "antonyms": ["aufstehen"],
+    "synonyms": ["sich setzen"],
+    "sentences": [
+      { "de": "Setz dich bitte hin.", "fa": "لطفاً بنشین." },
+      { "de": "Ich setze mich auf den Stuhl.", "fa": "روی صندلی می‌نشینم." },
+      { "de": "Wir haben uns in die erste Reihe hingesetzt.", "fa": "ما در ردیف اول نشسته‌ایم." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "41",
+    "level": "B1",
+    "type": "mit Akkusativ",
+    "word": "sich irren",
+    "meaning": "اشتباه کردن",
+    "antonyms": ["recht haben"],
+    "synonyms": ["sich täuschen"],
+    "sentences": [
+      { "de": "Ich irre mich manchmal bei den Zahlen.", "fa": "گاهی در اعداد اشتباه می‌کنم." },
+      { "de": "Du irrst dich, das ist nicht richtig.", "fa": "اشتباه می‌کنی، این درست نیست." },
+      { "de": "Wir haben uns im Weg geirrt.", "fa": "در مسیر اشتباه کرده‌ایم." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "42",
+    "level": "B1",
+    "type": "mit Akkusativ",
+    "word": "sich konzentrieren",
+    "meaning": "تمرکز کردن",
+    "antonyms": ["sich ablenken"],
+    "synonyms": [],
+    "sentences": [
+      { "de": "Ich konzentriere mich auf die Arbeit.", "fa": "روی کار تمرکز می‌کنم." },
+      { "de": "Konzentrier dich bitte!", "fa": "لطفاً تمرکز کن!" },
+      { "de": "Die Schüler konzentrieren sich auf den Test.", "fa": "دانش‌آموزان روی تست تمرکز می‌کنند." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "43",
+    "level": "B1",
+    "type": "mit Akkusativ",
+    "word": "sich trennen",
+    "meaning": "جدا شدن",
+    "antonyms": ["zusammenbleiben"],
+    "synonyms": ["sich trennen von"],
+    "sentences": [
+      { "de": "Sie haben sich nach fünf Jahren getrennt.", "fa": "پس از پنج سال جدا شده‌اند." },
+      { "de": "Ich trenne mich von alten Sachen.", "fa": "از وسایل قدیمی جدا می‌شوم." },
+      { "de": "Wir trennen uns am Bahnhof.", "fa": "در ایستگاه قطار از هم جدا می‌شویم." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "44",
+    "level": "B1",
+    "type": "mit Akkusativ",
+    "word": "sich verirren",
+    "meaning": "گم شدن",
+    "antonyms": ["den Weg finden"],
+    "synonyms": ["sich verlaufen"],
+    "sentences": [
+      { "de": "Ich habe mich in der Stadt verirrt.", "fa": "در شهر گم شده‌ام." },
+      { "de": "Verirr dich nicht im Wald!", "fa": "در جنگل گم نشو!" },
+      { "de": "Wir haben uns ein bisschen verirrt.", "fa": "کمی گم شده‌ایم." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "45",
+    "level": "B1",
+    "type": "mit Akkusativ",
+    "word": "sich verlieben",
+    "meaning": "عاشق شدن",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      { "de": "Ich habe mich in sie verliebt.", "fa": "عاشق او شده‌ام." },
+      { "de": "Hast du dich schon mal verliebt?", "fa": "تا حالا عاشق شده‌ای؟" },
+      { "de": "Sie verlieben sich ineinander.", "fa": "آن‌ها عاشق هم می‌شوند." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "46",
+    "level": "B1",
+    "type": "mit Akkusativ",
+    "word": "sich wohlfühlen",
+    "meaning": "راحت بودن / احساس خوب داشتن",
+    "antonyms": ["sich unwohl fühlen"],
+    "synonyms": ["sich wohl fühlen"],
+    "sentences": [
+      { "de": "Ich fühle mich hier sehr wohl.", "fa": "اینجا خیلی راحت هستم." },
+      { "de": "Fühlst du dich in der neuen Wohnung wohl?", "fa": "در آپارتمان جدید راحت هستی؟" },
+      { "de": "Wir fühlen uns bei euch immer wohl.", "fa": "همیشه نزد شما راحت هستیم." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "47",
+    "level": "B1",
+    "type": "mit Dativ",
+    "word": "sich etwas überlegen",
+    "meaning": "چیزی را خوب فکر کردن / بررسی کردن",
+    "antonyms": ["sich etwas nicht überlegen"],
+    "synonyms": ["über etwas nachdenken"],
+    "sentences": [
+      { "de": "Ich überlege mir das noch einmal genau.", "fa": "من این را دوباره دقیق بررسی می‌کنم." },
+      { "de": "Sie hat sich den Kauf eines neuen Autos gut überlegt.", "fa": "او خرید ماشین جدید را خوب فکر کرده است." },
+      { "de": "Wir überlegen uns das Angebot sehr gründlich.", "fa": "ما پیشنهاد را خیلی دقیق بررسی می‌کنیم." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "48",
+    "level": "B1",
+    "type": "mit Dativ",
+    "word": "sich etwas vorstellen",
+    "meaning": "چیزی را تصور کردن / مجسم کردن",
+    "antonyms": ["sich etwas nicht vorstellen können"],
+    "synonyms": ["sich etwas ausmalen"],
+    "sentences": [
+      { "de": "Ich kann mir das Leben ohne dich nicht vorstellen.", "fa": "من نمی‌توانم زندگی بدون تو را تصور کنم." },
+      { "de": "Stell dir das Ergebnis in zwei Jahren vor.", "fa": "نتیجه را در دو سال آینده تصور کن." },
+      { "de": "Sie stellt sich ihre Zukunft als Ärztin sehr positiv vor.", "fa": "او آینده خودش را به عنوان پزشک خیلی مثبت تصور می‌کند." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "49",
+    "level": "B1",
+    "type": "mit Dativ",
+    "word": "sich etwas wünschen",
+    "meaning": "چیزی را آرزو کردن / خواستن",
+    "antonyms": ["sich etwas nicht wünschen"],
+    "synonyms": ["sich etwas erhoffen"],
+    "sentences": [
+      { "de": "Ich wünsche mir ein neues Fahrrad zum Geburtstag.", "fa": "من برای تولدم یک دوچرخه جدید آرزو می‌کنم." },
+      { "de": "Was wünschst du dir am meisten in diesem Jahr?", "fa": "بیشترین چیزی که در این سال آرزویش را داری چیست؟" },
+      { "de": "Sie wünscht sich mehr Zeit für ihre Familie.", "fa": "او زمان بیشتری برای خانواده‌اش آرزو می‌کند." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "50",
+    "level": "B2",
+    "type": "mit Akkusativ",
+    "word": "sich amüsieren",
+    "meaning": "سرگرم شدن، خوش گذراندن",
+    "antonyms": ["sich langweilen"],
+    "synonyms": ["sich vergnügen"],
+    "sentences": [
+      { "de": "Wir amüsieren uns sehr gut auf der Party.", "fa": "ما در مهمانی خیلی خوب سرگرم می‌شویم." },
+      { "de": "Die Kinder haben sich gestern Abend richtig amüsiert.", "fa": "بچه‌ها دیشب واقعاً سرگرم شدند." },
+      { "de": "Ich amüsiere mich immer, wenn ich mit Freunden zusammen bin.", "fa": "همیشه وقتی با دوستانم هستم سرگرم می‌شوم." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "51",
+    "level": "B2",
+    "type": "mit Akkusativ",
+    "word": "sich anfühlen",
+    "meaning": "احساس شدن، حس کردن",
+    "antonyms": [],
+    "synonyms": ["sich anfassen"],
+    "sentences": [
+      { "de": "Der Stoff fühlt sich weich an.", "fa": "پارچه نرم احساس می‌شود." },
+      { "de": "Deine Hände fühlen sich kalt an.", "fa": "دست‌هایت سرد احساس می‌شوند." },
+      { "de": "Die Situation fühlt sich für mich sehr seltsam an.", "fa": "وضعیت برای من خیلی عجیب احساس می‌شود." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "52",
+    "level": "B2",
+    "type": "mit Akkusativ",
+    "word": "sich aufregen",
+    "meaning": "عصبانی شدن، ناراحت شدن",
+    "antonyms": ["sich beruhigen"],
+    "synonyms": ["sich ärgern"],
+    "sentences": [
+      { "de": "Er regt sich über Kleinigkeiten auf.", "fa": "او از چیزهای کوچک عصبانی می‌شود." },
+      { "de": "Warum hast du dich so sehr aufgeregt?", "fa": "چرا اینقدر ناراحت شدی؟" },
+      { "de": "Ich rege mich nicht mehr über solche Dinge auf.", "fa": "دیگر از چنین چیزهایی عصبانی نمی‌شوم." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "53",
+    "level": "B2",
+    "type": "mit Akkusativ",
+    "word": "sich auskennen",
+    "meaning": "آشنا بودن، بلد بودن",
+    "antonyms": ["sich nicht auskennen"],
+    "synonyms": ["sich zurechtfinden"],
+    "sentences": [
+      { "de": "Ich kenne mich in dieser Stadt gut aus.", "fa": "من در این شهر خوب آشنا هستم." },
+      { "de": "Kennst du dich mit Computern aus?", "fa": "با کامپیوترها آشنا هستی؟" },
+      { "de": "Sie kennt sich sehr gut mit dem Thema aus.", "fa": "او خیلی خوب با موضوع آشنا است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "54",
+    "level": "B2",
+    "type": "mit Akkusativ",
+    "word": "sich ausruhen",
+    "meaning": "استراحت کردن",
+    "antonyms": ["sich anstrengen"],
+    "synonyms": ["sich erholen"],
+    "sentences": [
+      { "de": "Nach der Arbeit ruhe ich mich auf dem Sofa aus.", "fa": "بعد از کار روی کاناپه استراحت می‌کنم." },
+      { "de": "Du solltest dich ein bisschen ausruhen.", "fa": "باید کمی استراحت کنی." },
+      { "de": "Wir haben uns am Wochenende richtig ausgeruht.", "fa": "ما آخر هفته خوب استراحت کردیم." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "55",
+    "level": "B2",
+    "type": "mit Akkusativ",
+    "word": "sich ausweisen",
+    "meaning": "شناسایی کردن خود، اثبات هویت",
+    "antonyms": [],
+    "synonyms": ["sich legitimieren"],
+    "sentences": [
+      { "de": "Bitte weisen Sie sich am Eingang aus.", "fa": "لطفاً در ورودی هویت خود را اثبات کنید." },
+      { "de": "Er hat sich mit dem Pass ausgewiesen.", "fa": "او با پاسپورت هویت خود را اثبات کرد." },
+      { "de": "Können Sie sich bitte ausweisen?", "fa": "می‌توانید لطفاً هویت خود را نشان دهید؟" }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "56",
+    "level": "B2",
+    "type": "mit Akkusativ",
+    "word": "sich bedienen",
+    "meaning": "خود را سرو کردن، استفاده کردن",
+    "antonyms": [],
+    "synonyms": ["sich nehmen"],
+    "sentences": [
+      { "de": "Bedienen Sie sich bitte am Buffet.", "fa": "لطفاً از بوفه خودتان سرو کنید." },
+      { "de": "Ich habe mich schon bedient.", "fa": "من قبلاً سرو کردم." },
+      { "de": "Die Gäste bedienen sich selbst.", "fa": "مهمانان خودشان سرو می‌کنند." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "57",
+    "level": "B2",
+    "type": "mit Akkusativ",
+    "word": "sich beruhigen",
+    "meaning": "آرام شدن",
+    "antonyms": ["sich aufregen"],
+    "synonyms": ["sich entspannen"],
+    "sentences": [
+      { "de": "Beruhige dich bitte, es ist alles in Ordnung.", "fa": "لطفاً آرام شو، همه چیز مرتب است." },
+      { "de": "Nach einer Weile hat sie sich beruhigt.", "fa": "بعد از مدتی آرام شد." },
+      { "de": "Ich kann mich nicht so schnell beruhigen.", "fa": "نمی‌توانم اینقدر سریع آرام شوم." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "58",
+    "level": "B2",
+    "type": "mit Akkusativ",
+    "word": "sich beschäftigen",
+    "meaning": "مشغول شدن",
+    "antonyms": ["sich langweilen"],
+    "synonyms": ["sich befassen"],
+    "sentences": [
+      { "de": "Ich beschäftige mich gerne mit Musik.", "fa": "دوست دارم با موسیقی مشغول شوم." },
+      { "de": "Sie beschäftigt sich den ganzen Tag mit den Kindern.", "fa": "او تمام روز با بچه‌ها مشغول است." },
+      { "de": "Womit hast du dich in letzter Zeit beschäftigt?", "fa": "در این اواخر با چه چیزی مشغول بودی؟" }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "59",
+    "level": "B2",
+    "type": "mit Akkusativ",
+    "word": "sich einschreiben",
+    "meaning": "ثبت نام کردن",
+    "antonyms": [],
+    "synonyms": ["sich anmelden"],
+    "sentences": [
+      { "de": "Ich habe mich für den Kurs eingeschrieben.", "fa": "برای دوره ثبت نام کردم." },
+      { "de": "Du musst dich bis Freitag einschreiben.", "fa": "باید تا جمعه ثبت نام کنی." },
+      { "de": "Viele Studenten haben sich schon eingeschrieben.", "fa": "دانشجویان زیادی قبلاً ثبت نام کرده‌اند." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "60",
+    "level": "B2",
+    "type": "mit Akkusativ",
+    "word": "sich entschließen",
+    "meaning": "تصمیم گرفتن",
+    "antonyms": ["zögern"],
+    "synonyms": ["sich entscheiden"],
+    "sentences": [
+      { "de": "Ich habe mich endlich entschlossen, umzuziehen.", "fa": "بالاخره تصمیم گرفتم نقل مکان کنم." },
+      { "de": "Sie hat sich schnell entschlossen.", "fa": "او سریع تصمیم گرفت." },
+      { "de": "Wir müssen uns bald entschließen.", "fa": "باید زود تصمیم بگیریم." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "61",
+    "level": "B2",
+    "type": "mit Akkusativ",
+    "word": "sich entwickeln",
+    "meaning": "توسعه یافتن، رشد کردن",
+    "antonyms": ["stagnieren"],
+    "synonyms": ["sich verbessern"],
+    "sentences": [
+      { "de": "Die Technologie entwickelt sich sehr schnell.", "fa": "فناوری خیلی سریع توسعه می‌یابد." },
+      { "de": "Das Kind hat sich gut entwickelt.", "fa": "کودک خوب رشد کرده است." },
+      { "de": "Die Situation entwickelt sich positiv.", "fa": "وضعیت به شکل مثبتی توسعه می‌یابد." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "62",
+    "level": "B2",
+    "type": "mit Akkusativ",
+    "word": "sich erkälten",
+    "meaning": "سرماخوردن",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      { "de": "Ich habe mich letzte Woche erkältet.", "fa": "هفته گذشته سرما خوردم." },
+      { "de": "Zieh dich warm an, sonst erkältest du dich.", "fa": "لباس گرم بپوش، وگرنه سرما می‌خوری." },
+      { "de": "Viele Leute haben sich in der Kälte erkältet.", "fa": "بسیاری از مردم در سرما سرما خوردند." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "63",
+    "level": "B2",
+    "type": "mit Akkusativ",
+    "word": "sich erkundigen",
+    "meaning": "پرس و جو کردن",
+    "antonyms": [],
+    "synonyms": ["nachfragen"],
+    "sentences": [
+      { "de": "Ich habe mich nach den Öffnungszeiten erkundigt.", "fa": "درباره ساعات کاری پرس و جو کردم." },
+      { "de": "Erkundige dich bitte bei der Information.", "fa": "لطفاً در بخش اطلاعات پرس و جو کن." },
+      { "de": "Sie hat sich bei der Behörde erkundigt.", "fa": "او در اداره پرس و جو کرد." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "64",
+    "level": "B2",
+    "type": "mit Akkusativ",
+    "word": "sich fortbilden",
+    "meaning": "آموزش دیدن، پیشرفت کردن",
+    "antonyms": [],
+    "synonyms": ["sich weiterbilden"],
+    "sentences": [
+      { "de": "Viele Angestellte bilden sich regelmäßig fort.", "fa": "بسیاری از کارکنان مرتب آموزش می‌بینند." },
+      { "de": "Ich möchte mich in diesem Bereich fortbilden.", "fa": "می‌خواهم در این زمینه آموزش ببینم." },
+      { "de": "Er hat sich beruflich fortgebildet.", "fa": "او از نظر حرفه‌ای پیشرفت کرده است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "65",
+    "level": "B2",
+    "type": "mit Akkusativ",
+    "word": "sich fragen",
+    "meaning": "از خود پرسیدن",
+    "antonyms": [],
+    "synonyms": ["überlegen"],
+    "sentences": [
+      { "de": "Ich frage mich, ob das richtig ist.", "fa": "از خودم می‌پرسم آیا این درست است." },
+      { "de": "Man fragt sich wirklich, warum das passiert ist.", "fa": "واقعاً از خود می‌پرسی چرا این اتفاق افتاده." },
+      { "de": "Sie fragt sich jeden Tag dasselbe.", "fa": "او هر روز همان چیز را از خودش می‌پرسد." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "66",
+    "level": "B2",
+    "type": "mit Akkusativ",
+    "word": "sich fürchten",
+    "meaning": "ترسیدن",
+    "antonyms": ["sich freuen"],
+    "synonyms": ["Angst haben"],
+    "sentences": [
+      { "de": "Ich fürchte mich vor Spinnen.", "fa": "از عنکبوت‌ها می‌ترسم." },
+      { "de": "Die Kinder fürchten sich im Dunkeln.", "fa": "بچه‌ها در تاریکی می‌ترسند." },
+      { "de": "Er fürchtet sich vor der Prüfung.", "fa": "از امتحان می‌ترسد." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "67",
+    "level": "B2",
+    "type": "mit Akkusativ",
+    "word": "sich langweilen",
+    "meaning": "حوصله سر رفتن",
+    "antonyms": ["sich amüsieren"],
+    "synonyms": [],
+    "sentences": [
+      { "de": "Ich langweile mich bei diesem Film.", "fa": "در این فیلم حوصله‌ام سر می‌رود." },
+      { "de": "Die Schüler haben sich in der Stunde gelangweilt.", "fa": "دانش‌آموزان در کلاس حوصله‌شان سر رفت." },
+      { "de": "Langweilst du dich nie?", "fa": "هیچ وقت حوصله‌ات سر نمی‌رود؟" }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "68",
+    "level": "B2",
+    "type": "mit Akkusativ",
+    "word": "sich melden",
+    "meaning": "گزارش دادن، تماس گرفتن",
+    "antonyms": [],
+    "synonyms": ["sich anmelden"],
+    "sentences": [
+      { "de": "Bitte melde dich bei mir, wenn du ankommst.", "fa": "لطفاً وقتی رسیدی به من خبر بده." },
+      { "de": "Er hat sich noch nicht gemeldet.", "fa": "هنوز تماس نگرفته است." },
+      { "de": "Ich melde mich morgen früh.", "fa": "فردا صبح تماس می‌گیرم." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "69",
+    "level": "B2",
+    "type": "mit Akkusativ",
+    "word": "sich scheiden lassen",
+    "meaning": "طلاق گرفتن",
+    "antonyms": ["heiraten"],
+    "synonyms": [],
+    "sentences": [
+      { "de": "Sie haben sich letztes Jahr scheiden lassen.", "fa": "آنها پارسال طلاق گرفتند." },
+      { "de": "Er will sich von seiner Frau scheiden lassen.", "fa": "او می‌خواهد از همسرش طلاق بگیرد." },
+      { "de": "Nach vielen Jahren haben sie sich scheiden lassen.", "fa": "بعد از سال‌ها طلاق گرفتند." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "70",
+    "level": "B2",
+    "type": "mit Akkusativ",
+    "word": "sich täuschen",
+    "meaning": "اشتباه کردن، فریب خوردن",
+    "antonyms": [],
+    "synonyms": ["sich irren"],
+    "sentences": [
+      { "de": "Ich habe mich leider getäuscht.", "fa": "متأسفانه اشتباه کردم." },
+      { "de": "Man täuscht sich leicht in ihm.", "fa": "آسان است که در مورد او اشتباه کنی." },
+      { "de": "Sie hat sich in der Person getäuscht.", "fa": "او در مورد شخص اشتباه کرده است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "71",
+    "level": "B2",
+    "type": "mit Akkusativ",
+    "word": "sich übergeben",
+    "meaning": "استفراغ کردن",
+    "antonyms": [],
+    "synonyms": ["brechen"],
+    "sentences": [
+      { "de": "Dem Kind ist schlecht, es hat sich übergeben.", "fa": "به کودک بد است، استفراغ کرده است." },
+      { "de": "Ich habe mich gestern Abend übergeben.", "fa": "دیشب استفراغ کردم." },
+      { "de": "Er hat sich mehrmals übergeben.", "fa": "چند بار استفراغ کرد." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "72",
+    "level": "B2",
+    "type": "mit Akkusativ",
+    "word": "sich verabreden",
+    "meaning": "قرار گذاشتن",
+    "antonyms": [],
+    "synonyms": ["einen Termin machen"],
+    "sentences": [
+      { "de": "Wir haben uns für morgen verabredet.", "fa": "برای فردا قرار گذاشتیم." },
+      { "de": "Hast du dich schon mit ihr verabredet?", "fa": "قبلاً با او قرار گذاشته‌ای؟" },
+      { "de": "Sie verabreden sich regelmäßig zum Kaffee.", "fa": "آنها مرتب برای قهوه قرار می‌گذارند." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "73",
+    "level": "B2",
+    "type": "mit Akkusativ",
+    "word": "sich verändern",
+    "meaning": "تغییر کردن",
+    "antonyms": ["gleich bleiben"],
+    "synonyms": ["sich wandeln"],
+    "sentences": [
+      { "de": "Die Stadt hat sich in den letzten Jahren stark verändert.", "fa": "شهر در سال‌های اخیر خیلی تغییر کرده است." },
+      { "de": "Die Menschen verändern sich mit der Zeit.", "fa": "انسان‌ها با گذشت زمان تغییر می‌کنند." },
+      { "de": "Ich möchte mich beruflich verändern.", "fa": "می‌خواهم از نظر شغلی تغییر کنم." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "74",
+    "level": "B2",
+    "type": "mit Akkusativ",
+    "word": "sich verfahren",
+    "meaning": "گم شدن (با وسیله نقلیه)",
+    "antonyms": [],
+    "synonyms": ["sich verirren"],
+    "sentences": [
+      { "de": "Wir haben uns total verfahren.", "fa": "کاملاً گم شدیم." },
+      { "de": "Ich habe mich in der fremden Stadt verfahren.", "fa": "در شهر غریب گم شدم." },
+      { "de": "Der Taxifahrer hat sich leider verfahren.", "fa": "متأسفانه راننده تاکسی گم شد." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "75",
+    "level": "B2",
+    "type": "mit Akkusativ",
+    "word": "sich verlassen",
+    "meaning": "اتکا کردن، تکیه کردن",
+    "antonyms": ["misstrauen"],
+    "synonyms": ["sich verlassen auf"],
+    "sentences": [
+      { "de": "Ich verlasse mich auf dich.", "fa": "روی تو حساب می‌کنم." },
+      { "de": "Man kann sich auf ihn nicht verlassen.", "fa": "نمی‌توان روی او حساب کرد." },
+      { "de": "Sie verlässt sich immer auf ihre Freunde.", "fa": "همیشه روی دوستانش تکیه می‌کند." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "76",
+    "level": "B2",
+    "type": "mit Akkusativ",
+    "word": "sich verstecken",
+    "meaning": "پنهان شدن",
+    "antonyms": ["sich zeigen"],
+    "synonyms": ["sich verbergen"],
+    "sentences": [
+      { "de": "Die Katze versteckt sich unter dem Bett.", "fa": "گربه زیر تخت پنهان می‌شود." },
+      { "de": "Warum versteckst du dich vor mir?", "fa": "چرا از من پنهان می‌شوی؟" },
+      { "de": "Die Kinder haben sich im Garten versteckt.", "fa": "بچه‌ها در باغ پنهان شدند." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "77",
+    "level": "B2",
+    "type": "mit Akkusativ",
+    "word": "sich verteidigen",
+    "meaning": "از خود دفاع کردن",
+    "antonyms": ["angreifen"],
+    "synonyms": ["sich wehren"],
+    "sentences": [
+      { "de": "Er hat sich tapfer verteidigt.", "fa": "او شجاعانه از خود دفاع کرد." },
+      { "de": "Man muss sich manchmal verteidigen.", "fa": "گاهی باید از خود دفاع کرد." },
+      { "de": "Die Mannschaft hat sich gut verteidigt.", "fa": "تیم خوب دفاع کرد." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "78",
+    "level": "B2",
+    "type": "mit Akkusativ",
+    "word": "sich weiterbilden",
+    "meaning": "آموزش دیدن، پیشرفت کردن",
+    "antonyms": [],
+    "synonyms": ["sich fortbilden"],
+    "sentences": [
+      { "de": "Ich möchte mich beruflich weiterbilden.", "fa": "می‌خواهم از نظر حرفه‌ای پیشرفت کنم." },
+      { "de": "Viele Leute bilden sich online weiter.", "fa": "بسیاری از افراد آنلاین آموزش می‌بینند." },
+      { "de": "Sie hat sich in ihrer Freizeit weitergebildet.", "fa": "او در اوقات فراغت خود آموزش دیده است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "79",
+    "level": "B2",
+    "type": "mit Akkusativ",
+    "word": "sich wundern",
+    "meaning": "تعجب کردن",
+    "antonyms": [],
+    "synonyms": ["erstaunt sein"],
+    "sentences": [
+      { "de": "Ich wundere mich über seine Reaktion.", "fa": "از واکنش او تعجب می‌کنم." },
+      { "de": "Man kann sich wirklich wundern.", "fa": "واقعاً می‌توان تعجب کرد." },
+      { "de": "Sie hat sich sehr über das Geschenk gewundert.", "fa": "او خیلی از هدیه تعجب کرد." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "80",
+    "level": "B2",
+    "type": "mit Akkusativ",
+    "word": "sich vorbereiten",
+    "meaning": "آماده شدن",
+    "antonyms": [],
+    "synonyms": ["sich fertigmachen"],
+    "sentences": [
+      { "de": "Ich bereite mich auf die Prüfung vor.", "fa": "برای امتحان آماده می‌شوم." },
+      { "de": "Wir haben uns gut auf das Meeting vorbereitet.", "fa": "خوب برای جلسه آماده شدیم." },
+      { "de": "Bereitest du dich schon auf den Urlaub vor?", "fa": "برای تعطیلات آماده می‌شوی؟" }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "81",
+    "level": "B2",
+    "type": "reflexive verb",
+    "word": "sich etwas leisten",
+    "meaning": "چیزی را برای خود فراهم کردن (از نظر مالی یا زمانی)",
+    "antonyms": ["sich etwas nicht leisten können"],
+    "synonyms": ["sich etwas gönnen"],
+    "sentences": [
+      { "de": "Ich kann mir dieses neue Handy nicht leisten.", "fa": "من نمی‌توانم این گوشی جدید را برای خودم بخرم." },
+      { "de": "Sie leistet sich jeden Monat eine Massage.", "fa": "او هر ماه یک ماساژ برای خودش فراهم می‌کند." },
+      { "de": "Wir können uns keinen Urlaub leisten.", "fa": "ما نمی‌توانیم برای خودمان تعطیلات فراهم کنیم." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "82",
+    "level": "B2",
+    "type": "reflexive verb",
+    "word": "sich Zeit nehmen",
+    "meaning": "برای خود زمان گذاشتن / وقت اختصاص دادن",
+    "antonyms": ["sich keine Zeit nehmen"],
+    "synonyms": ["sich Zeit widmen"],
+    "sentences": [
+      { "de": "Ich nehme mir jeden Abend Zeit zum Lesen.", "fa": "من هر شب برای خودم زمان مطالعه می‌گذارم." },
+      { "de": "Nimm dir Zeit für deine Familie.", "fa": "برای خانواده‌ات زمان بگذار." },
+      { "de": "Sie nimmt sich Zeit, um eine gute Entscheidung zu treffen.", "fa": "او برای خود زمان می‌گذارد تا تصمیم خوبی بگیرد." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "83",
+    "level": "B2",
+    "type": "reflexive verb",
+    "word": "sich Zeit lassen",
+    "meaning": "عجله نکردن / با آرامش کار کردن",
+    "antonyms": ["sich beeilen"],
+    "synonyms": ["sich Zeit nehmen"],
+    "sentences": [
+      { "de": "Lass dir Zeit, die Antwort muss nicht sofort kommen.", "fa": "عجله نکن، جواب لازم نیست فوری باشد." },
+      { "de": "Er lässt sich Zeit beim Kochen und genießt es.", "fa": "او موقع آشپزی عجله نمی‌کند و از آن لذت می‌برد." },
+      { "de": "Wir lassen uns Zeit mit dem Umzug.", "fa": "ما با اسباب‌کشی عجله نمی‌کنیم." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "84",
+    "level": "C1",
+    "type": "mit Akkusativ",
+    "word": "sich beherrschen",
+    "meaning": "خود را کنترل کردن",
+    "antonyms": ["sich gehen lassen"],
+    "synonyms": ["sich zurückhalten"],
+    "sentences": [
+      { "de": "Wenn ich das Lied höre, kann ich mich nicht beherrschen.", "fa": "وقتی این آهنگ را می‌شنوم، نمی‌توانم خودم را کنترل کنم." },
+      { "de": "Er beherrscht sich immer in schwierigen Situationen.", "fa": "او همیشه در موقعیت‌های دشوار خود را کنترل می‌کند." },
+      { "de": "Sie musste sich sehr beherrschen, um nicht zu lachen.", "fa": "او باید خیلی خود را کنترل می‌کرد تا نخندد." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "85",
+    "level": "C1",
+    "type": "mit Akkusativ",
+    "word": "sich einsetzen",
+    "meaning": "تلاش کردن / خود را وقف کردن",
+    "antonyms": ["sich zurückhalten"],
+    "synonyms": ["sich engagieren"],
+    "sentences": [
+      { "de": "Der Schauspieler setzt sich sehr für die Umwelt ein.", "fa": "بازیگر خیلی برای محیط زیست تلاش می‌کند." },
+      { "de": "Wir setzen uns für die Rechte der Kinder ein.", "fa": "ما برای حقوق کودکان تلاش می‌کنیم." },
+      { "de": "Sie hat sich immer für soziale Gerechtigkeit eingesetzt.", "fa": "او همیشه برای عدالت اجتماعی خود را وقف کرده است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "86",
+    "level": "C1",
+    "type": "mit Akkusativ",
+    "word": "sich ereignen",
+    "meaning": "اتفاق افتادن / رخ دادن",
+    "antonyms": ["ausbleiben"],
+    "synonyms": ["geschehen", "passieren"],
+    "sentences": [
+      { "de": "Seit letzter Woche hat sich nichts Besonderes ereignet.", "fa": "از هفته گذشته هیچ چیز خاصی اتفاق نیفتاده است." },
+      { "de": "Das Unglück ereignete sich mitten in der Nacht.", "fa": "این حادثه در نیمه شب رخ داد." },
+      { "de": "Solche Vorfälle ereignen sich leider immer wieder.", "fa": "متأسفانه چنین وقایعی همیشه دوباره اتفاق می‌افتد." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "87",
+    "level": "C1",
+    "type": "mit Akkusativ",
+    "word": "sich gedulden",
+    "meaning": "صبر کردن / شکیبا بودن",
+    "antonyms": ["ungeduldig sein"],
+    "synonyms": ["warten"],
+    "sentences": [
+      { "de": "Bitte gedulden Sie sich noch einen Moment.", "fa": "لطفاً هنوز یک لحظه صبر کنید." },
+      { "de": "Die Kunden mussten sich lange gedulden.", "fa": "مشتریان باید مدت طولانی صبر می‌کردند." },
+      { "de": "Er konnte sich nicht länger gedulden und ging weg.", "fa": "او دیگر نتوانست صبر کند و رفت." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "88",
+    "level": "C1",
+    "type": "mit Akkusativ",
+    "word": "sich schämen",
+    "meaning": "خجالت کشیدن / شرمنده شدن",
+    "antonyms": ["stolz sein"],
+    "synonyms": ["sich genieren"],
+    "sentences": [
+      { "de": "Für dein Verhalten musst du dich nicht schämen.", "fa": "برای رفتارهایت نیازی نیست خجالت بکشی." },
+      { "de": "Sie schämt sich wegen ihres Fehlers.", "fa": "او به خاطر اشتباهش شرمنده است." },
+      { "de": "Er schämte sich so sehr, dass er rot wurde.", "fa": "او آنقدر خجالت کشید که صورتش قرمز شد." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "89",
+    "level": "C1",
+    "type": "mit Akkusativ",
+    "word": "sich sehnen",
+    "meaning": "دلتنگی کردن / آرزو کردن",
+    "antonyms": ["gleichgültig sein"],
+    "synonyms": ["verlangen"],
+    "sentences": [
+      { "de": "Er sehnt sich nach seiner Familie.", "fa": "او دلتنگ خانواده‌اش است." },
+      { "de": "Sie sehnt sich nach Ruhe und Frieden.", "fa": "او دلتنگ آرامش و صلح است." },
+      { "de": "Wir haben uns lange nach einem Zuhause gesehnt.", "fa": "ما مدت طولانی دلتنگ یک خانه بودیم." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "90",
+    "level": "C1",
+    "type": "mit Akkusativ",
+    "word": "sich trauen",
+    "meaning": "جرات کردن",
+    "antonyms": ["Angst haben"],
+    "synonyms": ["wagen"],
+    "sentences": [
+      { "de": "Traust du dich, das zu machen?", "fa": "جرات داری این کار را بکنی؟" },
+      { "de": "Niemand traut sich, die Frage zu stellen.", "fa": "هیچ‌کس جرات ندارد سؤال را بپرسد." },
+      { "de": "Sie traut sich nicht allein in die Dunkelheit.", "fa": "او جرات ندارد تنها به تاریکی برود." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  
+  {
+    "id": "91",
+    "level": "C1",
+    "type": "mit Dativ",
+    "word": "sich etwas abgewöhnen",
+    "meaning": "ترک کردن عادت (بد)",
+    "antonyms": ["sich etwas angewöhnen"],
+    "synonyms": ["aufgeben"],
+    "sentences": [
+      { "de": "Ich will mir das Rauchen endlich abgewöhnen.", "fa": "بالاخره می‌خواهم سیگار کشیدن را ترک کنم." },
+      { "de": "Sie hat sich das Nägelbeißen schon vor Jahren abgewöhnt.", "fa": "او جویدن ناخن را سال‌ها پیش ترک کرده." },
+      { "de": "Es ist schwer, sich eine schlechte Angewohnheit abzugewöhnen.", "fa": "ترک کردن یک عادت بد کار سختی است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "92",
+    "level": "C1",
+    "type": "mit Dativ",
+    "word": "sich etwas angewöhnen",
+    "meaning": "عادت کردن به چیزی",
+    "antonyms": ["sich etwas abgewöhnen"],
+    "synonyms": ["sich an etwas gewöhnen"],
+    "sentences": [
+      { "de": "Ich habe mir angewöhnt, jeden Morgen Sport zu machen.", "fa": "من عادت کرده‌ام هر صبح ورزش کنم." },
+      { "de": "Er will sich das frühe Aufstehen nicht angewöhnen.", "fa": "او نمی‌خواهد عادت به زود بیدار شدن کند." },
+      { "de": "Man gewöhnt sich schnell etwas Schlechtes an.", "fa": "انسان سریع به چیزهای بد عادت می‌کند." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "93",
+    "level": "C1",
+    "type": "mit Dativ",
+    "word": "sich etwas ansehen",
+    "meaning": "نگاه کردن به چیزی (برای خود)",
+    "antonyms": [],
+    "synonyms": ["sich etwas anschauen"],
+    "sentences": [
+      { "de": "Ich sehe mir gleich den neuen Film an.", "fa": "همین الان فیلم جدید را نگاه می‌کنم." },
+      { "de": "Sie hat sich das Haus gestern genau angesehen.", "fa": "او دیروز خانه را دقیق نگاه کرد." },
+      { "de": "Wir sollten uns die Lage noch einmal ansehen.", "fa": "باید وضعیت را یک بار دیگر نگاه کنیم." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "94",
+    "level": "C1",
+    "type": "mit Dativ",
+    "word": "sich etwas ausdenken",
+    "meaning": "چیزی را به ذهن خود آوردن / اختراع کردن",
+    "antonyms": [],
+    "synonyms": ["sich etwas einfallen lassen"],
+    "sentences": [
+      { "de": "Er hat sich eine lustige Geschichte ausgedacht.", "fa": "او یک داستان خنده‌دار به ذهنش آورده." },
+      { "de": "Kannst du dir eine bessere Lösung ausdenken?", "fa": "می‌توانی راه‌حل بهتری به ذهنت بیاوری؟" },
+      { "de": "Sie denkt sich immer neue Entschuldigungen aus.", "fa": "او همیشه بهانه‌های جدید به ذهنش می‌رسد." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "95",
+    "level": "C1",
+    "type": "mit Dativ",
+    "word": "sich etwas einbilden",
+    "meaning": "تصور کردن / فکر کردن به اشتباه",
+    "antonyms": [],
+    "synonyms": ["sich täuschen"],
+    "sentences": [
+      { "de": "Bilde dir bloß nicht ein, dass du immer Recht hast.", "fa": "فقط تصور نکن که همیشه حق با توست." },
+      { "de": "Sie bildet sich ein, dass alle sie beneiden.", "fa": "او تصور می‌کند همه به او حسادت می‌کنند." },
+      { "de": "Ich habe mir eingebildet, ihn schon einmal gesehen zu haben.", "fa": "من تصور کرده بودم که قبلاً او را دیده‌ام." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "96",
+    "level": "C1",
+    "type": "mit Dativ",
+    "word": "sich etwas merken",
+    "meaning": "چیزی را به خاطر سپردن",
+    "antonyms": ["vergessen"],
+    "synonyms": ["sich etwas einprägen"],
+    "sentences": [
+      { "de": "Ich muss mir den Termin gut merken.", "fa": "باید این قرار را خوب به خاطر بسپارم." },
+      { "de": "Merke dir bitte diese Telefonnummer.", "fa": "لطفاً این شماره تلفن را به خاطر بسپار." },
+      { "de": "Sie hat sich alle Namen sofort gemerkt.", "fa": "او همه اسم‌ها را فوراً به خاطر سپرد." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "97",
+    "level": "C1",
+    "type": "mit Dativ",
+    "word": "sich etwas vornehmen",
+    "meaning": "تصمیم گرفتن / قصد کردن",
+    "antonyms": [],
+    "synonyms": ["sich entschließen"],
+    "sentences": [
+      { "de": "Ich nehme mir vor, mehr Sport zu treiben.", "fa": "تصمیم گرفته‌ام بیشتر ورزش کنم." },
+      { "de": "Sie hat sich vorgenommen, früher ins Bett zu gehen.", "fa": "او قصد کرده زودتر بخوابد." },
+      { "de": "Wir nehmen uns vor, dieses Jahr sparsamer zu leben.", "fa": "ما تصمیم گرفته‌ایم امسال اقتصادی‌تر زندگی کنیم." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "98",
+    "level": "C1",
+    "type": "mit Dativ",
+    "word": "sich Mühe geben",
+    "meaning": "تلاش کردن / زحمت کشیدن",
+    "antonyms": ["sich keine Mühe geben"],
+    "synonyms": ["sich bemühen"],
+    "sentences": [
+      { "de": "Ich gebe mir wirklich Mühe, besser Deutsch zu sprechen.", "fa": "من واقعاً تلاش می‌کنم آلمانی‌ام را بهتر صحبت کنم." },
+      { "de": "Gib dir bitte mehr Mühe beim Lernen.", "fa": "لطفاً موقع درس خواندن بیشتر زحمت بکش." },
+      { "de": "Sie gibt sich immer sehr viel Mühe für ihre Familie.", "fa": "او همیشه برای خانواده‌اش خیلی زحمت می‌کشد." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "99",
+    "level": "C1",
+    "type": "mit Dativ",
+    "word": "sich Sorgen machen",
+    "meaning": "نگران شدن",
+    "antonyms": ["sich keine Sorgen machen"],
+    "synonyms": ["sich beunruhigen"],
+    "sentences": [
+      { "de": "Ich mache mir Sorgen um meine Großmutter.", "fa": "من نگران مادربزرگم هستم." },
+      { "de": "Mach dir keine Sorgen, alles wird gut.", "fa": "نگران نباش، همه چیز خوب می‌شود." },
+      { "de": "Sie macht sich immer zu viele Sorgen um die Zukunft.", "fa": "او همیشه بیش از حد درباره آینده نگران می‌شود." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "100",
+    "level": "C1",
+    "type": "reflexive",
+    "word": "sich stressen",
+    "meaning": "استرس گرفتن، خود را تحت فشار گذاشتن",
+    "antonyms": ["sich entspannen"],
+    "synonyms": ["sich aufregen"],
+    "sentences": [
+      { "de": "Du solltest dich nicht so sehr stressen wegen der Prüfung.", "fa": "نباید اینقدر به خاطر امتحان استرس بگیری." },
+      { "de": "Sie stresst sich immer mit Kleinigkeiten und kann nicht abschalten.", "fa": "او همیشه با مسائل کوچک خودش را تحت فشار می‌گذارد و نمی‌تواند ریلکس کند." },
+      { "de": "Wenn du dich weiter so stressst, wirst du noch krank.", "fa": "اگر اینطور ادامه دهی خودت را استرس بگیری، مریض می‌شوی." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "101",
+    "level": "C1",
+    "type": "reflexive",
+    "word": "sich chillen",
+    "meaning": "ریلکس کردن، چیل کردن",
+    "antonyms": ["sich stressen"],
+    "synonyms": ["sich entspannen"],
+    "sentences": [
+      { "de": "Nach der Arbeit chill ich mich einfach auf der Couch.", "fa": "بعد از کار فقط روی کاناپه خودم را چیل می‌کنم." },
+      { "de": "Am Wochenende will ich mich richtig chillen und nichts tun.", "fa": "آخر هفته می‌خواهم حسابی ریلکس کنم و هیچ کاری نکنم." },
+      { "de": "Chill dich mal, es ist nicht so schlimm wie du denkst.", "fa": "یکم چیل کن، به آن بدی که فکر می‌کنی نیست." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "102",
+    "level": "C1",
+    "type": "reflexive",
+    "word": "sich zoffen",
+    "meaning": "دعوا کردن، جر و بحث کردن (عامیانه)",
+    "antonyms": ["sich vertragen"],
+    "synonyms": ["sich streiten"],
+    "sentences": [
+      { "de": "Die beiden zoffen sich schon wieder wegen der gleichen Sache.", "fa": "این دو نفر دوباره به خاطر همان موضوع با هم دعوا می‌کنند." },
+      { "de": "Ich habe keine Lust, mich mit dir zu zoffen.", "fa": "حوصله ندارم با تو جر و بحث کنم." },
+      { "de": "Sie zoffen sich ständig, aber versöhnen sich auch schnell wieder.", "fa": "آنها مدام با هم دعوا می‌کنند اما سریع هم آشتی می‌کنند." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "103",
+    "level": "C1",
+    "type": "reflexive",
+    "word": "sich fetzen",
+    "meaning": "دعوا کردن، به هم پریدن (عامیانه)",
+    "antonyms": ["sich vertragen"],
+    "synonyms": ["sich zoffen"],
+    "sentences": [
+      { "de": "Die Geschwister fetzen sich jeden Tag um das letzte Stück Kuchen.", "fa": "خواهر و برادرها هر روز سر آخرین تکه کیک به هم می‌پرند." },
+      { "de": "Sie haben sich richtig gefetzt, aber jetzt ist wieder alles gut.", "fa": "آنها حسابی دعوا کردند اما حالا دوباره همه چیز خوب است." },
+      { "de": "Ich fetze mich nicht mit Leuten, die mir egal sind.", "fa": "با کسانی که برام مهم نیستند دعوا نمی‌کنم." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "104",
+    "level": "C1",
+    "type": "reflexive",
+    "word": "sich zusammenreißen",
+    "meaning": "خود را جمع و جور کردن، خود را کنترل کردن",
+    "antonyms": ["sich gehen lassen"],
+    "synonyms": ["sich beherrschen"],
+    "sentences": [
+      { "de": "Reiß dich zusammen, wir sind hier nicht zu Hause.", "fa": "خودت را جمع کن، اینجا خانه خودمان نیست." },
+      { "de": "Er musste sich sehr zusammenreißen, um nicht zu weinen.", "fa": "او باید خیلی خودش را کنترل می‌کرد تا گریه نکند." },
+      { "de": "Wenn du dich nicht zusammenreißt, verlierst du den Job.", "fa": "اگر خودت را جمع و جور نکنی، شغلت را از دست می‌دهی." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "105",
+    "level": "C1",
+    "type": "reflexive",
+    "word": "sich auskotzen",
+    "meaning": "خالی کردن دل، غر زدن (عامیانه)",
+    "antonyms": [],
+    "synonyms": ["sich beklagen"],
+    "sentences": [
+      { "de": "Ich muss mich mal richtig auskotzen über meinen Chef.", "fa": "باید حسابی دلم را خالی کنم از دست رئیسم." },
+      { "de": "Sie hat sich bei mir ausgekozt und fühlte sich danach besser.", "fa": "او پیش من غر زد و بعدش احساس بهتری داشت." },
+      { "de": "Kotz dich aus, ich höre dir zu.", "fa": "دل خودت را خالی کن، گوش می‌دهم." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "106",
+    "level": "C1",
+    "type": "reflexive",
+    "word": "sich reinhängen",
+    "meaning": "خود را درگیر کردن، تمام تلاش خود را گذاشتن",
+    "antonyms": ["sich zurückhalten"],
+    "synonyms": ["sich engagieren"],
+    "sentences": [
+      { "de": "Er hängt sich voll in das Projekt rein.", "fa": "او کاملاً خودش را در پروژه درگیر کرده است." },
+      { "de": "Sie hat sich richtig reingehängt und den Wettbewerb gewonnen.", "fa": "او واقعاً تمام تلاشش را گذاشت و مسابقه را برد." },
+      { "de": "Häng dich nicht zu sehr rein, sonst wirst du enttäuscht.", "fa": "خیلی خودت را درگیر نکن، وگرنه ناامید می‌شوی." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "107",
+    "level": "C1",
+    "type": "reflexive",
+    "word": "sich verpissen",
+    "meaning": "گمش شدن، رفتن (عامیانه و بی‌ادبانه)",
+    "antonyms": [],
+    "synonyms": ["verschwinden"],
+    "sentences": [
+      { "de": "Verpiss dich, ich will dich jetzt nicht sehen.", "fa": "گمش شو، الان نمی‌خواهم تو را ببینم." },
+      { "de": "Er hat sich einfach verpisst, ohne Bescheid zu sagen.", "fa": "او بدون خبر دادن просто گم شد." },
+      { "de": "Verpiss euch endlich, ihr nervt!", "fa": "بالاخره گمشوید، اعصابم را خرد کردید!" }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "108",
+    "level": "C1",
+    "type": "reflexive",
+    "word": "sich breitmachen",
+    "meaning": "جا باز کردن، فضا اشغال کردن",
+    "antonyms": ["sich klein machen"],
+    "synonyms": ["sich ausbreiten"],
+    "sentences": [
+      { "de": "Mach dich nicht so breit, wir haben wenig Platz.", "fa": "اینقدر جا باز نکن، فضای کمی داریم." },
+      { "de": "Er macht sich immer breit und nimmt zwei Sitze ein.", "fa": "او همیشه جا باز می‌کند و دو صندلی را اشغال می‌کند." },
+      { "de": "Die Firma macht sich in ganz Europa breit.", "fa": "شرکت در تمام اروپا در حال گسترش است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "109",
+    "level": "C1",
+    "type": "reflexive",
+    "word": "sich hinhauen",
+    "meaning": "دراز کشیدن، خوابیدن (عامیانه)",
+    "antonyms": [],
+    "synonyms": ["sich hinlegen"],
+    "sentences": [
+      { "de": "Ich hau mich jetzt hin, ich bin total fertig.", "fa": "الان می‌روم دراز بکشم، حسابی خسته‌ام." },
+      { "de": "Nach dem Training hat er sich direkt hingehauen.", "fa": "بعد از تمرین مستقیم رفت دراز کشید." },
+      { "de": "Hau dich mal hin und ruh dich aus.", "fa": "یکم دراز بکش و استراحت کن." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "110",
+    "level": "C1",
+    "type": "reflexive",
+    "word": "sich volllaufen lassen",
+    "meaning": "خود را مست کردن، پر کردن",
+    "antonyms": ["nüchtern bleiben"],
+    "synonyms": ["sich betrinken"],
+    "sentences": [
+      { "de": "Gestern haben wir uns richtig volllaufen lassen.", "fa": "دیروز حسابی خودمان را مست کردیم." },
+      { "de": "Lass dich nicht so volllaufen, morgen musst du arbeiten.", "fa": "اینقدر خودت را پر نکن، فردا باید کار کنی." },
+      { "de": "Er lässt sich jedes Wochenende volllaufen.", "fa": "او هر آخر هفته خودش را مست می‌کند." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "111",
+    "level": "C1",
+    "type": "reflexive",
+    "word": "sich abschminken",
+    "meaning": "از چیزی صرف نظر کردن، فراموش کردن (مجازی)",
+    "antonyms": [],
+    "synonyms": ["aufgeben"],
+    "sentences": [
+      { "de": "Die Reise dieses Jahr kannst du dir abschminken.", "fa": "سفر امسال را دیگر می‌توانی فراموش کنی." },
+      { "de": "Schmink dir das ab, das wird nichts.", "fa": "از این ایده صرف نظر کن، هیچی نمی‌شود." },
+      { "de": "Ich habe mir den neuen Wagen schon abgeschminkt.", "fa": "ماشین جدید را دیگر از ذهنم بیرون کردم." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "112",
+    "level": "C1",
+    "type": "reflexive",
+    "word": "sich hochziehen",
+    "meaning": "خود را بالا کشیدن، انگیزه گرفتن",
+    "antonyms": ["sich runterziehen"],
+    "synonyms": ["sich motivieren"],
+    "sentences": [
+      { "de": "Ich muss mich irgendwie hochziehen, um weiterzumachen.", "fa": "باید خودم را somehow بالا بکشم تا ادامه دهم." },
+      { "de": "Mit Musik kann ich mich immer gut hochziehen.", "fa": "با موسیقی همیشه خوب می‌توانم خودم را انگیزه‌دار کنم." },
+      { "de": "Er zieht sich mit Sport hoch, wenn es ihm schlecht geht.", "fa": "وقتی حالش بد است با ورزش خودش را بالا می‌کشد." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "113",
+    "level": "C1",
+    "type": "reflexive",
+    "word": "sich runterziehen",
+    "meaning": "خود را پایین کشیدن، افسرده کردن",
+    "antonyms": ["sich hochziehen"],
+    "synonyms": ["sich deprimieren"],
+    "sentences": [
+      { "de": "Hör auf, dich mit negativen Gedanken runterzuziehen.", "fa": "بس کن خودت را با افکار منفی پایین نکش." },
+      { "de": "Die schlechten Nachrichten haben mich total runtergezogen.", "fa": "اخبار بد کاملاً مرا پایین کشید." },
+      { "de": "Sie zieht sich oft mit Social Media runter.", "fa": "او اغلب با شبکه‌های اجتماعی خودش را افسرده می‌کند." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  }
+
+
+
+
+
+
+
+
+]

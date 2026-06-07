@@ -1,0 +1,332 @@
+[
+  {
+    "id": 1,
+    "words": [
+      {
+        "german": "über",
+        "persian": "بالا / روی",
+        "pronunciation": "اوبر"
+      },
+      {
+        "german": "unter",
+        "persian": "زیر / پایین",
+        "pronunciation": "اونتر"
+      },
+      {
+        "german": "drinnen",
+        "persian": "داخل",
+        "pronunciation": "درینن"
+      },
+      {
+        "german": "draußen",
+        "persian": "خارج / بیرون",
+        "pronunciation": "دراوسن"
+      },
+      {
+        "german": "leer",
+        "persian": "خالی",
+        "pronunciation": "لئر"
+      },
+      {
+        "german": "voll",
+        "persian": "پر / کامل",
+        "pronunciation": "فول"
+      },
+      {
+        "german": "nah",
+        "persian": "نزدیک",
+        "pronunciation": "نا"
+      },
+      {
+        "german": "fern",
+        "persian": "دور",
+        "pronunciation": "فِرن"
+      },
+      {
+        "german": "hart",
+        "persian": "سخت / سخت",
+        "pronunciation": "هارت"
+      },
+      {
+        "german": "weich",
+        "persian": "نرم",
+        "pronunciation": "وایش"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "words": [
+      {
+        "german": "legen",
+        "persian": "گذاشتن (به صورت افقی)",
+        "pronunciation": "لِگِن"
+      },
+      {
+        "german": "Ich lege das Buch auf den Tisch.",
+        "persian": "من کتاب را روی میز می‌گذارم.",
+        "pronunciation": "ایش لِگِه داس بوخ آوْف دِن تیش"
+      },
+      {
+        "german": "stellen",
+        "persian": "قرار دادن (به صورت عمودی)",
+        "pronunciation": "اشتِلِن"
+      },
+      {
+        "german": "Ich stelle die Flasche auf den Tisch.",
+        "persian": "من بطری را روی میز قرار می‌دهم.",
+        "pronunciation": "ایش اشتِلِه دی فْلاشِه آوْف دِن تیش"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "words": [
+      {
+        "german": "die Uhr",
+        "persian": "ساعت",
+        "pronunciation": "دی اُور"
+      },
+      {
+        "german": "das Fenster",
+        "persian": "پنجره",
+        "pronunciation": "داس فنستر"
+      },
+      {
+        "german": "der Schrank",
+        "persian": "کمد",
+        "pronunciation": "در شرنک"
+      },
+      {
+        "german": "die Tür",
+        "persian": "در",
+        "pronunciation": "دی تور"
+      },
+      {
+        "german": "die Pflanze",
+        "persian": "گیاه",
+        "pronunciation": "دی پفلانتسه"
+      },
+      {
+        "german": "das Kissen",
+        "persian": "بالش",
+        "pronunciation": "داس کیسن"
+      },
+      {
+        "german": "der Tisch",
+        "persian": "میز",
+        "pronunciation": "در تیش"
+      },
+      {
+        "german": "die Lampe",
+        "persian": "لامپ",
+        "pronunciation": "دی لامپه"
+      },
+      {
+        "german": "das Bett",
+        "persian": "تخت",
+        "pronunciation": "داس بت"
+      },
+      {
+        "german": "der Stuhl",
+        "persian": "صندلی",
+        "pronunciation": "در اشتول"
+      },
+      {
+        "german": "der Teppich",
+        "persian": "فرش",
+        "pronunciation": "در تِپیخ"
+      },
+      {
+        "german": "die Schublade",
+        "persian": "کشو",
+        "pronunciation": "دی شوبلاده"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "words": [
+      {
+        "german": "das Regal",
+        "persian": "قفسه",
+        "pronunciation": "داس رِگال"
+      },
+      {
+        "german": "der Kleiderschrank",
+        "persian": "کمد لباس",
+        "pronunciation": "در کلایدرشرانک"
+      },
+      {
+        "german": "die Tür",
+        "persian": "در",
+        "pronunciation": "دی تور"
+      },
+      {
+        "german": "das Fenster",
+        "persian": "پنجره",
+        "pronunciation": "داس فنستر"
+      },
+      {
+        "german": "der Tisch",
+        "persian": "میز",
+        "pronunciation": "در تیش"
+      },
+      {
+        "german": "das Bett",
+        "persian": "تخت خواب",
+        "pronunciation": "داس بِت"
+      },
+      {
+        "german": "der Stuhl",
+        "persian": "صندلی",
+        "pronunciation": "در اشتول"
+      },
+      {
+        "german": "das Sofa",
+        "persian": "مبل",
+        "pronunciation": "داس زوفا"
+      },
+      {
+        "german": "der Teppich",
+        "persian": "فرش",
+        "pronunciation": "در تِپیخ"
+      },
+      {
+        "german": "die Lampe",
+        "persian": "لامپ",
+        "pronunciation": "دی لامپه"
+      },
+      {
+        "german": "die Toilette",
+        "persian": "توالت",
+        "pronunciation": "دی توالِته"
+      },
+      {
+        "german": "das Waschbecken",
+        "persian": "روشویی",
+        "pronunciation": "داس واش‌بِکن"
+      },
+      {
+        "german": "die Bürste",
+        "persian": "برس",
+        "pronunciation": "دی بورشته"
+      },
+      {
+        "german": "die Zahnbürste",
+        "persian": "مسواک",
+        "pronunciation": "دی تساهن‌بورشته"
+      },
+      {
+        "german": "der Fernseher",
+        "persian": "تلویزیون",
+        "pronunciation": "در فرن‌زِهر"
+      },
+      {
+        "german": "der Herd",
+        "persian": "اجاق گاز",
+        "pronunciation": "در هِرد"
+      },
+      {
+        "german": "das Handtuch",
+        "persian": "حوله",
+        "pronunciation": "داس هاندتوخ"
+      },
+      {
+        "german": "die Badewanne",
+        "persian": "وان حمام",
+        "pronunciation": "دی بادِوانه"
+      },
+      {
+        "german": "die Seife",
+        "persian": "صابون",
+        "pronunciation": "دی زایفه"
+      },
+      {
+        "german": "die Dusche",
+        "persian": "دوش",
+        "pronunciation": "دی دوشه"
+      },
+      {
+        "german": "der Topf",
+        "persian": "قابلمه",
+        "pronunciation": "در توپف"
+      },
+      {
+        "german": "der Teller",
+        "persian": "بشقاب",
+        "pronunciation": "در تِلر"
+      },
+      {
+        "german": "das Messer",
+        "persian": "چاقو",
+        "pronunciation": "داس مِسِر"
+      },
+      {
+        "german": "die Gabel",
+        "persian": "چنگال",
+        "pronunciation": "دی گابل"
+      },
+      {
+        "german": "der Löffel",
+        "persian": "قاشق",
+        "pronunciation": "در لُفل"
+      },
+      {
+        "german": "das Glas",
+        "persian": "لیوان",
+        "pronunciation": "داس گلاس"
+      },
+      {
+        "german": "die Tasse",
+        "persian": "فنجان",
+        "pronunciation": "دی تاسه"
+      },
+      {
+        "german": "die Schüssel",
+        "persian": "کاسه",
+        "pronunciation": "دی شوسِل"
+      },
+      {
+        "german": "die Pfanne",
+        "persian": "تابه",
+        "pronunciation": "دی پفانه"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "words": [
+      {
+        "german": "der Rucksack",
+        "persian": "کوله پشتی",
+        "pronunciation": "در روک‌زاک"
+      },
+      {
+        "german": "das Buch",
+        "persian": "کتاب",
+        "pronunciation": "داس بوخ"
+      },
+      {
+        "german": "der Bleistift",
+        "persian": "مداد",
+        "pronunciation": "در بلای‌شتیفت"
+      },
+      {
+        "german": "das Heft",
+        "persian": "دفتر (دفترچه)",
+        "pronunciation": "داس هفت"
+      },
+      {
+        "german": "der Kugelschreiber",
+        "persian": "خودکار",
+        "pronunciation": "در کوگل‌شرایبر"
+      },
+      {
+        "german": "das Lineal",
+        "persian": "خط‌کش",
+        "pronunciation": "داس لینه‌آل"
+      }
+    ]
+  }
+]

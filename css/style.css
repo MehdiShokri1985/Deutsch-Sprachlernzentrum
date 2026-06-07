@@ -1,0 +1,9 @@
+ 
+ @keyframes fall {
+        from { transform: translateY(-100px); opacity: 0; }
+        to { transform: translateY(0); opacity: 1; }
+      }
+      .falling-word { animation: fall 2s ease-out; }
+      .modal-overlay { backdrop-filter: blur(4px); }
+
+   

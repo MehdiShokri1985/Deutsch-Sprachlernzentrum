@@ -1,0 +1,88 @@
+{
+  "id": "4",
+  "Kasus": "Personalpronomen",
+
+  "Nominativ": [
+    { "Singular": "ich", "de": "ich", "fa": "من" },
+    { "Singular": "du", "de": "du", "fa": "تو" },
+    { "Singular": "er", "de": "er", "fa": "او (مذکر)" },
+    { "Singular": "sie", "de": "sie", "fa": "او (مونث)" },
+    { "Singular": "es", "de": "es", "fa": "آن" },
+    { "Plural": "wir", "de": "wir", "fa": "ما" },
+    { "Plural": "ihr", "de": "ihr", "fa": "شما" },
+    { "Plural": "sie", "de": "sie", "fa": "آنها" },
+    { "Formal": "Sie", "de": "Sie", "fa": "شما رسمی" },
+
+    {
+      "sentences": [
+        { "de": "Ich lerne Deutsch.", "fa": "من آلمانی یاد می‌گیرم." },
+        { "de": "Du bist müde.", "fa": "تو خسته هستی." },
+        { "de": "Wir wohnen in Deutschland.", "fa": "ما در آلمان زندگی می‌کنیم." },
+        { "de": "Sie arbeiten heute.", "fa": "آنها امروز کار می‌کنند." }
+      ]
+    }
+  ],
+
+  "Akkusativ": [
+    { "Singular": "mich", "de": "mich", "fa": "من را" },
+    { "Singular": "dich", "de": "dich", "fa": "تو را" },
+    { "Singular": "ihn", "de": "ihn", "fa": "او را (مذکر)" },
+    { "Singular": "sie", "de": "sie", "fa": "او را (مونث)" },
+    { "Singular": "es", "de": "es", "fa": "آن را" },
+    { "Plural": "uns", "de": "uns", "fa": "ما را" },
+    { "Plural": "euch", "de": "euch", "fa": "شما را" },
+    { "Plural": "sie", "de": "sie", "fa": "آنها را" },
+    { "Formal": "Sie", "de": "Sie", "fa": "شما را رسمی" },
+
+    {
+      "sentences": [
+        { "de": "Er sieht mich.", "fa": "او من را می‌بیند." },
+        { "de": "Ich kenne dich.", "fa": "من تو را می‌شناسم." },
+        { "de": "Wir besuchen ihn.", "fa": "ما او را ملاقات می‌کنیم." },
+        { "de": "Der Lehrer ruft uns.", "fa": "معلم ما را صدا می‌زند." }
+      ]
+    }
+  ],
+
+  "Dativ": [
+    { "Singular": "mir", "de": "mir", "fa": "به من" },
+    { "Singular": "dir", "de": "dir", "fa": "به تو" },
+    { "Singular": "ihm", "de": "ihm", "fa": "به او (مذکر)" },
+    { "Singular": "ihr", "de": "ihr", "fa": "به او (مونث)" },
+    { "Singular": "ihm", "de": "ihm", "fa": "به آن" },
+    { "Plural": "uns", "de": "uns", "fa": "به ما" },
+    { "Plural": "euch", "de": "euch", "fa": "به شما" },
+    { "Plural": "ihnen", "de": "ihnen", "fa": "به آنها" },
+    { "Formal": "Ihnen", "de": "Ihnen", "fa": "به شما رسمی" },
+
+    {
+      "sentences": [
+        { "de": "Kannst du mir helfen?", "fa": "می‌توانی به من کمک کنی؟" },
+        { "de": "Ich danke dir.", "fa": "من از تو تشکر می‌کنم." },
+        { "de": "Das Buch gehört ihm.", "fa": "کتاب متعلق به اوست." },
+        { "de": "Die Lehrerin erklärt uns die Grammatik.", "fa": "معلم گرامر را برای ما توضیح می‌دهد." }
+      ]
+    }
+  ],
+
+  "Genitiv": [
+    { "Singular": "meiner", "de": "meiner", "fa": "مالِ من" },
+    { "Singular": "deiner", "de": "deiner", "fa": "مالِ تو" },
+    { "Singular": "seiner", "de": "seiner", "fa": "مالِ او (مذکر)" },
+    { "Singular": "ihrer", "de": "ihrer", "fa": "مالِ او (مونث)" },
+    { "Singular": "seiner", "de": "seiner", "fa": "مالِ آن" },
+    { "Plural": "unser", "de": "unser", "fa": "مالِ ما" },
+    { "Plural": "euer", "de": "euer", "fa": "مالِ شما" },
+    { "Plural": "ihrer", "de": "ihrer", "fa": "مالِ آنها" },
+    { "Formal": "Ihrer", "de": "Ihrer", "fa": "مالِ شما رسمی" },
+
+    {
+      "sentences": [
+        { "de": "Er erinnert sich meiner.", "fa": "او من را به یاد می‌آورد." },
+        { "de": "Wir gedenken deiner.", "fa": "ما به یاد تو هستیم." },
+        { "de": "Sie ist sich ihrer Fehler bewusst.", "fa": "او از اشتباهاتش آگاه است." },
+        { "de": "Der Erfolg unser ist wichtig.", "fa": "موفقیت ما مهم است." }
+      ]
+    }
+  ]
+}

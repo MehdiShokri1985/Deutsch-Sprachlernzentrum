@@ -1,0 +1,1620 @@
+[
+  {
+    "id": "1",
+    "level": "A2",
+    "type": "slang",
+    "word": "Hallo",
+    "meaning": "سلام",
+    "antonyms": [],
+    "synonyms": ["Hi", "Moin"],
+    "sentences": [
+      { "de": "Hallo, wie geht es dir heute?", "fa": "سلام، حالت امروز چطور است؟" },
+      { "de": "Ich sage Hallo zu allen Freunden im Chat.", "fa": "من به همه دوستانم در چت سلام می‌گویم." },
+      { "de": "Hallo, ich bin neu hier in der Stadt.", "fa": "سلام، من جدیداً به این شهر آمده‌ام." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "2",
+    "level": "A2",
+    "type": "slang",
+    "word": "Moin",
+    "meaning": "سلام (در شمال آلمان)",
+    "antonyms": [],
+    "synonyms": ["Hallo", "Moin Moin"],
+    "sentences": [
+      { "de": "Moin, alles gut bei dir in Hamburg?", "fa": "سلام، همه چیز خوبه تو هامبورگ؟" },
+      { "de": "Jeden Morgen höre ich Moin von meinen Kollegen.", "fa": "هر صبح از همکارهایم سلام می‌شنوم." },
+      { "de": "Moin, ich habe Kaffee für uns gemacht.", "fa": "سلام، من قهوه برای ما درست کردم." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "3",
+    "level": "A2",
+    "type": "slang",
+    "word": "Tschüss",
+    "meaning": "خداحافظ",
+    "antonyms": [],
+    "synonyms": ["Tschö", "Bis bald"],
+    "sentences": [
+      { "de": "Tschüss, wir sehen uns morgen wieder.", "fa": "خداحافظ، فردا دوباره همدیگر را می‌بینیم." },
+      { "de": "Sie sagt immer Tschüss bevor sie geht.", "fa": "او همیشه قبل از رفتن خداحافظ می‌گوید." },
+      { "de": "Tschüss, danke für den schönen Abend.", "fa": "خداحافظ، ممنون بابت عصر خوش." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "4",
+    "level": "A2",
+    "type": "slang",
+    "word": "Tschö",
+    "meaning": "خداحافظ (غیررسمی)",
+    "antonyms": [],
+    "synonyms": ["Tschüss", "Ciao"],
+    "sentences": [
+      { "de": "Tschö, bis zum nächsten Mal.", "fa": "خداحافظ، تا دفعه بعد." },
+      { "de": "Er ruft Tschö und läuft schnell weg.", "fa": "او خداحافظ می‌گوید و سریع می‌رود." },
+      { "de": "Tschö, mach nicht so lange heute.", "fa": "خداحافظ، امروز دیر نکن." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "5",
+    "level": "A2",
+    "type": "slang",
+    "word": "Na?",
+    "meaning": "خب؟ / چطوری؟",
+    "antonyms": [],
+    "synonyms": ["Na, wie geht's?", "Hey"],
+    "sentences": [
+      { "de": "Na? Alles klar bei dir nach der Arbeit?", "fa": "خب؟ بعد از کار همه چیز روبراهه؟" },
+      { "de": "Na? Erzähl mal, was hast du gemacht?", "fa": "خب؟ بگو ببینم، چیکار کردی؟" },
+      { "de": "Na? Du siehst heute sehr müde aus.", "fa": "خب؟ امروز خیلی خسته به نظر می‌رسی." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "6",
+    "level": "A2",
+    "type": "slang",
+    "word": "Wie geht's?",
+    "meaning": "چطوری؟ / حالت چطوره؟",
+    "antonyms": [],
+    "synonyms": ["Wie geht es dir?", "Alles gut?"],
+    "sentences": [
+      { "de": "Wie geht's? Ich habe dich lange nicht gesehen.", "fa": "چطوری؟ مدت‌هاست ندیدمت." },
+      { "de": "Wie geht's deiner Familie in dieser Zeit?", "fa": "حالت خانواده‌ات در این روزها چطور است؟" },
+      { "de": "Wie geht's? Hast du Lust auf einen Kaffee?", "fa": "چطوری؟ حوصله یک قهوه داری؟" }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "7",
+    "level": "A2",
+    "type": "slang",
+    "word": "Alles klar?",
+    "meaning": "همه چیز خوبه؟ / مشکلی نیست؟",
+    "antonyms": [],
+    "synonyms": ["Alles gut?", "Okay?"],
+    "sentences": [
+      { "de": "Alles klar? Du antwortest gar nicht mehr.", "fa": "همه چیز خوبه؟ دیگه جواب نمی‌دی." },
+      { "de": "Alles klar? Wir können später reden.", "fa": "مشکلی نیست؟ بعداً می‌توانیم حرف بزنیم." },
+      { "de": "Alles klar? Der Film war wirklich gut.", "fa": "همه چیز روبراهه؟ فیلم واقعاً خوب بود." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "8",
+    "level": "A2",
+    "type": "slang",
+    "word": "Gut und dir?",
+    "meaning": "خوبم، تو چطوری؟",
+    "antonyms": [],
+    "synonyms": ["Mir geht's gut, und dir?"],
+    "sentences": [
+      { "de": "Gut und dir? Ich war am Wochenende unterwegs.", "fa": "خوبم، تو چطوری؟ آخر هفته بیرون بودم." },
+      { "de": "Gut und dir? Die Arbeit ist etwas stressig.", "fa": "خوبم، تو چطوری؟ کار کمی استرس داره." },
+      { "de": "Gut und dir? Lass uns mal treffen.", "fa": "خوبم، تو چطوری؟ بیا یه بار همدیگه رو ببینیم." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "9",
+    "level": "A2",
+    "type": "slang",
+    "word": "Super",
+    "meaning": "عالی / فوق‌العاده",
+    "antonyms": ["Schlecht"],
+    "synonyms": ["Toll", "Prima"],
+    "sentences": [
+      { "de": "Super, das Essen schmeckt wirklich gut.", "fa": "عالی، غذا واقعاً خوشمزه است." },
+      { "de": "Die Idee ist super, lass uns das machen.", "fa": "این ایده عالیه، بیایم این کار را انجام دهیم." },
+      { "de": "Super, ich freue mich auf den Urlaub.", "fa": "عالی، منتظر تعطیلاتم." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "10",
+    "level": "A2",
+    "type": "slang",
+    "word": "Toll",
+    "meaning": "عالی / خیلی خوب",
+    "antonyms": ["Schrecklich"],
+    "synonyms": ["Super", "Prima"],
+    "sentences": [
+      { "de": "Toll, du hast das Spiel gewonnen.", "fa": "عالی، تو بازی را بردی." },
+      { "de": "Das Konzert war toll, die Band war super.", "fa": "کنسرت عالی بود، گروه فوق‌العاده بود." },
+      { "de": "Toll, dass du gekommen bist.", "fa": "عالی که اومدی." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "11",
+    "level": "A2",
+    "type": "slang",
+    "word": "Prima",
+    "meaning": "عالی / خیلی خوب",
+    "antonyms": [],
+    "synonyms": ["Super", "Toll"],
+    "sentences": [
+      { "de": "Prima, wir haben alles geschafft.", "fa": "عالی، همه کارها را انجام دادیم." },
+      { "de": "Das Wetter ist prima für einen Spaziergang.", "fa": "هوا برای پیاده‌روی عالی است." },
+      { "de": "Prima, ich hole dich um acht ab.", "fa": "عالی، ساعت هشت می‌آیم دنبالت." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "12",
+    "level": "A2",
+    "type": "slang",
+    "word": "Danke",
+    "meaning": "ممنون",
+    "antonyms": [],
+    "synonyms": ["Vielen Dank"],
+    "sentences": [
+      { "de": "Danke, das ist sehr nett von dir.", "fa": "ممنون، این خیلی مهربونانه از طرف توئه." },
+      { "de": "Danke für deine Hilfe gestern.", "fa": "ممنون بابت کمکت دیروز." },
+      { "de": "Danke, ich bin gleich fertig.", "fa": "ممنون، الان تمومش می‌کنم." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "13",
+    "level": "A2",
+    "type": "slang",
+    "word": "Bitte",
+    "meaning": "لطفاً / بفرمایید (جواب ممنون)",
+    "antonyms": [],
+    "synonyms": ["Gerne"],
+    "sentences": [
+      { "de": "Bitte, nimm dir noch ein Stück Kuchen.", "fa": "بفرمایید، یک تکه دیگه کیک بردار." },
+      { "de": "Kannst du mir bitte helfen?", "fa": "می‌تونی لطفاً کمکم کنی؟" },
+      { "de": "Danke! - Bitte, kein Problem.", "fa": "ممنون! - بفرمایید، مشکلی نیست." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "14",
+    "level": "A2",
+    "type": "slang",
+    "word": "Kein Problem",
+    "meaning": "مشکلی نیست / هیچی",
+    "antonyms": [],
+    "synonyms": ["Kein Ding", "Gerne"],
+    "sentences": [
+      { "de": "Kein Problem, ich warte noch fünf Minuten.", "fa": "مشکلی نیست، پنج دقیقه دیگه صبر می‌کنم." },
+      { "de": "Das ist kein Problem für mich.", "fa": "این برای من مشکلی نیست." },
+      { "de": "Kein Problem, wir machen das zusammen.", "fa": "مشکلی نیست، با هم انجامش می‌دیم." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "15",
+    "level": "A2",
+    "type": "slang",
+    "word": "Kein Ding",
+    "meaning": "هیچی نیست / مشکلی نیست",
+    "antonyms": [],
+    "synonyms": ["Kein Problem"],
+    "sentences": [
+      { "de": "Kein Ding, ich habe Zeit.", "fa": "هیچی نیست، وقت دارم." },
+      { "de": "Das war kein Ding, wirklich.", "fa": "اون هیچی نبود، واقعاً." },
+      { "de": "Kein Ding, wir sehen uns später.", "fa": "مشکلی نیست، بعداً همدیگه رو می‌بینیم." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "16",
+    "level": "A2",
+    "type": "slang",
+    "word": "Keine Ahnung",
+    "meaning": "هیچ ایده‌ای ندارم",
+    "antonyms": ["Ich weiß"],
+    "synonyms": ["Weiß nicht"],
+    "sentences": [
+      { "de": "Keine Ahnung, wo er jetzt ist.", "fa": "هیچ ایده‌ای ندارم الان کجاست." },
+      { "de": "Keine Ahnung, frag mal jemand anderen.", "fa": "نمی‌دونم، از یکی دیگه بپرس." },
+      { "de": "Ich habe keine Ahnung von diesem Thema.", "fa": "از این موضوع هیچ ایده‌ای ندارم." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "17",
+    "level": "A2",
+    "type": "slang",
+    "word": "Auf jeden Fall",
+    "meaning": "حتماً / به هر حال",
+    "antonyms": ["Auf keinen Fall"],
+    "synonyms": ["Auf alle Fälle"],
+    "sentences": [
+      { "de": "Auf jeden Fall komme ich morgen vorbei.", "fa": "حتماً فردا می‌آیم پیشت." },
+      { "de": "Auf jeden Fall ist das eine gute Idee.", "fa": "به هر حال این ایده خوبیه." },
+      { "de": "Wir treffen uns auf jeden Fall um sieben.", "fa": "حتماً ساعت هفت همدیگه رو می‌بینیم." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "18",
+    "level": "A2",
+    "type": "slang",
+    "word": "Na klar",
+    "meaning": "البته / معلومه",
+    "antonyms": [],
+    "synonyms": ["Na sicher", "Klar"],
+    "sentences": [
+      { "de": "Na klar, ich helfe dir gerne.", "fa": "البته، با کمال میل کمکت می‌کنم." },
+      { "de": "Na klar, das machen wir so.", "fa": "معلومه، همین کار را می‌کنیم." },
+      { "de": "Na klar, du kannst auf mich zählen.", "fa": "البته، می‌تونی روی من حساب کنی." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "19",
+    "level": "A2",
+    "type": "slang",
+    "word": "Na sicher",
+    "meaning": "حتماً / معلومه",
+    "antonyms": [],
+    "synonyms": ["Na klar"],
+    "sentences": [
+      { "de": "Na sicher, ich bringe den Kuchen mit.", "fa": "حتماً، کیک رو با خودم می‌آورم." },
+      { "de": "Na sicher, das ist kein Problem.", "fa": "معلومه، مشکلی نیست." },
+      { "de": "Na sicher, wir gehen zusammen hin.", "fa": "حتماً، با هم می‌رویم." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "20",
+    "level": "A2",
+    "type": "slang",
+    "word": "Quatsch",
+    "meaning": "چرند / مزخرف",
+    "antonyms": [],
+    "synonyms": ["Unsinn"],
+    "sentences": [
+      { "de": "Das ist totaler Quatsch, was er sagt.", "fa": "اون چیزی که می‌گه کاملاً چرنده." },
+      { "de": "Quatsch, das stimmt doch gar nicht.", "fa": "چرند، این اصلاً درست نیست." },
+      { "de": "Hör auf mit dem Quatsch.", "fa": "دیگه این چرندیات رو بسه." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "21",
+    "level": "A2",
+    "type": "slang",
+    "word": "Geil",
+    "meaning": "عالی / باحال (غیررسمی)",
+    "antonyms": [],
+    "synonyms": ["Krass", "Toll"],
+    "sentences": [
+      { "de": "Das neue Auto ist richtig geil.", "fa": "ماشین جدید واقعاً باحاله." },
+      { "de": "Geil, wir haben gewonnen!", "fa": "عالی، برنده شدیم!" },
+      { "de": "Der Song ist total geil.", "fa": "این آهنگ خیلی باحاله." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "22",
+    "level": "A2",
+    "type": "slang",
+    "word": "Krass",
+    "meaning": "وحشتناک / خیلی باحال",
+    "antonyms": [],
+    "synonyms": ["Geil", "Extrem"],
+    "sentences": [
+      { "de": "Krass, das hast du wirklich gemacht?", "fa": "وحشتناک، واقعاً این کار رو کردی؟" },
+      { "de": "Der Film war krass gut.", "fa": "فیلم خیلی خیلی خوب بود." },
+      { "de": "Krass, wie schnell die Zeit vergeht.", "fa": "عجب، چقدر زمان سریع می‌گذره." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "23",
+    "level": "A2",
+    "type": "slang",
+    "word": "Bis bald",
+    "meaning": "تا زودتر",
+    "antonyms": [],
+    "synonyms": ["Bis später", "Tschüss"],
+    "sentences": [
+      { "de": "Bis bald, ich melde mich diese Woche.", "fa": "تا زودتر، این هفته بهت زنگ می‌زنم." },
+      { "de": "Bis bald, pass auf dich auf.", "fa": "تا زودتر، مراقب خودت باش." },
+      { "de": "Bis bald, wir haben viel zu erzählen.", "fa": "تا زودتر، کلی چیز برای گفتن داریم." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "24",
+    "level": "A2",
+    "type": "slang",
+    "word": "Bis später",
+    "meaning": "تا بعداً",
+    "antonyms": [],
+    "synonyms": ["Bis bald"],
+    "sentences": [
+      { "de": "Bis später, ich muss jetzt arbeiten.", "fa": "تا بعداً، الان باید کار کنم." },
+      { "de": "Bis später am Abend, okay?", "fa": "تا شب، باشه؟" },
+      { "de": "Bis später, wir treffen uns im Café.", "fa": "تا بعداً، تو کافه همدیگه رو می‌بینیم." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "25",
+    "level": "A2",
+    "type": "slang",
+    "word": "Mach's gut",
+    "meaning": "مراقب باش / خوب باش",
+    "antonyms": [],
+    "synonyms": ["Tschüss", "Pass auf dich auf"],
+    "sentences": [
+      { "de": "Mach's gut, bis zum nächsten Mal.", "fa": "مراقب باش، تا دفعه بعد." },
+      { "de": "Mach's gut und grüß deine Familie.", "fa": "خوب باش و به خانواده‌ات سلام برسون." },
+      { "de": "Mach's gut, wir hören uns bald.", "fa": "مراقب باش، زود به هم زنگ می‌زنیم." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "26",
+    "level": "A2",
+    "type": "slang",
+    "word": "Prost",
+    "meaning": "به سلامتی (وقتی نوشیدنی می‌خورند)",
+    "antonyms": [],
+    "synonyms": ["Zum Wohl"],
+    "sentences": [
+      { "de": "Prost, auf einen schönen Abend.", "fa": "به سلامتی، به یک عصر خوب." },
+      { "de": "Alle sagen Prost und trinken zusammen.", "fa": "همه به سلامتی می‌گویند و با هم می‌نوشند." },
+      { "de": "Prost, danke dass du gekommen bist.", "fa": "به سلامتی، ممنون که اومدی." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "27",
+    "level": "B1",
+    "type": "slang",
+    "word": "Läuft",
+    "meaning": "اوکیه / داره پیش میره / خوبه",
+    "antonyms": [],
+    "synonyms": ["Passt", "Alles easy"],
+    "sentences": [
+      { "de": "Wie geht’s? – Läuft!", "fa": "چطوری؟ – اوکیه!" },
+      { "de": "Das Projekt läuft richtig gut bei uns.", "fa": "پروژه ما واقعاً خوب داره پیش میره." },
+      { "de": "Läuft bei dir alles nach Plan?", "fa": "همه چیز طبق برنامه پیش میره پیش تو؟" }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "28",
+    "level": "B1",
+    "type": "slang",
+    "word": "Bock haben",
+    "meaning": "حوصله داشتن / دل خواستن",
+    "antonyms": ["Keinen Bock"],
+    "synonyms": [],
+    "sentences": [
+      { "de": "Hast du Bock auf Kino heute Abend?", "fa": "حوصله داری امشب سینما بریم؟" },
+      { "de": "Ich habe total Bock auf Urlaub.", "fa": "من کلی دلم سفر می‌خواد." },
+      { "de": "Sie hat keinen Bock mehr auf die Party.", "fa": "اون دیگه حوصله مهمونی رو نداره." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "29",
+    "level": "B1",
+    "type": "slang",
+    "word": "Keinen Bock",
+    "meaning": "حوصله نداشتن",
+    "antonyms": ["Bock haben"],
+    "synonyms": [],
+    "sentences": [
+      { "de": "Ich habe keinen Bock auf die Arbeit.", "fa": "حوصله کار رو ندارم." },
+      { "de": "Er hat keinen Bock mehr auf das Training.", "fa": "اون دیگه حوصله تمرین رو نداره." },
+      { "de": "Wir haben keinen Bock, das nochmal zu machen.", "fa": "ما حوصله نداریم دوباره این کار رو انجام بدیم." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "30",
+    "level": "B1",
+    "type": "slang",
+    "word": "Das ist mir egal",
+    "meaning": "برام مهم نیست / برام فرقی نداره",
+    "antonyms": [],
+    "synonyms": ["Das ist mir Wurst", "Das ist mir Latte"],
+    "sentences": [
+      { "de": "Welchen Film wir schauen? Das ist mir egal.", "fa": "کدام فیلم رو ببینیم؟ برام مهم نیست." },
+      { "de": "Ob er kommt oder nicht, das ist mir egal.", "fa": "اون بیاد یا نیاد، برام فرقی نداره." },
+      { "de": "Die Meinung der anderen ist mir egal.", "fa": "نظر بقیه برام مهم نیست." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "31",
+    "level": "B1",
+    "type": "slang",
+    "word": "Das ist mir Wurst",
+    "meaning": "برام مهم نیست (خیلی عامیانه)",
+    "antonyms": [],
+    "synonyms": ["Das ist mir egal", "Das ist mir Latte"],
+    "sentences": [
+      { "de": "Was sie über mich denken? Das ist mir Wurst.", "fa": "اونا درباره من چی فکر می‌کنن؟ برام مهم نیست." },
+      { "de": "Ob es regnet, das ist mir Wurst.", "fa": "بارون بیاد یا نه، برام مهم نیست." },
+      { "de": "Die Details sind mir Wurst, Hauptsache es funktioniert.", "fa": "جزئیات برام مهم نیست، فقط کار کنه." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "32",
+    "level": "B1",
+    "type": "slang",
+    "word": "Das ist mir Latte",
+    "meaning": "برام مهم نیست (خیلی عامیانه)",
+    "antonyms": [],
+    "synonyms": ["Das ist mir egal", "Das ist mir Wurst"],
+    "sentences": [
+      { "de": "Die Prüfung war schwer? Das ist mir Latte.", "fa": "امتحان سخت بود؟ برام مهم نیست." },
+      { "de": "Was er sagt, ist mir komplett Latte.", "fa": "اون چی بگه برام کاملاً مهم نیست." },
+      { "de": "Die Farbe des Autos ist mir Latte.", "fa": "رنگ ماشین برام مهم نیست." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "33",
+    "level": "B1",
+    "type": "slang",
+    "word": "Safe",
+    "meaning": "حتماً / مطمئن / اوکی",
+    "antonyms": [],
+    "synonyms": ["Klar", "Logo"],
+    "sentences": [
+      { "de": "Kommst du mit? – Safe!", "fa": "میای با ما؟ – حتماً!" },
+      { "de": "Das machen wir safe morgen.", "fa": "این کار رو حتماً فردا انجام می‌دیم." },
+      { "de": "Die Party wird safe gut.", "fa": "مهمونی مطمئناً خوب میشه." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "34",
+    "level": "B1",
+    "type": "slang",
+    "word": "Chillig",
+    "meaning": "آروم / ریلکس / باحال",
+    "antonyms": [],
+    "synonyms": ["Entspannt"],
+    "sentences": [
+      { "de": "Die Atmosphäre hier ist total chillig.", "fa": "جو اینجا خیلی آرومه." },
+      { "de": "Lass uns chillig einen Film schauen.", "fa": "بیا ریلکس یه فیلم ببینیم." },
+      { "de": "Er ist ein sehr chilliger Typ.", "fa": "اون آدم خیلی ریلکسیه." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "35",
+    "level": "B1",
+    "type": "slang",
+    "word": "Hammer",
+    "meaning": "عالی / فوق‌العاده",
+    "antonyms": [],
+    "synonyms": ["Krass", "Geil"],
+    "sentences": [
+      { "de": "Der neue Song ist Hammer!", "fa": "آهنگ جدید عالیه!" },
+      { "de": "Das Konzert gestern war der absolute Hammer.", "fa": "کنسرت دیروز فوق‌العاده بود." },
+      { "de": "Sie hat eine hammer Idee gehabt.", "fa": "اون یه ایده عالی داشته." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "36",
+    "level": "B1",
+    "type": "slang",
+    "word": "Digga",
+    "meaning": "داداش / رفیق (خطاب دوستانه)",
+    "antonyms": [],
+    "synonyms": ["Alter", "Bro"],
+    "sentences": [
+      { "de": "Digga, was geht ab?", "fa": "داداش، چه خبر؟" },
+      { "de": "Komm mit, Digga!", "fa": "بیا با ما، داداش!" },
+      { "de": "Digga, du bist der Beste.", "fa": "داداش، تو بهترینی." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "37",
+    "level": "B1",
+    "type": "slang",
+    "word": "Alter",
+    "meaning": "داداش / رفیق (خطاب دوستانه)",
+    "antonyms": [],
+    "synonyms": ["Digga", "Bro"],
+    "sentences": [
+      { "de": "Alter, das ist krass!", "fa": "داداش، این دیوونه‌کننده‌ست!" },
+      { "de": "Ey Alter, wo warst du?", "fa": "هی داداش، کجا بودی؟" },
+      { "de": "Alter, lass uns was machen.", "fa": "داداش، بیایم یه کاری کنیم." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "38",
+    "level": "B1",
+    "type": "slang",
+    "word": "Bro",
+    "meaning": "داداش / برادر (خطاب دوستانه)",
+    "antonyms": [],
+    "synonyms": ["Digga", "Alter"],
+    "sentences": [
+      { "de": "Bro, hilf mir mal.", "fa": "داداش، یه کم کمکم کن." },
+      { "de": "Danke, Bro!", "fa": "مرسی داداش!" },
+      { "de": "Bro, du bist verrückt.", "fa": "داداش، تو دیوونه‌ای." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "39",
+    "level": "B1",
+    "type": "slang",
+    "word": "Gönn dir",
+    "meaning": "بخور / لذت ببر / حالشو ببر",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      { "de": "Gönn dir ein Stück Kuchen!", "fa": "یه تیکه کیک بخور!" },
+      { "de": "Gönn dir mal eine Pause.", "fa": "یه کم به خودت استراحت بده." },
+      { "de": "Das neue Handy? Gönn dir!", "fa": "موبایل جدید؟ بخرش و لذت ببر!" }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "40",
+    "level": "B1",
+    "type": "slang",
+    "word": "Abchecken",
+    "meaning": "چک کردن / نگاه کردن / بررسی کردن",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      { "de": "Ich checke das mal ab.", "fa": "اینو یه چک می‌کنم." },
+      { "de": "Lass uns die Lage abchecken.", "fa": "بیایم وضعیت رو بررسی کنیم." },
+      { "de": "Hast du schon die Nachrichten abgecheckt?", "fa": "پیام‌ها رو چک کردی؟" }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "41",
+    "level": "B1",
+    "type": "slang",
+    "word": "Verpeilt",
+    "meaning": "گیج / حواس‌پرت",
+    "antonyms": [],
+    "synonyms": ["Vergesslich"],
+    "sentences": [
+      { "de": "Sorry, ich bin heute total verpeilt.", "fa": "ببخشید، امروز خیلی گیجم." },
+      { "de": "Er ist immer so verpeilt.", "fa": "اون همیشه اینقدر حواس‌پرته." },
+      { "de": "Ich habe verpeilt, dass heute der Test ist.", "fa": "فراموشم شد که امروز امتحان داریم." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "42",
+    "level": "B1",
+    "type": "slang",
+    "word": "Jein",
+    "meaning": "نه‌آره / هم بله هم نه",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      { "de": "Kommst du mit? – Jein.", "fa": "میای؟ – هم بله هم نه." },
+      { "de": "Das ist eine Jein-Antwort.", "fa": "این جواب هم بله هم نه است." },
+      { "de": "Jein, ich bin mir noch nicht sicher.", "fa": "هم بله هم نه، هنوز مطمئن نیستم." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "43",
+    "level": "B1",
+    "type": "slang",
+    "word": "Isso",
+    "meaning": "همینه / دقیقاً / درسته",
+    "antonyms": [],
+    "synonyms": ["Genau"],
+    "sentences": [
+      { "de": "Das war echt gut. – Isso!", "fa": "واقعاً خوب بود. – دقیقاً!" },
+      { "de": "Isso, so machen wir das.", "fa": "همینه، همین کار رو می‌کنیم." },
+      { "de": "Du hast recht. – Isso.", "fa": "حق با توئه. – درسته." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "44",
+    "level": "B1",
+    "type": "slang",
+    "word": "Passt",
+    "meaning": "اوکیه / خوبه / جور درمیاد",
+    "antonyms": [],
+    "synonyms": ["Läuft", "Passt schon"],
+    "sentences": [
+      { "de": "Treffen wir uns um 8? – Passt!", "fa": "ساعت ۸ ببینیمت؟ – اوکیه!" },
+      { "de": "Das passt perfekt.", "fa": "این کاملاً جور درمیاد." },
+      { "de": "Passt das für dich?", "fa": "این برات خوبه؟" }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "45",
+    "level": "B1",
+    "type": "slang",
+    "word": "Passt schon",
+    "meaning": "اوکیه / مشکلی نیست / خوبه",
+    "antonyms": [],
+    "synonyms": ["Passt"],
+    "sentences": [
+      { "de": "Sorry für die Verspätung. – Passt schon!", "fa": "ببخشید دیر کردم. – مشکلی نیست!" },
+      { "de": "Passt schon, wir warten noch.", "fa": "اوکیه، هنوز منتظریم." },
+      { "de": "Das Geld passt schon.", "fa": "پولش جور میشه." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "46",
+    "level": "B1",
+    "type": "slang",
+    "word": "Läuft bei dir?",
+    "meaning": "چطوری؟ / چه خبرا؟",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      { "de": "Hey, läuft bei dir?", "fa": "هی، چطوری؟" },
+      { "de": "Läuft bei dir alles gut?", "fa": "همه چیز پیش تو خوبه؟" },
+      { "de": "Was geht ab? Läuft bei dir?", "fa": "چه خبر؟ چطوری؟" }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "47",
+    "level": "B1",
+    "type": "slang",
+    "word": "Alles easy",
+    "meaning": "همه چیز آرومه / مشکلی نیست",
+    "antonyms": [],
+    "synonyms": ["Alles gut"],
+    "sentences": [
+      { "de": "Wie läuft’s? – Alles easy.", "fa": "چطوری؟ – همه چیز آرومه." },
+      { "de": "Mach dir keine Sorgen, alles easy.", "fa": "نگران نباش، مشکلی نیست." },
+      { "de": "Bei mir ist alles easy.", "fa": "پیش من همه چیز خوبه." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "48",
+    "level": "B1",
+    "type": "slang",
+    "word": "Voll",
+    "meaning": "خیلی / کاملاً",
+    "antonyms": [],
+    "synonyms": ["Total"],
+    "sentences": [
+      { "de": "Das ist voll cool!", "fa": "این خیلی باحاله!" },
+      { "de": "Ich bin voll müde.", "fa": "من کاملاً خسته‌ام." },
+      { "de": "Sie ist voll nett.", "fa": "اون خیلی مهربونه." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "49",
+    "level": "B1",
+    "type": "slang",
+    "word": "Total",
+    "meaning": "کاملاً / خیلی",
+    "antonyms": [],
+    "synonyms": ["Voll"],
+    "sentences": [
+      { "de": "Das ist total verrückt.", "fa": "این کاملاً دیوونست." },
+      { "de": "Ich finde das total gut.", "fa": "من اینو خیلی خوب می‌دونم." },
+      { "de": "Er war total überrascht.", "fa": "اون کاملاً شگفت‌زده شده بود." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "50",
+    "level": "B1",
+    "type": "slang",
+    "word": "Echt",
+    "meaning": "واقعاً",
+    "antonyms": [],
+    "synonyms": ["Wirklich"],
+    "sentences": [
+      { "de": "Das ist echt gut.", "fa": "این واقعاً خوبه." },
+      { "de": "Echt jetzt?", "fa": "واقعاً؟" },
+      { "de": "Sie ist echt nett.", "fa": "اون واقعاً مهربونه." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "51",
+    "level": "B1",
+    "type": "slang",
+    "word": "Wirklich",
+    "meaning": "واقعاً",
+    "antonyms": [],
+    "synonyms": ["Echt"],
+    "sentences": [
+      { "de": "Ist das wirklich wahr?", "fa": "این واقعاً درسته؟" },
+      { "de": "Wirklich schön hier.", "fa": "واقعاً اینجا قشنگه." },
+      { "de": "Ich bin wirklich müde.", "fa": "من واقعاً خسته‌ام." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "52",
+    "level": "B1",
+    "type": "slang",
+    "word": "Boah",
+    "meaning": "وای / اوف (ابراز تعجب یا ناراحتی)",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      { "de": "Boah, das ist teuer!", "fa": "وای، این گرونه!" },
+      { "de": "Boah, wie geil!", "fa": "اوف، چقدر باحاله!" },
+      { "de": "Boah, ich kann nicht mehr.", "fa": "وای، دیگه نمی‌کشم." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "53",
+    "level": "B1",
+    "type": "slang",
+    "word": "Ey",
+    "meaning": "هی / آهای (برای جلب توجه)",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      { "de": "Ey, warte mal!", "fa": "هی، صبر کن!" },
+      { "de": "Ey, das ist mein Platz.", "fa": "آهای، این جای منه." },
+      { "de": "Ey Bro, alles gut?", "fa": "هی داداش، خوبی؟" }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "54",
+    "level": "B1",
+    "type": "Idioms",
+    "word": "Ich verstehe nur Bahnhof",
+    "meaning": "چیزی نفهمیدم / فقط ایستگاه قطار فهمیدم",
+    "antonyms": [],
+    "synonyms": ["Das ist mir zu hoch", "Ich kapiere nichts"],
+    "sentences": [
+      { "de": "Die Erklärung des Professors war sehr kompliziert und ich verstehe nur Bahnhof.", "fa": "توضیح استاد خیلی پیچیده بود و من چیزی نفهمیدم." },
+      { "de": "Wenn du so schnell sprichst, verstehe ich nur Bahnhof und brauche eine Pause.", "fa": "اگر اینقدر سریع صحبت کنی، من چیزی نفهمیدم و به استراحت نیاز دارم." },
+      { "de": "Bei dem technischen Vortrag habe ich nur Bahnhof verstanden, obwohl ich versucht habe aufzupassen.", "fa": "در سخنرانی فنی فقط ایستگاه قطار فهمیدم، هرچند سعی کردم توجه کنم." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "55",
+    "level": "B1",
+    "type": "Idioms",
+    "word": "Schwein haben",
+    "meaning": "شانس آوردن",
+    "antonyms": ["Pech haben"],
+    "synonyms": ["Glück haben"],
+    "sentences": [
+      { "de": "Er hat Schwein gehabt und den Bus gerade noch erreicht.", "fa": "او شانس آورد و درست به موقع به اتوبوس رسید." },
+      { "de": "Sie hat Schwein gehabt, weil der Lehrer die Hausaufgaben nicht kontrolliert hat.", "fa": "او شانس آورد چون معلم تکالیف را چک نکرد." },
+      { "de": "Wir haben Schwein gehabt, dass das Wetter besser geworden ist.", "fa": "ما شانس آوردیم که هوا بهتر شد." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "56",
+    "level": "B1",
+    "type": "Idioms",
+    "word": "Die Nase voll haben",
+    "meaning": "از چیزی خسته شدن / دلش پر شدن",
+    "antonyms": ["Lust haben"],
+    "synonyms": ["Die Schnauze voll haben", "Genug haben"],
+    "sentences": [
+      { "de": "Ich habe die Nase voll von dem Lärm der Nachbarn und werde mich beschweren.", "fa": "از سر و صدای همسایه‌ها خسته شدم و شکایت خواهم کرد." },
+      { "de": "Sie hat die Nase voll von den ständigen Verspätungen und sucht einen neuen Job.", "fa": "او از تأخیرهای مداوم خسته شده و به دنبال کار جدید است." },
+      { "de": "Wir haben die Nase voll von dem schlechten Service und gehen nie wieder dort hin.", "fa": "ما از خدمات بد خسته شدیم و دیگر هرگز آنجا نمی‌رویم." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "57",
+    "level": "B1",
+    "type": "Idioms",
+    "word": "Die Daumen drücken",
+    "meaning": "انگشت شست گذاشتن (برای آرزوی موفقیت)",
+    "antonyms": [],
+    "synonyms": ["Viel Glück wünschen"],
+    "sentences": [
+      { "de": "Ich drücke dir die Daumen, dass du die Prüfung bestehst.", "fa": "برایت انگشت شست می‌گذارم که امتحان را قبول شوی." },
+      { "de": "Sie drücken uns die Daumen für das wichtige Spiel morgen.", "fa": "آنها برای بازی مهم فردا برای ما انگشت شست می‌گذارند." },
+      { "de": "Wir drücken die Daumen, dass alles gut geht in deinem neuen Projekt.", "fa": "ما انگشت شست می‌گذاریم که همه چیز در پروژه جدیدت خوب پیش برود." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "58",
+    "level": "B1",
+    "type": "Idioms",
+    "word": "Mal sehen",
+    "meaning": "ببینیم چی میشه / صبر کن ببینیم",
+    "antonyms": [],
+    "synonyms": ["Warten wir ab"],
+    "sentences": [
+      { "de": "Mal sehen, ob das Wetter morgen besser wird für unseren Ausflug.", "fa": "ببینیم هوا فردا بهتر می‌شود یا نه برای گردش ما." },
+      { "de": "Ich habe den Brief geschickt, mal sehen, was er antwortet.", "fa": "نامه را فرستادم، ببینیم او چه جوابی می‌دهد." },
+      { "de": "Mal sehen, wie die Situation sich entwickelt, bevor wir entscheiden.", "fa": "ببینیم وضعیت چطور پیش می‌رود قبل از اینکه تصمیم بگیریم." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "59",
+    "level": "B1",
+    "type": "Idioms",
+    "word": "Auf keinen Fall",
+    "meaning": "به هیچ وجه",
+    "antonyms": ["Auf jeden Fall"],
+    "synonyms": ["Niemals", "Unter keinen Umständen"],
+    "sentences": [
+      { "de": "Auf keinen Fall gehe ich allein in diesen dunklen Wald.", "fa": "به هیچ وجه تنها به این جنگل تاریک نمی‌روم." },
+      { "de": "Sie sagt, dass sie auf keinen Fall mit ihm zusammenarbeiten will.", "fa": "او می‌گوید که به هیچ وجه نمی‌خواهد با او همکاری کند." },
+      { "de": "Auf keinen Fall verkaufen wir das Haus, es ist zu wichtig für uns.", "fa": "به هیچ وجه خانه را نمی‌فروشیم، برای ما خیلی مهم است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "60",
+    "level": "B1",
+    "type": "Idioms",
+    "word": "Das klappt schon",
+    "meaning": "حتما درست میشه / خوب پیش میره",
+    "antonyms": ["Das klappt nicht"],
+    "synonyms": ["Das wird schon", "Keine Sorge"],
+    "sentences": [
+      { "de": "Mach dir keine Sorgen, das klappt schon mit der Vorbereitung.", "fa": "نگران نباش، حتماً با آماده‌سازی خوب پیش می‌رود." },
+      { "de": "Das klappt schon, wenn wir alle zusammenarbeiten.", "fa": "اگر همه با هم همکاری کنیم، حتماً درست می‌شود." },
+      { "de": "Er sagt immer: Das klappt schon, und am Ende funktioniert es wirklich.", "fa": "او همیشه می‌گوید حتماً درست می‌شود و در نهایت واقعاً کار می‌کند." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "61",
+    "level": "B1",
+    "type": "Idioms",
+    "word": "Kein Stress",
+    "meaning": "بدون استرس / آروم باش",
+    "antonyms": ["Viel Stress"],
+    "synonyms": ["Keine Panik", "Entspann dich"],
+    "sentences": [
+      { "de": "Kein Stress, wir haben noch genug Zeit bis zum Abflug.", "fa": "بدون استرس، هنوز زمان کافی تا پرواز داریم." },
+      { "de": "Sag ihm, kein Stress, das Problem löst sich von allein.", "fa": "به او بگو بدون استرس، مشکل خودش حل می‌شود." },
+      { "de": "Kein Stress, wir schaffen das Projekt bis zur Deadline.", "fa": "بدون استرس، پروژه را تا مهلت تحویل انجام می‌دهیم." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "62",
+    "level": "B2",
+    "type": "Slang",
+    "word": "Cringe",
+    "meaning": "شرم‌آور، awkward و خجالت‌آور",
+    "antonyms": ["cool", "lit"],
+    "synonyms": ["peinlich", "awkward"],
+    "sentences": [
+      { "de": "Sein Tanzvideo war total cringe.", "fa": "ویدیوی رقص او کاملاً شرم‌آور بود." },
+      { "de": "Das ist so cringe, wenn er versucht zu flirten.", "fa": "این خیلی شرم‌آور است وقتی او سعی می‌کند فلرت کند." },
+      { "de": "Ihre Kommentare machen die Situation noch cringer.", "fa": "کامنت‌های او موقعیت را حتی شرم‌آورتر می‌کنند." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "63",
+    "level": "B2",
+    "type": "Slang",
+    "word": "Wild",
+    "meaning": "دیوانه‌وار، عجیب و غریب، شدید",
+    "antonyms": ["normal", "langweilig"],
+    "synonyms": ["crazy", "verrückt"],
+    "sentences": [
+      { "de": "Das war eine wild Party letzte Nacht.", "fa": "دیشب یک پارتی دیوانه‌وار بود." },
+      { "de": "Die Geschichte klingt total wild.", "fa": "داستان خیلی عجیب و غریب به نظر می‌رسد." },
+      { "de": "Er hat wild reagiert auf die Neuigkeit.", "fa": "او به خبر به شدت واکنش نشان داد." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "64",
+    "level": "B2",
+    "type": "Slang",
+    "word": "Wyld",
+    "meaning": "نسخه خاص یا強調 شده wild، دیوانه‌وار",
+    "antonyms": ["normal"],
+    "synonyms": ["wild", "crazy"],
+    "sentences": [
+      { "de": "Die Nacht war wyld und unvergesslich.", "fa": "شب خیلی دیوانه‌وار و فراموش‌نشدنی بود." },
+      { "de": "Er ist wyld unterwegs mit seinen Freunden.", "fa": "او با دوستانش خیلی وحشیانه بیرون است." },
+      { "de": "Das Konzert fühlte sich wylder an als erwartet.", "fa": "کنسرت وحشی‌تر از آنچه انتظار می‌رفت احساس شد." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "65",
+    "level": "B2",
+    "type": "Slang",
+    "word": "Lowkey",
+    "meaning": "کم و مخفیانه، کمی اما نه خیلی",
+    "antonyms": ["highkey"],
+    "synonyms": ["heimlich", "subtil"],
+    "sentences": [
+      { "de": "Ich lowkey liebe diesen Song.", "fa": "من مخفیانه این آهنگ را دوست دارم." },
+      { "de": "Sie ist lowkey die Beste in der Klasse.", "fa": "او کم و مخفیانه بهترین کلاس است." },
+      { "de": "Er hat lowkey Angst vor der Prüfung.", "fa": "او کمی ترس از امتحان دارد." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "66",
+    "level": "B2",
+    "type": "Slang",
+    "word": "Highkey",
+    "meaning": "به طور واضح و شدید، کاملاً",
+    "antonyms": ["lowkey"],
+    "synonyms": ["offensichtlich", "sehr"],
+    "sentences": [
+      { "de": "Ich highkey brauche Urlaub jetzt.", "fa": "من کاملاً به تعطیلات نیاز دارم حالا." },
+      { "de": "Sie ist highkey talentiert.", "fa": "او به طور واضح با استعداد است." },
+      { "de": "Das Essen war highkey lecker.", "fa": "غذا کاملاً خوشمزه بود." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "67",
+    "level": "B2",
+    "type": "Slang",
+    "word": "Aura",
+    "meaning": "جذابیت، انرژی مثبت یا اعتبار",
+    "antonyms": ["keine Aura"],
+    "synonyms": ["Charisma", "Vibes"],
+    "sentences": [
+      { "de": "Er hat eine starke Aura.", "fa": "او جذابیت قوی دارد." },
+      { "de": "Ihre Präsentation hat die Aura verloren.", "fa": "ارائه او جذابیت خود را از دست داد." },
+      { "de": "Das gibt ihm extra Aura Points.", "fa": "این به او امتیاز جذابیت اضافی می‌دهد." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "68",
+    "level": "B2",
+    "type": "Slang",
+    "word": "Sheesh",
+    "meaning": "عجب، وای (ابراز تحسین یا تعجب)",
+    "antonyms": [],
+    "synonyms": ["wow", "krass"],
+    "sentences": [
+      { "de": "Sheesh, das Auto ist teuer!", "fa": "عجب، ماشین گران است!" },
+      { "de": "Sheesh, du hast das geschafft.", "fa": "وای، تو این کار را انجام دادی." },
+      { "de": "Look at that, sheesh!", "fa": "به آن نگاه کن، عجب!" }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "69",
+    "level": "B2",
+    "type": "Slang",
+    "word": "Checkst du?",
+    "meaning": "می‌فهمی؟ متوجه شدی؟",
+    "antonyms": [],
+    "synonyms": ["Verstehst du?", "Kapierst du?"],
+    "sentences": [
+      { "de": "Ich hab das erklärt, checkst du?", "fa": "توضیح دادم، متوجه شدی؟" },
+      { "de": "Das war verrückt, checkst du?", "fa": "این دیوانه‌وار بود، می‌فهمی؟" },
+      { "de": "Er ist weg, checkst du die Situation?", "fa": "او رفته، وضعیت را متوجه شدی؟" }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "70",
+    "level": "B2",
+    "type": "Slang",
+    "word": "Ehrenmann",
+    "meaning": "مرد محترم، آدم درست (اغلب با تحسین)",
+    "antonyms": ["Arschloch"],
+    "synonyms": ["guter Kerl", "Gentleman"],
+    "sentences": [
+      { "de": "Danke, du bist ein echter Ehrenmann.", "fa": "ممنون، تو واقعاً مرد محترمی هستی." },
+      { "de": "Er hat mir geholfen, Ehrenmann!", "fa": "او به من کمک کرد، مرد محترم!" },
+      { "de": "Als Ehrenmann teilt er immer sein Essen.", "fa": "به عنوان مرد محترم همیشه غذایش را تقسیم می‌کند." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "71",
+    "level": "B2",
+    "type": "Slang",
+    "word": "Ehrenfrau",
+    "meaning": "زن محترم، خانم درست (تحسین)",
+    "antonyms": [],
+    "synonyms": ["gute Frau"],
+    "sentences": [
+      { "de": "Sie hat das organisiert, Ehrenfrau!", "fa": "او این را سازماندهی کرد، زن محترم!" },
+      { "de": "Danke für deine Hilfe, du Ehrenfrau.", "fa": "ممنون از کمکت، تو زن محترمی." },
+      { "de": "Als Ehrenfrau steht sie immer zu ihren Freunden.", "fa": "به عنوان زن محترم همیشه پشت دوستانش است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "72",
+    "level": "B2",
+    "type": "Slang",
+    "word": "Pleite",
+    "meaning": "ورشکسته، بی‌پول",
+    "antonyms": ["reich"],
+    "synonyms": ["broke", "blank"],
+    "sentences": [
+      { "de": "Ich bin total pleite diesen Monat.", "fa": "من این ماه کاملاً ورشکسته‌ام." },
+      { "de": "Die Firma ist pleite gegangen.", "fa": "شرکت ورشکست شده است." },
+      { "de": "Nach dem Einkauf bin ich pleite.", "fa": "بعد از خرید ورشکسته شدم." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "73",
+    "level": "B2",
+    "type": "Slang",
+    "word": "Blank",
+    "meaning": "بی‌پول کامل، خالی",
+    "antonyms": ["reich"],
+    "synonyms": ["pleite", "broke"],
+    "sentences": [
+      { "de": "Am Monatsende bin ich immer blank.", "fa": "در آخر ماه همیشه بی‌پولم." },
+      { "de": "Er ist blank und kann nicht mitkommen.", "fa": "او کاملاً بی‌پول است و نمی‌تواند بیاید." },
+      { "de": "Meine Tasche ist blank nach dem Urlaub.", "fa": "کیف پولم بعد از تعطیلات خالی است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "74",
+    "level": "B2",
+    "type": "Slang",
+    "word": "Kohle",
+    "meaning": "پول (عامیانه)",
+    "antonyms": [],
+    "synonyms": ["Geld", "Knete"],
+    "sentences": [
+      { "de": "Ich brauche mehr Kohle für das Auto.", "fa": "به پول بیشتری برای ماشین نیاز دارم." },
+      { "de": "Er verdient gute Kohle.", "fa": "او پول خوبی درمی‌آورد." },
+      { "de": "Ohne Kohle kann man nichts machen.", "fa": "بدون پول نمی‌توان کاری کرد." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "75",
+    "level": "B2",
+    "type": "Slang",
+    "word": "Knete",
+    "meaning": "پول (عامیانه)",
+    "antonyms": [],
+    "synonyms": ["Kohle", "Geld"],
+    "sentences": [
+      { "de": "Hast du etwas Knete dabei?", "fa": "کمی پول همراه داری؟" },
+      { "de": "Die Knete reicht nicht für den Urlaub.", "fa": "پول برای تعطیلات کافی نیست." },
+      { "de": "Er spart Knete für ein neues Handy.", "fa": "او برای گوشی جدید پول جمع می‌کند." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "76",
+    "level": "B2",
+    "type": "Slang",
+    "word": "Asche",
+    "meaning": "پول (عامیانه، اغلب زیاد)",
+    "antonyms": [],
+    "synonyms": ["Kohle", "Geld"],
+    "sentences": [
+      { "de": "Er hat viel Asche verdient.", "fa": "او پول زیادی درآورده است." },
+      { "de": "Mit der Asche kaufen wir ein Haus.", "fa": "با این پول خانه می‌خریم." },
+      { "de": "Die Party hat viel Asche gekostet.", "fa": "پارتی هزینه زیادی داشت." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "77",
+    "level": "B2",
+    "type": "Slang",
+    "word": "Snacken",
+    "meaning": "خوردن میان‌وعده، اسنک خوردن",
+    "antonyms": [],
+    "synonyms": ["essen", "naschen"],
+    "sentences": [
+      { "de": "Lass uns etwas snacken vor dem Film.", "fa": "بیا قبل از فیلم چیزی بخوریم." },
+      { "de": "Ich snacke gerne Chips am Abend.", "fa": "من شب‌ها ترجیحاً چیپس می‌خورم." },
+      { "de": "Sie snackt immer während des Lernens.", "fa": "او همیشه حین درس خواندن اسنک می‌خورد." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "78",
+    "level": "B2",
+    "type": "Slang",
+    "word": "Flexen",
+    "meaning": "نمایش دادن، فخرفروشی کردن",
+    "antonyms": ["bescheiden sein"],
+    "synonyms": ["angeben", "zeigen"],
+    "sentences": [
+      { "de": "Er flex t mit seinem neuen Auto.", "fa": "او با ماشین جدیدش فخرفروشی می‌کند." },
+      { "de": "Hör auf zu flexen mit deinem Geld.", "fa": "با پولت فخرفروشی نکن." },
+      { "de": "Sie flex t ihre Erfolge in Social Media.", "fa": "او موفقیت‌هایش را در شبکه‌های اجتماعی نمایش می‌دهد." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "79",
+    "level": "B2",
+    "type": "Slang",
+    "word": "Vibes",
+    "meaning": "جو، انرژی، احساس",
+    "antonyms": [],
+    "synonyms": ["Stimmung", "Atmosphäre"],
+    "sentences": [
+      { "de": "Die Vibes hier sind super.", "fa": "جو اینجا عالی است." },
+      { "de": "Gute Vibes nur heute.", "fa": "فقط انرژی مثبت امروز." },
+      { "de": "Die Party hat coole Vibes.", "fa": "پارتی جو خوبی دارد." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "80",
+    "level": "B2",
+    "type": "Slang",
+    "word": "Based",
+    "meaning": "واقعی، cool و بدون توجه به نظر دیگران",
+    "antonyms": ["cringe"],
+    "synonyms": ["echt", "cool"],
+    "sentences": [
+      { "de": "Seine Meinung ist total based.", "fa": "نظر او کاملاً واقعی است." },
+      { "de": "Das ist based, was du gesagt hast.", "fa": "آنچه گفتی خیلی cool است." },
+      { "de": "Er lebt based und frei.", "fa": "او واقعی و آزاد زندگی می‌کند." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "81",
+    "level": "B2",
+    "type": "Slang",
+    "word": "Sus",
+    "meaning": "مشکوک، عجیب",
+    "antonyms": ["normal"],
+    "synonyms": ["verdächtig"],
+    "sentences": [
+      { "de": "Das Verhalten ist sus.", "fa": "رفتار مشکوک است." },
+      { "de": "Er wirkt sus in letzter Zeit.", "fa": "او اخیراً عجیب به نظر می‌رسد." },
+      { "de": "Die Situation fühlt sich sus an.", "fa": "وضعیت احساس مشکوکی دارد." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "82",
+    "level": "B2",
+    "type": "Slang",
+    "word": "Cap",
+    "meaning": "دروغ، حرف بیهوده",
+    "antonyms": ["no cap"],
+    "synonyms": ["Lüge"],
+    "sentences": [
+      { "de": "Das ist cap, was er erzählt.", "fa": "آنچه او می‌گوید دروغ است." },
+      { "de": "Stop with the cap.", "fa": "دروغ نگو." },
+      { "de": "Seine Ausrede war pure cap.", "fa": "بهانه او کاملاً دروغ بود." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "83",
+    "level": "B2",
+    "type": "Slang",
+    "word": "No Cap",
+    "meaning": "بدون دروغ، واقعاً",
+    "antonyms": ["cap"],
+    "synonyms": ["ehrlich", "wirklich"],
+    "sentences": [
+      { "de": "Ich meine das no cap.", "fa": "من واقعاً این را می‌گویم." },
+      { "de": "No cap, das ist das Beste.", "fa": "بدون دروغ، این بهترین است." },
+      { "de": "Sie ist no cap die Klügste.", "fa": "او واقعاً باهوش‌ترین است." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "84",
+    "level": "B2",
+    "type": "Slang",
+    "word": "Rizz",
+    "meaning": "جذابیت در فلرت و جذب دیگران",
+    "antonyms": ["no rizz"],
+    "synonyms": ["Charme"],
+    "sentences": [
+      { "de": "Er hat viel Rizz.", "fa": "او جذابیت فلرت زیادی دارد." },
+      { "de": "Mit seinem Rizz hat er sie überzeugt.", "fa": "با جذابیتش او را متقاعد کرد." },
+      { "de": "Sie zeigt ihren Rizz heute Abend.", "fa": "او امشب جذابیتش را نشان می‌دهد." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "85",
+    "level": "B2",
+    "type": "Slang",
+    "word": "Bet",
+    "meaning": "قبول، باشه، حتماً",
+    "antonyms": [],
+    "synonyms": ["okay", "abgemacht"],
+    "sentences": [
+      { "de": "Wir treffen uns um 8, bet.", "fa": "ساعت ۸ همدیگه را می‌بینیم، باشه." },
+      { "de": "Bet, ich komme mit.", "fa": "حتماً، با تو می‌آیم." },
+      { "de": "Das klingt gut, bet!", "fa": "خوب به نظر می‌رسد، قبول!" }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  }
+
+
+
+]

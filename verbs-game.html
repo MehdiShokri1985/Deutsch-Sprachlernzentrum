@@ -1,0 +1,534 @@
+<!doctype html>
+<html lang="de" dir="ltr">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title id="pageTitle">German Learning</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+        <link rel="stylesheet" href="css/word-progress-squares.css" />
+        <link rel="stylesheet" href="css/game-responsive.css" />
+        <link rel="stylesheet" href="css/module-themes.css" />
+        <link rel="stylesheet" href="css/verb-conjugation.css" />
+        <link rel="stylesheet" href="css/game-theme.css" />
+
+        <style>
+            @keyframes fall {
+                from {
+                    transform: translateY(-100px);
+                    opacity: 0;
+                }
+                to {
+                    transform: translateY(0);
+                    opacity: 1;
+                }
+            }
+
+            .modal-overlay {
+                backdrop-filter: blur(4px);
+            }
+            .custom-scroll::-webkit-scrollbar {
+                width: 6px;
+            }
+            .custom-scroll::-webkit-scrollbar-thumb {
+                background-color: #64748b;
+                border-radius: 20px;
+            }
+
+            .accordion-body {
+                max-height: 0;
+                overflow: hidden;
+                transition: max-height 0.35s ease;
+            }
+            .accordion-chevron-wrap {
+                width: 28px;
+                height: 28px;
+                border-radius: 8px;
+                transition: background-color 0.2s ease;
+            }
+            .accordion-header:hover .accordion-chevron-wrap {
+                background-color: rgba(0,0,0,0.04);
+            }
+            .accordion-chevron {
+                opacity: 0.5;
+                transition: transform 0.35s ease, opacity 0.2s ease;
+            }
+            .pronunciation {
+                font-size: 0.9rem;
+                color: #6200ff;
+                font-style: italic;
+                unicode-bidi: plaintext;
+                font-weight: 400;
+            }
+            .accordion-header:hover .accordion-chevron {
+                opacity: 0.85;
+            }
+            /* .accordion-item.is-open .accordion-chevron {
+                transform: rotate(180deg);
+                opacity: 0.85;
+            } */
+        </style>
+    </head>
+    <body
+        class="game-page module-themed min-h-screen font-sans overflow-x-hidden"
+    >
+        <!-- Header -->
+        <header class="bg-white shadow">
+            <div class="container mx-auto px-4 py-2">
+                <div
+                    class="game-header-inner flex justify-between items-center flex-wrap"
+                >
+                    <!-- عنوان قابل کلیک -->
+                    <a
+                        href="index.html"
+                        id="headerTitle"
+                        class="game-header-title font-bold transition-colors flex items-center gap-2"
+                    >
+                        German Learning
+                    </a>
+
+                    <div
+                        class="game-header-stats flex gap-2 sm:gap-3 md:gap-4 text-xs md:text-sm"
+                    >
+                        <div
+                            id="correctCounter"
+                            class="bg-green-100 px-3 py-1 rounded-full cursor-pointer hover:bg-green-200 active:bg-green-300 transition-colors"
+                        >
+                            <span class="text-green-800 font-semibold">
+                                <span id="correctCount">0</span></span
+                            >
+                        </div>
+                        <div
+                            id="wrongCounter"
+                            class="bg-red-100 px-3 py-1 rounded-full cursor-pointer hover:bg-red-200 active:bg-red-300 transition-colors"
+                        >
+                            <span class="text-red-800 font-semibold">
+                                <span id="wrongCount">0</span></span
+                            >
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Progress Bar -->
+        <div class="container mx-auto px-4 py-2">
+            <div class="game-progress-card bg-white rounded-lg shadow">
+                <div class="flex justify-between items-center mb-2">
+                    <span class="text-sm font-medium text-gray-700"
+                        >Mastery-Fortschritt</span
+                    >
+                    <span class="text-sm text-gray-600"
+                        ><span id="masteryProgress">0</span>% Abschließen</span
+                    >
+                </div>
+                <div class="w-full theme-progress-track rounded-full h-2">
+                    <div
+                        id="progressBar"
+                        class="h-2 rounded-full transition-all duration-300"
+                        style="width: 0%"
+                    ></div>
+                </div>
+
+                <div class="mt-3 text-xs text-gray-600">
+                    <!-- Row 1: Niveau + Modus -->
+                    <div
+                        class="flex flex-wrap items-center justify-between gap-x-5 gap-y-3 mb-3"
+                    >
+                        <div
+                            class="flex flex-wrap items-center gap-x-5 gap-y-3"
+                        >
+                            <div class="flex items-center gap-2">
+                                <span
+                                    class="font-medium text-gray-700 whitespace-nowrap"
+                                    >Niveau:</span
+                                >
+                                <select
+                                    id="levelSelect"
+                                    class="theme-input bg-white border rounded-lg px-3 py-1.5 text-sm font-semibold focus:outline-none"
+                                >
+                                    <option value="A1">A1</option>
+                                    <option value="A2">A2</option>
+                                    <option value="B1">B1</option>
+                                    <option value="B2">B2</option>
+                                    <option value="C1">C1</option>
+                                    <option value="C2">C2</option>
+                                </select>
+                            </div>
+
+                            <div class="flex items-center gap-2">
+                                <span
+                                    class="font-medium text-gray-700 whitespace-nowrap"
+                                    >Modus:</span
+                                >
+                                <select
+                                    id="modeSelect"
+                                    class="theme-input bg-white border rounded-lg px-3 py-1.5 text-sm font-semibold focus:outline-none"
+                                >
+                                    <option value="normal">Normal</option>
+                                    <option value="hard">Hard</option>
+                                </select>
+                            </div>
+
+                            <div class="flex items-center gap-2">
+                                <span
+                                    class="font-medium text-gray-700 whitespace-nowrap"
+                                    >Kasus:</span
+                                >
+                                <select
+                                    id="caseSelect"
+                                    class="theme-input bg-white border rounded-lg px-3 py-1.5 text-sm font-semibold focus:outline-none"
+                                >
+                                    <option value="all">all</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <button
+                            id="resetBtn"
+                            class="shrink-0 text-gray-400 hover:text-gray-600 hover:bg-gray-100 p-2 rounded-lg transition-all text-sm font-medium"
+                            title="Fortschritt zurücksetzen"
+                        >
+                            ↺
+                        </button>
+                    </div>
+
+                    <!-- Row 2: Statistics -->
+                    <div
+                        id="levelStats"
+                        class="game-level-stats font-medium text-[13px] px-3 sm:px-4 py-1 rounded-xl border text-center"
+                    >
+                        <!-- JavaScript این قسمت را پر می‌کند -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Game Area -->
+        <main class="container mx-auto px-3 sm:px-4 pb-4">
+            <div class="max-w-4xl mx-auto min-w-0 w-full">
+                <!-- Word Progress Squares -->
+                <div id="wordProgressSquares" class="mb-1.5 hidden"></div>
+                <div
+                    id="panel"
+                    class="game-panel bg-white rounded-2xl shadow mb-3 flex items-center justify-center"
+                >
+                    <div
+                        id="wordDisplay"
+                        class="text-center w-full min-w-0 px-1"
+                    >
+                        <div id="fallingWord" class="falling-word font-bold">
+                            Klicke hier, um zu beginnen.
+                        </div>
+                        <div
+                            id="sentenceDisplay"
+                            dir="rtl"
+                            class="text-gray-600 mt-2 hidden"
+                        ></div>
+                        <div
+                            id="questionType"
+                            class="text-sm text-gray-500 mt-2"
+                        ></div>
+                    </div>
+                </div>
+
+                <div
+                    id="autocompleteList"
+                    class="hidden flex flex-wrap gap-1.5 justify-center items-center mb-2 w-full min-w-0"
+                    role="listbox"
+                    aria-label="Wortvorschläge"
+                ></div>
+
+                <!-- Normal Mode Answers -->
+                <div
+                    id="answerOptions"
+                    class="grid grid-cols-2 md:grid-cols-4 gap-2 sm:gap-3 md:gap-4 mb-3 w-full min-w-0"
+                ></div>
+
+                <!-- Result View (Inline) -->
+                <div
+                    id="resultModal"
+                    class="hidden bg-white rounded-2xl shadow p-2 sm:p-3 w-full min-w-0 max-w-full"
+                >
+                    <div class="text-center min-w-0">
+                        <div id="modalIcon" class="leading-none"></div>
+                        <h2 id="modalTitle" class="font-bold"></h2>
+                        <div
+                            id="modalDetails"
+                            class="bg-gray-50 rounded-lg px-2.5 py-1.5 mb-1.5 text-left text-sm leading-snug max-w-full overflow-hidden"
+                        ></div>
+                        <div
+                            class="game-result-actions flex flex-wrap justify-center mt-0.5 w-full"
+                        >
+                            <button
+                                id="sureBtn"
+                                class="game-result-btn game-result-btn--sure"
+                            >
+                                Ja, sicher
+                            </button>
+                            <button
+                                id="maybeBtn"
+                                class="game-result-btn game-result-btn--maybe"
+                            >
+                                Nicht sicher
+                            </button>
+                            <button
+                                id="practiceAgainBtn"
+                                type="button"
+                                class="hidden game-result-btn game-result-btn--practice w-full max-w-[11rem]"
+                            >
+                                Noch einmal üben
+                            </button>
+                            <button
+                                id="easyBtn"
+                                type="button"
+                                class="game-result-btn game-result-btn--easy hidden"
+                            >
+                                Ganz einfach
+                            </button>
+                            <div
+                                id="resultModalContinueGroup"
+                                class="hidden game-result-continue-group flex flex-wrap justify-center items-center gap-2 w-full"
+                            >
+                                <button
+                                    id="continueBtn"
+                                    type="button"
+                                    class="game-result-btn game-result-btn--practice max-w-[11rem]"
+                                >
+                                    Continue
+                                </button>
+                                <button
+                                    id="practiceVerbFormsBtn"
+                                    type="button"
+                                    class="game-result-btn game-result-btn--verb-practice max-w-[14rem]"
+                                >
+                                    Practice Verb Forms
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Verb conjugation practice -->
+                <div
+                    id="verbConjugationModal"
+                    class="hidden w-full mb-3 min-w-0"
+                >
+                    <div
+                        class="verb-conjugation-panel bg-white rounded-2xl shadow p-4 sm:p-6 w-full overflow-hidden flex flex-col border"
+                    >
+                        <div
+                            class="flex justify-between items-start gap-2 mb-3 shrink-0"
+                        >
+                            <div class="min-w-0">
+                                <h2
+                                    class="theme-modal-title text-lg sm:text-xl font-bold"
+                                >
+                                    Practice Verb Forms
+                                </h2>
+                                <p
+                                    id="verbPracticeSubtitle"
+                                    class="text-sm text-gray-600 mt-0.5 truncate"
+                                ></p>
+                            </div>
+                            <button
+                                id="closeVerbConjugationBtn"
+                                type="button"
+                                class="hidden text-gray-400 hover:text-gray-600 text-2xl font-bold leading-none shrink-0"
+                                title="Schließen"
+                                aria-label="Schließen"
+                            >
+                                &times;
+                            </button>
+                        </div>
+                        <div
+                            id="verbConjugationContent"
+                            class="verb-conjugation-content flex-1 overflow-y-auto pr-1 custom-scroll min-h-0"
+                        ></div>
+                        <div
+                            class="verb-practice-footer mt-3 pt-3 border-t border-gray-100 shrink-0"
+                        >
+                            <button
+                                id="verbPracticeContinueBtn"
+                                type="button"
+                                class="w-full game-result-btn game-result-btn--practice py-2.5"
+                            >
+                                Continue
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Hard Mode Input -->
+                <div id="hardInputContainer" class="hidden mb-6">
+                    <div class="max-w-md mx-auto">
+                        <div class="flex gap-2 mb-3">
+                            <button
+                                onclick="game.setAutoCompleteMode(1)"
+                                id="ac1"
+                                class="theme-ac-btn flex-1 py-2 text-xs font-medium rounded-lg border-2 transition-all"
+                            >
+                                Nach 1. Buchstabe
+                            </button>
+                            <button
+                                onclick="game.setAutoCompleteMode(2)"
+                                id="ac2"
+                                class="theme-ac-btn flex-1 py-2 text-xs font-medium rounded-lg border-2 transition-all"
+                            >
+                                Nach 2. Buchstabe
+                            </button>
+                            <button
+                                onclick="game.setAutoCompleteMode(0)"
+                                id="ac0"
+                                class="theme-ac-btn flex-1 py-2 text-xs font-medium rounded-lg border-2 transition-all"
+                            >
+                                Nur vollständig
+                            </button>
+                        </div>
+
+                        <div class="flex gap-3">
+                            <input
+                                id="hardInput"
+                                type="text"
+                                class="theme-hard-input theme-input flex-1 min-w-0 border-2 rounded-xl px-3 sm:px-5 py-2 sm:py-3 focus:outline-none"
+                                placeholder="Deutsches Wort eingeben..."
+                                autocomplete="off"
+                            />
+                            <button
+                                id="submitBtn"
+                                onclick="game.submitHardAnswer()"
+                                class="theme-btn-primary hidden text-white px-8 rounded-xl font-medium transition-all"
+                            >
+                                Prüfen
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <!-- Modals -->
+        <div
+            id="modeModal"
+            class="game-overlay-modal fixed inset-0 bg-black bg-opacity-50 modal-overlay hidden flex items-center justify-center z-50 p-3"
+        >
+            <div
+                class="game-overlay-panel bg-white rounded-3xl shadow-2xl p-5 sm:p-8 max-w-md w-full mx-auto overflow-y-auto"
+            >
+                <h2
+                    class="theme-modal-title text-2xl font-bold text-center mb-6"
+                >
+                    Wähle Spielmodus
+                </h2>
+                <div class="space-y-4">
+                    <button
+                        onclick="game.selectMode('normal')"
+                        class="theme-mode-card w-full p-6 border-2 border-gray-200 rounded-2xl text-left transition-all group"
+                    >
+                        <div
+                            class="theme-mode-card-title font-semibold text-lg"
+                        >
+                            Normal Mode
+                        </div>
+                        <div class="text-gray-600 text-sm">
+                            4 Auswahlmöglichkeiten (Multiple Choice)
+                        </div>
+                    </button>
+                    <button
+                        onclick="game.selectMode('hard')"
+                        class="theme-mode-card w-full p-6 border-2 border-gray-200 rounded-2xl text-left transition-all group"
+                    >
+                        <div
+                            class="theme-mode-card-title font-semibold text-lg"
+                        >
+                            Hard Mode (Typing)
+                        </div>
+                        <div class="text-gray-600 text-sm">
+                            Wort selbst eintippen + Autocomplete
+                        </div>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mistakes Modal -->
+        <div
+            id="mistakesModal"
+            class="game-overlay-modal fixed inset-0 bg-black bg-opacity-50 modal-overlay hidden items-center justify-center z-50 p-3"
+        >
+            <div
+                class="game-overlay-panel bg-slate-50 rounded-2xl shadow-2xl p-4 sm:p-6 max-w-sm mx-auto w-full overflow-hidden flex flex-col border border-slate-200"
+            >
+                <h2
+                    class="text-lg font-bold mb-4 text-amber-600 flex items-center gap-2"
+                >
+                    Meine Fehler
+                </h2>
+                <div
+                    id="mistakesList"
+                    class="space-y-3 max-h-[60vh] overflow-auto pr-2 text-[14.5px] custom-scroll"
+                ></div>
+                <div class="mt-auto pt-4 border-t border-slate-200">
+                    <button
+                        id="closeMistakesBtn"
+                        class="w-full bg-slate-700 hover:bg-slate-800 text-white py-3 rounded-2xl font-medium text-sm transition-all"
+                    >
+                        Schließen
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Correct Answers Modal -->
+        <div
+            id="correctAnswersModal"
+            class="game-overlay-modal fixed inset-0 bg-black bg-opacity-50 modal-overlay hidden items-center justify-center z-50 p-3"
+        >
+            <div
+                class="game-overlay-panel bg-slate-50 rounded-2xl shadow-2xl p-4 sm:p-6 max-w-sm mx-auto w-full overflow-hidden flex flex-col border border-slate-200"
+            >
+                <h2
+                    class="text-lg font-bold mb-4 text-green-600 flex items-center gap-2"
+                >
+                    Richtige Antworten
+                </h2>
+                <div
+                    id="correctAnswersList"
+                    class="space-y-3 max-h-[60vh] overflow-auto pr-2 text-[14.5px] custom-scroll"
+                ></div>
+                <div class="mt-auto pt-4 border-t border-slate-200">
+                    <button
+                        id="closeCorrectAnswersBtn"
+                        class="w-full bg-green-700 hover:bg-green-800 text-white py-3 rounded-2xl font-medium text-sm transition-all"
+                    >
+                        Schließen
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Word Details Popup (Isolated) -->
+        <div
+            id="wordDetailsPopup"
+            class="game-overlay-modal fixed inset-0 bg-black/40 backdrop-blur-sm hidden items-center justify-center z-50 p-3"
+        >
+            <div
+                class="game-overlay-panel bg-white rounded-2xl shadow-2xl p-4 sm:p-6 max-w-md mx-auto w-full overflow-hidden flex flex-col border border-white/30"
+            >
+                <div class="flex justify-between items-center mb-4">
+                    <h2 class="text-lg font-bold">Word Details</h2>
+                    <button
+                        id="closeWordDetailsBtn"
+                        class="text-gray-400 hover:text-gray-600 text-2xl font-bold leading-none"
+                    >
+                        &times;
+                    </button>
+                </div>
+                <div
+                    id="wordDetailsContent"
+                    class="flex-1 overflow-auto pr-2 text-sm custom-scroll"
+                ></div>
+            </div>
+        </div>
+        <script type="module" src="js/verbs-main.js"></script>
+    </body>
+</html>

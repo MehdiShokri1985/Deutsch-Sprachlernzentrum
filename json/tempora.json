@@ -1,0 +1,285 @@
+[
+  {
+    "id": "1",
+    "level": "A1",
+    "type": "grammar",
+    "word": "Präsens",
+    "meaning": "حال ساده",
+    "antonyms": [],
+    "synonyms": ["Gegenwart"],
+    "sentences": [
+      { "de": "Ich mache jeden Tag Sport.", "fa": "من هر روز ورزش می‌کنم." },
+      { "de": "Du machst die Hausaufgaben jetzt.", "fa": "تو حالا تکالیف را انجام می‌دهی." },
+      { "de": "Er macht eine Pause und sie macht Kaffee.", "fa": "او مکث می‌کند و او قهوه درست می‌کند." },
+      { "de": "Wir machen einen Spaziergang im Park.", "fa": "ما در پارک پیاده‌روی می‌کنیم." },
+      { "de": "Ihr macht das sehr gut.", "fa": "شما این کار را خیلی خوب انجام می‌دهید." },
+      { "de": "Sie machen eine Reise nach Deutschland.", "fa": "آنها به آلمان سفر می‌کنند." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "2",
+    "level": "A1",
+    "type": "grammar",
+    "word": "Perfekt",
+    "meaning": "ماضی نقلی",
+    "antonyms": [],
+    "synonyms": ["Perfekt mit haben/sein"],
+    "sentences": [
+      { "de": "Ich habe gestern Fußball gespielt.", "fa": "من دیروز فوتبال بازی کردم." },
+      { "de": "Du hast das Buch gelesen.", "fa": "تو کتاب را خواندی." },
+      { "de": "Er hat einen Apfel gegessen und sie ist ins Kino gegangen.", "fa": "او یک سیب خورده و او به سینما رفته است." },
+      { "de": "Wir haben ein neues Auto gekauft.", "fa": "ما یک ماشین جدید خریده‌ایم." },
+      { "de": "Ihr seid pünktlich gekommen.", "fa": "شما به موقع آمده‌اید." },
+      { "de": "Sie haben viel gearbeitet.", "fa": "آنها خیلی کار کرده‌اند." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "3",
+    "level": "A1",
+    "type": "grammar",
+    "word": "Präteritum",
+    "meaning": "ماضی ساده",
+    "antonyms": [],
+    "synonyms": ["Imperfekt"],
+    "sentences": [
+      { "de": "Ich war gestern müde.", "fa": "من دیروز خسته بودم." },
+      { "de": "Du hattest keine Zeit.", "fa": "تو وقت نداشتی." },
+      { "de": "Er ging nach Hause und sie kam später.", "fa": "او به خانه رفت و او بعداً آمد." },
+      { "de": "Wir machten einen Ausflug.", "fa": "ما یک گردش کردیم." },
+      { "de": "Ihr wart sehr freundlich.", "fa": "شما خیلی مهربان بودید." },
+      { "de": "Sie hatten ein schönes Wochenende.", "fa": "آنها آخر هفته خوبی داشتند." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "4",
+    "level": "A1",
+    "type": "grammar",
+    "word": "Futur I",
+    "meaning": "آینده ساده",
+    "antonyms": [],
+    "synonyms": ["Zukunft"],
+    "sentences": [
+      { "de": "Ich werde morgen einkaufen.", "fa": "من فردا خرید خواهم کرد." },
+      { "de": "Du wirst das schaffen.", "fa": "تو موفق خواهی شد." },
+      { "de": "Er wird kommen und sie wird helfen.", "fa": "او خواهد آمد و او کمک خواهد کرد." },
+      { "de": "Wir werden eine Party machen.", "fa": "ما یک مهمانی برگزار خواهیم کرد." },
+      { "de": "Ihr werdet viel Spaß haben.", "fa": "شما خیلی خوش خواهید گذشت." },
+      { "de": "Sie werden das Auto reparieren.", "fa": "آنها ماشین را تعمیر خواهند کرد." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  
+  {
+    "id": "5",
+    "level": "A2",
+    "type": "grammar",
+    "word": "Plusquamperfekt",
+    "meaning": "ماضی بعید (گذشته کامل)",
+    "antonyms": [],
+    "synonyms": ["Vorvergangenheit"],
+    "sentences": [
+      { "de": "Ich hatte das Buch gelesen, bevor er kam.", "fa": "من کتاب را خوانده بودم، قبل از اینکه او بیاید." },
+      { "de": "Sie war schon gegangen, als wir ankamen.", "fa": "او قبلاً رفته بود، وقتی که ما رسیدیم." },
+      { "de": "Wir hatten das Problem gelöst, bevor der Chef fragte.", "fa": "ما مشکل را حل کرده بودیم، قبل از اینکه رئیس بپرسد." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "6",
+    "level": "A2",
+    "type": "grammar",
+    "word": "Futur II",
+    "meaning": "آینده کامل",
+    "antonyms": [],
+    "synonyms": ["Futur Perfekt"],
+    "sentences": [
+      { "de": "Ich werde das Projekt bis morgen beendet haben.", "fa": "من تا فردا پروژه را تمام کرده خواهم بود." },
+      { "de": "Er wird den Zug verpasst haben, wenn er nicht beeilt.", "fa": "او قطار را از دست داده خواهد بود، اگر عجله نکند." },
+      { "de": "Wir werden die Arbeit schon erledigt haben, bevor du zurückkommst.", "fa": "ما کار را قبلاً انجام داده خواهیم بود، قبل از اینکه تو برگردی." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "7",
+    "level": "A2",
+    "type": "grammar",
+    "word": "Konjunktiv II",
+    "meaning": "شرطی حال (ساده)",
+    "antonyms": [],
+    "synonyms": ["würde + Infinitiv"],
+    "sentences": [
+      { "de": "Ich würde das machen, wenn ich Zeit hätte.", "fa": "من این کار را می‌کردم، اگر وقت داشتم." },
+      { "de": "Sie würde kommen, wenn sie könnte.", "fa": "او می‌آمد، اگر می‌توانست." },
+      { "de": "Wir würden reisen, wenn das Wetter besser wäre.", "fa": "ما سفر می‌کردیم، اگر هوا بهتر بود." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+
+  {
+    "id": "8",
+    "level": "B1",
+    "type": "grammar",
+    "word": "Konjunktiv I",
+    "meaning": "نقل قول غیرمستقیم (Konjunktiv I)",
+    "antonyms": [],
+    "synonyms": ["Indirekte Rede"],
+    "sentences": [
+      { "de": "Er sagt, er mache jeden Tag Sport.", "fa": "او می‌گوید که هر روز ورزش می‌کند." },
+      { "de": "Sie meint, sie habe die Aufgabe schon erledigt.", "fa": "او فکر می‌کند که کار را قبلاً تمام کرده است." },
+      { "de": "Der Lehrer erklärt, die Schüler seien sehr fleißig.", "fa": "معلم توضیح می‌دهد که دانش‌آموزان خیلی勤 هستند." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "9",
+    "level": "B1",
+    "type": "grammar",
+    "word": "Konjunktiv II",
+    "meaning": "شرطی گذشته (Konjunktiv II)",
+    "antonyms": [],
+    "synonyms": ["Irrealis der Vergangenheit"],
+    "sentences": [
+      { "de": "Ich hätte das Auto gestern gekauft, wenn ich genug Geld gehabt hätte.", "fa": "اگر پول کافی داشتم، ماشین را دیروز می‌خریدم." },
+      { "de": "Sie wäre nach Berlin gefahren, wenn sie mehr Zeit gehabt hätte.", "fa": "اگر زمان بیشتری داشت، به برلین می‌رفت." },
+      { "de": "Wir hätten früher kommen sollen, um den Zug nicht zu verpassen.", "fa": "باید زودتر می‌آمدیم تا قطار را از دست ندهیم." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "10",
+    "level": "B1",
+    "type": "grammar",
+    "word": "Passiv",
+    "meaning": "مجهول (Passiv) در زمان‌های مختلف",
+    "antonyms": [],
+    "synonyms": ["Vorgangspassiv"],
+    "sentences": [
+      { "de": "Das Haus wird gerade von den Arbeitern renoviert.", "fa": "خانه همین حالا توسط کارگران بازسازی می‌شود." },
+      { "de": "Der Brief ist gestern von meinem Freund geschrieben worden.", "fa": "نامه دیروز توسط دوست من نوشته شد." },
+      { "de": "Das Problem wurde von der ganzen Gruppe gelöst.", "fa": "مشکل توسط کل گروه حل شد." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "11",
+    "level": "B2",
+    "type": "grammar",
+    "word": "Konjunktiv I Perfekt",
+    "meaning": "کنجونکتیو یک (مضارع التزامی) کامل",
+    "antonyms": [],
+    "synonyms": ["Indirekte Rede Perfekt"],
+    "sentences": [
+      { "de": "Sie sagt, sie habe das Buch schon gelesen.", "fa": "او می‌گوید که کتاب را قبلاً خوانده است." },
+      { "de": "Er behauptet, er habe den Termin vergessen.", "fa": "او ادعا می‌کند که قرار ملاقات را فراموش کرده است." },
+      { "de": "Die Lehrerin berichtet, die Schüler haben fleißig gearbeitet.", "fa": "معلم زن گزارش می‌دهد که دانش‌آموزان با جدیت کار کرده‌اند." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "12",
+    "level": "B2",
+    "type": "grammar",
+    "word": "Konjunktiv II Plusquamperfekt",
+    "meaning": "کنجونکتیو دو (مضارع التزامی) پیش از گذشته",
+    "antonyms": [],
+    "synonyms": ["Irrealis Plusquamperfekt"],
+    "sentences": [
+      { "de": "Wenn ich das gewusst hätte, wäre ich früher gekommen.", "fa": "اگر آن را می‌دانستم، زودتر می‌آمدم." },
+      { "de": "Sie hätte das Projekt rechtzeitig beendet, wenn sie mehr Zeit gehabt hätte.", "fa": "او پروژه را به موقع تمام می‌کرد اگر زمان بیشتری داشت." },
+      { "de": "Wir hätten das Auto repariert, wenn wir das nötige Werkzeug gehabt hätten.", "fa": "ما ماشین را تعمیر می‌کردیم اگر ابزار لازم را داشتیم." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "13",
+    "level": "B2",
+    "type": "grammar",
+    "word": "Futur II Passiv",
+    "meaning": "آینده دوم مجهول",
+    "antonyms": [],
+    "synonyms": ["Futur Perfekt Passiv"],
+    "sentences": [
+      { "de": "Der Bericht wird bis morgen von der Sekretärin geschrieben worden sein.", "fa": "گزارش تا فردا توسط منشی نوشته شده خواهد بود." },
+      { "de": "Das Problem wird von den Experten gelöst worden sein, bevor die Konferenz beginnt.", "fa": "مشکل توسط کارشناسان حل شده خواهد بود قبل از اینکه کنفرانس شروع شود." },
+      { "de": "Die Häuser werden bis zum Ende des Jahres renoviert worden sein.", "fa": "خانه‌ها تا پایان سال بازسازی شده خواهند بود." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "14",
+    "level": "B2",
+    "type": "grammar",
+    "word": "Doppelter Infinitiv mit Modalverben",
+    "meaning": "دوبل اینفینیتیو با فعل‌های کمکی modal در گذشته",
+    "antonyms": [],
+    "synonyms": ["Modalverb + Infinitiv im Perfekt"],
+    "sentences": [
+      { "de": "Ich habe das machen müssen, weil es sehr wichtig war.", "fa": "من مجبور بودم این کار را انجام دهم چون خیلی مهم بود." },
+      { "de": "Sie hat den Text nicht übersetzen können, weil sie krank gewesen ist.", "fa": "او نتوانسته بود متن را ترجمه کند چون بیمار بوده است." },
+      { "de": "Wir haben früher aufstehen dürfen, um den Zug zu erreichen.", "fa": "ما اجازه داشتیم زودتر بیدار شویم تا به قطار برسیم." }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  }
+
+
+
+]

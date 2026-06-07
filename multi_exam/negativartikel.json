@@ -1,0 +1,63 @@
+{
+  "id": "3",
+  "Kasus": "Negativartikel",
+  "Nominativ": [
+    { "Maskulin": "kein", "de": "kein Mann", "fa": "هیچ مردی / مردی نه" },
+    { "Feminin": "keine", "de": "keine Frau", "fa": "هیچ زنی / زنی نه" },
+    { "Neutral": "kein", "de": "kein Kind", "fa": "هیچ کودکی / کودکی نه" },
+    { "Plural": "keine", "de": "keine Kinder", "fa": "هیچ کودکانی / هیچ کودک" },
+    {
+      "sentences": [
+        { "de": "Kein Mann ist hier.", "fa": "هیچ مردی اینجا نیست." },
+        { "de": "Keine Frau arbeitet heute.", "fa": "هیچ زنی امروز کار نمی‌کند." },
+        { "de": "Kein Kind schläft.", "fa": "هیچ کودکی خواب نیست." },
+        { "de": "Keine Kinder spielen draußen.", "fa": "هیچ کودکانی بیرون بازی نمی‌کنند." }
+      ]
+    }
+  ],
+
+  "Akkusativ": [
+    { "Maskulin": "keinen", "de": "keinen Mann", "fa": "هیچ مردی را" },
+    { "Feminin": "keine", "de": "keine Frau", "fa": "هیچ زنی را" },
+    { "Neutral": "kein", "de": "kein Kind", "fa": "هیچ کودکی را" },
+    { "Plural": "keine", "de": "keine Kinder", "fa": "هیچ کودکانی را" },
+    {
+      "sentences": [
+        { "de": "Ich sehe keinen Mann.", "fa": "من هیچ مردی را نمی‌بینم." },
+        { "de": "Er kennt keine Frau.", "fa": "او هیچ زنی را نمی‌شناسد." },
+        { "de": "Wir hören kein Kind.", "fa": "ما هیچ کودکی را نمی‌شنویم." },
+        { "de": "Der Lehrer ruft keine Kinder.", "fa": "معلم هیچ کودکانی را صدا نمی‌زند." }
+      ]
+    }
+  ],
+
+  "Dativ": [
+    { "Maskulin": "keinem", "de": "keinem Mann", "fa": "به هیچ مردی" },
+    { "Feminin": "keiner", "de": "keiner Frau", "fa": "به هیچ زنی" },
+    { "Neutral": "keinem", "de": "keinem Kind", "fa": "به هیچ کودکی" },
+    { "Plural": "keinen", "de": "keinen Kindern", "fa": "به هیچ کودکانی" },
+    {
+      "sentences": [
+        { "de": "Ich helfe keinem Mann.", "fa": "من به هیچ مردی کمک نمی‌کنم." },
+        { "de": "Das Buch gehört keiner Frau.", "fa": "کتاب متعلق به هیچ زنی نیست." },
+        { "de": "Wir geben keinem Kind ein Geschenk.", "fa": "ما به هیچ کودکی هدیه نمی‌دهیم." },
+        { "de": "Die Lehrerin erzählt keinen Kindern eine Geschichte.", "fa": "معلم برای هیچ کودکانی داستان تعریف نمی‌کند." }
+      ]
+    }
+  ],
+
+  "Genitiv": [
+    { "Maskulin": "keines", "de": "keines Mannes", "fa": "مالِ هیچ مردی" },
+    { "Feminin": "keiner", "de": "keiner Frau", "fa": "مالِ هیچ زنی" },
+    { "Neutral": "keines", "de": "keines Kindes", "fa": "مالِ هیچ کودکی" },
+    { "Plural": "keiner", "de": "keiner Kinder", "fa": "مالِ هیچ کودکانی" },
+    {
+      "sentences": [
+        { "de": "Das Auto keines Mannes ist hier.", "fa": "ماشین هیچ مردی اینجا نیست." },
+        { "de": "Die Tasche keiner Frau liegt dort.", "fa": "کیف هیچ زنی آنجا نیست." },
+        { "de": "Die Spielsachen keines Kindes sind neu.", "fa": "اسباب‌بازی‌های هیچ کودکی جدید نیستند." },
+        { "de": "Die Schule keiner Kinder ist geschlossen.", "fa": "مدرسه هیچ کودکانی تعطیل نیست." }
+      ]
+    }
+  ]
+}

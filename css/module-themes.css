@@ -1,0 +1,154 @@
+/**
+ * Per-module theme palettes — each body.theme-{id} block
+ * overrides the CSS variables used by game-theme.css.
+ *
+ * Only text colors change per theme; backgrounds, borders,
+ * buttons, surfaces, and accents remain static from the base block.
+ */
+
+
+body.module-themed {
+  --theme-accent: #3730a3;
+  --theme-accent-deep: #4338ca;
+  --theme-accent-secondary: #4c54ad;
+  --theme-surface-soft: #eef2ff;
+  --theme-surface-muted: #e0e7ff;
+  --theme-text: #1e3a8a;
+  --theme-text-hover: #3730a3;
+  --theme-page-bg-start: #eef2ff;
+  --theme-page-bg-end: #c7d2f5;
+  --theme-score-bg: #eef2ff;
+  --theme-score-text: #3730a3;
+  --theme-progress-track: #c7d2fe;
+  --theme-border: #e0e7ff;
+  --theme-border-focus: #3730a3;
+  --theme-chip-bg: #e0e7ff;
+  --theme-chip-text: #3730a3;
+  --theme-btn-bg: #3730a3;
+  --theme-btn-bg-hover: #4338ca;
+  --theme-link: #3730a3;
+  --theme-link-hover: #4338ca;
+  --theme-modal-link: #3730a3;
+}
+
+/* --- konnektoren (indigo) --- */
+body.theme-konnektoren {
+  --theme-text: #312e81;
+  --theme-text-hover: #4f46e5;
+  --theme-score-text: #4f46e5;
+  --theme-chip-text: #4f46e5;
+  --theme-link: #4f46e5;
+  --theme-link-hover: #312e81;
+  --theme-modal-link: #4f46e5;
+}
+
+/* --- adjektive (teal) --- */
+body.theme-adjektive {
+  --theme-text: #02da80;
+  --theme-text-hover: #0d9488;
+  --theme-score-text: #0d9488;
+  --theme-chip-text: #0d9488;
+  --theme-link: #558842;
+  --theme-link-hover: #7987de;
+  --theme-modal-link: #0d9488;
+}
+
+/* --- personalpronomen (sky) --- */
+body.theme-personalpronomen {
+  --theme-text: #0c6e4d;
+  --theme-text-hover: #0284c7;
+  --theme-score-text: #0284c7;
+  --theme-chip-text: #0284c7;
+  --theme-link: #0284c7;
+  --theme-link-hover: #0c4a6e;
+  --theme-modal-link: #0284c7;
+}
+
+/* --- possessivpronomen (amber) --- */
+body.theme-possessivpronomen {
+  --theme-text: #78350f;
+  --theme-text-hover: #d97706;
+  --theme-score-text: #d97706;
+  --theme-chip-text: #d97706;
+  --theme-link: #d97706;
+  --theme-link-hover: #78350f;
+  --theme-modal-link: #d97706;
+}
+
+/* --- präpositionen (violet) --- */
+body.theme-präpositionen {
+  --theme-text: #4c1d95;
+  --theme-text-hover: #7c3aed;
+  --theme-score-text: #7c3aed;
+  --theme-chip-text: #7c3aed;
+  --theme-link: #7c3aed;
+  --theme-link-hover: #4c1d95;
+  --theme-modal-link: #7c3aed;
+}
+
+/* --- demonstrativpronomen (rose) --- */
+body.theme-demonstrativpronomen {
+  --theme-text: #881337;
+  --theme-text-hover: #e11d48;
+  --theme-score-text: #e11d48;
+  --theme-chip-text: #e11d48;
+  --theme-link: #e11d48;
+  --theme-link-hover: #881337;
+  --theme-modal-link: #e11d48;
+}
+
+/* --- tempora (slate) --- */
+body.theme-tempora {
+  --theme-text: #1e293b;
+  --theme-text-hover: #475569;
+  --theme-score-text: #475569;
+  --theme-chip-text: #475569;
+  --theme-link: #475569;
+  --theme-link-hover: #1e293b;
+  --theme-modal-link: #475569;
+}
+
+/* --- reflexivverben (cyan) --- */
+body.theme-reflexivverben {
+  --theme-text: #164e63;
+  --theme-text-hover: #0891b2;
+  --theme-score-text: #0891b2;
+  --theme-chip-text: #0891b2;
+  --theme-link: #0891b2;
+  --theme-link-hover: #164e63;
+  --theme-modal-link: #0891b2;
+}
+
+/* --- kollokationen (yellow) --- */
+body.theme-kollokationen {
+  --theme-text: #713f12;
+  --theme-text-hover: #ca8a04;
+  --theme-score-text: #ca8a04;
+  --theme-chip-text: #ca8a04;
+  --theme-link: #ca8a04;
+  --theme-link-hover: #713f12;
+  --theme-modal-link: #ca8a04;
+}
+
+/* --- slang (fuchsia) --- */
+body.theme-slang {
+  --theme-text: #701a75;
+  --theme-text-hover: #c026d3;
+  --theme-score-text: #c026d3;
+  --theme-chip-text: #c026d3;
+  --theme-link: #c026d3;
+  --theme-link-hover: #701a75;
+  --theme-modal-link: #c026d3;
+}
+
+/* --- verben (emerald) --- */
+body.theme-verben {
+  --theme-text: #288d66;
+  --theme-text-hover: #059669;
+  --theme-score-text: #059669;
+  --theme-chip-text: #059669;
+  --theme-link: #36286b;
+  --theme-link-hover: #064e3b;
+  --theme-modal-link: #059669;
+}
+

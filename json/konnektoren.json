@@ -1,0 +1,1442 @@
+[
+  {
+    "id": "1",
+    "level": "A1",
+    "word": "und",
+    "meaning": "و",
+    "pronunciation": "اُند",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Ich lerne Deutsch und trinke gerne Tee.",
+        "fa": "من آلمانی یاد می‌گیرم و چای را دوست دارم بنوشم."
+      },
+      {
+        "de": "Er ist müde und geht ins Bett.",
+        "fa": "او خسته است و به رختخواب می‌رود."
+      }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "2",
+    "level": "A1",
+    "word": "oder",
+    "meaning": "یا",
+    "pronunciation": "اُدِر",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Möchtest du Tee oder Kaffee?",
+        "fa": "چای می‌خواهی یا قهوه؟"
+      },
+      {
+        "de": "Wir gehen ins Kino oder bleiben zu Hause.",
+        "fa": "ما به سینما می‌رویم یا در خانه می‌مانیم."
+      }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "3",
+    "level": "A1",
+    "word": "aber",
+    "meaning": "اما",
+    "pronunciation": "آبِر",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Das Essen ist lecker, aber teuer.",
+        "fa": "غذا خوشمزه است، اما گران است."
+      },
+      {
+        "de": "Ich wollte kommen, aber ich hatte keine Zeit.",
+        "fa": "می‌خواستم بیایم، اما وقت نداشتم."
+      }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "4",
+    "level": "A2",
+    "word": "denn",
+    "meaning": "زیرا / چون",
+    "pronunciation": "دِن",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Ich gehe nicht aus, denn ich bin krank.",
+        "fa": "بیرون نمی‌روم، زیرا بیمارم."
+      },
+      {
+        "de": "Sie lernt viel, denn sie will die Prüfung bestehen.",
+        "fa": "او زیاد درس می‌خواند، چون می‌خواهد امتحان را پاس کند."
+      }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "5",
+    "level": "A2",
+    "word": "sondern",
+    "meaning": "بلکه",
+    "pronunciation": "زوندِرن",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Ich trinke keinen Kaffee, sondern Tee.",
+        "fa": "قهوه نمی‌نوشم، بلکه چای."
+      },
+      {
+        "de": "Er ist nicht dumm, sondern nur müde.",
+        "fa": "او احمق نیست، بلکه فقط خسته است."
+      }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "6",
+    "level": "A2",
+    "word": "weil",
+    "meaning": "چون / زیرا",
+    "pronunciation": "وایل",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Ich bleibe zu Hause, weil es regnet.",
+        "fa": "در خانه می‌مانم، چون باران می‌بارد."
+      },
+      {
+        "de": "Sie ist glücklich, weil sie Urlaub hat.",
+        "fa": "او خوشحال است، زیرا مرخصی دارد."
+      }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "7",
+    "level": "A2",
+    "word": "dass",
+    "meaning": "که",
+    "pronunciation": "داس",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Ich weiß, dass du kommst.",
+        "fa": "می‌دانم که تو می‌آیی."
+      },
+      {
+        "de": "Er sagt, dass er müde ist.",
+        "fa": "او می‌گوید که خسته است."
+      }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "8",
+    "level": "A2",
+    "word": "wenn",
+    "meaning": "اگر / وقتی که",
+    "pronunciation": "وِن",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Wenn es regnet, bleibe ich zu Hause.",
+        "fa": "اگر باران ببارد، در خانه می‌مانم."
+      },
+      {
+        "de": "Ich rufe dich an, wenn ich ankomme.",
+        "fa": "اگر/وقتی رسیدم، به تو زنگ می‌زنم."
+      }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "9",
+    "level": "A2",
+    "word": "als",
+    "meaning": "وقتی که (گذشته)",
+    "pronunciation": "آلز",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Als ich Kind war, wohnte ich in Teheran.",
+        "fa": "وقتی کودک بودم، در تهران زندگی می‌کردم."
+      },
+      {
+        "de": "Als er ankam, begann es zu regnen.",
+        "fa": "وقتی او رسید، باران شروع به باریدن کرد."
+      }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "10",
+    "level": "A2/B1",
+    "word": "wie",
+    "meaning": "مانند / همانطور که / چطور",
+    "pronunciation": "وی",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Er singt wie ein Profi.",
+        "fa": "او مثل یک حرفه‌ای آواز می‌خواند."
+      },
+      {
+        "de": "Ich mache es so, wie du gesagt hast.",
+        "fa": "من آن را همانطور انجام می‌دهم که تو گفتی."
+      }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "11",
+    "level": "B1",
+    "word": "deshalb",
+    "meaning": "به همین دلیل / بنابراین",
+    "pronunciation": "دِزهَلب",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Es regnet, deshalb bleibe ich zu Hause.",
+        "fa": "باران می‌بارد، به همین دلیل در خانه می‌مانم."
+      },
+      {
+        "de": "Ich habe viel gelernt, deshalb habe ich die Prüfung bestanden.",
+        "fa": "خیلی درس خواندم، بنابراین امتحان را پاس کردم."
+      }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "12",
+    "level": "B1",
+    "word": "deswegen",
+    "meaning": "به همین دلیل / از این رو",
+    "pronunciation": "دِزوِگِن",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Er ist krank, deswegen kommt er nicht.",
+        "fa": "او بیمار است، به همین دلیل نمی‌آید."
+      },
+      {
+        "de": "Ich habe kein Geld, deswegen kaufe ich nichts.",
+        "fa": "پول ندارم، از این رو چیزی نمی‌خرم."
+      }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "13",
+    "level": "B1",
+    "word": "darum",
+    "meaning": "به همین خاطر / بنابراین",
+    "pronunciation": "داروم",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Es ist spät, darum gehe ich jetzt.",
+        "fa": "دیر شده، به همین خاطر حالا می‌روم."
+      },
+      {
+        "de": "Sie hat viel gearbeitet, darum ist sie müde.",
+        "fa": "او زیاد کار کرده، بنابراین خسته است."
+      }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "14",
+    "level": "B1",
+    "word": "daher",
+    "meaning": "از این رو / بنابراین",
+    "pronunciation": "داهِر",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Der Film war langweilig, daher bin ich gegangen.",
+        "fa": "فیلم خسته‌کننده بود، از این رو رفتم."
+      },
+      {
+        "de": "Es gab viele Probleme, daher haben wir aufgegeben.",
+        "fa": "مشکلات زیادی وجود داشت، بنابراین تسلیم شدیم."
+      }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "15",
+    "level": "B1",
+    "word": "trotzdem",
+    "meaning": "با این حال / با وجود این",
+    "pronunciation": "تروتزِدِم",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Es regnet, trotzdem gehen wir spazieren.",
+        "fa": "باران می‌بارد، با این حال پیاده‌روی می‌کنیم."
+      },
+      {
+        "de": "Er ist müde, trotzdem arbeitet er weiter.",
+        "fa": "او خسته است، با وجود این همچنان کار می‌کند."
+      }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "16",
+    "level": "B2",
+    "word": "dennoch",
+    "meaning": "با این وجود / با این حال",
+    "pronunciation": "دِنُخ",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Die Aufgabe war schwer, dennoch hat er sie geschafft.",
+        "fa": "کار سخت بود، با این وجود او آن را انجام داد."
+      },
+      {
+        "de": "Es war teuer, dennoch habe ich es gekauft.",
+        "fa": "گران بود، با این حال آن را خریدم."
+      }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "17",
+    "level": "B1",
+    "word": "jedoch",
+    "meaning": "اما / با این وجود",
+    "pronunciation": "یِدوخ",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Er ist krank, jedoch geht er zur Arbeit.",
+        "fa": "او بیمار است، با این وجود به سر کار می‌رود."
+      },
+      {
+        "de": "Das Buch ist interessant, jedoch etwas lang.",
+        "fa": "کتاب جالب است، اما کمی طولانی."
+      }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "18",
+    "level": "A2",
+    "word": "sondern",
+    "meaning": "بلکه",
+    "pronunciation": "زوندِرن",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Nicht ich, sondern du hast gewonnen.",
+        "fa": "نه من، بلکه تو برنده شدی."
+      },
+      {
+        "de": "Er arbeitet nicht viel, sondern spielt den ganzen Tag.",
+        "fa": "او زیاد کار نمی‌کند، بلکه تمام روز بازی می‌کند."
+      }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "19",
+    "level": "B1",
+    "word": "sonst",
+    "meaning": "وگرنه / در غیر این صورت",
+    "pronunciation": "زونست",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Beeil dich, sonst kommen wir zu spät.",
+        "fa": "عجله کن، وگرنه دیر می‌رسیم."
+      },
+      {
+        "de": "Nimm den Schirm mit, sonst wirst du nass.",
+        "fa": "چتر را با خود ببر، در غیر این صورت خیس می‌شوی."
+      }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "20",
+    "level": "B1",
+    "word": "obwohl",
+    "meaning": "با اینکه / هرچند",
+    "pronunciation": "اُبوُل",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Obwohl es regnet, gehen wir spazieren.",
+        "fa": "با اینکه باران می‌بارد، پیاده‌روی می‌کنیم."
+      },
+      {
+        "de": "Obwohl er müde ist, arbeitet er weiter.",
+        "fa": "هرچند خسته است، همچنان کار می‌کند."
+      }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "21",
+    "level": "B2/C1",
+    "word": "obgleich",
+    "meaning": "هرچند / با وجود اینکه",
+    "pronunciation": "اُبگلایخ",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Obgleich es schwierig war, haben wir es geschafft.",
+        "fa": "هرچند سخت بود، ما موفق شدیم."
+      },
+      {
+        "de": "Obgleich sie krank ist, kommt sie zur Arbeit.",
+        "fa": "با وجود اینکه بیمار است، به سر کار می‌آید."
+      }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "22",
+    "level": "C1",
+    "word": "wenngleich",
+    "meaning": "هرچند / با وجود اینکه",
+    "pronunciation": "وِن‌گلایخ",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Wenngleich es teuer ist, kaufe ich es.",
+        "fa": "هرچند گران است، آن را می‌خرم."
+      },
+      {
+        "de": "Wenngleich er wenig Zeit hat, hilft er mir.",
+        "fa": "با وجود اینکه وقت کمی دارد، به من کمک می‌کند."
+      }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "23",
+    "level": "B1",
+    "word": "damit",
+    "meaning": "تا / به منظور اینکه",
+    "pronunciation": "دامیت",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Ich lerne Deutsch, damit ich in Deutschland arbeiten kann.",
+        "fa": "آلمانی یاد می‌گیرم تا بتوانم در آلمان کار کنم."
+      },
+      {
+        "de": "Sie spart Geld, damit sie ein Auto kaufen kann.",
+        "fa": "او پول پس‌انداز می‌کند تا بتواند ماشین بخرد."
+      }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "24",
+    "level": "B1",
+    "word": "um … zu",
+    "meaning": "تا / به منظور ... کردن",
+    "pronunciation": "اوم ... تسو",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Ich lerne Deutsch, um in Deutschland zu arbeiten.",
+        "fa": "آلمانی یاد می‌گیرم تا در آلمان کار کنم."
+      },
+      {
+        "de": "Er geht ins Fitnessstudio, um fit zu werden.",
+        "fa": "او به باشگاه ورزشی می‌رود تا تناسب اندام پیدا کند."
+      }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "25",
+    "level": "A2/B1",
+    "word": "bevor",
+    "meaning": "قبل از اینکه",
+    "pronunciation": "بِفور",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Bevor ich gehe, trinke ich einen Kaffee.",
+        "fa": "قبل از اینکه بروم، یک قهوه می‌نوشم."
+      },
+      {
+        "de": "Bevor du anfängst, lies die Anleitung.",
+        "fa": "قبل از اینکه شروع کنی، دستورالعمل را بخوان."
+      }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "26",
+    "level": "B1",
+    "word": "ehe",
+    "meaning": "قبل از اینکه",
+    "pronunciation": "اِهِ",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Ehe ich ins Bett gehe, putze ich die Zähne.",
+        "fa": "قبل از اینکه بخوابم، دندان‌هایم را مسواک می‌زنم."
+      },
+      {
+        "de": "Ehe es zu spät wird, sollten wir gehen.",
+        "fa": "قبل از اینکه دیر شود، باید برویم."
+      }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "27",
+    "level": "B1",
+    "word": "nachdem",
+    "meaning": "بعد از اینکه",
+    "pronunciation": "ناخدِم",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Nachdem ich gegessen habe, gehe ich spazieren.",
+        "fa": "بعد از اینکه غذا خوردم، پیاده‌روی می‌روم."
+      },
+      {
+        "de": "Nachdem sie angekommen war, begann die Party.",
+        "fa": "بعد از اینکه او رسید، مهمانی شروع شد."
+      }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "28",
+    "level": "B1",
+    "word": "während",
+    "meaning": "در حالی که / طی",
+    "pronunciation": "وِرِند",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Während ich lerne, hört sie Musik.",
+        "fa": "در حالی که من درس می‌خوانم، او موسیقی گوش می‌دهد."
+      },
+      {
+        "de": "Während er reich ist, ist sie arm.",
+        "fa": "در حالی که او ثروتمند است، او فقیر است."
+      }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "29",
+    "level": "A2",
+    "word": "bis",
+    "meaning": "تا / تا زمانی که",
+    "pronunciation": "بیس",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Ich warte hier, bis du zurückkommst.",
+        "fa": "اینجا صبر می‌کنم تا برگردی."
+      },
+      {
+        "de": "Bleib, bis der Film zu Ende ist.",
+        "fa": "بمان تا فیلم تمام شود."
+      }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "30",
+    "level": "B1",
+    "word": "seit",
+    "meaning": "از وقتی که",
+    "pronunciation": "زایت",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Seit ich in Berlin wohne, lerne ich besser Deutsch.",
+        "fa": "از وقتی که در برلین زندگی می‌کنم، آلمانی را بهتر یاد می‌گیرم."
+      },
+      {
+        "de": "Seit er arbeitet, hat er mehr Geld.",
+        "fa": "از وقتی که کار می‌کند، پول بیشتری دارد."
+      }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "31",
+    "level": "B1",
+    "word": "seitdem",
+    "meaning": "از آن زمان / از وقتی که",
+    "pronunciation": "زایتدِم",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Seitdem ich das Buch gelesen habe, denke ich anders.",
+        "fa": "از وقتی که کتاب را خواندم، متفاوت فکر می‌کنم."
+      },
+      {
+        "de": "Er ist krank, seitdem geht er nicht aus.",
+        "fa": "او بیمار است، از آن زمان بیرون نمی‌رود."
+      }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "32",
+    "level": "B2",
+    "word": "sobald",
+    "meaning": "به محض اینکه",
+    "pronunciation": "زوبالت",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Sobald ich ankomme, rufe ich dich an.",
+        "fa": "به محض اینکه برسم، به تو زنگ می‌زنم."
+      },
+      {
+        "de": "Sobald der Regen aufhört, gehen wir raus.",
+        "fa": "به محض اینکه باران بند بیاید، بیرون می‌رویم."
+      }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "33",
+    "level": "B2",
+    "word": "sobald wie",
+    "meaning": "به محض اینکه (نسخه کمتر رایج)",
+    "pronunciation": "زوبالت وی",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Sobald wie möglich, melde dich.",
+        "fa": "به محض امکان، به من خبر بده."
+      },
+      {
+        "de": "Sobald wie du kannst, komm vorbei.",
+        "fa": "به محض اینکه بتوانی، سر بزن."
+      }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "34",
+    "level": "B2",
+    "word": "solange",
+    "meaning": "تا زمانی که / مادامی که",
+    "pronunciation": "زولانگِ",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Solange du hier bist, helfe ich dir.",
+        "fa": "تا زمانی که اینجا هستی، به تو کمک می‌کنم."
+      },
+      {
+        "de": "Solange es nicht regnet, spielen wir draußen.",
+        "fa": "تا زمانی که باران نبارد، بیرون بازی می‌کنیم."
+      }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "35",
+    "level": "B2/C1",
+    "word": "sobald dass",
+    "meaning": "به محض اینکه (ترکیب نادر)",
+    "pronunciation": "زوبالت داس",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Sobald dass ich fertig bin, rufe ich an.",
+        "fa": "به محض اینکه آماده شوم، زنگ می‌زنم."
+      },
+      {
+        "de": "Sobald dass der Kurs beginnt, lernen wir viel.",
+        "fa": "به محض اینکه دوره شروع شود، زیاد یاد می‌گیریم."
+      }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "36",
+    "level": "B1",
+    "word": "ob",
+    "meaning": "آیا / اینکه",
+    "pronunciation": "اُب",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Ich weiß nicht, ob er kommt.",
+        "fa": "نمی‌دانم آیا او می‌آید یا نه."
+      },
+      {
+        "de": "Frag ihn, ob er Zeit hat.",
+        "fa": "از او بپرس آیا وقت دارد."
+      }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "37",
+    "level": "B1",
+    "word": "falls",
+    "meaning": "در صورت اینکه / اگر",
+    "pronunciation": "فالز",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Falls es regnet, nehme ich den Schirm mit.",
+        "fa": "اگر باران ببارد، چتر را با خودم می‌برم."
+      },
+      {
+        "de": "Falls du Hilfe brauchst, ruf mich an.",
+        "fa": "در صورت اینکه کمک بخواهی، به من زنگ بزن."
+      }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "38",
+    "level": "B2",
+    "word": "sofern",
+    "meaning": "به شرطی که / در صورتی که",
+    "pronunciation": "زوفِرن",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Sofern du Zeit hast, komm vorbei.",
+        "fa": "به شرطی که وقت داری، سر بزن."
+      },
+      {
+        "de": "Ich helfe dir, sofern ich kann.",
+        "fa": "به تو کمک می‌کنم، در صورتی که بتوانم."
+      }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "39",
+    "level": "B2",
+    "word": "so dass",
+    "meaning": "به طوری که",
+    "pronunciation": "زو داس",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Er lernte viel, so dass er die Prüfung bestand.",
+        "fa": "او زیاد درس خواند، به طوری که امتحان را پاس کرد."
+      },
+      {
+        "de": "Sie sprach langsam, so dass alle verstanden.",
+        "fa": "او آهسته صحبت کرد، به طوری که همه فهمیدند."
+      }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "40",
+    "level": "B2",
+    "word": "sodass",
+    "meaning": "به طوری که",
+    "pronunciation": "زوداس",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Es war laut, sodass niemand schlafen konnte.",
+        "fa": "صدا بلند بود، به طوری که هیچ‌کس نتوانست بخوابد."
+      },
+      {
+        "de": "Er war krank, sodass er nicht kommen konnte.",
+        "fa": "او بیمار بود، به طوری که نتوانست بیاید."
+      }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "41",
+    "level": "B2/C1",
+    "word": "je … desto",
+    "meaning": "هرچه ... آنقدر",
+    "pronunciation": "یِ ... دِستو",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Je mehr ich lerne, desto besser wird mein Deutsch.",
+        "fa": "هرچه بیشتر درس بخوانم، آلمانی‌ام بهتر می‌شود."
+      },
+      {
+        "de": "Je früher du kommst, desto mehr Zeit haben wir.",
+        "fa": "هرچه زودتر بیایی، وقت بیشتری داریم."
+      }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "42",
+    "level": "B2/C1",
+    "word": "je … umso",
+    "meaning": "هرچه ... آنقدر",
+    "pronunciation": "یِ ... اومزو",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Je schneller du arbeitest, umso früher bist du fertig.",
+        "fa": "هرچه سریع‌تر کار کنی، زودتر تمام می‌کنی."
+      },
+      {
+        "de": "Je teurer das Auto, umso besser die Qualität.",
+        "fa": "هرچه ماشین گران‌تر، کیفیت بهتر."
+      }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "43",
+    "level": "B1",
+    "word": "da",
+    "meaning": "چون / از آنجا که",
+    "pronunciation": "دا",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Da es schon spät ist, gehe ich jetzt.",
+        "fa": "از آنجا که دیر شده، حالا می‌روم."
+      },
+      {
+        "de": "Da er krank war, blieb er zu Hause.",
+        "fa": "چون بیمار بود، در خانه ماند."
+      }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "44",
+    "level": "C1",
+    "word": "zumal",
+    "meaning": "به خصوص اینکه / خصوصاً چون",
+    "pronunciation": "تسومال",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Ich gehe nicht, zumal es regnet.",
+        "fa": "نمی‌روم، به خصوص اینکه باران هم می‌بارد."
+      },
+      {
+        "de": "Er hat abgelehnt, zumal er keine Zeit hatte.",
+        "fa": "او رد کرد، خصوصاً چون وقت نداشت."
+      }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "45",
+    "level": "B1",
+    "word": "nämlich",
+    "meaning": "یعنی / چون",
+    "pronunciation": "نِملیخ",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Ich kann nicht kommen, nämlich ich bin krank.",
+        "fa": "نمی‌توانم بیایم، یعنی بیمارم."
+      },
+      {
+        "de": "Er hat gewonnen, nämlich er hat viel trainiert.",
+        "fa": "او برنده شد، چون خیلی تمرین کرده بود."
+      }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "46",
+    "level": "B2",
+    "word": "nämlich dass",
+    "meaning": "یعنی اینکه",
+    "pronunciation": "نِملیخ داس",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Das Problem ist, nämlich dass wir kein Geld haben.",
+        "fa": "مشکل این است، یعنی اینکه پول نداریم."
+      },
+      {
+        "de": "Er sagte, nämlich dass er nicht kommen kann.",
+        "fa": "او گفت، یعنی اینکه نمی‌تواند بیاید."
+      }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "47",
+    "level": "B2",
+    "word": "indem",
+    "meaning": "با ... کردن / از طریق اینکه",
+    "pronunciation": "ایندِم",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Er lernt Deutsch, indem er Filme schaut.",
+        "fa": "او آلمانی یاد می‌گیرد، با تماشای فیلم."
+      },
+      {
+        "de": "Sie hilft mir, indem sie mir erklärt.",
+        "fa": "او به من کمک می‌کند، از طریق اینکه توضیح می‌دهد."
+      }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "48",
+    "level": "C1",
+    "word": "insofern",
+    "meaning": "از این نظر / تا این حد",
+    "pronunciation": "این‌زوفِرن",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Insofern hast du recht.",
+        "fa": "از این نظر حق با توست."
+      },
+      {
+        "de": "Insofern als es möglich ist, helfe ich.",
+        "fa": "تا این حد که ممکن است، کمک می‌کنم."
+      }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "49",
+    "level": "C1",
+    "word": "insoweit",
+    "meaning": "تا این حد / از این جهت",
+    "pronunciation": "این‌زووایت",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Insoweit bin ich einverstanden.",
+        "fa": "تا این حد موافقم."
+      },
+      {
+        "de": "Insoweit es geht, machen wir es.",
+        "fa": "تا این حد که ممکن است، انجام می‌دهیم."
+      }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "50",
+    "level": "C1",
+    "word": "woraufhin",
+    "meaning": "پس از آن / در نتیجه آن",
+    "pronunciation": "ووراوف‌هین",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Ich fragte ihn, woraufhin er antwortete.",
+        "fa": "از او پرسیدم، پس از آن او پاسخ داد."
+      },
+      {
+        "de": "Er bekam das Geschenk, woraufhin er sich bedankte.",
+        "fa": "هدیه را گرفت، در نتیجه آن تشکر کرد."
+      }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "51",
+    "level": "B2",
+    "word": "weshalb",
+    "meaning": "به چه دلیل / چرا",
+    "pronunciation": "وِشالپ",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Ich weiß nicht, weshalb er nicht kommt.",
+        "fa": "نمی‌دانم به چه دلیل او نمی‌آید."
+      },
+      {
+        "de": "Weshalb hast du das gemacht?",
+        "fa": "به چه دلیل این کار را کردی؟"
+      }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "52",
+    "level": "B2",
+    "word": "weswegen",
+    "meaning": "به چه دلیل / چرا",
+    "pronunciation": "وِزوِگِن",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Weswegen bist du traurig?",
+        "fa": "به چه دلیل غمگینی؟"
+      },
+      {
+        "de": "Das ist der Grund, weswegen ich gehe.",
+        "fa": "این دلیل است که چرا می‌روم."
+      }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "53",
+    "level": "C1",
+    "word": "infolgedessen",
+    "meaning": "در نتیجه / به دنبال آن",
+    "pronunciation": "اینفولگِدِسِن",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Es gab einen Unfall, infolgedessen war die Straße gesperrt.",
+        "fa": "تصادف رخ داد، در نتیجه خیابان بسته بود."
+      },
+      {
+        "de": "Er hat viel gearbeitet, infolgedessen ist er erfolgreich.",
+        "fa": "او زیاد کار کرده، به دنبال آن موفق است."
+      }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "54",
+    "level": "B2/C1",
+    "word": "folglich",
+    "meaning": "بنابراین / در نتیجه",
+    "pronunciation": "فولگلیخ",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Er hat nicht gelernt, folglich hat er die Prüfung nicht bestanden.",
+        "fa": "او درس نخوانده، بنابراین امتحان را پاس نکرده."
+      },
+      {
+        "de": "Es war kalt, folglich habe ich eine Jacke angezogen.",
+        "fa": "هوا سرد بود، در نتیجه یک کت پوشیدم."
+      }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "55",
+    "level": "C1",
+    "word": "demnach",
+    "meaning": "بنابراین / طبق آن",
+    "pronunciation": "دِمناخ",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Die Daten sind klar, demnach müssen wir handeln.",
+        "fa": "داده‌ها واضح هستند، بنابراین باید اقدام کنیم."
+      },
+      {
+        "de": "Er hat zugestimmt, demnach machen wir weiter.",
+        "fa": "او موافقت کرده، طبق آن ادامه می‌دهیم."
+      }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "56",
+    "level": "C1",
+    "word": "nichtsdestotrotz",
+    "meaning": "با این حال / با وجود همه اینها",
+    "pronunciation": "نیختس‌دِستو‌تروتس",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Es war schwierig, nichtsdestotrotz haben wir es geschafft.",
+        "fa": "سخت بود، با این حال موفق شدیم."
+      },
+      {
+        "de": "Das Wetter war schlecht, nichtsdestotrotz sind wir gegangen.",
+        "fa": "هوا بد بود، با وجود همه اینها رفتیم."
+      }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "57",
+    "level": "C1",
+    "word": "gleichwohl",
+    "meaning": "با این وجود / با همه اینها",
+    "pronunciation": "گلایخ‌وُل",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Es gab Probleme, gleichwohl war das Ergebnis gut.",
+        "fa": "مشکلاتی وجود داشت، با این وجود نتیجه خوب بود."
+      },
+      {
+        "de": "Er ist alt, gleichwohl ist er sehr aktiv.",
+        "fa": "او پیر است، با همه اینها خیلی فعال است."
+      }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "58",
+    "level": "B2",
+    "word": "hingegen",
+    "meaning": "در مقابل / اما",
+    "pronunciation": "هین‌گِگِن",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Er mag Kaffee, sie hingegen trinkt Tee.",
+        "fa": "او قهوه دوست دارد، در مقابل او چای می‌نوشد."
+      },
+      {
+        "de": "Das eine ist teuer, das andere hingegen günstig.",
+        "fa": "یکی گران است، دیگری اما ارزان."
+      }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "59",
+    "level": "B2",
+    "word": "dagegen",
+    "meaning": "در مقابل / اما",
+    "pronunciation": "داگِگِن",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Das Auto ist schnell, dagegen sparsam.",
+        "fa": "ماشین سریع است، در مقابل کم‌مصرف هم هست."
+      },
+      {
+        "de": "Er ist talentiert, dagegen fleißig.",
+        "fa": "او با استعداد است، اما در عین حال سخت کوش هم هست."
+      }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  },
+  {
+    "id": "65",
+    "level": "B2",
+    "word": "außerdem dass",
+    "meaning": "علاوه بر اینکه",
+    "pronunciation": "آوسِردِم داس",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Ich mag ihn, außerdem dass er hilfsbereit ist.",
+        "fa": "او را دوست دارم، علاوه بر اینکه کمک‌کننده هم هست."
+      },
+      {
+        "de": "Das ist teuer, außerdem dass es nicht gut ist.",
+        "fa": "این گران است، علاوه بر اینکه خوب هم نیست."
+      }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0
+  }
+]

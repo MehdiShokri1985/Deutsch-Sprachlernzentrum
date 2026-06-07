@@ -1,0 +1,235 @@
+/**
+ * Themed game UI — uses --theme-* from module-themes.css
+ */
+body{
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+body.module-themed {
+  background: linear-gradient(
+    to bottom right,
+    var(--theme-page-bg-start),
+    var(--theme-page-bg-end)
+  );
+}
+
+body.module-themed .game-header-title,
+body.module-themed #headerTitle {
+  color: var(--theme-text);
+}
+
+body.module-themed .game-header-title:hover,
+body.module-themed #headerTitle:hover {
+  color: var(--theme-text-hover);
+}
+
+body.module-themed #fallingWord.falling-word,
+body.module-themed .falling-word {
+  color: var(--theme-text);
+}
+
+body.module-themed .theme-progress-track {
+  background-color: var(--theme-progress-track);
+}
+
+body.module-themed #progressBar {
+  background: linear-gradient(
+    to right,
+    var(--theme-accent),
+    var(--theme-accent-secondary)
+  );
+}
+
+body.module-themed .game-level-stats,
+body.module-themed #levelStats {
+  color: var(--theme-accent-deep);
+  background-color: var(--theme-surface-soft);
+  border-color: var(--theme-border);
+}
+
+body.module-themed .theme-score-pill {
+  background-color: var(--theme-score-bg);
+  color: var(--theme-score-text);
+}
+
+body.module-themed .theme-input {
+  border-color: #d1d5db;
+}
+
+body.module-themed .theme-input:focus {
+  border-color: var(--theme-border-focus);
+  outline: none;
+}
+
+body.module-themed .theme-link,
+body.module-themed a.theme-word-link {
+  color: var(--theme-link);
+}
+
+body.module-themed a.theme-word-link:hover {
+  color: var(--theme-link-hover);
+}
+
+body.module-themed .theme-type-label {
+  background-color: var(--theme-surface-soft);
+  color: var(--theme-accent-deep);
+}
+
+body.module-themed .game-answer-btn:hover {
+  border-color: var(--theme-border-focus);
+  background-color: var(--theme-surface-soft);
+}
+
+body.module-themed .game-answer-btn:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #fff, 0 0 0 4px var(--theme-border-focus);
+}
+
+body.module-themed .game-answer-btn .theme-translate-link {
+  color: var(--theme-link);
+}
+
+body.module-themed .game-answer-btn .theme-translate-link:hover {
+  color: var(--theme-link-hover);
+}
+
+body.module-themed #autocompleteList .game-autocomplete-chip {
+  color: var(--theme-chip-text);
+  background-color: var(--theme-chip-bg);
+  border-color: color-mix(in srgb, var(--theme-accent) 30%, transparent);
+}
+
+body.module-themed #autocompleteList .game-autocomplete-chip:hover {
+  background-color: var(--theme-surface-muted);
+  border-color: color-mix(in srgb, var(--theme-accent) 45%, transparent);
+}
+
+body.module-themed .game-result-btn--practice {
+  background-color: var(--theme-surface-soft);
+  color: var(--theme-accent-deep);
+  border-color: color-mix(in srgb, var(--theme-accent) 24%, transparent);
+}
+
+body.module-themed .game-result-btn--practice:hover {
+  background-color: var(--theme-surface-muted);
+}
+
+body.module-themed #modalDetails .md-pair-start {
+  color: var(--theme-modal-link);
+}
+
+body.module-themed #modalDetails .md-word-link {
+  color: var(--theme-link);
+  /* font-size:large; */
+}
+
+body.module-themed #modalDetails .md-example-de {
+  color: var(--theme-link);
+}
+
+body.module-themed .theme-modal-title {
+  color: var(--theme-text);
+}
+
+body.module-themed .theme-mode-card:hover {
+  border-color: var(--theme-border-focus);
+}
+
+body.module-themed .theme-mode-card-title {
+  transition: color 0.2s ease;
+}
+
+body.module-themed .theme-mode-card:hover .theme-mode-card-title {
+  color: var(--theme-accent);
+}
+
+body.module-themed #submitBtn.theme-btn-primary {
+  background-color: var(--theme-btn-bg);
+}
+
+body.module-themed #submitBtn.theme-btn-primary:hover {
+  background-color: var(--theme-btn-bg-hover);
+}
+
+body.module-themed #hardInput.theme-hard-input {
+  border-color: var(--theme-border);
+}
+
+body.module-themed #hardInput.theme-hard-input:focus {
+  border-color: var(--theme-border-focus);
+}
+
+body.module-themed #hardInputContainer .theme-ac-btn {
+  border-color: var(--theme-border);
+}
+
+body.module-themed #hardInputContainer .theme-ac-btn--active {
+  border-color: var(--theme-accent);
+}
+
+/* body.module-themed .wps-root {
+  background: linear-gradient(
+    165deg,
+    rgba(255, 255, 255, 0.85) 0%,
+    color-mix(in srgb, var(--theme-surface-soft) 75%, white) 48%,
+    rgba(255, 255, 255, 0.9) 100%
+  );
+} */
+
+body.module-themed .verb-conjugation-panel {
+  border-color: var(--theme-border);
+}
+
+body.module-themed .verb-practice-tense {
+  border-color: var(--theme-border);
+  background: color-mix(in srgb, var(--theme-surface-soft) 35%, #f8fafc);
+}
+
+body.module-themed .verb-practice-tense-title {
+  color: var(--theme-accent-deep);
+}
+
+body.module-themed .verb-practice-row--done .verb-practice-line,
+body.module-themed a.verb-practice-de {
+  color: var(--theme-text);
+}
+
+body.module-themed a.verb-practice-de:hover {
+  color: var(--theme-link-hover);
+}
+
+body.module-themed .verb-example-de,
+body.module-themed a.verb-example-de {
+  color: var(--theme-link);
+}
+
+body.module-themed a.verb-example-de:hover {
+  color: var(--theme-link-hover);
+}
+
+body.module-themed .verb-form-input {
+  border-color: var(--theme-border);
+}
+
+/* body.module-themed .verb-form-input:focus {
+  border-color: var(--theme-border-focus);
+  box-shadow: 0 0 0 2px color-mix(in srgb, var(--theme-accent) 18%, transparent);
+} */
+
+body.module-themed #wordDetailsPopup h2 {
+  color: var(--theme-text);
+}
+
+body.module-themed .game-result-btn--verb-practice-active {
+  /* background: linear-gradient(
+    135deg,
+    var(--theme-accent-deep) 0%,
+    var(--theme-accent) 55%,
+    var(--theme-accent-secondary) 100%
+  ); */
+  border-color: color-mix(in srgb, var(--theme-accent-deep) 35%, transparent);
+}
+
+ body.accordion-header:hover .accordion-chevron {
+                opacity: 0.85;
+            }

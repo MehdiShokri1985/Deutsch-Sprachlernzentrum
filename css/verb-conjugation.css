@@ -1,0 +1,226 @@
+/* Verb conjugation practice panel */
+
+.verb-conjugation-panel {
+  max-height: min(90dvh, calc(100dvh - 1rem));
+}
+
+.verb-conjugation-content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.85rem;
+}
+
+.verb-practice-tense {
+  border: 1px solid var(--theme-border, #e0e7ff);
+  border-radius: 0.75rem;
+  padding: 0.65rem 0.75rem;
+  background: #f8fafc;
+}
+
+.verb-practice-tense-title {
+  font-size: clamp(0.8rem, 2vw + 0.35rem, 0.95rem);
+  font-weight: 700;
+  color: var(--theme-accent-deep, #4338ca);
+  margin-bottom: 0.45rem;
+  letter-spacing: 0.02em;
+}
+
+.verb-practice-rows {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.verb-practice-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.35rem 0.5rem;
+  font-size: clamp(0.78rem, 2vw + 0.3rem, 0.9rem);
+  line-height: 1.35;
+}
+
+.verb-practice-row--done .verb-practice-line {
+  flex: 1 1 auto;
+  min-width: 0;
+  color: #1e3a8a;
+  font-weight: 600;
+}
+
+a.verb-practice-de {
+  color: var(--theme-text, #1e3a8a);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+a.verb-practice-de:hover {
+  color: var(--theme-link-hover, #1d4ed8);
+}
+
+.verb-practice-row--done .verb-practice-fa {
+  color: #047857;
+  font-weight: 500;
+}
+
+.verb-person-label {
+  flex: 0 0 auto;
+  min-width: 4.5rem;
+  font-weight: 600;
+  color: #4b5563;
+  font-size: 0.8em;
+}
+
+.verb-form-input {
+  flex: 1 1 8rem;
+  min-width: 0;
+  max-width: 100%;
+  padding: 0.35rem 0.5rem;
+  font-size: 1rem;
+  line-height: 1.4;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  border: 1px solid var(--theme-border, #c7d2fe);
+  border-radius: 0.5rem;
+  background: #fff;
+  color: var(--theme-text, #1e3a8a);
+}
+
+.verb-form-input:focus {
+  outline: none;
+  border-color: var(--theme-border-focus, #6366f1);
+  box-shadow: 0 0 0 2px color-mix(in srgb, var(--theme-accent, #6366f1) 20%, transparent);
+}
+
+.verb-form-input.verb-form-input--correct {
+  border-color: #10b981;
+  background: #ecfdf5;
+}
+
+.verb-complete-btn {
+  flex: 0 0 auto;
+  padding: 0.10rem 1rem;
+  font-size: 0.85rem;
+  font-weight: 700;
+  line-height: 1.4;
+  border: 1px solid var(--theme-border, #c7d2fe);
+  border-radius: 0.5rem;
+  background: var(--theme-accent, #6366f1);
+  color: #fff;
+  cursor: pointer;
+  transition: background 0.15s, box-shadow 0.15s;
+}
+
+.verb-complete-btn:hover {
+  background: var(--theme-accent-deep, #4f46e5);
+  box-shadow: 0 1px 6px rgba(99, 102, 241, 0.3);
+}
+
+.verb-complete-btn:active {
+  transform: scale(0.97);
+}
+
+.verb-practice-examples {
+  margin-top: 0.5rem;
+  padding-top: 0.45rem;
+  border-top: 1px dashed #c7d2fe;
+}
+
+.verb-practice-examples-title {
+  font-size: 0.7rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: #6b7280;
+  margin-bottom: 0.35rem;
+}
+
+.verb-example-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.2rem 0.5rem;
+  padding: 0.3rem 0;
+  font-size: clamp(0.75rem, 1.8vw + 0.28rem, 0.85rem);
+  line-height: 1.35;
+}
+
+.verb-example-de {
+  flex: 1 1 auto;
+  min-width: 0;
+  color: var(--theme-link, #1d4ed8);
+  font-weight: 500;
+}
+
+a.verb-example-de {
+  color: var(--theme-link, #1d4ed8);
+  font-weight: 500;
+  text-decoration: none;
+}
+
+a.verb-example-de:hover {
+  color: var(--theme-link-hover, #1e40af);
+}
+
+.verb-example-fa {
+  flex: 0 1 auto;
+  max-width: min(48%, 100%);
+  text-align: right;
+  color: #047857;
+  direction: rtl;
+}
+
+.verb-practice-tense--completed {
+  opacity: 0.92;
+}
+
+.verb-practice-footer {
+  flex-shrink: 0;
+}
+
+.game-result-continue-group {
+  margin-top: 0.15rem;
+}
+
+.game-result-btn--verb-practice {
+  background: linear-gradient(135deg, #ecfdf5 0%, #d1fae5 100%);
+  color: #047857;
+  border: 1px solid rgba(16, 185, 129, 0.45);
+  font-weight: 700;
+  letter-spacing: 0.01em;
+}
+
+.game-result-btn--verb-practice:hover {
+  background: linear-gradient(135deg, #d1fae5 0%, #a7f3d0 100%);
+  border-color: rgba(5, 150, 105, 0.55);
+  box-shadow:
+    0 2px 10px rgba(16, 185, 129, 0.22),
+    0 0 0 1px rgba(16, 185, 129, 0.08);
+}
+
+
+
+
+
+@media (max-width: 400px) {
+  .verb-person-label {
+    min-width: 3.75rem;
+  }
+
+  .verb-example-fa {
+    max-width: 100%;
+    flex-basis: 100%;
+  }
+
+  .game-result-continue-group .game-result-btn {
+    flex: 1 1 calc(50% - 0.25rem);
+    min-width: calc(50% - 0.25rem);
+    max-width: calc(50% - 0.25rem);
+  }
+
+  .game-result-continue-group .game-result-btn--verb-practice {
+    max-width: 100%;
+    flex: 1 1 100%;
+    min-width: 100%;
+  }
+}

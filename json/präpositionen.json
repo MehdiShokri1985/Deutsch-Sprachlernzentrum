@@ -1,0 +1,2613 @@
+[
+  {
+    "id": "1",
+    "level": "A1",
+    "type": "Akkusativ",
+    "word": "für",
+    "meaning": "برای",
+    "antonyms": [
+      "gegen"
+    ],
+    "synonyms": [
+      "zugunsten von"
+    ],
+    "sentences": [
+      {
+        "de": "Ich kaufe ein Geschenk für meinen Freund.",
+        "fa": "من یک هدیه برای دوست خودم می‌خرم."
+      },
+      {
+        "de": "Sie arbeitet hart für ihre Familie.",
+        "fa": "او سخت برای خانواده‌اش کار می‌کند."
+      },
+      {
+        "de": "Das ist ein Buch für dich.",
+        "fa": "این یک کتاب برای تو است."
+      }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0,
+    "pronunciation": "فیور"
+  },
+  {
+    "id": "2",
+    "level": "A1",
+    "type": "Akkusativ",
+    "word": "um",
+    "meaning": "دور / حدود / رأس (ساعت)",
+    "antonyms": [
+      "ohne"
+    ],
+    "synonyms": [
+      "rund um",
+      "gegen"
+    ],
+    "sentences": [
+      {
+        "de": "Wir laufen um den Park.",
+        "fa": "ما دور پارک می‌دوییم."
+      },
+      {
+        "de": "Der Film beginnt um acht Uhr.",
+        "fa": "فیلم رأس ساعت هشت شروع می‌شود."
+      },
+      {
+        "de": "Er kämpft um seine Freiheit.",
+        "fa": "او برای آزادی‌اش مبارزه می‌کند."
+      }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0,
+    "pronunciation": "اوم"
+  },
+  {
+    "id": "3",
+    "level": "A1",
+    "type": "Akkusativ",
+    "word": "bis",
+    "meaning": "تا",
+    "antonyms": [
+      "ab",
+      "seit"
+    ],
+    "synonyms": [
+      "bis zu"
+    ],
+    "sentences": [
+      {
+        "de": "Ich warte bis morgen.",
+        "fa": "من تا فردا منتظر می‌مانم."
+      },
+      {
+        "de": "Wir fahren bis Berlin.",
+        "fa": "ما تا برلین رانندگی می‌کنیم."
+      },
+      {
+        "de": "Das Geschäft ist bis zehn Uhr geöffnet.",
+        "fa": "فروشگاه تا ساعت ده باز است."
+      }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0,
+    "pronunciation": "بیس"
+  },
+  {
+    "id": "4",
+    "level": "A1",
+    "type": "Akkusativ",
+    "word": "ohne",
+    "meaning": "بدون",
+    "antonyms": [
+      "mit"
+    ],
+    "synonyms": [
+      "ohne dass"
+    ],
+    "sentences": [
+      {
+        "de": "Ich gehe ohne dich ins Kino.",
+        "fa": "من بدون تو به سینما می‌روم."
+      },
+      {
+        "de": "Er trinkt Kaffee ohne Zucker.",
+        "fa": "او قهوه را بدون شکر می‌نوشد."
+      },
+      {
+        "de": "Sie kommt ohne ihre Tasche.",
+        "fa": "او بدون کیفش می‌آید."
+      }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0,
+    "pronunciation": "اونه"
+  },
+  {
+    "id": "5",
+    "level": "A1",
+    "type": "Akkusativ",
+    "word": "gegen",
+    "meaning": "علیه / مقابل / حدود",
+    "antonyms": [
+      "für"
+    ],
+    "synonyms": [
+      "wider"
+    ],
+    "sentences": [
+      {
+        "de": "Er spielt gegen seinen Bruder.",
+        "fa": "او مقابل برادرش بازی می‌کند."
+      },
+      {
+        "de": "Ich habe nichts gegen dich.",
+        "fa": "من هیچی علیه تو ندارم."
+      },
+      {
+        "de": "Wir kommen gegen Abend an.",
+        "fa": "ما حدود عصر می‌رسیم."
+      }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0,
+    "pronunciation": "گِگِن"
+  },
+  {
+    "id": "6",
+    "level": "A1",
+    "type": "Dativ",
+    "word": "mit",
+    "meaning": "با",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Ich gehe mit meinem Freund ins Kino.",
+        "fa": "من با دوست خودم به سینما می‌روم."
+      },
+      {
+        "de": "Sie spricht mit der Lehrerin über das Problem.",
+        "fa": "او با معلم زن درباره مشکل صحبت می‌کند."
+      },
+      {
+        "de": "Wir essen mit der Familie zu Abend.",
+        "fa": "ما با خانواده شام می‌خوریم."
+      }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0,
+    "pronunciation": "میت"
+  },
+  {
+    "id": "7",
+    "level": "A1",
+    "type": "Dativ",
+    "word": "bei",
+    "meaning": "نزد / در / پیش",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Ich wohne bei meiner Schwester in der Stadt.",
+        "fa": "من نزد خواهرم در شهر زندگی می‌کنم."
+      },
+      {
+        "de": "Er arbeitet bei einem großen Unternehmen.",
+        "fa": "او در یک شرکت بزرگ کار می‌کند."
+      },
+      {
+        "de": "Wir waren gestern bei den Großeltern zum Essen.",
+        "fa": "دیروز نزد پدربزرگ و مادربزرگ برای غذا بودیم."
+      }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0,
+    "pronunciation": "بای"
+  },
+  {
+    "id": "8",
+    "level": "A1",
+    "type": "Dativ",
+    "word": "zu",
+    "meaning": "به / نزد",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Ich gehe zu meinem Arzt morgen früh.",
+        "fa": "من فردا صبح به پزشک خودم می‌روم."
+      },
+      {
+        "de": "Sie fährt zu ihrer Freundin nach Berlin.",
+        "fa": "او به سمت دوست دخترش به برلین می‌رود."
+      },
+      {
+        "de": "Wir kommen heute Abend zu dir nach Hause.",
+        "fa": "ما امشب به خانه تو می‌آییم."
+      }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0,
+    "pronunciation": "تسو"
+  },
+  {
+    "id": "9",
+    "level": "A1",
+    "type": "Dativ",
+    "word": "von",
+    "meaning": "از",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Das Geschenk ist von meiner Mutter.",
+        "fa": "هدیه از مادرم است."
+      },
+      {
+        "de": "Ich habe einen Brief von meinem Bruder bekommen.",
+        "fa": "من نامه‌ای از برادرم دریافت کردم."
+      },
+      {
+        "de": "Er kommt gerade von der Arbeit nach Hause.",
+        "fa": "او تازه از سر کار به خانه می‌آید."
+      }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0,
+    "pronunciation": "فون"
+  },
+  {
+    "id": "10",
+    "level": "A1",
+    "type": "Dativ",
+    "word": "aus",
+    "meaning": "از (داخل)",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Sie kommt aus dem Zimmer mit einem Buch.",
+        "fa": "او از اتاق با یک کتاب بیرون می‌آید."
+      },
+      {
+        "de": "Ich trinke Kaffee aus einer großen Tasse.",
+        "fa": "من قهوه را از یک فنجان بزرگ می‌نوشم."
+      },
+      {
+        "de": "Wir kommen aus dem Urlaub sehr entspannt zurück.",
+        "fa": "ما از تعطیلات خیلی آرام برمی‌گردیم."
+      }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0,
+    "pronunciation": "آوس"
+  },
+  {
+    "id": "11",
+    "level": "A1",
+    "type": "Dativ",
+    "word": "nach",
+    "meaning": "به (جهت) / بعد از",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Wir fahren nach München mit dem Zug.",
+        "fa": "ما با قطار به مونیخ می‌رویم."
+      },
+      {
+        "de": "Nach dem Essen gehe ich spazieren.",
+        "fa": "بعد از غذا پیاده‌روی می‌کنم."
+      },
+      {
+        "de": "Er fliegt nächste Woche nach Italien zu seiner Familie.",
+        "fa": "او هفته آینده به ایتالیا نزد خانواده‌اش پرواز می‌کند."
+      }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0,
+    "pronunciation": "ناخ"
+  },
+  {
+    "id": "12",
+    "level": "A1",
+    "type": "Dativ",
+    "word": "seit",
+    "meaning": "از (زمان)",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Ich lerne seit einem Jahr Deutsch.",
+        "fa": "من از یک سال پیش آلمانی یاد می‌گیرم."
+      },
+      {
+        "de": "Sie wohnt seit zwei Monaten in dieser Wohnung.",
+        "fa": "او از دو ماه پیش در این آپارتمان زندگی می‌کند."
+      },
+      {
+        "de": "Wir kennen uns seit unserer Kindheit sehr gut.",
+        "fa": "ما از کودکی یکدیگر را خیلی خوب می‌شناسیم."
+      }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0,
+    "pronunciation": "زایت"
+  },
+  {
+    "id": "13",
+    "level": "A1",
+    "type": "Dativ",
+    "word": "ab",
+    "meaning": "از (زمان)",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Ab morgen arbeite ich in einem neuen Büro.",
+        "fa": "از فردا در یک دفتر جدید کار می‌کنم."
+      },
+      {
+        "de": "Das Geschäft ist ab acht Uhr geöffnet.",
+        "fa": "مغازه از ساعت هشت باز است."
+      },
+      {
+        "de": "Ab nächster Woche fahre ich mit dem Fahrrad zur Schule.",
+        "fa": "از هفته آینده با دوچرخه به مدرسه می‌روم."
+      }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0,
+    "pronunciation": "آب"
+  },
+  {
+    "id": "14",
+    "level": "A1",
+    "type": " Akkusativ / Dativ",
+    "word": "in",
+    "meaning": "در / به داخل",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Das Buch liegt in dem Regal.",
+        "fa": "کتاب در قفسه قرار دارد."
+      },
+      {
+        "de": "Ich lege das Buch in das Regal.",
+        "fa": "کتاب را در قفسه می‌گذارم."
+      },
+      {
+        "de": "Wir wohnen in einer großen Stadt.",
+        "fa": "ما در یک شهر بزرگ زندگی می‌کنیم."
+      }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0,
+    "pronunciation": "ایِن"
+  },
+  {
+    "id": "15",
+    "level": "A1",
+    "type": " Akkusativ / Dativ",
+    "word": "an",
+    "meaning": "به / کنار / روی (عمودی)",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Das Bild hängt an der Wand.",
+        "fa": "تصویر روی دیوار آویزان است."
+      },
+      {
+        "de": "Ich hänge das Bild an die Wand.",
+        "fa": "تصویر را روی دیوار آویزان می‌کنم."
+      },
+      {
+        "de": "Sie denkt an ihren Freund.",
+        "fa": "او به دوستش فکر می‌کند."
+      }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0,
+    "pronunciation": "آن"
+  },
+  {
+    "id": "16",
+    "level": "A1",
+    "type": " Akkusativ / Dativ",
+    "word": "auf",
+    "meaning": "روی / به روی",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Das Buch liegt auf dem Tisch.",
+        "fa": "کتاب روی میز قرار دارد."
+      },
+      {
+        "de": "Ich lege das Buch auf den Tisch.",
+        "fa": "کتاب را روی میز می‌گذارم."
+      },
+      {
+        "de": "Die Katze sitzt auf dem Dach.",
+        "fa": "گربه روی سقف نشسته است."
+      }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0,
+    "pronunciation": "آوف"
+  },
+  {
+    "id": "17",
+    "level": "A1",
+    "type": " Akkusativ / Dativ",
+    "word": "vor",
+    "meaning": "جلوی / به جلوی",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Das Auto steht vor dem Haus.",
+        "fa": "ماشین جلوی خانه پارک شده است."
+      },
+      {
+        "de": "Ich stelle das Auto vor das Haus.",
+        "fa": "ماشین را جلوی خانه پارک می‌کنم."
+      },
+      {
+        "de": "Der Hund läuft vor den Mann.",
+        "fa": "سگ جلوی مرد می‌دود."
+      }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0,
+    "pronunciation": "فور"
+  },
+  {
+    "id": "18",
+    "level": "A1",
+    "type": " Akkusativ / Dativ",
+    "word": "hinter",
+    "meaning": "پشت / به پشت",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Der Ball liegt hinter dem Baum.",
+        "fa": "توپ پشت درخت قرار دارد."
+      },
+      {
+        "de": "Ich werfe den Ball hinter den Baum.",
+        "fa": "توپ را پشت درخت پرتاب می‌کنم."
+      },
+      {
+        "de": "Das Kind versteckt sich hinter der Tür.",
+        "fa": "کودک پشت در پنهان می‌شود."
+      }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0,
+    "pronunciation": "هینتر"
+  },
+  {
+    "id": "19",
+    "level": "A1",
+    "type": " Akkusativ / Dativ",
+    "word": "über",
+    "meaning": "بالای / روی / درباره",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Die Lampe hängt über dem Tisch.",
+        "fa": "لامپ بالای میز آویزان است."
+      },
+      {
+        "de": "Ich hänge die Lampe über den Tisch.",
+        "fa": "لامپ را بالای میز آویزان می‌کنم."
+      },
+      {
+        "de": "Wir sprechen über das Wetter.",
+        "fa": "ما درباره آب و هوا صحبت می‌کنیم."
+      }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0,
+    "pronunciation": "اوبر"
+  },
+  {
+    "id": "20",
+    "level": "A1",
+    "type": " Akkusativ / Dativ",
+    "word": "unter",
+    "meaning": "زیر / در میان",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Die Katze schläft unter dem Bett.",
+        "fa": "گربه زیر تختخواب خوابیده است."
+      },
+      {
+        "de": "Ich lege die Katze unter das Bett.",
+        "fa": "گربه را زیر تختخواب می‌گذارم."
+      },
+      {
+        "de": "Das Kind spielt unter den Kindern.",
+        "fa": "کودک در میان کودکان بازی می‌کند."
+      }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0,
+    "pronunciation": "اونتر"
+  },
+  {
+    "id": "21",
+    "level": "A1",
+    "type": " Akkusativ / Dativ",
+    "word": "neben",
+    "meaning": "کنار / پهلوی",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Das Auto parkt neben dem Haus.",
+        "fa": "ماشین کنار خانه پارک شده است."
+      },
+      {
+        "de": "Ich parke das Auto neben das Haus.",
+        "fa": "ماشین را کنار خانه پارک می‌کنم."
+      },
+      {
+        "de": "Sie sitzt neben ihrer Freundin.",
+        "fa": "او کنار دوستش نشسته است."
+      }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0,
+    "pronunciation": "نِبِن"
+  },
+  {
+    "id": "22",
+    "level": "A1",
+    "type": " Akkusativ / Dativ",
+    "word": "zwischen",
+    "meaning": "بین / میان",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Das Kind steht zwischen den Eltern.",
+        "fa": "کودک بین والدین ایستاده است."
+      },
+      {
+        "de": "Ich stelle das Kind zwischen die Eltern.",
+        "fa": "کودک را بین والدین قرار می‌دهم."
+      },
+      {
+        "de": "Der Brief liegt zwischen den Büchern.",
+        "fa": "نامه بین کتاب‌ها قرار دارد."
+      }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0,
+    "pronunciation": "تسویشن"
+  },
+  {
+    "id": "23",
+    "level": "A2",
+    "type": "Akkusativ",
+    "word": "durch",
+    "meaning": "از طریق / از میان / توسط",
+    "antonyms": [
+      "um ... herum"
+    ],
+    "synonyms": [
+      "via"
+    ],
+    "sentences": [
+      {
+        "de": "Wir gehen durch den Park.",
+        "fa": "ما از میان پارک عبور می‌کنیم."
+      },
+      {
+        "de": "Er hat das Problem durch seine Hilfe gelöst.",
+        "fa": "او مشکل را با کمک او حل کرد."
+      },
+      {
+        "de": "Der Zug fährt durch den Tunnel.",
+        "fa": "قطار از تونل عبور می‌کند."
+      }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0,
+    "pronunciation": "دورخ"
+  },
+  {
+    "id": "24",
+    "level": "A2",
+    "type": "Akkusativ",
+    "word": "gegen",
+    "meaning": "علیه / در مقابل / به سمت",
+    "antonyms": [
+      "für",
+      "mit"
+    ],
+    "synonyms": [
+      "wider"
+    ],
+    "sentences": [
+      {
+        "de": "Sie kämpft gegen die Ungerechtigkeit.",
+        "fa": "او علیه بی‌عدالتی مبارزه می‌کند."
+      },
+      {
+        "de": "Ich laufe gegen die Wand.",
+        "fa": "من به دیوار می‌خورم."
+      },
+      {
+        "de": "Das Auto fährt gegen einen Baum.",
+        "fa": "ماشین به یک درخت برخورد می‌کند."
+      }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0,
+    "pronunciation": "گِگِن"
+  },
+  {
+    "id": "25",
+    "level": "A2",
+    "type": "Akkusativ",
+    "word": "ohne",
+    "meaning": "بدون",
+    "antonyms": [
+      "mit"
+    ],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Ich gehe ohne meinen Schirm aus dem Haus.",
+        "fa": "من بدون چترم از خانه بیرون می‌روم."
+      },
+      {
+        "de": "Sie trinkt Kaffee ohne Zucker.",
+        "fa": "او قهوه را بدون شکر می‌نوشد."
+      },
+      {
+        "de": "Wir können das ohne deine Hilfe nicht schaffen.",
+        "fa": "ما بدون کمک تو نمی‌توانیم این کار را انجام دهیم."
+      }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0,
+    "pronunciation": "اونه"
+  },
+  {
+    "id": "26",
+    "level": "A2",
+    "type": "Akkusativ",
+    "word": "entlang",
+    "meaning": "در امتداد / کنار",
+    "antonyms": [],
+    "synonyms": [
+      "an ... entlang"
+    ],
+    "sentences": [
+      {
+        "de": "Wir spazieren den Fluss entlang.",
+        "fa": "ما در امتداد رودخانه قدم می‌زنیم."
+      },
+      {
+        "de": "Sie fahren die Straße entlang.",
+        "fa": "آن‌ها در امتداد خیابان رانندگی می‌کنند."
+      },
+      {
+        "de": "Der Weg führt den Berg entlang.",
+        "fa": "مسیر در امتداد کوه ادامه دارد."
+      }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0,
+    "pronunciation": "اِنتلانگ"
+  },
+  {
+    "id": "27",
+    "level": "A2",
+    "type": "Dativ",
+    "word": "außer",
+    "meaning": "به جز، غیر از",
+    "antonyms": [
+      "einschließlich"
+    ],
+    "synonyms": [
+      "abgesehen von"
+    ],
+    "sentences": [
+      {
+        "de": "Alle Schüler außer dem neuen Jungen sind gekommen.",
+        "fa": "همه دانش‌آموزان به جز پسر جدید آمده‌اند."
+      },
+      {
+        "de": "Ich esse alles außer Fisch, weil ich ihn nicht mag.",
+        "fa": "من همه چیز می‌خورم به جز ماهی، چون آن را دوست ندارم."
+      },
+      {
+        "de": "Außer dir hat mir niemand bei der Aufgabe geholfen.",
+        "fa": "به جز تو، هیچ‌کس در انجام تکلیف به من کمک نکرد."
+      }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0,
+    "pronunciation": "آوسِر"
+  },
+  {
+    "id": "28",
+    "level": "A2",
+    "type": "Dativ",
+    "word": "gegenüber",
+    "meaning": "روبه‌رو، مقابل",
+    "antonyms": [
+      "neben"
+    ],
+    "synonyms": [
+      "vis-à-vis"
+    ],
+    "sentences": [
+      {
+        "de": "Das Café gegenüber der Kirche ist sehr gemütlich.",
+        "fa": "کافه روبه‌روی کلیسا خیلی دنج است."
+      },
+      {
+        "de": "Sie wohnt gegenüber dem Park und kann die Bäume sehen.",
+        "fa": "او مقابل پارک زندگی می‌کند و می‌تواند درخت‌ها را ببیند."
+      },
+      {
+        "de": "Gegenüber meinen Eltern bin ich immer ehrlich gewesen.",
+        "fa": "در مقابل والدینم همیشه صادق بوده‌ام."
+      }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0,
+    "pronunciation": "گِگِن اوبر"
+  },
+  {
+    "id": "29",
+    "level": "A2",
+    "type": "Genitiv",
+    "word": "während",
+    "meaning": "در حالی که / طی",
+    "antonyms": [
+      "vor",
+      "nach"
+    ],
+    "synonyms": [
+      "wenn",
+      "als"
+    ],
+    "sentences": [
+      {
+        "de": "Während des Unterrichts telefoniert er nicht.",
+        "fa": "او طی درس تلفن نمی‌کند."
+      },
+      {
+        "de": "Sie lernt Deutsch, während sie in Berlin arbeitet.",
+        "fa": "او آلمانی یاد می‌گیرد در حالی که در برلین کار می‌کند."
+      },
+      {
+        "de": "Während wir auf den Bus warten, essen wir ein Sandwich.",
+        "fa": "در حالی که منتظر اتوبوس هستیم، یک ساندویچ می‌خوریم."
+      }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0,
+    "pronunciation": "وِرند"
+  },
+  {
+    "id": "31",
+    "level": "A2",
+    "type": "Dativ",
+    "word": "bis zu",
+    "meaning": "تا / تا حداکثر",
+    "antonyms": [
+      "ab",
+      "von"
+    ],
+    "synonyms": [
+      "bis",
+      "höchstens"
+    ],
+    "sentences": [
+      {
+        "de": "Die Fahrt dauert bis zu zwei Stunden.",
+        "fa": "سفر تا دو ساعت طول می‌کشد."
+      },
+      {
+        "de": "Du kannst bis zu drei Bücher ausleihen.",
+        "fa": "تو می‌توانی تا سه کتاب امانت بگیری."
+      },
+      {
+        "de": "Bis zu welchem Datum kann ich den Kurs bezahlen?",
+        "fa": "تا چه تاریخی می‌توانم هزینه دوره را پرداخت کنم؟"
+      }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0,
+    "pronunciation": "بیس تسو"
+  },
+  {
+    "id": "32",
+    "level": "B1",
+    "type": "Genitiv",
+    "word": "trotz",
+    "meaning": "علی‌رغم، با وجود",
+    "antonyms": [
+      "wegen"
+    ],
+    "synonyms": [
+      "ungeachtet"
+    ],
+    "sentences": [
+      {
+        "de": "Trotz des Regens gingen wir spazieren.",
+        "fa": "علی‌رغم باران رفتیم پیاده‌روی."
+      },
+      {
+        "de": "Trotz ihrer Müdigkeit arbeitete sie weiter.",
+        "fa": "با وجود خستگی‌اش به کار ادامه داد."
+      },
+      {
+        "de": "Trotz des hohen Preises kaufte er das Auto.",
+        "fa": "علی‌رغم قیمت بالای آن، ماشین را خرید."
+      }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0,
+    "pronunciation": "تروتس"
+  },
+  {
+    "id": "33",
+    "level": "B1",
+    "type": "Genitiv",
+    "word": "wegen",
+    "meaning": "به خاطر، به دلیل",
+    "antonyms": [
+      "trotz"
+    ],
+    "synonyms": [
+      "aufgrund"
+    ],
+    "sentences": [
+      {
+        "de": "Wegen des Verkehrs kamen wir zu spät.",
+        "fa": "به دلیل ترافیک دیر رسیدیم."
+      },
+      {
+        "de": "Wegen seiner Krankheit blieb er zu Hause.",
+        "fa": "به خاطر بیماری‌اش در خانه ماند."
+      },
+      {
+        "de": "Wegen des schlechten Wetters wurde das Spiel abgesagt.",
+        "fa": "به دلیل هوای بد بازی لغو شد."
+      }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0,
+    "pronunciation": "وِگِن"
+  },
+  {
+    "id": "34",
+    "level": "B1",
+    "type": "Genitiv",
+    "word": "während",
+    "meaning": "در طول، طی",
+    "antonyms": [],
+    "synonyms": [
+      "währenddessen"
+    ],
+    "sentences": [
+      {
+        "de": "Während des Films aßen wir Popcorn.",
+        "fa": "در طول فیلم پاپ‌کورن خوردیم."
+      },
+      {
+        "de": "Während ihrer Reise schrieb sie viele Postkarten.",
+        "fa": "طی سفرش کارت‌پستال‌های زیادی نوشت."
+      },
+      {
+        "de": "Während des Meetings war er sehr konzentriert.",
+        "fa": "در طول جلسه خیلی متمرکز بود."
+      }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0,
+    "pronunciation": "وِرند"
+  },
+  {
+    "id": "35",
+    "level": "B1",
+    "type": "Genitiv",
+    "word": "statt",
+    "meaning": "به جای",
+    "antonyms": [],
+    "synonyms": [
+      "anstatt"
+    ],
+    "sentences": [
+      {
+        "de": "Statt des Autos nahm er den Bus.",
+        "fa": "به جای ماشین اتوبوس گرفت."
+      },
+      {
+        "de": "Statt einer Antwort lächelte sie nur.",
+        "fa": "به جای جواب فقط لبخند زد."
+      },
+      {
+        "de": "Statt des teuren Hotels buchte er eine Pension.",
+        "fa": "به جای هتل گران یک پانسیون رزرو کرد."
+      }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0,
+    "pronunciation": "شتات"
+  },
+  {
+    "id": "36",
+    "level": "B1",
+    "type": "Genitiv",
+    "word": "anstatt",
+    "meaning": "به جای",
+    "antonyms": [],
+    "synonyms": [
+      "statt"
+    ],
+    "sentences": [
+      {
+        "de": "Anstatt des Kinos gingen sie ins Theater.",
+        "fa": "به جای سینما به تئاتر رفتند."
+      },
+      {
+        "de": "Anstatt einer Entschuldigung gab er Ausreden.",
+        "fa": "به جای عذرخواهی بهانه آورد."
+      },
+      {
+        "de": "Anstatt des Flugzeugs reiste er mit dem Zug.",
+        "fa": "به جای هواپیما با قطار سفر کرد."
+      }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0,
+    "pronunciation": "آشتات"
+  },
+  {
+    "id": "37",
+    "level": "B1",
+    "type": "Genitiv",
+    "word": "innerhalb",
+    "meaning": "در داخل، درون",
+    "antonyms": [
+      "außerhalb"
+    ],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Innerhalb der Stadt ist der Verkehr sehr stark.",
+        "fa": "در داخل شهر ترافیک خیلی شدید است."
+      },
+      {
+        "de": "Innerhalb einer Woche muss das Projekt fertig sein.",
+        "fa": "باید درون یک هفته پروژه تمام شود."
+      },
+      {
+        "de": "Innerhalb des Gebäudes ist Rauchen verboten.",
+        "fa": "درون ساختمان سیگار کشیدن ممنوع است."
+      }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0,
+    "pronunciation": "ایِنرهالب"
+  },
+  {
+    "id": "38",
+    "level": "B1",
+    "type": "Genitiv",
+    "word": "außerhalb",
+    "meaning": "خارج از",
+    "antonyms": [
+      "innerhalb"
+    ],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Außerhalb der Öffnungszeiten ist der Laden geschlossen.",
+        "fa": "خارج از ساعات کاری فروشگاه بسته است."
+      },
+      {
+        "de": "Außerhalb der Stadt ist die Luft viel sauberer.",
+        "fa": "خارج از شهر هوا خیلی تمیزتر است."
+      },
+      {
+        "de": "Außerhalb Europas gibt es viele interessante Länder.",
+        "fa": "خارج از اروپا کشورهای جالب زیادی وجود دارد."
+      }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0,
+    "pronunciation": "آوسرهالب"
+  },
+  {
+    "id": "39",
+    "level": "B1",
+    "type": "Genitiv",
+    "word": "oberhalb",
+    "meaning": "بالای، در بالای",
+    "antonyms": [
+      "unterhalb"
+    ],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Oberhalb des Dorfes liegt ein alter Wald.",
+        "fa": "بالای روستا یک جنگل قدیمی قرار دارد."
+      },
+      {
+        "de": "Oberhalb der Tür hängt ein großes Schild.",
+        "fa": "بالای در یک تابلوی بزرگ آویزان است."
+      },
+      {
+        "de": "Oberhalb des Flusses gibt es eine schöne Brücke.",
+        "fa": "بالای رودخانه یک پل زیبا وجود دارد."
+      }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0,
+    "pronunciation": "اوبرهالب"
+  },
+  {
+    "id": "40",
+    "level": "B1",
+    "type": "Genitiv",
+    "word": "unterhalb",
+    "meaning": "زیر، در زیر",
+    "antonyms": [
+      "oberhalb"
+    ],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Unterhalb des Berges fließt ein kleiner Bach.",
+        "fa": "زیر کوه یک جوی کوچک جریان دارد."
+      },
+      {
+        "de": "Unterhalb der Brücke schwimmen Enten.",
+        "fa": "زیر پل اردک‌ها شنا می‌کنند."
+      },
+      {
+        "de": "Unterhalb des Textes steht die Quellenangabe.",
+        "fa": "زیر متن منبع نوشته شده است."
+      }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0,
+    "pronunciation": "اونترهالب"
+  },
+  {
+    "id": "41",
+    "level": "B1",
+    "type": "Dativ",
+    "word": "laut",
+    "meaning": "طبق، بر اساس",
+    "antonyms": [],
+    "synonyms": [
+      "gemäß",
+      "nach"
+    ],
+    "sentences": [
+      {
+        "de": "Laut dem Wetterbericht wird es morgen regnen.",
+        "fa": "طبق گزارش هواشناسی فردا باران خواهد بارید."
+      },
+      {
+        "de": "Laut der Zeitung ist der Präsident krank.",
+        "fa": "طبق روزنامه رئیس‌جمهور بیمار است."
+      },
+      {
+        "de": "Laut meiner Erfahrung ist das nicht einfach.",
+        "fa": "بر اساس تجربه من این کار ساده نیست."
+      }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0,
+    "pronunciation": "لاوت"
+  },
+  {
+    "id": "42",
+    "level": "B1",
+    "type": "",
+    "word": "gemäß",
+    "meaning": "طبق، مطابق با",
+    "antonyms": [],
+    "synonyms": [
+      "laut",
+      "nach"
+    ],
+    "sentences": [
+      {
+        "de": "Gemäß den Vorschriften müssen wir Helme tragen.",
+        "fa": "مطابق با مقررات باید کلاه ایمنی بپوشیم."
+      },
+      {
+        "de": "Gemäß dem Gesetz ist das Verhalten verboten.",
+        "fa": "طبق قانون این رفتار ممنوع است."
+      },
+      {
+        "de": "Gemäß seiner Aussage war er nicht dabei.",
+        "fa": "مطابق با گفته او او آنجا نبود."
+      }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0,
+    "pronunciation": "گِمِس"
+  },
+  {
+    "id": "43",
+    "level": "B1",
+    "type": "Genitiv",
+    "word": "dank",
+    "meaning": "به لطف، thanks to",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Dank deiner Hilfe haben wir das Projekt pünktlich fertiggestellt.",
+        "fa": "به لطف کمک تو پروژه را به موقع تمام کردیم."
+      },
+      {
+        "de": "Dank des guten Wetters war der Ausflug sehr schön.",
+        "fa": "به لطف هوای خوب گردش خیلی لذت‌بخش بود."
+      },
+      {
+        "de": "Dank seiner harten Arbeit hat er die Prüfung bestanden.",
+        "fa": "به لطف کار سختش امتحان را پاس کرد."
+      }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0,
+    "pronunciation": "دانک"
+  },
+  {
+    "id": "44",
+    "level": "B1",
+    "type": "Dativ",
+    "word": "minus",
+    "meaning": "منهای، به جز",
+    "antonyms": [
+      "plus"
+    ],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Die Rechnung beträgt 100 Euro minus Rabatt.",
+        "fa": "صورت‌حساب ۱۰۰ یورو منهای تخفیف است."
+      },
+      {
+        "de": "Alle waren da minus Peter.",
+        "fa": "همه آنجا بودند منهای پیتر."
+      },
+      {
+        "de": "Das Ergebnis ist zehn minus fünf gleich fünf.",
+        "fa": "نتیجه ده منهای پنج مساوی پنج است."
+      }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0,
+    "pronunciation": "ماینوس"
+  },
+  {
+    "id": "45",
+    "level": "B1",
+    "type": "Dativ",
+    "word": "plus",
+    "meaning": "به علاوه، مثبت",
+    "antonyms": [
+      "minus"
+    ],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Die Rechnung beträgt 50 Euro plus Mehrwertsteuer.",
+        "fa": "صورت‌حساب ۵۰ یورو به علاوه مالیات بر ارزش افزوده است."
+      },
+      {
+        "de": "Zehn plus fünf ist fünfzehn.",
+        "fa": "ده به علاوه پنج پانزده است."
+      },
+      {
+        "de": "Alle waren da plus ein paar neue Gäste.",
+        "fa": "همه آنجا بودند به علاوه چند مهمان جدید."
+      }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0,
+    "pronunciation": "پلاس"
+  },
+  {
+    "id": "46",
+    "level": "B1",
+    "type": "",
+    "word": "je",
+    "meaning": "هر، به ازای هر",
+    "antonyms": [],
+    "synonyms": [
+      "pro"
+    ],
+    "sentences": [
+      {
+        "de": "Je Person kostet die Karte 20 Euro.",
+        "fa": "هر نفر بلیط ۲۰ یورو هزینه دارد."
+      },
+      {
+        "de": "Je früher wir starten, desto besser.",
+        "fa": "هر چه زودتر شروع کنیم بهتر است."
+      },
+      {
+        "de": "Ich trinke je Tag zwei Liter Wasser.",
+        "fa": "من هر روز دو لیتر آب می‌نوشم."
+      }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0,
+    "pronunciation": "یه"
+  },
+  {
+    "id": "47",
+    "level": "B1",
+    "type": "Akkusativ",
+    "word": "pro",
+    "meaning": "در هر، به ازای",
+    "antonyms": [],
+    "synonyms": [
+      "je"
+    ],
+    "sentences": [
+      {
+        "de": "Pro Stunde verdiene ich 15 Euro.",
+        "fa": "در هر ساعت ۱۵ یورو درآمد دارم."
+      },
+      {
+        "de": "Pro Person gibt es ein Geschenk.",
+        "fa": "به ازای هر نفر یک هدیه وجود دارد."
+      },
+      {
+        "de": "Pro Woche trainiere ich dreimal.",
+        "fa": "در هر هفته سه بار تمرین می‌کنم."
+      }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0,
+    "pronunciation": "پرو"
+  },
+  {
+    "id": "48",
+    "level": "B1",
+    "type": "Akkusativ",
+    "word": "bis auf",
+    "meaning": "به جز، جز، تا",
+    "antonyms": [
+      "einschließlich"
+    ],
+    "synonyms": [
+      "außer",
+      "mit Ausnahme von"
+    ],
+    "sentences": [
+      {
+        "de": "Bis auf einen Schüler waren alle pünktlich im Unterricht.",
+        "fa": "به جز یک دانش‌آموز، همه سر وقت در کلاس بودند."
+      },
+      {
+        "de": "Das Konzert war bis auf wenige Plätze ausverkauft.",
+        "fa": "کنسرت به جز چند صندلی فروخته شده بود."
+      },
+      {
+        "de": "Bis auf dich hat niemand die Aufgabe richtig gelöst.",
+        "fa": "به جز تو، هیچ‌کس وظیفه را درست حل نکرده است."
+      }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0,
+    "pronunciation": "بیس آوف"
+  },
+  {
+    "id": "49",
+    "level": "B1",
+    "type": "Genitiv",
+    "word": "aufgrund",
+    "meaning": "به دلیل، بر اساس، به خاطر",
+    "antonyms": [
+      "trotz"
+    ],
+    "synonyms": [
+      "wegen",
+      "auf Basis von"
+    ],
+    "sentences": [
+      {
+        "de": "Aufgrund des schlechten Wetters wurde das Spiel abgesagt.",
+        "fa": "به دلیل هوای بد، بازی لغو شد."
+      },
+      {
+        "de": "Aufgrund seiner guten Noten bekam er ein Stipendium.",
+        "fa": "بر اساس نمرات خوبش، بورسیه گرفت."
+      },
+      {
+        "de": "Aufgrund von technischen Problemen konnte er die E-Mail nicht senden.",
+        "fa": "به دلیل مشکلات فنی نتوانست ایمیل را ارسال کند."
+      }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0,
+    "pronunciation": "آوف‌گروند"
+  },
+  {
+    "id": "50",
+    "level": "B1",
+    "type": "Genitiv",
+    "word": "mithilfe",
+    "meaning": "با کمک، با استفاده از",
+    "antonyms": [
+      "ohne Hilfe"
+    ],
+    "synonyms": [
+      "mit Hilfe von",
+      "durch"
+    ],
+    "sentences": [
+      {
+        "de": "Mithilfe eines Wörterbuchs konnte sie den Text übersetzen.",
+        "fa": "با کمک یک فرهنگ لغت توانست متن را ترجمه کند."
+      },
+      {
+        "de": "Mithilfe moderner Technik wurde das Problem schnell gelöst.",
+        "fa": "با استفاده از فناوری مدرن مشکل سریع حل شد."
+      },
+      {
+        "de": "Mithilfe seiner Freunde hat er das Projekt erfolgreich abgeschlossen.",
+        "fa": "با کمک دوستانش پروژه را با موفقیت به پایان رساند."
+      }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0,
+    "pronunciation": "میت‌هیلفه"
+  },
+  {
+    "id": "51",
+    "level": "B2",
+    "type": "Genitiv ",
+    "word": "angesichts",
+    "meaning": "با توجه به، در برابر",
+    "antonyms": [
+      "ohne Rücksicht auf"
+    ],
+    "synonyms": [
+      "in Anbetracht"
+    ],
+    "sentences": [
+      {
+        "de": "Angesichts der schwierigen Lage hat er sehr ruhig reagiert.",
+        "fa": "با توجه به وضعیت دشوار، او خیلی آرام واکنش نشان داد."
+      },
+      {
+        "de": "Angesichts der hohen Kosten müssen wir die Pläne ändern.",
+        "fa": "با توجه به هزینه‌های بالا، باید برنامه‌ها را تغییر دهیم."
+      },
+      {
+        "de": "Angesichts seines Alters ist seine Leistung beeindruckend.",
+        "fa": "با توجه به سن او، عملکردش قابل تحسین است."
+      }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0,
+    "pronunciation": "آنگه‌زیختس"
+  },
+  {
+    "id": "52",
+    "level": "B2",
+    "type": "Genitiv ",
+    "word": "anhand",
+    "meaning": "بر اساس، با کمک",
+    "antonyms": [
+      "ohne Belege"
+    ],
+    "synonyms": [
+      "mithilfe von",
+      "aufgrund von"
+    ],
+    "sentences": [
+      {
+        "de": "Anhand der Dokumente konnte er seine These beweisen.",
+        "fa": "او توانست با کمک مدارک، ادعایش را ثابت کند."
+      },
+      {
+        "de": "Wir haben das Problem anhand der gesammelten Daten gelöst.",
+        "fa": "ما مشکل را بر اساس داده‌های جمع‌آوری‌شده حل کردیم."
+      },
+      {
+        "de": "Anhand seiner Notizen hat er den Vortrag gehalten.",
+        "fa": "او سخنرانی را بر اساس یادداشت‌هایش برگزار کرد."
+      }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0,
+    "pronunciation": "آن‌هاند"
+  },
+  {
+    "id": "53",
+    "level": "B2",
+    "type": "Genitiv ",
+    "word": "anlässlich",
+    "meaning": "به مناسبت",
+    "antonyms": [],
+    "synonyms": [
+      "zu Ehren von"
+    ],
+    "sentences": [
+      {
+        "de": "Anlässlich seines 50. Geburtstags gab es eine große Feier.",
+        "fa": "به مناسبت تولد ۵۰ سالگی او، جشن بزرگی برگزار شد."
+      },
+      {
+        "de": "Anlässlich des Jubiläums wurde eine neue Ausstellung eröffnet.",
+        "fa": "به مناسبت سالگرد، نمایشگاه جدیدی افتتاح شد."
+      },
+      {
+        "de": "Anlässlich des Besuchs des Ministers wurden Sicherheitsmaßnahmen verstärkt.",
+        "fa": "به مناسبت بازدید وزیر، تدابیر امنیتی تقویت شد."
+      }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0,
+    "pronunciation": "آن‌لِسلیخ"
+  },
+  {
+    "id": "54",
+    "level": "B2",
+    "type": "Genitiv ",
+    "word": "aufgrund",
+    "meaning": "به دلیل، بر اساس",
+    "antonyms": [
+      "trotz"
+    ],
+    "synonyms": [
+      "wegen",
+      "infolge"
+    ],
+    "sentences": [
+      {
+        "de": "Aufgrund der schlechten Wetterlage wurde der Flug abgesagt.",
+        "fa": "به دلیل وضعیت بد آب و هوایی، پرواز لغو شد."
+      },
+      {
+        "de": "Aufgrund seiner Erfahrung hat man ihn für die Position ausgewählt.",
+        "fa": "به دلیل تجربه‌اش، او را برای این موقعیت انتخاب کردند."
+      },
+      {
+        "de": "Aufgrund mangelnder Beweise wurde der Fall eingestellt.",
+        "fa": "به دلیل کمبود مدرک، پرونده مختومه شد."
+      }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0,
+    "pronunciation": "آوف‌گروند"
+  },
+  {
+    "id": "55",
+    "level": "B2",
+    "type": "Genitiv ",
+    "word": "bezüglich",
+    "meaning": "در مورد، درباره",
+    "antonyms": [],
+    "synonyms": [
+      "hinsichtlich",
+      "betreffend"
+    ],
+    "sentences": [
+      {
+        "de": "Bezüglich Ihrer Anfrage werde ich mich morgen melden.",
+        "fa": "در مورد درخواست شما، فردا تماس خواهم گرفت."
+      },
+      {
+        "de": "Bezüglich der neuen Regelungen gibt es noch Fragen.",
+        "fa": "در مورد مقررات جدید هنوز سوالاتی وجود دارد."
+      },
+      {
+        "de": "Bezüglich seines Verhaltens hat der Chef eine klare Meinung.",
+        "fa": "مدیر نظر روشنی درباره رفتار او دارد."
+      }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0,
+    "pronunciation": "بِتسوگلیخ"
+  },
+  {
+    "id": "56",
+    "level": "B2",
+    "type": "Genitiv ",
+    "word": "hinsichtlich",
+    "meaning": "در خصوص، از نظر",
+    "antonyms": [],
+    "synonyms": [
+      "bezüglich",
+      "in Bezug auf"
+    ],
+    "sentences": [
+      {
+        "de": "Hinsichtlich der Qualität gibt es keine Beschwerden.",
+        "fa": "از نظر کیفیت هیچ شکایتی وجود ندارد."
+      },
+      {
+        "de": "Hinsichtlich des Termins müssen wir noch verhandeln.",
+        "fa": "در خصوص مهلت هنوز باید مذاکره کنیم."
+      },
+      {
+        "de": "Hinsichtlich seiner Leistungen ist er sehr zufrieden.",
+        "fa": "او از نظر عملکردهایش بسیار راضی است."
+      }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0,
+    "pronunciation": "هینزیختلیخ"
+  },
+  {
+    "id": "57",
+    "level": "B2",
+    "type": "Genitiv ",
+    "word": "infolge",
+    "meaning": "در نتیجه، به دنبال",
+    "antonyms": [
+      "unabhängig von"
+    ],
+    "synonyms": [
+      "aufgrund",
+      "wegen"
+    ],
+    "sentences": [
+      {
+        "de": "Infolge des Unfalls wurde die Straße gesperrt.",
+        "fa": "در نتیجه تصادف، خیابان مسدود شد."
+      },
+      {
+        "de": "Infolge der Wirtschaftskrise haben viele Firmen Probleme.",
+        "fa": "به دنبال بحران اقتصادی، بسیاری از شرکت‌ها مشکل دارند."
+      },
+      {
+        "de": "Infolge seiner Verletzung konnte er nicht am Training teilnehmen.",
+        "fa": "در نتیجه آسیب‌دیدگی‌اش نتوانست در تمرین شرکت کند."
+      }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0,
+    "pronunciation": "اینفُگه"
+  },
+  {
+    "id": "58",
+    "level": "B2",
+    "type": "Genitiv ",
+    "word": "mangels",
+    "meaning": "به دلیل کمبود، به علت نبود",
+    "antonyms": [
+      "aufgrund von"
+    ],
+    "synonyms": [
+      "wegen Fehlens von"
+    ],
+    "sentences": [
+      {
+        "de": "Mangels ausreichender Beweise wurde er freigesprochen.",
+        "fa": "به دلیل کمبود مدارک کافی، او تبرئه شد."
+      },
+      {
+        "de": "Mangels Interesse wurde der Kurs abgesagt.",
+        "fa": "به علت نبود علاقه، دوره لغو شد."
+      },
+      {
+        "de": "Mangels finanzieller Mittel konnten wir das Projekt nicht fortsetzen.",
+        "fa": "به دلیل کمبود منابع مالی نتوانستیم پروژه را ادامه دهیم."
+      }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0,
+    "pronunciation": "مانگلس"
+  },
+  {
+    "id": "59",
+    "level": "B2",
+    "type": "Dativ",
+    "word": "entgegen",
+    "meaning": "برخلاف، در مقابل، رو به",
+    "antonyms": [
+      "gemäß",
+      "entsprechend"
+    ],
+    "synonyms": [
+      "wider",
+      "gegenüber"
+    ],
+    "sentences": [
+      {
+        "de": "Entgegen allen Erwartungen hat er den Wettbewerb gewonnen.",
+        "fa": "برخلاف همه انتظارات، او مسابقه را برنده شد."
+      },
+      {
+        "de": "Sie lief dem Zug entgegen, um ihn noch zu erreichen.",
+        "fa": "او به سمت قطار دوید تا هنوز به آن برسد."
+      },
+      {
+        "de": "Entgegen dem Rat seines Arztes rauchte er weiter.",
+        "fa": "برخلاف توصیه پزشک‌اش، او به سیگار کشیدن ادامه داد."
+      }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0,
+    "pronunciation": "اِنت‌گگن"
+  },
+  {
+    "id": "60",
+    "level": "B2",
+    "type": "Dativ",
+    "word": "entsprechend",
+    "meaning": "مطابق، متناسب، بر اساس",
+    "antonyms": [
+      "unterschiedlich",
+      "entgegen"
+    ],
+    "synonyms": [
+      "gemäß",
+      "angemessen"
+    ],
+    "sentences": [
+      {
+        "de": "Entsprechend den Vorschriften müssen wir Schutzkleidung tragen.",
+        "fa": "مطابق مقررات باید لباس محافظ بپوشیم."
+      },
+      {
+        "de": "Jeder erhielt eine entsprechende Belohnung für seine Leistung.",
+        "fa": "هر کسی پاداش متناسبی برای عملکردش دریافت کرد."
+      },
+      {
+        "de": "Die Preise sind entsprechend höher in der Hochsaison.",
+        "fa": "قیمت‌ها در فصل پرگردشگر به طور متناسب بالاتر هستند."
+      }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0,
+    "pronunciation": "اِنت‌شپرِخِند"
+  },
+  {
+    "id": "61",
+    "level": "B2",
+    "type": "Dativ",
+    "word": "nahe",
+    "meaning": "نزدیک به، در نزدیکی",
+    "antonyms": [
+      "fern",
+      "weit"
+    ],
+    "synonyms": [
+      "bei",
+      "in der Nähe von"
+    ],
+    "sentences": [
+      {
+        "de": "Das Hotel liegt nahe dem Bahnhof, was sehr praktisch ist.",
+        "fa": "هتل نزدیک ایستگاه قطار قرار دارد که خیلی راحت است."
+      },
+      {
+        "de": "Nahe dem Ende des Films wurde die Spannung unerträglich.",
+        "fa": "نزدیک به پایان فیلم، تنش غیرقابل تحمل شد."
+      },
+      {
+        "de": "Sie wohnen nahe genug, um oft vorbeizukommen.",
+        "fa": "آنها به اندازه کافی نزدیک زندگی می‌کنند تا اغلب سر بزنند."
+      }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0,
+    "pronunciation": "ناهه"
+  },
+  {
+    "id": "62",
+    "level": "B2",
+    "type": "Dativ",
+    "word": "samt",
+    "meaning": "همراه با، به همراه، شامل",
+    "antonyms": [
+      "ohne"
+    ],
+    "synonyms": [
+      "mitsamt",
+      "zusammen mit"
+    ],
+    "sentences": [
+      {
+        "de": "Er verkaufte das Haus samt allen Möbeln.",
+        "fa": "او خانه را همراه با تمام مبلمان فروخت."
+      },
+      {
+        "de": "Samt Kindern und Gepäck machten sie sich auf die Reise.",
+        "fa": "همراه با کودکان و بار و بنه به سفر رفتند."
+      },
+      {
+        "de": "Das Auto wurde samt Inhalt gestohlen.",
+        "fa": "ماشین همراه با محتویاتش دزدیده شد."
+      }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0,
+    "pronunciation": "زامت"
+  },
+  {
+    "id": "63",
+    "level": "B2",
+    "type": "Dativ",
+    "word": "mitsamt",
+    "meaning": "به همراه همه، همراه با",
+    "antonyms": [
+      "ohne"
+    ],
+    "synonyms": [
+      "samt",
+      "zusammen mit"
+    ],
+    "sentences": [
+      {
+        "de": "Sie kamen mitsamt ihren Freunden zur Party.",
+        "fa": "آنها به همراه همه دوستان‌شان به مهمانی آمدند."
+      },
+      {
+        "de": "Der Baum wurde mitsamt den Wurzeln ausgerissen.",
+        "fa": "درخت همراه با ریشه‌هایش کنده شد."
+      },
+      {
+        "de": "Mitsamt dem ganzen Team feierten sie den Erfolg.",
+        "fa": "به همراه کل تیم، موفقیت را جشن گرفتند."
+      }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0,
+    "pronunciation": "میت زامت"
+  },
+  {
+    "id": "65",
+    "level": "B2",
+    "type": "Dativ",
+    "word": "seitlich",
+    "meaning": "جانبی، از پهلو",
+    "antonyms": [
+      "frontal",
+      "gerade"
+    ],
+    "synonyms": [
+      "lateral",
+      "seitwärts"
+    ],
+    "sentences": [
+      {
+        "de": "Der Seitenspiegel ist seitlich am Auto angebracht.",
+        "fa": "آینه جانبی در کنار ماشین نصب شده است."
+      },
+      {
+        "de": "Sie blickte ihn seitlich von der Seite an.",
+        "fa": "او از پهلو به او نگاه کرد."
+      },
+      {
+        "de": "Der seitliche Eingang des Gebäudes war verschlossen.",
+        "fa": "ورودی جانبی ساختمان قفل بود."
+      }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0,
+    "pronunciation": "زایتلیخ"
+  },
+  {
+    "id": "66",
+    "level": "C1",
+    "type": "Genitiv",
+    "word": "abzüglich",
+    "meaning": "منهای، کسر از",
+    "antonyms": [
+      "zuzüglich",
+      "einschließlich"
+    ],
+    "synonyms": [
+      "abzüglich",
+      "exklusive"
+    ],
+    "sentences": [
+      {
+        "de": "Abzüglich aller Steuern bleibt ein Nettogewinn von 5000 Euro.",
+        "fa": "منهای تمام مالیات‌ها، سود خالص ۵۰۰۰ یورو باقی می‌ماند."
+      },
+      {
+        "de": "Der Preis beträgt 120 Euro abzüglich des Rabatts.",
+        "fa": "قیمت ۱۲۰ یورو منهای تخفیف است."
+      },
+      {
+        "de": "Abzüglich der bereits gezahlten Summe schulden wir noch 300 Euro.",
+        "fa": "منهای مبلغی که قبلاً پرداخت شده، هنوز ۳۰۰ یورو بدهکار هستیم."
+      }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0,
+    "pronunciation": "آب‌تسوگلیخ"
+  },
+  {
+    "id": "67",
+    "level": "C1",
+    "type": "Genitiv",
+    "word": "ausschließlich",
+    "meaning": "به استثنای، منحصراً",
+    "antonyms": [
+      "einschließlich"
+    ],
+    "synonyms": [
+      "exklusiv",
+      "abzüglich"
+    ],
+    "sentences": [
+      {
+        "de": "Ausschließlich der Mitglieder haben Zutritt zum Club.",
+        "fa": "فقط اعضا دسترسی به باشگاه دارند."
+      },
+      {
+        "de": "Der Vertrag gilt ausschließlich der genannten Bedingungen.",
+        "fa": "قرارداد فقط تحت شرایط ذکرشده معتبر است."
+      },
+      {
+        "de": "Ausschließlich der Kosten für Reparaturen übernimmt die Versicherung den Schaden.",
+        "fa": "بیمه خسارت را به استثنای هزینه‌های تعمیرات پوشش می‌دهد."
+      }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0,
+    "pronunciation": "آوس‌شلیسلیخ"
+  },
+  {
+    "id": "68",
+    "level": "C1",
+    "type": "Genitiv",
+    "word": "beiderseits",
+    "meaning": "در دو طرف، از هر دو سو",
+    "antonyms": [],
+    "synonyms": [
+      "auf beiden Seiten"
+    ],
+    "sentences": [
+      {
+        "de": "Beiderseits der Straße stehen hohe Bäume.",
+        "fa": "در دو طرف خیابان درختان بلند قرار دارند."
+      },
+      {
+        "de": "Beiderseits der Grenze herrscht große Spannung.",
+        "fa": "از هر دو سو مرز تنش زیادی وجود دارد."
+      },
+      {
+        "de": "Beiderseits des Flusses haben die Bewohner Parks angelegt.",
+        "fa": "ساکنان در دو طرف رودخانه پارک ساخته‌اند."
+      }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0,
+    "pronunciation": "بایدرزایتس"
+  },
+  {
+    "id": "69",
+    "level": "C1",
+    "type": "Genitiv",
+    "word": "diesseits",
+    "meaning": "این طرف",
+    "antonyms": [
+      "jenseits"
+    ],
+    "synonyms": [
+      "auf dieser Seite"
+    ],
+    "sentences": [
+      {
+        "de": "Diesseits der Alpen ist das Klima milder.",
+        "fa": "این طرف آلپ‌ها آب و هوا ملایم‌تر است."
+      },
+      {
+        "de": "Diesseits der Mauer befindet sich ein Garten.",
+        "fa": "این طرف دیوار یک باغ قرار دارد."
+      },
+      {
+        "de": "Diesseits der Grenze gelten andere Gesetze.",
+        "fa": "این طرف مرز قوانین دیگری اعمال می‌شود."
+      }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0,
+    "pronunciation": "دیسزایتس"
+  },
+  {
+    "id": "70",
+    "level": "C1",
+    "type": "Genitiv",
+    "word": "jenseits",
+    "meaning": "آن طرف، فرای",
+    "antonyms": [
+      "diesseits"
+    ],
+    "synonyms": [
+      "auf der anderen Seite"
+    ],
+    "sentences": [
+      {
+        "de": "Jenseits des Flusses liegt ein altes Dorf.",
+        "fa": "آن طرف رودخانه یک روستای قدیمی قرار دارد."
+      },
+      {
+        "de": "Jenseits aller Zweifel steht seine Unschuld fest.",
+        "fa": "فرای هر شکی، بی‌گناهی او ثابت است."
+      },
+      {
+        "de": "Jenseits der Berge beginnt eine neue Region.",
+        "fa": "آن طرف کوه‌ها منطقه جدیدی شروع می‌شود."
+      }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0,
+    "pronunciation": "یِنسایتس"
+  },
+  {
+    "id": "71",
+    "level": "C1",
+    "type": "Genitiv",
+    "word": "betreffs",
+    "meaning": "در مورد، درباره",
+    "antonyms": [],
+    "synonyms": [
+      "bezüglich",
+      "hinsichtlich"
+    ],
+    "sentences": [
+      {
+        "de": "Betreffs Ihrer Anfrage senden wir Ihnen die Unterlagen.",
+        "fa": "در مورد درخواست شما مدارک را برایتان ارسال می‌کنیم."
+      },
+      {
+        "de": "Betreffs des Termins müssen wir noch verhandeln.",
+        "fa": "درباره قرار ملاقات هنوز باید مذاکره کنیم."
+      },
+      {
+        "de": "Betreffs der geplanten Änderungen gibt es keine Einwände.",
+        "fa": "در مورد تغییرات برنامه‌ریزی‌شده هیچ مخالفتی وجود ندارد."
+      }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0,
+    "pronunciation": "بِت‌رفس"
+  },
+  {
+    "id": "72",
+    "level": "C1",
+    "type": "Genitiv",
+    "word": "binnen",
+    "meaning": "در عرض، ظرف",
+    "antonyms": [],
+    "synonyms": [
+      "innerhalb"
+    ],
+    "sentences": [
+      {
+        "de": "Binnen eines Jahres muss das Projekt abgeschlossen sein.",
+        "fa": "در عرض یک سال باید پروژه تکمیل شود."
+      },
+      {
+        "de": "Binnen kurzer Zeit hat er große Fortschritte gemacht.",
+        "fa": "در عرض زمان کوتاهی پیشرفت زیادی کرده است."
+      },
+      {
+        "de": "Binnen der nächsten Woche erhalten Sie die Antwort.",
+        "fa": "ظرف هفته آینده پاسخ را دریافت خواهید کرد."
+      }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0,
+    "pronunciation": "بینن"
+  },
+  {
+    "id": "73",
+    "level": "C1",
+    "type": "Genitiv",
+    "word": "halber",
+    "meaning": "به خاطر، برای",
+    "antonyms": [],
+    "synonyms": [
+      "wegen"
+    ],
+    "sentences": [
+      {
+        "de": "Der Sicherheit halber tragen alle Helme.",
+        "fa": "به خاطر ایمنی همه کلاه ایمنی می‌پوشند."
+      },
+      {
+        "de": "Der Form halber hat er eine kurze Rede gehalten.",
+        "fa": "به خاطر ظاهر و تشریفات یک سخنرانی کوتاه ایراد کرد."
+      },
+      {
+        "de": "Des Friedens halber haben sie Kompromisse geschlossen.",
+        "fa": "به خاطر صلح مصالحه کرده‌اند."
+      }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0,
+    "pronunciation": "هالبر"
+  },
+  {
+    "id": "74",
+    "level": "C1",
+    "type": "Genitiv",
+    "word": "kraft",
+    "meaning": "به موجب، بر اساس",
+    "antonyms": [],
+    "synonyms": [
+      "aufgrund"
+    ],
+    "sentences": [
+      {
+        "de": "Kraft seines Amtes kann er die Entscheidung treffen.",
+        "fa": "به موجب سمتش می‌تواند تصمیم بگیرد."
+      },
+      {
+        "de": "Kraft des Gesetzes ist diese Handlung verboten.",
+        "fa": "بر اساس قانون این عمل ممنوع است."
+      },
+      {
+        "de": "Kraft seiner Vollmacht hat er den Vertrag unterschrieben.",
+        "fa": "به موجب اختیاراتش قرارداد را امضا کرده است."
+      }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0,
+    "pronunciation": "کرافت"
+  },
+  {
+    "id": "75",
+    "level": "C1",
+    "type": "Genitiv",
+    "word": "mittels",
+    "meaning": "به وسیله، با کمک",
+    "antonyms": [],
+    "synonyms": [
+      "mithilfe",
+      "durch"
+    ],
+    "sentences": [
+      {
+        "de": "Mittels eines Spezialwerkzeugs wurde die Tür geöffnet.",
+        "fa": "به وسیله ابزار خاصی در باز شد."
+      },
+      {
+        "de": "Mittels moderner Technik konnte das Problem gelöst werden.",
+        "fa": "با کمک فناوری مدرن مشکل حل شد."
+      },
+      {
+        "de": "Mittels einer Umfrage haben wir die Meinungen gesammelt.",
+        "fa": "به وسیله نظرسنجی نظرات را جمع‌آوری کردیم."
+      }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0,
+    "pronunciation": "میتلس"
+  },
+  {
+    "id": "76",
+    "level": "C1",
+    "type": "Genitiv",
+    "word": "seitens",
+    "meaning": "از طرف، از جانب",
+    "antonyms": [],
+    "synonyms": [
+      "vonseiten"
+    ],
+    "sentences": [
+      {
+        "de": "Seitens der Regierung gab es keine offizielle Stellungnahme.",
+        "fa": "از طرف دولت هیچ بیانیه رسمی صادر نشد."
+      },
+      {
+        "de": "Seitens der Eltern kamen viele Beschwerden.",
+        "fa": "از جانب والدین شکایات زیادی رسید."
+      },
+      {
+        "de": "Seitens der Firma wurde Unterstützung zugesagt.",
+        "fa": "از طرف شرکت حمایت وعده داده شد."
+      }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0,
+    "pronunciation": "زایتنس"
+  },
+  {
+    "id": "77",
+    "level": "C1",
+    "type": "Genitiv",
+    "word": "unbeschadet",
+    "meaning": "بدون لطمه به، علی‌رغم",
+    "antonyms": [],
+    "synonyms": [
+      "ungeachtet"
+    ],
+    "sentences": [
+      {
+        "de": "Unbeschadet seiner früheren Fehler hat er die Prüfung bestanden.",
+        "fa": "علی‌رغم اشتباهات قبلی‌اش امتحان را گذراند."
+      },
+      {
+        "de": "Unbeschadet der Kritik setzt er seine Arbeit fort.",
+        "fa": "بدون لطمه به انتقادها کارش را ادامه می‌دهد."
+      },
+      {
+        "de": "Unbeschadet aller Hindernisse erreichten sie das Ziel.",
+        "fa": "علی‌رغم همه موانع به هدف رسیدند."
+      }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0,
+    "pronunciation": "اون‌بِشادت"
+  },
+  {
+    "id": "78",
+    "level": "C1",
+    "type": "Genitiv",
+    "word": "ungeachtet",
+    "meaning": "علی‌رغم، با وجود",
+    "antonyms": [],
+    "synonyms": [
+      "trotz",
+      "unbeschadet"
+    ],
+    "sentences": [
+      {
+        "de": "Ungeachtet der Warnungen ist er weitergefahren.",
+        "fa": "علی‌رغم هشدارها به راهش ادامه داد."
+      },
+      {
+        "de": "Ungeachtet aller Schwierigkeiten hat das Team gewonnen.",
+        "fa": "با وجود همه دشواری‌ها تیم برنده شد."
+      },
+      {
+        "de": "Ungeachtet seiner Jugend hat er viel Verantwortung.",
+        "fa": "علی‌رغم جوانی‌اش مسئولیت زیادی دارد."
+      }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0,
+    "pronunciation": "اون‌گآختِت"
+  },
+  {
+    "id": "79",
+    "level": "C1",
+    "type": "Genitiv",
+    "word": "zwecks",
+    "meaning": "به منظور، جهت",
+    "antonyms": [],
+    "synonyms": [
+      "um ... zu",
+      "für"
+    ],
+    "sentences": [
+      {
+        "de": "Zwecks Klärung der Angelegenheit rufen Sie bitte an.",
+        "fa": "به منظور روشن شدن موضوع لطفاً تماس بگیرید."
+      },
+      {
+        "de": "Zwecks weiteren Studiums ist er ins Ausland gegangen.",
+        "fa": "جهت تحصیل بیشتر به خارج رفته است."
+      },
+      {
+        "de": "Zwecks Verbesserung der Qualität haben wir neue Maschinen gekauft.",
+        "fa": "به منظور بهبود کیفیت ماشین‌آلات جدیدی خریداری کردیم."
+      }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0,
+    "pronunciation": "تسویِکس"
+  },
+  {
+    "id": "80",
+    "level": "C1",
+    "type": "Dativ",
+    "word": "fern",
+    "meaning": "دور از، به دور از",
+    "antonyms": [
+      "nah"
+    ],
+    "synonyms": [
+      "weit entfernt"
+    ],
+    "sentences": [
+      {
+        "de": "Das Dorf liegt fern der großen Stadt.",
+        "fa": "روستا دور از شهر بزرگ قرار دارد."
+      },
+      {
+        "de": "Er hielt sich fern von allen politischen Diskussionen.",
+        "fa": "او خود را از همه بحث‌های سیاسی دور نگه داشت."
+      },
+      {
+        "de": "Die Idee scheint fern der Realität zu sein.",
+        "fa": "این ایده به نظر دور از واقعیت می‌رسد."
+      }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0,
+    "pronunciation": "فِرن"
+  },
+  {
+    "id": "81",
+    "level": "C1",
+    "type": "Dativ",
+    "word": "getreu",
+    "meaning": "وفادار، دقیق، مطابق",
+    "antonyms": [
+      "untreu"
+    ],
+    "synonyms": [
+      "treu",
+      "genau"
+    ],
+    "sentences": [
+      {
+        "de": "Er blieb seinem Freund getreu in schweren Zeiten.",
+        "fa": "او در زمان‌های سخت به دوستش وفادار ماند."
+      },
+      {
+        "de": "Die Übersetzung ist dem Original getreu.",
+        "fa": "ترجمه مطابق با اصل است."
+      },
+      {
+        "de": "Getreu seinem Motto handelte er immer ehrlich.",
+        "fa": "او همیشه مطابق با شعار خود صادقانه عمل می‌کرد."
+      }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0,
+    "pronunciation": "گِتروی"
+  },
+  {
+    "id": "82",
+    "level": "C1",
+    "type": "Genitiv",
+    "word": "längs",
+    "meaning": "در امتداد، به طول",
+    "antonyms": [
+      "quer"
+    ],
+    "synonyms": [
+      "entlang"
+    ],
+    "sentences": [
+      {
+        "de": "Wir wanderten längs des Flusses durch den Wald.",
+        "fa": "ما در امتداد رودخانه از میان جنگل پیاده‌روی کردیم."
+      },
+      {
+        "de": "Längs der Straße stehen alte Bäume.",
+        "fa": "در امتداد جاده درختان قدیمی قرار دارند."
+      },
+      {
+        "de": "Der Stoff ist längs gestreift.",
+        "fa": "پارچه به طول راه‌راه دارد."
+      }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0,
+    "pronunciation": "لِنگس"
+  },
+  {
+    "id": "83",
+    "level": "C1",
+    "type": "Genitiv",
+    "word": "vermöge",
+    "meaning": "به وسیله، به کمک، با استفاده از",
+    "antonyms": [],
+    "synonyms": [
+      "mittels",
+      "durch"
+    ],
+    "sentences": [
+      {
+        "de": "Vermöge seiner Intelligenz löste er das Problem schnell.",
+        "fa": "او به کمک هوش خود مشکل را سریع حل کرد."
+      },
+      {
+        "de": "Vermöge eines speziellen Schlüssels öffnete er die Tür.",
+        "fa": "او به وسیله کلید خاصی در را باز کرد."
+      },
+      {
+        "de": "Vermöge seiner Erfahrung konnte er die Situation meistern.",
+        "fa": "او با استفاده از تجربه‌اش توانست موقعیت را مهار کند."
+      }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0,
+    "pronunciation": "فِرمُگه"
+  },
+  {
+    "id": "84",
+    "level": "C1",
+    "type": "Dativ",
+    "word": "zufolge",
+    "meaning": "طبق، بر اساس",
+    "antonyms": [],
+    "synonyms": [
+      "laut",
+      "gemäß"
+    ],
+    "sentences": [
+      {
+        "de": "Dem Bericht zufolge gibt es keine Verletzten.",
+        "fa": "طبق گزارش، هیچ مجروحی وجود ندارد."
+      },
+      {
+        "de": "Seinen Worten zufolge kommt er morgen an.",
+        "fa": "طبق حرف‌های او، فردا می‌رسد."
+      },
+      {
+        "de": "Der Statistik zufolge steigt die Zahl der Teilnehmer.",
+        "fa": "بر اساس آمار، تعداد شرکت‌کنندگان افزایش می‌یابد."
+      }
+    ],
+    "strength": 0.2,
+    "correctStreak": 0,
+    "mistakeCount": 0,
+    "dueIn": 0,
+    "seenCount": 0,
+    "pronunciation": "تسو‌فُگه"
+  }
+]

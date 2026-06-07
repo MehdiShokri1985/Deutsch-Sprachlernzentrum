@@ -1,0 +1,68 @@
+{
+  "id": "5",
+  "Kasus": "Adjektivdeklination",
+
+  "Nominativ": [
+    { "Maskulin": "gut", "de": "der gute Mann", "fa": "مرد خوب" },
+    { "Feminin": "gut", "de": "die gute Frau", "fa": "زن خوب" },
+    { "Neutral": "gut", "de": "das gute Kind", "fa": "کودک خوب" },
+    { "Plural": "gut", "de": "die guten Kinder", "fa": "کودکان خوب" },
+
+    {
+      "sentences": [
+        { "de": "Der gute Mann arbeitet viel.", "fa": "آن مرد خوب زیاد کار می‌کند." },
+        { "de": "Die gute Frau lernt Deutsch.", "fa": "آن زن خوب آلمانی یاد می‌گیرد." },
+        { "de": "Das gute Kind spielt ruhig.", "fa": "آن کودک خوب آرام بازی می‌کند." },
+        { "de": "Die guten Kinder lachen laut.", "fa": "آن کودکان خوب بلند می‌خندند." }
+      ]
+    }
+  ],
+
+  "Akkusativ": [
+    { "Maskulin": "guten", "de": "den guten Mann", "fa": "مرد خوب را" },
+    { "Feminin": "gute", "de": "die gute Frau", "fa": "زن خوب را" },
+    { "Neutral": "gute", "de": "das gute Kind", "fa": "کودک خوب را" },
+    { "Plural": "guten", "de": "die guten Kinder", "fa": "کودکان خوب را" },
+
+    {
+      "sentences": [
+        { "de": "Ich sehe den guten Mann.", "fa": "من آن مرد خوب را می‌بینم." },
+        { "de": "Er kennt die gute Frau.", "fa": "او آن زن خوب را می‌شناسد." },
+        { "de": "Wir besuchen das gute Kind.", "fa": "ما آن کودک خوب را ملاقات می‌کنیم." },
+        { "de": "Die Lehrerin ruft die guten Kinder.", "fa": "معلم آن کودکان خوب را صدا می‌زند." }
+      ]
+    }
+  ],
+
+  "Dativ": [
+    { "Maskulin": "guten", "de": "dem guten Mann", "fa": "به مرد خوب" },
+    { "Feminin": "guten", "de": "der guten Frau", "fa": "به زن خوب" },
+    { "Neutral": "guten", "de": "dem guten Kind", "fa": "به کودک خوب" },
+    { "Plural": "guten", "de": "den guten Kindern", "fa": "به کودکان خوب" },
+
+    {
+      "sentences": [
+        { "de": "Ich helfe dem guten Mann.", "fa": "من به آن مرد خوب کمک می‌کنم." },
+        { "de": "Das Buch gehört der guten Frau.", "fa": "کتاب متعلق به آن زن خوب است." },
+        { "de": "Wir geben dem guten Kind ein Geschenk.", "fa": "ما به آن کودک خوب هدیه می‌دهیم." },
+        { "de": "Die Lehrerin erzählt den guten Kindern eine Geschichte.", "fa": "معلم برای آن کودکان خوب داستان تعریف می‌کند." }
+      ]
+    }
+  ],
+
+  "Genitiv": [
+    { "Maskulin": "guten", "de": "des guten Mannes", "fa": "مالِ مرد خوب" },
+    { "Feminin": "guten", "de": "der guten Frau", "fa": "مالِ زن خوب" },
+    { "Neutral": "guten", "de": "des guten Kindes", "fa": "مالِ کودک خوب" },
+    { "Plural": "guten", "de": "der guten Kinder", "fa": "مالِ کودکان خوب" },
+
+    {
+      "sentences": [
+        { "de": "Das Auto des guten Mannes ist neu.", "fa": "ماشین آن مرد خوب جدید است." },
+        { "de": "Die Tasche der guten Frau ist schön.", "fa": "کیف آن زن خوب زیبا است." },
+        { "de": "Die Spielsachen des guten Kindes sind bunt.", "fa": "اسباب‌بازی‌های آن کودک خوب رنگارنگ هستند." },
+        { "de": "Die Schule der guten Kinder ist groß.", "fa": "مدرسه آن کودکان خوب بزرگ است." }
+      ]
+    }
+  ]
+}

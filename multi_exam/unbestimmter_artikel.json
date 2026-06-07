@@ -1,0 +1,63 @@
+{
+  "id": "2",
+  "Kasus": "Unbestimmter Artikel",
+  "Nominativ": [
+    { "Maskulin": "ein", "de": "ein Mann", "fa": "یک مرد" },
+    { "Feminin": "eine", "de": "eine Frau", "fa": "یک زن" },
+    { "Neutral": "ein", "de": "ein Kind", "fa": "یک کودک" },
+    { "Plural": "-", "de": "-", "fa": "حالت جمع ندارد" },
+    {
+      "sentences": [
+        { "de": "Ein Mann wartet draußen.", "fa": "یک مرد بیرون منتظر است." },
+        { "de": "Eine Frau lernt Deutsch.", "fa": "یک زن آلمانی یاد می‌گیرد." },
+        { "de": "Ein Kind spielt im Garten.", "fa": "یک کودک در باغ بازی می‌کند." },
+        { "de": "Kinder spielen im Park.", "fa": "کودکان در پارک بازی می‌کنند." }
+      ]
+    }
+  ],
+
+  "Akkusativ": [
+    { "Maskulin": "einen", "de": "einen Mann", "fa": "یک مرد را" },
+    { "Feminin": "eine", "de": "eine Frau", "fa": "یک زن را" },
+    { "Neutral": "ein", "de": "ein Kind", "fa": "یک کودک را" },
+    { "Plural": "-", "de": "-", "fa": "حالت جمع ندارد" },
+    {
+      "sentences": [
+        { "de": "Ich sehe einen Mann.", "fa": "من یک مرد را می‌بینم." },
+        { "de": "Er besucht eine Frau.", "fa": "او یک زن را ملاقات می‌کند." },
+        { "de": "Wir hören ein Kind.", "fa": "ما صدای یک کودک را می‌شنویم." },
+        { "de": "Sie kaufen Bücher.", "fa": "آن‌ها کتاب می‌خرند." }
+      ]
+    }
+  ],
+
+  "Dativ": [
+    { "Maskulin": "einem", "de": "einem Mann", "fa": "به یک مرد" },
+    { "Feminin": "einer", "de": "einer Frau", "fa": "به یک زن" },
+    { "Neutral": "einem", "de": "einem Kind", "fa": "به یک کودک" },
+    { "Plural": "-", "de": "-", "fa": "حالت جمع ندارد" },
+    {
+      "sentences": [
+        { "de": "Ich helfe einem Mann.", "fa": "من به یک مرد کمک می‌کنم." },
+        { "de": "Das Buch gehört einer Frau.", "fa": "کتاب متعلق به یک زن است." },
+        { "de": "Wir geben einem Kind ein Geschenk.", "fa": "ما به یک کودک هدیه می‌دهیم." },
+        { "de": "Er spricht mit Freunden.", "fa": "او با دوستان صحبت می‌کند." }
+      ]
+    }
+  ],
+
+  "Genitiv": [
+    { "Maskulin": "eines", "de": "eines Mannes", "fa": "مالِ یک مرد" },
+    { "Feminin": "einer", "de": "einer Frau", "fa": "مالِ یک زن" },
+    { "Neutral": "eines", "de": "eines Kindes", "fa": "مالِ یک کودک" },
+    { "Plural": "-", "de": "-", "fa": "حالت جمع ندارد" },
+    {
+      "sentences": [
+        { "de": "Das Auto eines Mannes ist teuer.", "fa": "ماشین یک مرد گران است." },
+        { "de": "Die Tasche einer Frau ist schön.", "fa": "کیف یک زن زیبا است." },
+        { "de": "Die Spielsachen eines Kindes liegen hier.", "fa": "اسباب‌بازی‌های یک کودک اینجا هستند." },
+        { "de": "Die Bücher von Kindern sind interessant.", "fa": "کتاب‌های کودکان جالب هستند." }
+      ]
+    }
+  ]
+}
