@@ -1,0 +1,370 @@
+<!doctype html>
+<html lang="de" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="apple-touch-icon" sizes="180x180" href="../assets/icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../assets/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../assets/icons/favicon-16x16.png">
+    <link rel="icon" href="../assets/icons/favicon.ico">
+    <link rel="icon" type="image/svg+xml" href="../assets/icons/favicon.svg">
+    <title>German Stories | German Learning Hub</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      body {
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+      }
+
+      /* Story cards */
+      .story-card {
+        transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+        border: 1.5px solid transparent;
+        text-decoration: none;
+        color: inherit;
+      }
+
+      .story-card:hover {
+        transform: translateY(-6px);
+        box-shadow: 0 24px 48px -16px rgba(79, 70, 229, 0.2);
+        border-color: rgba(99, 102, 241, 0.25);
+      }
+
+      .story-card .card-arrow {
+        transition: transform 0.3s ease, opacity 0.3s ease;
+        opacity: 0;
+        transform: translateX(-8px);
+      }
+
+      .story-card:hover .card-arrow {
+        opacity: 1;
+        transform: translateX(0);
+      }
+
+      .story-card-img {
+        height: 160px;
+        overflow: hidden;
+        position: relative;
+      }
+
+      .story-card-img img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: transform 0.5s ease;
+      }
+
+      .story-card:hover .story-card-img img {
+        transform: scale(1.05);
+      }
+
+      /* Level badges */
+      .level-badge {
+        font-size: 0.65rem;
+        font-weight: 700;
+        letter-spacing: 0.06em;
+        padding: 0.2rem 0.7rem;
+        border-radius: 999px;
+        display: inline-block;
+        text-transform: uppercase;
+        backdrop-filter: blur(4px);
+      }
+
+      .level-A1 { background: #dbeafe; color: #1e40af; }
+      .level-A2 { background: #e0e7ff; color: #3730a3; }
+      .level-B1 { background: #fef3c7; color: #92400e; }
+      .level-B2 { background: #fde68a; color: #78350f; }
+      .level-C1 { background: #fce7f3; color: #9d174d; }
+      .level-C2 { background: #ede9fe; color: #5b21b6; }
+
+      /* Filter buttons */
+      .filter-btn {
+        transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+        cursor: pointer;
+        user-select: none;
+      }
+
+      .filter-btn.active {
+        background: #3730a3;
+        color: white;
+        border-color: #3730a3;
+        box-shadow: 0 2px 8px rgba(55, 48, 163, 0.25);
+      }
+
+      .filter-btn.active:hover {
+        background: #4338ca;
+      }
+
+      /* Hero */
+      .hero-gradient {
+        background: linear-gradient(135deg, #eef2ff 0%, #e0e7ff 50%, #c7d2fe 100%);
+      }
+
+      .hero-stat {
+        text-align: center;
+        padding: 1rem 1.25rem;
+        background: rgba(255,255,255,0.55);
+        backdrop-filter: blur(8px);
+        border-radius: 1rem;
+        border: 1px solid rgba(255,255,255,0.7);
+        transition: all 0.3s ease;
+      }
+
+      .hero-stat:hover {
+        background: rgba(255,255,255,0.75);
+        transform: translateY(-2px);
+        box-shadow: 0 8px 24px rgba(79, 70, 229, 0.08);
+      }
+
+      .filter-label {
+        font-size: 0.625rem;
+        font-weight: 700;
+        letter-spacing: 0.1em;
+        color: #9ca3af;
+        text-transform: uppercase;
+        user-select: none;
+      }
+
+      @keyframes cardIn {
+        from { opacity: 0; transform: translateY(30px) scale(0.97); }
+        to { opacity: 1; transform: translateY(0) scale(1); }
+      }
+
+      .story-card {
+        animation: cardIn 0.5s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+      }
+
+      /* Category tag */
+      .category-tag {
+        font-size: 0.68rem;
+        padding: 0.15rem 0.65rem;
+        border-radius: 999px;
+        background: rgba(255,255,255,0.85);
+        color: #6b7280;
+        font-weight: 500;
+        letter-spacing: 0.02em;
+        backdrop-filter: blur(4px);
+      }
+
+      /* Loading skeleton */
+      .skeleton {
+        background: linear-gradient(90deg, #e5e7eb 25%, #f3f4f6 50%, #e5e7eb 75%);
+        background-size: 200% 100%;
+        animation: shimmer 1.5s infinite;
+        border-radius: 0.75rem;
+      }
+
+      @keyframes shimmer {
+        0% { background-position: 200% 0; }
+        100% { background-position: -200% 0; }
+      }
+
+      .story-count {
+        font-size: 0.85rem;
+        color: #9ca3af;
+      }
+
+      @media (max-width: 640px) {
+        .filter-scroll {
+          overflow-x: auto;
+          -webkit-overflow-scrolling: touch;
+          scrollbar-width: none;
+        }
+
+        .filter-scroll::-webkit-scrollbar {
+          display: none;
+        }
+
+        .hero-stat {
+          padding: 0.75rem 1rem;
+        }
+
+        .story-card-img {
+          height: 130px;
+        }
+      }
+    </style>
+  </head>
+  <body class="bg-gradient-to-br from-blue-50 to-indigo-100 min-h-screen font-sans overflow-x-hidden">
+    <!-- Header -->
+    <header class="bg-white shadow-sm border-b border-indigo-50">
+      <div class="container mx-auto px-4 py-3">
+        <div class="flex justify-between items-center">
+          <a href="../index.html" class="flex items-center gap-2 text-lg sm:text-xl font-bold text-indigo-800 hover:text-indigo-600 transition-colors">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2">
+              <path d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+            </svg>
+            German Stories
+          </a>
+          <a href="../index.html" class="text-sm font-medium text-gray-400 hover:text-indigo-600 transition-colors flex items-center gap-1">
+            <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2"><path d="M15 19l-7-7 7-7"/></svg>
+            Zurück
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero-gradient relative overflow-hidden" id="heroSection">
+      <div class="absolute inset-0 opacity-30">
+        <div class="absolute -top-24 -right-24 w-96 h-96 bg-indigo-300 rounded-full blur-3xl"></div>
+        <div class="absolute -bottom-24 -left-24 w-80 h-80 bg-purple-300 rounded-full blur-3xl"></div>
+      </div>
+      <div class="container mx-auto px-4 py-8   relative z-10">
+        <div class="text-center max-w-3xl mx-auto">
+
+          <h1 class="text-4xl sm:text-5xl md:text-6xl font-bold text-indigo-900 mb-5 leading-tight tracking-tight">
+             Lerne Deutsch mit Geschichten
+          </h1>
+
+          <div class="flex flex-wrap justify-center gap-3 sm:gap-4 mt-8 sm:mt-10" id="heroStats"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Main Content -->
+    <main class="container mx-auto px-4 pb-20 -mt-6 relative z-20">
+      <div class="max-w-5xl mx-auto">
+        <!-- Inline Filter Bar -->
+        <div id="filterSection" class="flex flex-col sm:flex-row sm:items-center gap-2 sm:gap-4 mb-5 py-1">
+          <div class="flex items-center gap-1.5">
+            <span class="filter-label">Niveau</span>
+            <div class="filter-scroll flex flex-nowrap sm:flex-wrap gap-1" id="levelFilters"></div>
+          </div>
+ 
+        </div>
+
+        <!-- Loading State -->
+        <div id="loadingState">
+          <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 sm:gap-6">
+            <div class="skeleton h-72"></div>
+            <div class="skeleton h-72"></div>
+            <div class="skeleton h-72"></div>
+          </div>
+        </div>
+
+        <!-- Story Cards Grid -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 sm:gap-6" id="storyGrid"></div>
+        <div id="noResults" class="hidden text-center py-20">
+          <div class="text-5xl mb-4 opacity-30">📖</div>
+          <p class="text-gray-400 text-lg font-medium">Keine Geschichten gefunden</p>
+          <p class="text-gray-300 text-sm mt-1">Versuche einen anderen Filter</p>
+        </div>
+      </div>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="container mx-auto px-4 py-8 border-t border-indigo-100">
+      <div class="text-center text-gray-500 text-sm">
+        <p>&copy; 2026 German Learning Hub. Improve your German skills step by step.</p>
+      </div>
+    </footer>
+
+    <script>
+      let stories = [];
+      let currentLevel = "all";
+      let currentCategory = "all";
+
+      // Load stories
+      async function loadStories() {
+        try {
+          const res = await fetch('stories.json');
+          if (!res.ok) throw new Error('Failed to load');
+          stories = await res.json();
+          init();
+        } catch (e) {
+          document.getElementById('loadingState').innerHTML = `
+            <div class="text-center py-20">
+              <p class="text-gray-400 text-lg">Fehler beim Laden der Geschichten</p>
+            </div>`;
+        }
+      }
+
+      function init() {
+        document.getElementById('loadingState').classList.add('hidden');
+
+        // Build hero stats
+        const levels = [...new Set(stories.map(s => s.level).filter(Boolean))];
+        const cats = [...new Set(stories.map(s => s.category).filter(Boolean))];
+
+
+        // Build level filters
+        const levelContainer = document.getElementById('levelFilters');
+        levelContainer.innerHTML = `
+          <button class="filter-btn active px-3.5 py-1.5 rounded-full text-xs sm:text-sm font-semibold border-2 border-indigo-200 bg-indigo-100 text-indigo-800 whitespace-nowrap" data-level="all">Alle</button>
+          ${levels.map(l => `
+            <button class="filter-btn px-3.5 py-1.5 rounded-full text-xs sm:text-sm font-semibold border-2 border-gray-200 bg-white text-gray-600 hover:bg-gray-50 whitespace-nowrap" data-level="${l}">${l}</button>
+          `).join('')}
+        `;
+
+     
+
+        setupFilters();
+        renderCards();
+      }
+
+      function setupFilters() {
+        document.querySelectorAll("#levelFilters .filter-btn").forEach(btn => {
+          btn.addEventListener("click", () => {
+            document.querySelectorAll("#levelFilters .filter-btn").forEach(b => {
+              b.classList.remove("active", "bg-indigo-100", "text-indigo-800", "border-indigo-200");
+              b.classList.add("bg-white", "text-gray-600", "border-gray-200");
+            });
+            btn.classList.add("active", "bg-indigo-100", "text-indigo-800", "border-indigo-200");
+            btn.classList.remove("bg-white", "text-gray-600", "border-gray-200");
+            currentLevel = btn.dataset.level;
+            renderCards();
+          });
+        });
+
+      }
+
+      function renderCards() {
+        const grid = document.getElementById("storyGrid");
+        const filtered = stories.filter(s => {
+          const levelMatch = currentLevel === "all" || s.level === currentLevel;
+          const catMatch = currentCategory === "all" || s.category === currentCategory;
+          return levelMatch && catMatch;
+        });
+
+
+        if (filtered.length === 0) {
+          grid.classList.add("hidden");
+          document.getElementById("noResults").classList.remove("hidden");
+          return;
+        }
+
+        grid.classList.remove("hidden");
+        document.getElementById("noResults").classList.add("hidden");
+
+        grid.innerHTML = filtered.map(s => {
+          return `
+          <a href="story-detail.html?id=${s.id}" class="story-card bg-white rounded-2xl shadow-lg flex flex-col cursor-pointer overflow-hidden group" style="animation-delay: ${Math.random() * 0.2}s">
+            <div class="story-card-img bg-gradient-to-br from-indigo-200 to-purple-200">
+              <img src="image/${s.id}.jpg" alt="${s.title}" onerror="this.parentElement.classList.add('no-image');this.remove()" loading="lazy" />
+            </div>
+            <div class="p-4 sm:p-5 flex flex-col flex-1">
+              <div class="flex items-start justify-between gap-2 mb-2.5">
+                <div class="flex flex-wrap gap-1.5">
+                  ${s.level ? `<span class="level-badge level-${s.level}">${s.level}</span>` : ''}
+                  ${s.category ? `<span class="category-tag">${s.category}</span>` : ''}
+                </div>
+                ${s.readingTime ? `<span class="text-xs text-gray-400 whitespace-nowrap bg-gray-50 px-2 py-0.5 rounded-full self-start">${s.readingTime}</span>` : ''}
+              </div>
+              <h3 class="text-base sm:text-lg font-bold text-indigo-800 mb-1.5 group-hover:text-indigo-600 transition-colors leading-snug">${s.title}</h3>
+              ${s.about_story ? `<p class="text-sm text-gray-500 flex-1 mb-3 leading-relaxed line-clamp-3">${s.about_story}</p>` : ''}
+              <div class="flex items-center justify-between mt-auto pt-2 border-t border-gray-50">
+                <span class="text-indigo-600 text-sm font-semibold transition-all duration-300 flex items-center gap-1 group-hover:gap-2">
+                  Lesen
+                  <span class="card-arrow inline-block">→</span>
+                </span>
+              </div>
+            </div>
+          </a>`;
+        }).join("");
+      }
+
+      loadStories();
+    </script>
+  </body>
+</html>

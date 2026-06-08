@@ -1,0 +1,566 @@
+<!doctype html>
+<html lang="de" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="apple-touch-icon" sizes="180x180" href="../assets/icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../assets/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../assets/icons/favicon-16x16.png">
+    <link rel="icon" href="../assets/icons/favicon.ico">
+    <link rel="icon" type="image/svg+xml" href="../assets/icons/favicon.svg">
+    <title>Story lesen | German Learning Hub</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      body {
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+      }
+
+      /* Level badges */
+      .level-badge {
+        font-size: 0.65rem;
+        font-weight: 700;
+        letter-spacing: 0.06em;
+        padding: 0.2rem 0.7rem;
+        border-radius: 999px;
+        display: inline-block;
+        text-transform: uppercase;
+        backdrop-filter: blur(4px);
+      }
+
+      .level-A1 { background: #dbeafe; color: #1e40af; }
+      .level-A2 { background: #e0e7ff; color: #3730a3; }
+      .level-B1 { background: #fef3c7; color: #92400e; }
+      .level-B2 { background: #fde68a; color: #78350f; }
+      .level-C1 { background: #fce7f3; color: #9d174d; }
+      .level-C2 { background: #ede9fe; color: #5b21b6; }
+
+      /* Category tag */
+      .category-tag {
+        font-size: 0.68rem;
+        padding: 0.15rem 0.65rem;
+        border-radius: 999px;
+        background: rgba(255,255,255,0.85);
+        color: #6b7280;
+        font-weight: 500;
+        letter-spacing: 0.02em;
+        backdrop-filter: blur(4px);
+      }
+
+      /* Story content */
+      .story-content p {
+        margin-bottom: 1.25rem;
+        line-height: 1.85;
+        font-size: 1.1rem;
+        color: #1e293b;
+      }
+
+      .story-content p:last-child {
+        margin-bottom: 0;
+      }
+
+      /* Audio player seek bar */
+      #seekBar {
+        -webkit-appearance: none;
+        appearance: none;
+        height: 4px;
+        border-radius: 2px;
+        background: #c7d2fe;
+        outline: none;
+        cursor: pointer;
+      }
+
+      #seekBar::-webkit-slider-thumb {
+        -webkit-appearance: none;
+        appearance: none;
+        width: 14px;
+        height: 14px;
+        border-radius: 50%;
+        background: #3730a3;
+        cursor: pointer;
+        box-shadow: 0 1px 4px rgba(55, 48, 163, 0.3);
+      }
+
+      #seekBar::-moz-range-thumb {
+        width: 14px;
+        height: 14px;
+        border-radius: 50%;
+        background: #3730a3;
+        cursor: pointer;
+        border: none;
+      }
+
+      /* Speed slider */
+      #speedSlider {
+        -webkit-appearance: none;
+        appearance: none;
+        width: 60px;
+        height: 3px;
+        border-radius: 2px;
+        background: #c7d2fe;
+        outline: none;
+        cursor: pointer;
+        vertical-align: middle;
+      }
+      #speedSlider::-webkit-slider-thumb {
+        -webkit-appearance: none;
+        appearance: none;
+        width: 12px;
+        height: 12px;
+        border-radius: 50%;
+        background: #3730a3;
+        cursor: pointer;
+        box-shadow: 0 1px 4px rgba(55, 48, 163, 0.3);
+      }
+      #speedSlider::-moz-range-thumb {
+        width: 12px;
+        height: 12px;
+        border-radius: 50%;
+        background: #3730a3;
+        cursor: pointer;
+        border: none;
+      }
+
+      /* Translate tooltip */
+      .translate-tooltip {
+          position: fixed;
+    z-index: 50;
+    display: none;
+    background: #3730a3e3;
+    color: white;
+    border: none;
+    border-radius: 999px;
+    padding: 0.4rem 1.1rem;
+    font-size: 0.8rem;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 0 4px 16px rgba(55, 48, 163, 0.3);
+    transition: all 0.2s ease;
+    pointer-events: auto;
+    white-space: nowrap;
+
+      }
+
+      .translate-tooltip:hover {
+        background: #4338ca;
+        box-shadow: 0 6px 24px rgba(55, 48, 163, 0.4);
+        transform: translateY(-1px);
+      }
+
+      .translate-tooltip.show {
+        display: flex;
+        align-items: center;
+        gap: 0.4rem;
+        animation: tooltipIn 0.2s ease;
+      }
+
+      @keyframes tooltipIn {
+        from { opacity: 0; transform: scale(0.9) translateY(4px); }
+        to { opacity: 1; transform: scale(1) translateY(0); }
+      }
+
+      /* Audio player sticky bottom */
+      #audioPlayer {
+        position: sticky;
+        bottom: 0;
+        z-index: 5;
+      }
+
+      /* Selection highlight */
+      .selection-highlight {
+        background-color: #fef08a;
+        border-radius: 2px;
+        transition: background-color 0.2s ease;
+      }
+
+      /* Back button */
+      .back-btn {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.4rem;
+        color: #6b7280;
+        font-weight: 500;
+        transition: all 0.2s;
+        padding: 0.4rem 0.8rem;
+        border-radius: 0.75rem;
+        background: white;
+        box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+        text-decoration: none;
+      }
+
+      .back-btn:hover {
+        color: #3730a3;
+        box-shadow: 0 2px 8px rgba(55, 48, 163, 0.12);
+      }
+
+      /* Loading / Error */
+      .loader {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 50vh;
+      }
+
+      .loader span {
+        width: 40px;
+        height: 40px;
+        border: 4px solid #e5e7eb;
+        border-top-color: #3730a3;
+        border-radius: 50%;
+        animation: spin 0.8s linear infinite;
+      }
+
+      @keyframes spin {
+        to { transform: rotate(360deg); }
+      }
+
+      .error-state {
+        text-align: center;
+        padding: 4rem 1rem;
+        color: #9ca3af;
+        font-size: 1.1rem;
+      }
+
+      @media (max-width: 640px) {
+        .story-content p {
+          font-size: 1rem;
+          line-height: 1.7;
+        }
+
+        .translate-tooltip {
+          font-size: 0.75rem;
+          padding: 0.4rem 1rem;
+        }
+      }
+    </style>
+  </head>
+  <body class="bg-gradient-to-br from-blue-50 to-indigo-100 min-h-screen font-sans overflow-x-hidden">
+    <!-- Header -->
+    <header class="bg-white shadow-sm border-b border-indigo-50">
+      <div class="container mx-auto px-4 py-3">
+        <div class="flex justify-between items-center">
+          <a href="stories.html" class="back-btn text-sm">
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2"><path d="M15 19l-7-7 7-7"/></svg>
+            Zurück zur Übersicht
+          </a>
+          <a href="../index.html" class="text-sm font-medium text-gray-400 hover:text-indigo-600 transition-colors flex items-center gap-1">
+            <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2"><path d="M15 19l-7-7 7-7"/></svg>
+            Home
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <!-- Content -->
+    <main class="container mx-auto px-4 pb-20 mt-6">
+      <div class="max-w-3xl mx-auto" id="contentArea"></div>
+    </main>
+
+    <!-- Translate Tooltip -->
+    <button id="translateTooltip" class="translate-tooltip" onclick="translateSelection()">
+      <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2">
+        <path d="M3 5h12M9 3v2m0 4a7 7 0 016.5 4M21 21l-5-5m0 0L11 11m5 5H8" />
+      </svg>
+      Übersetzen
+    </button>
+
+    <!-- Footer -->
+    <footer class="container mx-auto px-4 py-8 border-t border-indigo-100">
+      <div class="text-center text-gray-500 text-sm">
+        <p>&copy; 2026 German Learning Hub. Improve your German skills step by step.</p>
+      </div>
+    </footer>
+
+    <script>
+      function getQueryParam(name) {
+        return new URLSearchParams(window.location.search).get(name);
+      }
+
+      let currentAudio = null;
+      var usedTranslations = {};
+      var lastRange = null;
+      var _touchActive = false;
+
+      document.addEventListener('touchstart', function() { _touchActive = true; }, { passive: true });
+      document.addEventListener('touchcancel', function() { _touchActive = false; clearTimeout(window._touchTimer); }, { passive: true });
+      window.addEventListener('resize', function() { document.getElementById('translateTooltip').classList.remove('show'); });
+
+      async function init() {
+        const container = document.getElementById('contentArea');
+        const id = getQueryParam('id');
+
+        if (!id) {
+          container.innerHTML = '<div class="error-state"><strong>Keine Geschichte ausgewählt.</strong><br><a href="stories.html" class="back-btn mt-4 inline-flex">Zurück zur Übersicht</a></div>';
+          return;
+        }
+
+        container.innerHTML = '<div class="loader"><span></span></div>';
+
+        try {
+          const res = await fetch('stories.json');
+          if (!res.ok) throw new Error('Fehler beim Laden');
+          const stories = await res.json();
+          const story = stories.find(s => String(s.id) === id);
+
+          if (!story) {
+            container.innerHTML = `<div class="error-state"><strong>Geschichte nicht gefunden.</strong><br><a href="stories.html" class="back-btn mt-4 inline-flex">Zurück zur Übersicht</a></div>`;
+            return;
+          }
+
+          renderStory(container, story);
+        } catch (err) {
+          container.innerHTML = `<div class="error-state"><strong>Fehler beim Laden der Geschichte.</strong><br>${err.message}<br><a href="stories.html" class="back-btn mt-4 inline-flex">Zurück zur Übersicht</a></div>`;
+        }
+      }
+
+      function renderStory(container, story) {
+        container.innerHTML = `
+          <!-- Story Content with integrated audio -->
+          <div class="bg-white rounded-2xl shadow-xl border border-indigo-50">
+            <div class="p-6 sm:p-8 md:p-10" style="padding-bottom: 1rem;">
+              <div class="flex flex-wrap items-center gap-3 mb-4">
+                ${story.level ? `<span class="level-badge level-${story.level}">${story.level}</span>` : ''}
+                ${story.category ? `<span class="category-tag">${story.category}</span>` : ''}
+                ${story.readingTime ? `<span class="text-xs text-gray-400 bg-gray-50 px-2 py-0.5 rounded-full">${story.readingTime} Lesezeit</span>` : ''}
+              </div>
+              <h2 class="text-2xl sm:text-3xl md:text-4xl font-bold text-indigo-900 mb-6 leading-tight">${story.title}</h2>
+
+              <div class="story-content" id="storyContent"><p>${story.content}</p></div>
+
+              <!-- Audio Player (hidden until audio loads) -->
+              <div id="audioPlayer" style="padding-bottom: 10px;margin-top: 10px;" class="hidden border-t border-indigo-100 pt-4 bg-white">
+                <div class="flex items-center gap-3">
+                  <button id="playBtn" onclick="togglePlay()" class="w-9 h-9 rounded-full bg-indigo-700 text-white flex items-center justify-center hover:bg-indigo-800 active:scale-95 transition-all shrink-0 shadow-sm" aria-label="Play">
+                    <svg id="playIcon" class="w-4 h-4 ml-0.5" fill="currentColor" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+                  </button>
+                  <div class="flex-1 min-w-0">
+                    <input type="range" id="seekBar" value="0" max="100" oninput="seekAudio(this)" class="w-full" />
+                  </div>
+                  <span class="text-xs font-medium text-gray-400 tabular-nums w-10 text-right" id="currentTime">0:00</span>
+                  <span class="text-xs font-medium text-gray-300 w-10" id="duration">0:00</span>
+                  <div class="speed-control flex items-center gap-1 shrink-0 ml-1">
+                    <input type="range" id="speedSlider" min="-1" max="2" step="0.05" value="1" oninput="setPlaybackRate(this.value)" />
+                    <span class="text-xs font-medium text-gray-400 tabular-nums w-6 text-center" id="speedLabel">1.0</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        `;
+
+        // Audio setup after DOM is ready
+        setupAudio(story.id);
+      }
+
+      // Audio
+      function setupAudio(id) {
+        const audioEl = document.getElementById('audioPlayer');
+        if (!audioEl) return;
+        const audioSrc = 'sound/' + id + '.mp3';
+
+        fetch(audioSrc, { method: 'HEAD' })
+          .then(res => {
+            if (res.ok) {
+              audioEl.classList.remove('hidden');
+              if (currentAudio) {
+                currentAudio.pause();
+                currentAudio.currentTime = 0;
+              }
+              currentAudio = new Audio(audioSrc);
+              currentAudio.playbackRate = parseFloat(document.getElementById('speedSlider').value);
+              currentAudio.addEventListener('loadedmetadata', () => {
+                document.getElementById('duration').textContent = formatTime(currentAudio.duration);
+                document.getElementById('seekBar').max = currentAudio.duration || 100;
+              });
+              currentAudio.addEventListener('timeupdate', () => {
+                document.getElementById('currentTime').textContent = formatTime(currentAudio.currentTime);
+                if (currentAudio.duration) {
+                  document.getElementById('seekBar').value = currentAudio.currentTime;
+                  document.getElementById('seekBar').max = currentAudio.duration;
+                }
+              });
+              currentAudio.addEventListener('ended', () => {
+                document.getElementById('playIcon').outerHTML = '<svg id="playIcon" class="w-5 h-5 sm:w-6 sm:h-6 ml-0.5" fill="currentColor" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>';
+              });
+              document.getElementById('seekBar').value = 0;
+              document.getElementById('currentTime').textContent = '0:00';
+              document.getElementById('duration').textContent = '0:00';
+              document.getElementById('playIcon').outerHTML = '<svg id="playIcon" class="w-5 h-5 sm:w-6 sm:h-6 ml-0.5" fill="currentColor" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>';
+            }
+          })
+          .catch(() => {
+            audioEl.classList.add('hidden');
+          });
+      }
+
+      function togglePlay() {
+        if (!currentAudio) return;
+        if (currentAudio.paused) {
+          currentAudio.play();
+          document.getElementById('playIcon').outerHTML = '<svg id="playIcon" class="w-5 h-5 sm:w-6 sm:h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M6 4h4v16H6V4zm8 0h4v16h-4V4z"/></svg>';
+        } else {
+          currentAudio.pause();
+          document.getElementById('playIcon').outerHTML = '<svg id="playIcon" class="w-5 h-5 sm:w-6 sm:h-6 ml-0.5" fill="currentColor" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>';
+        }
+      }
+
+      function seekAudio(el) {
+        if (currentAudio && currentAudio.duration) {
+          currentAudio.currentTime = parseFloat(el.value);
+        }
+      }
+
+      function formatTime(seconds) {
+        if (!seconds || isNaN(seconds)) return '0:00';
+        const m = Math.floor(seconds / 60);
+        const s = Math.floor(seconds % 60);
+        return m + ':' + s.toString().padStart(2, '0');
+      }
+
+      function setPlaybackRate(rate) {
+        var r = parseFloat(rate);
+        if (currentAudio) {
+          currentAudio.playbackRate = r;
+        }
+        document.getElementById('speedLabel').textContent = r.toFixed(2);
+      }
+
+      function stopAudio() {
+        if (!currentAudio) return;
+        currentAudio.pause();
+        var playIcon = document.getElementById('playIcon');
+        if (playIcon) {
+          playIcon.outerHTML = '<svg id="playIcon" class="w-4 h-4 ml-0.5" fill="currentColor" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>';
+        }
+      }
+
+      function highlightRange(range, text) {
+        if (range.startContainer.parentNode && range.startContainer.parentNode.classList.contains('selection-highlight')) return;
+        if (usedTranslations[text]) return;
+        var span = document.createElement('span');
+        span.className = 'selection-highlight';
+        try { range.surroundContents(span); } catch(e) {}
+      }
+
+      // Google Translate selection tooltip
+      document.addEventListener('mouseup', function(e) {
+        if (_touchActive) { _touchActive = false; return; }
+        var tooltip = document.getElementById('translateTooltip');
+        var contentEl = document.getElementById('storyContent');
+
+        if (tooltip.contains(e.target)) return;
+
+        var selection = window.getSelection();
+        var text = selection ? selection.toString().trim() : '';
+
+          if (text && text.length > 0 && text.length < 500) {
+            var range = selection.getRangeAt(0);
+            if (contentEl && contentEl.contains(range.commonAncestorContainer)) {
+              stopAudio();
+              lastRange = range;
+              var rect = range.getBoundingClientRect();
+              var top = rect.bottom + 8;
+              var left = rect.left + (rect.width / 2);
+
+              var tw = tooltip.offsetWidth;
+              var th = tooltip.offsetHeight;
+              if (top + th > window.innerHeight - 16) {
+                top = Math.max(8, rect.top - th - 8);
+              }
+              if (top < 8) top = 8;
+              var minLeft = Math.ceil(tw / 2);
+              var maxLeft = window.innerWidth - Math.ceil(tw / 2);
+              if (left < minLeft) left = minLeft;
+              if (left > maxLeft) left = maxLeft;
+
+              tooltip.style.top = top + 'px';
+              tooltip.style.left = left + 'px';
+              tooltip.style.transform = 'translateX(-50%)';
+              tooltip.dataset.text = text;
+              tooltip.classList.add('show');
+              window.getSelection().removeAllRanges();
+              return;
+            }
+          }
+
+          tooltip.classList.remove('show');
+        });
+
+        document.addEventListener('touchend', function(e) {
+          var tooltip = document.getElementById('translateTooltip');
+          if (tooltip.contains(e.target)) return;
+          clearTimeout(window._touchTimer);
+          window._touchTimer = setTimeout(function() {
+            _touchActive = false;
+            var contentEl = document.getElementById('storyContent');
+            var selection = window.getSelection();
+            var text = selection ? selection.toString().trim() : '';
+
+            if (text && text.length > 0 && text.length < 500) {
+              var range = selection.getRangeAt(0);
+              if (contentEl && contentEl.contains(range.commonAncestorContainer)) {
+                stopAudio();
+                lastRange = range;
+                var rect = range.getBoundingClientRect();
+                var top = rect.bottom + 8;
+                var left = rect.left + (rect.width / 2);
+
+                var tw = tooltip.offsetWidth;
+                var th = tooltip.offsetHeight;
+                if (top + th > window.innerHeight - 16) {
+                  top = Math.max(8, rect.top - th - 8);
+                }
+                if (top < 8) top = 8;
+                var minLeft = Math.ceil(tw / 2);
+                var maxLeft = window.innerWidth - Math.ceil(tw / 2);
+                if (left < minLeft) left = minLeft;
+                if (left > maxLeft) left = maxLeft;
+
+                tooltip.style.top = top + 'px';
+                tooltip.style.left = left + 'px';
+                tooltip.style.transform = 'translateX(-50%)';
+                tooltip.dataset.text = text;
+                tooltip.classList.add('show');
+                window.getSelection().removeAllRanges();
+                return;
+              }
+            }
+
+            tooltip.classList.remove('show');
+          }, 300);
+        });
+
+      // Hide translate tooltip on scroll
+      var scrollTimer;
+      window.addEventListener('scroll', function() {
+        clearTimeout(scrollTimer);
+        scrollTimer = setTimeout(function() {
+          document.getElementById('translateTooltip').classList.remove('show');
+        }, 150);
+      }, true);
+
+      function translateSelection() {
+        var tooltip = document.getElementById('translateTooltip');
+        var text = tooltip.dataset.text;
+        if (text) {
+          if (lastRange) {
+            highlightRange(lastRange, text);
+            lastRange = null;
+          }
+          usedTranslations[text] = true;
+          var highlights = document.querySelectorAll('.selection-highlight');
+          for (var i = 0; i < highlights.length; i++) {
+            if (highlights[i].textContent === text) {
+              highlights[i].classList.add('used-for-translation');
+            }
+          }
+          var url = 'https://translate.google.com/?sl=de&tl=fa&text=' + encodeURIComponent(text) + '&op=translate';
+          window.open(url, '_blank');
+        }
+        tooltip.classList.remove('show');
+        window.getSelection().removeAllRanges();
+      }
+
+      init();
+    </script>
+  </body>
+</html>
