@@ -129,8 +129,8 @@
         background: #3730a3e3;
         color: white;
         border: none;
-        border-radius: 999px;
-        padding: 0.4rem 1.1rem;
+        border-radius: 10px;
+        padding: 0.2rem 0.5rem;
         font-size: 0.8rem;
         font-weight: 600;
         cursor: pointer;
@@ -245,8 +245,8 @@
 
       @media (max-width: 640px) {
         #audioPlayer {
-          border-radius: 10px;
-          padding: 8px 12px;
+          /* border-radius: 10px; */
+         padding: 12px 0px 12px 0px;
           margin-top: 10px;
         }
       }
@@ -379,7 +379,7 @@
       >
         <path d="M3 5h12M9 3v2m0 4a7 7 0 016.5 4M21 21l-5-5m0 0L11 11m5 5H8" />
       </svg>
-      Übersetzen
+      GT
     </button>
 
     <!-- Footer -->
@@ -658,7 +658,7 @@
             if (left > maxLeft) left = maxLeft;
 
             tooltip.style.top = (top-36) + "px";
-            tooltip.style.left = (left+109)+ "px";
+            tooltip.style.left = (left+99)+ "px";
             tooltip.style.transform = "translateX(-50%)";
             tooltip.dataset.text = text;
             tooltip.classList.add("show");
@@ -703,7 +703,7 @@
               if (left > maxLeft) left = maxLeft;
 
               tooltip.style.top = (top-36) + "px";
-              tooltip.style.left = (left+109) + "px";
+              tooltip.style.left = (left+99) + "px";
               tooltip.style.transform = "translateX(-50%)";
               tooltip.dataset.text = text;
               tooltip.classList.add("show");
