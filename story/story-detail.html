@@ -163,21 +163,19 @@
           transform: scale(1) translateY(0);
         }
       }
-
+/* 165  -  1155 */
       /* Audio player sticky bottom */
       #audioPlayer {
-          position: sticky;
-    bottom: 0;
-    z-index: 5;
-    background: rgb(249, 250, 255);
-   
-  
-    /* border-radius: 8px; */
-
-    border: 1px solid rgba(255, 255, 255, 0.8);
-    padding: 10px 16px;
-    margin-top: 12px;
-    transition: box-shadow 0.3s ease,
+        position: sticky;
+        bottom: 0;
+        z-index: 5;
+        background: rgb(255 255 255);
+        /* border-radius: 8px; */
+         border-top: 1px solid rgb(228 229 255 / 80%);
+        padding: 12px 0px 12px 0px;
+        margin-top: 12px;
+        transition:
+          box-shadow 0.3s ease,
           background 0.3s ease;
       }
 
@@ -659,8 +657,8 @@
             if (left < minLeft) left = minLeft;
             if (left > maxLeft) left = maxLeft;
 
-            tooltip.style.top = top + "px";
-            tooltip.style.left = left + "px";
+            tooltip.style.top = (top-36) + "px";
+            tooltip.style.left = (left+109)+ "px";
             tooltip.style.transform = "translateX(-50%)";
             tooltip.dataset.text = text;
             tooltip.classList.add("show");
@@ -704,8 +702,8 @@
               if (left < minLeft) left = minLeft;
               if (left > maxLeft) left = maxLeft;
 
-              tooltip.style.top = top + "px";
-              tooltip.style.left = left + "px";
+              tooltip.style.top = (top-36) + "px";
+              tooltip.style.left = (left+109) + "px";
               tooltip.style.transform = "translateX(-50%)";
               tooltip.dataset.text = text;
               tooltip.classList.add("show");
