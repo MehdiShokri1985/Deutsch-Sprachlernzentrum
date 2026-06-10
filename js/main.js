@@ -1,16 +1,11 @@
-/**
- * نقطه ورود برنامه - نسخه یکپارچه
- */
-
 import { AdaptiveLearningGame } from "./core/AdaptiveLearningGame.js";
 import { applyModuleTheme } from "./theme/applyModuleTheme.js";
+import * as data from "./data.js";
 
 let game;
 
-document.addEventListener("DOMContentLoaded", () => {
-  // خواندن پارامترها از URL
+document.addEventListener("DOMContentLoaded", async () => {
   const params = new URLSearchParams(window.location.search);
-  
   const dataset = params.get("dataset");
   const jsonPath = params.get("json");
 
@@ -27,12 +22,16 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   try {
+    const { data: { user }, error: userError } = await window.Auth.getUser();
+    if (user && !userError) {
+      await data.init(user.id);
+    }
+
     applyModuleTheme(dataset);
     game = new AdaptiveLearningGame(dataset, jsonPath);
-    
-    window.game = game;        // برای دسترسی از HTML
 
-    // بروزرسانی عنوان صفحه و هدر
+    window.game = game;
+
     const titles = {
       adjektive: "German Adjectives",
       konnektoren: "German Konnektoren",
@@ -50,8 +49,7 @@ document.addEventListener("DOMContentLoaded", () => {
     document.getElementById("pageTitle").textContent = titles[dataset] || "German Learning";
     document.getElementById("headerTitle").textContent = titles[dataset] || "German Learning";
 
-    console.log(`🎮 Game started: ${dataset}`);
-    
+    console.log(`Game started: ${dataset}`);
   } catch (error) {
     console.error("Failed to start game:", error);
   }

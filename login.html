@@ -1,0 +1,313 @@
+<!doctype html>
+<html lang="de" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/icons/favicon-16x16.png">
+    <link rel="icon" href="assets/icons/favicon.ico">
+    <link rel="icon" type="image/svg+xml" href="assets/icons/favicon.svg">
+    <title>Login — German Learning Hub</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
+    <script src="js/auth.js"></script>
+    <style>
+      body {
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+      }
+      @keyframes fadeIn {
+        from { opacity: 0; transform: translateY(12px); }
+        to   { opacity: 1; transform: translateY(0); }
+      }
+      .fade-in {
+        animation: fadeIn 0.5s ease-out;
+      }
+      .fade-in-delay {
+        animation: fadeIn 0.5s ease-out 0.15s both;
+      }
+    </style>
+    <script>
+      (function(){
+        var U='https://sesltisebtcijdsdeckr.supabase.co',K='sb_publishable_RPND2s4rdjF8ORhD-7bDiA_wkpSscWm';
+        try {
+          var c=(window.Auth&&window.Auth.client)||supabase.createClient(U,K);
+          c.auth.getSession().then(function(r){if(r.data&&r.data.session){window.location.replace('index.html')}});
+        } catch(e) {}
+      })();
+    </script>
+  </head>
+  <body class="bg-gradient-to-br from-blue-50 to-indigo-100 min-h-screen font-sans overflow-x-hidden flex items-center justify-center">
+
+    <div class="w-full px-4 py-12">
+      <div class="max-w-md mx-auto">
+
+        <!-- Logo / Brand -->
+        <div class="text-center mb-8 fade-in">
+          <a href="index.html" class="inline-block">
+            <h1 class="text-3xl sm:text-4xl font-bold text-indigo-800">
+              German Learning Hub
+            </h1>
+          </a>
+          <p class="text-base sm:text-lg text-gray-600 mt-2" id="form-title">
+            Melde dich an, um fortzufahren
+          </p>
+        </div>
+
+        <!-- Login / Sign Up Card -->
+        <div class="bg-white rounded-2xl shadow-xl p-8 sm:p-10 fade-in-delay">
+          <form id="auth-form" novalidate>
+            <!-- Name field (sign up only) -->
+            <div class="mb-5" id="name-field" style="display:none">
+              <label for="name" class="block text-sm font-medium text-gray-700 mb-1.5">Name</label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Dein Name"
+                autocomplete="name"
+                class="w-full px-4 py-3 rounded-xl border-2 border-gray-200 bg-white text-gray-800 placeholder-gray-400 transition-all duration-300 focus:border-indigo-400 focus:ring-4 focus:ring-indigo-100 focus:outline-none"
+              />
+              <p class="text-sm text-red-500 mt-1 hidden" id="name-error"></p>
+            </div>
+
+            <!-- Email -->
+            <div class="mb-5">
+              <label for="email" class="block text-sm font-medium text-gray-700 mb-1.5">E-Mail</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="beispiel@email.de"
+                autocomplete="email"
+                required
+                class="w-full px-4 py-3 rounded-xl border-2 border-gray-200 bg-white text-gray-800 placeholder-gray-400 transition-all duration-300 focus:border-indigo-400 focus:ring-4 focus:ring-indigo-100 focus:outline-none"
+              />
+              <p class="text-sm text-red-500 mt-1 hidden" id="email-error"></p>
+            </div>
+
+            <!-- Password -->
+            <div class="mb-6">
+              <label for="password" class="block text-sm font-medium text-gray-700 mb-1.5">Passwort</label>
+              <input
+                type="password"
+                id="password"
+                name="password"
+                placeholder="••••••••"
+                autocomplete="current-password"
+                required
+                minlength="6"
+                class="w-full px-4 py-3 rounded-xl border-2 border-gray-200 bg-white text-gray-800 placeholder-gray-400 transition-all duration-300 focus:border-indigo-400 focus:ring-4 focus:ring-indigo-100 focus:outline-none"
+              />
+              <p class="text-sm text-red-500 mt-1 hidden" id="password-error"></p>
+            </div>
+
+            <!-- Submit -->
+            <button
+              type="submit"
+              id="submit-btn"
+              class="w-full bg-gradient-to-br from-indigo-600 to-violet-700 text-white font-semibold py-3.5 px-6 rounded-xl shadow-md transition-all duration-300 hover:shadow-xl hover:scale-[1.02] active:scale-[0.98] focus:outline-none focus:ring-4 focus:ring-indigo-200 flex items-center justify-center gap-2"
+            >
+              <span id="btn-text">Anmelden</span>
+              <svg id="btn-spinner" class="hidden w-5 h-5 animate-spin text-white" fill="none" viewBox="0 0 24 24">
+                <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4" />
+                <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4z" />
+              </svg>
+            </button>
+          </form>
+
+          <!-- Divider -->
+          <div class="relative my-7">
+            <div class="absolute inset-0 flex items-center">
+              <div class="w-full border-t border-gray-200"></div>
+            </div>
+          </div>
+
+          <!-- Toggle login / sign up -->
+          <p class="text-center text-gray-600 text-sm" id="toggle-text">
+            Noch kein Konto?
+            <button
+              id="toggle-btn"
+              class="text-indigo-600 font-semibold hover:text-indigo-800 transition-colors duration-200 focus:outline-none focus:underline"
+            >
+              Registrieren
+            </button>
+          </p>
+
+          <!-- Back link -->
+          <div class="text-center mt-4">
+            <a
+              href="index.html"
+              class="text-gray-400 text-sm hover:text-gray-600 transition-colors duration-200"
+            >
+              ← Zurück zur Startseite
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <script>
+      (function () {
+        const form = document.getElementById('auth-form');
+        const toggleBtn = document.getElementById('toggle-btn');
+        const toggleText = document.getElementById('toggle-text');
+        const formTitle = document.getElementById('form-title');
+        const btnText = document.getElementById('btn-text');
+        const btnSpinner = document.getElementById('btn-spinner');
+        const nameField = document.getElementById('name-field');
+        const nameInput = document.getElementById('name');
+        const emailInput = document.getElementById('email');
+        const passwordInput = document.getElementById('password');
+        const nameError = document.getElementById('name-error');
+        const emailError = document.getElementById('email-error');
+        const passwordError = document.getElementById('password-error');
+
+        let isLogin = true;
+
+        function showError(el, msg) {
+          el.textContent = msg;
+          el.classList.remove('hidden');
+        }
+
+        function clearError(el) {
+          el.textContent = '';
+          el.classList.add('hidden');
+        }
+
+        function clearAllErrors() {
+          [nameError, emailError, passwordError].forEach(clearError);
+          [nameInput, emailInput, passwordInput].forEach(function (inp) {
+            inp.classList.remove('border-red-400', 'focus:border-red-400');
+            inp.classList.add('border-gray-200');
+          });
+        }
+
+        function toggleMode() {
+          isLogin = !isLogin;
+          clearAllErrors();
+
+          if (isLogin) {
+            nameField.style.display = 'none';
+            nameInput.required = false;
+            formTitle.textContent = 'Melde dich an, um fortzufahren';
+            btnText.textContent = 'Anmelden';
+            toggleText.innerHTML =
+              'Noch kein Konto? <button id="toggle-btn" class="text-indigo-600 font-semibold hover:text-indigo-800 transition-colors duration-200 focus:outline-none focus:underline">Registrieren</button>';
+            passwordInput.autocomplete = 'current-password';
+          } else {
+            nameField.style.display = 'block';
+            nameInput.required = true;
+            formTitle.textContent = 'Erstelle ein neues Konto';
+            btnText.textContent = 'Registrieren';
+            toggleText.innerHTML =
+              'Bereits registriert? <button id="toggle-btn" class="text-indigo-600 font-semibold hover:text-indigo-800 transition-colors duration-200 focus:outline-none focus:underline">Anmelden</button>';
+            passwordInput.autocomplete = 'new-password';
+          }
+          document.getElementById('toggle-btn').addEventListener('click', toggleMode);
+        }
+
+        function validateField(inp, errEl, msg) {
+          clearError(errEl);
+          inp.classList.remove('border-red-400', 'focus:border-red-400');
+          inp.classList.add('border-gray-200');
+          if (!inp.value.trim()) {
+            showError(errEl, msg);
+            inp.classList.remove('border-gray-200');
+            inp.classList.add('border-red-400', 'focus:border-red-400');
+            return false;
+          }
+          if (inp.type === 'email' && inp.value.trim()) {
+            var re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+            if (!re.test(inp.value.trim())) {
+              showError(errEl, 'Bitte gib eine gültige E-Mail-Adresse ein.');
+              inp.classList.remove('border-gray-200');
+              inp.classList.add('border-red-400', 'focus:border-red-400');
+              return false;
+            }
+          }
+          if (inp === passwordInput && inp.value.length < 6) {
+            showError(errEl, 'Das Passwort muss mindestens 6 Zeichen lang sein.');
+            inp.classList.remove('border-gray-200');
+            inp.classList.add('border-red-400', 'focus:border-red-400');
+            return false;
+          }
+          return true;
+        }
+
+        form.addEventListener('submit', function (e) {
+          e.preventDefault();
+          clearAllErrors();
+
+          var valid = true;
+          if (!isLogin) {
+            if (!validateField(nameInput, nameError, 'Bitte gib deinen Namen ein.')) valid = false;
+          }
+          if (!validateField(emailInput, emailError, 'Bitte gib deine E-Mail-Adresse ein.')) valid = false;
+          if (!validateField(passwordInput, passwordError, 'Bitte gib dein Passwort ein.')) valid = false;
+
+          if (!valid) return;
+
+          // Loading state
+          btnText.textContent = isLogin ? 'Wird angemeldet …' : 'Wird registriert …';
+          btnSpinner.classList.remove('hidden');
+          document.getElementById('submit-btn').disabled = true;
+
+          var email = emailInput.value.trim();
+          var password = passwordInput.value.trim();
+          var name = isLogin ? null : nameInput.value.trim();
+
+          var authPromise = isLogin
+            ? Auth.signIn(email, password)
+            : Auth.signUp(email, password, name);
+
+          authPromise.then(function (result) {
+            btnSpinner.classList.add('hidden');
+            document.getElementById('submit-btn').disabled = false;
+            btnText.textContent = isLogin ? 'Anmelden' : 'Registrieren';
+
+            if (result.error) {
+              showError(emailError, result.error.message);
+              return;
+            }
+
+            window.location.replace('index.html');
+          });
+        });
+
+        // Real-time blur validation
+        [emailInput, passwordInput].forEach(function (inp) {
+          inp.addEventListener('blur', function () {
+            if (inp.value.trim()) {
+              var errEl = inp === emailInput ? emailError : passwordError;
+              var msg = inp === emailInput
+                ? 'Bitte gib deine E-Mail-Adresse ein.'
+                : 'Bitte gib dein Passwort ein.';
+              validateField(inp, errEl, msg);
+            }
+          });
+          inp.addEventListener('input', function () {
+            clearError(inp === emailInput ? emailError : passwordError);
+            inp.classList.remove('border-red-400', 'focus:border-red-400');
+            inp.classList.add('border-gray-200');
+          });
+        });
+
+        // Same for name (sign up)
+        nameInput.addEventListener('blur', function () {
+          if (!isLogin && nameInput.value.trim()) {
+            validateField(nameInput, nameError, 'Bitte gib deinen Namen ein.');
+          }
+        });
+        nameInput.addEventListener('input', function () {
+          clearError(nameError);
+          nameInput.classList.remove('border-red-400', 'focus:border-red-400');
+          nameInput.classList.add('border-gray-200');
+        });
+
+        toggleBtn.addEventListener('click', toggleMode);
+      })();
+    </script>
+  </body>
+</html>

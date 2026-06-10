@@ -13,6 +13,7 @@ import { DataManager } from "./DataManager.js";
 import { StateManager } from "./StateManager.js";
 import { GameLogic } from "./GameLogic.js";
 import { UIManager } from "../Ui/UIManager.js";
+import * as data from "../data.js";
 
 export class AdaptiveLearningGame {
   /**
@@ -686,15 +687,33 @@ export class AdaptiveLearningGame {
    * ریست کامل پیشرفت برای ترکیب فعلی
    * Reset all progress for current combination
    */
-  resetProgress() {
+  async resetProgress() {
     if (
       confirm(
         "Are you sure you want to reset all progress for current combination?",
       )
     ) {
+      // STEP 1 — Cancel pending debounced writes + clear cache + DELETE from DB
+      const result = await data.resetAllData();
+      if (result.ok) {
+        console.log('RESET SUCCESS: DB row deleted');
+      } else {
+        console.error('RESET FAILED: DB still contains data — ' + result.error);
+      }
+
+      // Cache state validation — check known key to confirm _cache was cleared
+      console.log('_cache after reset: sample key returns', data.get(this.dataManager.getStorageKeyWords(this.currentNiveau, this.currentMode, this.currentCase)));
+
+      // DB verification test
+      data.debugCheckDb().then(function (dbData) {
+        var hasRows = dbData && dbData.length > 0;
+        console.log(hasRows ? '[FAIL] DB STILL HAS DATA' : '[PASS] DB IS EMPTY');
+      });
+
+      // STEP 2 — Clear local game state
       this.stateManager.resetProgress(this.currentNiveau, this.currentMode, this.currentCase);
 
-      // ریست پیشرفت کلمات سطح فعلی
+      // STEP 3 — Reset word objects in memory
       const levelWords = this.words.filter(
         (word) => (word.level || "A1") === this.currentNiveau,
       );
@@ -721,12 +740,14 @@ export class AdaptiveLearningGame {
       this.forceResetUIState();
       this.resetSession();
       this.updateUI();
+
+      // STEP 4 — Save current combo data (will recreate DB row on next flush)
       this.saveData();
 
       // Enable panel click after reset
       this.isGameStartEligible = true;
 
-      console.log(`🗑️ Reset progress for ${this.getCurrentKey()}`);
+      console.log(`Reset progress for ${this.getCurrentKey()}`);
     }
   }
 

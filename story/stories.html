@@ -10,6 +10,21 @@
     <link rel="icon" type="image/svg+xml" href="../assets/icons/favicon.svg">
     <title>German Stories | German Learning Hub</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
+    <script src="../js/auth.js"></script>
+    <style>html{visibility:hidden}</style>
+    <script>
+      (function(){
+        var U='https://sesltisebtcijdsdeckr.supabase.co',K='sb_publishable_RPND2s4rdjF8ORhD-7bDiA_wkpSscWm';
+        try {
+          var c=(window.Auth&&window.Auth.client)||supabase.createClient(U,K);
+          c.auth.getSession().then(function(r){
+            if(r.data&&r.data.session){document.documentElement.style.visibility='visible'}
+            else{window.location.replace('../login.html')}
+          });
+        } catch(e) {window.location.replace('../login.html')}
+      })();
+    </script>
     <style>
       body {
         text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);

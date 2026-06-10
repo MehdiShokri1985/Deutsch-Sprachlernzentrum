@@ -9,6 +9,21 @@
   <link rel="icon" href="../assets/icons/favicon.ico">
   <link rel="icon" type="image/svg+xml" href="../assets/icons/favicon.svg">
   <title>Wörter — Visual Vocabulary</title>
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
+  <script src="../js/auth.js"></script>
+  <style>html{visibility:hidden}</style>
+  <script>
+    (function(){
+      var U='https://sesltisebtcijdsdeckr.supabase.co',K='sb_publishable_RPND2s4rdjF8ORhD-7bDiA_wkpSscWm';
+      try {
+        var c=(window.Auth&&window.Auth.client)||supabase.createClient(U,K);
+        c.auth.getSession().then(function(r){
+          if(r.data&&r.data.session){document.documentElement.style.visibility='visible'}
+          else{window.location.replace('../login.html')}
+        });
+      } catch(e) {window.location.replace('../login.html')}
+    })();
+  </script>
   <style>
     *, *::before, *::after {
       box-sizing: border-box;

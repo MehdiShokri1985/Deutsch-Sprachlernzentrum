@@ -1,9 +1,5 @@
-/**
- * مدیریت وضعیت‌های ایزوله برای هر ترکیب سطح + حالت + نوع داده
- * Isolated state manager for each (niveau + mode + dataset) combination
- */
-
 import { CONFIG } from "../config.js";
+import * as data from "../data.js";
 
 export class StateManager {
   constructor(dataSetName = "adjektive") {
@@ -22,8 +18,8 @@ export class StateManager {
   getCurrentState(niveau, mode, caseFilter = "all") {
     const key = this.getStateKey(niveau, mode, caseFilter);
     if (!this.allStates[key]) {
-      const saved = localStorage.getItem(this.getFullStorageKey(niveau, mode, caseFilter));
-      this.allStates[key] = saved ? JSON.parse(saved) : this.createNewState();
+      const stored = data.get(this.getFullStorageKey(niveau, mode, caseFilter));
+      this.allStates[key] = stored ? JSON.parse(JSON.stringify(stored)) : this.createNewState();
     }
     return this.allStates[key];
   }
@@ -38,7 +34,7 @@ export class StateManager {
       progress: 0,
       sessionNumber: 1,
       mistakes: [],
-       correctAnswersList: []
+      correctAnswersList: []
     };
   }
 
@@ -46,13 +42,13 @@ export class StateManager {
     const key = this.getStateKey(niveau, mode, caseFilter);
     const state = this.allStates[key];
     if (state) {
-      localStorage.setItem(this.getFullStorageKey(niveau, mode, caseFilter), JSON.stringify(state));
+      data.set(this.getFullStorageKey(niveau, mode, caseFilter), state);
     }
   }
 
   resetProgress(niveau, mode, caseFilter = "all") {
     const key = this.getStateKey(niveau, mode, caseFilter);
-    localStorage.removeItem(this.getFullStorageKey(niveau, mode, caseFilter));
+    data.remove(this.getFullStorageKey(niveau, mode, caseFilter));
     delete this.allStates[key];
   }
 }

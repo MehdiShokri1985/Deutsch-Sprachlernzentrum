@@ -1,13 +1,10 @@
-/**
- * Entry point — verb learning page (meaning → infinitive).
- */
-
 import { VerbLearningGame } from "./core/VerbLearningGame.js";
 import { applyModuleTheme } from "./theme/applyModuleTheme.js";
+import * as data from "./data.js";
 
 let game;
 
-document.addEventListener("DOMContentLoaded", () => {
+document.addEventListener("DOMContentLoaded", async () => {
   const params = new URLSearchParams(window.location.search);
   const dataset = params.get("dataset");
   const jsonPath = params.get("json");
@@ -25,6 +22,11 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   try {
+    const { data: { user }, error: userError } = await window.Auth.getUser();
+    if (user && !userError) {
+      await data.init(user.id);
+    }
+
     applyModuleTheme(dataset);
     game = new VerbLearningGame(dataset, jsonPath);
     window.game = game;
@@ -33,7 +35,7 @@ document.addEventListener("DOMContentLoaded", () => {
     document.getElementById("pageTitle").textContent = title;
     document.getElementById("headerTitle").textContent = title;
 
-    console.log(`🎮 Verb game started: ${dataset}`);
+    console.log(`Verb game started: ${dataset}`);
   } catch (error) {
     console.error("Failed to start verb game:", error);
   }

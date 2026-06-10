@@ -1,35 +1,26 @@
-/**
- * مدیریت بارگذاری و ذخیره‌سازی داده‌ها
- * Data loading and persistence manager
- */
-
 import { CONFIG } from "../config.js";
+import * as data from "../data.js";
 
 export class DataManager {
   constructor(dataSetName = "adjektive") {
     this.dataSetName = dataSetName;
-    // this.storageKeyWords = `${CONFIG.STORAGE_PREFIX}words_${dataSetName}`;
   }
 
-   getStorageKeyWords(niveau, mode, caseFilter = "all") {
+  getStorageKeyWords(niveau, mode, caseFilter = "all") {
     return `${CONFIG.STORAGE_PREFIX}words_${this.dataSetName}_${niveau}_${mode}_${caseFilter}`;
   }
 
-  /**
-   * بارگذاری کلمات از localStorage یا فایل JSON
-   * Load words from localStorage or JSON file
-   */
   async loadWords(jsonPath, niveau, mode, caseFilter = "all") {
     try {
-    const savedWords = localStorage.getItem(this.getStorageKeyWords(niveau, mode, caseFilter));
-      if (savedWords) {
-        return JSON.parse(savedWords);
+      const key = this.getStorageKeyWords(niveau, mode, caseFilter);
+      const cached = data.get(key);
+      if (cached) {
+        return JSON.parse(JSON.stringify(cached));
       }
 
       const response = await fetch(jsonPath);
       let words = await response.json();
 
-      // نرمال‌سازی داده‌ها
       words = words.map(word => {
         const normalized = { ...word };
         if (normalized.strength === undefined) normalized.strength = 0.3;
@@ -57,7 +48,7 @@ export class DataManager {
         words = words.filter(w => w.caseverb && w.caseverb.some(cv => cv.case === caseFilter));
       }
 
-    this.saveWords(words, niveau, mode, caseFilter);
+      data.set(key, words);
       return words;
     } catch (error) {
       console.error("Error loading words:", error);
@@ -65,7 +56,8 @@ export class DataManager {
     }
   }
 
- saveWords(words, niveau, mode, caseFilter = "all") {
-    localStorage.setItem(this.getStorageKeyWords(niveau, mode, caseFilter), JSON.stringify(words));
+  saveWords(words, niveau, mode, caseFilter = "all") {
+    const key = this.getStorageKeyWords(niveau, mode, caseFilter);
+    data.set(key, words);
   }
 }
