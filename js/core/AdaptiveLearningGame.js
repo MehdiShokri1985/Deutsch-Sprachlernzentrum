@@ -23,14 +23,15 @@ export class AdaptiveLearningGame {
    * @param {string} dataSetName - نام مجموعه داده (adjektive, verben, ...)
    * @param {string} jsonPath - مسیر فایل JSON
    */
-  constructor(dataSetName = "adjektive", jsonPath) {
+  constructor(dataSetName = "adjektive", jsonPath, gameType = "game") {
     this.dataSetName = dataSetName;
+    this.gameType = gameType;
 
     this.jsonPath = jsonPath;
 
     // تزریق وابستگی‌ها (Dependency Injection)
-    this.dataManager = new DataManager(dataSetName);
-    this.stateManager = new StateManager(dataSetName);
+    this.dataManager = new DataManager(gameType, dataSetName);
+    this.stateManager = new StateManager(gameType, dataSetName);
     this.gameLogic = null; // بعد از لود داده‌ها مقداردهی می‌شود
     this.uiManager = null;
 
@@ -693,22 +694,16 @@ export class AdaptiveLearningGame {
         "Are you sure you want to reset all progress for current combination?",
       )
     ) {
-      // STEP 1 — Cancel pending debounced writes + clear cache + DELETE from DB
-      const result = await data.resetAllData();
+      // STEP 1 — Reset only this gameType+dataset (preserves other games' data)
+      const result = await data.resetAllData(this.gameType, this.dataSetName);
       if (result.ok) {
-        console.log('RESET SUCCESS: DB row deleted');
+        console.log('RESET: gameType=' + this.gameType + ' dataset=' + this.dataSetName);
       } else {
-        console.error('RESET FAILED: DB still contains data — ' + result.error);
+        console.error('RESET FAILED: ' + result.error);
       }
 
-      // Cache state validation — check known key to confirm _cache was cleared
-      console.log('_cache after reset: sample key returns', data.get(this.dataManager.getStorageKeyWords(this.currentNiveau, this.currentMode, this.currentCase)));
-
-      // DB verification test
-      data.debugCheckDb().then(function (dbData) {
-        var hasRows = dbData && dbData.length > 0;
-        console.log(hasRows ? '[FAIL] DB STILL HAS DATA' : '[PASS] DB IS EMPTY');
-      });
+      const sampleKey = this.dataManager.getStorageKeyWords(this.currentNiveau, this.currentMode, this.currentCase);
+      console.log('_cache after reset: key "' + sampleKey + '" =', data.get(sampleKey));
 
       // STEP 2 — Clear local game state
       this.stateManager.resetProgress(this.currentNiveau, this.currentMode, this.currentCase);

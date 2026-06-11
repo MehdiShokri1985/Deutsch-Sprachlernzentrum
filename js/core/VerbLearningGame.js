@@ -7,6 +7,10 @@ import { VerbGameLogic } from "./VerbGameLogic.js";
 import { VerbUIManager } from "../Ui/VerbUIManager.js";
 
 export class VerbLearningGame extends AdaptiveLearningGame {
+  constructor(dataSetName = "verben", jsonPath) {
+    super(dataSetName, jsonPath, "verbs");
+  }
+
   async init() {
     try {
       this.words = await this.dataManager.loadWords(

@@ -2,17 +2,18 @@ import { CONFIG } from "../config.js";
 import * as data from "../data.js";
 
 export class StateManager {
-  constructor(dataSetName = "adjektive") {
+  constructor(gameType, dataSetName = "adjektive") {
+    this.gameType = gameType;
     this.dataSetName = dataSetName;
     this.allStates = {};
   }
 
   getStateKey(niveau, mode, caseFilter = "all") {
-    return `${this.dataSetName}_${niveau}_${mode}_${caseFilter}`;
+    return `${this.gameType}_${this.dataSetName}_${niveau}_${mode}_${caseFilter}`;
   }
 
   getFullStorageKey(niveau, mode, caseFilter = "all") {
-    return `${CONFIG.STORAGE_PREFIX}state_${this.getStateKey(niveau, mode, caseFilter)}`;
+    return `${CONFIG.STORAGE_PREFIX}state_${this.gameType}_${this.dataSetName}_${niveau}_${mode}_${caseFilter}`;
   }
 
   getCurrentState(niveau, mode, caseFilter = "all") {

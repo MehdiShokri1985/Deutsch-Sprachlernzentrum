@@ -2,12 +2,13 @@ import { CONFIG } from "../config.js";
 import * as data from "../data.js";
 
 export class DataManager {
-  constructor(dataSetName = "adjektive") {
+  constructor(gameType, dataSetName = "adjektive") {
+    this.gameType = gameType;
     this.dataSetName = dataSetName;
   }
 
   getStorageKeyWords(niveau, mode, caseFilter = "all") {
-    return `${CONFIG.STORAGE_PREFIX}words_${this.dataSetName}_${niveau}_${mode}_${caseFilter}`;
+    return `${CONFIG.STORAGE_PREFIX}words_${this.gameType}_${this.dataSetName}_${niveau}_${mode}_${caseFilter}`;
   }
 
   async loadWords(jsonPath, niveau, mode, caseFilter = "all") {

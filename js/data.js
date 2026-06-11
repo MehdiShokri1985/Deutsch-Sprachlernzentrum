@@ -79,6 +79,9 @@ export async function init(userId) {
     _log('READ', TABLE, true, 'no existing data');
   }
 
+  // Migrate old-format keys (without gameType) to new-format keys (with gameType)
+  _migrateKeyFormat();
+
   _subscribe(userId);
 }
 
@@ -152,6 +155,53 @@ async function _migrateFromLocalStorage(userId) {
   _log('MIGRATE', TABLE, true, 'localStorage cleared');
 }
 
+function _migrateKeyFormat() {
+  // Map known dataset names to their gameType
+  var datasetToGameType = {
+    adjektive: 'game',
+    konnektoren: 'game',
+    personalpronomen: 'game',
+    possessivpronomen: 'game',
+    präpositionen: 'game',
+    demonstrativpronomen: 'game',
+    tempora: 'game',
+    reflexivverben: 'game',
+    kollokationen: 'game',
+    slang: 'game',
+    verben: 'verbs'
+  };
+
+  var prefix = 'langgame_';
+  var migrated = false;
+
+  for (var key of Object.keys(_cache)) {
+    if (!key.startsWith(prefix)) continue;
+    var segments = key.substring(prefix.length).split('_');
+    var type = segments[0];
+    if (type !== 'words' && type !== 'state') continue;
+
+    var second = segments[1];
+    // If second segment is a known dataset → old format (no gameType)
+    if (datasetToGameType[second]) {
+      var datasetName = second;
+      var gameType = datasetToGameType[datasetName];
+      var rest = segments.slice(2).join('_');
+      var newKey = prefix + type + '_' + gameType + '_' + datasetName + '_' + rest;
+
+      if (!(newKey in _cache)) {
+        _cache[newKey] = _cache[key];
+        migrated = true;
+      }
+      delete _cache[key];
+    }
+  }
+
+  if (migrated) {
+    _log('MIGRATE_KEYS', TABLE, true, 'upgraded old keys to gameType format');
+    _scheduleSave();
+  }
+}
+
 function _subscribe(userId) {
   if (_subscription) return;
 
@@ -191,7 +241,7 @@ export function unsubscribe() {
   }
 }
 
-export async function resetAllData() {
+export async function resetAllData(gameType, datasetName) {
   _generation++;
   _isResetting = true;
 
@@ -210,20 +260,37 @@ export async function resetAllData() {
     _flushPromise = null;
   }
 
-  _cache = {};
+  // Remove only cache keys matching this gameType + datasetName
+  const prefix = 'langgame_';
+  const wordPattern = prefix + 'words_' + gameType + '_' + datasetName + '_';
+  const statePattern = prefix + 'state_' + gameType + '_' + datasetName + '_';
+
+  let removedCount = 0;
+  for (const key of Object.keys(_cache)) {
+    if (key.startsWith(wordPattern) || key.startsWith(statePattern)) {
+      delete _cache[key];
+      removedCount++;
+    }
+  }
+
+  console.log('RESET DATASET: gameType=' + gameType + ' dataset=' + datasetName + ' (removed ' + removedCount + ' cache keys)');
 
   if (!_userId) {
     _isResetting = false;
-    _log('RESET', TABLE, true, 'no userId, skipping DB delete');
+    _log('RESET', TABLE, true, 'no userId, skipping DB update');
     return { ok: true, detail: 'no user' };
   }
 
+  // Update Supabase row with remaining data (preserves other gameType/datasets)
   const supabase = _client();
-  _log('RESET', TABLE, true, 'deleting row user_id=' + _userId);
+  _log('RESET', TABLE, true, 'updating row user_id=' + _userId + ' gameType=' + gameType + ' dataset=' + datasetName);
   const { error } = await supabase
     .from(TABLE)
-    .delete()
-    .eq('user_id', _userId);
+    .upsert({
+      user_id: _userId,
+      data: _cache,
+      updated_at: new Date().toISOString()
+    }, { onConflict: 'user_id' });
 
   if (error) {
     _isResetting = false;
@@ -231,9 +298,9 @@ export async function resetAllData() {
     return { ok: false, error: error.message };
   }
 
-  _log('RESET', TABLE, true, 'row deleted successfully');
+  _log('RESET', TABLE, true, 'gameType=' + gameType + ' dataset=' + datasetName + ' remaining keys=' + Object.keys(_cache).length);
   _isResetting = false;
-  return { ok: true, detail: 'row deleted' };
+  return { ok: true, detail: 'gameType=' + gameType + ' dataset=' + datasetName + ' reset' };
 }
 
 export async function testSupabaseConnection(userId) {

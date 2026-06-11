@@ -176,7 +176,7 @@ export class WordProgressSquares {
   }
 
   _storageKey(suffix) {
-    return `langgame_${suffix}_${this.game.dataSetName}_${this.game.currentNiveau}_${this.game.currentMode}`;
+    return `langgame_${suffix}_${this.game.gameType}_${this.game.dataSetName}_${this.game.currentNiveau}_${this.game.currentMode}`;
   }
 
   _getRoot() {
