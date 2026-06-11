@@ -89,6 +89,10 @@ export function get(key) {
   return _cache[key] !== undefined ? _cache[key] : null;
 }
 
+export function getAllKeys() {
+  return Object.keys(_cache);
+}
+
 export function set(key, value) {
   _cache[key] = value;
   _scheduleSave();

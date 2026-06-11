@@ -35,7 +35,8 @@ export class StateManager {
       progress: 0,
       sessionNumber: 1,
       mistakes: [],
-      correctAnswersList: []
+      correctAnswersList: [],
+      timeSpentMs: 0
     };
   }
 

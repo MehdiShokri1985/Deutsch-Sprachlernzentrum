@@ -1,0 +1,69 @@
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif;background:#f0f2f5;color:#1a1a2e;min-height:100vh;line-height:1.5;-webkit-font-smoothing:antialiased}
+
+/* Layout */
+.stats-container{max-width:1100px;margin:0 auto;padding:1.5rem}
+
+/* Header */
+.stats-header{display:flex;justify-content:space-between;align-items:center;margin-bottom:2rem;flex-wrap:wrap;gap:0.75rem}
+.stats-header h1{font-size:1.5rem;font-weight:700;color:#1a1a2e;display:flex;align-items:center;gap:0.5rem}
+.stats-header h1 svg{width:28px;height:28px;color:#6366f1}
+.stats-header-right{display:flex;align-items:center;gap:12px}
+
+/* Summary Cards Grid */
+.stats-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:1rem;margin-bottom:2rem}
+.stat-card{background:#fff;border-radius:14px;padding:1.25rem;box-shadow:0 2px 8px rgba(0,0,0,0.06);transition:transform 0.2s,box-shadow 0.2s}
+.stat-card:hover{transform:translateY(-2px);box-shadow:0 6px 20px rgba(0,0,0,0.08)}
+.stat-card-icon{width:36px;height:36px;border-radius:10px;display:flex;align-items:center;justify-content:center;margin-bottom:0.75rem}
+.stat-card-icon svg{width:18px;height:18px}
+.stat-card-value{font-size:1.75rem;font-weight:800;color:#1a1a2e;line-height:1.1}
+.stat-card-label{font-size:0.8rem;color:#6b7280;font-weight:500;margin-top:0.25rem}
+
+/* Section */
+.section{margin-bottom:2rem}
+.section-title{font-size:1.1rem;font-weight:700;color:#1a1a2e;margin-bottom:1rem;display:flex;align-items:center;gap:0.5rem}
+.section-title svg{width:20px;height:20px;color:#6366f1}
+
+/* Dataset Cards */
+.dataset-grid{display:grid;grid-template-columns:1fr;gap:0.75rem;margin-bottom:2rem}
+.dataset-card{background:#fff;border-radius:12px;padding:1rem 1.25rem;box-shadow:0 2px 8px rgba(0,0,0,0.04);display:flex;flex-wrap:wrap;align-items:center;gap:0.75rem 1rem;cursor:pointer;transition:box-shadow 0.2s,transform 0.2s;text-decoration:none;color:inherit;outline-offset:2px}
+.dataset-card:hover{box-shadow:0 4px 16px rgba(0,0,0,0.1);transform:translateY(-1px)}
+.dataset-card:focus-visible{outline:2px solid #6366f1;outline-offset:2px}
+.dataset-card:active{transform:translateY(0);box-shadow:0 2px 8px rgba(0,0,0,0.06)}
+.dataset-name{font-weight:700;font-size:0.95rem;color:#1a1a2e;min-width:120px}
+.dataset-stats{display:flex;gap:1.25rem;font-size:0.8rem;color:#6b7280;flex-wrap:wrap}
+.dataset-stat{display:flex;align-items:center;gap:4px}
+.dataset-stat strong{color:#1a1a2e}
+.dataset-progress{flex:1;min-width:100px}
+.progress-bar-track{height:6px;background:#e5e7eb;border-radius:99px;overflow:hidden}
+.progress-bar-fill{height:100%;border-radius:99px;transition:width 0.6s ease}
+.dataset-percent{font-size:0.85rem;font-weight:700;color:#6366f1;min-width:36px;text-align:right}
+
+/* Color classes */
+.bg-indigo{background:#eef2ff}.svg-indigo{color:#6366f1}.fill-indigo{background:#6366f1}
+.bg-green{background:#ecfdf5}.svg-green{color:#10b981}.fill-green{background:#10b981}
+.bg-amber{background:#fffbeb}.svg-amber{color:#f59e0b}.fill-amber{background:#f59e0b}
+.bg-rose{background:#fff1f2}.svg-rose{color:#e11d48}.fill-rose{background:#e11d48}
+.bg-sky{background:#f0f9ff}.svg-sky{color:#0ea5e9}.fill-sky{background:#0ea5e9}
+.bg-purple{background:#f5f3ff}.svg-purple{color:#8b5cf6}.fill-purple{background:#8b5cf6}
+
+/* Empty state */
+.empty-state{text-align:center;padding:4rem 1rem;color:#9ca3af}
+.empty-state svg{width:64px;height:64px;margin:0 auto 1rem;color:#d1d5db}
+.empty-state h2{font-size:1.25rem;font-weight:600;color:#6b7280;margin-bottom:0.5rem}
+.empty-state p{font-size:0.9rem}
+
+/* Skeleton loading */
+.skeleton{background:linear-gradient(90deg,#e5e7eb 25%,#f3f4f6 50%,#e5e7eb 75%);background-size:200% 100%;animation:shimmer 1.5s infinite;border-radius:8px}
+@keyframes shimmer{0%{background-position:200% 0}100%{background-position:-200% 0}}
+.skeleton-card{height:100px;border-radius:14px}
+.skeleton-line{height:16px;margin-bottom:8px}
+.skeleton-line:last-child{width:60%}
+
+/* Responsive */
+@media(max-width:640px){
+  .stats-container{padding:1rem}
+  .stats-grid{grid-template-columns:repeat(2,1fr)}.stat-card{padding:1rem}.stat-card-value{font-size:1.4rem}
+  .dataset-card{padding:0.85rem 1rem}.dataset-name{min-width:80px;font-size:0.85rem}
+  .stats-header h1{font-size:1.25rem}
+}

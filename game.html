@@ -12,6 +12,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
     <script src="js/auth.js"></script>
+    <script src="js/userDisplay.js"></script>
     <style>html{visibility:hidden}</style>
     <script>
       (function(){
@@ -79,24 +80,33 @@
             German Learning
           </a>
 
-          <div class="game-header-stats flex gap-2 sm:gap-3 md:gap-4 text-xs md:text-sm">
-            <div class="bg-green-100 px-3 py-1 rounded-full">
-              <span class="text-green-800 font-semibold">
-                <span id="correctCount">0</span></span
+          <div class="flex items-center gap-2 sm:gap-3">
+            <a href="stats.html" class="stats-nav-link hidden sm:inline-flex">
+              <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M18 20V10M12 20V4M6 20v-6" />
+              </svg>
+              Stats
+            </a>
+            <div id="userProfileContainer"></div>
+            <div class="game-header-stats flex gap-1 sm:gap-3 md:gap-4 text-xs md:text-sm">
+              <div class="bg-green-100 px-3 py-1 rounded-full">
+                <span class="text-green-800 font-semibold">
+                  <span id="correctCount">0</span></span
+                >
+              </div>
+              <div
+                id="wrongCounter"
+                class="bg-red-100 px-3 py-1 rounded-full cursor-pointer hover:bg-red-200 active:bg-red-300 transition-colors"
               >
-            </div>
-            <div
-              id="wrongCounter"
-              class="bg-red-100 px-3 py-1 rounded-full cursor-pointer hover:bg-red-200 active:bg-red-300 transition-colors"
-            >
-              <span class="text-red-800 font-semibold">
-                <span id="wrongCount">0</span></span
-              >
-            </div>
-            <div class="theme-score-pill px-3 py-1 rounded-full">
-              <span class="font-semibold">
-                <span id="score">0</span></span
-              >
+                <span class="text-red-800 font-semibold">
+                  <span id="wrongCount">0</span></span
+                >
+              </div>
+              <div class="theme-score-pill px-3 py-1 rounded-full">
+                <span class="font-semibold">
+                  <span id="score">0</span></span
+                >
+              </div>
             </div>
           </div>
         </div>

@@ -11,6 +11,7 @@
   <title>Wörter — Visual Vocabulary</title>
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
   <script src="../js/auth.js"></script>
+  <script src="../js/userDisplay.js"></script>
   <style>html{visibility:hidden}</style>
   <script>
     (function(){
@@ -193,12 +194,20 @@
 <body>
   <div class="container">
     <header>
-         <a
-            href="../index.html"
-            id="headerTitle"
-            class="game-header-title font-bold transition-colors  items-center gap-2"
-          >
-      <h1>Wör<span>ter</span></h1>
+      <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:1rem">
+        <div></div>
+        <div style="display:flex;align-items:center;gap:10px">
+          <a href="../stats.html" class="stats-nav-link">
+            <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="width:16px;height:16px">
+              <path d="M18 20V10M12 20V4M6 20v-6" />
+            </svg>
+            Stats
+          </a>
+          <div id="userProfileContainer"></div>
+        </div>
+      </div>
+      <a href="../index.html" id="headerTitle" class="game-header-title font-bold transition-colors items-center gap-2">
+        <h1>Wör<span>ter</span></h1>
       </a>
       <p>Visual vocabulary — click any image to explore</p>
     </header>

@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="de" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/icons/favicon-16x16.png">
+    <link rel="icon" href="assets/icons/favicon.ico">
+    <link rel="icon" type="image/svg+xml" href="assets/icons/favicon.svg">
+    <title>Lernstatistik | German Learning Hub</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
+    <script src="js/auth.js"></script>
+    <script src="js/userDisplay.js"></script>
+    <style>html{visibility:hidden}</style>
+    <script>
+      (function(){
+        var U='https://sesltisebtcijdsdeckr.supabase.co',K='sb_publishable_RPND2s4rdjF8ORhD-7bDiA_wkpSscWm';
+        try {
+          var c=(window.Auth&&window.Auth.client)||supabase.createClient(U,K);
+          c.auth.getSession().then(function(r){
+            if(r.data&&r.data.session){document.documentElement.style.visibility='visible'}
+            else{window.location.replace('login.html')}
+          });
+        } catch(e) {window.location.replace('login.html')}
+      })();
+    </script>
+    <link rel="stylesheet" href="css/stats.css" />
+  </head>
+  <body>
+    <div class="stats-container">
+      <div class="stats-header">
+        <h1>
+          <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M18 20V10M12 20V4M6 20v-6" />
+          </svg>
+          Lernstatistik
+        </h1>
+        <div class="stats-header-right">
+          <a href="index.html" class="stats-nav-link">
+            <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="width:16px;height:16px">
+              <path d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
+            </svg>
+            Start
+          </a>
+          <div id="userProfileContainer"></div>
+        </div>
+      </div>
+      <div id="statsRoot"></div>
+    </div>
+    <script type="module">
+      import { init } from './js/stats.js';
+      init();
+    </script>
+  </body>
+</html>

@@ -54,6 +54,9 @@ export class AdaptiveLearningGame {
     this.lastResponseDurationMs = null;
     this.FAST_ANSWER_THRESHOLD_MS = 5000;
 
+    // Session time tracking
+    this._sessionStartTimestamp = null;
+
     // Game-start eligibility state
     this.isGameStartEligible = false;
 
@@ -134,6 +137,15 @@ export class AdaptiveLearningGame {
    * Save all data
    */
   saveData() {
+    if (this._sessionStartTimestamp !== null) {
+      const elapsed = Date.now() - this._sessionStartTimestamp;
+      if (elapsed > 0) {
+        const state = this.getCurrentState();
+        state.timeSpentMs = (state.timeSpentMs || 0) + elapsed;
+      }
+    }
+    this._sessionStartTimestamp = Date.now();
+
     this.dataManager.saveWords(
       this.words,
       this.currentNiveau,
@@ -234,6 +246,8 @@ export class AdaptiveLearningGame {
           break;
       }
     });
+
+    window.addEventListener("beforeunload", () => this.saveData());
   }
 
   /**
@@ -282,6 +296,8 @@ export class AdaptiveLearningGame {
 
     // Disable panel click after game starts
     this.isGameStartEligible = false;
+
+    this._sessionStartTimestamp = Date.now();
 
     this.nextQuestion();
   }
