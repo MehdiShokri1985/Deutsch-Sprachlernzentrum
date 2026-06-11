@@ -241,7 +241,7 @@ export function unsubscribe() {
   }
 }
 
-export async function resetAllData(gameType, datasetName) {
+export async function resetAllData(gameType, datasetName, niveau, mode, caseFilter) {
   _generation++;
   _isResetting = true;
 
@@ -260,20 +260,14 @@ export async function resetAllData(gameType, datasetName) {
     _flushPromise = null;
   }
 
-  // Remove only cache keys matching this gameType + datasetName
+  // Remove only the cache keys for this exact combination
   const prefix = 'langgame_';
-  const wordPattern = prefix + 'words_' + gameType + '_' + datasetName + '_';
-  const statePattern = prefix + 'state_' + gameType + '_' + datasetName + '_';
+  const wordKey = prefix + 'words_' + gameType + '_' + datasetName + '_' + niveau + '_' + mode + '_' + caseFilter;
+  const stateKey = prefix + 'state_' + gameType + '_' + datasetName + '_' + niveau + '_' + mode + '_' + caseFilter;
 
-  let removedCount = 0;
-  for (const key of Object.keys(_cache)) {
-    if (key.startsWith(wordPattern) || key.startsWith(statePattern)) {
-      delete _cache[key];
-      removedCount++;
-    }
-  }
-
-  console.log('RESET DATASET: gameType=' + gameType + ' dataset=' + datasetName + ' (removed ' + removedCount + ' cache keys)');
+  console.log('RESET TARGET KEYS:', wordKey, stateKey);
+  delete _cache[wordKey];
+  delete _cache[stateKey];
 
   if (!_userId) {
     _isResetting = false;
@@ -281,9 +275,9 @@ export async function resetAllData(gameType, datasetName) {
     return { ok: true, detail: 'no user' };
   }
 
-  // Update Supabase row with remaining data (preserves other gameType/datasets)
+  // Update Supabase row with remaining data (preserves all other combinations)
   const supabase = _client();
-  _log('RESET', TABLE, true, 'updating row user_id=' + _userId + ' gameType=' + gameType + ' dataset=' + datasetName);
+  _log('RESET', TABLE, true, 'updating row user_id=' + _userId + ' gameType=' + gameType + ' dataset=' + datasetName + ' combo=' + niveau + '_' + mode + '_' + caseFilter);
   const { error } = await supabase
     .from(TABLE)
     .upsert({
@@ -298,9 +292,10 @@ export async function resetAllData(gameType, datasetName) {
     return { ok: false, error: error.message };
   }
 
-  _log('RESET', TABLE, true, 'gameType=' + gameType + ' dataset=' + datasetName + ' remaining keys=' + Object.keys(_cache).length);
+  console.log('REMAINING KEYS:', Object.keys(_cache));
+  _log('RESET', TABLE, true, 'gameType=' + gameType + ' dataset=' + datasetName + ' combo=' + niveau + '_' + mode + '_' + caseFilter + ' remaining keys=' + Object.keys(_cache).length);
   _isResetting = false;
-  return { ok: true, detail: 'gameType=' + gameType + ' dataset=' + datasetName + ' reset' };
+  return { ok: true, detail: 'gameType=' + gameType + ' dataset=' + datasetName + ' combo=' + niveau + '_' + mode + '_' + caseFilter + ' reset' };
 }
 
 export async function testSupabaseConnection(userId) {

@@ -694,16 +694,13 @@ export class AdaptiveLearningGame {
         "Are you sure you want to reset all progress for current combination?",
       )
     ) {
-      // STEP 1 — Reset only this gameType+dataset (preserves other games' data)
-      const result = await data.resetAllData(this.gameType, this.dataSetName);
+      // STEP 1 — Reset only this exact combination (preserves all others)
+      const result = await data.resetAllData(this.gameType, this.dataSetName, this.currentNiveau, this.currentMode, this.currentCase);
       if (result.ok) {
-        console.log('RESET: gameType=' + this.gameType + ' dataset=' + this.dataSetName);
+        console.log('RESET OK: ' + this.gameType + '/' + this.dataSetName + '/' + this.getCurrentKey());
       } else {
         console.error('RESET FAILED: ' + result.error);
       }
-
-      const sampleKey = this.dataManager.getStorageKeyWords(this.currentNiveau, this.currentMode, this.currentCase);
-      console.log('_cache after reset: key "' + sampleKey + '" =', data.get(sampleKey));
 
       // STEP 2 — Clear local game state
       this.stateManager.resetProgress(this.currentNiveau, this.currentMode, this.currentCase);
