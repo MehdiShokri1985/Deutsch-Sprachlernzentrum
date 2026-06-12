@@ -1,6 +1,7 @@
 import { VerbLearningGame } from "./core/VerbLearningGame.js";
 import { applyModuleTheme } from "./theme/applyModuleTheme.js";
 import * as data from "./data.js";
+import { ActivityTracker } from "./core/ActivityTracker.js";
 
 let game;
 
@@ -26,6 +27,11 @@ document.addEventListener("DOMContentLoaded", async () => {
     if (user && !userError) {
       await data.init(user.id);
     }
+
+    const tracker = new ActivityTracker();
+    await tracker.init(data);
+    tracker.setCurrentSection('verbs');
+    window.__tracker = tracker;
 
     applyModuleTheme(dataset);
     game = new VerbLearningGame(dataset, jsonPath);

@@ -389,9 +389,17 @@ export class AdaptiveLearningGame {
 
     currentState.totalQuestions++;
     this.recordAnswerTiming();
+    this._trackAnswer(this.pendingIsCorrect);
     this.saveData();
     this.showResult(this.pendingIsCorrect, this.pendingCorrectAnswer);
     this.updateUI();
+  }
+
+  _trackAnswer(isCorrect) {
+    if (window.__tracker) {
+      const section = this.gameType === 'verbs' ? 'verbs' : 'vocabulary';
+      window.__tracker.markLearningAction(section, isCorrect ? 'correctAnswer' : 'wrongAnswer');
+    }
   }
 
   /**
@@ -430,6 +438,7 @@ export class AdaptiveLearningGame {
     currentState.lastWordId = this.currentWord.id;
 
     this.recordAnswerTiming();
+    this._trackAnswer(this.pendingIsCorrect);
     this.saveData();
     this.showResult(this.pendingIsCorrect, this.pendingCorrectAnswer);
     this.updateUI();

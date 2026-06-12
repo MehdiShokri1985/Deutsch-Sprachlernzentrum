@@ -12,6 +12,16 @@
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
   <script src="../js/auth.js"></script>
   <script src="../js/userDisplay.js"></script>
+  <script src="../js/tracker-bootstrap.js"></script>
+  <script>
+    (function() {
+      function setSection() {
+        if (window.__tracker) window.__tracker.setCurrentSection('vocabulary');
+        else setTimeout(setSection, 100);
+      }
+      setSection();
+    })();
+  </script>
   <style>html{visibility:hidden}</style>
   <script>
     (function(){
@@ -257,6 +267,13 @@
     }
 
     init();
+
+    document.getElementById('gallery').addEventListener('click', function(e) {
+      var card = e.target.closest('.card');
+      if (card && window.__tracker) {
+        window.__tracker.markLearningAction('vocabulary', 'cardViewed');
+      }
+    });
   </script>
 </body>
 </html>

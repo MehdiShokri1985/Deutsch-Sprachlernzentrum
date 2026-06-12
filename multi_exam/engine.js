@@ -345,6 +345,9 @@ function renderNextQuestion() {
   if (state.currentIndex >= state.pool.length) {
     progressBar.style.width = "100%";
     progressText.textContent = state.pool.length + " / " + state.pool.length;
+    if (window.__tracker) {
+      window.__tracker.markLearningAction('exams', 'examCompleted');
+    }
     const completion = document.createElement("div");
     completion.className = "completion-screen";
     completion.innerHTML = "<h3>Exam Completed!</h3><p>All questions answered correctly.</p>";
