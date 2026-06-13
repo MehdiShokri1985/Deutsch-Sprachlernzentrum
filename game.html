@@ -13,20 +13,30 @@
     <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
     <script src="js/auth.js"></script>
     <script src="js/userDisplay.js"></script>
-    <style>html{visibility:hidden}</style>
     <script>
       (function(){
         var U='https://sesltisebtcijdsdeckr.supabase.co',K='sb_publishable_RPND2s4rdjF8ORhD-7bDiA_wkpSscWm';
         try {
           var c=(window.Auth&&window.Auth.client)||supabase.createClient(U,K);
           c.auth.getSession().then(function(r){
-            if(r.data&&r.data.session){document.documentElement.style.visibility='visible'}
-            else{window.location.replace('login.html')}
+            if(!(r.data&&r.data.session)){window.location.replace('login.html')}
           });
         } catch(e) {window.location.replace('login.html')}
       })();
     </script>
-        <link rel="stylesheet" href="css/word-progress-squares.css" />
+    <style>
+      .loader-overlay{position:fixed;inset:0;z-index:9999;display:flex;flex-direction:column;align-items:center;justify-content:center;background:radial-gradient(ellipse at center,rgba(30,27,75,0.88) 0%,rgba(15,23,42,0.96) 100%);backdrop-filter:blur(20px);-webkit-backdrop-filter:blur(20px);transition:opacity .55s ease;opacity:1;pointer-events:auto}
+      .loader-overlay.loader-hidden{opacity:0;pointer-events:none}
+      .loader-rings{position:relative;width:64px;height:64px;margin-bottom:32px}
+      .loader-rings .ring{position:absolute;inset:0;border-radius:50%;border:2.5px solid transparent;will-change:transform}
+      .loader-rings .ring:nth-child(1){border-top-color:#6366f1;animation:loader-spin 1.2s cubic-bezier(.5,0,.5,1) infinite}
+      .loader-rings .ring:nth-child(2){inset:8px;border-right-color:#8b5cf6;animation:loader-spin 1.6s cubic-bezier(.5,0,.5,1) infinite reverse}
+      .loader-rings .ring:nth-child(3){inset:16px;border-bottom-color:#a78bfa;animation:loader-spin 2s cubic-bezier(.5,0,.5,1) infinite}
+      @keyframes loader-spin{to{transform:rotate(360deg)}}
+      .loader-text{color:rgba(255,255,255,.9);font-size:1.1rem;font-weight:500;letter-spacing:.03em}
+      .loader-sub{color:rgba(255,255,255,.4);font-size:.85rem;margin-top:10px;font-weight:400;transition:opacity .4s ease}
+    </style>
+    <link rel="stylesheet" href="css/word-progress-squares.css" />
     <link rel="stylesheet" href="css/game-responsive.css" />
     <link rel="stylesheet" href="css/module-themes.css" />
     <link rel="stylesheet" href="css/game-theme.css" />
@@ -67,6 +77,20 @@
   <body
     class="game-page module-themed min-h-screen font-sans overflow-x-hidden"
   >
+    <div id="loader" class="loader-overlay" role="status" aria-label="Ladevorgang">
+      <div class="loader-rings">
+        <div class="ring"></div>
+        <div class="ring"></div>
+        <div class="ring"></div>
+      </div>
+      <div class="loader-text">Daten werden geladen...</div>
+      <div class="loader-sub" id="loaderSub">Lernfortschritt wird synchronisiert</div>
+    </div>
+    <script>
+      window.loaderReady=function(){var e=document.getElementById('loader');if(e)e.classList.add('loader-hidden')};
+      window.loaderShow=function(t,s){var e=document.getElementById('loader');if(e){e.classList.remove('loader-hidden');if(t||s!==void 0)window.loaderStatus(t,s)}};
+      window.loaderStatus=function(t,s){var e=document.querySelector('.loader-text');if(e&&t)e.textContent=t;var n=document.getElementById('loaderSub');if(n&&s!==void 0)n.textContent=s};
+    </script>
     <!-- Header -->
     <header class="bg-white shadow">
       <div class="container mx-auto px-4 py-2">
@@ -153,7 +177,7 @@
                 </select>
               </div>
 
-              <div class="flex items-center gap-2">
+              <div class="flex items-center gap-2" style="display:none">
                 <span class="font-medium text-gray-700 whitespace-nowrap"
                   >Modus:</span
                 >
@@ -162,7 +186,7 @@
                   class="theme-input bg-white border rounded-lg px-3 py-1.5 text-sm font-semibold focus:outline-none"
                 >
                   <option value="normal">Normal</option>
-                  <option value="hard">Hard</option>
+                  <option value="hard" selected>Hard</option>
                 </select>
               </div>
             </div>

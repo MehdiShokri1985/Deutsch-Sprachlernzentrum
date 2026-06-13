@@ -11,6 +11,7 @@ document.addEventListener("DOMContentLoaded", async () => {
   const jsonPath = params.get("json");
 
   if (!dataset || !jsonPath) {
+    if (window.loaderReady) window.loaderReady();
     document.body.innerHTML = `
       <div class="flex items-center justify-center min-h-screen">
         <div class="text-center">
@@ -25,6 +26,7 @@ document.addEventListener("DOMContentLoaded", async () => {
   try {
     const { data: { user }, error: userError } = await window.Auth.getUser();
     if (user && !userError) {
+      if (window.loaderStatus) window.loaderStatus('Lernfortschritt wird synchronisiert...');
       await data.init(user.id);
     }
 
@@ -33,6 +35,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     tracker.setCurrentSection('verbs');
     window.__tracker = tracker;
 
+    if (window.loaderStatus) window.loaderStatus('Spiel wird vorbereitet...');
     applyModuleTheme(dataset);
     game = new VerbLearningGame(dataset, jsonPath);
     window.game = game;
@@ -42,7 +45,9 @@ document.addEventListener("DOMContentLoaded", async () => {
     document.getElementById("headerTitle").textContent = title;
 
     console.log(`Verb game started: ${dataset}`);
+    if (window.loaderReady) window.loaderReady();
   } catch (error) {
     console.error("Failed to start verb game:", error);
+    if (window.loaderReady) window.loaderReady();
   }
 });

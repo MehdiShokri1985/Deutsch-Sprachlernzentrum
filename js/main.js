@@ -11,6 +11,7 @@ document.addEventListener("DOMContentLoaded", async () => {
   const jsonPath = params.get("json");
 
   if (!dataset || !jsonPath) {
+    if (window.loaderReady) window.loaderReady();
     document.body.innerHTML = `
       <div class="flex items-center justify-center min-h-screen">
         <div class="text-center">
@@ -25,6 +26,7 @@ document.addEventListener("DOMContentLoaded", async () => {
   try {
     const { data: { user }, error: userError } = await window.Auth.getUser();
     if (user && !userError) {
+      if (window.loaderStatus) window.loaderStatus('Lernfortschritt wird synchronisiert...');
       await data.init(user.id);
     }
 
@@ -33,6 +35,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     tracker.setCurrentSection('vocabulary');
     window.__tracker = tracker;
 
+    if (window.loaderStatus) window.loaderStatus('Spiel wird vorbereitet...');
     applyModuleTheme(dataset);
     game = new AdaptiveLearningGame(dataset, jsonPath);
 
@@ -56,7 +59,9 @@ document.addEventListener("DOMContentLoaded", async () => {
     document.getElementById("headerTitle").textContent = titles[dataset] || "German Learning";
 
     console.log(`Game started: ${dataset}`);
+    if (window.loaderReady) window.loaderReady();
   } catch (error) {
     console.error("Failed to start game:", error);
+    if (window.loaderReady) window.loaderReady();
   }
 });

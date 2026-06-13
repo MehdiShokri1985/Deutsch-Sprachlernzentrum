@@ -27,7 +27,7 @@ export class VerbLearningGame extends AdaptiveLearningGame {
       this.setupEventListeners();
       this.updateUI();
 
-      document.getElementById("modeModal").classList.remove("hidden");
+      // حالت همیشه Hard است — مودال انتخاب حالت حذف شد
       this.isGameStartEligible = true;
     } catch (error) {
       console.error("Error initializing verb game:", error);

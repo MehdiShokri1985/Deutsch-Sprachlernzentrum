@@ -38,7 +38,7 @@ export class AdaptiveLearningGame {
     // متغیرهای اصلی بازی
     this.words = [];
     this.currentNiveau = "A1";
-    this.currentMode = "normal";
+    this.currentMode = "hard";
     this.currentCase = "all";
     this.currentWord = null;
     this.currentQuestionType = null;
@@ -86,8 +86,7 @@ export class AdaptiveLearningGame {
       this.setupEventListeners();
       this.updateUI();
 
-      // نمایش مودال انتخاب حالت
-      document.getElementById("modeModal").classList.remove("hidden");
+      // حالت همیشه Hard است — مودال انتخاب حالت حذف شد
 
       // Enable panel click after page refresh initialization
       this.isGameStartEligible = true;
@@ -177,7 +176,7 @@ export class AdaptiveLearningGame {
       .addEventListener("change", (e) => this.changeLevel(e.target.value));
     document
       .getElementById("modeSelect")
-      .addEventListener("change", (e) => this.changeMode(e.target.value));
+      .addEventListener("change", () => this.changeMode("hard"));
     document
       .getElementById("caseSelect")
       ?.addEventListener("change", (e) => this.changeCase(e.target.value));
@@ -596,15 +595,18 @@ export class AdaptiveLearningGame {
    */
   //   changeMode(newMode) {
   async changeMode(newMode) {
-    this.currentMode = newMode;
-    await this.reloadWordsForCurrentCombination();
-
-    // Hide resultModal if visible and reset UI to initial panel state
-    this.forceResetUIState();
-    this.resetSession();
-    this.updateUI();
-    this.saveData();
-    console.log(`🔄 Changed to ${this.getCurrentKey()}`);
+    if (window.loaderShow) window.loaderShow('Modus wird gewechselt...');
+    try {
+      this.currentMode = newMode;
+      await this.reloadWordsForCurrentCombination();
+      this.forceResetUIState();
+      this.resetSession();
+      this.updateUI();
+      this.saveData();
+      console.log(`🔄 Changed to ${this.getCurrentKey()}`);
+    } finally {
+      if (window.loaderReady) window.loaderReady();
+    }
   }
 
   /**
@@ -612,15 +614,20 @@ export class AdaptiveLearningGame {
    * Change case filter
    */
   async changeCase(newCase) {
-    this.currentCase = newCase;
-    const sel = document.getElementById("caseSelect");
-    if (sel) sel.value = newCase;
-    await this.reloadWordsForCurrentCombination();
-    this.forceResetUIState();
-    this.resetSession();
-    this.updateUI();
-    this.saveData();
-    console.log(`🔄 Changed to ${this.getCurrentKey()}`);
+    if (window.loaderShow) window.loaderShow('Filter wird angewandt...');
+    try {
+      this.currentCase = newCase;
+      const sel = document.getElementById("caseSelect");
+      if (sel) sel.value = newCase;
+      await this.reloadWordsForCurrentCombination();
+      this.forceResetUIState();
+      this.resetSession();
+      this.updateUI();
+      this.saveData();
+      console.log(`🔄 Changed to ${this.getCurrentKey()}`);
+    } finally {
+      if (window.loaderReady) window.loaderReady();
+    }
   }
 
   /**
@@ -629,14 +636,18 @@ export class AdaptiveLearningGame {
    */
   //   changeLevel(newLevel) {
   async changeLevel(newLevel) {
-    this.currentNiveau = newLevel;
-    await this.reloadWordsForCurrentCombination();
-    // Hide resultModal if visible and reset UI to initial panel state
-    this.forceResetUIState();
-    this.resetSession();
-    this.updateUI();
-    this.saveData();
-    console.log(`🔄 Changed to ${this.getCurrentKey()}`);
+    if (window.loaderShow) window.loaderShow('Level wird gewechselt...');
+    try {
+      this.currentNiveau = newLevel;
+      await this.reloadWordsForCurrentCombination();
+      this.forceResetUIState();
+      this.resetSession();
+      this.updateUI();
+      this.saveData();
+      console.log(`🔄 Changed to ${this.getCurrentKey()}`);
+    } finally {
+      if (window.loaderReady) window.loaderReady();
+    }
   }
 
   /**
@@ -715,10 +726,12 @@ export class AdaptiveLearningGame {
    */
   async resetProgress() {
     if (
-      confirm(
+      !confirm(
         "Are you sure you want to reset all progress for current combination?",
       )
-    ) {
+    ) return;
+    if (window.loaderShow) window.loaderShow('Fortschritt wird zurückgesetzt...');
+    try {
       // STEP 1 — Reset only this exact combination (preserves all others)
       const result = await data.resetAllData(this.gameType, this.dataSetName, this.currentNiveau, this.currentMode, this.currentCase);
       if (result.ok) {
@@ -765,6 +778,8 @@ export class AdaptiveLearningGame {
       this.isGameStartEligible = true;
 
       console.log(`Reset progress for ${this.getCurrentKey()}`);
+    } finally {
+      if (window.loaderReady) window.loaderReady();
     }
   }
 
