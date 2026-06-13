@@ -47,6 +47,7 @@ export class AdaptiveLearningGame {
     this.lastFaToDeIndex = 0;
     this.pendingIsCorrect = false;
     this.pendingCorrectAnswer = null;
+    this.verbMode = "";
     this.autoCompleteMode = 1;
 
     // Question timing (ms since epoch)
@@ -116,25 +117,21 @@ export class AdaptiveLearningGame {
    * Get current combination key
    */
   getCurrentKey() {
+    if (this.verbMode && this.verbMode !== "verben") {
+      return `${this.currentNiveau}_${this.currentMode}_${this.verbMode}_${this.currentCase}`;
+    }
     return `${this.currentNiveau}_${this.currentMode}_${this.currentCase}`;
   }
 
-  /**
-   * دریافت وضعیت فعلی از StateManager
-   * Get current state from StateManager
-   */
   getCurrentState() {
     return this.stateManager.getCurrentState(
       this.currentNiveau,
       this.currentMode,
       this.currentCase,
+      this.verbMode,
     );
   }
 
-  /**
-   * ذخیره‌سازی داده‌ها
-   * Save all data
-   */
   saveData() {
     if (this._sessionStartTimestamp !== null) {
       const elapsed = Date.now() - this._sessionStartTimestamp;
@@ -145,13 +142,19 @@ export class AdaptiveLearningGame {
     }
     this._sessionStartTimestamp = Date.now();
 
+    const state = this.getCurrentState();
+    console.log(`[STATE_UPDATE] level=${this.currentNiveau} mode=${this.currentMode} case=${this.currentCase} verbMode=${this.verbMode || 'default'} score=${state.score} correct=${state.correctAnswers} wrong=${state.wrongAnswers} total=${state.totalQuestions} session=${state.sessionNumber} timeMs=${state.timeSpentMs}`);
+
+    console.log(`[CROSS_LAYER_DETECTED] persisting SESSION layer + LEARNING ENGINE layer simultaneously level=${this.currentNiveau} mode=${this.currentMode} case=${this.currentCase} verbMode=${this.verbMode || 'default'}`);
+
     this.dataManager.saveWords(
       this.words,
       this.currentNiveau,
       this.currentMode,
       this.currentCase,
+      this.verbMode,
     );
-    this.stateManager.saveState(this.currentNiveau, this.currentMode, this.currentCase);
+    this.stateManager.saveState(this.currentNiveau, this.currentMode, this.currentCase, this.verbMode);
   }
 
   /**
@@ -228,6 +231,15 @@ export class AdaptiveLearningGame {
     hardInput.addEventListener("input", () => this.handleInput());
     hardInput.addEventListener("keydown", (e) => {
       if (e.key === "Enter") this.submitHardAnswer();
+    });
+    hardInput.addEventListener("blur", () => {
+      setTimeout(() => {
+        const list = document.getElementById("autocompleteList");
+        if (list) {
+          list.innerHTML = "";
+          list.classList.add("hidden");
+        }
+      }, 150);
     });
 
     // کیبورد جهانی
@@ -361,9 +373,96 @@ export class AdaptiveLearningGame {
   }
 
   /**
+   * اعمال پاسخ به صورت اتمی روی هر سه لایه
+   * Atomic answer processing: SESSION + LEARNING ENGINE + ANALYTICS
+   *
+   * @param {object} param0
+   * @param {string} param0.wordId
+   * @param {boolean} param0.isCorrect
+   * @param {{level:string, mode:string, case:string}} param0.context
+   * @param {number} [param0.scoreIncrement] - optional session score increment
+   */
+  applyAnswer({ wordId, isCorrect, context: { level, mode, case: caseFilter } = {}, scoreIncrement } = {}) {
+    if (!wordId) throw new Error('[applyAnswer] wordId required');
+    if (typeof isCorrect !== 'boolean') throw new Error('[applyAnswer] isCorrect must be boolean');
+
+    const state = this.getCurrentState();
+    const word = this.words.find(w => w.id === wordId);
+    if (!word) throw new Error('[applyAnswer] word not found: ' + wordId);
+
+    // STEP 1 — Session layer (source of truth)
+    state.totalQuestions++;
+    if (isCorrect) {
+      state.correctAnswers++;
+      state.correctAnswersList = state.correctAnswersList || [];
+      state.correctAnswersList.push(wordId);
+      if (scoreIncrement != null) state.score += scoreIncrement;
+    } else {
+      state.wrongAnswers++;
+    }
+    console.log(`[SYNC_SESSION_UPDATE] wordId=${wordId} isCorrect=${isCorrect} correctAnswers=${state.correctAnswers} wrongAnswers=${state.wrongAnswers} totalQuestions=${state.totalQuestions}`);
+
+    // STEP 2 — Word learning engine (unchanged logic)
+    if (isCorrect) {
+      word.sureCount = (word.sureCount || 0) + 1;
+      word.correctStreak = (word.correctStreak || 0) + 1;
+      word.mistakeCount = 0;
+      word.strength = Math.min(1, (word.strength || 0) + 0.05);
+      word.dueIn = Math.max(0, (word.dueIn || 0) - 1);
+    } else {
+      word.mistakeCount = (word.mistakeCount || 0) + 1;
+      word.correctStreak = 0;
+      word.sureCount = Math.max(0, (word.sureCount || 0) - 1);
+      word.strength = Math.max(0.001, (word.strength || 0) - 0.05);
+      word.dueIn = 1;
+    }
+    word.seenCount = (word.seenCount || 0) + 1;
+
+    if (word.sureCount < 0) throw new Error('NEGATIVE sureCount on word=' + wordId);
+    if (word.correctStreak < 0) throw new Error('NEGATIVE correctStreak on word=' + wordId);
+    if (word.mistakeCount < 0) throw new Error('NEGATIVE mistakeCount on word=' + wordId);
+
+    console.log(`[SYNC_WORD_UPDATE] wordId=${wordId} isCorrect=${isCorrect} sureCount=${word.sureCount} correctStreak=${word.correctStreak} mistakeCount=${word.mistakeCount} strength=${word.strength} dueIn=${word.dueIn} seenCount=${word.seenCount}`);
+
+    // STEP 3 — Stats mirror (derived FROM session, never independent)
+    if (window.__tracker) {
+      const section = this.gameType === 'verbs' ? 'verbs' : 'vocabulary';
+      const stats = window.__tracker.getStats();
+      if (stats && stats.learningActions && stats.learningActions[section]) {
+        stats.learningActions[section].correctAnswer = state.correctAnswers;
+        stats.learningActions[section].wrongAnswer = state.wrongAnswers;
+      }
+    }
+    console.log(`[SYNC_STATS_MIRROR] wordId=${wordId} isCorrect=${isCorrect} correctAnswer=${state.correctAnswers} wrongAnswer=${state.wrongAnswers}`);
+
+    // STEP 4 — Atomic persist (all layers together)
+    this.saveData();
+
+    console.log(`[SYNC_COMPLETE] wordId=${wordId} isCorrect=${isCorrect} correctAnswers=${state.correctAnswers} wrongAnswers=${state.wrongAnswers} totalQuestions=${state.totalQuestions}`);
+
+    return { state, word };
+  }
+
+  /**
    * ارسال پاسخ در حالت سخت
    * Submit answer in hard mode
    */
+  getAutocompleteCandidates(input) {
+    const lower = input.toLowerCase();
+    return this.words
+      .filter((w) => w.word.toLowerCase().startsWith(lower))
+      .slice(0, 8)
+      .map((w) => ({
+        value: w.word,
+        display: w.word,
+        pronunciation: w.pronunciation,
+      }));
+  }
+
+  getCorrectAnswer() {
+    return this.currentWord?.word ?? "";
+  }
+
   submitHardAnswer() {
     if (this.isAnswering) return;
 
@@ -371,34 +470,27 @@ export class AdaptiveLearningGame {
     if (!selected) return;
 
     this.isAnswering = true;
-    const correctAnswer = this.currentWord.word;
+    const correctAnswer = this.getCorrectAnswer();
     const isCorrect = selected.toLowerCase() === correctAnswer.toLowerCase();
 
     this.pendingIsCorrect = isCorrect;
     this.pendingCorrectAnswer = correctAnswer;
 
-    const currentState = this.getCurrentState();
-
-    if (isCorrect) {
-      currentState.correctAnswers++;
-      currentState.score += 30;
-    } else {
-      currentState.wrongAnswers++;
-    }
-
-    currentState.totalQuestions++;
     this.recordAnswerTiming();
-    this._trackAnswer(this.pendingIsCorrect);
-    this.saveData();
+
+    this.applyAnswer({
+      wordId: this.currentWord.id,
+      isCorrect,
+      context: {
+        level: this.currentNiveau,
+        mode: this.currentMode,
+        case: this.currentCase,
+      },
+      scoreIncrement: isCorrect ? 30 : 0,
+    });
+
     this.showResult(this.pendingIsCorrect, this.pendingCorrectAnswer);
     this.updateUI();
-  }
-
-  _trackAnswer(isCorrect) {
-    if (window.__tracker) {
-      const section = this.gameType === 'verbs' ? 'verbs' : 'vocabulary';
-      window.__tracker.markLearningAction(section, isCorrect ? 'correctAnswer' : 'wrongAnswer');
-    }
   }
 
   /**
@@ -418,27 +510,29 @@ export class AdaptiveLearningGame {
     this.pendingIsCorrect = isCorrect;
     this.pendingCorrectAnswer = correctAnswer;
 
-    const currentState = this.getCurrentState();
-
-    if (isCorrect) {
-      currentState.correctAnswers++;
-      const scoreMap = {
-        de_to_fa: 10,
-        word_with_sentence: 15,
-        fa_to_de: 20,
-        sentence_only: 25,
-      };
-      currentState.score += scoreMap[this.currentQuestionType.type] || 10;
-    } else {
-      currentState.wrongAnswers++;
-    }
-
-    currentState.totalQuestions++;
-    currentState.lastWordId = this.currentWord.id;
-
     this.recordAnswerTiming();
-    this._trackAnswer(this.pendingIsCorrect);
-    this.saveData();
+
+    const scoreMap = {
+      de_to_fa: 10,
+      word_with_sentence: 15,
+      fa_to_de: 20,
+      sentence_only: 25,
+    };
+    const scoreIncrement = isCorrect
+      ? (scoreMap[this.currentQuestionType?.type] || 10)
+      : 0;
+
+    this.applyAnswer({
+      wordId: this.currentWord.id,
+      isCorrect,
+      context: {
+        level: this.currentNiveau,
+        mode: this.currentMode,
+        case: this.currentCase,
+      },
+      scoreIncrement,
+    });
+
     this.showResult(this.pendingIsCorrect, this.pendingCorrectAnswer);
     this.updateUI();
   }
@@ -473,14 +567,16 @@ export class AdaptiveLearningGame {
 
     this.currentWord.sureCount = 2;
 
+    console.log(`[LAYER_UPDATE_LEARNING] id=${this.currentWord.id} level=${this.currentNiveau} mode=${this.currentMode} case=${this.currentCase} sureCount=${this.currentWord.sureCount} (easy mastery override)`);
+
     this.saveData();
     this.updateUI();
     this.uiManager.showResultContinueButton();
   }
 
   /**
-   * پردازش سطح اطمینان کاربر
-   * Handle user confidence
+   * پردازش سطح اطمینان کاربر (Differential refinement on top of applyAnswer baseline)
+   * Handle user confidence — refines word learning engine after the atomic answer update
    */
   handleConfidence(confidence) {
     const isCorrect = this.pendingIsCorrect;
@@ -492,33 +588,20 @@ export class AdaptiveLearningGame {
 
     if (isCorrect) {
       if (confidence === "sure") {
-        target.strength = Math.min(1, (target.strength || 0) + 0.25);
-        target.dueIn = Math.min(40, (target.dueIn || 0) + 15);
-        target.sureCount = (target.sureCount || 0) + 1;
-        target.correctStreak = (target.correctStreak || 0) + 1;
-        target.mistakeCount = 0;
+        target.strength = Math.min(1, (target.strength || 0) + 0.20);
+        target.dueIn = Math.min(40, (target.dueIn || 0) + 16);
       } else {
-        target.strength = Math.min(1, (target.strength || 0) + 0.08);
-        target.dueIn = Math.min(25, Math.max(1, (target.dueIn || 0) + 3));
-        target.sureCount = (target.sureCount || 0) - 1;
-        target.correctStreak = (target.correctStreak || 0) + 1;
-        target.mistakeCount = 0;
+        target.strength = Math.min(1, (target.strength || 0) + 0.03);
+        target.dueIn = Math.min(25, Math.max(1, (target.dueIn || 0) + 4));
+        target.sureCount = Math.max(0, (target.sureCount || 0) - 2);
       }
-    } else {
-      if (confidence === "sure") {
-        target.strength = Math.max(0.001, (target.strength || 0) - 0.3);
-        target.dueIn = 1;
-        target.mistakeCount = (target.mistakeCount || 0) + 2;
-        target.correctStreak = 0;
-        target.sureCount = (target.sureCount || 0) - 1;
-      } else {
-        target.strength = Math.max(0.001, (target.strength || 0) - 0.05);
-        target.dueIn = 1;
-        target.mistakeCount = (target.mistakeCount || 0) + 1;
-        target.correctStreak = 0;
-        target.sureCount = (target.sureCount || 0) - 1;
-      }
+    } else if (confidence === "sure") {
+      target.strength = Math.max(0.001, (target.strength || 0) - 0.25);
     }
+
+    if (target.sureCount < 0) throw new Error("INVALID NEGATIVE STATE DETECTED: sureCount=" + target.sureCount);
+
+    console.log(`[CONFIDENCE_REFINEMENT] id=${target.id || this.currentWord?.id} level=${this.currentNiveau} mode=${this.currentMode} case=${this.currentCase} confidence=${confidence} isCorrect=${isCorrect} strength=${target.strength} sureCount=${target.sureCount} dueIn=${target.dueIn} correctStreak=${target.correctStreak} mistakeCount=${target.mistakeCount}`);
 
     this.saveData();
     this.updateUI();
@@ -713,6 +796,7 @@ export class AdaptiveLearningGame {
         this.currentNiveau,
         this.currentMode,
         this.currentCase,
+        this.verbMode,
       );
       this.gameLogic = new GameLogic(this.words);
     } catch (error) {
@@ -733,7 +817,7 @@ export class AdaptiveLearningGame {
     if (window.loaderShow) window.loaderShow('Fortschritt wird zurückgesetzt...');
     try {
       // STEP 1 — Reset only this exact combination (preserves all others)
-      const result = await data.resetAllData(this.gameType, this.dataSetName, this.currentNiveau, this.currentMode, this.currentCase);
+      const result = await data.resetAllData(this.gameType, this.dataSetName, this.currentNiveau, this.currentMode, this.currentCase, this.verbMode);
       if (result.ok) {
         console.log('RESET OK: ' + this.gameType + '/' + this.dataSetName + '/' + this.getCurrentKey());
       } else {
@@ -741,28 +825,34 @@ export class AdaptiveLearningGame {
       }
 
       // STEP 2 — Clear local game state
-      this.stateManager.resetProgress(this.currentNiveau, this.currentMode, this.currentCase);
+      this.stateManager.resetProgress(this.currentNiveau, this.currentMode, this.currentCase, this.verbMode);
 
-      // STEP 3 — Reset word objects in memory
+      // STEP 3 — Reset word objects in memory (dynamic defaults, never from JSON)
+      const DEFAULT_WORD_STATE = {
+        strength: 0.2,
+        dueIn: 0,
+        seenCount: 0,
+        mistakeCount: 0,
+        correctStreak: 0,
+        sureCount: 0,
+      };
+      const DEFAULT_SENTENCE_STATE = {
+        strength: 0.3,
+        dueIn: 0,
+        mistakeCount: 0,
+        seenCount: 0,
+        correctStreak: 0,
+        sureCount: 0,
+      };
       const levelWords = this.words.filter(
         (word) => (word.level || "A1") === this.currentNiveau,
       );
       levelWords.forEach((word) => {
-        word.strength = 0.3;
-        word.dueIn = 0;
-        word.seenCount = 0;
-        word.mistakeCount = 0;
-        word.correctStreak = 0;
-        word.sureCount = 0;
+        Object.assign(word, { ...DEFAULT_WORD_STATE });
 
         if (word.sentences) {
           word.sentences.forEach((sentence) => {
-            sentence.strength = 0.3;
-            sentence.dueIn = 0;
-            sentence.mistakeCount = 0;
-            sentence.seenCount = 0;
-            sentence.correctStreak = 0;
-            sentence.sureCount = 0;
+            Object.assign(sentence, { ...DEFAULT_SENTENCE_STATE });
           });
         }
       });
@@ -771,13 +861,11 @@ export class AdaptiveLearningGame {
       this.resetSession();
       this.updateUI();
 
-      // STEP 4 — Save current combo data (will recreate DB row on next flush)
-      this.saveData();
-
       // Enable panel click after reset
+      this._sessionStartTimestamp = null;
       this.isGameStartEligible = true;
 
-      console.log(`Reset progress for ${this.getCurrentKey()}`);
+      console.log(`[RESET_EXECUTED] game=${this.gameType} dataset=${this.dataSetName} level=${this.currentNiveau} mode=${this.currentMode} case=${this.currentCase} verbMode=${this.verbMode || 'default'}`);
     } finally {
       if (window.loaderReady) window.loaderReady();
     }
@@ -822,8 +910,6 @@ export class AdaptiveLearningGame {
     this.currentQuestionType = this.determineQuestionType(this.currentWord);
     this.currentSentence = null;
     const currentState = this.getCurrentState();
-
-    this.currentWord.seenCount = (this.currentWord.seenCount || 0) + 1;
 
     currentState.lastWordId = this.currentWord.id;
 

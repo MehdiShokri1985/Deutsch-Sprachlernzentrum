@@ -423,16 +423,13 @@ export class UIManager {
       // questionType.textContent = "Schreibe das passende Adjektiv";
       wordDisplay.textContent = "?";
     } else {
-      wordDisplay.textContent = this.game.currentWord.meaning;
-      // questionType.textContent = "Ins Deutsche übersetzen (eintippen)";
+      const verbEntry = this.game.currentVerbEntry;
+      wordDisplay.textContent = verbEntry ? verbEntry.fa : this.game.currentWord.meaning;
     }
 
     questionType.textContent += ` (Sure: ${sureCount}/2)`;
   }
 
-  /**
-   * تولید گزینه‌های پاسخ چندگزینه‌ای
-   */
   generateAnswerOptions() {
     const answerOptions = document.getElementById("answerOptions");
     answerOptions.innerHTML = "";
@@ -549,24 +546,6 @@ export class UIManager {
       document.getElementById("modalTitle").className =
         "text-2xl  mb-2 text-green-600";
       this.playSound("correct");
-
-      currentState.correctAnswersList = currentState.correctAnswersList || [];
-      const existingCorrect = currentState.correctAnswersList.find(
-        (m) => m.word === this.game.currentWord.word,
-      );
-      if (!existingCorrect) {
-        currentState.correctAnswersList.unshift({
-          word: this.game.currentWord.word,
-          meaning: this.game.currentWord.meaning,
-          sentences: this.game.currentWord.sentences
-            ? [...this.game.currentWord.sentences]
-            : [],
-          prasens: this.game.currentWord.prasens,
-          perfekt: this.game.currentWord.perfekt,
-          prateritum: this.game.currentWord.prateritum,
-          futur: this.game.currentWord.futur,
-        });
-      }
     } else {
       document.getElementById("modalIcon").textContent = "";
       document.getElementById("modalTitle").textContent = "Wrong";
@@ -575,24 +554,6 @@ export class UIManager {
       // document.getElementById("modalMessage").textContent =
       //   `The correct answer was: ${correctAnswer}`;
       this.playSound("wrong");
-
-      const existingMistake = currentState.mistakes.find(
-        (m) => m.word === this.game.currentWord.word,
-      );
-      if (!existingMistake) {
-        currentState.mistakes.unshift({
-          word: this.game.currentWord.word,
-          meaning: this.game.currentWord.meaning,
-          sentences: this.game.currentWord.sentences
-            ? [...this.game.currentWord.sentences]
-            : [],
-          prasens: this.game.currentWord.prasens,
-          perfekt: this.game.currentWord.perfekt,
-          prateritum: this.game.currentWord.prateritum,
-          futur: this.game.currentWord.futur,
-        });
-        if (currentState.mistakes.length > 20) currentState.mistakes.pop();
-      }
       this.game.saveData();
     }
 
@@ -602,6 +563,10 @@ export class UIManager {
       : "";
     const w = this.game.currentWord;
     let content = `<div class="md-pair-row md-word-row"><div class="md-pair-start"><strong class="md-label"> . </strong> <a href="https://translate.google.com/?sl=de&tl=fa&text=${encodeURIComponent(w.word)}" target="_blank" class="md-word-link hover:underline" style="font-size:1.15rem">${w.word}</a> ${pronHtml}</div><div class="md-pair-end" dir="rtl">${w.meaning}</div></div>`;
+    const verbEntry = this.game.currentVerbEntry;
+    if (verbEntry) {
+      content += `<div class="md-pair-row" style="font-size:0.9rem;color:#065f46;background:#ecfdf5;padding:0.15rem 0.3rem;border-radius:6px"><div class="md-pair-start" style="font-weight:700">${verbEntry.form}</div><div class="md-pair-end" dir="rtl">${verbEntry.fa}</div></div>`;
+    }
     if (w.prasens && w.prasens.length > 0) {
       content += `<div class="md-pair-row" style="font-size:0.85rem;color:#4f6f0c;background-color: #f9fff2"><span style="font-weight:400">. ${w.prasens[0].form} / ${w.perfekt?.[3]?.form || '?'} / ${w.prateritum?.[0]?.form || '?'}</span></div>`;
     }
@@ -680,7 +645,9 @@ export class UIManager {
     document.getElementById("panel").classList.add("hidden");
     document.getElementById("answerOptions").classList.add("hidden");
     document.getElementById("hardInputContainer").classList.add("hidden");
-    document.getElementById("autocompleteList").classList.add("hidden");
+    const autocompleteListEl = document.getElementById("autocompleteList");
+    autocompleteListEl.innerHTML = "";
+    autocompleteListEl.classList.add("hidden");
 
     this.resetResultModalButtons();
     this.setWordProgressSquaresVisible(true);
@@ -810,9 +777,15 @@ export class UIManager {
     const listContainer = document.getElementById("mistakesList");
     listContainer.innerHTML = "";
 
-    const currentState = this.game.getCurrentState();
+    // Derive mistake words from word-level mistakeCount > 0
+    const levelWords = this.game.words.filter(
+      (w) => (w.level || "A1") === this.game.currentNiveau,
+    );
+    const mistakeWords = levelWords
+      .filter((w) => (w.mistakeCount || 0) > 0)
+      .sort((a, b) => (b.mistakeCount || 0) - (a.mistakeCount || 0));
 
-    if (currentState.mistakes.length === 0) {
+    if (mistakeWords.length === 0) {
       listContainer.innerHTML = `<p class="text-gray-500 text-center py-8">Bisher wurden keine Fehler registriert.</p>`;
       modal.classList.remove("hidden");
       modal.classList.add("flex");
@@ -829,8 +802,12 @@ export class UIManager {
       chevron: "text-red-400",
     };
 
-    currentState.mistakes.forEach((item) => {
-      listContainer.innerHTML += this.renderAccordionCard(item, colors);
+    console.log(`[MISTAKE_TRACKING] game=${this.game.gameType} level=${this.game.currentNiveau} mode=${this.game.currentMode} case=${this.game.currentCase} count=${mistakeWords.length}`);
+
+    mistakeWords.forEach((word) => {
+      if (word) {
+        listContainer.innerHTML += this.renderAccordionCard(word, colors);
+      }
     });
 
     modal.classList.remove("hidden");
@@ -868,8 +845,37 @@ export class UIManager {
       chevron: "text-green-600",
     };
 
-    currentState.correctAnswersList.forEach((item) => {
-      listContainer.innerHTML += this.renderAccordionCard(item, colors);
+    let needsMigration = false;
+    for (const item of currentState.correctAnswersList) {
+      if (typeof item === 'object' && item !== null && !Array.isArray(item)) {
+        needsMigration = true;
+        break;
+      }
+    }
+
+    if (needsMigration) {
+      const oldCorrect = [...currentState.correctAnswersList];
+      currentState.correctAnswersList = [];
+      for (const m of oldCorrect) {
+        const word = this.game.words.find(w => w.word === m.word);
+        if (word) {
+          currentState.correctAnswersList.push(word.id);
+        }
+      }
+      this.game.saveData();
+      console.log(`[CORRECT MIGRATION] game=${this.game.gameType} level=${this.game.currentNiveau} mode=${this.game.currentMode} case=${this.game.currentCase} converted=${currentState.correctAnswersList.length}`);
+    }
+
+    const wordMap = {};
+    this.game.words.forEach(w => { wordMap[w.id] = w; });
+
+    console.log(`[CORRECT LOAD] game=${this.game.gameType} level=${this.game.currentNiveau} mode=${this.game.currentMode} case=${this.game.currentCase} count=${currentState.correctAnswersList.length}`);
+
+    currentState.correctAnswersList.forEach((id) => {
+      const word = wordMap[id];
+      if (word) {
+        listContainer.innerHTML += this.renderAccordionCard(word, colors);
+      }
     });
 
     modal.classList.remove("hidden");
@@ -908,7 +914,9 @@ export class UIManager {
     document.getElementById("panel").classList.add("hidden");
     document.getElementById("answerOptions").classList.add("hidden");
     document.getElementById("hardInputContainer").classList.add("hidden");
-    document.getElementById("autocompleteList").classList.add("hidden");
+    const autocompleteListEl2 = document.getElementById("autocompleteList");
+    autocompleteListEl2.innerHTML = "";
+    autocompleteListEl2.classList.add("hidden");
 
     modal.classList.remove("hidden");
   }
@@ -940,6 +948,13 @@ export class UIManager {
   }
 
   handleInput() {
+    if (this.game.isAnswering) {
+      const list = document.getElementById("autocompleteList");
+      list.innerHTML = "";
+      list.classList.add("hidden");
+      return;
+    }
+
     const input = document.getElementById("hardInput").value.trim();
     const list = document.getElementById("autocompleteList");
     list.innerHTML = "";
@@ -955,23 +970,38 @@ export class UIManager {
       return;
     }
 
-    const candidates = this.game.words
-      .filter((w) => w.word.toLowerCase().startsWith(input.toLowerCase()))
-      .slice(0, 8);
+    const candidates = this.game.getAutocompleteCandidates
+      ? this.game.getAutocompleteCandidates(input)
+      : this.game.words
+          .filter((w) => w.word.toLowerCase().startsWith(input.toLowerCase()))
+          .slice(0, 8);
 
     if (candidates.length === 0) {
       list.classList.add("hidden");
       return;
     }
 
-    candidates.forEach((word) => {
+    candidates.forEach((cand) => {
       const btn = document.createElement("button");
       btn.type = "button";
       btn.className = "game-autocomplete-chip";
-      btn.textContent = word.word;
       btn.setAttribute("role", "option");
+
+      const wordSpan = document.createElement("span");
+      wordSpan.className = "ac-word";
+      wordSpan.textContent = cand.display || cand.word || cand.value;
+
+      const pronSpan = document.createElement("span");
+      pronSpan.className = "ac-pronunciation";
+      pronSpan.textContent = cand.pronunciation ? `(${cand.pronunciation})` : "";
+
+      btn.appendChild(wordSpan);
+      btn.appendChild(pronSpan);
+
+      const submitValue = cand.value || cand.word || cand.display;
       btn.onclick = () => {
-        document.getElementById("hardInput").value = word.word;
+        document.getElementById("hardInput").value = submitValue;
+        list.innerHTML = "";
         list.classList.add("hidden");
         this.game.submitHardAnswer();
       };

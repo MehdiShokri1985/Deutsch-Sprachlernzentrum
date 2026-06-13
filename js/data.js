@@ -41,8 +41,7 @@ async function _flush() {
     _log('WRITE', TABLE, false, error.message);
     console.error('Error saving user data:', error.message);
   } else if (gen !== _generation) {
-    _log('WRITE', TABLE, true, 'stale write gen=' + gen + '->' + _generation + ', deleting');
-    await supabase.from(TABLE).delete().eq('user_id', _userId);
+    _log('WRITE', TABLE, true, 'stale write gen=' + gen + '->' + _generation + ', skipping');
   } else {
     _log('WRITE', TABLE, true, 'data keys=' + Object.keys(_cache).length);
   }
@@ -55,8 +54,6 @@ function _scheduleSave() {
 
 export async function init(userId) {
   _userId = userId;
-
-  await _migrateFromLocalStorage(userId);
 
   const supabase = _client();
   _log('READ', TABLE, true, 'user_id=' + userId);
@@ -79,8 +76,14 @@ export async function init(userId) {
     _log('READ', TABLE, true, 'no existing data');
   }
 
+  // Migrate localStorage keys that don't already exist in Supabase
+  await _migrateFromLocalStorage(userId);
+
   // Migrate old-format keys (without gameType) to new-format keys (with gameType)
   _migrateKeyFormat();
+
+  // Migrate old-format full-word arrays to lightweight progress maps
+  _migrateOldWordFormat();
 
   _subscribe(userId);
 }
@@ -126,37 +129,27 @@ async function _migrateFromLocalStorage(userId) {
   const storageKeys = _storageKeys();
   if (storageKeys.length === 0) return;
 
-  const migrationData = {};
+  let changed = false;
   for (const key of storageKeys) {
-    try {
-      migrationData[key] = JSON.parse(localStorage.getItem(key));
-    } catch {
-      migrationData[key] = localStorage.getItem(key);
+    if (_cache[key] !== undefined) {
+      localStorage.removeItem(key);
+      continue;
     }
-  }
-
-  const supabase = _client();
-  _log('MIGRATE', TABLE, true, 'keys=' + storageKeys.length + ' user_id=' + userId);
-  const { error } = await supabase
-    .from(TABLE)
-    .upsert({
-      user_id: userId,
-      data: migrationData,
-      updated_at: new Date().toISOString()
-    }, { onConflict: 'user_id' });
-
-  if (error) {
-    _log('MIGRATE', TABLE, false, error.message);
-    console.error('Migration error:', error.message);
-    return;
-  }
-
-  for (const key of storageKeys) {
+    try {
+      _cache[key] = JSON.parse(localStorage.getItem(key));
+    } catch {
+      _cache[key] = localStorage.getItem(key);
+    }
     localStorage.removeItem(key);
+    changed = true;
   }
 
-  _cache = migrationData;
-  _log('MIGRATE', TABLE, true, 'localStorage cleared');
+  if (changed) {
+    _log('MIGRATE', TABLE, true, 'merged missing keys=' + storageKeys.length + ' user_id=' + userId);
+    _scheduleSave();
+  } else {
+    _log('MIGRATE', TABLE, true, 'all localStorage keys already in Supabase, skipped');
+  }
 }
 
 function _migrateKeyFormat() {
@@ -206,6 +199,40 @@ function _migrateKeyFormat() {
   }
 }
 
+function _migrateOldWordFormat() {
+  var prefix = 'langgame_words_';
+  var migrated = false;
+
+  for (var key of Object.keys(_cache)) {
+    if (!key.startsWith(prefix)) continue;
+    var val = _cache[key];
+    if (!Array.isArray(val) || val.length === 0) continue;
+
+    console.log('[MIGRATE WORDS] old-format array detected: key=' + key + ' words=' + val.length);
+    var progressMap = {};
+    for (var i = 0; i < val.length; i++) {
+      var w = val[i];
+      if (w && w.id != null) {
+        progressMap[w.id] = {
+          mistakeCount: w.mistakeCount ?? 0,
+          sureCount: w.sureCount ?? 0,
+          strength: w.strength ?? 0.3,
+          dueIn: w.dueIn ?? 0,
+          correctStreak: w.correctStreak ?? 0,
+          seenCount: w.seenCount ?? 0
+        };
+      }
+    }
+    _cache[key] = progressMap;
+    migrated = true;
+    console.log('[MIGRATE WORDS] converted to progress map: key=' + key + ' entries=' + Object.keys(progressMap).length);
+  }
+
+  if (migrated) {
+    _scheduleSave();
+  }
+}
+
 function _subscribe(userId) {
   if (_subscription) return;
 
@@ -223,7 +250,18 @@ function _subscribe(userId) {
         _log('REALTIME', TABLE, true, 'ignored (resetting)');
         return;
       }
+      if (payload.eventType === 'DELETE') {
+        _generation++;
+        if (_saveTimer) { clearTimeout(_saveTimer); _saveTimer = null; }
+        _cache = {};
+        if (_onRemoteChange) {
+          _onRemoteChange(_cache);
+        }
+        return;
+      }
       if (payload.new && payload.new.data) {
+        _generation++;
+        if (_saveTimer) { clearTimeout(_saveTimer); _saveTimer = null; }
         _cache = payload.new.data;
         if (_onRemoteChange) {
           _onRemoteChange(_cache);
@@ -245,7 +283,7 @@ export function unsubscribe() {
   }
 }
 
-export async function resetAllData(gameType, datasetName, niveau, mode, caseFilter) {
+export async function resetAllData(gameType, datasetName, niveau, mode, caseFilter, verbMode = "") {
   _generation++;
   _isResetting = true;
 
@@ -266,9 +304,11 @@ export async function resetAllData(gameType, datasetName, niveau, mode, caseFilt
 
   // Remove only the cache keys for this exact combination
   const prefix = 'langgame_';
-  const wordKey = prefix + 'words_' + gameType + '_' + datasetName + '_' + niveau + '_' + mode + '_' + caseFilter;
-  const stateKey = prefix + 'state_' + gameType + '_' + datasetName + '_' + niveau + '_' + mode + '_' + caseFilter;
+  const vmSegment = (verbMode && verbMode !== "verben") ? '_' + verbMode : '';
+  const wordKey = prefix + 'words_' + gameType + '_' + datasetName + '_' + niveau + '_' + mode + vmSegment + '_' + caseFilter;
+  const stateKey = prefix + 'state_' + gameType + '_' + datasetName + '_' + niveau + '_' + mode + vmSegment + '_' + caseFilter;
 
+  console.log('[RESET PROGRESS] game=' + gameType + ' dataset=' + datasetName + ' level=' + niveau + ' mode=' + mode + ' case=' + caseFilter + ' verbMode=' + (verbMode || 'default'));
   console.log('RESET TARGET KEYS:', wordKey, stateKey);
   delete _cache[wordKey];
   delete _cache[stateKey];
@@ -281,7 +321,7 @@ export async function resetAllData(gameType, datasetName, niveau, mode, caseFilt
 
   // Update Supabase row with remaining data (preserves all other combinations)
   const supabase = _client();
-  _log('RESET', TABLE, true, 'updating row user_id=' + _userId + ' gameType=' + gameType + ' dataset=' + datasetName + ' combo=' + niveau + '_' + mode + '_' + caseFilter);
+  _log('RESET', TABLE, true, 'updating row user_id=' + _userId + ' gameType=' + gameType + ' dataset=' + datasetName + ' combo=' + niveau + '_' + mode + vmSegment + '_' + caseFilter);
   const { error } = await supabase
     .from(TABLE)
     .upsert({

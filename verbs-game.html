@@ -10,9 +10,9 @@
         <link rel="icon" type="image/svg+xml" href="assets/icons/favicon.svg">
         <title id="pageTitle">German Learning</title>
         <script src="https://cdn.tailwindcss.com"></script>
-        <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
-        <script src="js/auth.js"></script>
-        <script src="js/userDisplay.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js?v=1"></script>
+        <script src="js/auth.js?v=1"></script>
+        <script src="js/userDisplay.js?v=1"></script>
         <script>
           (function(){
             var U='https://sesltisebtcijdsdeckr.supabase.co',K='sb_publishable_RPND2s4rdjF8ORhD-7bDiA_wkpSscWm';
@@ -226,6 +226,23 @@
                             <div class="flex items-center gap-2">
                                 <span
                                     class="font-medium text-gray-700 whitespace-nowrap"
+                                    >Verb:</span
+                                >
+                                <select
+                                    id="verbModeSelect"
+                                    class="theme-input bg-white border rounded-lg px-3 py-1.5 text-sm font-semibold focus:outline-none"
+                                >
+                                    <option value="verben">Verben</option>
+                                    <option value="prasens">Präsens</option>
+                                    <option value="perfekt">Perfekt</option>
+                                    <option value="prateritum">Präteritum</option>
+                                    <option value="futur">Futur</option>
+                                </select>
+                            </div>
+
+                            <div class="flex items-center gap-2">
+                                <span
+                                    class="font-medium text-gray-700 whitespace-nowrap"
                                     >Kasus:</span
                                 >
                                 <select
@@ -287,7 +304,7 @@
 
                 <div
                     id="autocompleteList"
-                    class="hidden flex flex-wrap gap-1.5 justify-center items-center mb-2 w-full min-w-0"
+                    class="hidden mb-2 w-full min-w-0"
                     role="listbox"
                     aria-label="Wortvorschläge"
                 ></div>
@@ -583,6 +600,6 @@
                 ></div>
             </div>
         </div>
-        <script type="module" src="js/verbs-main.js"></script>
+        <script type="module" src="js/verbs-main.js?v=1"></script>
     </body>
 </html>

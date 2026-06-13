@@ -7,10 +7,7 @@
     "pronunciation": "وُونِن",
     "meaning": "زندگی کردن / سکونت داشتن",
     "antonyms": [],
-    "synonyms": [
-      "leben",
-      "residieren"
-    ],
+    "synonyms": ["leben", "residieren"],
     "prasens": [
       {
         "person": "Ich",
@@ -207,11 +204,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Intransitiv",
@@ -232,9 +225,7 @@
     "pronunciation": "بِتساهْلِن",
     "meaning": "پرداخت کردن",
     "antonyms": [],
-    "synonyms": [
-      "zahlen"
-    ],
+    "synonyms": ["zahlen"],
     "prasens": [
       {
         "person": "Ich",
@@ -427,11 +418,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -461,9 +448,7 @@
     "pronunciation": "تساهْلِن",
     "meaning": "پرداخت کردن / شمردن",
     "antonyms": [],
-    "synonyms": [
-      "bezahlen"
-    ],
+    "synonyms": ["bezahlen"],
     "prasens": [
       {
         "person": "Ich",
@@ -656,11 +641,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -689,9 +670,7 @@
     "word": "abfahren",
     "pronunciation": "آپْفارِن",
     "meaning": "حرکت کردن (قطار، اتوبوس و غیره)",
-    "antonyms": [
-      "ankommen"
-    ],
+    "antonyms": ["ankommen"],
     "synonyms": [],
     "prasens": [
       {
@@ -885,11 +864,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Intransitiv",
@@ -1103,11 +1078,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -1330,11 +1301,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -1354,12 +1321,8 @@
     "word": "anfangen",
     "pronunciation": "آنْفانْگِن",
     "meaning": "شروع کردن",
-    "antonyms": [
-      "aufhören"
-    ],
-    "synonyms": [
-      "beginnen"
-    ],
+    "antonyms": ["aufhören"],
+    "synonyms": ["beginnen"],
     "prasens": [
       {
         "person": "Ich",
@@ -1552,11 +1515,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -1770,11 +1729,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -1794,9 +1749,7 @@
     "word": "ankommen",
     "pronunciation": "آنْکامِن",
     "meaning": "رسیدن",
-    "antonyms": [
-      "abfahren"
-    ],
+    "antonyms": ["abfahren"],
     "synonyms": [],
     "prasens": [
       {
@@ -1990,11 +1943,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Intransitiv",
@@ -2208,11 +2157,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -2426,11 +2371,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -2644,11 +2585,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk (reflexiv)",
@@ -2862,11 +2799,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -3080,11 +3013,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Dativ",
@@ -3298,11 +3227,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -3525,11 +3450,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Intransitiv",
@@ -3743,11 +3664,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Dativ",
@@ -3961,11 +3878,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Intransitiv",
@@ -4179,11 +4092,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -4397,11 +4306,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -4615,11 +4520,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Intransitiv",
@@ -4833,11 +4734,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Intransitiv",
@@ -5051,11 +4948,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -5278,11 +5171,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Intransitiv",
@@ -5505,11 +5394,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -5723,11 +5608,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -5941,11 +5822,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -6159,11 +6036,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -6377,11 +6250,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -6595,11 +6464,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -6822,11 +6687,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -7040,11 +6901,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -7258,11 +7115,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Intransitiv",
@@ -7476,11 +7329,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -7694,11 +7543,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -7921,11 +7766,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -7946,9 +7787,7 @@
     "pronunciation": "دانْکِن",
     "meaning": "تشکر کردن",
     "antonyms": [],
-    "synonyms": [
-      "bedanken"
-    ],
+    "synonyms": ["bedanken"],
     "prasens": [
       {
         "person": "Ich",
@@ -8141,11 +7980,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Dativ",
@@ -8359,11 +8194,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -8577,11 +8408,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -8795,11 +8622,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -9013,11 +8836,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Modalverb",
@@ -9231,11 +9050,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Intransitiv",
@@ -9458,11 +9273,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -9676,11 +9487,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -9894,11 +9701,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Intransitiv",
@@ -10112,11 +9915,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -10145,12 +9944,8 @@
     "word": "enden",
     "pronunciation": "اِندِن",
     "meaning": "تمام شدن",
-    "antonyms": [
-      "beginnen"
-    ],
-    "synonyms": [
-      "aufhören"
-    ],
+    "antonyms": ["beginnen"],
+    "synonyms": ["aufhören"],
     "prasens": [
       {
         "person": "Ich",
@@ -10343,11 +10138,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Intransitiv",
@@ -10561,11 +10352,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk (reflexiv)",
@@ -10779,11 +10566,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -11006,11 +10789,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -11233,11 +11012,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -11460,11 +11235,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -11678,11 +11449,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Intransitiv",
@@ -11905,11 +11672,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -12123,11 +11886,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Dativ",
@@ -12341,11 +12100,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Intransitiv",
@@ -12559,11 +12314,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -12777,11 +12528,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Intransitiv",
@@ -12995,11 +12742,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Intransitiv",
@@ -13213,11 +12956,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -13431,11 +13170,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "reflexiv + Akk",
@@ -13649,11 +13384,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Intransitiv",
@@ -13867,11 +13598,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk + Dativ",
@@ -14085,11 +13812,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Dativ",
@@ -14303,11 +14026,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Intransitiv",
@@ -14521,11 +14240,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Dativ",
@@ -14739,11 +14454,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Intransitiv",
@@ -14957,11 +14668,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -15175,11 +14882,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -15402,11 +15105,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Dativ",
@@ -15620,11 +15319,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -15838,11 +15533,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -16056,11 +15747,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -16274,11 +15961,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -16492,11 +16175,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Intransitiv",
@@ -16517,9 +16196,7 @@
     "pronunciation": "هِلْفِن",
     "meaning": "کمک کردن",
     "antonyms": [],
-    "synonyms": [
-      "unterstützen"
-    ],
+    "synonyms": ["unterstützen"],
     "prasens": [
       {
         "person": "Ich",
@@ -16712,11 +16389,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Dativ",
@@ -16930,11 +16603,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -17148,11 +16817,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -17172,9 +16837,7 @@
     "word": "kaufen",
     "pronunciation": "کاوفِن",
     "meaning": "خریدن",
-    "antonyms": [
-      "verkaufen"
-    ],
+    "antonyms": ["verkaufen"],
     "synonyms": [],
     "prasens": [
       {
@@ -17368,11 +17031,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -17595,11 +17254,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -17813,11 +17468,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -18031,11 +17682,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -18055,9 +17702,7 @@
     "word": "kommen",
     "pronunciation": "کامِن",
     "meaning": "آمدن",
-    "antonyms": [
-      "gehen"
-    ],
+    "antonyms": ["gehen"],
     "synonyms": [],
     "prasens": [
       {
@@ -18251,11 +17896,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Intransitiv",
@@ -18469,11 +18110,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Modalverb",
@@ -18687,11 +18324,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -18712,9 +18345,7 @@
     "pronunciation": "کْریگِن",
     "meaning": "گرفتن (محاوره‌ای)",
     "antonyms": [],
-    "synonyms": [
-      "bekommen"
-    ],
+    "synonyms": ["bekommen"],
     "prasens": [
       {
         "person": "Ich",
@@ -18907,11 +18538,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -19125,11 +18752,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "reflexiv + Akk",
@@ -19149,9 +18772,7 @@
     "word": "lachen",
     "pronunciation": "لاخِن",
     "meaning": "خندیدن",
-    "antonyms": [
-      "weinen"
-    ],
+    "antonyms": ["weinen"],
     "synonyms": [],
     "prasens": [
       {
@@ -19345,11 +18966,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Intransitiv",
@@ -19379,9 +18996,7 @@
     "pronunciation": "لاوفِن",
     "meaning": "دویدن، راه رفتن",
     "antonyms": [],
-    "synonyms": [
-      "rennen"
-    ],
+    "synonyms": ["rennen"],
     "prasens": [
       {
         "person": "Ich",
@@ -19574,11 +19189,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Intransitiv",
@@ -19598,9 +19209,7 @@
     "word": "leben",
     "pronunciation": "لِبِن",
     "meaning": "زندگی کردن",
-    "antonyms": [
-      "sterben"
-    ],
+    "antonyms": ["sterben"],
     "synonyms": [],
     "prasens": [
       {
@@ -19794,11 +19403,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Intransitiv",
@@ -19996,11 +19601,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -20198,11 +19799,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -20400,11 +19997,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -20602,11 +20195,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -20804,11 +20393,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Intransitiv",
@@ -21006,11 +20591,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -21208,11 +20789,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -21410,11 +20987,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -21612,11 +21185,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Intransitiv",
@@ -21814,21 +21383,23 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
-    {
-      "case": "Intransitiv",
-      "examples": [
-        { "german": "Ich mache mit.", "persian": "من شرکت می‌کنم." },
-        { "german": "Ich mache bei dem Spiel mit.", "persian": "من در بازی شرکت می‌کنم." },
-        { "german": "Ich mache den Kurs mit.", "persian": "من در دوره شرکت می‌کنم." }
-      ]
-    }
-  ]
+      {
+        "case": "Intransitiv",
+        "examples": [
+          { "german": "Ich mache mit.", "persian": "من شرکت می‌کنم." },
+          {
+            "german": "Ich mache bei dem Spiel mit.",
+            "persian": "من در بازی شرکت می‌کنم."
+          },
+          {
+            "german": "Ich mache den Kurs mit.",
+            "persian": "من در دوره شرکت می‌کنم."
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "101",
@@ -22015,11 +21586,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -22217,11 +21784,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -22419,11 +21982,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -22621,11 +22180,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Modalverb",
@@ -22823,11 +22378,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -23041,11 +22592,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -23259,11 +22806,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Intransitiv",
@@ -23477,11 +23020,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -23695,11 +23234,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Intransitiv",
@@ -23913,11 +23448,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Intransitiv",
@@ -24131,11 +23662,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -24349,11 +23876,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Intransitiv",
@@ -24576,11 +24099,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Intransitiv",
@@ -24794,11 +24313,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -25021,11 +24536,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Intransitiv",
@@ -25239,11 +24750,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -25457,11 +24964,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Dativ",
@@ -25675,11 +25178,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -25902,11 +25401,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -26129,11 +25624,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Intransitiv",
@@ -26347,11 +25838,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -26565,11 +26052,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Intransitiv",
@@ -26589,9 +26072,7 @@
     "word": "an sein",
     "pronunciation": "آن زاین",
     "meaning": "روشن بودن (لامپ، رادیو و غیره)",
-    "antonyms": [
-      "aus sein"
-    ],
+    "antonyms": ["aus sein"],
     "synonyms": [],
     "prasens": [
       {
@@ -26785,10 +26266,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
+
     "seenCount": 0
   },
   {
@@ -26798,9 +26276,7 @@
     "word": "auf sein",
     "pronunciation": "آوفْ زاین",
     "meaning": "بیدار بودن / باز بودن",
-    "antonyms": [
-      "zu sein"
-    ],
+    "antonyms": ["zu sein"],
     "synonyms": [],
     "prasens": [
       {
@@ -26994,10 +26470,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
+
     "seenCount": 0
   },
   {
@@ -27008,9 +26481,7 @@
     "pronunciation": "وِگْ زاین",
     "meaning": "رفته بودن / غایب بودن",
     "antonyms": [],
-    "synonyms": [
-      "abwesend sein"
-    ],
+    "synonyms": ["abwesend sein"],
     "prasens": [
       {
         "person": "Ich",
@@ -27203,10 +26674,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
+
     "seenCount": 0
   },
   {
@@ -27216,9 +26684,7 @@
     "word": "zu sein",
     "pronunciation": "تسو زاین",
     "meaning": "بسته بودن",
-    "antonyms": [
-      "auf sein"
-    ],
+    "antonyms": ["auf sein"],
     "synonyms": [],
     "prasens": [
       {
@@ -27412,10 +26878,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
+
     "seenCount": 0
   },
   {
@@ -27425,9 +26888,7 @@
     "word": "sitzen",
     "pronunciation": "زیتْسِن",
     "meaning": "نشستن",
-    "antonyms": [
-      "stehen"
-    ],
+    "antonyms": ["stehen"],
     "synonyms": [],
     "prasens": [
       {
@@ -27621,11 +27082,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Intransitiv",
@@ -27646,9 +27103,7 @@
     "pronunciation": "زولِن",
     "meaning": "باید (تکلیف)",
     "antonyms": [],
-    "synonyms": [
-      "müssen"
-    ],
+    "synonyms": ["müssen"],
     "prasens": [
       {
         "person": "Ich",
@@ -27841,11 +27296,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Modalverb",
@@ -28059,11 +27510,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -28084,9 +27531,7 @@
     "pronunciation": "شْپْرِخِن",
     "meaning": "صحبت کردن",
     "antonyms": [],
-    "synonyms": [
-      "reden"
-    ],
+    "synonyms": ["reden"],
     "prasens": [
       {
         "person": "Ich",
@@ -28279,11 +27724,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Dativ",
@@ -28303,9 +27744,7 @@
     "word": "stehen",
     "pronunciation": "شتِهِن",
     "meaning": "ایستادن",
-    "antonyms": [
-      "sitzen"
-    ],
+    "antonyms": ["sitzen"],
     "synonyms": [],
     "prasens": [
       {
@@ -28499,11 +27938,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Intransitiv",
@@ -28717,11 +28152,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Intransitiv",
@@ -28742,9 +28173,7 @@
     "pronunciation": "تِلِفونیِرِن",
     "meaning": "تلفن کردن",
     "antonyms": [],
-    "synonyms": [
-      "anrufen"
-    ],
+    "synonyms": ["anrufen"],
     "prasens": [
       {
         "person": "Ich",
@@ -28937,11 +28366,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Dativ",
@@ -28962,9 +28387,7 @@
     "pronunciation": "تْرِفِن",
     "meaning": "دیدار کردن / ملاقات کردن",
     "antonyms": [],
-    "synonyms": [
-      "begegnen"
-    ],
+    "synonyms": ["begegnen"],
     "prasens": [
       {
         "person": "Ich",
@@ -29157,11 +28580,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -29375,11 +28794,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -29400,9 +28815,7 @@
     "pronunciation": "تون",
     "meaning": "انجام دادن / کردن",
     "antonyms": [],
-    "synonyms": [
-      "machen"
-    ],
+    "synonyms": ["machen"],
     "prasens": [
       {
         "person": "Ich",
@@ -29595,11 +29008,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -29813,11 +29222,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Intransitiv",
@@ -30031,11 +29436,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -30258,11 +29659,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -30476,11 +29873,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -30694,11 +30087,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -30912,11 +30301,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -31130,11 +30515,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -31348,11 +30729,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk (reflexiv)",
@@ -31566,11 +30943,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Intransitiv",
@@ -31784,11 +31157,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -32002,11 +31371,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -32229,11 +31594,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Dativ",
@@ -32447,11 +31808,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -32665,11 +32022,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -32883,11 +32236,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Intransitiv",
@@ -33101,11 +32450,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -33319,11 +32664,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -33353,10 +32694,7 @@
     "pronunciation": "مارکیرِن",
     "meaning": "علامت زدن / نشان دادن",
     "antonyms": [],
-    "synonyms": [
-      "kennzeichnen",
-      "hervorheben"
-    ],
+    "synonyms": ["kennzeichnen", "hervorheben"],
     "prasens": [
       {
         "person": "Ich",
@@ -33553,11 +32891,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -33578,10 +32912,7 @@
     "pronunciation": "آبگِبِن",
     "meaning": "تحویل دادن / تسلیم کردن",
     "antonyms": [],
-    "synonyms": [
-      "übergeben",
-      "einreichen"
-    ],
+    "synonyms": ["übergeben", "einreichen"],
     "prasens": [
       {
         "person": "Ich",
@@ -33778,11 +33109,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -33812,10 +33139,7 @@
     "pronunciation": "آبهولِن",
     "meaning": "تحویل گرفتن / بردن",
     "antonyms": [],
-    "synonyms": [
-      "holen",
-      "abholen gehen"
-    ],
+    "synonyms": ["holen", "abholen gehen"],
     "prasens": [
       {
         "person": "Ich",
@@ -34012,11 +33336,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -34036,13 +33356,8 @@
     "word": "abschließen",
     "pronunciation": "آبشلیسن",
     "meaning": "بستن / قفل کردن / تمام کردن",
-    "antonyms": [
-      "öffnen"
-    ],
-    "synonyms": [
-      "verschließen",
-      "beenden"
-    ],
+    "antonyms": ["öffnen"],
+    "synonyms": ["verschließen", "beenden"],
     "prasens": [
       {
         "person": "Ich",
@@ -34239,11 +33554,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -34264,10 +33575,7 @@
     "pronunciation": "آنبیتِن",
     "meaning": "پیشنهاد دادن",
     "antonyms": [],
-    "synonyms": [
-      "vorschlagen",
-      "anbieten"
-    ],
+    "synonyms": ["vorschlagen", "anbieten"],
     "prasens": [
       {
         "person": "Ich",
@@ -34464,11 +33772,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -34498,10 +33802,7 @@
     "pronunciation": "اِنْدِرن",
     "meaning": "تغییر دادن",
     "antonyms": [],
-    "synonyms": [
-      "verändern",
-      "modifizieren"
-    ],
+    "synonyms": ["verändern", "modifizieren"],
     "prasens": [
       {
         "person": "Ich",
@@ -34698,11 +33999,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -34722,14 +34019,8 @@
     "word": "anfangen",
     "pronunciation": "آنفانگِن",
     "meaning": "شروع کردن",
-    "antonyms": [
-      "aufhören",
-      "beenden"
-    ],
-    "synonyms": [
-      "beginnen",
-      "starten"
-    ],
+    "antonyms": ["aufhören", "beenden"],
+    "synonyms": ["beginnen", "starten"],
     "prasens": [
       {
         "person": "Ich",
@@ -34926,11 +34217,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -34950,14 +34237,8 @@
     "word": "ankommen",
     "pronunciation": "آنکامِن",
     "meaning": "رسیدن",
-    "antonyms": [
-      "abfahren",
-      "weggehen"
-    ],
-    "synonyms": [
-      "eintreffen",
-      "gelangen"
-    ],
+    "antonyms": ["abfahren", "weggehen"],
+    "synonyms": ["eintreffen", "gelangen"],
     "prasens": [
       {
         "person": "Ich",
@@ -35154,11 +34435,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Intransitiv",
@@ -35178,12 +34455,8 @@
     "word": "anmachen",
     "pronunciation": "آنماخِن",
     "meaning": "روشن کردن / مخلوط کردن",
-    "antonyms": [
-      "ausmachen"
-    ],
-    "synonyms": [
-      "einschalten"
-    ],
+    "antonyms": ["ausmachen"],
+    "synonyms": ["einschalten"],
     "prasens": [
       {
         "person": "Ich",
@@ -35380,11 +34653,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -35405,9 +34674,7 @@
     "pronunciation": "آنمِلدِن",
     "meaning": "ثبت نام کردن / اطلاع دادن",
     "antonyms": [],
-    "synonyms": [
-      "registrieren"
-    ],
+    "synonyms": ["registrieren"],
     "prasens": [
       {
         "person": "Ich",
@@ -35604,11 +34871,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk (reflexiv)",
@@ -35629,9 +34892,7 @@
     "pronunciation": "آنروفِن",
     "meaning": "تماس گرفتن / زنگ زدن",
     "antonyms": [],
-    "synonyms": [
-      "telefonieren"
-    ],
+    "synonyms": ["telefonieren"],
     "prasens": [
       {
         "person": "Ich",
@@ -35828,11 +35089,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -35853,10 +35110,7 @@
     "pronunciation": "آنزهِن",
     "meaning": "نگاه کردن / تماشا کردن",
     "antonyms": [],
-    "synonyms": [
-      "schauen",
-      "betrachten"
-    ],
+    "synonyms": ["schauen", "betrachten"],
     "prasens": [
       {
         "person": "Ich",
@@ -36053,10 +35307,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
+
     "seenCount": 0
   },
   {
@@ -36066,12 +35317,8 @@
     "word": "antworten",
     "pronunciation": "آنتوُرتن",
     "meaning": "پاسخ دادن",
-    "antonyms": [
-      "fragen"
-    ],
-    "synonyms": [
-      "beantworten"
-    ],
+    "antonyms": ["fragen"],
+    "synonyms": ["beantworten"],
     "prasens": [
       {
         "person": "Ich",
@@ -36268,11 +35515,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Dativ",
@@ -36292,13 +35535,8 @@
     "word": "arbeiten",
     "pronunciation": "آر‌بایتِن",
     "meaning": "کار کردن",
-    "antonyms": [
-      "faulenzen"
-    ],
-    "synonyms": [
-      "tätig sein",
-      "beschäftigt sein"
-    ],
+    "antonyms": ["faulenzen"],
+    "synonyms": ["tätig sein", "beschäftigt sein"],
     "prasens": [
       {
         "person": "Ich",
@@ -36495,11 +35733,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Intransitiv",
@@ -36519,13 +35753,8 @@
     "word": "ärgern",
     "pronunciation": "اِرگِرن",
     "meaning": "عصبانی کردن / اذیت کردن (sich ärgern = عصبانی شدن)",
-    "antonyms": [
-      "freuen"
-    ],
-    "synonyms": [
-      "wütend machen",
-      "irritieren"
-    ],
+    "antonyms": ["freuen"],
+    "synonyms": ["wütend machen", "irritieren"],
     "prasens": [
       {
         "person": "Ich",
@@ -36734,10 +35963,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
+
     "seenCount": 0
   },
   {
@@ -36747,14 +35973,8 @@
     "word": "aufhören",
     "pronunciation": "آوف‌هُورِن",
     "meaning": "متوقف شدن / تمام کردن / دست کشیدن",
-    "antonyms": [
-      "anfangen",
-      "fortsetzen"
-    ],
-    "synonyms": [
-      "beenden",
-      "stoppen"
-    ],
+    "antonyms": ["anfangen", "fortsetzen"],
+    "synonyms": ["beenden", "stoppen"],
     "prasens": [
       {
         "person": "Ich",
@@ -36963,11 +36183,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Dativ",
@@ -36987,13 +36203,8 @@
     "word": "aufmachen",
     "pronunciation": "آوف‌ماخِن",
     "meaning": "باز کردن",
-    "antonyms": [
-      "zumachen",
-      "schließen"
-    ],
-    "synonyms": [
-      "öffnen"
-    ],
+    "antonyms": ["zumachen", "schließen"],
+    "synonyms": ["öffnen"],
     "prasens": [
       {
         "person": "Ich",
@@ -37202,11 +36413,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -37227,10 +36434,7 @@
     "pronunciation": "آوف‌پاسِن",
     "meaning": "مراقب بودن / توجه کردن",
     "antonyms": [],
-    "synonyms": [
-      "achten",
-      "beobachten"
-    ],
+    "synonyms": ["achten", "beobachten"],
     "prasens": [
       {
         "person": "Ich",
@@ -37439,11 +36643,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -37463,13 +36663,8 @@
     "word": "aufräumen",
     "pronunciation": "آوف‌رُوی‌مِن",
     "meaning": "تمیز کردن / مرتب کردن",
-    "antonyms": [
-      "unordentlich lassen"
-    ],
-    "synonyms": [
-      "ordnen",
-      "saubermachen"
-    ],
+    "antonyms": ["unordentlich lassen"],
+    "synonyms": ["ordnen", "saubermachen"],
     "prasens": [
       {
         "person": "Ich",
@@ -37678,11 +36873,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -37702,14 +36893,8 @@
     "word": "aufstehen",
     "pronunciation": "آوف‌شتِهِن",
     "meaning": "از جا بلند شدن / بیدار شدن",
-    "antonyms": [
-      "hinlegen",
-      "schlafen bleiben"
-    ],
-    "synonyms": [
-      "hochkommen",
-      "erheben"
-    ],
+    "antonyms": ["hinlegen", "schlafen bleiben"],
+    "synonyms": ["hochkommen", "erheben"],
     "prasens": [
       {
         "person": "Ich",
@@ -37918,11 +37103,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Intransitiv",
@@ -37943,9 +37124,7 @@
     "pronunciation": "آوس‌فیلِن",
     "meaning": "پر کردن (فرم)",
     "antonyms": [],
-    "synonyms": [
-      "komplettieren"
-    ],
+    "synonyms": ["komplettieren"],
     "prasens": [
       {
         "person": "Ich",
@@ -38154,11 +37333,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -38178,12 +37353,8 @@
     "word": "ausgeben",
     "pronunciation": "آوس‌گِبِن",
     "meaning": "خرج کردن / صرف کردن",
-    "antonyms": [
-      "sparen"
-    ],
-    "synonyms": [
-      "verbrauchen"
-    ],
+    "antonyms": ["sparen"],
+    "synonyms": ["verbrauchen"],
     "prasens": [
       {
         "person": "Ich",
@@ -38392,11 +37563,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -38416,12 +37583,8 @@
     "word": "ausgehen",
     "pronunciation": "آوس‌گِهِن",
     "meaning": "بیرون رفتن / تمام شدن",
-    "antonyms": [
-      "zu Hause bleiben"
-    ],
-    "synonyms": [
-      "weggehen"
-    ],
+    "antonyms": ["zu Hause bleiben"],
+    "synonyms": ["weggehen"],
     "prasens": [
       {
         "person": "Ich",
@@ -38630,11 +37793,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Intransitiv",
@@ -38654,12 +37813,8 @@
     "word": "ausmachen",
     "pronunciation": "آوس‌ماخِن",
     "meaning": "خاموش کردن / مهم بودن",
-    "antonyms": [
-      "anmachen"
-    ],
-    "synonyms": [
-      "ausschalten"
-    ],
+    "antonyms": ["anmachen"],
+    "synonyms": ["ausschalten"],
     "prasens": [
       {
         "person": "Ich",
@@ -38868,11 +38023,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -38892,12 +38043,8 @@
     "word": "auspacken",
     "pronunciation": "آوس‌پاکِن",
     "meaning": "باز کردن (بسته) / خالی کردن",
-    "antonyms": [
-      "einpacken"
-    ],
-    "synonyms": [
-      "ausladen"
-    ],
+    "antonyms": ["einpacken"],
+    "synonyms": ["ausladen"],
     "prasens": [
       {
         "person": "Ich",
@@ -39106,11 +38253,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -39130,12 +38273,8 @@
     "word": "ausruhen",
     "pronunciation": "آوس‌رو‌هِن",
     "meaning": "استراحت کردن (sich ausruhen)",
-    "antonyms": [
-      "arbeiten"
-    ],
-    "synonyms": [
-      "erholen"
-    ],
+    "antonyms": ["arbeiten"],
+    "synonyms": ["erholen"],
     "prasens": [
       {
         "person": "Ich",
@@ -39344,11 +38483,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "reflexiv",
@@ -39369,9 +38504,7 @@
     "pronunciation": "آوس‌زِهِن",
     "meaning": "به نظر رسیدن / ظاهر شدن",
     "antonyms": [],
-    "synonyms": [
-      "wirken"
-    ],
+    "synonyms": ["wirken"],
     "prasens": [
       {
         "person": "Ich",
@@ -39580,11 +38713,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Intransitiv",
@@ -39605,9 +38734,7 @@
     "pronunciation": "آوس‌شپْرِخِن",
     "meaning": "تلفظ کردن / بیان کردن",
     "antonyms": [],
-    "synonyms": [
-      "artikulieren"
-    ],
+    "synonyms": ["artikulieren"],
     "prasens": [
       {
         "person": "Ich",
@@ -39816,11 +38943,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -39840,13 +38963,8 @@
     "word": "aussteigen",
     "pronunciation": "آوس‌شتایگن",
     "meaning": "پیاده شدن / پیاده کردن",
-    "antonyms": [
-      "einsteigen"
-    ],
-    "synonyms": [
-      "aussteigen",
-      "verlassen"
-    ],
+    "antonyms": ["einsteigen"],
+    "synonyms": ["aussteigen", "verlassen"],
     "prasens": [
       {
         "person": "Ich",
@@ -40043,11 +39161,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Intransitiv",
@@ -40068,10 +39182,7 @@
     "pronunciation": "آوستراگن",
     "meaning": "ثبت کردن / تحویل دادن / به پایان رساندن",
     "antonyms": [],
-    "synonyms": [
-      "eintragen",
-      "austragen"
-    ],
+    "synonyms": ["eintragen", "austragen"],
     "prasens": [
       {
         "person": "Ich",
@@ -40264,11 +39375,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -40289,9 +39396,7 @@
     "pronunciation": "باکِن",
     "meaning": "پختن (کیک، نان)",
     "antonyms": [],
-    "synonyms": [
-      "backen"
-    ],
+    "synonyms": ["backen"],
     "prasens": [
       {
         "person": "Ich",
@@ -40488,11 +39593,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -40513,9 +39614,7 @@
     "pronunciation": "بادن",
     "meaning": "حمام کردن",
     "antonyms": [],
-    "synonyms": [
-      "duschen"
-    ],
+    "synonyms": ["duschen"],
     "prasens": [
       {
         "person": "Ich",
@@ -40712,11 +39811,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Intransitiv",
@@ -40746,10 +39841,7 @@
     "pronunciation": "باستلن",
     "meaning": "ساختن (با دست، صنایع دستی)",
     "antonyms": [],
-    "synonyms": [
-      "bauen",
-      "herstellen"
-    ],
+    "synonyms": ["bauen", "herstellen"],
     "prasens": [
       {
         "person": "Ich",
@@ -40946,11 +40038,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -40970,13 +40058,8 @@
     "word": "bauen",
     "pronunciation": "بائوئن",
     "meaning": "ساختن",
-    "antonyms": [
-      "abbauen"
-    ],
-    "synonyms": [
-      "konstruieren",
-      "errichten"
-    ],
+    "antonyms": ["abbauen"],
+    "synonyms": ["konstruieren", "errichten"],
     "prasens": [
       {
         "person": "Ich",
@@ -41173,11 +40256,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -41198,9 +40277,7 @@
     "pronunciation": "باآن‌تورتِن",
     "meaning": "پاسخ دادن",
     "antonyms": [],
-    "synonyms": [
-      "antworten"
-    ],
+    "synonyms": ["antworten"],
     "prasens": [
       {
         "person": "Ich",
@@ -41397,11 +40474,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -41422,9 +40495,7 @@
     "pronunciation": "بِدانکِن",
     "meaning": "تشکر کردن",
     "antonyms": [],
-    "synonyms": [
-      "danken"
-    ],
+    "synonyms": ["danken"],
     "prasens": [
       {
         "person": "Ich",
@@ -41621,11 +40692,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "reflexiv + Akk",
@@ -41646,9 +40713,7 @@
     "pronunciation": "بِدویتن",
     "meaning": "معنی دادن / به معنای ... بودن",
     "antonyms": [],
-    "synonyms": [
-      "heißen"
-    ],
+    "synonyms": ["heißen"],
     "prasens": [
       {
         "person": "Ich",
@@ -41845,11 +40910,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -41869,12 +40930,8 @@
     "word": "beeilen",
     "pronunciation": "بِآیلِن",
     "meaning": "عجله کردن",
-    "antonyms": [
-      "trödeln"
-    ],
-    "synonyms": [
-      "sich sputen"
-    ],
+    "antonyms": ["trödeln"],
+    "synonyms": ["sich sputen"],
     "prasens": [
       {
         "person": "Ich",
@@ -42071,11 +41128,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "reflexiv",
@@ -42095,13 +41148,8 @@
     "word": "beenden",
     "pronunciation": "بِآندِن",
     "meaning": "تمام کردن / پایان دادن",
-    "antonyms": [
-      "beginnen"
-    ],
-    "synonyms": [
-      "abschließen",
-      "fertig machen"
-    ],
+    "antonyms": ["beginnen"],
+    "synonyms": ["abschließen", "fertig machen"],
     "prasens": [
       {
         "person": "Ich",
@@ -42298,11 +41346,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -42322,13 +41366,8 @@
     "word": "beginnen",
     "pronunciation": "بِگینِن",
     "meaning": "شروع کردن",
-    "antonyms": [
-      "beenden"
-    ],
-    "synonyms": [
-      "anfangen",
-      "starten"
-    ],
+    "antonyms": ["beenden"],
+    "synonyms": ["anfangen", "starten"],
     "prasens": [
       {
         "person": "Ich",
@@ -42525,11 +41564,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -42550,9 +41585,7 @@
     "pronunciation": "بِگرویندِن",
     "meaning": "توجیه کردن / دلیل آوردن",
     "antonyms": [],
-    "synonyms": [
-      "erklären"
-    ],
+    "synonyms": ["erklären"],
     "prasens": [
       {
         "person": "Ich",
@@ -42749,10 +41782,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
+
     "seenCount": 0
   },
   {
@@ -42762,13 +41792,8 @@
     "word": "bekommen",
     "pronunciation": "بِکامِن",
     "meaning": "دریافت کردن",
-    "antonyms": [
-      "geben"
-    ],
-    "synonyms": [
-      "erhalten",
-      "kriegen"
-    ],
+    "antonyms": ["geben"],
+    "synonyms": ["erhalten", "kriegen"],
     "prasens": [
       {
         "person": "Ich",
@@ -42965,11 +41990,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -42990,10 +42011,7 @@
     "pronunciation": "بِنوتسن",
     "meaning": "استفاده کردن",
     "antonyms": [],
-    "synonyms": [
-      "verwenden",
-      "nutzen"
-    ],
+    "synonyms": ["verwenden", "nutzen"],
     "prasens": [
       {
         "person": "Ich",
@@ -43190,11 +42208,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -43215,10 +42229,7 @@
     "pronunciation": "بِرَاتِن",
     "meaning": "مشورت دادن / مشاوره کردن",
     "antonyms": [],
-    "synonyms": [
-      "empfehlen",
-      "raten"
-    ],
+    "synonyms": ["empfehlen", "raten"],
     "prasens": [
       {
         "person": "Ich",
@@ -43411,11 +42422,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -43436,10 +42443,7 @@
     "pronunciation": "بِرِشْتِن",
     "meaning": "گزارش دادن / اطلاع دادن",
     "antonyms": [],
-    "synonyms": [
-      "erzählen",
-      "mitteilen"
-    ],
+    "synonyms": ["erzählen", "mitteilen"],
     "prasens": [
       {
         "person": "Ich",
@@ -43632,11 +42636,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -43657,10 +42657,7 @@
     "pronunciation": "گِبِن",
     "meaning": "دادن",
     "antonyms": [],
-    "synonyms": [
-      "schenken",
-      "überreichen"
-    ],
+    "synonyms": ["schenken", "überreichen"],
     "prasens": [
       {
         "person": "Ich",
@@ -43853,11 +42850,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk + Dativ",
@@ -43878,10 +42871,7 @@
     "pronunciation": "زَاگِن",
     "meaning": "گفتن",
     "antonyms": [],
-    "synonyms": [
-      "sprechen",
-      "erzählen"
-    ],
+    "synonyms": ["sprechen", "erzählen"],
     "prasens": [
       {
         "person": "Ich",
@@ -44074,11 +43064,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -44108,10 +43094,7 @@
     "pronunciation": "بِشْرَایْبِن",
     "meaning": "توصیف کردن",
     "antonyms": [],
-    "synonyms": [
-      "schildern",
-      "erklären"
-    ],
+    "synonyms": ["schildern", "erklären"],
     "prasens": [
       {
         "person": "Ich",
@@ -44304,11 +43287,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -44329,10 +43308,7 @@
     "pronunciation": "بِشْوِرِن",
     "meaning": "شکایت کردن",
     "antonyms": [],
-    "synonyms": [
-      "klagen",
-      "protestieren"
-    ],
+    "synonyms": ["klagen", "protestieren"],
     "prasens": [
       {
         "person": "Ich",
@@ -44525,11 +43501,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "reflexiv + Akk",
@@ -44550,10 +43522,7 @@
     "pronunciation": "بِزِشْتِیگِن",
     "meaning": "بازدید کردن / دیدن",
     "antonyms": [],
-    "synonyms": [
-      "besuchen",
-      "ansehen"
-    ],
+    "synonyms": ["besuchen", "ansehen"],
     "prasens": [
       {
         "person": "Ich",
@@ -44746,11 +43715,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -44771,10 +43736,7 @@
     "pronunciation": "بِشْتِتیگِن",
     "meaning": "تأیید کردن",
     "antonyms": [],
-    "synonyms": [
-      "bestätigen",
-      "bestätigen"
-    ],
+    "synonyms": ["bestätigen", "bestätigen"],
     "prasens": [
       {
         "person": "Ich",
@@ -44967,11 +43929,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -44992,10 +43950,7 @@
     "pronunciation": "بِشْتِئِن",
     "meaning": "موجود بودن / گذراندن (امتحان)",
     "antonyms": [],
-    "synonyms": [
-      "existieren",
-      "überstehen"
-    ],
+    "synonyms": ["existieren", "überstehen"],
     "prasens": [
       {
         "person": "Ich",
@@ -45188,11 +44143,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Dativ",
@@ -45213,10 +44164,7 @@
     "pronunciation": "بِشْتِلِن",
     "meaning": "سفارش دادن",
     "antonyms": [],
-    "synonyms": [
-      "reservieren",
-      "anfordern"
-    ],
+    "synonyms": ["reservieren", "anfordern"],
     "prasens": [
       {
         "person": "Ich",
@@ -45409,11 +44357,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -45443,10 +44387,7 @@
     "pronunciation": "بِزُوخِن",
     "meaning": "دیدن / بازدید کردن",
     "antonyms": [],
-    "synonyms": [
-      "treffen",
-      "besichtigen"
-    ],
+    "synonyms": ["treffen", "besichtigen"],
     "prasens": [
       {
         "person": "Ich",
@@ -45639,11 +44580,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -45664,10 +44601,7 @@
     "pronunciation": "بِوِربِن",
     "meaning": "درخواست شغل دادن / تبلیغ کردن",
     "antonyms": [],
-    "synonyms": [
-      "sich bewerben",
-      "werben"
-    ],
+    "synonyms": ["sich bewerben", "werben"],
     "prasens": [
       {
         "person": "Ich",
@@ -45860,11 +44794,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "reflexiv + Akk",
@@ -45885,10 +44815,7 @@
     "pronunciation": "بِتْسَا لِن",
     "meaning": "پرداخت کردن",
     "antonyms": [],
-    "synonyms": [
-      "zahlen",
-      "begleichen"
-    ],
+    "synonyms": ["zahlen", "begleichen"],
     "prasens": [
       {
         "person": "Ich",
@@ -46081,11 +45008,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -46115,10 +45038,7 @@
     "pronunciation": "بِتِن",
     "meaning": "درخواست کردن / خواهش کردن",
     "antonyms": [],
-    "synonyms": [
-      "fragen",
-      "ersuchen"
-    ],
+    "synonyms": ["fragen", "ersuchen"],
     "prasens": [
       {
         "person": "Ich",
@@ -46311,11 +45231,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -46335,14 +45251,8 @@
     "word": "bleiben",
     "pronunciation": "بلایبن",
     "meaning": "ماندن / باقی ماندن",
-    "antonyms": [
-      "gehen",
-      "verlassen"
-    ],
-    "synonyms": [
-      "verweilen",
-      "ausharren"
-    ],
+    "antonyms": ["gehen", "verlassen"],
+    "synonyms": ["verweilen", "ausharren"],
     "prasens": [
       {
         "person": "Ich",
@@ -46539,11 +45449,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Intransitiv",
@@ -46564,10 +45470,7 @@
     "pronunciation": "براتِن",
     "meaning": "سرخ کردن / بریان کردن",
     "antonyms": [],
-    "synonyms": [
-      "anbraten",
-      "grillen"
-    ],
+    "synonyms": ["anbraten", "grillen"],
     "prasens": [
       {
         "person": "Ich",
@@ -46764,11 +45667,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -46788,13 +45687,8 @@
     "word": "brauchen",
     "pronunciation": "بْراوخِن",
     "meaning": "نیاز داشتن / احتیاج داشتن",
-    "antonyms": [
-      "haben"
-    ],
-    "synonyms": [
-      "benötigen",
-      "nötig haben"
-    ],
+    "antonyms": ["haben"],
+    "synonyms": ["benötigen", "nötig haben"],
     "prasens": [
       {
         "person": "Ich",
@@ -46991,11 +45885,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -47016,10 +45906,7 @@
     "pronunciation": "بْرینْگِن",
     "meaning": "آوردن / بردن",
     "antonyms": [],
-    "synonyms": [
-      "mitbringen",
-      "holen"
-    ],
+    "synonyms": ["mitbringen", "holen"],
     "prasens": [
       {
         "person": "Ich",
@@ -47216,11 +46103,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -47250,9 +46133,7 @@
     "pronunciation": "بوخِن",
     "meaning": "رزرو کردن / ثبت کردن",
     "antonyms": [],
-    "synonyms": [
-      "reservieren"
-    ],
+    "synonyms": ["reservieren"],
     "prasens": [
       {
         "person": "Ich",
@@ -47449,11 +46330,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -47671,11 +46548,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -47696,9 +46569,7 @@
     "pronunciation": "چَتِن",
     "meaning": "چت کردن",
     "antonyms": [],
-    "synonyms": [
-      "unterhalten (online)"
-    ],
+    "synonyms": ["unterhalten (online)"],
     "prasens": [
       {
         "person": "Ich",
@@ -47895,11 +46766,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Dativ",
@@ -47920,10 +46787,7 @@
     "pronunciation": "دابای زاین",
     "meaning": "حضور داشتن / همراه بودن",
     "antonyms": [],
-    "synonyms": [
-      "teilnehmen",
-      "anwesend sein"
-    ],
+    "synonyms": ["teilnehmen", "anwesend sein"],
     "prasens": [
       {
         "person": "Ich",
@@ -48120,10 +46984,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
+
     "seenCount": 0
   },
   {
@@ -48133,12 +46994,8 @@
     "word": "dafür sein",
     "pronunciation": "دافور زاین",
     "meaning": "موافق بودن / طرفدار بودن",
-    "antonyms": [
-      "dagegen sein"
-    ],
-    "synonyms": [
-      "zustimmen"
-    ],
+    "antonyms": ["dagegen sein"],
+    "synonyms": ["zustimmen"],
     "prasens": [
       {
         "person": "Ich",
@@ -48335,10 +47192,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
+
     "seenCount": 0
   },
   {
@@ -48348,12 +47202,8 @@
     "word": "dagegen sein",
     "pronunciation": "داگِگِن زاین",
     "meaning": "مخالف بودن",
-    "antonyms": [
-      "dafür sein"
-    ],
-    "synonyms": [
-      "ablehnen"
-    ],
+    "antonyms": ["dafür sein"],
+    "synonyms": ["ablehnen"],
     "prasens": [
       {
         "person": "Ich",
@@ -48550,10 +47400,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
+
     "seenCount": 0
   },
   {
@@ -48564,9 +47411,7 @@
     "pronunciation": "دانکِن",
     "meaning": "تشکر کردن",
     "antonyms": [],
-    "synonyms": [
-      "bedanken"
-    ],
+    "synonyms": ["bedanken"],
     "prasens": [
       {
         "person": "Ich",
@@ -48763,11 +47608,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Dativ",
@@ -48787,13 +47628,8 @@
     "word": "dauern",
     "pronunciation": "دَوْرِن",
     "meaning": "طول کشیدن / دوام آوردن",
-    "antonyms": [
-      "enden"
-    ],
-    "synonyms": [
-      "andauern",
-      "halten"
-    ],
+    "antonyms": ["enden"],
+    "synonyms": ["andauern", "halten"],
     "prasens": [
       {
         "person": "Ich",
@@ -48986,11 +47822,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -49011,10 +47843,7 @@
     "pronunciation": "دِنْکِن",
     "meaning": "فکر کردن",
     "antonyms": [],
-    "synonyms": [
-      "überlegen",
-      "meinen"
-    ],
+    "synonyms": ["überlegen", "meinen"],
     "prasens": [
       {
         "person": "Ich",
@@ -49207,11 +48036,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -49232,10 +48057,7 @@
     "pronunciation": "دیس‌کو تی‌رِن",
     "meaning": "بحث کردن",
     "antonyms": [],
-    "synonyms": [
-      "debattieren",
-      "besprechen"
-    ],
+    "synonyms": ["debattieren", "besprechen"],
     "prasens": [
       {
         "person": "Ich",
@@ -49428,11 +48250,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -49453,9 +48271,7 @@
     "pronunciation": "دْرُکِن",
     "meaning": "فشار دادن",
     "antonyms": [],
-    "synonyms": [
-      "pressen"
-    ],
+    "synonyms": ["pressen"],
     "prasens": [
       {
         "person": "Ich",
@@ -49648,11 +48464,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -49673,9 +48485,7 @@
     "pronunciation": "دْرُکِن",
     "meaning": "چاپ کردن",
     "antonyms": [],
-    "synonyms": [
-      "ausdrucken"
-    ],
+    "synonyms": ["ausdrucken"],
     "prasens": [
       {
         "person": "Ich",
@@ -49868,11 +48678,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -49892,12 +48698,8 @@
     "word": "dürfen",
     "pronunciation": "دُورْفِن",
     "meaning": "اجازه داشتن / permitted بودن",
-    "antonyms": [
-      "verbieten"
-    ],
-    "synonyms": [
-      "können (im Sinne von Erlaubnis)"
-    ],
+    "antonyms": ["verbieten"],
+    "synonyms": ["können (im Sinne von Erlaubnis)"],
     "prasens": [
       {
         "person": "Ich",
@@ -50090,11 +48892,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Modalverb",
@@ -50115,9 +48913,7 @@
     "pronunciation": "دُشِن",
     "meaning": "دوش گرفتن",
     "antonyms": [],
-    "synonyms": [
-      "baden"
-    ],
+    "synonyms": ["baden"],
     "prasens": [
       {
         "person": "Ich",
@@ -50310,11 +49106,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Intransitiv",
@@ -50344,10 +49136,7 @@
     "pronunciation": "آین‌کاوفِن",
     "meaning": "خرید کردن",
     "antonyms": [],
-    "synonyms": [
-      "besorgen",
-      "kaufen"
-    ],
+    "synonyms": ["besorgen", "kaufen"],
     "prasens": [
       {
         "person": "Ich",
@@ -50540,11 +49329,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -50565,9 +49350,7 @@
     "pronunciation": "آین‌لادن",
     "meaning": "دعوت کردن",
     "antonyms": [],
-    "synonyms": [
-      "auffordern"
-    ],
+    "synonyms": ["auffordern"],
     "prasens": [
       {
         "person": "Ich",
@@ -50760,11 +49543,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -50784,12 +49563,8 @@
     "word": "einpacken",
     "pronunciation": "آین‌پاکِن",
     "meaning": "بستن / بسته‌بندی کردن",
-    "antonyms": [
-      "auspacken"
-    ],
-    "synonyms": [
-      "verpacken"
-    ],
+    "antonyms": ["auspacken"],
+    "synonyms": ["verpacken"],
     "prasens": [
       {
         "person": "Ich",
@@ -50982,11 +49757,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -51006,12 +49777,8 @@
     "word": "einsteigen",
     "pronunciation": "آین‌شتایگِن",
     "meaning": "سوار شدن",
-    "antonyms": [
-      "aussteigen"
-    ],
-    "synonyms": [
-      "einsteigen (in ein Fahrzeug)"
-    ],
+    "antonyms": ["aussteigen"],
+    "synonyms": ["einsteigen (in ein Fahrzeug)"],
     "prasens": [
       {
         "person": "Ich",
@@ -51204,11 +49971,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Intransitiv",
@@ -51229,10 +49992,7 @@
     "pronunciation": "آین‌تراگِن",
     "meaning": "ثبت کردن / وارد کردن",
     "antonyms": [],
-    "synonyms": [
-      "einschreiben",
-      "registrieren"
-    ],
+    "synonyms": ["einschreiben", "registrieren"],
     "prasens": [
       {
         "person": "Ich",
@@ -51425,11 +50185,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -51449,12 +50205,8 @@
     "word": "einverstanden sein",
     "pronunciation": "آین‌فِرْ اشتاندِن زاین",
     "meaning": "موافق بودن",
-    "antonyms": [
-      "nicht einverstanden sein"
-    ],
-    "synonyms": [
-      "zustimmen"
-    ],
+    "antonyms": ["nicht einverstanden sein"],
+    "synonyms": ["zustimmen"],
     "prasens": [
       {
         "person": "Ich",
@@ -51647,10 +50399,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
+
     "seenCount": 0
   },
   {
@@ -51660,12 +50409,8 @@
     "word": "einziehen",
     "pronunciation": "آین‌تسیِن",
     "meaning": "اسکان کردن /搬入 کردن",
-    "antonyms": [
-      "ausziehen"
-    ],
-    "synonyms": [
-      "umziehen"
-    ],
+    "antonyms": ["ausziehen"],
+    "synonyms": ["umziehen"],
     "prasens": [
       {
         "person": "Ich",
@@ -51858,11 +50603,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Intransitiv",
@@ -51883,10 +50624,7 @@
     "pronunciation": "اِمْفِلِن",
     "meaning": "توصیه کردن",
     "antonyms": [],
-    "synonyms": [
-      "raten",
-      "vorschlagen"
-    ],
+    "synonyms": ["raten", "vorschlagen"],
     "prasens": [
       {
         "person": "Ich",
@@ -52079,11 +50817,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -52112,14 +50846,8 @@
     "word": "enden",
     "pronunciation": "اِنْدِن",
     "meaning": "پایان یافتن / تمام شدن",
-    "antonyms": [
-      "beginnen",
-      "anfangen"
-    ],
-    "synonyms": [
-      "aufhören",
-      "abschließen"
-    ],
+    "antonyms": ["beginnen", "anfangen"],
+    "synonyms": ["aufhören", "abschließen"],
     "prasens": [
       {
         "person": "Ich",
@@ -52312,11 +51040,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Intransitiv",
@@ -52337,10 +51061,7 @@
     "pronunciation": "اِنْتْشولْدیگِن",
     "meaning": "عذرخواهی کردن / بخشیدن",
     "antonyms": [],
-    "synonyms": [
-      "verzeihen",
-      "abbitten"
-    ],
+    "synonyms": ["verzeihen", "abbitten"],
     "prasens": [
       {
         "person": "Ich",
@@ -52537,11 +51258,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk (reflexiv)",
@@ -52562,10 +51279,7 @@
     "pronunciation": "اِرینِرن",
     "meaning": "به یاد آوردن / یادآوری کردن",
     "antonyms": [],
-    "synonyms": [
-      "sich erinnern",
-      "gedenken"
-    ],
+    "synonyms": ["sich erinnern", "gedenken"],
     "prasens": [
       {
         "person": "Ich",
@@ -52762,11 +51476,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "reflexiv + Akk",
@@ -52786,12 +51496,8 @@
     "word": "erkältet sein",
     "pronunciation": "اِرکِلتِت زاین",
     "meaning": "سرماخورده بودن",
-    "antonyms": [
-      "gesund sein"
-    ],
-    "synonyms": [
-      "eine Erkältung haben"
-    ],
+    "antonyms": ["gesund sein"],
+    "synonyms": ["eine Erkältung haben"],
     "prasens": [
       {
         "person": "Ich",
@@ -52988,10 +51694,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
+
     "seenCount": 0
   },
   {
@@ -53002,10 +51705,7 @@
     "pronunciation": "اِرْکلِرِن",
     "meaning": "توضیح دادن",
     "antonyms": [],
-    "synonyms": [
-      "beschreiben",
-      "verdeutlichen"
-    ],
+    "synonyms": ["beschreiben", "verdeutlichen"],
     "prasens": [
       {
         "person": "Ich",
@@ -53202,11 +51902,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -53235,13 +51931,8 @@
     "word": "erlauben",
     "pronunciation": "اِرلاوْبِن",
     "meaning": "اجازه دادن",
-    "antonyms": [
-      "verbieten"
-    ],
-    "synonyms": [
-      "gestatten",
-      "zulassen"
-    ],
+    "antonyms": ["verbieten"],
+    "synonyms": ["gestatten", "zulassen"],
     "prasens": [
       {
         "person": "Ich",
@@ -53438,11 +52129,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -53471,12 +52158,8 @@
     "word": "erlaubt sein",
     "pronunciation": "اِرلاوْبت زاین",
     "meaning": "مجاز بودن / اجازه داشتن",
-    "antonyms": [
-      "verboten sein"
-    ],
-    "synonyms": [
-      "gestattet sein"
-    ],
+    "antonyms": ["verboten sein"],
+    "synonyms": ["gestattet sein"],
     "prasens": [
       {
         "person": "Ich",
@@ -53673,10 +52356,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
+
     "seenCount": 0
   },
   {
@@ -53686,13 +52366,8 @@
     "word": "erreichen",
     "pronunciation": "اِرایخِن",
     "meaning": "رسیدن به / به دست آوردن",
-    "antonyms": [
-      "verfehlen"
-    ],
-    "synonyms": [
-      "gelangen",
-      "erzielen"
-    ],
+    "antonyms": ["verfehlen"],
+    "synonyms": ["gelangen", "erzielen"],
     "prasens": [
       {
         "person": "Ich",
@@ -53889,11 +52564,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -53914,10 +52585,7 @@
     "pronunciation": "اِرتسِلِن",
     "meaning": "داستان گفتن / روایت کردن",
     "antonyms": [],
-    "synonyms": [
-      "berichten",
-      "schildern"
-    ],
+    "synonyms": ["berichten", "schildern"],
     "prasens": [
       {
         "person": "Ich",
@@ -54114,11 +52782,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -54148,10 +52812,7 @@
     "pronunciation": "اِسِن",
     "meaning": "خوردن",
     "antonyms": [],
-    "synonyms": [
-      "verzehren",
-      "speisen"
-    ],
+    "synonyms": ["verzehren", "speisen"],
     "prasens": [
       {
         "person": "Ich",
@@ -54348,11 +53009,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -54372,13 +53029,8 @@
     "word": "fallen",
     "pronunciation": "فالِن",
     "meaning": "افتادن",
-    "antonyms": [
-      "steigen",
-      "aufstehen"
-    ],
-    "synonyms": [
-      "stürzen"
-    ],
+    "antonyms": ["steigen", "aufstehen"],
+    "synonyms": ["stürzen"],
     "prasens": [
       {
         "person": "Ich",
@@ -54575,11 +53227,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Intransitiv",
@@ -54600,10 +53248,7 @@
     "pronunciation": "فِلِن",
     "meaning": "کم بودن / غایب بودن / دلتنگ بودن",
     "antonyms": [],
-    "synonyms": [
-      "mangelt",
-      "vermissen"
-    ],
+    "synonyms": ["mangelt", "vermissen"],
     "prasens": [
       {
         "person": "Ich",
@@ -54800,11 +53445,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Dativ",
@@ -54825,10 +53466,7 @@
     "pronunciation": "فایرن",
     "meaning": "جشن گرفتن",
     "antonyms": [],
-    "synonyms": [
-      "festen",
-      "partyen"
-    ],
+    "synonyms": ["festen", "partyen"],
     "prasens": [
       {
         "person": "Ich",
@@ -55025,11 +53663,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -55050,9 +53684,7 @@
     "pronunciation": "فِرن‌زِهِن",
     "meaning": "تلویزیون دیدن",
     "antonyms": [],
-    "synonyms": [
-      "TV schauen"
-    ],
+    "synonyms": ["TV schauen"],
     "prasens": [
       {
         "person": "Ich",
@@ -55249,11 +53881,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Intransitiv",
@@ -55273,13 +53901,8 @@
     "word": "fertig sein",
     "pronunciation": "فِرتیخ زاین",
     "meaning": "آماده بودن / تمام شدن",
-    "antonyms": [
-      "unfertig sein"
-    ],
-    "synonyms": [
-      "bereit sein",
-      "erledigt sein"
-    ],
+    "antonyms": ["unfertig sein"],
+    "synonyms": ["bereit sein", "erledigt sein"],
     "prasens": [
       {
         "person": "Ich",
@@ -55476,10 +54099,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
+
     "seenCount": 0
   },
   {
@@ -55489,13 +54109,8 @@
     "word": "finden",
     "pronunciation": "فیندِن",
     "meaning": "پیدا کردن",
-    "antonyms": [
-      "verlieren"
-    ],
-    "synonyms": [
-      "entdecken",
-      "auffinden"
-    ],
+    "antonyms": ["verlieren"],
+    "synonyms": ["entdecken", "auffinden"],
     "prasens": [
       {
         "person": "Ich",
@@ -55692,11 +54307,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -55716,12 +54327,8 @@
     "word": "fit sein",
     "pronunciation": "فیت زاین",
     "meaning": "تناسب اندام داشتن / سالم و آماده بودن",
-    "antonyms": [
-      "unfit sein"
-    ],
-    "synonyms": [
-      "in Form sein"
-    ],
+    "antonyms": ["unfit sein"],
+    "synonyms": ["in Form sein"],
     "prasens": [
       {
         "person": "Ich",
@@ -55918,10 +54525,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
+
     "seenCount": 0
   },
   {
@@ -55932,10 +54536,7 @@
     "pronunciation": "آپ‌فلیگن",
     "meaning": "پرواز کردن (از جایی) / بلند شدن هواپیما",
     "antonyms": [],
-    "synonyms": [
-      "starten",
-      "abheben"
-    ],
+    "synonyms": ["starten", "abheben"],
     "prasens": [
       {
         "person": "Ich",
@@ -56128,11 +54729,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Intransitiv",
@@ -56153,10 +54750,7 @@
     "pronunciation": "فوتوگرافی‌رِن",
     "meaning": "عکس گرفتن",
     "antonyms": [],
-    "synonyms": [
-      "knipsen",
-      "aufnehmen"
-    ],
+    "synonyms": ["knipsen", "aufnehmen"],
     "prasens": [
       {
         "person": "Ich",
@@ -56349,11 +54943,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -56374,9 +54964,7 @@
     "pronunciation": "فراگن",
     "meaning": "پرسیدن / سؤال کردن",
     "antonyms": [],
-    "synonyms": [
-      "erkundigen"
-    ],
+    "synonyms": ["erkundigen"],
     "prasens": [
       {
         "person": "Ich",
@@ -56569,11 +55157,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -56594,9 +55178,7 @@
     "pronunciation": "فروئن",
     "meaning": "خوشحال شدن / لذت بردن (reflexive)",
     "antonyms": [],
-    "synonyms": [
-      "sich freuen"
-    ],
+    "synonyms": ["sich freuen"],
     "prasens": [
       {
         "person": "Ich",
@@ -56789,11 +55371,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "reflexiv + Akk",
@@ -57007,11 +55585,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Intransitiv",
@@ -57032,9 +55606,7 @@
     "pronunciation": "فویلِن",
     "meaning": "احساس کردن (reflexive)",
     "antonyms": [],
-    "synonyms": [
-      "spüren"
-    ],
+    "synonyms": ["spüren"],
     "prasens": [
       {
         "person": "Ich",
@@ -57227,11 +55799,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk (reflexiv)",
@@ -57252,9 +55820,7 @@
     "pronunciation": "گِفالِن",
     "meaning": "پسندیدن / خوش آمدن (به کسی)",
     "antonyms": [],
-    "synonyms": [
-      "mögen"
-    ],
+    "synonyms": ["mögen"],
     "prasens": [
       {
         "person": "Ich",
@@ -57447,11 +56013,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Dativ",
@@ -57471,13 +56033,8 @@
     "word": "gehen",
     "pronunciation": "گِئن",
     "meaning": "رفتن",
-    "antonyms": [
-      "kommen"
-    ],
-    "synonyms": [
-      "laufen",
-      "spazieren"
-    ],
+    "antonyms": ["kommen"],
+    "synonyms": ["laufen", "spazieren"],
     "prasens": [
       {
         "person": "Ich",
@@ -57670,11 +56227,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Intransitiv",
@@ -57888,11 +56441,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Dativ",
@@ -57912,12 +56461,8 @@
     "word": "gewinnen",
     "pronunciation": "گِوینِن",
     "meaning": "برنده شدن / به دست آوردن",
-    "antonyms": [
-      "verlieren"
-    ],
-    "synonyms": [
-      "siegen"
-    ],
+    "antonyms": ["verlieren"],
+    "synonyms": ["siegen"],
     "prasens": [
       {
         "person": "Ich",
@@ -58110,11 +56655,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -58134,12 +56675,8 @@
     "word": "glauben",
     "pronunciation": "گِلاوبِن",
     "meaning": "باور کردن / اعتقاد داشتن",
-    "antonyms": [
-      "zweifeln"
-    ],
-    "synonyms": [
-      "denken"
-    ],
+    "antonyms": ["zweifeln"],
+    "synonyms": ["denken"],
     "prasens": [
       {
         "person": "Ich",
@@ -58332,11 +56869,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -58559,11 +57092,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Dativ",
@@ -58584,9 +57113,7 @@
     "pronunciation": "گریلِن",
     "meaning": "کباب کردن / گریل کردن",
     "antonyms": [],
-    "synonyms": [
-      "barbecue machen"
-    ],
+    "synonyms": ["barbecue machen"],
     "prasens": [
       {
         "person": "Ich",
@@ -58779,11 +57306,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -58803,9 +57326,7 @@
     "word": "gültig sein",
     "pronunciation": "گولتیخ زاین",
     "meaning": "معتبر بودن",
-    "antonyms": [
-      "ungültig sein"
-    ],
+    "antonyms": ["ungültig sein"],
     "synonyms": [],
     "prasens": [
       {
@@ -58999,10 +57520,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
+
     "seenCount": 0
   },
   {
@@ -59013,9 +57531,7 @@
     "pronunciation": "ها‌بِن",
     "meaning": "داشتن",
     "antonyms": [],
-    "synonyms": [
-      "besitzen"
-    ],
+    "synonyms": ["besitzen"],
     "prasens": [
       {
         "person": "Ich",
@@ -59208,11 +57724,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -59233,10 +57745,7 @@
     "pronunciation": "هَالْتِن",
     "meaning": "نگه داشتن / نگه داشتن / توقف کردن",
     "antonyms": [],
-    "synonyms": [
-      "festhalten",
-      "stoppen"
-    ],
+    "synonyms": ["festhalten", "stoppen"],
     "prasens": [
       {
         "person": "Ich",
@@ -59433,11 +57942,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -59458,9 +57963,7 @@
     "pronunciation": "هِنگِن",
     "meaning": "آویزان کردن / آویزان بودن",
     "antonyms": [],
-    "synonyms": [
-      "aufhängen"
-    ],
+    "synonyms": ["aufhängen"],
     "prasens": [
       {
         "person": "Ich",
@@ -59653,11 +58156,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Intransitiv",
@@ -59678,9 +58177,7 @@
     "pronunciation": "هایرَاتِن",
     "meaning": "ازدواج کردن",
     "antonyms": [],
-    "synonyms": [
-      "verheiraten"
-    ],
+    "synonyms": ["verheiraten"],
     "prasens": [
       {
         "person": "Ich",
@@ -59873,11 +58370,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -59898,9 +58391,7 @@
     "pronunciation": "هایسِن",
     "meaning": "نام داشتن / صدا زدن",
     "antonyms": [],
-    "synonyms": [
-      "nennen"
-    ],
+    "synonyms": ["nennen"],
     "prasens": [
       {
         "person": "Ich",
@@ -60093,11 +58584,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Intransitiv",
@@ -60118,9 +58605,7 @@
     "pronunciation": "هِلْفِن",
     "meaning": "کمک کردن",
     "antonyms": [],
-    "synonyms": [
-      "unterstützen"
-    ],
+    "synonyms": ["unterstützen"],
     "prasens": [
       {
         "person": "Ich",
@@ -60313,11 +58798,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Dativ",
@@ -60338,10 +58819,7 @@
     "pronunciation": "هِرْشْتِلِن",
     "meaning": "تولید کردن / ساختن",
     "antonyms": [],
-    "synonyms": [
-      "produzieren",
-      "machen"
-    ],
+    "synonyms": ["produzieren", "machen"],
     "prasens": [
       {
         "person": "Ich",
@@ -60534,11 +59012,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -60559,9 +59033,7 @@
     "pronunciation": "هِرونْتِرْلادن",
     "meaning": "دانلود کردن",
     "antonyms": [],
-    "synonyms": [
-      "downloaden"
-    ],
+    "synonyms": ["downloaden"],
     "prasens": [
       {
         "person": "Ich",
@@ -60754,11 +59226,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -60779,9 +59247,7 @@
     "pronunciation": "هُوفِن",
     "meaning": "امیدوار بودن / امیدوار کردن",
     "antonyms": [],
-    "synonyms": [
-      "erhoffen"
-    ],
+    "synonyms": ["erhoffen"],
     "prasens": [
       {
         "person": "Ich",
@@ -60974,11 +59440,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -60999,10 +59461,7 @@
     "pronunciation": "هُولِن",
     "meaning": "آوردن / گرفتن / رفتن برای آوردن",
     "antonyms": [],
-    "synonyms": [
-      "bringen",
-      "abholen"
-    ],
+    "synonyms": ["bringen", "abholen"],
     "prasens": [
       {
         "person": "Ich",
@@ -61195,11 +59654,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -61220,9 +59675,7 @@
     "pronunciation": "هُورِن",
     "meaning": "شنیدن / گوش دادن",
     "antonyms": [],
-    "synonyms": [
-      "lauschen"
-    ],
+    "synonyms": ["lauschen"],
     "prasens": [
       {
         "person": "Ich",
@@ -61415,11 +59868,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -61633,10 +60082,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
+
     "seenCount": 0
   },
   {
@@ -61647,9 +60093,7 @@
     "pronunciation": "اینْفُورْمیرِن",
     "meaning": "اطلاع دادن / مطلع کردن",
     "antonyms": [],
-    "synonyms": [
-      "benachrichtigen"
-    ],
+    "synonyms": ["benachrichtigen"],
     "prasens": [
       {
         "person": "Ich",
@@ -61842,11 +60286,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -61867,9 +60307,7 @@
     "pronunciation": "اینْتِرِسیرِن",
     "meaning": "علاقه‌مند کردن / جالب بودن (sich interessieren für)",
     "antonyms": [],
-    "synonyms": [
-      "faszinieren"
-    ],
+    "synonyms": ["faszinieren"],
     "prasens": [
       {
         "person": "Ich",
@@ -62062,11 +60500,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "reflexiv + Akk",
@@ -62087,9 +60521,7 @@
     "pronunciation": "جُگِن",
     "meaning": "دویدن (جگینگ) / دویدن آهسته",
     "antonyms": [],
-    "synonyms": [
-      "laufen"
-    ],
+    "synonyms": ["laufen"],
     "prasens": [
       {
         "person": "Ich",
@@ -62282,10 +60714,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
+
     "seenCount": 0
   },
   {
@@ -62295,12 +60724,8 @@
     "word": "kaufen",
     "pronunciation": "کَاوْفِن",
     "meaning": "خریدن",
-    "antonyms": [
-      "verkaufen"
-    ],
-    "synonyms": [
-      "erwerben"
-    ],
+    "antonyms": ["verkaufen"],
+    "synonyms": ["erwerben"],
     "prasens": [
       {
         "person": "Ich",
@@ -62493,11 +60918,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -62527,9 +60948,7 @@
     "pronunciation": "کِنِن",
     "meaning": "شناختن / دانستن (شخص یا چیز)",
     "antonyms": [],
-    "synonyms": [
-      "wissen"
-    ],
+    "synonyms": ["wissen"],
     "prasens": [
       {
         "person": "Ich",
@@ -62722,11 +61141,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -62747,10 +61162,7 @@
     "pronunciation": "کِنِن‌لِرنِن",
     "meaning": "آشنا شدن / ملاقات کردن",
     "antonyms": [],
-    "synonyms": [
-      "treffen",
-      "begegnen"
-    ],
+    "synonyms": ["treffen", "begegnen"],
     "prasens": [
       {
         "person": "Ich",
@@ -62943,11 +61355,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -62968,10 +61376,7 @@
     "pronunciation": "کْلَپِن",
     "meaning": "کار کردن / موفق شدن / تا زدن",
     "antonyms": [],
-    "synonyms": [
-      "funktionieren",
-      "gelingen"
-    ],
+    "synonyms": ["funktionieren", "gelingen"],
     "prasens": [
       {
         "person": "Ich",
@@ -63164,10 +61569,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
+
     "seenCount": 0
   },
   {
@@ -63178,9 +61580,7 @@
     "pronunciation": "کُخِن",
     "meaning": "پختن / آشپزی کردن",
     "antonyms": [],
-    "synonyms": [
-      "zubereiten"
-    ],
+    "synonyms": ["zubereiten"],
     "prasens": [
       {
         "person": "Ich",
@@ -63373,11 +61773,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -63397,12 +61793,8 @@
     "word": "kommen",
     "pronunciation": "کُمِن",
     "meaning": "آمدن",
-    "antonyms": [
-      "gehen"
-    ],
-    "synonyms": [
-      "ankommen"
-    ],
+    "antonyms": ["gehen"],
+    "synonyms": ["ankommen"],
     "prasens": [
       {
         "person": "Ich",
@@ -63595,11 +61987,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Intransitiv",
@@ -63620,10 +62008,7 @@
     "pronunciation": "کُنِن",
     "meaning": "توانستن / قادر بودن",
     "antonyms": [],
-    "synonyms": [
-      "dürfen",
-      "mögen"
-    ],
+    "synonyms": ["dürfen", "mögen"],
     "prasens": [
       {
         "person": "Ich",
@@ -63816,11 +62201,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Modalverb",
@@ -63841,9 +62222,7 @@
     "pronunciation": "کُن‌ترول‌لِیرِن",
     "meaning": "کنترل کردن / بررسی کردن",
     "antonyms": [],
-    "synonyms": [
-      "überprüfen"
-    ],
+    "synonyms": ["überprüfen"],
     "prasens": [
       {
         "person": "Ich",
@@ -64036,11 +62415,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -64061,9 +62436,7 @@
     "pronunciation": "کُسْتِن",
     "meaning": "هزینه داشتن / گران بودن",
     "antonyms": [],
-    "synonyms": [
-      "preis sein"
-    ],
+    "synonyms": ["preis sein"],
     "prasens": [
       {
         "person": "Ich",
@@ -64256,11 +62629,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -64281,10 +62650,7 @@
     "pronunciation": "کْریگِن",
     "meaning": "گرفتن / دریافت کردن (محاوره‌ای)",
     "antonyms": [],
-    "synonyms": [
-      "bekommen",
-      "erhalten"
-    ],
+    "synonyms": ["bekommen", "erhalten"],
     "prasens": [
       {
         "person": "Ich",
@@ -64477,11 +62843,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -64502,10 +62864,7 @@
     "pronunciation": "کُمِرن",
     "meaning": "مراقبت کردن / نگران بودن (reflexive)",
     "antonyms": [],
-    "synonyms": [
-      "sorgen",
-      "pflegen"
-    ],
+    "synonyms": ["sorgen", "pflegen"],
     "prasens": [
       {
         "person": "Ich",
@@ -64698,10 +63057,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
+
     "seenCount": 0
   },
   {
@@ -64712,9 +63068,7 @@
     "pronunciation": "کُن‌دِیگِن",
     "meaning": "استعفا دادن / لغو کردن",
     "antonyms": [],
-    "synonyms": [
-      "aufkündigen"
-    ],
+    "synonyms": ["aufkündigen"],
     "prasens": [
       {
         "person": "Ich",
@@ -64907,11 +63261,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Dativ",
@@ -64931,12 +63281,8 @@
     "word": "lachen",
     "pronunciation": "لاخِن",
     "meaning": "خندیدن",
-    "antonyms": [
-      "weinen"
-    ],
-    "synonyms": [
-      "lächeln"
-    ],
+    "antonyms": ["weinen"],
+    "synonyms": ["lächeln"],
     "prasens": [
       {
         "person": "Ich",
@@ -65129,11 +63475,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Intransitiv",
@@ -65163,9 +63505,7 @@
     "pronunciation": "لاسِن",
     "meaning": "اجازه دادن / گذاشتن",
     "antonyms": [],
-    "synonyms": [
-      "erlauben"
-    ],
+    "synonyms": ["erlauben"],
     "prasens": [
       {
         "person": "Ich",
@@ -65358,11 +63698,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -65383,10 +63719,7 @@
     "pronunciation": "لَوْفِن",
     "meaning": "دویدن / راه رفتن",
     "antonyms": [],
-    "synonyms": [
-      "rennen",
-      "gehen"
-    ],
+    "synonyms": ["rennen", "gehen"],
     "prasens": [
       {
         "person": "Ich",
@@ -65579,11 +63912,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Intransitiv",
@@ -65603,13 +63932,8 @@
     "word": "leben",
     "pronunciation": "لِبِن",
     "meaning": "زندگی کردن",
-    "antonyms": [
-      "sterben"
-    ],
-    "synonyms": [
-      "wohnen",
-      "existieren"
-    ],
+    "antonyms": ["sterben"],
+    "synonyms": ["wohnen", "existieren"],
     "prasens": [
       {
         "person": "Ich",
@@ -65802,11 +64126,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Intransitiv",
@@ -65827,10 +64147,7 @@
     "pronunciation": "لِگِن",
     "meaning": "گذاشتن / خواباندن",
     "antonyms": [],
-    "synonyms": [
-      "stellen",
-      "setzen"
-    ],
+    "synonyms": ["stellen", "setzen"],
     "prasens": [
       {
         "person": "Ich",
@@ -66023,11 +64340,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -66048,9 +64361,7 @@
     "pronunciation": "لایت‌تون",
     "meaning": "متأسف بودن / پشیمان بودن",
     "antonyms": [],
-    "synonyms": [
-      "bedauern"
-    ],
+    "synonyms": ["bedauern"],
     "prasens": [
       {
         "person": "Ich",
@@ -66243,11 +64554,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Dativ",
@@ -66268,10 +64575,7 @@
     "pronunciation": "لایِن",
     "meaning": "قرض دادن / امانت دادن",
     "antonyms": [],
-    "synonyms": [
-      "ausleihen",
-      "verleihen"
-    ],
+    "synonyms": ["ausleihen", "verleihen"],
     "prasens": [
       {
         "person": "Ich",
@@ -66480,11 +64784,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -66514,10 +64814,7 @@
     "pronunciation": "لِرنِن",
     "meaning": "یاد گرفتن / درس خواندن",
     "antonyms": [],
-    "synonyms": [
-      "studieren",
-      "erlernen"
-    ],
+    "synonyms": ["studieren", "erlernen"],
     "prasens": [
       {
         "person": "Ich",
@@ -66726,11 +65023,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -66751,10 +65044,7 @@
     "pronunciation": "لِزِن",
     "meaning": "خواندن",
     "antonyms": [],
-    "synonyms": [
-      "durchlesen",
-      "vorlesen"
-    ],
+    "synonyms": ["durchlesen", "vorlesen"],
     "prasens": [
       {
         "person": "Ich",
@@ -66963,11 +65253,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -66987,13 +65273,8 @@
     "word": "lieben",
     "pronunciation": "لی‌بِن",
     "meaning": "دوست داشتن / عاشق بودن",
-    "antonyms": [
-      "hassen"
-    ],
-    "synonyms": [
-      "mögen",
-      "verliebt sein"
-    ],
+    "antonyms": ["hassen"],
+    "synonyms": ["mögen", "verliebt sein"],
     "prasens": [
       {
         "person": "Ich",
@@ -67202,11 +65483,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -67227,10 +65504,7 @@
     "pronunciation": "لی‌فِرن",
     "meaning": "تحویل دادن / تأمین کردن",
     "antonyms": [],
-    "synonyms": [
-      "zustellen",
-      "bringen"
-    ],
+    "synonyms": ["zustellen", "bringen"],
     "prasens": [
       {
         "person": "Ich",
@@ -67439,11 +65713,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -67463,12 +65733,8 @@
     "word": "lügen",
     "pronunciation": "لوگِن",
     "meaning": "دروغ گفتن",
-    "antonyms": [
-      "die Wahrheit sagen"
-    ],
-    "synonyms": [
-      "schwindeln"
-    ],
+    "antonyms": ["die Wahrheit sagen"],
+    "synonyms": ["schwindeln"],
     "prasens": [
       {
         "person": "Ich",
@@ -67677,11 +65943,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Intransitiv",
@@ -67702,10 +65964,7 @@
     "pronunciation": "ماخِن",
     "meaning": "کردن / ساختن",
     "antonyms": [],
-    "synonyms": [
-      "tun",
-      "herstellen"
-    ],
+    "synonyms": ["tun", "herstellen"],
     "prasens": [
       {
         "person": "Ich",
@@ -67914,11 +66173,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -67939,9 +66194,7 @@
     "pronunciation": "مالِن",
     "meaning": "نقاشی کردن",
     "antonyms": [],
-    "synonyms": [
-      "zeichnen"
-    ],
+    "synonyms": ["zeichnen"],
     "prasens": [
       {
         "person": "Ich",
@@ -68150,11 +66403,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -68175,10 +66424,7 @@
     "pronunciation": "مای‌نِن",
     "meaning": "فکر کردن / منظورش بودن",
     "antonyms": [],
-    "synonyms": [
-      "denken",
-      "glauben"
-    ],
+    "synonyms": ["denken", "glauben"],
     "prasens": [
       {
         "person": "Ich",
@@ -68387,11 +66633,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -68412,10 +66654,7 @@
     "pronunciation": "مِرکِن",
     "meaning": "توجه کردن / متوجه شدن",
     "antonyms": [],
-    "synonyms": [
-      "bemerken",
-      "feststellen"
-    ],
+    "synonyms": ["bemerken", "feststellen"],
     "prasens": [
       {
         "person": "Ich",
@@ -68624,11 +66863,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -68638,21 +66873,19 @@
             "persian": "من آن را متوجه می‌شوم."
           }
         ]
-        
       },
-         {
+      {
         "case": "reflexiv + Dativ",
         "examples": [
           {
             "german": "Ich merke mir die Adresse.",
             "persian": "آدرس را به خاطر می‌سپارم."
           },
-           {
+          {
             "german": "Merkst du dir den Namen?",
             "persian": "نام را به خاطر می‌سپاری؟ "
           }
         ]
-        
       }
     ]
   },
@@ -68663,12 +66896,8 @@
     "word": "mieten",
     "pronunciation": "میتِن",
     "meaning": "اجاره کردن",
-    "antonyms": [
-      "vermieten"
-    ],
-    "synonyms": [
-      "anmieten"
-    ],
+    "antonyms": ["vermieten"],
+    "synonyms": ["anmieten"],
     "prasens": [
       {
         "person": "Ich",
@@ -68877,11 +67106,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -68901,13 +67126,8 @@
     "word": "mögen",
     "pronunciation": "مُگِن",
     "meaning": "دوست داشتن",
-    "antonyms": [
-      "nicht mögen"
-    ],
-    "synonyms": [
-      "lieben",
-      "gern haben"
-    ],
+    "antonyms": ["nicht mögen"],
+    "synonyms": ["lieben", "gern haben"],
     "prasens": [
       {
         "person": "Ich",
@@ -69116,11 +67336,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -69141,9 +67357,7 @@
     "pronunciation": "موسِن",
     "meaning": "باید / مجبور بودن",
     "antonyms": [],
-    "synonyms": [
-      "sollen"
-    ],
+    "synonyms": ["sollen"],
     "prasens": [
       {
         "person": "Ich",
@@ -69352,11 +67566,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Modalverb",
@@ -69376,13 +67586,8 @@
     "word": "nehmen",
     "pronunciation": "نِمِن",
     "meaning": "گرفتن",
-    "antonyms": [
-      "geben"
-    ],
-    "synonyms": [
-      "nehmen",
-      "mitnehmen"
-    ],
+    "antonyms": ["geben"],
+    "synonyms": ["nehmen", "mitnehmen"],
     "prasens": [
       {
         "person": "Ich",
@@ -69591,11 +67796,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -69616,9 +67817,7 @@
     "pronunciation": "نِنِن",
     "meaning": "نامیدن / گفتن",
     "antonyms": [],
-    "synonyms": [
-      "bezeichnen"
-    ],
+    "synonyms": ["bezeichnen"],
     "prasens": [
       {
         "person": "Ich",
@@ -69827,11 +68026,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -69852,10 +68047,7 @@
     "pronunciation": "نوتی‌رِن",
     "meaning": "یادداشت کردن / ثبت کردن",
     "antonyms": [],
-    "synonyms": [
-      "aufschreiben",
-      "vermerken"
-    ],
+    "synonyms": ["aufschreiben", "vermerken"],
     "prasens": [
       {
         "person": "Ich",
@@ -70064,11 +68256,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -70088,12 +68276,8 @@
     "word": "öffnen",
     "pronunciation": "اُف‌نِن",
     "meaning": "باز کردن",
-    "antonyms": [
-      "schließen"
-    ],
-    "synonyms": [
-      "aufmachen"
-    ],
+    "antonyms": ["schließen"],
+    "synonyms": ["aufmachen"],
     "prasens": [
       {
         "person": "Ich",
@@ -70302,11 +68486,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -70327,10 +68507,7 @@
     "pronunciation": "اُرگانی‌زیرِن",
     "meaning": "سازماندهی کردن / ترتیب دادن",
     "antonyms": [],
-    "synonyms": [
-      "arrangieren",
-      "planen"
-    ],
+    "synonyms": ["arrangieren", "planen"],
     "prasens": [
       {
         "person": "Ich",
@@ -70539,11 +68716,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -70564,9 +68737,7 @@
     "pronunciation": "پاکِن",
     "meaning": "بستن (چمدان) / جمع کردن",
     "antonyms": [],
-    "synonyms": [
-      "einpacken"
-    ],
+    "synonyms": ["einpacken"],
     "prasens": [
       {
         "person": "Ich",
@@ -70775,11 +68946,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -71009,11 +69176,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -71034,9 +69197,7 @@
     "pronunciation": "پاسِن",
     "meaning": "مناسب بودن / جور بودن",
     "antonyms": [],
-    "synonyms": [
-      "stimmen"
-    ],
+    "synonyms": ["stimmen"],
     "prasens": [
       {
         "person": "Ich",
@@ -71245,11 +69406,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Dativ",
@@ -71270,10 +69427,7 @@
     "pronunciation": "پاسی‌رِن",
     "meaning": "اتفاق افتادن",
     "antonyms": [],
-    "synonyms": [
-      "geschehen",
-      "vorkommen"
-    ],
+    "synonyms": ["geschehen", "vorkommen"],
     "prasens": [
       {
         "person": "Ich",
@@ -71482,11 +69636,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Intransitiv",
@@ -71516,9 +69666,7 @@
     "pronunciation": "پلانِن",
     "meaning": "برنامه‌ریزی کردن",
     "antonyms": [],
-    "synonyms": [
-      "vorbereiten"
-    ],
+    "synonyms": ["vorbereiten"],
     "prasens": [
       {
         "person": "Ich",
@@ -71727,11 +69875,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -71752,10 +69896,7 @@
     "pronunciation": "پروبی‌رِن",
     "meaning": "امتحان کردن / تست کردن",
     "antonyms": [],
-    "synonyms": [
-      "versuchen",
-      "testen"
-    ],
+    "synonyms": ["versuchen", "testen"],
     "prasens": [
       {
         "person": "Ich",
@@ -71964,11 +70105,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -71989,10 +70126,7 @@
     "pronunciation": "پروفِن",
     "meaning": "بررسی کردن / امتحان کردن",
     "antonyms": [],
-    "synonyms": [
-      "kontrollieren",
-      "testen"
-    ],
+    "synonyms": ["kontrollieren", "testen"],
     "prasens": [
       {
         "person": "Ich",
@@ -72201,11 +70335,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -72226,9 +70356,7 @@
     "pronunciation": "پوتسِن",
     "meaning": "تمیز کردن",
     "antonyms": [],
-    "synonyms": [
-      "reinigen"
-    ],
+    "synonyms": ["reinigen"],
     "prasens": [
       {
         "person": "Ich",
@@ -72437,11 +70565,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -72462,10 +70586,7 @@
     "pronunciation": "راتِن",
     "meaning": "حدس زدن / توصیه کردن",
     "antonyms": [],
-    "synonyms": [
-      "empfehlen",
-      "vermuten"
-    ],
+    "synonyms": ["empfehlen", "vermuten"],
     "prasens": [
       {
         "person": "Ich",
@@ -72674,11 +70795,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Dativ",
@@ -72917,11 +71034,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Akk",
@@ -72942,9 +71055,7 @@
     "pronunciation": "رِخ‌نِن",
     "meaning": "محاسبه کردن / حساب کردن",
     "antonyms": [],
-    "synonyms": [
-      "berechnen"
-    ],
+    "synonyms": ["berechnen"],
     "prasens": [
       {
         "person": "Ich",
@@ -73153,11 +71264,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Dativ",
@@ -73387,11 +71494,7 @@
         ]
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "caseverb": [
       {
         "case": "Intransitiv",

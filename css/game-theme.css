@@ -97,11 +97,17 @@ body.module-themed #autocompleteList .game-autocomplete-chip {
   color: var(--theme-chip-text);
   background-color: var(--theme-chip-bg);
   border-color: color-mix(in srgb, var(--theme-accent) 30%, transparent);
+  box-shadow: 0 1px 3px color-mix(in srgb, var(--theme-accent) 8%, transparent);
+}
+
+body.module-themed #autocompleteList .game-autocomplete-chip .ac-pronunciation {
+  color: color-mix(in srgb, var(--theme-accent) 70%, transparent);
 }
 
 body.module-themed #autocompleteList .game-autocomplete-chip:hover {
   background-color: var(--theme-surface-muted);
   border-color: color-mix(in srgb, var(--theme-accent) 45%, transparent);
+  box-shadow: 0 4px 12px color-mix(in srgb, var(--theme-accent) 15%, transparent);
 }
 
 body.module-themed .game-result-btn--practice {

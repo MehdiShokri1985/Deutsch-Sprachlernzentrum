@@ -27,11 +27,7 @@
         "fa": "این قدیمی‌ترین ساختمان درشهر ما است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
     "pronunciation": "آلت"
   },
   {
@@ -59,11 +55,11 @@
         "fa": "این جوان‌ترین بازیکن در تیم است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "یونگ"
   },
   {
@@ -92,11 +88,11 @@
         "fa": "این جدیدترین مدل است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "نوی"
   },
   {
@@ -125,11 +121,11 @@
         "fa": "این بهترین کتاب در قفسه است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "گوت"
   },
   {
@@ -157,11 +153,11 @@
         "fa": "این بدترین نمره در کلاس است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "شلِخت"
   },
   {
@@ -189,11 +185,11 @@
         "fa": "این بزرگ‌ترین پارک شهر است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "گروس"
   },
   {
@@ -221,11 +217,11 @@
         "fa": "این کوچک‌ترین ماشین اینجا است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "کلاین"
   },
   {
@@ -253,11 +249,11 @@
         "fa": "این بلندترین ساختمان در اروپا است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "هوخ"
   },
   {
@@ -285,11 +281,11 @@
         "fa": "این پایین‌ترین قیمت در فروشگاه است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "نیدریش"
   },
   {
@@ -317,11 +313,11 @@
         "fa": "این طولانی‌ترین رودخانه در آلمان است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "لانگ"
   },
   {
@@ -349,11 +345,11 @@
         "fa": "این کوتاه‌ترین مسیر به ایستگاه قطار است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "کورتس"
   },
   {
@@ -381,11 +377,11 @@
         "fa": "این سریع‌ترین اسب در مسابقه است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "شنِل"
   },
   {
@@ -413,11 +409,11 @@
         "fa": "این کندترین ماشین در ترافیک است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "لانگ‌زام"
   },
   {
@@ -445,11 +441,11 @@
         "fa": "این سخت‌ترین امتحان سال است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "شوِر"
   },
   {
@@ -477,11 +473,11 @@
         "fa": "این آسان‌ترین تمرین امروز است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "لایشت"
   },
   {
@@ -509,11 +505,11 @@
         "fa": "این درست‌ترین تصمیم است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "ریشتیش"
   },
   {
@@ -541,11 +537,11 @@
         "fa": "این غلط‌ترین اطلاعات است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "فالش"
   },
   {
@@ -573,11 +569,11 @@
         "fa": "این گران‌ترین رستوران شهر است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "تویِر"
   },
   {
@@ -605,11 +601,11 @@
         "fa": "این ارزان‌ترین بلیت است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "بیلیش"
   },
   {
@@ -637,11 +633,11 @@
         "fa": "این گرم‌ترین روز سال است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "وارم"
   },
   {
@@ -671,11 +667,11 @@
         "fa": "این سردترین روز زمستان است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "کالت"
   },
   {
@@ -704,11 +700,11 @@
         "fa": "این گرم‌ترین روز سال است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "هایس"
   },
   {
@@ -737,11 +733,11 @@
         "fa": "این خنک‌ترین اتاق خانه است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "کول"
   },
   {
@@ -769,11 +765,11 @@
         "fa": "این پرصدا‌ترین کنسرت سال است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "لاوت"
   },
   {
@@ -801,11 +797,11 @@
         "fa": "این آرام‌ترین اتاق هتل است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "لایزه"
   },
   {
@@ -834,11 +830,11 @@
         "fa": "این زیباترین شهر آلمان است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "شون"
   },
   {
@@ -866,11 +862,11 @@
         "fa": "این زشت‌ترین ساختمان خیابان است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "هِسلیش"
   },
   {
@@ -899,11 +895,11 @@
         "fa": "این مهربان‌ترین معلم مدرسه است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "فروندلیش"
   },
   {
@@ -931,11 +927,11 @@
         "fa": "این بی‌ادب‌ترین فروشنده فروشگاه است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "اون‌فروندلیش"
   },
   {
@@ -964,11 +960,11 @@
         "fa": "این خوشحال‌ترین روز زندگی من است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "گلوک‌لیش"
   },
   {
@@ -996,11 +992,11 @@
         "fa": "این غمگین‌ترین داستان کتاب است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "تراوریش"
   },
   {
@@ -1028,11 +1024,11 @@
         "fa": "این خسته‌ترین بازیکن تیم است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "موده"
   },
   {
@@ -1058,11 +1054,11 @@
         "fa": "این گرسنه‌ترین پسر کلاس است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "هونگریش"
   },
   {
@@ -1086,11 +1082,11 @@
         "fa": "این تشنه‌ترین دونده مسابقه است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "دورستیش"
   },
   {
@@ -1118,11 +1114,11 @@
         "fa": "این سیرترین کودک سر میز است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "زات"
   },
   {
@@ -1150,11 +1146,11 @@
         "fa": "این بیمارترین بیمار بیمارستان است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "کرانک"
   },
   {
@@ -1182,11 +1178,11 @@
         "fa": "این سالم‌ترین غذا در رستوران است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "گِزوند"
   },
   {
@@ -1214,11 +1210,11 @@
         "fa": "این پرترین قطار روز است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "فول"
   },
   {
@@ -1246,11 +1242,11 @@
         "fa": "این خالی‌ترین قفسه سوپرمارکت است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "لِر"
   },
   {
@@ -1278,11 +1274,11 @@
         "fa": "این بازترین پنجره خانه است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "آفِن"
   },
   {
@@ -1310,11 +1306,11 @@
         "fa": "این بسته‌ترین فروشگاه در خیابان است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "گِشلوسِن"
   },
   {
@@ -1342,11 +1338,11 @@
         "fa": "این آزادترین روز این هفته است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "فرای"
   },
   {
@@ -1374,11 +1370,11 @@
         "fa": "این شلوغ‌ترین قطار صبح است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "بِزِتزت"
   },
   {
@@ -1406,11 +1402,11 @@
         "fa": "این نزدیک‌ترین سوپرمارکت است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "نا"
   },
   {
@@ -1438,11 +1434,11 @@
         "fa": "این دورترین مسیر است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "وایت"
   },
   {
@@ -1470,11 +1466,11 @@
         "fa": "این ضخیم‌ترین کت است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "دیک"
   },
   {
@@ -1502,11 +1498,11 @@
         "fa": "این نازک‌ترین کتاب است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "دون"
   },
   {
@@ -1534,11 +1530,11 @@
         "fa": "این قوی‌ترین بازیکن است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "شتارک"
   },
   {
@@ -1566,11 +1562,11 @@
         "fa": "این ضعیف‌ترین تیم است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "شواخ"
   },
   {
@@ -1598,11 +1594,11 @@
         "fa": "این روشن‌ترین لامپ است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "هِل"
   },
   {
@@ -1630,11 +1626,11 @@
         "fa": "این تیره‌ترین رنگ است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "دونکِل"
   },
   {
@@ -1662,11 +1658,11 @@
         "fa": "این خیس‌ترین روز سال است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "ناس"
   },
   {
@@ -1694,11 +1690,11 @@
         "fa": "این خشک‌ترین نان است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "تروکن"
   },
   {
@@ -1726,11 +1722,11 @@
         "fa": "این سخت‌ترین چوب است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "هارت"
   },
   {
@@ -1758,11 +1754,11 @@
         "fa": "این نرم‌ترین تخت است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "وایش"
   },
   {
@@ -1790,11 +1786,11 @@
         "fa": "این تمیزترین ماشین است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "زاوبر"
   },
   {
@@ -1822,11 +1818,11 @@
         "fa": "این کثیف‌ترین اتاق است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "شموتسیش"
   },
   {
@@ -1854,11 +1850,11 @@
         "fa": "این زودترین قطار است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "فرو"
   },
   {
@@ -1886,11 +1882,11 @@
         "fa": "این دیرترین ساعت است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "شپیت"
   },
   {
@@ -1918,11 +1914,11 @@
         "fa": "این مهم‌ترین خبر امروز است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "ویشتیش"
   },
   {
@@ -1950,11 +1946,11 @@
         "fa": "این غیر مهم‌ترین موضوع است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "اون‌ویشتیش"
   },
   {
@@ -1982,11 +1978,11 @@
         "fa": "این آسان‌ترین سوال است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "آین‌فاخ"
   },
   {
@@ -2014,11 +2010,11 @@
         "fa": "این سخت‌ترین تمرین است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "شویریش"
   },
   {
@@ -2046,11 +2042,11 @@
         "fa": "این جالب‌ترین داستان است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "اینترِسانت"
   },
   {
@@ -2078,11 +2074,11 @@
         "fa": "این خسته‌کننده‌ترین فیلم است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "لانگ‌وایلیش"
   },
   {
@@ -2110,11 +2106,11 @@
         "fa": "این ممکن‌ترین گزینه است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "موگ‌لیش"
   },
   {
@@ -2142,11 +2138,11 @@
         "fa": "این غیر ممکن‌ترین کار است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "اون‌موگ‌لیش"
   },
   {
@@ -2175,11 +2171,11 @@
         "fa": "او مهربان‌تر از برادرش است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "نِت"
   },
   {
@@ -2208,11 +2204,11 @@
         "fa": "این بدترین داستان است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "بوزه"
   },
   {
@@ -2241,11 +2237,11 @@
         "fa": "امروز شادتر از دیروز هستم."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "فرولیش"
   },
   {
@@ -2274,11 +2270,11 @@
         "fa": "این بامزه‌ترین مهمانی است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "لوستیگ"
   },
   {
@@ -2307,11 +2303,11 @@
         "fa": "این جدی‌تر از آن است که فکر می‌کنی."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "اِرنست"
   },
   {
@@ -2339,11 +2335,11 @@
         "fa": "او دقیق‌ترین دانش‌آموز است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "پونکت‌لیش"
   },
   {
@@ -2372,11 +2368,11 @@
         "fa": "این نامنظم‌تر از هفته گذشته است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "اون‌پونکت‌لیش"
   },
   {
@@ -2404,11 +2400,11 @@
         "fa": "این سخت کوش ترین کلاس است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "فلایسیش"
   },
   {
@@ -2436,11 +2432,11 @@
         "fa": "این تنبل‌ترین سگ است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "فاول"
   },
   {
@@ -2468,11 +2464,11 @@
         "fa": "این ثروتمندترین کشور است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "رایش"
   },
   {
@@ -2500,11 +2496,11 @@
         "fa": "این فقیرترین روستا است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "آرم"
   },
   {
@@ -2533,11 +2529,11 @@
         "fa": "او باهوش‌تر از برادرش است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "کلوگ"
   },
   {
@@ -2565,11 +2561,11 @@
         "fa": "این احمقانه‌ترین سوال است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "دوم"
   },
   {
@@ -2597,11 +2593,11 @@
         "fa": "او صادق‌تر از بقیه است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "اِرلیش"
   },
   {
@@ -2629,11 +2625,11 @@
         "fa": "این غیرصادقانه‌تر از قبل است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "اون‌اِرلیش"
   },
   {
@@ -2661,11 +2657,11 @@
         "fa": "این مودبانه‌ترین پاسخ بود."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "هوف‌لیش"
   },
   {
@@ -2693,11 +2689,11 @@
         "fa": "این بی‌ادبانه‌تر از دیروز بود."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "اون‌هوف‌لیش"
   },
   {
@@ -2725,11 +2721,11 @@
         "fa": "این راحت‌ترین تخت است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "بِکوِم"
   },
   {
@@ -2757,11 +2753,11 @@
         "fa": "این ناراحت‌تر از دیگری است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "اون‌بِکوِم"
   },
   {
@@ -2789,11 +2785,11 @@
         "fa": "این دنج‌ترین گوشه است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "گِموت‌لیش"
   },
   {
@@ -2821,11 +2817,11 @@
         "fa": "این ناراحت‌تر از بیرون است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "اون‌گِموت‌لیش"
   },
   {
@@ -2853,11 +2849,11 @@
         "fa": "او معروف‌تر از همکارش است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "بِکانت"
   },
   {
@@ -2885,11 +2881,11 @@
         "fa": "راه ناشناخته‌تر از آنچه فکر می‌کردم بود."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "اون‌بِکانت"
   },
   {
@@ -2917,11 +2913,11 @@
         "fa": "شهر زنده‌تر از روستا است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "لِبِندیگ"
   },
   {
@@ -2949,11 +2945,11 @@
         "fa": "این مرده‌ترین خیابان شهر است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "توت"
   },
   {
@@ -2981,11 +2977,11 @@
         "fa": "این خوشمزه‌ترین بستنی اینجا است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "لِکِر"
   },
   {
@@ -3013,11 +3009,11 @@
         "fa": "این تلخ‌ترین قهوه‌ای است که می‌شناسم."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "بیتِر"
   },
   {
@@ -3046,11 +3042,11 @@
         "fa": "این شیرین‌ترین هدیه است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "زوس"
   },
   {
@@ -3078,11 +3074,11 @@
         "fa": "این ترش‌ترین سیب سبد است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "زاور"
   },
   {
@@ -3110,11 +3106,11 @@
         "fa": "گل‌ها تازه‌تر از دیروز هستند."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "فریش"
   },
   {
@@ -3142,11 +3138,11 @@
         "fa": "این قدیمی‌ترین لامپ است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "آلت‌مودیش"
   },
   {
@@ -3174,11 +3170,11 @@
         "fa": "این مدرن‌ترین ماشین اینجا است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "مودرن"
   },
   {
@@ -3206,11 +3202,11 @@
         "fa": "این ورزشی‌ترین فرد در گروه است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "شپورت‌لیش"
   },
   {
@@ -3238,11 +3234,11 @@
         "fa": "این غیرورزشی‌ترین عمل بود."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "اون‌شپورت‌لیش"
   },
   {
@@ -3270,11 +3266,11 @@
         "fa": "این خوش‌بینانه‌ترین پاسخ است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "اپتیمیستی‌ش"
   },
   {
@@ -3302,11 +3298,11 @@
         "fa": "این بدبینانه‌ترین نظر است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "پِسیمیستی‌ش"
   },
   {
@@ -3334,11 +3330,11 @@
         "fa": "او کنجکاوتر از برادرش است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "نوی‌گیریش"
   },
   {
@@ -3367,11 +3363,11 @@
         "fa": "این بی‌تفاوت‌ترین واکنش است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "گلایش‌گولتیش"
   },
   {
@@ -3399,11 +3395,11 @@
         "fa": "او صبورتر از من است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "گِدولدیش"
   },
   {
@@ -3431,11 +3427,11 @@
         "fa": "این بی‌تاب‌ترین فرد است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "اون‌گِدولدیش"
   },
   {
@@ -3463,11 +3459,11 @@
         "fa": "این شجاعانه‌ترین تصمیم بود."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "موتیش"
   },
   {
@@ -3497,11 +3493,11 @@
         "fa": "این ترسوترین گربه در خانه است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "اِنگست‌لیش"
   },
   {
@@ -3529,11 +3525,11 @@
         "fa": "این محتاط‌ترین روش است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "فورزیشتیش"
   },
   {
@@ -3561,11 +3557,11 @@
         "fa": "این بی‌احتیاط‌ترین تصمیم است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "اون‌فورزیشتیش"
   },
   {
@@ -3594,11 +3590,11 @@
         "fa": "این مرتب‌ترین آپارتمان است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "اُردِنت‌لیش"
   },
   {
@@ -3626,11 +3622,11 @@
         "fa": "این به‌هم‌ریخته‌ترین گوشه است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "اون‌اُردِنت‌لیش"
   },
   {
@@ -3658,11 +3654,11 @@
         "fa": "این راضی‌ترین فرد اینجا است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "تسوفری‌دِن"
   },
   {
@@ -3690,11 +3686,11 @@
         "fa": "این ناراضی‌ترین گروه است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "اون‌تسوفری‌دِن"
   },
   {
@@ -3723,11 +3719,11 @@
         "fa": "این آرام‌ترین فضا است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "اِنت‌شپانت"
   },
   {
@@ -3755,11 +3751,11 @@
         "fa": "این استرس‌زده‌ترین روز است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "گِشترِست"
   },
   {
@@ -3787,11 +3783,11 @@
         "fa": "این رنگارنگ‌ترین تی‌شرت است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "بونت"
   },
   {
@@ -3817,11 +3813,11 @@
         "fa": "این سیاه‌ترین پارچه است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "شوارتس"
   },
   {
@@ -3847,11 +3843,11 @@
         "fa": "این سفیدترین کاغذ است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "وایس"
   },
   {
@@ -3879,11 +3875,11 @@
         "fa": "این گردترین دایره است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "روند"
   },
   {
@@ -3911,11 +3907,11 @@
         "fa": "این گوشه‌دارترین قفسه است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "اِکیگ"
   },
   {
@@ -3944,11 +3940,11 @@
         "fa": "این پهن‌ترین تخت است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "برایِت"
   },
   {
@@ -3976,11 +3972,11 @@
         "fa": "این تنگ‌ترین خیابان است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "اِنگ"
   },
   {
@@ -4008,11 +4004,11 @@
         "fa": "این تخت‌ترین سقف است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "فلاخ"
   },
   {
@@ -4039,11 +4035,11 @@
         "fa": "این عمیق‌ترین چاله است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "تیف"
   },
   {
@@ -4071,11 +4067,11 @@
         "fa": "این بلندترین خانه در شهر است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "هوخ"
   },
   {
@@ -4103,11 +4099,11 @@
         "fa": "این پایین‌ترین ساختمان در خیابان است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "نیدریش"
   },
   {
@@ -4135,11 +4131,11 @@
         "fa": "این مستقیم‌ترین خط است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "گِراده"
   },
   {
@@ -4167,11 +4163,11 @@
         "fa": "این کج‌ترین میخ است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "کروم"
   },
   {
@@ -4199,11 +4195,11 @@
         "fa": "این صاف‌ترین خیابان است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "گلات"
   },
   {
@@ -4231,11 +4227,11 @@
         "fa": "این خشن‌ترین سطح است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "راو"
   },
   {
@@ -4263,11 +4259,11 @@
         "fa": "این تیزترین سر است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "شپیتس"
   },
   {
@@ -4296,11 +4292,11 @@
         "fa": "این کندترین ابزار است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "شتومپف"
   },
   {
@@ -4328,11 +4324,11 @@
         "fa": "این محکم‌ترین پیچ است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "فِست"
   },
   {
@@ -4360,11 +4356,11 @@
         "fa": "این شل‌ترین اتصال است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "لوکِر"
   },
   {
@@ -4392,11 +4388,11 @@
         "fa": "این عظیم‌ترین کشتی است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "ریزیش"
   },
   {
@@ -4424,11 +4420,11 @@
         "fa": "این ریزترین قطعه است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "وینتسیش"
   },
   {
@@ -4456,11 +4452,11 @@
         "fa": "این عظیم‌ترین ساختمان است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "ریزِن‌گروس"
   },
   {
@@ -4488,11 +4484,11 @@
         "fa": "این کوچک‌ترین حیوان است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "وینتسیش‌کلاین"
   },
   {
@@ -4521,11 +4517,11 @@
         "fa": "از بین همه دوستان، او دوست‌داشتنی‌ترین است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "زومپاتی‌ش"
   },
   {
@@ -4553,11 +4549,11 @@
         "fa": "این ناخوشایندترین جواب بود."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "اون‌زومپاتی‌ش"
   },
   {
@@ -4586,11 +4582,11 @@
         "fa": "این کمک‌کننده‌ترین واکنش بود."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "هیلفس‌بِرایت"
   },
   {
@@ -4619,11 +4615,11 @@
         "fa": "این خسیس‌ترین تصمیم است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "گایتسیش"
   },
   {
@@ -4651,11 +4647,11 @@
         "fa": "این بخشنده‌ترین هدیه بود."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "گروس‌تسوگیش"
   },
   {
@@ -4683,11 +4679,11 @@
         "fa": "این مغرورانه‌ترین لحظه است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "شتولتس"
   },
   {
@@ -4715,11 +4711,11 @@
         "fa": "این متواضع‌ترین جشن بود."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "بِشایدِن"
   },
   {
@@ -4745,11 +4741,11 @@
         "fa": "این حسودانه‌ترین واکنش بود."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "آیفِرزوشتیش"
   },
   {
@@ -4775,11 +4771,11 @@
         "fa": "این حسودانه‌ترین نظر بود."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "نایدیش"
   },
   {
@@ -4807,11 +4803,11 @@
         "fa": "این سپاسگزارانه‌ترین لحظه بود."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "دانک‌بار"
   },
   {
@@ -4837,11 +4833,11 @@
         "fa": "این ناسپاسانه‌ترین态度 است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "اون‌دانک‌بار"
   },
   {
@@ -4871,11 +4867,11 @@
         "fa": "عصبانی‌ترین مشتری شکایت کرد."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "فِرِرگِرت"
   },
   {
@@ -4905,11 +4901,11 @@
         "fa": "خشمگین‌ترین واکنش از مادر آمد."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "ووتِند"
   },
   {
@@ -4937,11 +4933,11 @@
         "fa": "این متعجب‌کننده‌ترین خبر روز بود."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "اوبر‌راشت"
   },
   {
@@ -4970,11 +4966,11 @@
         "fa": "این یکی از شگفت‌انگیزترین داستان‌هایی است که می‌دانم."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "اِرشتاونت"
   },
   {
@@ -5004,11 +5000,11 @@
         "fa": "این آرام‌بخش‌ترین اطلاعات برای همه است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "بِروهیگت"
   },
   {
@@ -5038,11 +5034,11 @@
         "fa": "این هیجان‌انگیزترین لحظه شب بود."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "آوف‌گِرِگت"
   },
   {
@@ -5072,11 +5068,11 @@
         "fa": "این عصبی‌ترین موقعیتی است که تجربه کرده‌ام."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "نِرووس"
   },
   {
@@ -5106,11 +5102,11 @@
         "fa": "این آرام‌ترین تعطیلات زندگی‌ام بود."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "اِنت‌شپانت"
   },
   {
@@ -5139,11 +5135,11 @@
         "fa": "این قابل اعتمادترین ماشین در این رده قیمتی است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "تسوفرلِسیش"
   },
   {
@@ -5172,11 +5168,11 @@
         "fa": "این غیر قابل اعتمادترین شرکت در شهر است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "اون‌تسوفرلِسیش"
   },
   {
@@ -5205,11 +5201,11 @@
         "fa": "این مسئولانه‌ترین تصمیم سال بود."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "فِر‌آنت‌وورتونگس‌فول"
   },
   {
@@ -5238,11 +5234,11 @@
         "fa": "این بی‌مسئولیت‌ترین کاری است که دیده‌ام."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "فِر‌آنت‌وورتونگس‌لوس"
   },
   {
@@ -5271,11 +5267,11 @@
         "fa": "این خلاقانه‌ترین تبلیغات سال بود."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "کرِآتیف"
   },
   {
@@ -5304,11 +5300,11 @@
         "fa": "این پر تخیل‌ترین نقاشی در نمایشگاه است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "فانتازی‌فول"
   },
   {
@@ -5337,11 +5333,11 @@
         "fa": "این عملی‌ترین راه‌حل برای مشکل است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "پرکتیش"
   },
   {
@@ -5370,11 +5366,11 @@
         "fa": "این غیر عملی‌ترین ایده تیم بود."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "اون‌پرکتیش"
   },
   {
@@ -5403,11 +5399,11 @@
         "fa": "این صرفه‌جویانه‌ترین راه سفر است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "شپار‌زام"
   },
   {
@@ -5436,11 +5432,11 @@
         "fa": "این ولخرجانه‌ترین مهمانی سال بود."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "فِرشوِندِریش"
   },
   {
@@ -5469,11 +5465,11 @@
         "fa": "او تحمل‌پذیرتر از برادرش است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "تولِرانت"
   },
   {
@@ -5501,11 +5497,11 @@
         "fa": "غیر تحمل‌پذیرترین نگرش به هیچ‌کس کمک نمی‌کند."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "این‌تولِرانت"
   },
   {
@@ -5534,11 +5530,11 @@
         "fa": "او بازتر از قبل شده است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "آفِن"
   },
   {
@@ -5566,11 +5562,11 @@
         "fa": "او در آخرین زمان حتی بسته‌تر شده است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "فِرشلوسِن"
   },
   {
@@ -5598,11 +5594,11 @@
         "fa": "همکاران برون‌گرا تیم را انگیزه می‌دهند."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "اِکسترووِرتی‌رت"
   },
   {
@@ -5631,11 +5627,11 @@
         "fa": "درون‌گراترین فرد در گروه خیلی ساکت بود."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "اینترووِرتی‌رت"
   },
   {
@@ -5664,11 +5660,11 @@
         "fa": "او با اعتماد به نفس‌تر شده است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "زِلپست‌بِووست"
   },
   {
@@ -5696,11 +5692,11 @@
         "fa": "او نا مطمئن‌تر از خواهرش است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "اون‌زیشِر"
   },
   {
@@ -5728,11 +5724,11 @@
         "fa": "او سخت کار می‌کند و موفق‌تر خواهد شد."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "اِرفولگ‌رایش"
   },
   {
@@ -5760,11 +5756,11 @@
         "fa": "او بعد از ناموفق‌ترین روز خیلی خسته بود."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "اِرفولگ‌لوس"
   },
   {
@@ -5792,11 +5788,11 @@
         "fa": "او همیشه محبوب‌تر می‌شود."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "بِلیپت"
   },
   {
@@ -5824,11 +5820,11 @@
         "fa": "این نامحبوب‌ترین قانون در شرکت است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "اون‌بِلیپت"
   },
   {
@@ -5856,11 +5852,11 @@
         "fa": "این معمول‌ترین مثال برای وقت‌شناسی آلمانی است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "توپیش"
   },
   {
@@ -5888,11 +5884,11 @@
         "fa": "این غیرمعمول‌ترین واکنشی است که انتظار داشتم."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "اون‌توپیش"
   },
   {
@@ -5921,11 +5917,11 @@
         "fa": "این عادی‌ترین وضعیت در یک خانواده است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "نورمال"
   },
   {
@@ -5953,11 +5949,11 @@
         "fa": "این غیرعادی‌ترین داستانی است که تا به حال شنیده‌ام."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "اون‌گِوون‌لیش"
   },
   {
@@ -5985,11 +5981,11 @@
         "fa": "این نادرترین حیوان در باغ وحش است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "زِلتِن"
   },
   {
@@ -6017,11 +6013,11 @@
         "fa": "این مکررترین سؤال گردشگران است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "هویفیش"
   },
   {
@@ -6049,11 +6045,11 @@
         "fa": "این رایج‌ترین سلام و احوالپرسی در آلمان است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "اوب‌لیش"
   },
   {
@@ -6081,11 +6077,11 @@
         "fa": "این غیررایج‌ترین سنتی است که می‌شناسم."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "اون‌اوب‌لیش"
   },
   {
@@ -6113,11 +6109,11 @@
         "fa": "این خطرناک‌ترین وضعیت در ترافیک است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "گِفِرلیش"
   },
   {
@@ -6145,11 +6141,11 @@
         "fa": "این بی‌خطرترین ورزش برای مبتدیان است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "اون‌گِفِرلیش"
   },
   {
@@ -6177,11 +6173,11 @@
         "fa": "این امن‌ترین روشی است که داریم."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "زیشِر"
   },
   {
@@ -6209,11 +6205,11 @@
         "fa": "این ناامن‌ترین مسیر از جنگل است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "اون‌زیشِر"
   },
   {
@@ -6241,11 +6237,11 @@
         "fa": "این ارزشمندترین هدیه‌ای است که تا حالا گرفته‌ام."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "وِرت‌فول"
   },
   {
@@ -6273,11 +6269,11 @@
         "fa": "این بی‌ارزش‌ترین سرمایه‌گذاری زندگی‌ام بود."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "وِرت‌لوس"
   },
   {
@@ -6305,11 +6301,11 @@
         "fa": "این مفیدترین اپلیکیشنی است که می‌شناسم."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "نوتس‌لیش"
   },
   {
@@ -6337,11 +6333,11 @@
         "fa": "این بی‌فایده‌ترین ساعت زندگی‌ام بود."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "اون‌نوتس"
   },
   {
@@ -6369,11 +6365,11 @@
         "fa": "این ضروری‌ترین اقدام در حال حاضر است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "نوت‌وِندیگ"
   },
   {
@@ -6401,11 +6397,11 @@
         "fa": "این غیرضروری‌ترین هزینه سال بود."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "اون‌نوتیش"
   },
   {
@@ -6434,11 +6430,11 @@
         "fa": "این دلپذیرترین دما برای خواب است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "آنگِ‌نِم"
   },
   {
@@ -6466,11 +6462,11 @@
         "fa": "این ناخوشایندترین تجربه‌ای است که داشته‌ام."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "اون‌آنگِ‌نِم"
   },
   {
@@ -6500,11 +6496,11 @@
         "fa": "این شگفت‌انگیزترین تعطیلات زندگی من بود."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "ووندِربار"
   },
   {
@@ -6534,11 +6530,11 @@
         "fa": "این وحشتناک‌ترین تجربه زندگی من بود."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "شِرِک‌لیش"
   },
   {
@@ -6568,11 +6564,11 @@
         "fa": "این فوق‌العاده‌ترین مهمانی‌ای است که تا به حال در آن بودم."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "فانتاستی‌ش"
   },
   {
@@ -6602,11 +6598,11 @@
         "fa": "این وحشتناک‌ترین روز این هفته بود."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "فورشت‌بار"
   },
   {
@@ -6636,11 +6632,11 @@
         "fa": "این کامل‌ترین لحظه شب بود."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "پِرفِکت"
   },
   {
@@ -6670,10 +6666,10 @@
         "fa": "این ناکامل‌ترین نسخه طرح بود."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
+
+
+
+
     "seenCount": 0
   },
   {
@@ -6703,11 +6699,11 @@
         "fa": "این ماشین برای خانواده ما ایده‌آل خواهد بود."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "ایدِآل"
   },
   {
@@ -6736,11 +6732,11 @@
         "fa": "این واقع‌بینانه‌ترین ارزیابی از وضعیت است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "رِآلیستی‌ش"
   },
   {
@@ -6769,11 +6765,11 @@
         "fa": "این غیرواقع‌بینانه‌ترین ایده‌ای است که تا به حال شنیده‌ام."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "اون‌رِآلیستی‌ش"
   },
   {
@@ -6802,11 +6798,11 @@
         "fa": "این منطقی‌ترین راه‌حل برای این مشکل است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "فِرنونفتیگ"
   },
   {
@@ -6835,11 +6831,11 @@
         "fa": "این غیر منطقی‌ترین ایده‌ای است که تا به حال شنیده‌ام."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "اون‌فِرنونفتیگ"
   },
   {
@@ -6868,11 +6864,11 @@
         "fa": "این باهوش‌ترین پاسخ در کل گفتگو بود."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "اینتِلیگِنت"
   },
   {
@@ -6901,10 +6897,10 @@
         "fa": "او یکی از فکری‌ترین متفکران دوران ماست."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
+
+
+
+
     "seenCount": 0
   },
   {
@@ -6933,11 +6929,11 @@
         "fa": "این حساس‌ترین موضوع در جامعه است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "زِنزیبِل"
   },
   {
@@ -6966,10 +6962,10 @@
         "fa": "این حساس‌ترین قسمت دستگاه است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
+
+
+
+
     "seenCount": 0
   },
   {
@@ -6998,11 +6994,11 @@
         "fa": "این مقاوم‌ترین ماده‌ای است که داریم."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "روبوست"
   },
   {
@@ -7031,11 +7027,11 @@
         "fa": "این شکننده‌ترین قطعه در مجموعه است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "تسِربِرِش‌لیش"
   },
   {
@@ -7064,11 +7060,11 @@
         "fa": "این پویاترین پیشرفت در این صنعت است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "دینامی‌ش"
   },
   {
@@ -7097,11 +7093,11 @@
         "fa": "این ایستاترین مرحله پروژه است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "شتاتی‌ش"
   },
   {
@@ -7130,11 +7126,11 @@
         "fa": "او با وجود سنش زندگی فعالی دارد."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "آکتیف"
   },
   {
@@ -7163,11 +7159,11 @@
         "fa": "او نقش منفعلی در پروژه پذیرفته است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "پاسیف"
   },
   {
@@ -7196,11 +7192,11 @@
         "fa": "امروز به نظر خیلی با انگیزه نمی‌آید."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "موتیفیرت"
   },
   {
@@ -7229,11 +7225,11 @@
         "fa": "فیدبک بد او را بی‌انگیزه کرد."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "دِموتیفیرت"
   },
   {
@@ -7262,11 +7258,11 @@
         "fa": "تیم خیلی مشتاقانه بازی کرد."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "اِنگاگی‌رت"
   },
   {
@@ -7296,10 +7292,10 @@
         "fa": "او نسبت به برنامه جدید بی‌علاقه ماند."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
+
+
+
+
     "seenCount": 0
   },
   {
@@ -7328,11 +7324,11 @@
         "fa": "نگاه انتقادی رئیس من را عصبی می‌کند."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "کریتی‌ش"
   },
   {
@@ -7361,10 +7357,10 @@
         "fa": "انتقاد سازنده به بهبود کمک می‌کند."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
+
+
+
+
     "seenCount": 0
   },
   {
@@ -7393,10 +7389,10 @@
         "fa": "از بحث‌های تخریبی اجتناب کن."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
+
+
+
+
     "seenCount": 0
   },
   {
@@ -7425,10 +7421,10 @@
         "fa": "او مشکل را به صورت تحلیلی بررسی می‌کند."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
+
+
+
+
     "seenCount": 0
   },
   {
@@ -7458,11 +7454,11 @@
         "fa": "این احساسی‌ترین صحنه‌ی شب بود."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "اِموسیونال"
   },
   {
@@ -7492,11 +7488,11 @@
         "fa": "این منطقی‌ترین راه‌حل برای مشکل است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "راسیونال"
   },
   {
@@ -7525,11 +7521,11 @@
         "fa": "این منطقی‌ترین توضیح برای این پدیده است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "لوگی‌ش"
   },
   {
@@ -7558,11 +7554,11 @@
         "fa": "این غیر منطقی‌ترین تصمیمی بود که می‌توانست بگیرد."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "ایل‌لوگی‌ش"
   },
   {
@@ -7591,11 +7587,11 @@
         "fa": "این عینی‌ترین تحلیل پرونده است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "اُب‌یِکتیف"
   },
   {
@@ -7624,11 +7620,11 @@
         "fa": "این ذهنی‌ترین تفسیر متن بود."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "زوب‌یِکتیف"
   },
   {
@@ -7657,11 +7653,11 @@
         "fa": "این تساهل‌آمیزترین موضع در این بحث است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "تولِرانت"
   },
   {
@@ -7690,10 +7686,10 @@
         "fa": "این بدون پیش‌داوری‌ترین بحث شب بود."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
+
+
+
+
     "seenCount": 0
   },
   {
@@ -7722,10 +7718,10 @@
         "fa": "این متعصب‌ترین نظر در گروه است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
+
+
+
+
     "seenCount": 0
   },
   {
@@ -7755,11 +7751,11 @@
         "fa": "این انعطاف‌پذیرترین راه‌حل برای همه‌ی ذی‌نفعان است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "فلکسیبِل"
   },
   {
@@ -7788,11 +7784,11 @@
         "fa": "این سخت‌ترین موضع در مذاکره بود."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "شتار"
   },
   {
@@ -7821,11 +7817,11 @@
         "fa": "این پیچیده‌ترین وظیفه پروژه است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "کامپلیتسیرت"
   },
   {
@@ -7855,11 +7851,11 @@
         "fa": "این ساده‌ترین روش است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "آین‌فاخ"
   },
   {
@@ -7888,11 +7884,11 @@
         "fa": "این دقیق‌ترین توضیح است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "دِتای‌لی‌رت"
   },
   {
@@ -7922,11 +7918,11 @@
         "fa": "این سطحی‌ترین بررسی است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "اوبر‌فلِش‌لیش"
   },
   {
@@ -7955,11 +7951,11 @@
         "fa": "این عمیق‌ترین بحث بود."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "تیف‌گرون‌دیش"
   },
   {
@@ -7989,11 +7985,11 @@
         "fa": "این سطحی‌ترین پاسخ بود."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "اوبر‌فلِش‌لیش"
   },
   {
@@ -8022,11 +8018,11 @@
         "fa": "این اصیل‌ترین تجربه است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "آوتِنتی‌ش"
   },
   {
@@ -8056,11 +8052,11 @@
         "fa": "این مصنوعی‌ترین راه‌حل است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "کونست‌لیش"
   },
   {
@@ -8089,11 +8085,11 @@
         "fa": "این خلاقانه‌ترین پیشنهاد بود."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "اوریگینِل"
   },
   {
@@ -8122,11 +8118,11 @@
         "fa": "این منحصر به فردترین ویژگی است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "آینتسیگ‌آرتیش"
   },
   {
@@ -8156,10 +8152,10 @@
         "fa": "این معمولی‌ترین مدل است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
+
+
+
+
     "seenCount": 0
   },
   {
@@ -8189,11 +8185,11 @@
         "fa": "این یک امتحان به طور استثنایی دشوار بود."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "آوسِرگِوون‌لیش"
   },
   {
@@ -8223,11 +8219,11 @@
         "fa": "موزه جدید مجموعه‌ای چشمگیر از هنر مدرن دارد."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "بِآیندروکِند"
   },
   {
@@ -8257,11 +8253,11 @@
         "fa": "عملکرد او در امتحان ناامیدکننده بود."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "اِنت‌توی‌شِند"
   },
   {
@@ -8290,11 +8286,11 @@
         "fa": "این توضیح متقاعدکننده‌ای برای رفتار او نیست."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "اوبرتسویگِند"
   },
   {
@@ -8323,10 +8319,10 @@
         "fa": "استدلال‌های او برای من بیشتر غیرمتقاعدکننده به نظر می‌رسیدند."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
+
+
+
+
     "seenCount": 0
   },
   {
@@ -8355,11 +8351,11 @@
         "fa": "این موضوع فعلی و بسیار مرتبط با جامعه است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "رِلِوانت"
   },
   {
@@ -8388,10 +8384,10 @@
         "fa": "باید اطلاعات نامرتبط را نادیده بگیریم."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
+
+
+
+
     "seenCount": 0
   },
   {
@@ -8420,11 +8416,11 @@
         "fa": "به یک استراتژی موثرتر نیاز داریم."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "اِفِکتیف"
   },
   {
@@ -8453,10 +8449,10 @@
         "fa": "سیستم به عنوان غیرمؤثر و گران ثابت شد."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
+
+
+
+
     "seenCount": 0
   },
   {
@@ -8485,11 +8481,11 @@
         "fa": "این کارآمدترین روشی است که تا حالا پیدا کرده‌ایم."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "اِفی‌تسی‌نت"
   },
   {
@@ -8518,10 +8514,10 @@
         "fa": "این ناکارآمدترین راه‌حلی بود که می‌توان تصور کرد."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
+
+
+
+
     "seenCount": 0
   },
   {
@@ -8550,11 +8546,11 @@
         "fa": "این نوآورانه‌ترین فناوری در بازار است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "اینوواتیف"
   },
   {
@@ -8584,11 +8580,11 @@
         "fa": "این سنتی‌ترین دستور پخت منطقهٔ ماست."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "ترادیسیونِل"
   },
   {
@@ -8617,11 +8613,11 @@
         "fa": "این پیشروترین جامعه در اروپا است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "فورت‌شریت‌لیش"
   },
   {
@@ -8651,11 +8647,11 @@
         "fa": "این محافظه‌کارترین شهر کشور است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "کونزِرواتیف"
   },
   {
@@ -8684,11 +8680,11 @@
         "fa": "این لیبرال‌ترین قانون اساسی در تاریخ است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "لیبرال"
   },
   {
@@ -8717,11 +8713,11 @@
         "fa": "این رادیکال‌ترین تغییر سال‌های اخیر بود."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "رادیکال"
   },
   {
@@ -8751,11 +8747,11 @@
         "fa": "این معتدل‌ترین پیشنهاد در بحث است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "مودرآت"
   },
   {
@@ -8784,11 +8780,11 @@
         "fa": "اقتصاد جهانی به شدت به هم متصل است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "گلوبال"
   },
   {
@@ -8817,11 +8813,11 @@
         "fa": "دولت محلی قوانین جدیدی معرفی کرده است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "لوکال"
   },
   {
@@ -8850,11 +8846,11 @@
         "fa": "او در یک سازمان بین‌المللی کار می‌کند."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "اینترناسیونال"
   },
   {
@@ -8883,11 +8879,11 @@
         "fa": "غرور ملی در بسیاری از کشورها قوی است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "ناسیونال"
   },
   {
@@ -8913,11 +8909,11 @@
         "fa": "تبادل فرهنگی درک متقابل را تقویت می‌کند."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "کولتورِل"
   },
   {
@@ -8945,11 +8941,11 @@
         "fa": "او در پروژه‌های اجتماعی فعال است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "زوتسیال"
   },
   {
@@ -8977,11 +8973,11 @@
         "fa": "او به بحث‌های سیاسی علاقه‌مند است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "پولیتیش"
   },
   {
@@ -9007,11 +9003,11 @@
         "fa": "عوامل اقتصادی نقش بزرگی ایفا می‌کنند."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "ویرت‌شافت‌لیش"
   },
   {
@@ -9040,11 +9036,11 @@
         "fa": "این افراطی‌ترین موقعیتی است که تاکنون تجربه کرده‌ایم."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "اِکستِرم"
   },
   {
@@ -9072,11 +9068,11 @@
         "fa": "فنی‌ترین راه‌حل همیشه بهترین نیست."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "تِخنی‌ش"
   },
   {
@@ -9104,11 +9100,11 @@
         "fa": "این علمی‌ترین روشی است که داریم."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "ویسِن‌شافت‌لیش"
   },
   {
@@ -9137,11 +9133,11 @@
         "fa": "این هنری‌ترین نمایشگاه سال است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "کونست‌لِریش"
   },
   {
@@ -9169,11 +9165,11 @@
         "fa": "این موسیقیایی‌ترین آهنگسازی است که می‌شناسم."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "موزیکالی‌ش"
   },
   {
@@ -9201,11 +9197,11 @@
         "fa": "او ورزشکارترین بازیکن تیم است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "شپورت‌لیش"
   },
   {
@@ -9233,11 +9229,11 @@
         "fa": "این آکادمیک‌ترین رساله در این موضوع است."
       }
     ],
-    "strength": 0.2,
-    "correctStreak": 0,
-    "mistakeCount": 0,
-    "dueIn": 0,
-    "seenCount": 0,
+
+
+
+
+
     "pronunciation": "آکادِمی‌ش"
   }
 ]

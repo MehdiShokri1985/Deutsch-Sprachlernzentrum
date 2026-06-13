@@ -153,16 +153,33 @@ class StatsEngine {
   }
 
   _processWordKey(info, words) {
-    if (!Array.isArray(words) || words.length === 0) return;
+    if (!words) return;
     const ds = this._ds(info);
-    let learned = 0, mastered = 0;
-    for (const w of words) {
-      const sc = w.sureCount || 0;
-      if (sc >= 2) { learned++; mastered++; }
-      else if (sc >= 1) learned++;
+    let total = 0, learned = 0, mastered = 0;
+
+    if (Array.isArray(words)) {
+      // Old format: array of full word objects
+      total = words.length;
+      for (const w of words) {
+        const sc = w.sureCount || 0;
+        if (sc >= 2) { learned++; mastered++; }
+        else if (sc >= 1) learned++;
+      }
+    } else if (typeof words === "object") {
+      // New format: progress map { id: { sureCount, ... } }
+      const entries = Object.values(words);
+      total = entries.length;
+      for (const prog of entries) {
+        const sc = prog.sureCount || 0;
+        if (sc >= 2) { learned++; mastered++; }
+        else if (sc >= 1) learned++;
+      }
+    } else {
+      return;
     }
+
     if (!ds.wordCombos) ds.wordCombos = [];
-    ds.wordCombos.push({ niveau: info.niveau, mode: info.mode, caseFilter: info.caseFilter, total: words.length, learned, mastered });
+    ds.wordCombos.push({ niveau: info.niveau, mode: info.mode, caseFilter: info.caseFilter, total, learned, mastered });
   }
 
   _processStateKey(info, state) {
