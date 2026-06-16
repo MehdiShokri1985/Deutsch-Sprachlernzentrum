@@ -33772,6 +33772,226 @@
     "seenCount": 0
   },
   {
+    "id": "168",
+    "level": "A2",
+    "type": "verb",
+    "word": "ärgern",
+    "pronunciation": "اِرگِرن",
+    "meaning": "عصبانی کردن / اذیت کردن / عصبانی شدن)",
+    "antonyms": ["freuen"],
+    "synonyms": ["wütend machen", "irritieren"],
+    "prasens": [
+      {
+        "person": "Ich",
+        "form": "ärgere",
+        "fa": "من عصبانی می‌کنم."
+      },
+      {
+        "person": "du",
+        "form": "ärgerst",
+        "fa": "تو عصبانی می‌کنی."
+      },
+      {
+        "person": "er/sie/es",
+        "form": "ärgert",
+        "fa": "او/آن عصبانی می‌کند."
+      },
+      {
+        "person": "wir",
+        "form": "ärgern",
+        "fa": "ما عصبانی می‌کنیم."
+      },
+      {
+        "person": "ihr",
+        "form": "ärgert",
+        "fa": "شماها عصبانی می‌کنید."
+      },
+      {
+        "person": "sie/Sie",
+        "form": "ärgern",
+        "fa": "آنها عصبانی می‌کنند."
+      },
+      {
+        "sentences": [
+          {
+            "de": "Das ärgert mich sehr.",
+            "fa": "این من را خیلی عصبانی می‌کند."
+          },
+          {
+            "de": "Ärgerst du deinen Bruder?",
+            "fa": "تو برادرت را اذیت می‌کنی؟"
+          },
+          {
+            "de": "Sie ärgert sich über den Fehler.",
+            "fa": "او از اشتباه عصبانی می‌شود."
+          },
+          {
+            "de": "Wir ärgern uns nie über Kleinigkeiten.",
+            "fa": "ما هرگز از چیزهای کوچک عصبانی نمی‌شویم."
+          }
+        ]
+      }
+    ],
+    "perfekt": [
+      {
+        "person": "Ich",
+        "form": "habe geärgert",
+        "fa": "من عصبانی کرده‌ام."
+      },
+      {
+        "person": "du",
+        "form": "hast geärgert",
+        "fa": "تو عصبانی کرده‌ای."
+      },
+      {
+        "person": "er/sie/es",
+        "form": "hat geärgert",
+        "fa": "او/آن عصبانی کرده است."
+      },
+      {
+        "person": "wir",
+        "form": "haben geärgert",
+        "fa": "ما عصبانی کرده‌ایم."
+      },
+      {
+        "person": "ihr",
+        "form": "habt geärgert",
+        "fa": "شماها عصبانی کرده‌اید."
+      },
+      {
+        "person": "sie/Sie",
+        "form": "haben geärgert",
+        "fa": "آنها عصبانی کرده‌اند."
+      },
+      {
+        "sentences": [
+          {
+            "de": "Ich habe mich über das Wetter geärgert.",
+            "fa": "من از آب و هوا عصبانی شدم."
+          },
+          {
+            "de": "Er hat seinen Freund geärgert.",
+            "fa": "او دوستش را اذیت کرد."
+          },
+          {
+            "de": "Warum hast du dich so geärgert?",
+            "fa": "چرا اینقدر عصبانی شدی؟"
+          },
+          {
+            "de": "Sie haben sich über den Lärm geärgert.",
+            "fa": "آنها از سر و صدا عصبانی شدند."
+          }
+        ]
+      }
+    ],
+    "prateritum": [
+      {
+        "person": "Ich",
+        "form": "ärgerte",
+        "fa": "من عصبانی می‌کردم."
+      },
+      {
+        "person": "du",
+        "form": "ärgertest",
+        "fa": "تو عصبانی می‌کردی."
+      },
+      {
+        "person": "er/sie/es",
+        "form": "ärgerte",
+        "fa": "او/آن عصبانی می‌کرد."
+      },
+      {
+        "person": "wir",
+        "form": "ärgerten",
+        "fa": "ما عصبانی می‌کردیم."
+      },
+      {
+        "person": "ihr",
+        "form": "ärgertet",
+        "fa": "شماها عصبانی می‌کردید."
+      },
+      {
+        "person": "sie/Sie",
+        "form": "ärgerten",
+        "fa": "آنها عصبانی می‌کردند."
+      },
+      {
+        "sentences": [
+          {
+            "de": "Früher ärgerte mich jede Kleinigkeit.",
+            "fa": "قبلاً هر چیز کوچکی مرا عصبانی می‌کرد."
+          },
+          {
+            "de": "Sie ärgerten ihre Lehrerin.",
+            "fa": "آنها معلمشان را اذیت کردند."
+          },
+          {
+            "de": "Er ärgerte sich über den Verlust.",
+            "fa": "او از باخت عصبانی شد."
+          },
+          {
+            "de": "Wir ärgerten uns nicht darüber.",
+            "fa": "ما از آن عصبانی نشدیم."
+          }
+        ]
+      }
+    ],
+    "futur": [
+      {
+        "person": "Ich",
+        "form": "werde ärgern",
+        "fa": "من عصبانی خواهم کرد."
+      },
+      {
+        "person": "du",
+        "form": "wirst ärgern",
+        "fa": "تو عصبانی خواهی کرد."
+      },
+      {
+        "person": "er/sie/es",
+        "form": "wird ärgern",
+        "fa": "او/آن عصبانی خواهد کرد."
+      },
+      {
+        "person": "wir",
+        "form": "werden ärgern",
+        "fa": "ما عصبانی خواهیم کرد."
+      },
+      {
+        "person": "ihr",
+        "form": "werdet ärgern",
+        "fa": "شماها عصبانی خواهید کرد."
+      },
+      {
+        "person": "sie/Sie",
+        "form": "werden ärgern",
+        "fa": "آنها عصبانی خواهند کرد."
+      },
+      {
+        "sentences": [
+          {
+            "de": "Das wird mich sehr ärgern.",
+            "fa": "این من را خیلی عصبانی خواهد کرد."
+          },
+          {
+            "de": "Ich werde mich nicht mehr ärgern.",
+            "fa": "من دیگر عصبانی نخواهم شد."
+          },
+          {
+            "de": "Wirst du dich darüber ärgern?",
+            "fa": "آیا از این عصبانی خواهی شد؟"
+          },
+          {
+            "de": "Sie werden sich bestimmt ärgern.",
+            "fa": "آنها حتماً عصبانی خواهند شد."
+          }
+        ]
+      }
+    ],
+
+    "seenCount": 0
+  },
+  {
     "id": "170",
     "level": "A2",
     "type": "verb",
