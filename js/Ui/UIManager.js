@@ -255,23 +255,6 @@ export class UIManager {
       ?.addEventListener("click", handleClick);
   }
 
-  /**
-   * Show or hide the fast-answer "خیلی راحت" button (no layout gap when hidden).
-   */
-  updateEasyMasteryButton() {
-    const easyBtn = document.getElementById("easyBtn");
-    if (!easyBtn) return;
-
-    const show =
-      this.modalSource === "answerFlow" && this.game.isFastAnswerEligible();
-    easyBtn.classList.toggle("hidden", !show);
-  }
-
-  hideEasyMasteryButton() {
-    const easyBtn = document.getElementById("easyBtn");
-    if (easyBtn) easyBtn.classList.add("hidden");
-  }
-
   setWordProgressSquaresVisible(visible) {
     const el = document.getElementById("wordProgressSquares");
     if (el) el.classList.toggle("hidden", !visible);
@@ -296,9 +279,7 @@ export class UIManager {
     if (continueBtn) {
       continueBtn.classList.toggle("hidden", !isContinue);
     }
-    if (isLevelComplete || isContinue) {
-      this.hideEasyMasteryButton();
-    }
+
   }
 
   /**
@@ -312,9 +293,6 @@ export class UIManager {
     this.setResultModalActions(
       this.modalSource === "levelComplete" ? "levelComplete" : "answer",
     );
-    if (this.modalSource === "answerFlow") {
-      this.updateEasyMasteryButton();
-    }
   }
 
   //#########################################################################################
@@ -390,7 +368,7 @@ export class UIManager {
           break;
       }
 
-      questionType.textContent += ` (Sure: ${sureCount}/2)`;
+      questionType.textContent += `  ${(this.game.currentWord.seenCount || 0) + 1}-mal angezeigt`;
       this.generateAnswerOptions();
     }
   }
@@ -427,7 +405,7 @@ export class UIManager {
       wordDisplay.textContent = verbEntry ? verbEntry.fa : this.game.currentWord.meaning;
     }
 
-    questionType.textContent += ` (Sure: ${sureCount}/2)`;
+    questionType.textContent += ` ${(this.game.currentWord.seenCount || 0) + 1}-mal angezeigt`;
   }
 
   generateAnswerOptions() {
@@ -649,7 +627,11 @@ export class UIManager {
     autocompleteListEl.innerHTML = "";
     autocompleteListEl.classList.add("hidden");
 
-    this.resetResultModalButtons();
+    if (isCorrect) {
+      this.resetResultModalButtons();
+    } else {
+      this.setResultModalActions("continue");
+    }
     this.setWordProgressSquaresVisible(true);
     modal.classList.remove("hidden");
   }
@@ -922,7 +904,6 @@ export class UIManager {
   }
 
   closeModal() {
-    this.hideEasyMasteryButton();
     this.resetResultModalButtons();
     this.setWordProgressSquaresVisible(false);
 

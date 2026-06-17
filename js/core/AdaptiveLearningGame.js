@@ -53,7 +53,6 @@ export class AdaptiveLearningGame {
     // Question timing (ms since epoch)
     this.questionStartTime = null;
     this.lastResponseDurationMs = null;
-    this.FAST_ANSWER_THRESHOLD_MS = 5000;
 
     // Session time tracking
     this._sessionStartTimestamp = null;
@@ -133,12 +132,15 @@ export class AdaptiveLearningGame {
   }
 
   saveData() {
-    if (this._sessionStartTimestamp !== null) {
-      const elapsed = Date.now() - this._sessionStartTimestamp;
-      if (elapsed > 0) {
-        const state = this.getCurrentState();
-        state.timeSpentMs = (state.timeSpentMs || 0) + elapsed;
-      }
+    if (this._sessionStartTimestamp === null) {
+      console.log('[SAVE_SKIPPED] Session not started yet');
+      return;
+    }
+
+    const elapsed = Date.now() - this._sessionStartTimestamp;
+    if (elapsed > 0) {
+      const state = this.getCurrentState();
+      state.timeSpentMs = (state.timeSpentMs || 0) + elapsed;
     }
     this._sessionStartTimestamp = Date.now();
 
@@ -194,9 +196,7 @@ export class AdaptiveLearningGame {
     document
       .getElementById("practiceAgainBtn")
       ?.addEventListener("click", () => this.resetProgress());
-    document
-      .getElementById("easyBtn")
-      .addEventListener("click", () => this.handleEasyMastery());
+
     document
       .getElementById("continueBtn")
       ?.addEventListener("click", () => this.closeModal());
@@ -411,6 +411,7 @@ export class AdaptiveLearningGame {
       word.dueIn = Math.max(0, (word.dueIn || 0) - 1);
     } else {
       word.mistakeCount = (word.mistakeCount || 0) + 1;
+      word.wrongCount = (word.wrongCount || 0) + 1;
       word.correctStreak = 0;
       word.sureCount = Math.max(0, (word.sureCount || 0) - 1);
       word.strength = Math.max(0.001, (word.strength || 0) - 0.05);
@@ -489,6 +490,10 @@ export class AdaptiveLearningGame {
       scoreIncrement: isCorrect ? 30 : 0,
     });
 
+    if (!isCorrect) {
+      this.applyWrongAnswerScheduling();
+    }
+
     this.showResult(this.pendingIsCorrect, this.pendingCorrectAnswer);
     this.updateUI();
   }
@@ -533,6 +538,10 @@ export class AdaptiveLearningGame {
       scoreIncrement,
     });
 
+    if (!isCorrect) {
+      this.applyWrongAnswerScheduling();
+    }
+
     this.showResult(this.pendingIsCorrect, this.pendingCorrectAnswer);
     this.updateUI();
   }
@@ -549,59 +558,55 @@ export class AdaptiveLearningGame {
   }
 
   /**
-   * Whether the fast-answer mastery override is available for this result.
+   * Apply automatic scheduling after a wrong answer based on wrongCount.
    */
-  isFastAnswerEligible() {
-    return (
-      this.pendingIsCorrect === true &&
-      this.lastResponseDurationMs != null &&
-      this.lastResponseDurationMs < this.FAST_ANSWER_THRESHOLD_MS
-    );
+  applyWrongAnswerScheduling() {
+    if (!this.currentWord) return;
+    const wrongCount = this.currentWord.wrongCount || 0;
+
+    if (wrongCount === 1) {
+      this.gameLogic.moveCurrentBack(5);
+      console.log(`[WRONG_SCHEDULE] id=${this.currentWord.id} wrongCount=${wrongCount} moveBack=5`);
+    } else if (wrongCount === 2) {
+      this.gameLogic.moveCurrentBack(10);
+      console.log(`[WRONG_SCHEDULE] id=${this.currentWord.id} wrongCount=${wrongCount} moveBack=10`);
+    } else {
+      this.gameLogic.moveCurrentToEnd();
+      console.log(`[WRONG_SCHEDULE] id=${this.currentWord.id} wrongCount=${wrongCount} moveToEnd`);
+    }
   }
 
   /**
-   * Instant mastery: remove current word from repetition cycle (sureCount >= 2).
-   */
-  handleEasyMastery() {
-    if (!this.currentWord || !this.isFastAnswerEligible()) return;
-
-    this.currentWord.sureCount = 2;
-
-    console.log(`[LAYER_UPDATE_LEARNING] id=${this.currentWord.id} level=${this.currentNiveau} mode=${this.currentMode} case=${this.currentCase} sureCount=${this.currentWord.sureCount} (easy mastery override)`);
-
-    this.saveData();
-    this.updateUI();
-    this.uiManager.showResultContinueButton();
-  }
-
-  /**
-   * پردازش سطح اطمینان کاربر (Differential refinement on top of applyAnswer baseline)
-   * Handle user confidence — refines word learning engine after the atomic answer update
+   * Handle user confidence after a correct answer.
+   * Queue-based scheduling: sure removes from cycle, maybe repositions in queue.
    */
   handleConfidence(confidence) {
-    const isCorrect = this.pendingIsCorrect;
-    const isSentence =
-      this.currentQuestionType &&
-      this.currentQuestionType.isSentence &&
-      this.currentSentence;
-    const target = isSentence ? this.currentSentence : this.currentWord;
-
-    if (isCorrect) {
-      if (confidence === "sure") {
-        target.strength = Math.min(1, (target.strength || 0) + 0.20);
-        target.dueIn = Math.min(40, (target.dueIn || 0) + 16);
-      } else {
-        target.strength = Math.min(1, (target.strength || 0) + 0.03);
-        target.dueIn = Math.min(25, Math.max(1, (target.dueIn || 0) + 4));
-        target.sureCount = Math.max(0, (target.sureCount || 0) - 2);
-      }
-    } else if (confidence === "sure") {
-      target.strength = Math.max(0.001, (target.strength || 0) - 0.25);
+    if (!this.pendingIsCorrect) {
+      this.saveData();
+      this.updateUI();
+      this.uiManager.showResultContinueButton();
+      return;
     }
 
-    if (target.sureCount < 0) throw new Error("INVALID NEGATIVE STATE DETECTED: sureCount=" + target.sureCount);
+    if (confidence === "sure") {
+      this.currentWord.sureCount = 2;
+      this.gameLogic.forgetCurrentWord();
+      console.log(`[CONFIDENCE_SURE] id=${this.currentWord.id} level=${this.currentNiveau} marked learned, removed from queue`);
+    } else if (confidence === "maybe") {
+      const mc = this.currentWord.maybeCount || 0;
+      this.currentWord.maybeCount = mc + 1;
 
-    console.log(`[CONFIDENCE_REFINEMENT] id=${target.id || this.currentWord?.id} level=${this.currentNiveau} mode=${this.currentMode} case=${this.currentCase} confidence=${confidence} isCorrect=${isCorrect} strength=${target.strength} sureCount=${target.sureCount} dueIn=${target.dueIn} correctStreak=${target.correctStreak} mistakeCount=${target.mistakeCount}`);
+      if (mc === 0) {
+        this.gameLogic.moveCurrentBack(5);
+        console.log(`[CONFIDENCE_MAYBE] id=${this.currentWord.id} maybeCount=${mc + 1} moveBack=5`);
+      } else if (mc === 1) {
+        this.gameLogic.moveCurrentBack(10);
+        console.log(`[CONFIDENCE_MAYBE] id=${this.currentWord.id} maybeCount=${mc + 1} moveBack=10`);
+      } else {
+        this.gameLogic.moveCurrentToEnd();
+        console.log(`[CONFIDENCE_MAYBE] id=${this.currentWord.id} maybeCount=${mc + 1} moveToEnd`);
+      }
+    }
 
     this.saveData();
     this.updateUI();
@@ -776,7 +781,6 @@ export class AdaptiveLearningGame {
     this.questionStartTime = null;
     this.lastResponseDurationMs = null;
     if (this.uiManager) {
-      this.uiManager.hideEasyMasteryButton();
       this.uiManager.setWordProgressSquaresVisible(false);
       this.uiManager.resetResultModalButtons();
     }
@@ -835,6 +839,8 @@ export class AdaptiveLearningGame {
         mistakeCount: 0,
         correctStreak: 0,
         sureCount: 0,
+        maybeCount: 0,
+        wrongCount: 0,
       };
       const DEFAULT_SENTENCE_STATE = {
         strength: 0.3,

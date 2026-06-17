@@ -1,8 +1,8 @@
 import { CONFIG } from "../config.js";
 import * as data from "../data.js";
 
-const PROGRESS_FIELDS = ["mistakeCount", "sureCount", "strength", "dueIn", "correctStreak", "seenCount"];
-const DEFAULT_PROGRESS = { mistakeCount: 0, sureCount: 0, strength: 0.2, dueIn: 0, correctStreak: 0, seenCount: 0 };
+const PROGRESS_FIELDS = ["mistakeCount", "sureCount", "strength", "dueIn", "correctStreak", "seenCount", "maybeCount", "wrongCount"];
+const DEFAULT_PROGRESS = { mistakeCount: 0, sureCount: 0, strength: 0.2, dueIn: 0, correctStreak: 0, seenCount: 0, maybeCount: 0, wrongCount: 0 };
 
 export class DataManager {
   constructor(gameType, dataSetName = "adjektive") {
@@ -65,6 +65,8 @@ export class DataManager {
           word.dueIn = stored.dueIn ?? DEFAULT_PROGRESS.dueIn;
           word.correctStreak = clampNonNegative(stored.correctStreak, 'correctStreak') ?? DEFAULT_PROGRESS.correctStreak;
           word.seenCount = clampNonNegative(stored.seenCount, 'seenCount') ?? DEFAULT_PROGRESS.seenCount;
+          word.maybeCount = clampNonNegative(stored.maybeCount, 'maybeCount') ?? DEFAULT_PROGRESS.maybeCount;
+          word.wrongCount = clampNonNegative(stored.wrongCount, 'wrongCount') ?? DEFAULT_PROGRESS.wrongCount;
         } else {
           console.log(`[DEFAULT_STATE_CREATED] id=${word.id} level=${niveau} mode=${mode} case=${caseFilter} verbMode=${verbMode || 'default'}`);
           Object.assign(word, { ...DEFAULT_PROGRESS });
