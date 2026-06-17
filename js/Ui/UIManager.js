@@ -19,6 +19,7 @@ export class UIManager {
 
     this.setupWordDetailsPopup();
     this.setupAccordionListeners();
+    this.setupDescriptionPopup();
   }
 
   /**
@@ -226,6 +227,29 @@ export class UIManager {
         this.closeWordDetailsPopup();
       }
     });
+  }
+
+  setupDescriptionPopup() {
+    const popup = document.getElementById("descriptionPopup");
+    if (!popup) return;
+
+    popup.addEventListener("click", (e) => {
+      if (e.target === popup) {
+        this.closeDescriptionPopup();
+      }
+    });
+
+    document.getElementById("closeDescriptionBtn")?.addEventListener("click", () => {
+      this.closeDescriptionPopup();
+    });
+  }
+
+  closeDescriptionPopup() {
+    const popup = document.getElementById("descriptionPopup");
+    if (popup) {
+      popup.classList.add("hidden");
+      popup.classList.remove("flex");
+    }
   }
 
   setupAccordionListeners() {
@@ -540,7 +564,10 @@ export class UIManager {
       ? ` <span class="pronunciation">(${pron})</span>`
       : "";
     const w = this.game.currentWord;
-    let content = `<div class="md-pair-row md-word-row"><div class="md-pair-start"><strong class="md-label"> . </strong> <a href="https://translate.google.com/?sl=de&tl=fa&text=${encodeURIComponent(w.word)}" target="_blank" class="md-word-link hover:underline" style="font-size:1.15rem">${w.word}</a> ${pronHtml}</div><div class="md-pair-end" dir="rtl">${w.meaning}</div></div>`;
+    const descIcon = w.description && w.description.trim()
+      ? `<button type="button" class="desc-info-btn" data-desc="${encodeURIComponent(w.description)}" title="Erklärung" style="display:inline-flex;align-items:center;justify-content:center;margin-left:0.35rem;width:1.4rem;height:1.4rem;border-radius:50%;border:none;background:#6366f1;color:#fff;font-size:0.7rem;font-weight:700;cursor:pointer;flex-shrink:0;line-height:1;padding:0;transition:background 0.15s" onmouseover="this.style.background='#4f46e5'" onmouseout="this.style.background='#6366f1'">&#9432;</button>`
+      : '';
+    let content = `<div class="md-pair-row md-word-row"><div class="md-pair-start"><strong class="md-label"> . </strong> <a href="https://translate.google.com/?sl=de&tl=fa&text=${encodeURIComponent(w.word)}" target="_blank" class="md-word-link hover:underline" style="font-size:1.15rem">${w.word}</a>${descIcon} ${pronHtml}</div><div class="md-pair-end" dir="rtl">${w.meaning}</div></div>`;
     const verbEntry = this.game.currentVerbEntry;
     if (verbEntry) {
       content += `<div class="md-pair-row" style="font-size:0.9rem;color:#065f46;background:#ecfdf5;padding:0.15rem 0.3rem;border-radius:6px"><div class="md-pair-start" style="font-weight:700">${verbEntry.form}</div><div class="md-pair-end" dir="rtl">${verbEntry.fa}</div></div>`;
@@ -617,7 +644,20 @@ export class UIManager {
       content += `</div></div></div>`;
     });
 
-    document.getElementById("modalDetails").innerHTML = content;
+    const modalDetails = document.getElementById("modalDetails");
+    modalDetails.innerHTML = content;
+
+    // Attach description icon click handler
+    const descBtn = modalDetails.querySelector('.desc-info-btn');
+    if (descBtn) {
+      descBtn.addEventListener('click', () => {
+        const desc = decodeURIComponent(descBtn.getAttribute('data-desc'));
+        document.getElementById('descriptionContent').textContent = desc;
+        const popup = document.getElementById('descriptionPopup');
+        popup.classList.remove('hidden');
+        popup.classList.add('flex');
+      });
+    }
 
     // Hide question view and show inline result view
     document.getElementById("panel").classList.add("hidden");

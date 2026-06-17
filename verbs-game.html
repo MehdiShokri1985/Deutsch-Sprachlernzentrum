@@ -570,6 +570,32 @@
             </div>
         </div>
 
+        <!-- Description Popup -->
+        <div
+            id="descriptionPopup"
+            class="game-overlay-modal fixed inset-0 bg-black/40 backdrop-blur-sm hidden items-center justify-center z-50 p-3"
+        >
+            <div
+                class="game-overlay-panel bg-white rounded-2xl shadow-2xl p-4 sm:p-6 max-w-md mx-auto w-full overflow-hidden flex flex-col border border-white/30"
+            >
+                <div class="flex justify-between items-center mb-4">
+                    <h2 class="text-lg font-bold">Erklärung</h2>
+                    <button
+                        id="closeDescriptionBtn"
+                        class="text-gray-400 hover:text-gray-600 text-2xl font-bold leading-none"
+                    >
+                        &times;
+                    </button>
+                </div>
+                <div
+                    id="descriptionContent"
+                    class="flex-1 overflow-auto pr-2 custom-scroll leading-relaxed"
+                    dir="rtl"
+                    style="text-align:right;font-size:0.8rem;line-height:1.8;white-space:pre-wrap"
+                ></div>
+            </div>
+        </div>
+
         <!-- Word Details Popup (Isolated) -->
         <div
             id="wordDetailsPopup"
