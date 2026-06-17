@@ -59129,7 +59129,6394 @@
         ]
       }
     ]
+  },
+  {
+    "id": "364",
+    "level": "A2",
+    "type": "verb",
+    "word": "übersetzen",
+    "pronunciation": "اُوبِرزِتسِن",
+    "meaning": "ترجمه کردن",
+    "antonyms": [],
+    "synonyms": [],
+    "prasens": [
+      {
+        "person": "Ich",
+        "form": "übersetze",
+        "fa": "من ترجمه می‌کنم."
+      },
+      {
+        "person": "du",
+        "form": "übersetzt",
+        "fa": "تو ترجمه می‌کنی."
+      },
+      {
+        "person": "er/sie/es",
+        "form": "übersetzt",
+        "fa": "او/آن ترجمه می‌کند."
+      },
+      {
+        "person": "wir",
+        "form": "übersetzen",
+        "fa": "ما ترجمه می‌کنیم."
+      },
+      {
+        "person": "ihr",
+        "form": "übersetzt",
+        "fa": "شماها ترجمه می‌کنید."
+      },
+      {
+        "person": "sie/Sie",
+        "form": "übersetzen",
+        "fa": "آنها ترجمه می‌کنند."
+      },
+      {
+        "sentences": [
+          {
+            "de": "Ich übersetze den Text.",
+            "fa": "من متن را ترجمه می‌کنم."
+          },
+          {
+            "de": "Du übersetzt gut.",
+            "fa": "تو خوب ترجمه می‌کنی."
+          },
+          {
+            "de": "Sie übersetzt das Buch.",
+            "fa": "او کتاب را ترجمه می‌کند."
+          },
+          {
+            "de": "Wir übersetzen zusammen.",
+            "fa": "ما با هم ترجمه می‌کنیم."
+          }
+        ]
+      }
+    ],
+    "perfekt": [
+      {
+        "person": "Ich",
+        "form": "habe übersetzt",
+        "fa": "من ترجمه کرده‌ام."
+      },
+      {
+        "person": "du",
+        "form": "hast übersetzt",
+        "fa": "تو ترجمه کرده‌ای."
+      },
+      {
+        "person": "er/sie/es",
+        "form": "hat übersetzt",
+        "fa": "او/آن ترجمه کرده است."
+      },
+      {
+        "person": "wir",
+        "form": "haben übersetzt",
+        "fa": "ما ترجمه کرده‌ایم."
+      },
+      {
+        "person": "ihr",
+        "form": "habt übersetzt",
+        "fa": "شماها ترجمه کرده‌اید."
+      },
+      {
+        "person": "sie/Sie",
+        "form": "haben übersetzt",
+        "fa": "آنها ترجمه کرده‌اند."
+      },
+      {
+        "sentences": [
+          {
+            "de": "Ich habe den Brief übersetzt.",
+            "fa": "من نامه را ترجمه کرده‌ام."
+          },
+          {
+            "de": "Er hat den Artikel übersetzt.",
+            "fa": "او مقاله را ترجمه کرده است."
+          },
+          {
+            "de": "Wir haben das Dokument übersetzt.",
+            "fa": "ما سند را ترجمه کرده‌ایم."
+          },
+          {
+            "de": "Sie hat gestern übersetzt.",
+            "fa": "او دیروز ترجمه کرده است."
+          }
+        ]
+      }
+    ],
+    "prateritum": [
+      {
+        "person": "Ich",
+        "form": "übersetzte",
+        "fa": "من ترجمه کردم."
+      },
+      {
+        "person": "du",
+        "form": "übersetztest",
+        "fa": "تو ترجمه کردی."
+      },
+      {
+        "person": "er/sie/es",
+        "form": "übersetzte",
+        "fa": "او/آن ترجمه کرد."
+      },
+      {
+        "person": "wir",
+        "form": "übersetzten",
+        "fa": "ما ترجمه کردیم."
+      },
+      {
+        "person": "ihr",
+        "form": "übersetztet",
+        "fa": "شماها ترجمه کردید."
+      },
+      {
+        "person": "sie/Sie",
+        "form": "übersetzten",
+        "fa": "آنها ترجمه کردند."
+      },
+      {
+        "sentences": [
+          {
+            "de": "Ich übersetzte den Text.",
+            "fa": "من متن را ترجمه کردم."
+          },
+          {
+            "de": "Wir übersetzten das Buch.",
+            "fa": "ما کتاب را ترجمه کردیم."
+          },
+          {
+            "de": "Sie übersetzte schnell.",
+            "fa": "او سریع ترجمه کرد."
+          },
+          {
+            "de": "Er übersetzte den Satz.",
+            "fa": "او جمله را ترجمه کرد."
+          }
+        ]
+      }
+    ],
+    "futur": [
+      {
+        "person": "Ich",
+        "form": "werde übersetzen",
+        "fa": "من ترجمه خواهم کرد."
+      },
+      {
+        "person": "du",
+        "form": "wirst übersetzen",
+        "fa": "تو ترجمه خواهی کرد."
+      },
+      {
+        "person": "er/sie/es",
+        "form": "wird übersetzen",
+        "fa": "او/آن ترجمه خواهد کرد."
+      },
+      {
+        "person": "wir",
+        "form": "werden übersetzen",
+        "fa": "ما ترجمه خواهیم کرد."
+      },
+      {
+        "person": "ihr",
+        "form": "werdet übersetzen",
+        "fa": "شماها ترجمه خواهید کرد."
+      },
+      {
+        "person": "sie/Sie",
+        "form": "werden übersetzen",
+        "fa": "آنها ترجمه خواهند کرد."
+      },
+      {
+        "sentences": [
+          {
+            "de": "Ich werde den Text übersetzen.",
+            "fa": "من متن را ترجمه خواهم کرد."
+          },
+          {
+            "de": "Wir werden morgen übersetzen.",
+            "fa": "ما فردا ترجمه خواهیم کرد."
+          },
+          {
+            "de": "Sie wird das Buch übersetzen.",
+            "fa": "او کتاب را ترجمه خواهد کرد."
+          },
+          {
+            "de": "Du wirst es gut übersetzen.",
+            "fa": "تو آن را خوب ترجمه خواهی کرد."
+          }
+        ]
+      }
+    ],
+    "caseverb": [
+      {
+        "case": "Akk",
+        "examples": [
+          {
+            "german": "Ich übersetze den Text.",
+            "persian": "من متن را ترجمه می‌کنم."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "365",
+    "level": "A2",
+    "type": "verb",
+    "word": "umsteigen",
+    "pronunciation": "اُوم‌شتایگِن",
+    "meaning": "تعویض کردن (قطار و غیره) / تغییر سوار شدن",
+    "antonyms": [],
+    "synonyms": [],
+    "prasens": [
+      {
+        "person": "Ich",
+        "form": "steige um",
+        "fa": "من تعویض می‌کنم."
+      },
+      {
+        "person": "du",
+        "form": "steigst um",
+        "fa": "تو تعویض می‌کنی."
+      },
+      {
+        "person": "er/sie/es",
+        "form": "steigt um",
+        "fa": "او/آن تعویض می‌کند."
+      },
+      {
+        "person": "wir",
+        "form": "steigen um",
+        "fa": "ما تعویض می‌کنیم."
+      },
+      {
+        "person": "ihr",
+        "form": "steigt um",
+        "fa": "شماها تعویض می‌کنید."
+      },
+      {
+        "person": "sie/Sie",
+        "form": "steigen um",
+        "fa": "آنها تعویض می‌کنند."
+      },
+      {
+        "sentences": [
+          {
+            "de": "Ich steige in Berlin um.",
+            "fa": "من در برلین تعویض می‌کنم."
+          },
+          {
+            "de": "Du steigst um.",
+            "fa": "تو تعویض می‌کنی."
+          },
+          {
+            "de": "Wir steigen hier um.",
+            "fa": "ما اینجا تعویض می‌کنیم."
+          },
+          {
+            "de": "Sie steigt in die nächste Bahn um.",
+            "fa": "او به قطار بعدی تعویض می‌کند."
+          }
+        ]
+      }
+    ],
+    "perfekt": [
+      {
+        "person": "Ich",
+        "form": "bin umgestiegen",
+        "fa": "من تعویض کرده‌ام."
+      },
+      {
+        "person": "du",
+        "form": "bist umgestiegen",
+        "fa": "تو تعویض کرده‌ای."
+      },
+      {
+        "person": "er/sie/es",
+        "form": "ist umgestiegen",
+        "fa": "او/آن تعویض کرده است."
+      },
+      {
+        "person": "wir",
+        "form": "sind umgestiegen",
+        "fa": "ما تعویض کرده‌ایم."
+      },
+      {
+        "person": "ihr",
+        "form": "seid umgestiegen",
+        "fa": "شماها تعویض کرده‌اید."
+      },
+      {
+        "person": "sie/Sie",
+        "form": "sind umgestiegen",
+        "fa": "آنها تعویض کرده‌اند."
+      },
+      {
+        "sentences": [
+          {
+            "de": "Ich bin in Frankfurt umgestiegen.",
+            "fa": "من در فرانکفورت تعویض کرده‌ام."
+          },
+          {
+            "de": "Wir sind umgestiegen.",
+            "fa": "ما تعویض کرده‌ایم."
+          },
+          {
+            "de": "Sie ist gestern umgestiegen.",
+            "fa": "او دیروز تعویض کرده است."
+          },
+          {
+            "de": "Er ist in die U-Bahn umgestiegen.",
+            "fa": "او به مترو تعویض کرده است."
+          }
+        ]
+      }
+    ],
+    "prateritum": [
+      {
+        "person": "Ich",
+        "form": "stieg um",
+        "fa": "من تعویض کردم."
+      },
+      {
+        "person": "du",
+        "form": "stiegst um",
+        "fa": "تو تعویض کردی."
+      },
+      {
+        "person": "er/sie/es",
+        "form": "stieg um",
+        "fa": "او/آن تعویض کرد."
+      },
+      {
+        "person": "wir",
+        "form": "stiegen um",
+        "fa": "ما تعویض کردیم."
+      },
+      {
+        "person": "ihr",
+        "form": "stiegt um",
+        "fa": "شماها تعویض کردید."
+      },
+      {
+        "person": "sie/Sie",
+        "form": "stiegen um",
+        "fa": "آنها تعویض کردند."
+      },
+      {
+        "sentences": [
+          {
+            "de": "Ich stieg in Hamburg um.",
+            "fa": "من در هامبورگ تعویض کردم."
+          },
+          {
+            "de": "Wir stiegen um.",
+            "fa": "ما تعویض کردیم."
+          },
+          {
+            "de": "Sie stieg um.",
+            "fa": "او تعویض کرد."
+          },
+          {
+            "de": "Er stieg in den Zug um.",
+            "fa": "او به قطار تعویض کرد."
+          }
+        ]
+      }
+    ],
+    "futur": [
+      {
+        "person": "Ich",
+        "form": "werde umsteigen",
+        "fa": "من تعویض خواهم کرد."
+      },
+      {
+        "person": "du",
+        "form": "wirst umsteigen",
+        "fa": "تو تعویض خواهی کرد."
+      },
+      {
+        "person": "er/sie/es",
+        "form": "wird umsteigen",
+        "fa": "او/آن تعویض خواهد کرد."
+      },
+      {
+        "person": "wir",
+        "form": "werden umsteigen",
+        "fa": "ما تعویض خواهیم کرد."
+      },
+      {
+        "person": "ihr",
+        "form": "werdet umsteigen",
+        "fa": "شماها تعویض خواهید کرد."
+      },
+      {
+        "person": "sie/Sie",
+        "form": "werden umsteigen",
+        "fa": "آنها تعویض خواهند کرد."
+      },
+      {
+        "sentences": [
+          {
+            "de": "Ich werde in München umsteigen.",
+            "fa": "من در مونیخ تعویض خواهم کرد."
+          },
+          {
+            "de": "Wir werden umsteigen.",
+            "fa": "ما تعویض خواهیم کرد."
+          },
+          {
+            "de": "Sie wird umsteigen müssen.",
+            "fa": "او باید تعویض کند."
+          },
+          {
+            "de": "Du wirst dort umsteigen.",
+            "fa": "تو آنجا تعویض خواهی کرد."
+          }
+        ]
+      }
+    ],
+    "caseverb": [
+      {
+        "case": "Intransitiv",
+        "examples": [
+          {
+            "german": "Ich steige um.",
+            "persian": "من تعویض می‌کنم."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "366",
+    "level": "A2",
+    "type": "verb",
+    "word": "umziehen",
+    "pronunciation": "اُوم‌تسی‌هِن",
+    "meaning": "جابه‌جا شدن / نقل مکان کردن",
+    "antonyms": [],
+    "synonyms": [],
+    "prasens": [
+      {
+        "person": "Ich",
+        "form": "ziehe um",
+        "fa": "من جابه‌جا می‌شوم."
+      },
+      {
+        "person": "du",
+        "form": "ziehst um",
+        "fa": "تو جابه‌جا می‌شوی."
+      },
+      {
+        "person": "er/sie/es",
+        "form": "zieht um",
+        "fa": "او/آن جابه‌جا می‌شود."
+      },
+      {
+        "person": "wir",
+        "form": "ziehen um",
+        "fa": "ما جابه‌جا می‌شویم."
+      },
+      {
+        "person": "ihr",
+        "form": "zieht um",
+        "fa": "شماها جابه‌جا می‌شوید."
+      },
+      {
+        "person": "sie/Sie",
+        "form": "ziehen um",
+        "fa": "آنها جابه‌جا می‌شوند."
+      },
+      {
+        "sentences": [
+          {
+            "de": "Ich ziehe nächste Woche um.",
+            "fa": "من هفته آینده جابه‌جا می‌شوم."
+          },
+          {
+            "de": "Wir ziehen um.",
+            "fa": "ما جابه‌جا می‌شویم."
+          },
+          {
+            "de": "Sie zieht in eine neue Wohnung um.",
+            "fa": "او به آپارتمان جدید نقل مکان می‌کند."
+          },
+          {
+            "de": "Er zieht nach Berlin um.",
+            "fa": "او به برلین نقل مکان می‌کند."
+          }
+        ]
+      }
+    ],
+    "perfekt": [
+      {
+        "person": "Ich",
+        "form": "bin umgezogen",
+        "fa": "من جابه‌جا شده‌ام."
+      },
+      {
+        "person": "du",
+        "form": "bist umgezogen",
+        "fa": "تو جابه‌جا شده‌ای."
+      },
+      {
+        "person": "er/sie/es",
+        "form": "ist umgezogen",
+        "fa": "او/آن جابه‌جا شده است."
+      },
+      {
+        "person": "wir",
+        "form": "sind umgezogen",
+        "fa": "ما جابه‌جا شده‌ایم."
+      },
+      {
+        "person": "ihr",
+        "form": "seid umgezogen",
+        "fa": "شماها جابه‌جا شده‌اید."
+      },
+      {
+        "person": "sie/Sie",
+        "form": "sind umgezogen",
+        "fa": "آنها جابه‌جا شده‌اند."
+      },
+      {
+        "sentences": [
+          {
+            "de": "Ich bin letztes Jahr umgezogen.",
+            "fa": "من سال گذشته جابه‌جا شده‌ام."
+          },
+          {
+            "de": "Wir sind umgezogen.",
+            "fa": "ما جابه‌جا شده‌ایم."
+          },
+          {
+            "de": "Sie ist nach München umgezogen.",
+            "fa": "او به مونیخ نقل مکان کرده است."
+          },
+          {
+            "de": "Er ist gestern umgezogen.",
+            "fa": "او دیروز جابه‌جا شده است."
+          }
+        ]
+      }
+    ],
+    "prateritum": [
+      {
+        "person": "Ich",
+        "form": "zog um",
+        "fa": "من جابه‌جا شدم."
+      },
+      {
+        "person": "du",
+        "form": "zogst um",
+        "fa": "تو جابه‌جا شدی."
+      },
+      {
+        "person": "er/sie/es",
+        "form": "zog um",
+        "fa": "او/آن جابه‌جا شد."
+      },
+      {
+        "person": "wir",
+        "form": "zogen um",
+        "fa": "ما جابه‌جا شدیم."
+      },
+      {
+        "person": "ihr",
+        "form": "zogt um",
+        "fa": "شماها جابه‌جا شدید."
+      },
+      {
+        "person": "sie/Sie",
+        "form": "zogen um",
+        "fa": "آنها جابه‌جا شدند."
+      },
+      {
+        "sentences": [
+          {
+            "de": "Ich zog um.",
+            "fa": "من جابه‌جا شدم."
+          },
+          {
+            "de": "Wir zogen in die Stadt um.",
+            "fa": "ما به شهر نقل مکان کردیم."
+          },
+          {
+            "de": "Sie zog letztes Jahr um.",
+            "fa": "او سال گذشته جابه‌جا شد."
+          },
+          {
+            "de": "Er zog nach Hause um.",
+            "fa": "او به خانه نقل مکان کرد."
+          }
+        ]
+      }
+    ],
+    "futur": [
+      {
+        "person": "Ich",
+        "form": "werde umziehen",
+        "fa": "من جابه‌جا خواهم شد."
+      },
+      {
+        "person": "du",
+        "form": "wirst umziehen",
+        "fa": "تو جابه‌جا خواهی شد."
+      },
+      {
+        "person": "er/sie/es",
+        "form": "wird umziehen",
+        "fa": "او/آن جابه‌جا خواهد شد."
+      },
+      {
+        "person": "wir",
+        "form": "werden umziehen",
+        "fa": "ما جابه‌جا خواهیم شد."
+      },
+      {
+        "person": "ihr",
+        "form": "werdet umziehen",
+        "fa": "شماها جابه‌جا خواهید شد."
+      },
+      {
+        "person": "sie/Sie",
+        "form": "werden umziehen",
+        "fa": "آنها جابه‌جا خواهند شد."
+      },
+      {
+        "sentences": [
+          {
+            "de": "Ich werde bald umziehen.",
+            "fa": "من به زودی جابه‌جا خواهم شد."
+          },
+          {
+            "de": "Wir werden umziehen.",
+            "fa": "ما جابه‌جا خواهیم شد."
+          },
+          {
+            "de": "Sie wird in eine neue Stadt umziehen.",
+            "fa": "او به شهر جدید نقل مکان خواهد کرد."
+          },
+          {
+            "de": "Du wirst umziehen.",
+            "fa": "تو جابه‌جا خواهی شد."
+          }
+        ]
+      }
+    ],
+    "caseverb": [
+      {
+        "case": "Intransitiv",
+        "examples": [
+          {
+            "german": "Ich ziehe um.",
+            "persian": "من جابه‌جا می‌شوم."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "367",
+    "level": "A2",
+    "type": "verb",
+    "word": "sich umziehen",
+    "pronunciation": "زیخ اُوم‌تسی‌هِن",
+    "meaning": "لباس عوض کردن",
+    "antonyms": [],
+    "synonyms": [],
+    "prasens": [
+      {
+        "person": "Ich",
+        "form": "ziehe mich um",
+        "fa": "من لباس عوض می‌کنم."
+      },
+      {
+        "person": "du",
+        "form": "ziehst dich um",
+        "fa": "تو لباس عوض می‌کنی."
+      },
+      {
+        "person": "er/sie/es",
+        "form": "zieht sich um",
+        "fa": "او/آن لباس عوض می‌کند."
+      },
+      {
+        "person": "wir",
+        "form": "ziehen uns um",
+        "fa": "ما لباس عوض می‌کنیم."
+      },
+      {
+        "person": "ihr",
+        "form": "zieht euch um",
+        "fa": "شماها لباس عوض می‌کنید."
+      },
+      {
+        "person": "sie/Sie",
+        "form": "ziehen sich um",
+        "fa": "آنها لباس عوض می‌کنند."
+      },
+      {
+        "sentences": [
+          {
+            "de": "Ich ziehe mich um.",
+            "fa": "من لباس عوض می‌کنم."
+          },
+          {
+            "de": "Du ziehst dich um.",
+            "fa": "تو لباس عوض می‌کنی."
+          },
+          {
+            "de": "Wir ziehen uns um.",
+            "fa": "ما لباس عوض می‌کنیم."
+          },
+          {
+            "de": "Sie zieht sich schnell um.",
+            "fa": "او سریع لباس عوض می‌کند."
+          }
+        ]
+      }
+    ],
+    "perfekt": [
+      {
+        "person": "Ich",
+        "form": "habe mich umgezogen",
+        "fa": "من لباس عوض کرده‌ام."
+      },
+      {
+        "person": "du",
+        "form": "hast dich umgezogen",
+        "fa": "تو لباس عوض کرده‌ای."
+      },
+      {
+        "person": "er/sie/es",
+        "form": "hat sich umgezogen",
+        "fa": "او/آن لباس عوض کرده است."
+      },
+      {
+        "person": "wir",
+        "form": "haben uns umgezogen",
+        "fa": "ما لباس عوض کرده‌ایم."
+      },
+      {
+        "person": "ihr",
+        "form": "habt euch umgezogen",
+        "fa": "شماها لباس عوض کرده‌اید."
+      },
+      {
+        "person": "sie/Sie",
+        "form": "haben sich umgezogen",
+        "fa": "آنها لباس عوض کرده‌اند."
+      },
+      {
+        "sentences": [
+          {
+            "de": "Ich habe mich umgezogen.",
+            "fa": "من لباس عوض کرده‌ام."
+          },
+          {
+            "de": "Wir haben uns umgezogen.",
+            "fa": "ما لباس عوض کرده‌ایم."
+          },
+          {
+            "de": "Sie hat sich umgezogen.",
+            "fa": "او لباس عوض کرده است."
+          },
+          {
+            "de": "Er hat sich für die Party umgezogen.",
+            "fa": "او برای مهمانی لباس عوض کرده است."
+          }
+        ]
+      }
+    ],
+    "prateritum": [
+      {
+        "person": "Ich",
+        "form": "zog mich um",
+        "fa": "من لباس عوض کردم."
+      },
+      {
+        "person": "du",
+        "form": "zogst dich um",
+        "fa": "تو لباس عوض کردی."
+      },
+      {
+        "person": "er/sie/es",
+        "form": "zog sich um",
+        "fa": "او/آن لباس عوض کرد."
+      },
+      {
+        "person": "wir",
+        "form": "zogen uns um",
+        "fa": "ما لباس عوض کردیم."
+      },
+      {
+        "person": "ihr",
+        "form": "zogt euch um",
+        "fa": "شماها لباس عوض کردید."
+      },
+      {
+        "person": "sie/Sie",
+        "form": "zogen sich um",
+        "fa": "آنها لباس عوض کردند."
+      },
+      {
+        "sentences": [
+          {
+            "de": "Ich zog mich um.",
+            "fa": "من لباس عوض کردم."
+          },
+          {
+            "de": "Wir zogen uns um.",
+            "fa": "ما لباس عوض کردیم."
+          },
+          {
+            "de": "Sie zog sich um.",
+            "fa": "او لباس عوض کرد."
+          },
+          {
+            "de": "Er zog sich schnell um.",
+            "fa": "او سریع لباس عوض کرد."
+          }
+        ]
+      }
+    ],
+    "futur": [
+      {
+        "person": "Ich",
+        "form": "werde mich umziehen",
+        "fa": "من لباس عوض خواهم کرد."
+      },
+      {
+        "person": "du",
+        "form": "wirst dich umziehen",
+        "fa": "تو لباس عوض خواهی کرد."
+      },
+      {
+        "person": "er/sie/es",
+        "form": "wird sich umziehen",
+        "fa": "او/آن لباس عوض خواهد کرد."
+      },
+      {
+        "person": "wir",
+        "form": "werden uns umziehen",
+        "fa": "ما لباس عوض خواهیم کرد."
+      },
+      {
+        "person": "ihr",
+        "form": "werdet euch umziehen",
+        "fa": "شماها لباس عوض خواهید کرد."
+      },
+      {
+        "person": "sie/Sie",
+        "form": "werden sich umziehen",
+        "fa": "آنها لباس عوض خواهند کرد."
+      },
+      {
+        "sentences": [
+          {
+            "de": "Ich werde mich umziehen.",
+            "fa": "من لباس عوض خواهم کرد."
+          },
+          {
+            "de": "Wir werden uns umziehen.",
+            "fa": "ما لباس عوض خواهیم کرد."
+          },
+          {
+            "de": "Sie wird sich umziehen.",
+            "fa": "او لباس عوض خواهد کرد."
+          },
+          {
+            "de": "Du wirst dich noch umziehen.",
+            "fa": "تو هنوز لباس عوض خواهی کرد."
+          }
+        ]
+      }
+    ],
+    "caseverb": [
+      {
+        "case": "reflexiv + Akk",
+        "examples": [
+          {
+            "german": "Ich ziehe mich um.",
+            "persian": "من لباس عوض می‌کنم."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "368",
+    "level": "A2",
+    "type": "verb",
+    "word": "sich unterhalten",
+    "pronunciation": "زیخ اُونترهالتن",
+    "meaning": "گفتگو کردن / سرگرم شدن",
+    "antonyms": [],
+    "synonyms": [],
+    "prasens": [
+      {
+        "person": "Ich",
+        "form": "unterhalte mich",
+        "fa": "من گفتگو می‌کنم."
+      },
+      {
+        "person": "du",
+        "form": "unterhältst dich",
+        "fa": "تو گفتگو می‌کنی."
+      },
+      {
+        "person": "er/sie/es",
+        "form": "unterhält sich",
+        "fa": "او/آن گفتگو می‌کند."
+      },
+      {
+        "person": "wir",
+        "form": "unterhalten uns",
+        "fa": "ما گفتگو می‌کنیم."
+      },
+      {
+        "person": "ihr",
+        "form": "unterhaltet euch",
+        "fa": "شماها گفتگو می‌کنید."
+      },
+      {
+        "person": "sie/Sie",
+        "form": "unterhalten sich",
+        "fa": "آنها گفتگو می‌کنند."
+      },
+      {
+        "sentences": [
+          {
+            "de": "Ich unterhalte mich mit Freunden.",
+            "fa": "من با دوستان گفتگو می‌کنم."
+          },
+          {
+            "de": "Wir unterhalten uns gut.",
+            "fa": "ما خوب گفتگو می‌کنیم."
+          },
+          {
+            "de": "Sie unterhält sich.",
+            "fa": "او گفتگو می‌کند."
+          },
+          {
+            "de": "Er unterhält sich auf Deutsch.",
+            "fa": "او به آلمانی گفتگو می‌کند."
+          }
+        ]
+      }
+    ],
+    "perfekt": [
+      {
+        "person": "Ich",
+        "form": "habe mich unterhalten",
+        "fa": "من گفتگو کرده‌ام."
+      },
+      {
+        "person": "du",
+        "form": "hast dich unterhalten",
+        "fa": "تو گفتگو کرده‌ای."
+      },
+      {
+        "person": "er/sie/es",
+        "form": "hat sich unterhalten",
+        "fa": "او/آن گفتگو کرده است."
+      },
+      {
+        "person": "wir",
+        "form": "haben uns unterhalten",
+        "fa": "ما گفتگو کرده‌ایم."
+      },
+      {
+        "person": "ihr",
+        "form": "habt euch unterhalten",
+        "fa": "شماها گفتگو کرده‌اید."
+      },
+      {
+        "person": "sie/Sie",
+        "form": "haben sich unterhalten",
+        "fa": "آنها گفتگو کرده‌اند."
+      },
+      {
+        "sentences": [
+          {
+            "de": "Ich habe mich lange unterhalten.",
+            "fa": "من مدت طولانی گفتگو کرده‌ام."
+          },
+          {
+            "de": "Wir haben uns unterhalten.",
+            "fa": "ما گفتگو کرده‌ایم."
+          },
+          {
+            "de": "Sie hat sich gut unterhalten.",
+            "fa": "او خوب سرگرم شده / گفتگو کرده است."
+          },
+          {
+            "de": "Er hat sich mit ihr unterhalten.",
+            "fa": "او با او گفتگو کرده است."
+          }
+        ]
+      }
+    ],
+    "prateritum": [
+      {
+        "person": "Ich",
+        "form": "unterhielt mich",
+        "fa": "من گفتگو کردم."
+      },
+      {
+        "person": "du",
+        "form": "unterhieltest dich",
+        "fa": "تو گفتگو کردی."
+      },
+      {
+        "person": "er/sie/es",
+        "form": "unterhielt sich",
+        "fa": "او/آن گفتگو کرد."
+      },
+      {
+        "person": "wir",
+        "form": "unterhielten uns",
+        "fa": "ما گفتگو کردیم."
+      },
+      {
+        "person": "ihr",
+        "form": "unterhieltet euch",
+        "fa": "شماها گفتگو کردید."
+      },
+      {
+        "person": "sie/Sie",
+        "form": "unterhielten sich",
+        "fa": "آنها گفتگو کردند."
+      },
+      {
+        "sentences": [
+          {
+            "de": "Ich unterhielt mich.",
+            "fa": "من گفتگو کردم."
+          },
+          {
+            "de": "Wir unterhielten uns stundenlang.",
+            "fa": "ما ساعت‌ها گفتگو کردیم."
+          },
+          {
+            "de": "Sie unterhielt sich.",
+            "fa": "او گفتگو کرد."
+          },
+          {
+            "de": "Er unterhielt sich freundlich.",
+            "fa": "او دوستانه گفتگو کرد."
+          }
+        ]
+      }
+    ],
+    "futur": [
+      {
+        "person": "Ich",
+        "form": "werde mich unterhalten",
+        "fa": "من گفتگو خواهم کرد."
+      },
+      {
+        "person": "du",
+        "form": "wirst dich unterhalten",
+        "fa": "تو گفتگو خواهی کرد."
+      },
+      {
+        "person": "er/sie/es",
+        "form": "wird sich unterhalten",
+        "fa": "او/آن گفتگو خواهد کرد."
+      },
+      {
+        "person": "wir",
+        "form": "werden uns unterhalten",
+        "fa": "ما گفتگو خواهیم کرد."
+      },
+      {
+        "person": "ihr",
+        "form": "werdet euch unterhalten",
+        "fa": "شماها گفتگو خواهید کرد."
+      },
+      {
+        "person": "sie/Sie",
+        "form": "werden sich unterhalten",
+        "fa": "آنها گفتگو خواهند کرد."
+      },
+      {
+        "sentences": [
+          {
+            "de": "Ich werde mich mit ihnen unterhalten.",
+            "fa": "من با آنها گفتگو خواهم کرد."
+          },
+          {
+            "de": "Wir werden uns unterhalten.",
+            "fa": "ما گفتگو خواهیم کرد."
+          },
+          {
+            "de": "Sie wird sich gut unterhalten.",
+            "fa": "او خوب سرگرم خواهد شد."
+          },
+          {
+            "de": "Du wirst dich unterhalten.",
+            "fa": "تو گفتگو خواهی کرد."
+          }
+        ]
+      }
+    ],
+    "caseverb": [
+      {
+        "case": "reflexiv",
+        "examples": [
+          {
+            "german": "Ich unterhalte mich.",
+            "persian": "من گفتگو می‌کنم."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "369",
+    "level": "A2",
+    "type": "verb",
+    "word": "unternehmen",
+    "pronunciation": "اُونترنِمِن",
+    "meaning": "انجام دادن / شروع کردن (فعالیت)",
+    "antonyms": [],
+    "synonyms": [],
+    "prasens": [
+      {
+        "person": "Ich",
+        "form": "unternehme",
+        "fa": "من انجام می‌دهم."
+      },
+      {
+        "person": "du",
+        "form": "unternimmst",
+        "fa": "تو انجام می‌دهی."
+      },
+      {
+        "person": "er/sie/es",
+        "form": "unternimmt",
+        "fa": "او/آن انجام می‌دهد."
+      },
+      {
+        "person": "wir",
+        "form": "unternehmen",
+        "fa": "ما انجام می‌دهیم."
+      },
+      {
+        "person": "ihr",
+        "form": "unternehmt",
+        "fa": "شماها انجام می‌دهید."
+      },
+      {
+        "person": "sie/Sie",
+        "form": "unternehmen",
+        "fa": "آنها انجام می‌دهند."
+      },
+      {
+        "sentences": [
+          {
+            "de": "Ich unternehme eine Reise.",
+            "fa": "من سفر می‌کنم."
+          },
+          {
+            "de": "Wir unternehmen etwas.",
+            "fa": "ما کاری انجام می‌دهیم."
+          },
+          {
+            "de": "Sie unternimmt einen Ausflug.",
+            "fa": "او گردش می‌رود."
+          },
+          {
+            "de": "Er unternimmt nichts.",
+            "fa": "او هیچ کاری انجام نمی‌دهد."
+          }
+        ]
+      }
+    ],
+    "perfekt": [
+      {
+        "person": "Ich",
+        "form": "habe unternommen",
+        "fa": "من انجام داده‌ام."
+      },
+      {
+        "person": "du",
+        "form": "hast unternommen",
+        "fa": "تو انجام داده‌ای."
+      },
+      {
+        "person": "er/sie/es",
+        "form": "hat unternommen",
+        "fa": "او/آن انجام داده است."
+      },
+      {
+        "person": "wir",
+        "form": "haben unternommen",
+        "fa": "ما انجام داده‌ایم."
+      },
+      {
+        "person": "ihr",
+        "form": "habt unternommen",
+        "fa": "شماها انجام داده‌اید."
+      },
+      {
+        "person": "sie/Sie",
+        "form": "haben unternommen",
+        "fa": "آنها انجام داده‌اند."
+      },
+      {
+        "sentences": [
+          {
+            "de": "Ich habe eine Reise unternommen.",
+            "fa": "من سفری انجام داده‌ام."
+          },
+          {
+            "de": "Wir haben viel unternommen.",
+            "fa": "ما کارهای زیادی انجام داده‌ایم."
+          },
+          {
+            "de": "Sie hat einen Spaziergang unternommen.",
+            "fa": "او پیاده‌روی کرده است."
+          },
+          {
+            "de": "Er hat nichts unternommen.",
+            "fa": "او هیچ کاری انجام نداده است."
+          }
+        ]
+      }
+    ],
+    "prateritum": [
+      {
+        "person": "Ich",
+        "form": "unternahm",
+        "fa": "من انجام دادم."
+      },
+      {
+        "person": "du",
+        "form": "unternahmst",
+        "fa": "تو انجام دادی."
+      },
+      {
+        "person": "er/sie/es",
+        "form": "unternahm",
+        "fa": "او/آن انجام داد."
+      },
+      {
+        "person": "wir",
+        "form": "unternahmen",
+        "fa": "ما انجام دادیم."
+      },
+      {
+        "person": "ihr",
+        "form": "unternahmt",
+        "fa": "شماها انجام دادید."
+      },
+      {
+        "person": "sie/Sie",
+        "form": "unternahmen",
+        "fa": "آنها انجام دادند."
+      },
+      {
+        "sentences": [
+          {
+            "de": "Ich unternahm eine Tour.",
+            "fa": "من تور انجام دادم."
+          },
+          {
+            "de": "Wir unternahmen einen Ausflug.",
+            "fa": "ما گردش کردیم."
+          },
+          {
+            "de": "Sie unternahm viel.",
+            "fa": "او کارهای زیادی انجام داد."
+          },
+          {
+            "de": "Er unternahm eine Expedition.",
+            "fa": "او اکسپدیشن انجام داد."
+          }
+        ]
+      }
+    ],
+    "futur": [
+      {
+        "person": "Ich",
+        "form": "werde unternehmen",
+        "fa": "من انجام خواهم داد."
+      },
+      {
+        "person": "du",
+        "form": "wirst unternehmen",
+        "fa": "تو انجام خواهی داد."
+      },
+      {
+        "person": "er/sie/es",
+        "form": "wird unternehmen",
+        "fa": "او/آن انجام خواهد داد."
+      },
+      {
+        "person": "wir",
+        "form": "werden unternehmen",
+        "fa": "ما انجام خواهیم داد."
+      },
+      {
+        "person": "ihr",
+        "form": "werdet unternehmen",
+        "fa": "شماها انجام خواهید داد."
+      },
+      {
+        "person": "sie/Sie",
+        "form": "werden unternehmen",
+        "fa": "آنها انجام خواهند داد."
+      },
+      {
+        "sentences": [
+          {
+            "de": "Ich werde eine Reise unternehmen.",
+            "fa": "من سفری انجام خواهم داد."
+          },
+          {
+            "de": "Wir werden etwas unternehmen.",
+            "fa": "ما کاری انجام خواهیم داد."
+          },
+          {
+            "de": "Sie wird einen Ausflug unternehmen.",
+            "fa": "او گردش خواهد رفت."
+          },
+          {
+            "de": "Du wirst es unternehmen.",
+            "fa": "تو آن را انجام خواهی داد."
+          }
+        ]
+      }
+    ],
+    "caseverb": [
+      {
+        "case": "Akk",
+        "examples": [
+          {
+            "german": "Ich unternehme eine Reise.",
+            "persian": "من سفر انجام می‌دهم."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "370",
+    "level": "A2",
+    "type": "verb",
+    "word": "untersuchen",
+    "pronunciation": "اُونترزوخِن",
+    "meaning": "بررسی کردن / معاینه کردن",
+    "antonyms": [],
+    "synonyms": [],
+    "prasens": [
+      {
+        "person": "Ich",
+        "form": "untersuche",
+        "fa": "من بررسی می‌کنم."
+      },
+      {
+        "person": "du",
+        "form": "untersuchst",
+        "fa": "تو بررسی می‌کنی."
+      },
+      {
+        "person": "er/sie/es",
+        "form": "untersucht",
+        "fa": "او/آن بررسی می‌کند."
+      },
+      {
+        "person": "wir",
+        "form": "untersuchen",
+        "fa": "ما بررسی می‌کنیم."
+      },
+      {
+        "person": "ihr",
+        "form": "untersucht",
+        "fa": "شماها بررسی می‌کنید."
+      },
+      {
+        "person": "sie/Sie",
+        "form": "untersuchen",
+        "fa": "آنها بررسی می‌کنند."
+      },
+      {
+        "sentences": [
+          {
+            "de": "Ich untersuche das Problem.",
+            "fa": "من مشکل را بررسی می‌کنم."
+          },
+          {
+            "de": "Der Arzt untersucht den Patienten.",
+            "fa": "پزشک بیمار را معاینه می‌کند."
+          },
+          {
+            "de": "Wir untersuchen die Daten.",
+            "fa": "ما داده‌ها را بررسی می‌کنیم."
+          },
+          {
+            "de": "Sie untersucht den Fall.",
+            "fa": "او پرونده را بررسی می‌کند."
+          }
+        ]
+      }
+    ],
+    "perfekt": [
+      {
+        "person": "Ich",
+        "form": "habe untersucht",
+        "fa": "من بررسی کرده‌ام."
+      },
+      {
+        "person": "du",
+        "form": "hast untersucht",
+        "fa": "تو بررسی کرده‌ای."
+      },
+      {
+        "person": "er/sie/es",
+        "form": "hat untersucht",
+        "fa": "او/آن بررسی کرده است."
+      },
+      {
+        "person": "wir",
+        "form": "haben untersucht",
+        "fa": "ما بررسی کرده‌ایم."
+      },
+      {
+        "person": "ihr",
+        "form": "habt untersucht",
+        "fa": "شماها بررسی کرده‌اید."
+      },
+      {
+        "person": "sie/Sie",
+        "form": "haben untersucht",
+        "fa": "آنها بررسی کرده‌اند."
+      },
+      {
+        "sentences": [
+          {
+            "de": "Ich habe das untersucht.",
+            "fa": "من آن را بررسی کرده‌ام."
+          },
+          {
+            "de": "Wir haben die Ursache untersucht.",
+            "fa": "ما علت را بررسی کرده‌ایم."
+          },
+          {
+            "de": "Der Arzt hat ihn untersucht.",
+            "fa": "پزشک او را معاینه کرده است."
+          },
+          {
+            "de": "Sie hat den Bericht untersucht.",
+            "fa": "او گزارش را بررسی کرده است."
+          }
+        ]
+      }
+    ],
+    "prateritum": [
+      {
+        "person": "Ich",
+        "form": "untersuchte",
+        "fa": "من بررسی کردم."
+      },
+      {
+        "person": "du",
+        "form": "untersuchtest",
+        "fa": "تو بررسی کردی."
+      },
+      {
+        "person": "er/sie/es",
+        "form": "untersuchte",
+        "fa": "او/آن بررسی کرد."
+      },
+      {
+        "person": "wir",
+        "form": "untersuchten",
+        "fa": "ما بررسی کردیم."
+      },
+      {
+        "person": "ihr",
+        "form": "untersuchtet",
+        "fa": "شماها بررسی کردید."
+      },
+      {
+        "person": "sie/Sie",
+        "form": "untersuchten",
+        "fa": "آنها بررسی کردند."
+      },
+      {
+        "sentences": [
+          {
+            "de": "Ich untersuchte das.",
+            "fa": "من آن را بررسی کردم."
+          },
+          {
+            "de": "Wir untersuchten die Sache.",
+            "fa": "ما موضوع را بررسی کردیم."
+          },
+          {
+            "de": "Sie untersuchte gründlich.",
+            "fa": "او به طور کامل بررسی کرد."
+          },
+          {
+            "de": "Er untersuchte den Patienten.",
+            "fa": "او بیمار را معاینه کرد."
+          }
+        ]
+      }
+    ],
+    "futur": [
+      {
+        "person": "Ich",
+        "form": "werde untersuchen",
+        "fa": "من بررسی خواهم کرد."
+      },
+      {
+        "person": "du",
+        "form": "wirst untersuchen",
+        "fa": "تو بررسی خواهی کرد."
+      },
+      {
+        "person": "er/sie/es",
+        "form": "wird untersuchen",
+        "fa": "او/آن بررسی خواهد کرد."
+      },
+      {
+        "person": "wir",
+        "form": "werden untersuchen",
+        "fa": "ما بررسی خواهیم کرد."
+      },
+      {
+        "person": "ihr",
+        "form": "werdet untersuchen",
+        "fa": "شماها بررسی خواهید کرد."
+      },
+      {
+        "person": "sie/Sie",
+        "form": "werden untersuchen",
+        "fa": "آنها بررسی خواهند کرد."
+      },
+      {
+        "sentences": [
+          {
+            "de": "Ich werde das Problem untersuchen.",
+            "fa": "من مشکل را بررسی خواهم کرد."
+          },
+          {
+            "de": "Wir werden es untersuchen.",
+            "fa": "ما آن را بررسی خواهیم کرد."
+          },
+          {
+            "de": "Der Arzt wird ihn untersuchen.",
+            "fa": "پزشک او را معاینه خواهد کرد."
+          },
+          {
+            "de": "Sie wird den Fall untersuchen.",
+            "fa": "او پرونده را بررسی خواهد کرد."
+          }
+        ]
+      }
+    ],
+    "caseverb": [
+      {
+        "case": "Akk",
+        "examples": [
+          {
+            "german": "Ich untersuche das Problem.",
+            "persian": "من مشکل را بررسی می‌کنم."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "371",
+    "level": "A2",
+    "type": "verb",
+    "word": "unterwegs sein",
+    "pronunciation": "اُونتروِگس زاین",
+    "meaning": "در راه بودن / در سفر بودن",
+    "antonyms": [],
+    "synonyms": [],
+    "prasens": [
+      {
+        "person": "Ich",
+        "form": "bin unterwegs",
+        "fa": "من در راه هستم."
+      },
+      {
+        "person": "du",
+        "form": "bist unterwegs",
+        "fa": "تو در راه هستی."
+      },
+      {
+        "person": "er/sie/es",
+        "form": "ist unterwegs",
+        "fa": "او/آن در راه است."
+      },
+      {
+        "person": "wir",
+        "form": "sind unterwegs",
+        "fa": "ما در راه هستیم."
+      },
+      {
+        "person": "ihr",
+        "form": "seid unterwegs",
+        "fa": "شماها در راه هستید."
+      },
+      {
+        "person": "sie/Sie",
+        "form": "sind unterwegs",
+        "fa": "آنها در راه هستند."
+      },
+      {
+        "sentences": [
+          {
+            "de": "Ich bin unterwegs.",
+            "fa": "من در راه هستم."
+          },
+          {
+            "de": "Wir sind unterwegs nach Hause.",
+            "fa": "ما در راه خانه هستیم."
+          },
+          {
+            "de": "Sie ist unterwegs.",
+            "fa": "او در سفر است."
+          },
+          {
+            "de": "Er ist schon unterwegs.",
+            "fa": "او قبلاً در راه است."
+          }
+        ]
+      }
+    ],
+    "perfekt": [
+      {
+        "person": "Ich",
+        "form": "bin unterwegs gewesen",
+        "fa": "من در راه بوده‌ام."
+      },
+      {
+        "person": "du",
+        "form": "bist unterwegs gewesen",
+        "fa": "تو در راه بوده‌ای."
+      },
+      {
+        "person": "er/sie/es",
+        "form": "ist unterwegs gewesen",
+        "fa": "او/آن در راه بوده است."
+      },
+      {
+        "person": "wir",
+        "form": "sind unterwegs gewesen",
+        "fa": "ما در راه بوده‌ایم."
+      },
+      {
+        "person": "ihr",
+        "form": "seid unterwegs gewesen",
+        "fa": "شماها در راه بوده‌اید."
+      },
+      {
+        "person": "sie/Sie",
+        "form": "sind unterwegs gewesen",
+        "fa": "آنها در راه بوده‌اند."
+      },
+      {
+        "sentences": [
+          {
+            "de": "Ich bin den ganzen Tag unterwegs gewesen.",
+            "fa": "من تمام روز در راه بوده‌ام."
+          },
+          {
+            "de": "Wir sind unterwegs gewesen.",
+            "fa": "ما در راه بوده‌ایم."
+          },
+          {
+            "de": "Sie ist unterwegs gewesen.",
+            "fa": "او در سفر بوده است."
+          },
+          {
+            "de": "Er ist viel unterwegs gewesen.",
+            "fa": "او زیاد در سفر بوده است."
+          }
+        ]
+      }
+    ],
+    "prateritum": [
+      {
+        "person": "Ich",
+        "form": "war unterwegs",
+        "fa": "من در راه بودم."
+      },
+      {
+        "person": "du",
+        "form": "warst unterwegs",
+        "fa": "تو در راه بودی."
+      },
+      {
+        "person": "er/sie/es",
+        "form": "war unterwegs",
+        "fa": "او/آن در راه بود."
+      },
+      {
+        "person": "wir",
+        "form": "waren unterwegs",
+        "fa": "ما در راه بودیم."
+      },
+      {
+        "person": "ihr",
+        "form": "wart unterwegs",
+        "fa": "شماها در راه بودید."
+      },
+      {
+        "person": "sie/Sie",
+        "form": "waren unterwegs",
+        "fa": "آنها در راه بودند."
+      },
+      {
+        "sentences": [
+          {
+            "de": "Ich war unterwegs.",
+            "fa": "من در راه بودم."
+          },
+          {
+            "de": "Wir waren unterwegs.",
+            "fa": "ما در راه بودیم."
+          },
+          {
+            "de": "Sie war den ganzen Tag unterwegs.",
+            "fa": "او تمام روز در سفر بود."
+          },
+          {
+            "de": "Er war unterwegs zum Bahnhof.",
+            "fa": "او در راه ایستگاه بود."
+          }
+        ]
+      }
+    ],
+    "futur": [
+      {
+        "person": "Ich",
+        "form": "werde unterwegs sein",
+        "fa": "من در راه خواهم بود."
+      },
+      {
+        "person": "du",
+        "form": "wirst unterwegs sein",
+        "fa": "تو در راه خواهی بود."
+      },
+      {
+        "person": "er/sie/es",
+        "form": "wird unterwegs sein",
+        "fa": "او/آن در راه خواهد بود."
+      },
+      {
+        "person": "wir",
+        "form": "werden unterwegs sein",
+        "fa": "ما در راه خواهیم بود."
+      },
+      {
+        "person": "ihr",
+        "form": "werdet unterwegs sein",
+        "fa": "شماها در راه خواهید بود."
+      },
+      {
+        "person": "sie/Sie",
+        "form": "werden unterwegs sein",
+        "fa": "آنها در راه خواهند بود."
+      },
+      {
+        "sentences": [
+          {
+            "de": "Ich werde morgen unterwegs sein.",
+            "fa": "من فردا در راه خواهم بود."
+          },
+          {
+            "de": "Wir werden unterwegs sein.",
+            "fa": "ما در راه خواهیم بود."
+          },
+          {
+            "de": "Sie wird unterwegs sein.",
+            "fa": "او در سفر خواهد بود."
+          },
+          {
+            "de": "Du wirst den ganzen Tag unterwegs sein.",
+            "fa": "تو تمام روز در راه خواهی بود."
+          }
+        ]
+      }
+    ],
+    "caseverb": [
+      {
+        "case": "Intransitiv",
+        "examples": [
+          {
+            "german": "Ich bin unterwegs.",
+            "persian": "من در راه هستم."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "372",
+    "level": "A2",
+    "type": "verb",
+    "word": "verabredet sein",
+    "pronunciation": "فِرآبردِت زاین",
+    "meaning": "قرار داشتن / قرار ملاقات داشتن",
+    "antonyms": [],
+    "synonyms": [],
+    "prasens": [
+      {
+        "person": "Ich",
+        "form": "bin verabredet",
+        "fa": "من قرار دارم."
+      },
+      {
+        "person": "du",
+        "form": "bist verabredet",
+        "fa": "تو قرار داری."
+      },
+      {
+        "person": "er/sie/es",
+        "form": "ist verabredet",
+        "fa": "او/آن قرار دارد."
+      },
+      {
+        "person": "wir",
+        "form": "sind verabredet",
+        "fa": "ما قرار داریم."
+      },
+      {
+        "person": "ihr",
+        "form": "seid verabredet",
+        "fa": "شماها قرار دارید."
+      },
+      {
+        "person": "sie/Sie",
+        "form": "sind verabredet",
+        "fa": "آنها قرار دارند."
+      },
+      {
+        "sentences": [
+          {
+            "de": "Ich bin heute Abend verabredet.",
+            "fa": "من امشب قرار دارم."
+          },
+          {
+            "de": "Wir sind verabredet.",
+            "fa": "ما قرار داریم."
+          },
+          {
+            "de": "Sie ist mit ihm verabredet.",
+            "fa": "او با او قرار دارد."
+          },
+          {
+            "de": "Er ist verabredet.",
+            "fa": "او قرار دارد."
+          }
+        ]
+      }
+    ],
+    "perfekt": [
+      {
+        "person": "Ich",
+        "form": "bin verabredet gewesen",
+        "fa": "من قرار داشته‌ام."
+      },
+      {
+        "person": "du",
+        "form": "bist verabredet gewesen",
+        "fa": "تو قرار داشته‌ای."
+      },
+      {
+        "person": "er/sie/es",
+        "form": "ist verabredet gewesen",
+        "fa": "او/آن قرار داشته است."
+      },
+      {
+        "person": "wir",
+        "form": "sind verabredet gewesen",
+        "fa": "ما قرار داشته‌ایم."
+      },
+      {
+        "person": "ihr",
+        "form": "seid verabredet gewesen",
+        "fa": "شماها قرار داشته‌اید."
+      },
+      {
+        "person": "sie/Sie",
+        "form": "sind verabredet gewesen",
+        "fa": "آنها قرار داشته‌اند."
+      },
+      {
+        "sentences": [
+          {
+            "de": "Ich bin gestern verabredet gewesen.",
+            "fa": "من دیروز قرار داشته‌ام."
+          },
+          {
+            "de": "Wir sind verabredet gewesen.",
+            "fa": "ما قرار داشته‌ایم."
+          },
+          {
+            "de": "Sie ist verabredet gewesen.",
+            "fa": "او قرار داشته است."
+          },
+          {
+            "de": "Er ist mit Freunden verabredet gewesen.",
+            "fa": "او با دوستان قرار داشته است."
+          }
+        ]
+      }
+    ],
+    "prateritum": [
+      {
+        "person": "Ich",
+        "form": "war verabredet",
+        "fa": "من قرار داشتم."
+      },
+      {
+        "person": "du",
+        "form": "warst verabredet",
+        "fa": "تو قرار داشتی."
+      },
+      {
+        "person": "er/sie/es",
+        "form": "war verabredet",
+        "fa": "او/آن قرار داشت."
+      },
+      {
+        "person": "wir",
+        "form": "waren verabredet",
+        "fa": "ما قرار داشتیم."
+      },
+      {
+        "person": "ihr",
+        "form": "wart verabredet",
+        "fa": "شماها قرار داشتید."
+      },
+      {
+        "person": "sie/Sie",
+        "form": "waren verabredet",
+        "fa": "آنها قرار داشتند."
+      },
+      {
+        "sentences": [
+          {
+            "de": "Ich war verabredet.",
+            "fa": "من قرار داشتم."
+          },
+          {
+            "de": "Wir waren verabredet.",
+            "fa": "ما قرار داشتیم."
+          },
+          {
+            "de": "Sie war mit mir verabredet.",
+            "fa": "او با من قرار داشت."
+          },
+          {
+            "de": "Er war gestern verabredet.",
+            "fa": "او دیروز قرار داشت."
+          }
+        ]
+      }
+    ],
+    "futur": [
+      {
+        "person": "Ich",
+        "form": "werde verabredet sein",
+        "fa": "من قرار خواهم داشت."
+      },
+      {
+        "person": "du",
+        "form": "wirst verabredet sein",
+        "fa": "تو قرار خواهی داشت."
+      },
+      {
+        "person": "er/sie/es",
+        "form": "wird verabredet sein",
+        "fa": "او/آن قرار خواهد داشت."
+      },
+      {
+        "person": "wir",
+        "form": "werden verabredet sein",
+        "fa": "ما قرار خواهیم داشت."
+      },
+      {
+        "person": "ihr",
+        "form": "werdet verabredet sein",
+        "fa": "شماها قرار خواهید داشت."
+      },
+      {
+        "person": "sie/Sie",
+        "form": "werden verabredet sein",
+        "fa": "آنها قرار خواهند داشت."
+      },
+      {
+        "sentences": [
+          {
+            "de": "Ich werde morgen verabredet sein.",
+            "fa": "من فردا قرار خواهم داشت."
+          },
+          {
+            "de": "Wir werden verabredet sein.",
+            "fa": "ما قرار خواهیم داشت."
+          },
+          {
+            "de": "Sie wird verabredet sein.",
+            "fa": "او قرار خواهد داشت."
+          },
+          {
+            "de": "Du wirst mit ihr verabredet sein.",
+            "fa": "تو با او قرار خواهی داشت."
+          }
+        ]
+      }
+    ],
+    "caseverb": [
+      {
+        "case": "Intransitiv",
+        "examples": [
+          {
+            "german": "Ich bin verabredet.",
+            "persian": "من قرار دارم."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "373",
+    "level": "A2",
+    "type": "verb",
+    "word": "verbieten",
+    "pronunciation": "فِربِیتِن",
+    "meaning": "ممنوع کردن",
+    "antonyms": [],
+    "synonyms": [],
+    "prasens": [
+      {
+        "person": "Ich",
+        "form": "verbiete",
+        "fa": "من ممنوع می‌کنم."
+      },
+      {
+        "person": "du",
+        "form": "verbietest",
+        "fa": "تو ممنوع می‌کنی."
+      },
+      {
+        "person": "er/sie/es",
+        "form": "verbietet",
+        "fa": "او/آن ممنوع می‌کند."
+      },
+      {
+        "person": "wir",
+        "form": "verbieten",
+        "fa": "ما ممنوع می‌کنیم."
+      },
+      {
+        "person": "ihr",
+        "form": "verbietet",
+        "fa": "شماها ممنوع می‌کنید."
+      },
+      {
+        "person": "sie/Sie",
+        "form": "verbieten",
+        "fa": "آنها ممنوع می‌کنند."
+      },
+      {
+        "sentences": [
+          {
+            "de": "Ich verbiete das.",
+            "fa": "من این را ممنوع می‌کنم."
+          },
+          {
+            "de": "Der Lehrer verbietet das Rauchen.",
+            "fa": "معلم سیگار کشیدن را ممنوع می‌کند."
+          },
+          {
+            "de": "Wir verbieten es.",
+            "fa": "ما آن را ممنوع می‌کنیم."
+          },
+          {
+            "de": "Sie verbietet den Kindern das Spiel.",
+            "fa": "او بازی را برای کودکان ممنوع می‌کند."
+          }
+        ]
+      }
+    ],
+    "perfekt": [
+      {
+        "person": "Ich",
+        "form": "habe verboten",
+        "fa": "من ممنوع کرده‌ام."
+      },
+      {
+        "person": "du",
+        "form": "hast verboten",
+        "fa": "تو ممنوع کرده‌ای."
+      },
+      {
+        "person": "er/sie/es",
+        "form": "hat verboten",
+        "fa": "او/آن ممنوع کرده است."
+      },
+      {
+        "person": "wir",
+        "form": "haben verboten",
+        "fa": "ما ممنوع کرده‌ایم."
+      },
+      {
+        "person": "ihr",
+        "form": "habt verboten",
+        "fa": "شماها ممنوع کرده‌اید."
+      },
+      {
+        "person": "sie/Sie",
+        "form": "haben verboten",
+        "fa": "آنها ممنوع کرده‌اند."
+      },
+      {
+        "sentences": [
+          {
+            "de": "Ich habe es verboten.",
+            "fa": "من آن را ممنوع کرده‌ام."
+          },
+          {
+            "de": "Der Arzt hat das verboten.",
+            "fa": "پزشک آن را ممنوع کرده است."
+          },
+          {
+            "de": "Wir haben das Spielen verboten.",
+            "fa": "ما بازی را ممنوع کرده‌ایم."
+          },
+          {
+            "de": "Sie hat es streng verboten.",
+            "fa": "او آن را به شدت ممنوع کرده است."
+          }
+        ]
+      }
+    ],
+    "prateritum": [
+      {
+        "person": "Ich",
+        "form": "verbot",
+        "fa": "من ممنوع کردم."
+      },
+      {
+        "person": "du",
+        "form": "verbotest",
+        "fa": "تو ممنوع کردی."
+      },
+      {
+        "person": "er/sie/es",
+        "form": "verbot",
+        "fa": "او/آن ممنوع کرد."
+      },
+      {
+        "person": "wir",
+        "form": "verboten",
+        "fa": "ما ممنوع کردیم."
+      },
+      {
+        "person": "ihr",
+        "form": "verbotet",
+        "fa": "شماها ممنوع کردید."
+      },
+      {
+        "person": "sie/Sie",
+        "form": "verboten",
+        "fa": "آنها ممنوع کردند."
+      },
+      {
+        "sentences": [
+          {
+            "de": "Ich verbot das.",
+            "fa": "من آن را ممنوع کردم."
+          },
+          {
+            "de": "Wir verboten das Rauchen.",
+            "fa": "ما سیگار کشیدن را ممنوع کردیم."
+          },
+          {
+            "de": "Sie verbot es.",
+            "fa": "او آن را ممنوع کرد."
+          },
+          {
+            "de": "Er verbot den Besuch.",
+            "fa": "او بازدید را ممنوع کرد."
+          }
+        ]
+      }
+    ],
+    "futur": [
+      {
+        "person": "Ich",
+        "form": "werde verbieten",
+        "fa": "من ممنوع خواهم کرد."
+      },
+      {
+        "person": "du",
+        "form": "wirst verbieten",
+        "fa": "تو ممنوع خواهی کرد."
+      },
+      {
+        "person": "er/sie/es",
+        "form": "wird verbieten",
+        "fa": "او/آن ممنوع خواهد کرد."
+      },
+      {
+        "person": "wir",
+        "form": "werden verbieten",
+        "fa": "ما ممنوع خواهیم کرد."
+      },
+      {
+        "person": "ihr",
+        "form": "werdet verbieten",
+        "fa": "شماها ممنوع خواهید کرد."
+      },
+      {
+        "person": "sie/Sie",
+        "form": "werden verbieten",
+        "fa": "آنها ممنوع خواهند کرد."
+      },
+      {
+        "sentences": [
+          {
+            "de": "Ich werde das verbieten.",
+            "fa": "من این را ممنوع خواهم کرد."
+          },
+          {
+            "de": "Wir werden es verbieten.",
+            "fa": "ما آن را ممنوع خواهیم کرد."
+          },
+          {
+            "de": "Die Polizei wird es verbieten.",
+            "fa": "پلیس آن را ممنوع خواهد کرد."
+          },
+          {
+            "de": "Sie wird den Zugang verbieten.",
+            "fa": "او دسترسی را ممنوع خواهد کرد."
+          }
+        ]
+      }
+    ],
+    "caseverb": [
+      {
+        "case": "Akk",
+        "examples": [
+          {
+            "german": "Ich verbiete das.",
+            "persian": "من این را ممنوع می‌کنم."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "374",
+    "level": "A2",
+    "type": "verb",
+    "word": "vereinbaren",
+    "pronunciation": "فِرآین‌بَرِن",
+    "meaning": "توافق کردن / قرار گذاشتن",
+    "antonyms": [],
+    "synonyms": [],
+    "prasens": [
+      {
+        "person": "Ich",
+        "form": "vereinbare",
+        "fa": "من توافق می‌کنم."
+      },
+      {
+        "person": "du",
+        "form": "vereinbarst",
+        "fa": "تو توافق می‌کنی."
+      },
+      {
+        "person": "er/sie/es",
+        "form": "vereinbart",
+        "fa": "او/آن توافق می‌کند."
+      },
+      {
+        "person": "wir",
+        "form": "vereinbaren",
+        "fa": "ما توافق می‌کنیم."
+      },
+      {
+        "person": "ihr",
+        "form": "vereinbart",
+        "fa": "شماها توافق می‌کنید."
+      },
+      {
+        "person": "sie/Sie",
+        "form": "vereinbaren",
+        "fa": "آنها توافق می‌کنند."
+      },
+      {
+        "sentences": [
+          {
+            "de": "Ich vereinbare einen Termin.",
+            "fa": "من قرار ملاقات می‌گذارم."
+          },
+          {
+            "de": "Wir vereinbaren eine Zeit.",
+            "fa": "ما یک زمان توافق می‌کنیم."
+          },
+          {
+            "de": "Sie vereinbart mit ihm.",
+            "fa": "او با او توافق می‌کند."
+          },
+          {
+            "de": "Er vereinbart das Treffen.",
+            "fa": "او جلسه را هماهنگ می‌کند."
+          }
+        ]
+      }
+    ],
+    "perfekt": [
+      {
+        "person": "Ich",
+        "form": "habe vereinbart",
+        "fa": "من توافق کرده‌ام."
+      },
+      {
+        "person": "du",
+        "form": "hast vereinbart",
+        "fa": "تو توافق کرده‌ای."
+      },
+      {
+        "person": "er/sie/es",
+        "form": "hat vereinbart",
+        "fa": "او/آن توافق کرده است."
+      },
+      {
+        "person": "wir",
+        "form": "haben vereinbart",
+        "fa": "ما توافق کرده‌ایم."
+      },
+      {
+        "person": "ihr",
+        "form": "habt vereinbart",
+        "fa": "شماها توافق کرده‌اید."
+      },
+      {
+        "person": "sie/Sie",
+        "form": "haben vereinbart",
+        "fa": "آنها توافق کرده‌اند."
+      },
+      {
+        "sentences": [
+          {
+            "de": "Ich habe einen Termin vereinbart.",
+            "fa": "من قرار گذاشته‌ام."
+          },
+          {
+            "de": "Wir haben es vereinbart.",
+            "fa": "ما توافق کرده‌ایم."
+          },
+          {
+            "de": "Sie hat einen Preis vereinbart.",
+            "fa": "او قیمتی توافق کرده است."
+          },
+          {
+            "de": "Er hat das Treffen vereinbart.",
+            "fa": "او جلسه را هماهنگ کرده است."
+          }
+        ]
+      }
+    ],
+    "prateritum": [
+      {
+        "person": "Ich",
+        "form": "vereinbarte",
+        "fa": "من توافق کردم."
+      },
+      {
+        "person": "du",
+        "form": "vereinbartest",
+        "fa": "تو توافق کردی."
+      },
+      {
+        "person": "er/sie/es",
+        "form": "vereinbarte",
+        "fa": "او/آن توافق کرد."
+      },
+      {
+        "person": "wir",
+        "form": "vereinbarten",
+        "fa": "ما توافق کردیم."
+      },
+      {
+        "person": "ihr",
+        "form": "vereinbartet",
+        "fa": "شماها توافق کردید."
+      },
+      {
+        "person": "sie/Sie",
+        "form": "vereinbarten",
+        "fa": "آنها توافق کردند."
+      },
+      {
+        "sentences": [
+          {
+            "de": "Ich vereinbarte einen Termin.",
+            "fa": "من قرار گذاشتم."
+          },
+          {
+            "de": "Wir vereinbarten die Bedingungen.",
+            "fa": "ما شرایط را توافق کردیم."
+          },
+          {
+            "de": "Sie vereinbarte mit dem Chef.",
+            "fa": "او با رئیس توافق کرد."
+          },
+          {
+            "de": "Er vereinbarte das Datum.",
+            "fa": "او تاریخ را هماهنگ کرد."
+          }
+        ]
+      }
+    ],
+    "futur": [
+      {
+        "person": "Ich",
+        "form": "werde vereinbaren",
+        "fa": "من توافق خواهم کرد."
+      },
+      {
+        "person": "du",
+        "form": "wirst vereinbaren",
+        "fa": "تو توافق خواهی کرد."
+      },
+      {
+        "person": "er/sie/es",
+        "form": "wird vereinbaren",
+        "fa": "او/آن توافق خواهد کرد."
+      },
+      {
+        "person": "wir",
+        "form": "werden vereinbaren",
+        "fa": "ما توافق خواهیم کرد."
+      },
+      {
+        "person": "ihr",
+        "form": "werdet vereinbaren",
+        "fa": "شماها توافق خواهید کرد."
+      },
+      {
+        "person": "sie/Sie",
+        "form": "werden vereinbaren",
+        "fa": "آنها توافق خواهند کرد."
+      },
+      {
+        "sentences": [
+          {
+            "de": "Ich werde einen Termin vereinbaren.",
+            "fa": "من قرار خواهم گذاشت."
+          },
+          {
+            "de": "Wir werden das vereinbaren.",
+            "fa": "ما آن را توافق خواهیم کرد."
+          },
+          {
+            "de": "Sie wird mit ihnen vereinbaren.",
+            "fa": "او با آنها توافق خواهد کرد."
+          },
+          {
+            "de": "Du wirst es vereinbaren.",
+            "fa": "تو آن را هماهنگ خواهی کرد."
+          }
+        ]
+      }
+    ],
+    "caseverb": [
+      {
+        "case": "Akk",
+        "examples": [
+          {
+            "german": "Ich vereinbare einen Termin.",
+            "persian": "من قرار ملاقات می‌گذارم."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "375",
+    "level": "A2",
+    "type": "verb",
+    "word": "vergessen",
+    "pronunciation": "فِرگِسِن",
+    "meaning": "فراموش کردن",
+    "antonyms": [],
+    "synonyms": [],
+    "prasens": [
+      {
+        "person": "Ich",
+        "form": "vergesse",
+        "fa": "من فراموش می‌کنم."
+      },
+      {
+        "person": "du",
+        "form": "vergisst",
+        "fa": "تو فراموش می‌کنی."
+      },
+      {
+        "person": "er/sie/es",
+        "form": "vergisst",
+        "fa": "او/آن فراموش می‌کند."
+      },
+      {
+        "person": "wir",
+        "form": "vergessen",
+        "fa": "ما فراموش می‌کنیم."
+      },
+      {
+        "person": "ihr",
+        "form": "vergesst",
+        "fa": "شماها فراموش می‌کنید."
+      },
+      {
+        "person": "sie/Sie",
+        "form": "vergessen",
+        "fa": "آنها فراموش می‌کنند."
+      },
+      {
+        "sentences": [
+          {
+            "de": "Ich vergesse den Schlüssel.",
+            "fa": "من کلید را فراموش می‌کنم."
+          },
+          {
+            "de": "Du vergisst immer.",
+            "fa": "تو همیشه فراموش می‌کنی."
+          },
+          {
+            "de": "Wir vergessen nie.",
+            "fa": "ما هرگز فراموش نمی‌کنیم."
+          },
+          {
+            "de": "Sie vergisst den Termin.",
+            "fa": "او قرار را فراموش می‌کند."
+          }
+        ]
+      }
+    ],
+    "perfekt": [
+      {
+        "person": "Ich",
+        "form": "habe vergessen",
+        "fa": "من فراموش کرده‌ام."
+      },
+      {
+        "person": "du",
+        "form": "hast vergessen",
+        "fa": "تو فراموش کرده‌ای."
+      },
+      {
+        "person": "er/sie/es",
+        "form": "hat vergessen",
+        "fa": "او/آن فراموش کرده است."
+      },
+      {
+        "person": "wir",
+        "form": "haben vergessen",
+        "fa": "ما فراموش کرده‌ایم."
+      },
+      {
+        "person": "ihr",
+        "form": "habt vergessen",
+        "fa": "شماها فراموش کرده‌اید."
+      },
+      {
+        "person": "sie/Sie",
+        "form": "haben vergessen",
+        "fa": "آنها فراموش کرده‌اند."
+      },
+      {
+        "sentences": [
+          {
+            "de": "Ich habe meinen Namen vergessen.",
+            "fa": "من اسمم را فراموش کرده‌ام."
+          },
+          {
+            "de": "Wir haben das Buch vergessen.",
+            "fa": "ما کتاب را فراموش کرده‌ایم."
+          },
+          {
+            "de": "Sie hat den Geburtstag vergessen.",
+            "fa": "او تولد را فراموش کرده است."
+          },
+          {
+            "de": "Er hat alles vergessen.",
+            "fa": "او همه چیز را فراموش کرده است."
+          }
+        ]
+      }
+    ],
+    "prateritum": [
+      {
+        "person": "Ich",
+        "form": "vergaß",
+        "fa": "من فراموش کردم."
+      },
+      {
+        "person": "du",
+        "form": "vergaßt",
+        "fa": "تو فراموش کردی."
+      },
+      {
+        "person": "er/sie/es",
+        "form": "vergaß",
+        "fa": "او/آن فراموش کرد."
+      },
+      {
+        "person": "wir",
+        "form": "vergaßen",
+        "fa": "ما فراموش کردیم."
+      },
+      {
+        "person": "ihr",
+        "form": "vergaßt",
+        "fa": "شماها فراموش کردید."
+      },
+      {
+        "person": "sie/Sie",
+        "form": "vergaßen",
+        "fa": "آنها فراموش کردند."
+      },
+      {
+        "sentences": [
+          {
+            "de": "Ich vergaß den Termin.",
+            "fa": "من قرار را فراموش کردم."
+          },
+          {
+            "de": "Wir vergaßen die Zeit.",
+            "fa": "ما زمان را فراموش کردیم."
+          },
+          {
+            "de": "Sie vergaß ihren Schirm.",
+            "fa": "او چترش را فراموش کرد."
+          },
+          {
+            "de": "Er vergaß alles.",
+            "fa": "او همه چیز را فراموش کرد."
+          }
+        ]
+      }
+    ],
+    "futur": [
+      {
+        "person": "Ich",
+        "form": "werde vergessen",
+        "fa": "من فراموش خواهم کرد."
+      },
+      {
+        "person": "du",
+        "form": "wirst vergessen",
+        "fa": "تو فراموش خواهی کرد."
+      },
+      {
+        "person": "er/sie/es",
+        "form": "wird vergessen",
+        "fa": "او/آن فراموش خواهد کرد."
+      },
+      {
+        "person": "wir",
+        "form": "werden vergessen",
+        "fa": "ما فراموش خواهیم کرد."
+      },
+      {
+        "person": "ihr",
+        "form": "werdet vergessen",
+        "fa": "شماها فراموش خواهید کرد."
+      },
+      {
+        "person": "sie/Sie",
+        "form": "werden vergessen",
+        "fa": "آنها فراموش خواهند کرد."
+      },
+      {
+        "sentences": [
+          {
+            "de": "Ich werde das nicht vergessen.",
+            "fa": "من این را فراموش نخواهم کرد."
+          },
+          {
+            "de": "Wir werden es vergessen.",
+            "fa": "ما آن را فراموش خواهیم کرد."
+          },
+          {
+            "de": "Sie wird den Schlüssel vergessen.",
+            "fa": "او کلید را فراموش خواهد کرد."
+          },
+          {
+            "de": "Du wirst nichts vergessen.",
+            "fa": "تو هیچ چیز را فراموش نخواهی کرد."
+          }
+        ]
+      }
+    ],
+    "caseverb": [
+      {
+        "case": "Akk",
+        "examples": [
+          {
+            "german": "Ich vergesse den Schlüssel.",
+            "persian": "من کلید را فراموش می‌کنم."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "376",
+    "level": "A2",
+    "type": "verb",
+    "word": "vergleichen",
+    "pronunciation": "فِرگلایخِن",
+    "meaning": "مقایسه کردن",
+    "antonyms": [],
+    "synonyms": [],
+    "prasens": [
+      {
+        "person": "Ich",
+        "form": "vergleiche",
+        "fa": "من مقایسه می‌کنم."
+      },
+      {
+        "person": "du",
+        "form": "vergleichst",
+        "fa": "تو مقایسه می‌کنی."
+      },
+      {
+        "person": "er/sie/es",
+        "form": "vergleicht",
+        "fa": "او/آن مقایسه می‌کند."
+      },
+      {
+        "person": "wir",
+        "form": "vergleichen",
+        "fa": "ما مقایسه می‌کنیم."
+      },
+      {
+        "person": "ihr",
+        "form": "vergleicht",
+        "fa": "شماها مقایسه می‌کنید."
+      },
+      {
+        "person": "sie/Sie",
+        "form": "vergleichen",
+        "fa": "آنها مقایسه می‌کنند."
+      },
+      {
+        "sentences": [
+          {
+            "de": "Ich vergleiche die Preise.",
+            "fa": "من قیمت‌ها را مقایسه می‌کنم."
+          },
+          {
+            "de": "Wir vergleichen die Ergebnisse.",
+            "fa": "ما نتایج را مقایسه می‌کنیم."
+          },
+          {
+            "de": "Sie vergleicht die Modelle.",
+            "fa": "او مدل‌ها را مقایسه می‌کند."
+          },
+          {
+            "de": "Er vergleicht die beiden Bücher.",
+            "fa": "او دو کتاب را مقایسه می‌کند."
+          }
+        ]
+      }
+    ],
+    "perfekt": [
+      {
+        "person": "Ich",
+        "form": "habe verglichen",
+        "fa": "من مقایسه کرده‌ام."
+      },
+      {
+        "person": "du",
+        "form": "hast verglichen",
+        "fa": "تو مقایسه کرده‌ای."
+      },
+      {
+        "person": "er/sie/es",
+        "form": "hat verglichen",
+        "fa": "او/آن مقایسه کرده است."
+      },
+      {
+        "person": "wir",
+        "form": "haben verglichen",
+        "fa": "ما مقایسه کرده‌ایم."
+      },
+      {
+        "person": "ihr",
+        "form": "habt verglichen",
+        "fa": "شماها مقایسه کرده‌اید."
+      },
+      {
+        "person": "sie/Sie",
+        "form": "haben verglichen",
+        "fa": "آنها مقایسه کرده‌اند."
+      },
+      {
+        "sentences": [
+          {
+            "de": "Ich habe die Preise verglichen.",
+            "fa": "من قیمت‌ها را مقایسه کرده‌ام."
+          },
+          {
+            "de": "Wir haben die Daten verglichen.",
+            "fa": "ما داده‌ها را مقایسه کرده‌ایم."
+          },
+          {
+            "de": "Sie hat die beiden verglichen.",
+            "fa": "او دو تا را مقایسه کرده است."
+          },
+          {
+            "de": "Er hat alles verglichen.",
+            "fa": "او همه چیز را مقایسه کرده است."
+          }
+        ]
+      }
+    ],
+    "prateritum": [
+      {
+        "person": "Ich",
+        "form": "verglich",
+        "fa": "من مقایسه کردم."
+      },
+      {
+        "person": "du",
+        "form": "verglichst",
+        "fa": "تو مقایسه کردی."
+      },
+      {
+        "person": "er/sie/es",
+        "form": "verglich",
+        "fa": "او/آن مقایسه کرد."
+      },
+      {
+        "person": "wir",
+        "form": "verglichen",
+        "fa": "ما مقایسه کردیم."
+      },
+      {
+        "person": "ihr",
+        "form": "verglicht",
+        "fa": "شماها مقایسه کردید."
+      },
+      {
+        "person": "sie/Sie",
+        "form": "verglichen",
+        "fa": "آنها مقایسه کردند."
+      },
+      {
+        "sentences": [
+          {
+            "de": "Ich verglich die Preise.",
+            "fa": "من قیمت‌ها را مقایسه کردم."
+          },
+          {
+            "de": "Wir verglichen die Optionen.",
+            "fa": "ما گزینه‌ها را مقایسه کردیم."
+          },
+          {
+            "de": "Sie verglich die Qualität.",
+            "fa": "او کیفیت را مقایسه کرد."
+          },
+          {
+            "de": "Er verglich die zwei.",
+            "fa": "او دو تا را مقایسه کرد."
+          }
+        ]
+      }
+    ],
+    "futur": [
+      {
+        "person": "Ich",
+        "form": "werde vergleichen",
+        "fa": "من مقایسه خواهم کرد."
+      },
+      {
+        "person": "du",
+        "form": "wirst vergleichen",
+        "fa": "تو مقایسه خواهی کرد."
+      },
+      {
+        "person": "er/sie/es",
+        "form": "wird vergleichen",
+        "fa": "او/آن مقایسه خواهد کرد."
+      },
+      {
+        "person": "wir",
+        "form": "werden vergleichen",
+        "fa": "ما مقایسه خواهیم کرد."
+      },
+      {
+        "person": "ihr",
+        "form": "werdet vergleichen",
+        "fa": "شماها مقایسه خواهید کرد."
+      },
+      {
+        "person": "sie/Sie",
+        "form": "werden vergleichen",
+        "fa": "آنها مقایسه خواهند کرد."
+      },
+      {
+        "sentences": [
+          {
+            "de": "Ich werde die Preise vergleichen.",
+            "fa": "من قیمت‌ها را مقایسه خواهم کرد."
+          },
+          {
+            "de": "Wir werden sie vergleichen.",
+            "fa": "ما آنها را مقایسه خواهیم کرد."
+          },
+          {
+            "de": "Sie wird die Modelle vergleichen.",
+            "fa": "او مدل‌ها را مقایسه خواهد کرد."
+          },
+          {
+            "de": "Du wirst es vergleichen.",
+            "fa": "تو آن را مقایسه خواهی کرد."
+          }
+        ]
+      }
+    ],
+    "caseverb": [
+      {
+        "case": "Akk",
+        "examples": [
+          {
+            "german": "Ich vergleiche die Preise.",
+            "persian": "من قیمت‌ها را مقایسه می‌کنم."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "377",
+    "level": "A2",
+    "type": "verb",
+    "word": "sich verletzen",
+    "pronunciation": "زیخ فِرلِتسِن",
+    "meaning": "خود را مجروح کردن / آسیب دیدن",
+    "antonyms": [],
+    "synonyms": [],
+    "prasens": [
+      {
+        "person": "Ich",
+        "form": "verletze mich",
+        "fa": "من خودم را مجروح می‌کنم."
+      },
+      {
+        "person": "du",
+        "form": "verletzt dich",
+        "fa": "تو خودت را مجروح می‌کنی."
+      },
+      {
+        "person": "er/sie/es",
+        "form": "verletzt sich",
+        "fa": "او/آن خود را مجروح می‌کند."
+      },
+      {
+        "person": "wir",
+        "form": "verletzen uns",
+        "fa": "ما خودمان را مجروح می‌کنیم."
+      },
+      {
+        "person": "ihr",
+        "form": "verletzt euch",
+        "fa": "شماها خودتان را مجروح می‌کنید."
+      },
+      {
+        "person": "sie/Sie",
+        "form": "verletzen sich",
+        "fa": "آنها/شما خودشان/خودتان را مجروح می‌کنند."
+      },
+      {
+        "sentences": [
+          {
+            "de": "Ich verletze mich beim Sport.",
+            "fa": "من در ورزش خودم را مجروح می‌کنم."
+          },
+          {
+            "de": "Er verletzt sich am Finger.",
+            "fa": "او انگشتش را مجروح می‌کند."
+          },
+          {
+            "de": "Wir verletzen uns nicht absichtlich.",
+            "fa": "ما عمداً خودمان را مجروح نمی‌کنیم."
+          }
+        ]
+      }
+    ],
+    "perfekt": [
+      {
+        "person": "Ich",
+        "form": "habe mich verletzt",
+        "fa": "من خودم را مجروح کرده‌ام."
+      },
+      {
+        "person": "du",
+        "form": "hast dich verletzt",
+        "fa": "تو خودت را مجروح کرده‌ای."
+      },
+      {
+        "person": "er/sie/es",
+        "form": "hat sich verletzt",
+        "fa": "او/آن خود را مجروح کرده است."
+      },
+      {
+        "person": "wir",
+        "form": "haben uns verletzt",
+        "fa": "ما خودمان را مجروح کرده‌ایم."
+      },
+      {
+        "person": "ihr",
+        "form": "habt euch verletzt",
+        "fa": "شماها خودتان را مجروح کرده‌اید."
+      },
+      {
+        "person": "sie/Sie",
+        "form": "haben sich verletzt",
+        "fa": "آنها/شما خودشان/خودتان را مجروح کرده‌اند."
+      },
+      {
+        "sentences": [
+          {
+            "de": "Ich habe mich verletzt.",
+            "fa": "من خودم را مجروح کردم."
+          },
+          {
+            "de": "Sie hat sich beim Kochen verletzt.",
+            "fa": "او موقع آشپزی خودش را زخمی کرد."
+          },
+          {
+            "de": "Die Kinder haben sich verletzt.",
+            "fa": "بچه‌ها خودشان را مجروح کردند."
+          }
+        ]
+      }
+    ],
+    "prateritum": [
+      {
+        "person": "Ich",
+        "form": "verletzte mich",
+        "fa": "من خودم را مجروح کردم."
+      },
+      {
+        "person": "du",
+        "form": "verletztest dich",
+        "fa": "تو خودت را مجروح کردی."
+      },
+      {
+        "person": "er/sie/es",
+        "form": "verletzte sich",
+        "fa": "او/آن خود را مجروح کرد."
+      },
+      {
+        "person": "wir",
+        "form": "verletzten uns",
+        "fa": "ما خودمان را مجروح کردیم."
+      },
+      {
+        "person": "ihr",
+        "form": "verletztet euch",
+        "fa": "شماها خودتان را مجروح کردید."
+      },
+      {
+        "person": "sie/Sie",
+        "form": "verletzten sich",
+        "fa": "آنها/شما خودشان/خودتان را مجروح کردند."
+      },
+      {
+        "sentences": [
+          {
+            "de": "Er verletzte sich am Kopf.",
+            "fa": "او سرش را مجروح کرد."
+          },
+          {
+            "de": "Wir verletzten uns nicht.",
+            "fa": "ما خودمان را مجروح نکردیم."
+          },
+          {
+            "de": "Sie verletzte sich beim Laufen.",
+            "fa": "او موقع دویدن خودش را زخمی کرد."
+          }
+        ]
+      }
+    ],
+    "futur": [
+      {
+        "person": "Ich",
+        "form": "werde mich verletzen",
+        "fa": "من خودم را مجروح خواهم کرد."
+      },
+      {
+        "person": "du",
+        "form": "wirst dich verletzen",
+        "fa": "تو خودت را مجروح خواهی کرد."
+      },
+      {
+        "person": "er/sie/es",
+        "form": "wird sich verletzen",
+        "fa": "او/آن خود را مجروح خواهد کرد."
+      },
+      {
+        "person": "wir",
+        "form": "werden uns verletzen",
+        "fa": "ما خودمان را مجروح خواهیم کرد."
+      },
+      {
+        "person": "ihr",
+        "form": "werdet euch verletzen",
+        "fa": "شماها خودتان را مجروح خواهید کرد."
+      },
+      {
+        "person": "sie/Sie",
+        "form": "werden sich verletzen",
+        "fa": "آنها/شما خودشان/خودتان را مجروح خواهند کرد."
+      },
+      {
+        "sentences": [
+          {
+            "de": "Ich werde mich nicht verletzen.",
+            "fa": "من خودم را مجروح نخواهم کرد."
+          },
+          {
+            "de": "Pass auf, du wirst dich verletzen!",
+            "fa": "مراقب باش، خودت را مجروح خواهی کرد!"
+          },
+          {
+            "de": "Sie werden sich nicht verletzen.",
+            "fa": "آنها خودشان را مجروح نخواهند کرد."
+          }
+        ]
+      }
+    ],
+    "caseverb": [
+      {
+        "case": "reflexiv + Akk",
+        "examples": [
+          {
+            "german": "Ich verletze mich.",
+            "persian": "من خودم را مجروح می‌کنم."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "378",
+    "level": "A2",
+    "type": "verb",
+    "word": "sich verlieben",
+    "pronunciation": "زیخ فِرلی‌بِن",
+    "meaning": "عاشق شدن",
+    "antonyms": [],
+    "synonyms": [],
+    "prasens": [
+      {
+        "person": "Ich",
+        "form": "verliebe mich",
+        "fa": "من عاشق می‌شوم."
+      },
+      {
+        "person": "du",
+        "form": "verliebst dich",
+        "fa": "تو عاشق می‌شوی."
+      },
+      {
+        "person": "er/sie/es",
+        "form": "verliebt sich",
+        "fa": "او/آن عاشق می‌شود."
+      },
+      {
+        "person": "wir",
+        "form": "verlieben uns",
+        "fa": "ما عاشق می‌شویم."
+      },
+      {
+        "person": "ihr",
+        "form": "verliebt euch",
+        "fa": "شماها عاشق می‌شوید."
+      },
+      {
+        "person": "sie/Sie",
+        "form": "verlieben sich",
+        "fa": "آنها/شما عاشق می‌شوند."
+      },
+      {
+        "sentences": [
+          {
+            "de": "Ich verliebe mich in dich.",
+            "fa": "من عاشق تو می‌شوم."
+          },
+          {
+            "de": "Sie verliebt sich schnell.",
+            "fa": "او سریع عاشق می‌شود."
+          },
+          {
+            "de": "Wir verlieben uns in die Stadt.",
+            "fa": "ما عاشق شهر می‌شویم."
+          }
+        ]
+      }
+    ],
+    "perfekt": [
+      {
+        "person": "Ich",
+        "form": "habe mich verliebt",
+        "fa": "من عاشق شده‌ام."
+      },
+      {
+        "person": "du",
+        "form": "hast dich verliebt",
+        "fa": "تو عاشق شده‌ای."
+      },
+      {
+        "person": "er/sie/es",
+        "form": "hat sich verliebt",
+        "fa": "او/آن عاشق شده است."
+      },
+      {
+        "person": "wir",
+        "form": "haben uns verliebt",
+        "fa": "ما عاشق شده‌ایم."
+      },
+      {
+        "person": "ihr",
+        "form": "habt euch verliebt",
+        "fa": "شماها عاشق شده‌اید."
+      },
+      {
+        "person": "sie/Sie",
+        "form": "haben sich verliebt",
+        "fa": "آنها/شما عاشق شده‌اند."
+      },
+      {
+        "sentences": [
+          {
+            "de": "Ich habe mich in sie verliebt.",
+            "fa": "من عاشق او شدم."
+          },
+          {
+            "de": "Er hat sich verliebt.",
+            "fa": "او عاشق شد."
+          },
+          {
+            "de": "Die beiden haben sich verliebt.",
+            "fa": "آن دو عاشق هم شدند."
+          }
+        ]
+      }
+    ],
+    "prateritum": [
+      {
+        "person": "Ich",
+        "form": "verliebte mich",
+        "fa": "من عاشق شدم."
+      },
+      {
+        "person": "du",
+        "form": "verliebtest dich",
+        "fa": "تو عاشق شدی."
+      },
+      {
+        "person": "er/sie/es",
+        "form": "verliebte sich",
+        "fa": "او/آن عاشق شد."
+      },
+      {
+        "person": "wir",
+        "form": "verliebten uns",
+        "fa": "ما عاشق شدیم."
+      },
+      {
+        "person": "ihr",
+        "form": "verliebtet euch",
+        "fa": "شماها عاشق شدید."
+      },
+      {
+        "person": "sie/Sie",
+        "form": "verliebten sich",
+        "fa": "آنها/شما عاشق شدند."
+      },
+      {
+        "sentences": [
+          {
+            "de": "Sie verliebte sich in ihn.",
+            "fa": "او عاشق او شد."
+          },
+          {
+            "de": "Wir verliebten uns sofort.",
+            "fa": "ما بلافاصله عاشق شدیم."
+          },
+          {
+            "de": "Er verliebte sich in die Musik.",
+            "fa": "او عاشق موسیقی شد."
+          }
+        ]
+      }
+    ],
+    "futur": [
+      {
+        "person": "Ich",
+        "form": "werde mich verlieben",
+        "fa": "من عاشق خواهم شد."
+      },
+      {
+        "person": "du",
+        "form": "wirst dich verlieben",
+        "fa": "تو عاشق خواهی شد."
+      },
+      {
+        "person": "er/sie/es",
+        "form": "wird sich verlieben",
+        "fa": "او/آن عاشق خواهد شد."
+      },
+      {
+        "person": "wir",
+        "form": "werden uns verlieben",
+        "fa": "ما عاشق خواهیم شد."
+      },
+      {
+        "person": "ihr",
+        "form": "werdet euch verlieben",
+        "fa": "شماها عاشق خواهید شد."
+      },
+      {
+        "person": "sie/Sie",
+        "form": "werden sich verlieben",
+        "fa": "آنها/شما عاشق خواهند شد."
+      },
+      {
+        "sentences": [
+          {
+            "de": "Ich werde mich bestimmt verlieben.",
+            "fa": "من حتماً عاشق خواهم شد."
+          },
+          {
+            "de": "Du wirst dich in jemanden verlieben.",
+            "fa": "تو عاشق کسی خواهی شد."
+          },
+          {
+            "de": "Sie werden sich verlieben.",
+            "fa": "آنها عاشق خواهند شد."
+          }
+        ]
+      }
+    ],
+    "caseverb": [
+      {
+        "case": "reflexiv",
+        "examples": [
+          {
+            "german": "Ich verliebe mich.",
+            "persian": "من عاشق می‌شوم."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "379",
+    "level": "A2",
+    "type": "verb",
+    "word": "verlieren",
+    "pronunciation": "فِرلی‌رِن",
+    "meaning": "از دست دادن / گم کردن",
+    "antonyms": [],
+    "synonyms": [],
+    "prasens": [
+      {
+        "person": "Ich",
+        "form": "verliere",
+        "fa": "من از دست می‌دهم."
+      },
+      {
+        "person": "du",
+        "form": "verlierst",
+        "fa": "تو از دست می‌دهی."
+      },
+      {
+        "person": "er/sie/es",
+        "form": "verliert",
+        "fa": "او/آن از دست می‌دهد."
+      },
+      {
+        "person": "wir",
+        "form": "verlieren",
+        "fa": "ما از دست می‌دهیم."
+      },
+      {
+        "person": "ihr",
+        "form": "verliert",
+        "fa": "شماها از دست می‌دهید."
+      },
+      {
+        "person": "sie/Sie",
+        "form": "verlieren",
+        "fa": "آنها/شما از دست می‌دهند."
+      },
+      {
+        "sentences": [
+          {
+            "de": "Ich verliere meinen Schlüssel.",
+            "fa": "من کلیدم را گم می‌کنم."
+          },
+          {
+            "de": "Er verliert das Spiel.",
+            "fa": "او بازی را می‌بازد."
+          },
+          {
+            "de": "Wir verlieren keine Zeit.",
+            "fa": "ما وقت را تلف نمی‌کنیم."
+          }
+        ]
+      }
+    ],
+    "perfekt": [
+      {
+        "person": "Ich",
+        "form": "habe verloren",
+        "fa": "من از دست داده‌ام."
+      },
+      {
+        "person": "du",
+        "form": "hast verloren",
+        "fa": "تو از دست داده‌ای."
+      },
+      {
+        "person": "er/sie/es",
+        "form": "hat verloren",
+        "fa": "او/آن از دست داده است."
+      },
+      {
+        "person": "wir",
+        "form": "haben verloren",
+        "fa": "ما از دست داده‌ایم."
+      },
+      {
+        "person": "ihr",
+        "form": "habt verloren",
+        "fa": "شماها از دست داده‌اید."
+      },
+      {
+        "person": "sie/Sie",
+        "form": "haben verloren",
+        "fa": "آنها/شما از دست داده‌اند."
+      },
+      {
+        "sentences": [
+          {
+            "de": "Ich habe meinen Pass verloren.",
+            "fa": "من گذرنامه‌ام را گم کردم."
+          },
+          {
+            "de": "Das Team hat verloren.",
+            "fa": "تیم باخت."
+          },
+          {
+            "de": "Sie haben viel Geld verloren.",
+            "fa": "آنها پول زیادی از دست دادند."
+          }
+        ]
+      }
+    ],
+    "prateritum": [
+      {
+        "person": "Ich",
+        "form": "verlor",
+        "fa": "من از دست دادم."
+      },
+      {
+        "person": "du",
+        "form": "verlorst",
+        "fa": "تو از دست دادی."
+      },
+      {
+        "person": "er/sie/es",
+        "form": "verlor",
+        "fa": "او/آن از دست داد."
+      },
+      {
+        "person": "wir",
+        "form": "verloren",
+        "fa": "ما از دست دادیم."
+      },
+      {
+        "person": "ihr",
+        "form": "verlort",
+        "fa": "شماها از دست دادید."
+      },
+      {
+        "person": "sie/Sie",
+        "form": "verloren",
+        "fa": "آنها/شما از دست دادند."
+      },
+      {
+        "sentences": [
+          {
+            "de": "Er verlor seinen Job.",
+            "fa": "او کارش را از دست داد."
+          },
+          {
+            "de": "Wir verloren das Match.",
+            "fa": "ما مسابقه را باختیم."
+          },
+          {
+            "de": "Sie verlor die Hoffnung.",
+            "fa": "او امیدش را از دست داد."
+          }
+        ]
+      }
+    ],
+    "futur": [
+      {
+        "person": "Ich",
+        "form": "werde verlieren",
+        "fa": "من از دست خواهم داد."
+      },
+      {
+        "person": "du",
+        "form": "wirst verlieren",
+        "fa": "تو از دست خواهی داد."
+      },
+      {
+        "person": "er/sie/es",
+        "form": "wird verlieren",
+        "fa": "او/آن از دست خواهد داد."
+      },
+      {
+        "person": "wir",
+        "form": "werden verlieren",
+        "fa": "ما از دست خواهیم داد."
+      },
+      {
+        "person": "ihr",
+        "form": "werdet verlieren",
+        "fa": "شماها از دست خواهید داد."
+      },
+      {
+        "person": "sie/Sie",
+        "form": "werden verlieren",
+        "fa": "آنها/شما از دست خواهند داد."
+      },
+      {
+        "sentences": [
+          {
+            "de": "Ich werde nichts verlieren.",
+            "fa": "من چیزی را از دست نخواهم داد."
+          },
+          {
+            "de": "Wir werden das Spiel nicht verlieren.",
+            "fa": "ما بازی را نباخته‌ایم."
+          },
+          {
+            "de": "Er wird seine Geduld verlieren.",
+            "fa": "او صبرش را از دست خواهد داد."
+          }
+        ]
+      }
+    ],
+    "caseverb": [
+      {
+        "case": "Akk",
+        "examples": [
+          {
+            "german": "Ich verliere den Schlüssel.",
+            "persian": "من کلید را گم می‌کنم."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "380",
+    "level": "A2",
+    "type": "verb",
+    "word": "verpassen",
+    "pronunciation": "فِرپاسِن",
+    "meaning": "از دست دادن (قطار، فرصت و غیره) / جا گذاشتن",
+    "antonyms": [],
+    "synonyms": [],
+    "prasens": [
+      {
+        "person": "Ich",
+        "form": "verpasse",
+        "fa": "من از دست می‌دهم."
+      },
+      {
+        "person": "du",
+        "form": "verpasst",
+        "fa": "تو از دست می‌دهی."
+      },
+      {
+        "person": "er/sie/es",
+        "form": "verpasst",
+        "fa": "او/آن از دست می‌دهد."
+      },
+      {
+        "person": "wir",
+        "form": "verpassen",
+        "fa": "ما از دست می‌دهیم."
+      },
+      {
+        "person": "ihr",
+        "form": "verpasst",
+        "fa": "شماها از دست می‌دهید."
+      },
+      {
+        "person": "sie/Sie",
+        "form": "verpassen",
+        "fa": "آنها/شما از دست می‌دهند."
+      },
+      {
+        "sentences": [
+          {
+            "de": "Ich verpasse den Zug.",
+            "fa": "من قطار را از دست می‌دهم."
+          },
+          {
+            "de": "Du verpasst die Chance.",
+            "fa": "تو فرصت را از دست می‌دهی."
+          },
+          {
+            "de": "Wir verpassen nichts.",
+            "fa": "ما چیزی را از دست نمی‌دهیم."
+          }
+        ]
+      }
+    ],
+    "perfekt": [
+      {
+        "person": "Ich",
+        "form": "habe verpasst",
+        "fa": "من از دست داده‌ام."
+      },
+      {
+        "person": "du",
+        "form": "hast verpasst",
+        "fa": "تو از دست داده‌ای."
+      },
+      {
+        "person": "er/sie/es",
+        "form": "hat verpasst",
+        "fa": "او/آن از دست داده است."
+      },
+      {
+        "person": "wir",
+        "form": "haben verpasst",
+        "fa": "ما از دست داده‌ایم."
+      },
+      {
+        "person": "ihr",
+        "form": "habt verpasst",
+        "fa": "شماها از دست داده‌اید."
+      },
+      {
+        "person": "sie/Sie",
+        "form": "haben verpasst",
+        "fa": "آنها/شما از دست داده‌اند."
+      },
+      {
+        "sentences": [
+          {
+            "de": "Ich habe den Bus verpasst.",
+            "fa": "من اتوبوس را از دست دادم."
+          },
+          {
+            "de": "Er hat die Gelegenheit verpasst.",
+            "fa": "او فرصت را از دست داد."
+          },
+          {
+            "de": "Sie haben den Film verpasst.",
+            "fa": "آنها فیلم را از دست دادند."
+          }
+        ]
+      }
+    ],
+    "prateritum": [
+      {
+        "person": "Ich",
+        "form": "verpasste",
+        "fa": "من از دست دادم."
+      },
+      {
+        "person": "du",
+        "form": "verpasstest",
+        "fa": "تو از دست دادی."
+      },
+      {
+        "person": "er/sie/es",
+        "form": "verpasste",
+        "fa": "او/آن از دست داد."
+      },
+      {
+        "person": "wir",
+        "form": "verpassten",
+        "fa": "ما از دست دادیم."
+      },
+      {
+        "person": "ihr",
+        "form": "verpasstet",
+        "fa": "شماها از دست دادید."
+      },
+      {
+        "person": "sie/Sie",
+        "form": "verpassten",
+        "fa": "آنها/شما از دست دادند."
+      },
+      {
+        "sentences": [
+          {
+            "de": "Wir verpassten den Anfang.",
+            "fa": "ما شروع را از دست دادیم."
+          },
+          {
+            "de": "Er verpasste den Termin.",
+            "fa": "او قرار را جا گذاشت."
+          },
+          {
+            "de": "Sie verpasste den Flug.",
+            "fa": "او پرواز را از دست داد."
+          }
+        ]
+      }
+    ],
+    "futur": [
+      {
+        "person": "Ich",
+        "form": "werde verpassen",
+        "fa": "من از دست خواهم داد."
+      },
+      {
+        "person": "du",
+        "form": "wirst verpassen",
+        "fa": "تو از دست خواهی داد."
+      },
+      {
+        "person": "er/sie/es",
+        "form": "wird verpassen",
+        "fa": "او/آن از دست خواهد داد."
+      },
+      {
+        "person": "wir",
+        "form": "werden verpassen",
+        "fa": "ما از دست خواهیم داد."
+      },
+      {
+        "person": "ihr",
+        "form": "werdet verpassen",
+        "fa": "شماها از دست خواهید داد."
+      },
+      {
+        "person": "sie/Sie",
+        "form": "werden verpassen",
+        "fa": "آنها/شما از دست خواهند داد."
+      },
+      {
+        "sentences": [
+          {
+            "de": "Ich werde den Zug nicht verpassen.",
+            "fa": "من قطار را از دست نخواهم داد."
+          },
+          {
+            "de": "Du wirst keine Gelegenheit verpassen.",
+            "fa": "تو هیچ فرصتی را از دست نخواهی داد."
+          },
+          {
+            "de": "Wir werden nichts verpassen.",
+            "fa": "ما چیزی را از دست نخواهیم داد."
+          }
+        ]
+      }
+    ],
+    "caseverb": [
+      {
+        "case": "Akk",
+        "examples": [
+          {
+            "german": "Ich verpasse den Zug.",
+            "persian": "من قطار را از دست می‌دهم."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "381",
+    "level": "A2",
+    "type": "verb",
+    "word": "verschieben",
+    "pronunciation": "فِرشی‌بِن",
+    "meaning": "به تعویق انداختن / جابجا کردن",
+    "antonyms": [],
+    "synonyms": [],
+    "prasens": [
+      {
+        "person": "Ich",
+        "form": "verschiebe",
+        "fa": "من به تعویق می‌اندازم."
+      },
+      {
+        "person": "du",
+        "form": "verschiebst",
+        "fa": "تو به تعویق می‌اندازی."
+      },
+      {
+        "person": "er/sie/es",
+        "form": "verschiebt",
+        "fa": "او/آن به تعویق می‌اندازد."
+      },
+      {
+        "person": "wir",
+        "form": "verschieben",
+        "fa": "ما به تعویق می‌اندازیم."
+      },
+      {
+        "person": "ihr",
+        "form": "verschiebt",
+        "fa": "شماها به تعویق می‌اندازید."
+      },
+      {
+        "person": "sie/Sie",
+        "form": "verschieben",
+        "fa": "آنها/شما به تعویق می‌اندازند."
+      },
+      {
+        "sentences": [
+          {
+            "de": "Ich verschiebe den Termin.",
+            "fa": "من قرار را به تعویق می‌اندازم."
+          },
+          {
+            "de": "Wir verschieben das Treffen.",
+            "fa": "ما جلسه را جابجا می‌کنیم."
+          },
+          {
+            "de": "Er verschiebt die Arbeit.",
+            "fa": "او کار را عقب می‌اندازد."
+          }
+        ]
+      }
+    ],
+    "perfekt": [
+      {
+        "person": "Ich",
+        "form": "habe verschoben",
+        "fa": "من به تعویق انداخته‌ام."
+      },
+      {
+        "person": "du",
+        "form": "hast verschoben",
+        "fa": "تو به تعویق انداخته‌ای."
+      },
+      {
+        "person": "er/sie/es",
+        "form": "hat verschoben",
+        "fa": "او/آن به تعویق انداخته است."
+      },
+      {
+        "person": "wir",
+        "form": "haben verschoben",
+        "fa": "ما به تعویق انداخته‌ایم."
+      },
+      {
+        "person": "ihr",
+        "form": "habt verschoben",
+        "fa": "شماها به تعویق انداخته‌اید."
+      },
+      {
+        "person": "sie/Sie",
+        "form": "haben verschoben",
+        "fa": "آنها/شما به تعویق انداخته‌اند."
+      },
+      {
+        "sentences": [
+          {
+            "de": "Ich habe den Flug verschoben.",
+            "fa": "من پرواز را به تعویق انداختم."
+          },
+          {
+            "de": "Sie haben das Projekt verschoben.",
+            "fa": "آنها پروژه را عقب انداختند."
+          },
+          {
+            "de": "Wir haben nichts verschoben.",
+            "fa": "ما چیزی را عقب نینداختیم."
+          }
+        ]
+      }
+    ],
+    "prateritum": [
+      {
+        "person": "Ich",
+        "form": "verschob",
+        "fa": "من به تعویق انداختم."
+      },
+      {
+        "person": "du",
+        "form": "verschobst",
+        "fa": "تو به تعویق انداختی."
+      },
+      {
+        "person": "er/sie/es",
+        "form": "verschob",
+        "fa": "او/آن به تعویق انداخت."
+      },
+      {
+        "person": "wir",
+        "form": "verschoben",
+        "fa": "ما به تعویق انداختیم."
+      },
+      {
+        "person": "ihr",
+        "form": "verschobt",
+        "fa": "شماها به تعویق انداختید."
+      },
+      {
+        "person": "sie/Sie",
+        "form": "verschoben",
+        "fa": "آنها/شما به تعویق انداختند."
+      },
+      {
+        "sentences": [
+          {
+            "de": "Er verschob den Urlaub.",
+            "fa": "او تعطیلات را عقب انداخت."
+          },
+          {
+            "de": "Wir verschoben die Entscheidung.",
+            "fa": "ما تصمیم را به تعویق انداختیم."
+          },
+          {
+            "de": "Sie verschoben das Konzert.",
+            "fa": "آنها کنسرت را جابجا کردند."
+          }
+        ]
+      }
+    ],
+    "futur": [
+      {
+        "person": "Ich",
+        "form": "werde verschieben",
+        "fa": "من به تعویق خواهم انداخت."
+      },
+      {
+        "person": "du",
+        "form": "wirst verschieben",
+        "fa": "تو به تعویق خواهی انداخت."
+      },
+      {
+        "person": "er/sie/es",
+        "form": "wird verschieben",
+        "fa": "او/آن به تعویق خواهد انداخت."
+      },
+      {
+        "person": "wir",
+        "form": "werden verschieben",
+        "fa": "ما به تعویق خواهیم انداخت."
+      },
+      {
+        "person": "ihr",
+        "form": "werdet verschieben",
+        "fa": "شماها به تعویق خواهید انداخت."
+      },
+      {
+        "person": "sie/Sie",
+        "form": "werden verschieben",
+        "fa": "آنها/شما به تعویق خواهند انداخت."
+      },
+      {
+        "sentences": [
+          {
+            "de": "Ich werde den Termin verschieben.",
+            "fa": "من قرار را به تعویق خواهم انداخت."
+          },
+          {
+            "de": "Wir werden nichts verschieben.",
+            "fa": "ما چیزی را عقب نخواهیم انداخت."
+          },
+          {
+            "de": "Sie werden das Meeting verschieben.",
+            "fa": "آنها جلسه را جابجا خواهند کرد."
+          }
+        ]
+      }
+    ],
+    "caseverb": [
+      {
+        "case": "Akk",
+        "examples": [
+          {
+            "german": "Ich verschiebe den Termin.",
+            "persian": "من قرار را به تعویق می‌اندازم."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "382",
+    "level": "A2",
+    "type": "verb",
+    "word": "versuchen",
+    "pronunciation": "فِرزوخِن",
+    "meaning": "تلاش کردن / امتحان کردن",
+    "antonyms": [],
+    "synonyms": [],
+    "prasens": [
+      {
+        "person": "Ich",
+        "form": "versuche",
+        "fa": "من تلاش می‌کنم."
+      },
+      {
+        "person": "du",
+        "form": "versuchst",
+        "fa": "تو تلاش می‌کنی."
+      },
+      {
+        "person": "er/sie/es",
+        "form": "versucht",
+        "fa": "او/آن تلاش می‌کند."
+      },
+      {
+        "person": "wir",
+        "form": "versuchen",
+        "fa": "ما تلاش می‌کنیم."
+      },
+      {
+        "person": "ihr",
+        "form": "versucht",
+        "fa": "شماها تلاش می‌کنید."
+      },
+      {
+        "person": "sie/Sie",
+        "form": "versuchen",
+        "fa": "آنها/شما تلاش می‌کنند."
+      },
+      {
+        "sentences": [
+          {
+            "de": "Ich versuche es.",
+            "fa": "من امتحانش می‌کنم."
+          },
+          {
+            "de": "Wir versuchen zu helfen.",
+            "fa": "ما تلاش می‌کنیم کمک کنیم."
+          },
+          {
+            "de": "Er versucht das Rezept.",
+            "fa": "او دستور غذا را امتحان می‌کند."
+          }
+        ]
+      }
+    ],
+    "perfekt": [
+      {
+        "person": "Ich",
+        "form": "habe versucht",
+        "fa": "من تلاش کرده‌ام."
+      },
+      {
+        "person": "du",
+        "form": "hast versucht",
+        "fa": "تو تلاش کرده‌ای."
+      },
+      {
+        "person": "er/sie/es",
+        "form": "hat versucht",
+        "fa": "او/آن تلاش کرده است."
+      },
+      {
+        "person": "wir",
+        "form": "haben versucht",
+        "fa": "ما تلاش کرده‌ایم."
+      },
+      {
+        "person": "ihr",
+        "form": "habt versucht",
+        "fa": "شماها تلاش کرده‌اید."
+      },
+      {
+        "person": "sie/Sie",
+        "form": "haben versucht",
+        "fa": "آنها/شما تلاش کرده‌اند."
+      },
+      {
+        "sentences": [
+          {
+            "de": "Ich habe es versucht.",
+            "fa": "من تلاش کردم."
+          },
+          {
+            "de": "Sie haben ihr Bestes versucht.",
+            "fa": "آنها بهترین تلاششان را کردند."
+          },
+          {
+            "de": "Er hat das neue Gericht versucht.",
+            "fa": "او غذای جدید را امتحان کرد."
+          }
+        ]
+      }
+    ],
+    "prateritum": [
+      {
+        "person": "Ich",
+        "form": "versuchte",
+        "fa": "من تلاش کردم."
+      },
+      {
+        "person": "du",
+        "form": "versuchtest",
+        "fa": "تو تلاش کردی."
+      },
+      {
+        "person": "er/sie/es",
+        "form": "versuchte",
+        "fa": "او/آن تلاش کرد."
+      },
+      {
+        "person": "wir",
+        "form": "versuchten",
+        "fa": "ما تلاش کردیم."
+      },
+      {
+        "person": "ihr",
+        "form": "versuchtet",
+        "fa": "شماها تلاش کردید."
+      },
+      {
+        "person": "sie/Sie",
+        "form": "versuchten",
+        "fa": "آنها/شما تلاش کردند."
+      },
+      {
+        "sentences": [
+          {
+            "de": "Wir versuchten es noch einmal.",
+            "fa": "ما دوباره تلاش کردیم."
+          },
+          {
+            "de": "Er versuchte zu lernen.",
+            "fa": "او تلاش کرد یاد بگیرد."
+          },
+          {
+            "de": "Sie versuchten das Problem zu lösen.",
+            "fa": "آنها تلاش کردند مشکل را حل کنند."
+          }
+        ]
+      }
+    ],
+    "futur": [
+      {
+        "person": "Ich",
+        "form": "werde versuchen",
+        "fa": "من تلاش خواهم کرد."
+      },
+      {
+        "person": "du",
+        "form": "wirst versuchen",
+        "fa": "تو تلاش خواهی کرد."
+      },
+      {
+        "person": "er/sie/es",
+        "form": "wird versuchen",
+        "fa": "او/آن تلاش خواهد کرد."
+      },
+      {
+        "person": "wir",
+        "form": "werden versuchen",
+        "fa": "ما تلاش خواهیم کرد."
+      },
+      {
+        "person": "ihr",
+        "form": "werdet versuchen",
+        "fa": "شماها تلاش خواهید کرد."
+      },
+      {
+        "person": "sie/Sie",
+        "form": "werden versuchen",
+        "fa": "آنها/شما تلاش خواهند کرد."
+      },
+      {
+        "sentences": [
+          {
+            "de": "Ich werde es morgen versuchen.",
+            "fa": "من فردا امتحانش خواهم کرد."
+          },
+          {
+            "de": "Wir werden unser Bestes versuchen.",
+            "fa": "ما بهترین تلاشمان را خواهیم کرد."
+          },
+          {
+            "de": "Du wirst es schaffen.",
+            "fa": "تو موفق خواهی شد (تلاش خواهی کرد)."
+          }
+        ]
+      }
+    ],
+    "caseverb": [
+      {
+        "case": "Intransitiv",
+        "examples": [
+          {
+            "german": "Ich versuche es.",
+            "persian": "من امتحانش می‌کنم."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "383",
+    "level": "A2",
+    "type": "verb",
+    "word": "vorbereiten",
+    "pronunciation": "فوربِرایتِن",
+    "meaning": "آماده کردن / آماده شدن",
+    "antonyms": [],
+    "synonyms": [],
+    "prasens": [
+      {
+        "person": "Ich",
+        "form": "bereite vor",
+        "fa": "من آماده می‌کنم."
+      },
+      {
+        "person": "du",
+        "form": "bereitest vor",
+        "fa": "تو آماده می‌کنی."
+      },
+      {
+        "person": "er/sie/es",
+        "form": "bereitet vor",
+        "fa": "او/آن آماده می‌کند."
+      },
+      {
+        "person": "wir",
+        "form": "bereiten vor",
+        "fa": "ما آماده می‌کنیم."
+      },
+      {
+        "person": "ihr",
+        "form": "bereitet vor",
+        "fa": "شماها آماده می‌کنید."
+      },
+      {
+        "person": "sie/Sie",
+        "form": "bereiten vor",
+        "fa": "آنها/شما آماده می‌کنند."
+      },
+      {
+        "sentences": [
+          {
+            "de": "Ich bereite das Essen vor.",
+            "fa": "من غذا را آماده می‌کنم."
+          },
+          {
+            "de": "Wir bereiten uns auf die Prüfung vor.",
+            "fa": "ما برای امتحان آماده می‌شویم."
+          },
+          {
+            "de": "Sie bereitet den Vortrag vor.",
+            "fa": "او ارائه را آماده می‌کند."
+          }
+        ]
+      }
+    ],
+    "perfekt": [
+      {
+        "person": "Ich",
+        "form": "habe vorbereitet",
+        "fa": "من آماده کرده‌ام."
+      },
+      {
+        "person": "du",
+        "form": "hast vorbereitet",
+        "fa": "تو آماده کرده‌ای."
+      },
+      {
+        "person": "er/sie/es",
+        "form": "hat vorbereitet",
+        "fa": "او/آن آماده کرده است."
+      },
+      {
+        "person": "wir",
+        "form": "haben vorbereitet",
+        "fa": "ما آماده کرده‌ایم."
+      },
+      {
+        "person": "ihr",
+        "form": "habt vorbereitet",
+        "fa": "شماها آماده کرده‌اید."
+      },
+      {
+        "person": "sie/Sie",
+        "form": "haben vorbereitet",
+        "fa": "آنها/شما آماده کرده‌اند."
+      },
+      {
+        "sentences": [
+          {
+            "de": "Ich habe alles vorbereitet.",
+            "fa": "من همه چیز را آماده کردم."
+          },
+          {
+            "de": "Wir haben uns gut vorbereitet.",
+            "fa": "ما خوب آماده شدیم."
+          },
+          {
+            "de": "Er hat die Party vorbereitet.",
+            "fa": "او مهمانی را آماده کرد."
+          }
+        ]
+      }
+    ],
+    "prateritum": [
+      {
+        "person": "Ich",
+        "form": "bereitete vor",
+        "fa": "من آماده کردم."
+      },
+      {
+        "person": "du",
+        "form": "bereitetest vor",
+        "fa": "تو آماده کردی."
+      },
+      {
+        "person": "er/sie/es",
+        "form": "bereitete vor",
+        "fa": "او/آن آماده کرد."
+      },
+      {
+        "person": "wir",
+        "form": "bereiteten vor",
+        "fa": "ما آماده کردیم."
+      },
+      {
+        "person": "ihr",
+        "form": "bereitetet vor",
+        "fa": "شماها آماده کردید."
+      },
+      {
+        "person": "sie/Sie",
+        "form": "bereiteten vor",
+        "fa": "آنها/شما آماده کردند."
+      },
+      {
+        "sentences": [
+          {
+            "de": "Sie bereitete den Unterricht vor.",
+            "fa": "او درس را آماده کرد."
+          },
+          {
+            "de": "Wir bereiteten uns vor.",
+            "fa": "ما آماده شدیم."
+          },
+          {
+            "de": "Er bereitete eine Überraschung vor.",
+            "fa": "او سورپرایز آماده کرد."
+          }
+        ]
+      }
+    ],
+    "futur": [
+      {
+        "person": "Ich",
+        "form": "werde vorbereiten",
+        "fa": "من آماده خواهم کرد."
+      },
+      {
+        "person": "du",
+        "form": "wirst vorbereiten",
+        "fa": "تو آماده خواهی کرد."
+      },
+      {
+        "person": "er/sie/es",
+        "form": "wird vorbereiten",
+        "fa": "او/آن آماده خواهد کرد."
+      },
+      {
+        "person": "wir",
+        "form": "werden vorbereiten",
+        "fa": "ما آماده خواهیم کرد."
+      },
+      {
+        "person": "ihr",
+        "form": "werdet vorbereiten",
+        "fa": "شماها آماده خواهید کرد."
+      },
+      {
+        "person": "sie/Sie",
+        "form": "werden vorbereiten",
+        "fa": "آنها/شما آماده خواهند کرد."
+      },
+      {
+        "sentences": [
+          {
+            "de": "Ich werde mich vorbereiten.",
+            "fa": "من خودم را آماده خواهم کرد."
+          },
+          {
+            "de": "Wir werden alles vorbereiten.",
+            "fa": "ما همه چیز را آماده خواهیم کرد."
+          },
+          {
+            "de": "Sie werden das Meeting vorbereiten.",
+            "fa": "آنها جلسه را آماده خواهند کرد."
+          }
+        ]
+      }
+    ],
+    "caseverb": [
+      {
+        "case": "Akk",
+        "examples": [
+          {
+            "german": "Ich bereite das Essen vor.",
+            "persian": "من غذا را آماده می‌کنم."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "384",
+    "level": "A2",
+    "type": "verb",
+    "word": "sich vorstellen",
+    "pronunciation": "زیخ فورشتِلِن",
+    "meaning": "خود را معرفی کردن / تصور کردن",
+    "antonyms": [],
+    "synonyms": [],
+    "prasens": [
+      {
+        "person": "Ich",
+        "form": "stelle mich vor",
+        "fa": "من خودم را معرفی می‌کنم."
+      },
+      {
+        "person": "du",
+        "form": "stellst dich vor",
+        "fa": "تو خودت را معرفی می‌کنی."
+      },
+      {
+        "person": "er/sie/es",
+        "form": "stellt sich vor",
+        "fa": "او/آن خود را معرفی می‌کند."
+      },
+      {
+        "person": "wir",
+        "form": "stellen uns vor",
+        "fa": "ما خودمان را معرفی می‌کنیم."
+      },
+      {
+        "person": "ihr",
+        "form": "stellt euch vor",
+        "fa": "شماها خودتان را معرفی می‌کنید."
+      },
+      {
+        "person": "sie/Sie",
+        "form": "stellen sich vor",
+        "fa": "آنها/شما خودشان/خودتان را معرفی می‌کنند."
+      },
+      {
+        "sentences": [
+          {
+            "de": "Ich stelle mich vor.",
+            "fa": "من خودم را معرفی می‌کنم."
+          },
+          {
+            "de": "Stell dir das vor!",
+            "fa": "تصور کن!"
+          },
+          {
+            "de": "Wir stellen uns die Zukunft vor.",
+            "fa": "ما آینده را تصور می‌کنیم."
+          }
+        ]
+      }
+    ],
+    "perfekt": [
+      {
+        "person": "Ich",
+        "form": "habe mich vorgestellt",
+        "fa": "من خودم را معرفی کرده‌ام."
+      },
+      {
+        "person": "du",
+        "form": "hast dich vorgestellt",
+        "fa": "تو خودت را معرفی کرده‌ای."
+      },
+      {
+        "person": "er/sie/es",
+        "form": "hat sich vorgestellt",
+        "fa": "او/آن خود را معرفی کرده است."
+      },
+      {
+        "person": "wir",
+        "form": "haben uns vorgestellt",
+        "fa": "ما خودمان را معرفی کرده‌ایم."
+      },
+      {
+        "person": "ihr",
+        "form": "habt euch vorgestellt",
+        "fa": "شماها خودتان را معرفی کرده‌اید."
+      },
+      {
+        "person": "sie/Sie",
+        "form": "haben sich vorgestellt",
+        "fa": "آنها/شما خودشان/خودتان را معرفی کرده‌اند."
+      },
+      {
+        "sentences": [
+          {
+            "de": "Ich habe mich vorgestellt.",
+            "fa": "من خودم را معرفی کردم."
+          },
+          {
+            "de": "Er hat sich als Lehrer vorgestellt.",
+            "fa": "او خودش را به عنوان معلم معرفی کرد."
+          },
+          {
+            "de": "Sie haben sich die Szene vorgestellt.",
+            "fa": "آنها صحنه را تصور کردند."
+          }
+        ]
+      }
+    ],
+    "prateritum": [
+      {
+        "person": "Ich",
+        "form": "stellte mich vor",
+        "fa": "من خودم را معرفی کردم."
+      },
+      {
+        "person": "du",
+        "form": "stelltest dich vor",
+        "fa": "تو خودت را معرفی کردی."
+      },
+      {
+        "person": "er/sie/es",
+        "form": "stellte sich vor",
+        "fa": "او/آن خود را معرفی کرد."
+      },
+      {
+        "person": "wir",
+        "form": "stellten uns vor",
+        "fa": "ما خودمان را معرفی کردیم."
+      },
+      {
+        "person": "ihr",
+        "form": "stelltet euch vor",
+        "fa": "شماها خودتان را معرفی کردید."
+      },
+      {
+        "person": "sie/Sie",
+        "form": "stellten sich vor",
+        "fa": "آنها/شما خودشان/خودتان را معرفی کردند."
+      },
+      {
+        "sentences": [
+          {
+            "de": "Sie stellte sich vor.",
+            "fa": "او خودش را معرفی کرد."
+          },
+          {
+            "de": "Wir stellten uns die Lösung vor.",
+            "fa": "ما راه‌حل را تصور کردیم."
+          },
+          {
+            "de": "Er stellte sich als Kandidat vor.",
+            "fa": "او خودش را به عنوان کاندید معرفی کرد."
+          }
+        ]
+      }
+    ],
+    "futur": [
+      {
+        "person": "Ich",
+        "form": "werde mich vorstellen",
+        "fa": "من خودم را معرفی خواهم کرد."
+      },
+      {
+        "person": "du",
+        "form": "wirst dich vorstellen",
+        "fa": "تو خودت را معرفی خواهی کرد."
+      },
+      {
+        "person": "er/sie/es",
+        "form": "wird sich vorstellen",
+        "fa": "او/آن خود را معرفی خواهد کرد."
+      },
+      {
+        "person": "wir",
+        "form": "werden uns vorstellen",
+        "fa": "ما خودمان را معرفی خواهیم کرد."
+      },
+      {
+        "person": "ihr",
+        "form": "werdet euch vorstellen",
+        "fa": "شماها خودتان را معرفی خواهید کرد."
+      },
+      {
+        "person": "sie/Sie",
+        "form": "werden sich vorstellen",
+        "fa": "آنها/شما خودشان/خودتان را معرفی خواهند کرد."
+      },
+      {
+        "sentences": [
+          {
+            "de": "Ich werde mich morgen vorstellen.",
+            "fa": "من فردا خودم را معرفی خواهم کرد."
+          },
+          {
+            "de": "Stell dir vor, wie schön es wird!",
+            "fa": "تصور کن چقدر زیبا خواهد شد!"
+          },
+          {
+            "de": "Wir werden uns vorstellen.",
+            "fa": "ما خودمان را معرفی خواهیم کرد."
+          }
+        ]
+      }
+    ],
+    "caseverb": [
+      {
+        "case": "reflexiv + Akk",
+        "examples": [
+          {
+            "german": "Ich stelle mich vor.",
+            "persian": "من خودم را معرفی می‌کنم."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "385",
+    "level": "A2",
+    "type": "verb",
+    "word": "wählen",
+    "pronunciation": "وِلِن",
+    "meaning": "انتخاب کردن / شماره‌گیری کردن",
+    "antonyms": [],
+    "synonyms": [],
+    "prasens": [
+      {
+        "person": "Ich",
+        "form": "wähle",
+        "fa": "من انتخاب می‌کنم."
+      },
+      {
+        "person": "du",
+        "form": "wählst",
+        "fa": "تو انتخاب می‌کنی."
+      },
+      {
+        "person": "er/sie/es",
+        "form": "wählt",
+        "fa": "او/آن انتخاب می‌کند."
+      },
+      {
+        "person": "wir",
+        "form": "wählen",
+        "fa": "ما انتخاب می‌کنیم."
+      },
+      {
+        "person": "ihr",
+        "form": "wählt",
+        "fa": "شماها انتخاب می‌کنید."
+      },
+      {
+        "person": "sie/Sie",
+        "form": "wählen",
+        "fa": "آنها/شما انتخاب می‌کنند."
+      },
+      {
+        "sentences": [
+          {
+            "de": "Ich wähle das blaue Hemd.",
+            "fa": "من پیراهن آبی را انتخاب می‌کنم."
+          },
+          {
+            "de": "Wir wählen einen neuen Chef.",
+            "fa": "ما رئیس جدید انتخاب می‌کنیم."
+          },
+          {
+            "de": "Er wählt die Nummer.",
+            "fa": "او شماره را می‌گیرد."
+          }
+        ]
+      }
+    ],
+    "perfekt": [
+      {
+        "person": "Ich",
+        "form": "habe gewählt",
+        "fa": "من انتخاب کرده‌ام."
+      },
+      {
+        "person": "du",
+        "form": "hast gewählt",
+        "fa": "تو انتخاب کرده‌ای."
+      },
+      {
+        "person": "er/sie/es",
+        "form": "hat gewählt",
+        "fa": "او/آن انتخاب کرده است."
+      },
+      {
+        "person": "wir",
+        "form": "haben gewählt",
+        "fa": "ما انتخاب کرده‌ایم."
+      },
+      {
+        "person": "ihr",
+        "form": "habt gewählt",
+        "fa": "شماها انتخاب کرده‌اید."
+      },
+      {
+        "person": "sie/Sie",
+        "form": "haben gewählt",
+        "fa": "آنها/شما انتخاب کرده‌اند."
+      },
+      {
+        "sentences": [
+          {
+            "de": "Ich habe den richtigen Weg gewählt.",
+            "fa": "من راه درست را انتخاب کردم."
+          },
+          {
+            "de": "Sie haben ihn gewählt.",
+            "fa": "آنها او را انتخاب کردند."
+          },
+          {
+            "de": "Er hat die falsche Option gewählt.",
+            "fa": "او گزینه اشتباه را انتخاب کرد."
+          }
+        ]
+      }
+    ],
+    "prateritum": [
+      {
+        "person": "Ich",
+        "form": "wählte",
+        "fa": "من انتخاب کردم."
+      },
+      {
+        "person": "du",
+        "form": "wähltest",
+        "fa": "تو انتخاب کردی."
+      },
+      {
+        "person": "er/sie/es",
+        "form": "wählte",
+        "fa": "او/آن انتخاب کرد."
+      },
+      {
+        "person": "wir",
+        "form": "wählten",
+        "fa": "ما انتخاب کردیم."
+      },
+      {
+        "person": "ihr",
+        "form": "wähltet",
+        "fa": "شماها انتخاب کردید."
+      },
+      {
+        "person": "sie/Sie",
+        "form": "wählten",
+        "fa": "آنها/شما انتخاب کردند."
+      },
+      {
+        "sentences": [
+          {
+            "de": "Wir wählten den besten Kandidaten.",
+            "fa": "ما بهترین کاندید را انتخاب کردیم."
+          },
+          {
+            "de": "Er wählte die Telefonnummer.",
+            "fa": "او شماره تلفن را گرفت."
+          },
+          {
+            "de": "Sie wählte das teure Geschenk.",
+            "fa": "او подар گران را انتخاب کرد."
+          }
+        ]
+      }
+    ],
+    "futur": [
+      {
+        "person": "Ich",
+        "form": "werde wählen",
+        "fa": "من انتخاب خواهم کرد."
+      },
+      {
+        "person": "du",
+        "form": "wirst wählen",
+        "fa": "تو انتخاب خواهی کرد."
+      },
+      {
+        "person": "er/sie/es",
+        "form": "wird wählen",
+        "fa": "او/آن انتخاب خواهد کرد."
+      },
+      {
+        "person": "wir",
+        "form": "werden wählen",
+        "fa": "ما انتخاب خواهیم کرد."
+      },
+      {
+        "person": "ihr",
+        "form": "werdet wählen",
+        "fa": "شماها انتخاب خواهید کرد."
+      },
+      {
+        "person": "sie/Sie",
+        "form": "werden wählen",
+        "fa": "آنها/شما انتخاب خواهند کرد."
+      },
+      {
+        "sentences": [
+          {
+            "de": "Ich werde das Beste wählen.",
+            "fa": "من بهترین را انتخاب خواهم کرد."
+          },
+          {
+            "de": "Wir werden einen neuen Plan wählen.",
+            "fa": "ما برنامه جدید انتخاب خواهیم کرد."
+          },
+          {
+            "de": "Du wirst richtig wählen.",
+            "fa": "تو درست انتخاب خواهی کرد."
+          }
+        ]
+      }
+    ],
+    "caseverb": [
+      {
+        "case": "Akk",
+        "examples": [
+          {
+            "german": "Ich wähle das Hemd.",
+            "persian": "من پیراهن را انتخاب می‌کنم."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "386",
+    "level": "A2",
+    "type": "verb",
+    "word": "sich waschen",
+    "pronunciation": "زیخ واشِن",
+    "meaning": "خود را شستن / استحمام کردن",
+    "antonyms": [],
+    "synonyms": [],
+    "prasens": [
+      {
+        "person": "Ich",
+        "form": "wasche mich",
+        "fa": "من خودم را می‌شویم."
+      },
+      {
+        "person": "du",
+        "form": "wäschst dich",
+        "fa": "تو خودت را می‌شویی."
+      },
+      {
+        "person": "er/sie/es",
+        "form": "wäscht sich",
+        "fa": "او/آن خود را می‌شوید."
+      },
+      {
+        "person": "wir",
+        "form": "waschen uns",
+        "fa": "ما خودمان را می‌شوییم."
+      },
+      {
+        "person": "ihr",
+        "form": "wascht euch",
+        "fa": "شماها خودتان را می‌شویید."
+      },
+      {
+        "person": "sie/Sie",
+        "form": "waschen sich",
+        "fa": "آنها/شما خودشان/خودتان را می‌شویند."
+      },
+      {
+        "sentences": [
+          {
+            "de": "Ich wasche mich jeden Morgen.",
+            "fa": "من هر صبح خودم را می‌شویم."
+          },
+          {
+            "de": "Die Kinder waschen sich die Hände.",
+            "fa": "بچه‌ها دست‌هایشان را می‌شویند."
+          },
+          {
+            "de": "Wir waschen uns gründlich.",
+            "fa": "ما خودمان را کامل می‌شوییم."
+          }
+        ]
+      }
+    ],
+    "perfekt": [
+      {
+        "person": "Ich",
+        "form": "habe mich gewaschen",
+        "fa": "من خودم را شسته‌ام."
+      },
+      {
+        "person": "du",
+        "form": "hast dich gewaschen",
+        "fa": "تو خودت را شسته‌ای."
+      },
+      {
+        "person": "er/sie/es",
+        "form": "hat sich gewaschen",
+        "fa": "او/آن خود را شسته است."
+      },
+      {
+        "person": "wir",
+        "form": "haben uns gewaschen",
+        "fa": "ما خودمان را شسته‌ایم."
+      },
+      {
+        "person": "ihr",
+        "form": "habt euch gewaschen",
+        "fa": "شماها خودتان را شسته‌اید."
+      },
+      {
+        "person": "sie/Sie",
+        "form": "haben sich gewaschen",
+        "fa": "آنها/شما خودشان/خودتان را شسته‌اند."
+      },
+      {
+        "sentences": [
+          {
+            "de": "Ich habe mich gewaschen.",
+            "fa": "من خودم را شستم."
+          },
+          {
+            "de": "Sie hat sich die Haare gewaschen.",
+            "fa": "او موهایش را شست."
+          },
+          {
+            "de": "Die Kinder haben sich gewaschen.",
+            "fa": "بچه‌ها خودشان را شستند."
+          }
+        ]
+      }
+    ],
+    "prateritum": [
+      {
+        "person": "Ich",
+        "form": "wusch mich",
+        "fa": "من خودم را شستم."
+      },
+      {
+        "person": "du",
+        "form": "wuschst dich",
+        "fa": "تو خودت را شستی."
+      },
+      {
+        "person": "er/sie/es",
+        "form": "wusch sich",
+        "fa": "او/آن خود را شست."
+      },
+      {
+        "person": "wir",
+        "form": "wuschen uns",
+        "fa": "ما خودمان را شستیم."
+      },
+      {
+        "person": "ihr",
+        "form": "wuscht euch",
+        "fa": "شماها خودتان را شستید."
+      },
+      {
+        "person": "sie/Sie",
+        "form": "wuschen sich",
+        "fa": "آنها/شما خودشان/خودتان را شستند."
+      },
+      {
+        "sentences": [
+          {
+            "de": "Er wusch sich schnell.",
+            "fa": "او سریع خودش را شست."
+          },
+          {
+            "de": "Wir wuschen uns die Hände.",
+            "fa": "ما دست‌هایمان را شستیم."
+          },
+          {
+            "de": "Sie wusch sich das Gesicht.",
+            "fa": "او صورتش را شست."
+          }
+        ]
+      }
+    ],
+    "futur": [
+      {
+        "person": "Ich",
+        "form": "werde mich waschen",
+        "fa": "من خودم را خواهم شست."
+      },
+      {
+        "person": "du",
+        "form": "wirst dich waschen",
+        "fa": "تو خودت را خواهی شست."
+      },
+      {
+        "person": "er/sie/es",
+        "form": "wird sich waschen",
+        "fa": "او/آن خود را خواهد شست."
+      },
+      {
+        "person": "wir",
+        "form": "werden uns waschen",
+        "fa": "ما خودمان را خواهیم شست."
+      },
+      {
+        "person": "ihr",
+        "form": "werdet euch waschen",
+        "fa": "شماها خودتان را خواهید شست."
+      },
+      {
+        "person": "sie/Sie",
+        "form": "werden sich waschen",
+        "fa": "آنها/شما خودشان/خودتان را خواهند شست."
+      },
+      {
+        "sentences": [
+          {
+            "de": "Ich werde mich später waschen.",
+            "fa": "من بعداً خودم را خواهم شست."
+          },
+          {
+            "de": "Du wirst dich waschen müssen.",
+            "fa": "تو باید خودت را بشویی."
+          },
+          {
+            "de": "Wir werden uns waschen.",
+            "fa": "ما خودمان را خواهیم شست."
+          }
+        ]
+      }
+    ],
+    "caseverb": [
+      {
+        "case": "reflexiv + Akk",
+        "examples": [
+          {
+            "german": "Ich wasche mich.",
+            "persian": "من خودم را می‌شویم."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "387",
+    "level": "A2",
+    "type": "verb",
+    "word": "wechseln",
+    "pronunciation": "وِخزِلن",
+    "meaning": "تعویض کردن / تغییر دادن",
+    "antonyms": [],
+    "synonyms": [],
+    "prasens": [
+      {
+        "person": "Ich",
+        "form": "wechsle",
+        "fa": "من تعویض می‌کنم."
+      },
+      {
+        "person": "du",
+        "form": "wechselst",
+        "fa": "تو تعویض می‌کنی."
+      },
+      {
+        "person": "er/sie/es",
+        "form": "wechselt",
+        "fa": "او/آن تعویض می‌کند."
+      },
+      {
+        "person": "wir",
+        "form": "wechseln",
+        "fa": "ما تعویض می‌کنیم."
+      },
+      {
+        "person": "ihr",
+        "form": "wechselt",
+        "fa": "شماها تعویض می‌کنید."
+      },
+      {
+        "person": "sie/Sie",
+        "form": "wechseln",
+        "fa": "آنها/شما تعویض می‌کنند."
+      },
+      {
+        "sentences": [
+          {
+            "de": "Ich wechsle das Hemd.",
+            "fa": "من پیراهنم را عوض می‌کنم."
+          },
+          {
+            "de": "Wir wechseln das Geld.",
+            "fa": "ما پول را تبدیل می‌کنیم."
+          },
+          {
+            "de": "Er wechselt das Thema.",
+            "fa": "او موضوع را عوض می‌کند."
+          }
+        ]
+      }
+    ],
+    "perfekt": [
+      {
+        "person": "Ich",
+        "form": "habe gewechselt",
+        "fa": "من تعویض کرده‌ام."
+      },
+      {
+        "person": "du",
+        "form": "hast gewechselt",
+        "fa": "تو تعویض کرده‌ای."
+      },
+      {
+        "person": "er/sie/es",
+        "form": "hat gewechselt",
+        "fa": "او/آن تعویض کرده است."
+      },
+      {
+        "person": "wir",
+        "form": "haben gewechselt",
+        "fa": "ما تعویض کرده‌ایم."
+      },
+      {
+        "person": "ihr",
+        "form": "habt gewechselt",
+        "fa": "شماها تعویض کرده‌اید."
+      },
+      {
+        "person": "sie/Sie",
+        "form": "haben gewechselt",
+        "fa": "آنها/شما تعویض کرده‌اند."
+      },
+      {
+        "sentences": [
+          {
+            "de": "Ich habe die Reifen gewechselt.",
+            "fa": "من لاستیک‌ها را عوض کردم."
+          },
+          {
+            "de": "Sie haben die Wohnung gewechselt.",
+            "fa": "آنها خانه را تغییر دادند."
+          },
+          {
+            "de": "Er hat das Geld gewechselt.",
+            "fa": "او پول را تبدیل کرد."
+          }
+        ]
+      }
+    ],
+    "prateritum": [
+      {
+        "person": "Ich",
+        "form": "wechselte",
+        "fa": "من تعویض کردم."
+      },
+      {
+        "person": "du",
+        "form": "wechseltest",
+        "fa": "تو تعویض کردی."
+      },
+      {
+        "person": "er/sie/es",
+        "form": "wechselte",
+        "fa": "او/آن تعویض کرد."
+      },
+      {
+        "person": "wir",
+        "form": "wechselten",
+        "fa": "ما تعویض کردیم."
+      },
+      {
+        "person": "ihr",
+        "form": "wechseltet",
+        "fa": "شماها تعویض کردید."
+      },
+      {
+        "person": "sie/Sie",
+        "form": "wechselten",
+        "fa": "آنها/شما تعویض کردند."
+      },
+      {
+        "sentences": [
+          {
+            "de": "Wir wechselten die Plätze.",
+            "fa": "ما جاهایمان را عوض کردیم."
+          },
+          {
+            "de": "Er wechselte das Thema.",
+            "fa": "او موضوع را تغییر داد."
+          },
+          {
+            "de": "Sie wechselte den Job.",
+            "fa": "او کارش را عوض کرد."
+          }
+        ]
+      }
+    ],
+    "futur": [
+      {
+        "person": "Ich",
+        "form": "werde wechseln",
+        "fa": "من تعویض خواهم کرد."
+      },
+      {
+        "person": "du",
+        "form": "wirst wechseln",
+        "fa": "تو تعویض خواهی کرد."
+      },
+      {
+        "person": "er/sie/es",
+        "form": "wird wechseln",
+        "fa": "او/آن تعویض خواهد کرد."
+      },
+      {
+        "person": "wir",
+        "form": "werden wechseln",
+        "fa": "ما تعویض خواهیم کرد."
+      },
+      {
+        "person": "ihr",
+        "form": "werdet wechseln",
+        "fa": "شماها تعویض خواهید کرد."
+      },
+      {
+        "person": "sie/Sie",
+        "form": "werden wechseln",
+        "fa": "آنها/شما تعویض خواهند کرد."
+      },
+      {
+        "sentences": [
+          {
+            "de": "Ich werde das Auto wechseln.",
+            "fa": "من ماشین را عوض خواهم کرد."
+          },
+          {
+            "de": "Wir werden das Team wechseln.",
+            "fa": "ما تیم را تغییر خواهیم داد."
+          },
+          {
+            "de": "Du wirst bald wechseln.",
+            "fa": "تو به زودی تغییر خواهی داد."
+          }
+        ]
+      }
+    ],
+    "caseverb": [
+      {
+        "case": "Akk",
+        "examples": [
+          {
+            "german": "Ich wechsle das Hemd.",
+            "persian": "من پیراهن را عوض می‌کنم."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "388",
+    "level": "A2",
+    "type": "verb",
+    "word": "wecken",
+    "pronunciation": "وِکِن",
+    "meaning": "بیدار کردن",
+    "antonyms": [],
+    "synonyms": [],
+    "prasens": [
+      {
+        "person": "Ich",
+        "form": "wecke",
+        "fa": "من بیدار می‌کنم."
+      },
+      {
+        "person": "du",
+        "form": "weckst",
+        "fa": "تو بیدار می‌کنی."
+      },
+      {
+        "person": "er/sie/es",
+        "form": "weckt",
+        "fa": "او/آن بیدار می‌کند."
+      },
+      {
+        "person": "wir",
+        "form": "wecken",
+        "fa": "ما بیدار می‌کنیم."
+      },
+      {
+        "person": "ihr",
+        "form": "weckt",
+        "fa": "شماها بیدار می‌کنید."
+      },
+      {
+        "person": "sie/Sie",
+        "form": "wecken",
+        "fa": "آنها/شما بیدار می‌کنند."
+      },
+      {
+        "sentences": [
+          {
+            "de": "Ich wecke meinen Bruder.",
+            "fa": "من برادرم را بیدار می‌کنم."
+          },
+          {
+            "de": "Der Wecker weckt mich.",
+            "fa": "ساعت زنگ‌دار من را بیدار می‌کند."
+          },
+          {
+            "de": "Wir wecken die Kinder.",
+            "fa": "ما بچه‌ها را بیدار می‌کنیم."
+          }
+        ]
+      }
+    ],
+    "perfekt": [
+      {
+        "person": "Ich",
+        "form": "habe geweckt",
+        "fa": "من بیدار کرده‌ام."
+      },
+      {
+        "person": "du",
+        "form": "hast geweckt",
+        "fa": "تو بیدار کرده‌ای."
+      },
+      {
+        "person": "er/sie/es",
+        "form": "hat geweckt",
+        "fa": "او/آن بیدار کرده است."
+      },
+      {
+        "person": "wir",
+        "form": "haben geweckt",
+        "fa": "ما بیدار کرده‌ایم."
+      },
+      {
+        "person": "ihr",
+        "form": "habt geweckt",
+        "fa": "شماها بیدار کرده‌اید."
+      },
+      {
+        "person": "sie/Sie",
+        "form": "haben geweckt",
+        "fa": "آنها/شما بیدار کرده‌اند."
+      },
+      {
+        "sentences": [
+          {
+            "de": "Ich habe dich geweckt.",
+            "fa": "من تو را بیدار کردم."
+          },
+          {
+            "de": "Der Lärm hat mich geweckt.",
+            "fa": "سر و صدا من را بیدار کرد."
+          },
+          {
+            "de": "Sie haben die Gäste geweckt.",
+            "fa": "آنها مهمان‌ها را بیدار کردند."
+          }
+        ]
+      }
+    ],
+    "prateritum": [
+      {
+        "person": "Ich",
+        "form": "weckte",
+        "fa": "من بیدار کردم."
+      },
+      {
+        "person": "du",
+        "form": "wecktest",
+        "fa": "تو بیدار کردی."
+      },
+      {
+        "person": "er/sie/es",
+        "form": "weckte",
+        "fa": "او/آن بیدار کرد."
+      },
+      {
+        "person": "wir",
+        "form": "weckten",
+        "fa": "ما بیدار کردیم."
+      },
+      {
+        "person": "ihr",
+        "form": "wecktet",
+        "fa": "شماها بیدار کردید."
+      },
+      {
+        "person": "sie/Sie",
+        "form": "weckten",
+        "fa": "آنها/شما بیدار کردند."
+      },
+      {
+        "sentences": [
+          {
+            "de": "Er weckte mich früh.",
+            "fa": "او من را زود بیدار کرد."
+          },
+          {
+            "de": "Wir weckten die Familie.",
+            "fa": "ما خانواده را بیدار کردیم."
+          },
+          {
+            "de": "Sie weckte ihren Sohn.",
+            "fa": "او پسرش را بیدار کرد."
+          }
+        ]
+      }
+    ],
+    "futur": [
+      {
+        "person": "Ich",
+        "form": "werde wecken",
+        "fa": "من بیدار خواهم کرد."
+      },
+      {
+        "person": "du",
+        "form": "wirst wecken",
+        "fa": "تو بیدار خواهی کرد."
+      },
+      {
+        "person": "er/sie/es",
+        "form": "wird wecken",
+        "fa": "او/آن بیدار خواهد کرد."
+      },
+      {
+        "person": "wir",
+        "form": "werden wecken",
+        "fa": "ما بیدار خواهیم کرد."
+      },
+      {
+        "person": "ihr",
+        "form": "werdet wecken",
+        "fa": "شماها بیدار خواهید کرد."
+      },
+      {
+        "person": "sie/Sie",
+        "form": "werden wecken",
+        "fa": "آنها/شما بیدار خواهند کرد."
+      },
+      {
+        "sentences": [
+          {
+            "de": "Ich werde dich um 7 Uhr wecken.",
+            "fa": "من تو را ساعت ۷ بیدار خواهم کرد."
+          },
+          {
+            "de": "Der Wecker wird mich wecken.",
+            "fa": "ساعت زنگ‌دار من را بیدار خواهد کرد."
+          },
+          {
+            "de": "Wir werden die anderen wecken.",
+            "fa": "ما بقیه را بیدار خواهیم کرد."
+          }
+        ]
+      }
+    ],
+    "caseverb": [
+      {
+        "case": "Akk",
+        "examples": [
+          {
+            "german": "Ich wecke meinen Bruder.",
+            "persian": "من برادرم را بیدار می‌کنم."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "389",
+    "level": "A2",
+    "type": "verb",
+    "word": "wegbringen",
+    "pronunciation": "وِگ‌بْرینْگِن",
+    "meaning": "بردن (به جایی) / دور کردن",
+    "antonyms": [],
+    "synonyms": [],
+    "prasens": [
+      {
+        "person": "Ich",
+        "form": "bringe weg",
+        "fa": "من می‌برم."
+      },
+      {
+        "person": "du",
+        "form": "bringst weg",
+        "fa": "تو می‌بری."
+      },
+      {
+        "person": "er/sie/es",
+        "form": "bringt weg",
+        "fa": "او/آن می‌برد."
+      },
+      {
+        "person": "wir",
+        "form": "bringen weg",
+        "fa": "ما می‌بریم."
+      },
+      {
+        "person": "ihr",
+        "form": "bringt weg",
+        "fa": "شماها می‌برید."
+      },
+      {
+        "person": "sie/Sie",
+        "form": "bringen weg",
+        "fa": "آنها/شما می‌برند."
+      },
+      {
+        "sentences": [
+          {
+            "de": "Ich bringe den Müll weg.",
+            "fa": "من زباله را می‌برم."
+          },
+          {
+            "de": "Wir bringen das Auto weg.",
+            "fa": "ما ماشین را می‌بریم."
+          },
+          {
+            "de": "Er bringt die Kinder weg.",
+            "fa": "او بچه‌ها را می‌برد."
+          }
+        ]
+      }
+    ],
+    "perfekt": [
+      {
+        "person": "Ich",
+        "form": "habe weggebracht",
+        "fa": "من برده‌ام."
+      },
+      {
+        "person": "du",
+        "form": "hast weggebracht",
+        "fa": "تو برده‌ای."
+      },
+      {
+        "person": "er/sie/es",
+        "form": "hat weggebracht",
+        "fa": "او/آن برده است."
+      },
+      {
+        "person": "wir",
+        "form": "haben weggebracht",
+        "fa": "ما برده‌ایم."
+      },
+      {
+        "person": "ihr",
+        "form": "habt weggebracht",
+        "fa": "شماها برده‌اید."
+      },
+      {
+        "person": "sie/Sie",
+        "form": "haben weggebracht",
+        "fa": "آنها/شما برده‌اند."
+      },
+      {
+        "sentences": [
+          {
+            "de": "Ich habe den Brief weggebracht.",
+            "fa": "من نامه را بردم."
+          },
+          {
+            "de": "Sie haben das Paket weggebracht.",
+            "fa": "آنها بسته را بردند."
+          },
+          {
+            "de": "Er hat den Hund weggebracht.",
+            "fa": "او سگ را برد."
+          }
+        ]
+      }
+    ],
+    "prateritum": [
+      {
+        "person": "Ich",
+        "form": "brachte weg",
+        "fa": "من بردم."
+      },
+      {
+        "person": "du",
+        "form": "brachtest weg",
+        "fa": "تو بردی."
+      },
+      {
+        "person": "er/sie/es",
+        "form": "brachte weg",
+        "fa": "او/آن برد."
+      },
+      {
+        "person": "wir",
+        "form": "brachten weg",
+        "fa": "ما بردیم."
+      },
+      {
+        "person": "ihr",
+        "form": "brachtet weg",
+        "fa": "شماها بردید."
+      },
+      {
+        "person": "sie/Sie",
+        "form": "brachten weg",
+        "fa": "آنها/شما بردند."
+      },
+      {
+        "sentences": [
+          {
+            "de": "Wir brachten die Sachen weg.",
+            "fa": "ما وسایل را بردیم."
+          },
+          {
+            "de": "Er brachte den Müll weg.",
+            "fa": "او زباله را برد."
+          },
+          {
+            "de": "Sie brachte das Kind weg.",
+            "fa": "او بچه را برد."
+          }
+        ]
+      }
+    ],
+    "futur": [
+      {
+        "person": "Ich",
+        "form": "werde wegbringen",
+        "fa": "من خواهم برد."
+      },
+      {
+        "person": "du",
+        "form": "wirst wegbringen",
+        "fa": "تو خواهی برد."
+      },
+      {
+        "person": "er/sie/es",
+        "form": "wird wegbringen",
+        "fa": "او/آن خواهد برد."
+      },
+      {
+        "person": "wir",
+        "form": "werden wegbringen",
+        "fa": "ما خواهیم برد."
+      },
+      {
+        "person": "ihr",
+        "form": "werdet wegbringen",
+        "fa": "شماها خواهید برد."
+      },
+      {
+        "person": "sie/Sie",
+        "form": "werden wegbringen",
+        "fa": "آنها/شما خواهند برد."
+      },
+      {
+        "sentences": [
+          {
+            "de": "Ich werde den Müll wegbringen.",
+            "fa": "من زباله را خواهم برد."
+          },
+          {
+            "de": "Wir werden das Auto wegbringen.",
+            "fa": "ما ماشین را خواهیم برد."
+          },
+          {
+            "de": "Du wirst die Bücher wegbringen.",
+            "fa": "تو کتاب‌ها را خواهی برد."
+          }
+        ]
+      }
+    ],
+    "caseverb": [
+      {
+        "case": "Akk",
+        "examples": [
+          {
+            "german": "Ich bringe den Müll weg.",
+            "persian": "من زباله را می‌برم."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "390",
+    "level": "A2",
+    "type": "verb",
+    "word": "wegfahren",
+    "pronunciation": "وِگ‌فارِن",
+    "meaning": "رفتن (با ماشین) / حرکت کردن",
+    "antonyms": [],
+    "synonyms": [],
+    "prasens": [
+      {
+        "person": "Ich",
+        "form": "fahre weg",
+        "fa": "من می‌روم."
+      },
+      {
+        "person": "du",
+        "form": "fährst weg",
+        "fa": "تو می‌روی."
+      },
+      {
+        "person": "er/sie/es",
+        "form": "fährt weg",
+        "fa": "او/آن می‌رود."
+      },
+      {
+        "person": "wir",
+        "form": "fahren weg",
+        "fa": "ما می‌رویم."
+      },
+      {
+        "person": "ihr",
+        "form": "fahrt weg",
+        "fa": "شماها می‌روید."
+      },
+      {
+        "person": "sie/Sie",
+        "form": "fahren weg",
+        "fa": "آنها/شما می‌روند."
+      },
+      {
+        "sentences": [
+          {
+            "de": "Ich fahre morgen weg.",
+            "fa": "من فردا می‌روم."
+          },
+          {
+            "de": "Wir fahren ans Meer weg.",
+            "fa": "ما به دریا می‌رویم."
+          },
+          {
+            "de": "Er fährt mit dem Auto weg.",
+            "fa": "او با ماشین می‌رود."
+          }
+        ]
+      }
+    ],
+    "perfekt": [
+      {
+        "person": "Ich",
+        "form": "bin weggefahren",
+        "fa": "من رفته‌ام."
+      },
+      {
+        "person": "du",
+        "form": "bist weggefahren",
+        "fa": "تو رفته‌ای."
+      },
+      {
+        "person": "er/sie/es",
+        "form": "ist weggefahren",
+        "fa": "او/آن رفته است."
+      },
+      {
+        "person": "wir",
+        "form": "sind weggefahren",
+        "fa": "ما رفته‌ایم."
+      },
+      {
+        "person": "ihr",
+        "form": "seid weggefahren",
+        "fa": "شماها رفته‌اید."
+      },
+      {
+        "person": "sie/Sie",
+        "form": "sind weggefahren",
+        "fa": "آنها/شما رفته‌اند."
+      },
+      {
+        "sentences": [
+          {
+            "de": "Ich bin schon weggefahren.",
+            "fa": "من قبلاً رفته‌ام."
+          },
+          {
+            "de": "Sie sind letzte Woche weggefahren.",
+            "fa": "آنها هفته گذشته رفتند."
+          },
+          {
+            "de": "Er ist mit dem Zug weggefahren.",
+            "fa": "او با قطار رفت."
+          }
+        ]
+      }
+    ],
+    "prateritum": [
+      {
+        "person": "Ich",
+        "form": "fuhr weg",
+        "fa": "من رفتم."
+      },
+      {
+        "person": "du",
+        "form": "fuhrst weg",
+        "fa": "تو رفتی."
+      },
+      {
+        "person": "er/sie/es",
+        "form": "fuhr weg",
+        "fa": "او/آن رفت."
+      },
+      {
+        "person": "wir",
+        "form": "fuhren weg",
+        "fa": "ما رفتیم."
+      },
+      {
+        "person": "ihr",
+        "form": "fuhrt weg",
+        "fa": "شماها رفتید."
+      },
+      {
+        "person": "sie/Sie",
+        "form": "fuhren weg",
+        "fa": "آنها/شما رفتند."
+      },
+      {
+        "sentences": [
+          {
+            "de": "Wir fuhren früh weg.",
+            "fa": "ما زود رفتیم."
+          },
+          {
+            "de": "Er fuhr ans Meer weg.",
+            "fa": "او به دریا رفت."
+          },
+          {
+            "de": "Sie fuhren mit dem Bus weg.",
+            "fa": "آنها با اتوبوس رفتند."
+          }
+        ]
+      }
+    ],
+    "futur": [
+      {
+        "person": "Ich",
+        "form": "werde wegfahren",
+        "fa": "من خواهم رفت."
+      },
+      {
+        "person": "du",
+        "form": "wirst wegfahren",
+        "fa": "تو خواهی رفت."
+      },
+      {
+        "person": "er/sie/es",
+        "form": "wird wegfahren",
+        "fa": "او/آن خواهد رفت."
+      },
+      {
+        "person": "wir",
+        "form": "werden wegfahren",
+        "fa": "ما خواهیم رفت."
+      },
+      {
+        "person": "ihr",
+        "form": "werdet wegfahren",
+        "fa": "شماها خواهید رفت."
+      },
+      {
+        "person": "sie/Sie",
+        "form": "werden wegfahren",
+        "fa": "آنها/شما خواهند رفت."
+      },
+      {
+        "sentences": [
+          {
+            "de": "Ich werde am Wochenende wegfahren.",
+            "fa": "من آخر هفته خواهم رفت."
+          },
+          {
+            "de": "Wir werden zusammen wegfahren.",
+            "fa": "ما با هم خواهیم رفت."
+          },
+          {
+            "de": "Du wirst bald wegfahren.",
+            "fa": "تو به زودی خواهی رفت."
+          }
+        ]
+      }
+    ],
+    "caseverb": [
+      {
+        "case": "Intransitiv",
+        "examples": [
+          {
+            "german": "Ich fahre weg.",
+            "persian": "من می‌روم."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "391",
+    "level": "A2",
+    "type": "verb",
+    "word": "weglaufen",
+    "pronunciation": "وِگ‌لائوفِن",
+    "meaning": "فرار کردن / دویدن دور شدن",
+    "antonyms": [],
+    "synonyms": [],
+    "prasens": [
+      {
+        "person": "Ich",
+        "form": "laufe weg",
+        "fa": "من فرار می‌کنم."
+      },
+      {
+        "person": "du",
+        "form": "läufst weg",
+        "fa": "تو فرار می‌کنی."
+      },
+      {
+        "person": "er/sie/es",
+        "form": "läuft weg",
+        "fa": "او/آن فرار می‌کند."
+      },
+      {
+        "person": "wir",
+        "form": "laufen weg",
+        "fa": "ما فرار می‌کنیم."
+      },
+      {
+        "person": "ihr",
+        "form": "lauft weg",
+        "fa": "شماها فرار می‌کنید."
+      },
+      {
+        "person": "sie/Sie",
+        "form": "laufen weg",
+        "fa": "آنها/شما فرار می‌کنند."
+      },
+      {
+        "sentences": [
+          {
+            "de": "Der Hund läuft weg.",
+            "fa": "سگ فرار می‌کند."
+          },
+          {
+            "de": "Ich laufe nicht weg.",
+            "fa": "من فرار نمی‌کنم."
+          },
+          {
+            "de": "Die Kinder laufen weg.",
+            "fa": "بچه‌ها فرار می‌کنند."
+          }
+        ]
+      }
+    ],
+    "perfekt": [
+      {
+        "person": "Ich",
+        "form": "bin weggelaufen",
+        "fa": "من فرار کرده‌ام."
+      },
+      {
+        "person": "du",
+        "form": "bist weggelaufen",
+        "fa": "تو فرار کرده‌ای."
+      },
+      {
+        "person": "er/sie/es",
+        "form": "ist weggelaufen",
+        "fa": "او/آن فرار کرده است."
+      },
+      {
+        "person": "wir",
+        "form": "sind weggelaufen",
+        "fa": "ما فرار کرده‌ایم."
+      },
+      {
+        "person": "ihr",
+        "form": "seid weggelaufen",
+        "fa": "شماها فرار کرده‌اید."
+      },
+      {
+        "person": "sie/Sie",
+        "form": "sind weggelaufen",
+        "fa": "آنها/شما فرار کرده‌اند."
+      },
+      {
+        "sentences": [
+          {
+            "de": "Der Dieb ist weggelaufen.",
+            "fa": "دزد فرار کرد."
+          },
+          {
+            "de": "Sie sind schnell weggelaufen.",
+            "fa": "آنها سریع فرار کردند."
+          },
+          {
+            "de": "Das Kind ist weggelaufen.",
+            "fa": "بچه فرار کرد."
+          }
+        ]
+      }
+    ],
+    "prateritum": [
+      {
+        "person": "Ich",
+        "form": "lief weg",
+        "fa": "من فرار کردم."
+      },
+      {
+        "person": "du",
+        "form": "liefst weg",
+        "fa": "تو فرار کردی."
+      },
+      {
+        "person": "er/sie/es",
+        "form": "lief weg",
+        "fa": "او/آن فرار کرد."
+      },
+      {
+        "person": "wir",
+        "form": "liefen weg",
+        "fa": "ما فرار کردیم."
+      },
+      {
+        "person": "ihr",
+        "form": "lieft weg",
+        "fa": "شماها فرار کردید."
+      },
+      {
+        "person": "sie/Sie",
+        "form": "liefen weg",
+        "fa": "آنها/شما فرار کردند."
+      },
+      {
+        "sentences": [
+          {
+            "de": "Er lief weg.",
+            "fa": "او فرار کرد."
+          },
+          {
+            "de": "Wir liefen vor dem Regen weg.",
+            "fa": "ما از باران فرار کردیم."
+          },
+          {
+            "de": "Die Katze lief weg.",
+            "fa": "گربه فرار کرد."
+          }
+        ]
+      }
+    ],
+    "futur": [
+      {
+        "person": "Ich",
+        "form": "werde weglaufen",
+        "fa": "من فرار خواهم کرد."
+      },
+      {
+        "person": "du",
+        "form": "wirst weglaufen",
+        "fa": "تو فرار خواهی کرد."
+      },
+      {
+        "person": "er/sie/es",
+        "form": "wird weglaufen",
+        "fa": "او/آن فرار خواهد کرد."
+      },
+      {
+        "person": "wir",
+        "form": "werden weglaufen",
+        "fa": "ما فرار خواهیم کرد."
+      },
+      {
+        "person": "ihr",
+        "form": "werdet weglaufen",
+        "fa": "شماها فرار خواهید کرد."
+      },
+      {
+        "person": "sie/Sie",
+        "form": "werden weglaufen",
+        "fa": "آنها/شما فرار خواهند کرد."
+      },
+      {
+        "sentences": [
+          {
+            "de": "Ich werde nicht weglaufen.",
+            "fa": "من فرار نخواهم کرد."
+          },
+          {
+            "de": "Die Kinder werden weglaufen.",
+            "fa": "بچه‌ها فرار خواهند کرد."
+          },
+          {
+            "de": "Wir werden zusammen weglaufen.",
+            "fa": "ما با هم فرار خواهیم کرد."
+          }
+        ]
+      }
+    ],
+    "caseverb": [
+      {
+        "case": "Intransitiv",
+        "examples": [
+          {
+            "german": "Der Hund läuft weg.",
+            "persian": "سگ فرار می‌کند."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "392",
+    "level": "A2",
+    "type": "verb",
+    "word": "wegmachen",
+    "pronunciation": "وِگ‌ماخِن",
+    "meaning": "پاک کردن / برداشتن / دور کردن",
+    "antonyms": [],
+    "synonyms": [],
+    "prasens": [
+      {
+        "person": "Ich",
+        "form": "mache weg",
+        "fa": "من پاک می‌کنم."
+      },
+      {
+        "person": "du",
+        "form": "machst weg",
+        "fa": "تو پاک می‌کنی."
+      },
+      {
+        "person": "er/sie/es",
+        "form": "macht weg",
+        "fa": "او/آن پاک می‌کند."
+      },
+      {
+        "person": "wir",
+        "form": "machen weg",
+        "fa": "ما پاک می‌کنیم."
+      },
+      {
+        "person": "ihr",
+        "form": "macht weg",
+        "fa": "شماها پاک می‌کنید."
+      },
+      {
+        "person": "sie/Sie",
+        "form": "machen weg",
+        "fa": "آنها/شما پاک می‌کنند."
+      },
+      {
+        "sentences": [
+          {
+            "de": "Ich mache den Fleck weg.",
+            "fa": "من لکه را پاک می‌کنم."
+          },
+          {
+            "de": "Wir machen den Schmutz weg.",
+            "fa": "ما کثیفی را برمی‌داریم."
+          },
+          {
+            "de": "Er macht das Bild weg.",
+            "fa": "او عکس را برمی‌دارد."
+          }
+        ]
+      }
+    ],
+    "perfekt": [
+      {
+        "person": "Ich",
+        "form": "habe weg gemacht",
+        "fa": "من پاک کرده‌ام."
+      },
+      {
+        "person": "du",
+        "form": "hast weg gemacht",
+        "fa": "تو پاک کرده‌ای."
+      },
+      {
+        "person": "er/sie/es",
+        "form": "hat weg gemacht",
+        "fa": "او/آن پاک کرده است."
+      },
+      {
+        "person": "wir",
+        "form": "haben weg gemacht",
+        "fa": "ما پاک کرده‌ایم."
+      },
+      {
+        "person": "ihr",
+        "form": "habt weg gemacht",
+        "fa": "شماها پاک کرده‌اید."
+      },
+      {
+        "person": "sie/Sie",
+        "form": "haben weg gemacht",
+        "fa": "آنها/شما پاک کرده‌اند."
+      },
+      {
+        "sentences": [
+          {
+            "de": "Ich habe den Fleck weg gemacht.",
+            "fa": "من لکه را پاک کردم."
+          },
+          {
+            "de": "Sie haben alles weg gemacht.",
+            "fa": "آنها همه چیز را برداشتند."
+          },
+          {
+            "de": "Er hat die Spuren weg gemacht.",
+            "fa": "او ردپاها را پاک کرد."
+          }
+        ]
+      }
+    ],
+    "prateritum": [
+      {
+        "person": "Ich",
+        "form": "machte weg",
+        "fa": "من پاک کردم."
+      },
+      {
+        "person": "du",
+        "form": "machtest weg",
+        "fa": "تو پاک کردی."
+      },
+      {
+        "person": "er/sie/es",
+        "form": "machte weg",
+        "fa": "او/آن پاک کرد."
+      },
+      {
+        "person": "wir",
+        "form": "machten weg",
+        "fa": "ما پاک کردیم."
+      },
+      {
+        "person": "ihr",
+        "form": "machtet weg",
+        "fa": "شماها پاک کردید."
+      },
+      {
+        "person": "sie/Sie",
+        "form": "machten weg",
+        "fa": "آنها/شما پاک کردند."
+      },
+      {
+        "sentences": [
+          {
+            "de": "Wir machten den Tisch weg.",
+            "fa": "ما میز را برداشتیم."
+          },
+          {
+            "de": "Er machte den Fehler weg.",
+            "fa": "او اشتباه را پاک کرد."
+          },
+          {
+            "de": "Sie machte die Farbe weg.",
+            "fa": "او رنگ را پاک کرد."
+          }
+        ]
+      }
+    ],
+    "futur": [
+      {
+        "person": "Ich",
+        "form": "werde weg machen",
+        "fa": "من پاک خواهم کرد."
+      },
+      {
+        "person": "du",
+        "form": "wirst weg machen",
+        "fa": "تو پاک خواهی کرد."
+      },
+      {
+        "person": "er/sie/es",
+        "form": "wird weg machen",
+        "fa": "او/آن پاک خواهد کرد."
+      },
+      {
+        "person": "wir",
+        "form": "werden weg machen",
+        "fa": "ما پاک خواهیم کرد."
+      },
+      {
+        "person": "ihr",
+        "form": "werdet weg machen",
+        "fa": "شماها پاک خواهید کرد."
+      },
+      {
+        "person": "sie/Sie",
+        "form": "werden weg machen",
+        "fa": "آنها/شما پاک خواهند کرد."
+      },
+      {
+        "sentences": [
+          {
+            "de": "Ich werde den Müll weg machen.",
+            "fa": "من زباله را پاک خواهم کرد."
+          },
+          {
+            "de": "Wir werden das Chaos weg machen.",
+            "fa": "ما بهم‌ریختگی را برخواهیم داشت."
+          },
+          {
+            "de": "Du wirst den Fleck weg machen.",
+            "fa": "تو لکه را پاک خواهی کرد."
+          }
+        ]
+      }
+    ],
+    "caseverb": [
+      {
+        "case": "Akk",
+        "examples": [
+          {
+            "german": "Ich mache den Fleck weg.",
+            "persian": "من لکه را پاک می‌کنم."
+          }
+        ]
+      }
+    ]
   }
+
+
 
 
 ]
