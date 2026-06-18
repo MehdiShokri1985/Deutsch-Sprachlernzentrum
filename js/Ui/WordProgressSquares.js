@@ -127,7 +127,7 @@ export class WordProgressSquares {
     this._hasRenderedOnce = false;
     this._lastComboKey = null;
     this._transitioning = new Set();
-    /** @type {Map<string, { leftPx: number, topPx: number, maxDriftPx: number }>} */
+    /** @type {Map<string, { leftPx: number, topPx: number }>} */
     this._chaoticLayout = new Map();
     this._layoutSessionSeed = null;
     /** @type {number|null} last resolved container width for relayout */
@@ -1482,23 +1482,6 @@ export class WordProgressSquares {
     };
   }
 
-  _computeMaxDrift(leftPx, topPx, placed, selfId) {
-    const cx = leftPx + SQUARE_PX / 2;
-    const cy = topPx + SQUARE_PX / 2;
-    let minDist = Infinity;
-
-    for (const p of placed) {
-      if (p.id === selfId) continue;
-      const ox = p.leftPx + SQUARE_PX / 2;
-      const oy = p.topPx + SQUARE_PX / 2;
-      minDist = Math.min(minDist, this._dist(cx, cy, ox, oy));
-    }
-
-    if (!Number.isFinite(minDist)) return 11;
-    const safe = (minDist - SQUARE_PX) / 2 - 2;
-    return Math.max(4, Math.min(12, safe));
-  }
-
   _syncChaoticLayout(
     activeWords,
     comboKey,
@@ -1595,19 +1578,9 @@ export class WordProgressSquares {
       const entry = {
         leftPx: spot.leftPx,
         topPx: spot.topPx,
-        maxDriftPx: 0,
       };
       placed.push({ id, ...entry });
       this._chaoticLayout.set(id, entry);
-    }
-
-    for (const [id, entry] of this._chaoticLayout) {
-      entry.maxDriftPx = this._computeMaxDrift(
-        entry.leftPx,
-        entry.topPx,
-        placed,
-        id,
-      );
     }
 
     return { areaW, areaH };
@@ -1636,124 +1609,7 @@ export class WordProgressSquares {
     return `rgb(${r}, ${g}, ${b})`;
   }
 
-  _driftAmplitudeScale(visualState, sureCount) {
-    if (visualState === "learning") return 0.92;
-    if (visualState === "mastered") return 0.32;
-    if (visualState === "warning") return 1.22;
-    if (visualState === "tense-2") return 1.28;
-    if (visualState === "tense-deep") {
-      return 1.32 + Math.min(0.14, Math.abs(sureCount) * 0.025);
-    }
-    return 1.12;
-  }
 
-  _driftDurationScale(visualState, sureCount) {
-    if (visualState === "learning") return 1.05;
-    if (visualState === "mastered") return 1.45;
-    if (visualState === "warning") return 0.78;
-    if (visualState.startsWith("tense")) {
-      return 0.72 - Math.min(0.12, Math.max(0, Math.abs(sureCount) - 2) * 0.035);
-    }
-    return 0.88;
-  }
-
-  _applyMotionVars(el, wordId, visualState, sureCount, maxDriftPx = 11) {
-    const amp = this._driftAmplitudeScale(visualState, sureCount);
-    const durScale = this._driftDurationScale(visualState, sureCount);
-    const cap = maxDriftPx * amp;
-
-    const baseDrift = this._jitterFromSeed(wordId, 3, 11, 17) * durScale;
-    const basePulse = this._jitterFromSeed(wordId, 4, 2.4, 5.2);
-
-    const rawDxA = this._jitterFromSeed(wordId, 5, 8, 18) * amp;
-    const rawDyA = this._jitterFromSeed(wordId, 6, 7, 16) * amp;
-    const rawDxB = this._jitterFromSeed(wordId, 7, -17, -6) * amp;
-    const rawDyB = this._jitterFromSeed(wordId, 8, 6, 17) * amp;
-
-    const clamp = (v) => Math.max(-cap, Math.min(cap, v));
-
-    const animDelay = this._jitterFromSeed(wordId, 9, 0, 10).toFixed(2);
-    const pulseDelay = this._jitterFromSeed(wordId, 10, 0, 7).toFixed(2);
-    const pulseDurOffset = this._jitterFromSeed(wordId, 11, -0.7, 1.1).toFixed(
-      2,
-    );
-
-    el.style.setProperty("--wps-drift-dur", `${baseDrift.toFixed(1)}s`);
-    el.style.setProperty(
-      "--wps-pulse-dur",
-      `${(basePulse + parseFloat(pulseDurOffset)).toFixed(1)}s`,
-    );
-    el.style.setProperty("--wps-dx-a", `${clamp(rawDxA).toFixed(1)}px`);
-    el.style.setProperty("--wps-dy-a", `${clamp(rawDyA).toFixed(1)}px`);
-    el.style.setProperty("--wps-dx-b", `${clamp(rawDxB).toFixed(1)}px`);
-    el.style.setProperty("--wps-dy-b", `${clamp(rawDyB).toFixed(1)}px`);
-    el.style.setProperty("--wps-anim-delay", `${animDelay}s`);
-    el.style.setProperty("--wps-pulse-delay", `${pulseDelay}s`);
-  }
-
-  _applyEnsembleMotion(el, comboKey) {
-    const seed = this._hashSeed(comboKey);
-    const dur = 24 + this._seededUnit(seed, 20) * 10;
-    const dx = 1.8 + this._seededUnit(seed, 21) * 1.6;
-    const dy = 1.2 + this._seededUnit(seed, 22) * 1.4;
-    el.style.setProperty("--wps-ensemble-dur", `${dur.toFixed(1)}s`);
-    el.style.setProperty("--wps-ensemble-dx", `${dx.toFixed(2)}px`);
-    el.style.setProperty("--wps-ensemble-dy", `${(-dy).toFixed(2)}px`);
-  }
-
-  _clearEnsembleMotion(el) {
-    el.style.removeProperty("--wps-ensemble-dur");
-    el.style.removeProperty("--wps-ensemble-dx");
-    el.style.removeProperty("--wps-ensemble-dy");
-  }
-
-  _applySettledMotionVars(el, wordId, living = false, memberIndex = 0, memberTotal = 1) {
-    if (living) {
-      const phase = memberTotal > 0 ? memberIndex / memberTotal : 0;
-      el.style.setProperty("--wps-member-phase", phase.toFixed(4));
-      el.style.setProperty(
-        "--wps-pulse-dur",
-        `${(5.8 + (memberIndex % 7) * 0.12).toFixed(1)}s`,
-      );
-      el.style.setProperty("--wps-dx-a", "0px");
-      el.style.setProperty("--wps-dy-a", "0px");
-      el.style.setProperty("--wps-dx-b", "0px");
-      el.style.setProperty("--wps-dy-b", "0px");
-      el.style.setProperty("--wps-op-min", "0.66");
-      el.style.setProperty("--wps-op-max", "1");
-      el.style.setProperty("--wps-br-min", "0.94");
-      el.style.setProperty("--wps-br-max", "1.08");
-      el.style.setProperty(
-        "--wps-pulse-delay",
-        `${(-phase * 6).toFixed(2)}s`,
-      );
-      return;
-    }
-
-    const micro = this._jitterFromSeed(wordId, 12, 1.2, 2.6);
-    const driftBase = 30;
-    el.style.setProperty("--wps-drift-dur", `${(driftBase + micro).toFixed(1)}s`);
-    el.style.setProperty(
-      "--wps-pulse-dur",
-      `${this._jitterFromSeed(wordId, 13, 7.5, 10.5).toFixed(1)}s`,
-    );
-    el.style.setProperty("--wps-dx-a", `${micro.toFixed(1)}px`);
-    el.style.setProperty("--wps-dy-a", `${(micro * 0.75).toFixed(1)}px`);
-    el.style.setProperty("--wps-dx-b", `${(-micro * 0.9).toFixed(1)}px`);
-    el.style.setProperty("--wps-dy-b", `${(micro * 0.95).toFixed(1)}px`);
-    el.style.setProperty("--wps-op-min", "0.7");
-    el.style.setProperty("--wps-op-max", "0.96");
-    el.style.setProperty("--wps-br-min", "0.95");
-    el.style.setProperty("--wps-br-max", "1.06");
-    el.style.setProperty(
-      "--wps-anim-delay",
-      `${this._jitterFromSeed(wordId, 14, 0, 6).toFixed(2)}s`,
-    );
-    el.style.setProperty(
-      "--wps-pulse-delay",
-      `${this._jitterFromSeed(wordId, 15, 0, 5).toFixed(2)}s`,
-    );
-  }
 
   _animateMasteryTransition(word, fromEl, targetPos) {
     const id = String(word.id ?? word.word);
@@ -1855,11 +1711,8 @@ export class WordProgressSquares {
     if (settled && position) {
       el.style.left = `${position.leftPx}px`;
       el.style.top = `${position.topPx}px`;
-      this._applySettledMotionVars(el, id, living, memberIndex, memberTotal);
     } else {
       const layoutEntry = this._chaoticLayout.get(id);
-      const maxDrift = layoutEntry?.maxDriftPx ?? 11;
-      this._applyMotionVars(el, id, visualState, sureCount, maxDrift);
       if (layoutEntry) {
         el.style.left = `${layoutEntry.leftPx}px`;
         el.style.top = `${layoutEntry.topPx}px`;
@@ -1952,11 +1805,6 @@ export class WordProgressSquares {
       mastered.length === allSorted.length;
 
     this._chaoticEl.classList.toggle("wps-chaotic-area--living", shapeComplete);
-    if (shapeComplete) {
-      this._applyEnsembleMotion(this._chaoticEl, comboKey);
-    } else {
-      this._clearEnsembleMotion(this._chaoticEl);
-    }
 
     this._syncChaoticLayout(
       active,
