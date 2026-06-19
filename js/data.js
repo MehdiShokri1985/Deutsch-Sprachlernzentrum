@@ -165,6 +165,7 @@ function _migrateKeyFormat() {
     reflexivverben: 'game',
     kollokationen: 'game',
     slang: 'game',
+    a2worter: 'game',
     verben: 'verbs'
   };
 
@@ -283,7 +284,7 @@ export function unsubscribe() {
   }
 }
 
-export async function resetAllData(gameType, datasetName, niveau, mode, caseFilter, verbMode = "") {
+export async function resetAllData(gameType, datasetName, niveau, mode, caseFilter, verbMode = "", tail = "") {
   _generation++;
   _isResetting = true;
 
@@ -305,10 +306,11 @@ export async function resetAllData(gameType, datasetName, niveau, mode, caseFilt
   // Remove only the cache keys for this exact combination
   const prefix = 'langgame_';
   const vmSegment = (verbMode && verbMode !== "verben") ? '_' + verbMode : '';
-  const wordKey = prefix + 'words_' + gameType + '_' + datasetName + '_' + niveau + '_' + mode + vmSegment + '_' + caseFilter;
-  const stateKey = prefix + 'state_' + gameType + '_' + datasetName + '_' + niveau + '_' + mode + vmSegment + '_' + caseFilter;
+  const tailSegment = (tail && tail !== "all" && datasetName === 'a2worter') ? '_tail_' + tail : '';
+  const wordKey = prefix + 'words_' + gameType + '_' + datasetName + '_' + niveau + '_' + mode + vmSegment + '_' + caseFilter + tailSegment;
+  const stateKey = prefix + 'state_' + gameType + '_' + datasetName + '_' + niveau + '_' + mode + vmSegment + '_' + caseFilter + tailSegment;
 
-  console.log('[RESET PROGRESS] game=' + gameType + ' dataset=' + datasetName + ' level=' + niveau + ' mode=' + mode + ' case=' + caseFilter + ' verbMode=' + (verbMode || 'default'));
+  console.log('[RESET PROGRESS] game=' + gameType + ' dataset=' + datasetName + ' level=' + niveau + ' mode=' + mode + ' case=' + caseFilter + ' verbMode=' + (verbMode || 'default') + ' tail=' + (tail || 'all'));
   console.log('RESET TARGET KEYS:', wordKey, stateKey);
   delete _cache[wordKey];
   delete _cache[stateKey];
@@ -321,7 +323,7 @@ export async function resetAllData(gameType, datasetName, niveau, mode, caseFilt
 
   // Update Supabase row with remaining data (preserves all other combinations)
   const supabase = _client();
-  _log('RESET', TABLE, true, 'updating row user_id=' + _userId + ' gameType=' + gameType + ' dataset=' + datasetName + ' combo=' + niveau + '_' + mode + vmSegment + '_' + caseFilter);
+  _log('RESET', TABLE, true, 'updating row user_id=' + _userId + ' gameType=' + gameType + ' dataset=' + datasetName + ' combo=' + niveau + '_' + mode + vmSegment + '_' + caseFilter + (tailSegment || ''));
   const { error } = await supabase
     .from(TABLE)
     .upsert({
@@ -337,9 +339,9 @@ export async function resetAllData(gameType, datasetName, niveau, mode, caseFilt
   }
 
   console.log('REMAINING KEYS:', Object.keys(_cache));
-  _log('RESET', TABLE, true, 'gameType=' + gameType + ' dataset=' + datasetName + ' combo=' + niveau + '_' + mode + '_' + caseFilter + ' remaining keys=' + Object.keys(_cache).length);
+  _log('RESET', TABLE, true, 'gameType=' + gameType + ' dataset=' + datasetName + ' combo=' + niveau + '_' + mode + '_' + caseFilter + (tailSegment || '') + ' remaining keys=' + Object.keys(_cache).length);
   _isResetting = false;
-  return { ok: true, detail: 'gameType=' + gameType + ' dataset=' + datasetName + ' combo=' + niveau + '_' + mode + '_' + caseFilter + ' reset' };
+  return { ok: true, detail: 'gameType=' + gameType + ' dataset=' + datasetName + ' combo=' + niveau + '_' + mode + '_' + caseFilter + (tailSegment || '') + ' reset' };
 }
 
 export async function testSupabaseConnection(userId) {

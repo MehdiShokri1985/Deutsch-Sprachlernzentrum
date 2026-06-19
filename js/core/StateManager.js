@@ -8,24 +8,36 @@ export class StateManager {
     this.allStates = {};
   }
 
-  getStateKey(niveau, mode, caseFilter = "all", verbMode = "") {
+  getStateKey(niveau, mode, caseFilter = "all", verbMode = "", tail = "") {
+    if (tail && tail !== "all" && this.dataSetName === 'a2worter') {
+      if (verbMode && verbMode !== "verben") {
+        return `${this.gameType}_${this.dataSetName}_${niveau}_${mode}_${verbMode}_${caseFilter}_tail_${tail}`;
+      }
+      return `${this.gameType}_${this.dataSetName}_${niveau}_${mode}_${caseFilter}_tail_${tail}`;
+    }
     if (verbMode && verbMode !== "verben") {
       return `${this.gameType}_${this.dataSetName}_${niveau}_${mode}_${verbMode}_${caseFilter}`;
     }
     return `${this.gameType}_${this.dataSetName}_${niveau}_${mode}_${caseFilter}`;
   }
 
-  getFullStorageKey(niveau, mode, caseFilter = "all", verbMode = "") {
+  getFullStorageKey(niveau, mode, caseFilter = "all", verbMode = "", tail = "") {
+    if (tail && tail !== "all" && this.dataSetName === 'a2worter') {
+      if (verbMode && verbMode !== "verben") {
+        return `${CONFIG.STORAGE_PREFIX}state_${this.gameType}_${this.dataSetName}_${niveau}_${mode}_${verbMode}_${caseFilter}_tail_${tail}`;
+      }
+      return `${CONFIG.STORAGE_PREFIX}state_${this.gameType}_${this.dataSetName}_${niveau}_${mode}_${caseFilter}_tail_${tail}`;
+    }
     if (verbMode && verbMode !== "verben") {
       return `${CONFIG.STORAGE_PREFIX}state_${this.gameType}_${this.dataSetName}_${niveau}_${mode}_${verbMode}_${caseFilter}`;
     }
     return `${CONFIG.STORAGE_PREFIX}state_${this.gameType}_${this.dataSetName}_${niveau}_${mode}_${caseFilter}`;
   }
 
-  getCurrentState(niveau, mode, caseFilter = "all", verbMode = "") {
-    const key = this.getStateKey(niveau, mode, caseFilter, verbMode);
+  getCurrentState(niveau, mode, caseFilter = "all", verbMode = "", tail = "") {
+    const key = this.getStateKey(niveau, mode, caseFilter, verbMode, tail);
     if (!this.allStates[key]) {
-      const stored = data.get(this.getFullStorageKey(niveau, mode, caseFilter, verbMode));
+      const stored = data.get(this.getFullStorageKey(niveau, mode, caseFilter, verbMode, tail));
       this.allStates[key] = stored ? JSON.parse(JSON.stringify(stored)) : this.createNewState();
     }
     return this.allStates[key];
@@ -45,17 +57,17 @@ export class StateManager {
     };
   }
 
-  saveState(niveau, mode, caseFilter = "all", verbMode = "") {
-    const key = this.getStateKey(niveau, mode, caseFilter, verbMode);
+  saveState(niveau, mode, caseFilter = "all", verbMode = "", tail = "") {
+    const key = this.getStateKey(niveau, mode, caseFilter, verbMode, tail);
     const state = this.allStates[key];
     if (state) {
-      data.set(this.getFullStorageKey(niveau, mode, caseFilter, verbMode), state);
+      data.set(this.getFullStorageKey(niveau, mode, caseFilter, verbMode, tail), state);
     }
   }
 
-  resetProgress(niveau, mode, caseFilter = "all", verbMode = "") {
-    const key = this.getStateKey(niveau, mode, caseFilter, verbMode);
-    data.remove(this.getFullStorageKey(niveau, mode, caseFilter, verbMode));
+  resetProgress(niveau, mode, caseFilter = "all", verbMode = "", tail = "") {
+    const key = this.getStateKey(niveau, mode, caseFilter, verbMode, tail);
+    data.remove(this.getFullStorageKey(niveau, mode, caseFilter, verbMode, tail));
     delete this.allStates[key];
   }
 }

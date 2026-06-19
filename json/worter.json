@@ -1,0 +1,3430 @@
+[
+  {
+    "id": "1",
+    "level": "A2",
+    "word": "Kopie",
+    "meaning": "کپی",
+    "antonyms": [],
+    "synonyms": ["Abschrift", "Duplikat"],
+    "sentences": [
+      {
+        "de": "Ich brauche eine Kopie von meinem Pass.",
+        "fa": "من به یک کپی از پاسپورت خودم نیاز دارم."
+      },
+      {
+        "de": "Bitte machen Sie zwei Kopien von diesem Formular.",
+        "fa": "لطفاً دو کپی از این فرم بسازید."
+      },
+      {
+        "de": "Die Kopie ist nicht gut, sie ist zu dunkel.",
+        "fa": "کپی خوب نیست، خیلی تیره است."
+      }
+    ],
+    "pronunciation": "کُپی",
+    "type": "Person, Familie und Eigenschaften",
+    "Teil": "A"
+  },
+  {
+    "id": "2",
+    "level": "A2",
+    "word": "Pass",
+    "meaning": "پاسپورت",
+    "antonyms": [],
+    "synonyms": ["Reisepass"],
+    "sentences": [
+      {
+        "de": "Mein Pass ist neu.",
+        "fa": "پاسپورت من جدید است."
+      },
+      {
+        "de": "Wo ist dein Pass? Ich brauche ihn für das Formular.",
+        "fa": "پاسپورتت کجاست؟ برای فرم به آن نیاز دارم."
+      },
+      {
+        "de": "Der Pass ist fünf Jahre gültig.",
+        "fa": "پاسپورت پنج سال معتبر است."
+      }
+    ],
+    "pronunciation": "پاس",
+    "type": "Person, Familie und Eigenschaften",
+    "Teil": "A"
+  },
+  {
+    "id": "3",
+    "level": "A2",
+    "word": "Geburtsort",
+    "meaning": "محل تولد",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Mein Geburtsort ist Teheran.",
+        "fa": "محل تولد من تهران است."
+      },
+      {
+        "de": "Bitte schreiben Sie Ihren Geburtsort hier.",
+        "fa": "لطفاً محل تولد خود را اینجا بنویسید."
+      },
+      {
+        "de": "In welchem Land ist dein Geburtsort?",
+        "fa": "محل تولدت در کدام کشور است؟"
+      }
+    ],
+    "pronunciation": "گِبورتس اُرت",
+    "type": "Person, Familie und Eigenschaften",
+    "Teil": "A"
+  },
+  {
+    "id": "4",
+    "level": "A2",
+    "word": "Geburtsdatum",
+    "meaning": "تاریخ تولد",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Mein Geburtsdatum ist der 15. Mai 1995.",
+        "fa": "تاریخ تولد من ۱۵ مه ۱۹۹۵ است."
+      },
+      {
+        "de": "Bitte geben Sie Ihr Geburtsdatum an.",
+        "fa": "لطفاً تاریخ تولد خود را وارد کنید."
+      },
+      {
+        "de": "Was ist dein Geburtsdatum?",
+        "fa": "تاریخ تولدت چیست؟"
+      }
+    ],
+    "pronunciation": "گِبورتس داتوم",
+    "type": "Person, Familie und Eigenschaften",
+    "Teil": "A"
+  },
+  {
+    "id": "5",
+    "level": "A2",
+    "word": "unterschreiben",
+    "meaning": "امضا کردن",
+    "antonyms": [],
+    "synonyms": ["signieren"],
+    "sentences": [
+      {
+        "de": "Bitte unterschreiben Sie hier.",
+        "fa": "لطفاً اینجا امضا کنید."
+      },
+      {
+        "de": "Ich muss das Formular unterschreiben.",
+        "fa": "باید این فرم را امضا کنم."
+      },
+      {
+        "de": "Unterschreiben Sie mit Ihrem vollen Namen.",
+        "fa": "با نام کامل خود امضا کنید."
+      }
+    ],
+    "pronunciation": "اونترشْرایبن",
+    "type": "Person, Familie und Eigenschaften",
+    "Teil": "A"
+  },
+  {
+    "id": "6",
+    "level": "A2",
+    "word": "buchstabieren",
+    "meaning": "هجی کردن",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Können Sie Ihren Namen buchstabieren?",
+        "fa": "می‌توانید نام خود را هجی کنید؟"
+      },
+      {
+        "de": "Bitte buchstabieren Sie das Wort langsam.",
+        "fa": "لطفاً کلمه را آهسته هجی کنید."
+      },
+      {
+        "de": "Ich buchstabiere meinen Nachnamen: M-U-E-L-L-E-R.",
+        "fa": "نام خانوادگی خود را هجی می‌کنم: ام-یو-اِل-اِل-اِر."
+      }
+    ],
+    "pronunciation": "بوخشْتابیرِن",
+    "type": "Person, Familie und Eigenschaften",
+    "Teil": "A"
+  },
+  {
+    "id": "7",
+    "level": "A2",
+    "word": "Name",
+    "meaning": "نام (اسم کوچک)",
+    "antonyms": [],
+    "synonyms": ["Vorname"],
+    "sentences": [
+      {
+        "de": "Wie ist dein Name?",
+        "fa": "نامت چیست؟"
+      },
+      {
+        "de": "Mein Name ist Ali.",
+        "fa": "نام من علی است."
+      },
+      {
+        "de": "Bitte schreiben Sie Ihren Namen in Druckbuchstaben.",
+        "fa": "لطفاً نام خود را با حروف چاپی بنویسید."
+      }
+    ],
+    "pronunciation": "نامِ",
+    "type": "Person, Familie und Eigenschaften",
+    "Teil": "A"
+  },
+  {
+    "id": "8",
+    "level": "A2",
+    "word": "Nachname",
+    "meaning": "نام خانوادگی",
+    "antonyms": [],
+    "synonyms": ["Familienname"],
+    "sentences": [
+      {
+        "de": "Wie ist Ihr Nachname?",
+        "fa": "نام خانوادگی شما چیست؟"
+      },
+      {
+        "de": "Mein Nachname ist Müller.",
+        "fa": "نام خانوادگی من مولر است."
+      },
+      {
+        "de": "Der Nachname kommt nach dem Vornamen.",
+        "fa": "نام خانوادگی بعد از نام کوچک می‌آید."
+      }
+    ],
+    "pronunciation": "ناخ‌نامِ",
+    "type": "Person, Familie und Eigenschaften",
+    "Teil": "A"
+  },
+  {
+    "id": "9",
+    "level": "A2",
+    "word": "Staatsangehörigkeit",
+    "meaning": "تابعیت / ملیت",
+    "antonyms": [],
+    "synonyms": ["Nationalität"],
+    "sentences": [
+      {
+        "de": "Meine Staatsangehörigkeit ist iranisch.",
+        "fa": "تابعیت من ایرانی است."
+      },
+      {
+        "de": "Bitte geben Sie Ihre Staatsangehörigkeit an.",
+        "fa": "لطفاً تابعیت خود را مشخص کنید."
+      },
+      {
+        "de": "Welche Staatsangehörigkeit haben Sie?",
+        "fa": "تابعیت شما چیست؟"
+      }
+    ],
+    "pronunciation": "شتاتس آنگِهۆریخکایت",
+    "type": "Person, Familie und Eigenschaften",
+    "Teil": "A"
+  },
+  {
+    "id": "10",
+    "level": "A2",
+    "word": "Familienname",
+    "meaning": "نام خانوادگی",
+    "antonyms": [],
+    "synonyms": ["Nachname", "Zuname"],
+    "sentences": [
+      {
+        "de": "Mein Familienname ist Müller.",
+        "fa": "نام خانوادگی من مولر است."
+      },
+      {
+        "de": "Wie ist dein Familienname?",
+        "fa": "نام خانوادگی تو چیست؟"
+      },
+      {
+        "de": "Der Familienname steht auf dem Formular.",
+        "fa": "نام خانوادگی در فرم نوشته شده است."
+      }
+    ],
+    "pronunciation": "فامیلی‌نامِ",
+    "type": "Person, Familie und Eigenschaften",
+    "Teil": "A"
+  },
+  {
+    "id": "11",
+    "level": "A2",
+    "word": "bedeuten",
+    "meaning": "معنی دادن / به معنای ... بودن",
+    "antonyms": [],
+    "synonyms": ["heißen", "meinen"],
+    "sentences": [
+      {
+        "de": "Was bedeutet dieses Wort?",
+        "fa": "این کلمه به چه معناست؟"
+      },
+      {
+        "de": "Familienstand bedeutet mein Status in der Familie.",
+        "fa": "Familienstand به معنای وضعیت من در خانواده است."
+      },
+      {
+        "de": "Das Wort „ledig“ bedeutet nicht verheiratet.",
+        "fa": "کلمه «ledig» به معنای متأهل نبودن است."
+      }
+    ],
+    "pronunciation": "بِدویْتِن",
+    "type": "Person, Familie und Eigenschaften",
+    "Teil": "A"
+  },
+  {
+    "id": "12",
+    "level": "A2",
+    "word": "Familienstand",
+    "meaning": "وضعیت تأهل / وضعیت خانوادگی",
+    "antonyms": [],
+    "synonyms": ["Maritalstatus"],
+    "sentences": [
+      {
+        "de": "Was ist dein Familienstand?",
+        "fa": "وضعیت تأهل تو چیست؟"
+      },
+      {
+        "de": "Mein Familienstand ist ledig.",
+        "fa": "وضعیت تأهل من مجرد است."
+      },
+      {
+        "de": "Im Formular muss man den Familienstand angeben.",
+        "fa": "در فرم باید وضعیت تأهل را بنویسید."
+      }
+    ],
+    "pronunciation": "فامیلیِن‌شتاند",
+    "type": "Person, Familie und Eigenschaften",
+    "Teil": "A"
+  },
+  {
+    "id": "13",
+    "level": "A2",
+    "word": "geschieden",
+    "meaning": "طلاق‌گرفته",
+    "antonyms": ["verheiratet"],
+    "synonyms": ["getrennt"],
+    "sentences": [
+      {
+        "de": "Sie ist geschieden.",
+        "fa": "او طلاق‌گرفته است."
+      },
+      {
+        "de": "Mein Onkel ist seit zwei Jahren geschieden.",
+        "fa": "عمویم دو سال است که طلاق گرفته است."
+      },
+      {
+        "de": "Im Familienstand schreibt er „geschieden“.",
+        "fa": "در وضعیت تأهل می‌نویسد «طلاق‌گرفته»."
+      }
+    ],
+    "pronunciation": "گِشیدِن",
+    "type": "Person, Familie und Eigenschaften",
+    "Teil": "A"
+  },
+  {
+    "id": "14",
+    "level": "A2",
+    "word": "ledig",
+    "meaning": "مجرد / unmarried",
+    "antonyms": ["verheiratet"],
+    "synonyms": ["unverheiratet", "single"],
+    "sentences": [
+      {
+        "de": "Ich bin ledig.",
+        "fa": "من مجرد هستم."
+      },
+      {
+        "de": "Sie ist noch ledig und sucht einen Partner.",
+        "fa": "او هنوز مجرد است و به دنبال شریک زندگی می‌گردد."
+      },
+      {
+        "de": "Im Formular steht „ledig“.",
+        "fa": "در فرم نوشته شده «مجرد»."
+      }
+    ],
+    "pronunciation": "لِدیگ",
+    "type": "Person, Familie und Eigenschaften",
+    "Teil": "A"
+  },
+  {
+    "id": "15",
+    "level": "A2",
+    "word": "Hochzeit",
+    "meaning": "عروسی / ازدواج",
+    "antonyms": [],
+    "synonyms": ["Heirat", "Trauung"],
+    "sentences": [
+      {
+        "de": "Die Hochzeit war sehr schön.",
+        "fa": "عروسی خیلی زیبا بود."
+      },
+      {
+        "de": "Wir feiern die Hochzeit im Sommer.",
+        "fa": "ما عروسی را در تابستان جشن می‌گیریم."
+      },
+      {
+        "de": "Nach der Hochzeit sind sie verheiratet.",
+        "fa": "پس از عروسی آنها متأهل هستند."
+      }
+    ],
+    "pronunciation": "هوخ‌تسایت",
+    "type": "Person, Familie und Eigenschaften",
+    "Teil": "A"
+  },
+  {
+    "id": "16",
+    "level": "A2",
+    "word": "Formular",
+    "meaning": "فرم / برگه",
+    "antonyms": [],
+    "synonyms": ["Antrag", "Dokument"],
+    "sentences": [
+      {
+        "de": "Bitte füllen Sie das Formular aus.",
+        "fa": "لطفاً فرم را پر کنید."
+      },
+      {
+        "de": "Im Formular steht der Familienname.",
+        "fa": "در فرم نام خانوادگی نوشته شده است."
+      },
+      {
+        "de": "Das Formular fragt nach dem Familienstand.",
+        "fa": "فرم وضعیت تأهل را می‌پرسد."
+      }
+    ],
+    "pronunciation": "فورمولار",
+    "type": "Person, Familie und Eigenschaften",
+    "Teil": "A"
+  },
+  {
+    "id": "17",
+    "level": "A2",
+    "word": "von Beruf",
+    "meaning": "از نظر شغل / شغلش",
+    "antonyms": [],
+    "synonyms": ["beruflich"],
+    "sentences": [
+      {
+        "de": "Ich bin von Beruf Lehrer.",
+        "fa": "من از نظر شغل معلم هستم."
+      },
+      {
+        "de": "Was bist du von Beruf?",
+        "fa": "شغلت چیست؟"
+      },
+      {
+        "de": "Sie ist von Beruf Ärztin.",
+        "fa": "او از نظر شغل پزشک است."
+      }
+    ],
+    "pronunciation": "فون بروف",
+    "type": "Person, Familie und Eigenschaften",
+    "Teil": "A"
+  },
+  {
+    "id": "18",
+    "level": "A2",
+    "word": "arbeiten als",
+    "meaning": "کار کردن به عنوان",
+    "antonyms": [],
+    "synonyms": ["tätig sein als"],
+    "sentences": [
+      {
+        "de": "Er arbeitet als Mechaniker.",
+        "fa": "او به عنوان مکانیک کار می‌کند."
+      },
+      {
+        "de": "Ich arbeite als Verkäuferin.",
+        "fa": "من به عنوان فروشنده کار می‌کنم."
+      },
+      {
+        "de": "Sie arbeitet als Lehrerin in einer Schule.",
+        "fa": "او به عنوان معلم در یک مدرسه کار می‌کند."
+      }
+    ],
+    "pronunciation": "آر‌بایتِن آلز",
+    "type": "Person, Familie und Eigenschaften",
+    "Teil": "A"
+  },
+  {
+    "id": "19",
+    "level": "A2",
+    "word": "leben",
+    "meaning": "زندگی کردن",
+    "antonyms": [],
+    "synonyms": ["wohnen"],
+    "sentences": [
+      {
+        "de": "Ich lebe in Berlin.",
+        "fa": "من در برلین زندگی می‌کنم."
+      },
+      {
+        "de": "Wo lebst du?",
+        "fa": "کجا زندگی می‌کنی؟"
+      },
+      {
+        "de": "Sie leben zusammen in einer Wohnung.",
+        "fa": "آنها با هم در یک آپارتمان زندگی می‌کنند."
+      }
+    ],
+    "pronunciation": "لِبِن",
+    "type": "Person, Familie und Eigenschaften",
+    "Teil": "A"
+  },
+  {
+    "id": "20",
+    "level": "A2",
+    "word": "arbeitslos",
+    "meaning": "بیکار",
+    "antonyms": ["beschäftigt"],
+    "synonyms": ["ohne Arbeit"],
+    "sentences": [
+      {
+        "de": "Er ist arbeitslos.",
+        "fa": "او بیکار است."
+      },
+      {
+        "de": "Sie war zwei Monate arbeitslos.",
+        "fa": "او دو ماه بیکار بود."
+      },
+      {
+        "de": "Viele Menschen sind zurzeit arbeitslos.",
+        "fa": "بسیاری از مردم در حال حاضر بیکار هستند."
+      }
+    ],
+    "pronunciation": "آر‌بایتس‌لوس",
+    "type": "Person, Familie und Eigenschaften",
+    "Teil": "A"
+  },
+  {
+    "id": "21",
+    "level": "A2",
+    "word": "meine Damen und Herren",
+    "meaning": "بانوان و آقایان محترم",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Meine Damen und Herren, herzlich willkommen!",
+        "fa": "بانوان و آقایان محترم، خوش آمدید!"
+      },
+      {
+        "de": "Guten Abend, meine Damen und Herren.",
+        "fa": "عصر بخیر، بانوان و آقایان محترم."
+      },
+      {
+        "de": "Meine Damen und Herren, bitte Ruhe!",
+        "fa": "بانوان و آقایان محترم، لطفاً سکوت!"
+      }
+    ],
+    "pronunciation": "ماینه دامِن اونت هِرِن",
+    "type": "Person, Familie und Eigenschaften","Teil":"A"
+  },
+  {
+    "id": "22",
+    "level": "A2",
+    "word": "bei uns",
+    "meaning": "نزد ما / در شرکت ما",
+    "antonyms": [],
+    "synonyms": ["in unserer Firma"],
+    "sentences": [
+      {
+        "de": "Er arbeitet bei uns.",
+        "fa": "او نزد ما کار می‌کند."
+      },
+      {
+        "de": "Willkommen bei uns!",
+        "fa": "به نزد ما خوش آمدید!"
+      },
+      {
+        "de": "Bei uns gibt es viele Jobs.",
+        "fa": "نزد ما شغل‌های زیادی وجود دارد."
+      }
+    ],
+    "pronunciation": "بای اونز",
+    "type": "Person, Familie und Eigenschaften",
+    "Teil": "A"
+  },
+  {
+    "id": "23",
+    "level": "A2",
+    "word": "vorstellen",
+    "meaning": "معرفی کردن",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Ich möchte mich vorstellen.",
+        "fa": "می‌خواهم خودم را معرفی کنم."
+      },
+      {
+        "de": "Darf ich vorstellen? Das ist Anna.",
+        "fa": "اجازه می‌دهید معرفی کنم؟ این آنا است."
+      },
+      {
+        "de": "Sie stellt sich vor.",
+        "fa": "او خودش را معرفی می‌کند."
+      }
+    ],
+    "pronunciation": "فورشتلِن",
+    "type": "Person, Familie und Eigenschaften","Teil":"A"
+  },
+  {
+    "id": "24",
+    "level": "A2",
+    "word": "Jahre alt sein",
+    "meaning": "... سال سن داشتن",
+    "antonyms": [],
+    "synonyms": ["alt sein"],
+    "sentences": [
+      {
+        "de": "Ich bin 25 Jahre alt.",
+        "fa": "من ۲۵ سال سن دارم."
+      },
+      {
+        "de": "Wie alt bist du?",
+        "fa": "چند سالته؟"
+      },
+      {
+        "de": "Mein Bruder ist 30 Jahre alt.",
+        "fa": "برادر من ۳۰ سال سن دارد."
+      }
+    ],
+    "pronunciation": "یاره آلت زاین",
+    "type": "Person, Familie und Eigenschaften",
+    "Teil": "A"
+  },
+  {
+    "id": "25",
+    "level": "A2",
+    "word": "Adresse",
+    "meaning": "آدرس",
+    "antonyms": [],
+    "synonyms": ["Wohnort", "Anschrift"],
+    "sentences": [
+      {
+        "de": "Meine Adresse ist Straße 12 in Berlin.",
+        "fa": "آدرس من خیابان ۱۲ در برلین است."
+      },
+      {
+        "de": "Bitte schreiben Sie Ihre Adresse hier.",
+        "fa": "لطفاً آدرس خود را اینجا بنویسید."
+      },
+      {
+        "de": "Die Adresse auf dem Brief ist falsch.",
+        "fa": "آدرس روی نامه اشتباه است."
+      }
+    ],
+    "pronunciation": "آدرسه",
+    "type": "Person, Familie und Eigenschaften",
+    "Teil": "A"
+  },
+  {
+    "id": "26",
+    "level": "A2",
+    "word": "Wohnort",
+    "meaning": "محل سکونت",
+    "antonyms": [],
+    "synonyms": ["Wohnsitz", "Zuhause"],
+    "sentences": [
+      {
+        "de": "Mein Wohnort ist ein kleines Dorf.",
+        "fa": "محل سکونت من یک روستای کوچک است."
+      },
+      {
+        "de": "Wo ist Ihr Wohnort?",
+        "fa": "محل سکونت شما کجاست؟"
+      },
+      {
+        "de": "Er ändert seinen Wohnort oft.",
+        "fa": "او اغلب محل سکونت خود را تغییر می‌دهد."
+      }
+    ],
+    "pronunciation": "وون‌اورت",
+    "type": "Person, Familie und Eigenschaften",
+    "Teil": "A"
+  },
+  {
+    "id": "27",
+    "level": "A2",
+    "word": "Straße",
+    "meaning": "خیابان",
+    "antonyms": [],
+    "synonyms": ["Weg", "Allee"],
+    "sentences": [
+      {
+        "de": "Ich wohne in der Hauptstraße.",
+        "fa": "من در خیابان اصلی زندگی می‌کنم."
+      },
+      {
+        "de": "Die Straße ist sehr lang.",
+        "fa": "خیابان خیلی طولانی است."
+      },
+      {
+        "de": "Fahren Sie diese Straße entlang.",
+        "fa": "از این خیابان به جلو برانید."
+      }
+    ],
+    "pronunciation": "اشتراسه",
+    "type": "Person, Familie und Eigenschaften",
+    "Teil": "A"
+  },
+  {
+    "id": "28",
+    "level": "A2",
+    "word": "Platz",
+    "meaning": "میدان / مکان",
+    "antonyms": [],
+    "synonyms": ["Marktplatz", "Ort"],
+    "sentences": [
+      {
+        "de": "Der Marktplatz ist sehr schön.",
+        "fa": "میدان بازار خیلی زیبا است."
+      },
+      {
+        "de": "Ich warte auf dem Platz.",
+        "fa": "من در میدان منتظر هستم."
+      },
+      {
+        "de": "Das Hotel liegt am Alexanderplatz.",
+        "fa": "هتل در میدان الکساندر قرار دارد."
+      }
+    ],
+    "pronunciation": "پلاتس",
+    "type": "Person, Familie und Eigenschaften",
+    "Teil": "A"
+  },
+  {
+    "id": "29",
+    "level": "A2",
+    "word": "Dorf",
+    "meaning": "روستا",
+    "antonyms": ["Stadt"],
+    "synonyms": ["Ortschaft"],
+    "sentences": [
+      {
+        "de": "Ich komme aus einem kleinen Dorf.",
+        "fa": "من از یک روستای کوچک می‌آیم."
+      },
+      {
+        "de": "Das Dorf hat nur 500 Einwohner.",
+        "fa": "روستا فقط ۵۰۰ ساکن دارد."
+      },
+      {
+        "de": "In unserem Dorf gibt es eine Kirche.",
+        "fa": "در روستای ما یک کلیسا وجود دارد."
+      }
+    ],
+    "pronunciation": "دورف",
+    "type": "Person, Familie und Eigenschaften",
+    "Teil": "A"
+  },
+  {
+    "id": "30",
+    "level": "A2",
+    "word": "Postleitzahl",
+    "meaning": "کد پستی",
+    "antonyms": [],
+    "synonyms": ["PLZ"],
+    "sentences": [
+      {
+        "de": "Die Postleitzahl von Berlin ist 10115.",
+        "fa": "کد پستی برلین ۱۰۱۱۵ است."
+      },
+      {
+        "de": "Bitte geben Sie Ihre Postleitzahl ein.",
+        "fa": "لطفاً کد پستی خود را وارد کنید."
+      },
+      {
+        "de": "Die Postleitzahl ist falsch.",
+        "fa": "کد پستی اشتباه است."
+      }
+    ],
+    "pronunciation": "پست‌لایتزال",
+    "type": "Person, Familie und Eigenschaften",
+    "Teil": "A"
+  },
+  {
+    "id": "31",
+    "level": "A2",
+    "word": "Geschlecht",
+    "meaning": "جنسیت",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Bitte wählen Sie Ihr Geschlecht.",
+        "fa": "لطفاً جنسیت خود را انتخاب کنید."
+      },
+      {
+        "de": "Das Formular fragt nach dem Geschlecht.",
+        "fa": "فرم درباره جنسیت می‌پرسد."
+      },
+      {
+        "de": "Geschlecht: männlich oder weiblich.",
+        "fa": "جنسیت: مرد یا زن."
+      }
+    ],
+    "pronunciation": "گشلشت",
+    "type": "Person, Familie und Eigenschaften",
+    "Teil": "A"
+  },
+  {
+    "id": "32",
+    "level": "A2",
+    "word": "Land",
+    "meaning": "کشور",
+    "antonyms": [],
+    "synonyms": ["Staat"],
+    "sentences": [
+      {
+        "de": "Aus welchem Land kommen Sie?",
+        "fa": "از کدام کشور می‌آیید؟"
+      },
+      {
+        "de": "Mein Land ist Iran.",
+        "fa": "کشور من ایران است."
+      },
+      {
+        "de": "Er reist in ein anderes Land.",
+        "fa": "او به کشور دیگری سفر می‌کند."
+      }
+    ],
+    "pronunciation": "لاند",
+    "type": "Person, Familie und Eigenschaften",
+    "Teil": "A"
+  },
+  {
+    "id": "33",
+    "level": "A2",
+    "word": "männlich",
+    "meaning": "مرد",
+    "antonyms": ["weiblich"],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Ich bin männlich.",
+        "fa": "من مرد هستم."
+      },
+      {
+        "de": "Das Formular hat die Option männlich.",
+        "fa": "فرم گزینه مرد دارد."
+      },
+      {
+        "de": "Männlich oder weiblich?",
+        "fa": "مرد یا زن؟"
+      }
+    ],
+    "pronunciation": "مِن‌لیش",
+    "type": "Person, Familie und Eigenschaften",
+    "Teil": "A"
+  },
+  {
+    "id": "34",
+    "level": "A2",
+    "word": "weiblich",
+    "meaning": "زن",
+    "antonyms": ["männlich"],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Sie ist weiblich.",
+        "fa": "او زن است."
+      },
+      {
+        "de": "Die Option weiblich ist ausgewählt.",
+        "fa": "گزینه زن انتخاب شده است."
+      },
+      {
+        "de": "Weiblich oder männlich?",
+        "fa": "زن یا مرد؟"
+      }
+    ],
+    "pronunciation": "وایب‌لیش",
+    "type": "Person, Familie und Eigenschaften",
+    "Teil": "A"
+  },
+  {
+    "id": "35",
+    "level": "A2",
+    "word": "Geburtsdatum",
+    "meaning": "تاریخ تولد",
+    "antonyms": [],
+    "synonyms": ["Geburtstag"],
+    "sentences": [
+      {
+        "de": "Mein Geburtsdatum ist der 15. Mai 1995.",
+        "fa": "تاریخ تولد من ۱۵ مه ۱۹۹۵ است."
+      },
+      {
+        "de": "Bitte geben Sie Ihr Geburtsdatum ein.",
+        "fa": "لطفاً تاریخ تولد خود را وارد کنید."
+      },
+      {
+        "de": "Das Geburtsdatum steht im Pass.",
+        "fa": "تاریخ تولد در پاسپورت نوشته شده است."
+      }
+    ],
+    "pronunciation": "گبور츠‌داتوم",
+    "type": "Person, Familie und Eigenschaften",
+    "Teil": "A"
+  },
+  {
+    "id": "36",
+    "level": "A2",
+    "word": "geboren am",
+    "meaning": "متولد شده در",
+    "antonyms": [],
+    "synonyms": ["Geburtsdatum"],
+    "sentences": [
+      {
+        "de": "Ich bin am 10. Juni geboren.",
+        "fa": "من در ۱۰ ژوئن متولد شده‌ام."
+      },
+      {
+        "de": "Geboren am: 01.01.2000",
+        "fa": "متولد شده در: ۰۱.۰۱.۲۰۰۰"
+      },
+      {
+        "de": "Wann sind Sie geboren?",
+        "fa": "کی متولد شده‌اید؟"
+      }
+    ],
+    "pronunciation": "گبورن آم",
+    "type": "Person, Familie und Eigenschaften",
+    "Teil": "A"
+  },
+  {
+    "id": "37",
+    "level": "A2",
+    "word": "Geburtstag",
+    "meaning": "روز تولد",
+    "antonyms": [],
+    "synonyms": ["Geburtsdatum"],
+    "sentences": [
+      {
+        "de": "Herzlichen Glückwunsch zum Geburtstag!",
+        "fa": "تولدت مبارک!"
+      },
+      {
+        "de": "Wann hast du Geburtstag?",
+        "fa": "روز تولدت کی است؟"
+      },
+      {
+        "de": "Mein Geburtstag ist im Sommer.",
+        "fa": "روز تولد من در تابستان است."
+      }
+    ],
+    "pronunciation": "گبورتس‌تاک",
+    "type": "Person, Familie und Eigenschaften",
+    "Teil": "A"
+  },
+  {
+    "id": "38",
+    "level": "A2",
+    "word": "Unterschrift",
+    "meaning": "امضا",
+    "antonyms": [],
+    "synonyms": ["Signatur"],
+    "sentences": [
+      {
+        "de": "Bitte geben Sie Ihre Unterschrift hier.",
+        "fa": "لطفاً امضای خود را اینجا بگذارید."
+      },
+      {
+        "de": "Die Unterschrift muss lesbar sein.",
+        "fa": "امضا باید خوانا باشد."
+      },
+      {
+        "de": "Ich brauche Ihre Unterschrift.",
+        "fa": "به امضای شما نیاز دارم."
+      }
+    ],
+    "pronunciation": "اونترشریفت",
+    "type": "Person, Familie und Eigenschaften",
+    "Teil": "A"
+  },
+  {
+    "id": "39",
+    "level": "A2",
+    "word": "Geburtsjahr",
+    "meaning": "سال تولد",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "In welchem Geburtsjahr sind Sie geboren?",
+        "fa": "در چه سالی متولد شده‌اید؟"
+      },
+      {
+        "de": "Mein Geburtsjahr ist 1998.",
+        "fa": "سال تولد من ۱۹۹۸ است."
+      },
+      {
+        "de": "Das Geburtsjahr steht im Ausweis.",
+        "fa": "سال تولد در کارت شناسایی نوشته شده است."
+      }
+    ],
+    "pronunciation": "گبورتس‌یار",
+    "type": "Person, Familie und Eigenschaften",
+    "Teil": "A"
+  },
+  {
+    "id": "40",
+    "level": "A2",
+    "word": "Papiere",
+    "meaning": "مدارک / اسناد",
+    "antonyms": [],
+    "synonyms": ["Dokumente"],
+    "sentences": [
+      {
+        "de": "Haben Sie Ihre Papiere dabei?",
+        "fa": "مدارک خود را همراه دارید؟"
+      },
+      {
+        "de": "Die Papiere sind wichtig.",
+        "fa": "مدارک مهم هستند."
+      },
+      {
+        "de": "Bitte zeigen Sie Ihre Papiere.",
+        "fa": "لطفاً مدارک خود را نشان دهید."
+      }
+    ],
+    "pronunciation": "پاپیره",
+    "type": "Person, Familie und Eigenschaften",
+    "Teil": "A"
+  },
+  {
+    "id": "41",
+    "level": "A2",
+    "word": "Ausweis",
+    "meaning": "کارت شناسایی",
+    "antonyms": [],
+    "synonyms": ["Personalausweis"],
+    "sentences": [
+      {
+        "de": "Ich brauche meinen Ausweis.",
+        "fa": "به کارت شناسایی‌ام نیاز دارم."
+      },
+      {
+        "de": "Der Ausweis ist abgelaufen.",
+        "fa": "کارت شناسایی منقضی شده است."
+      },
+      {
+        "de": "Zeigen Sie bitte Ihren Ausweis.",
+        "fa": "لطفاً کارت شناسایی خود را نشان دهید."
+      }
+    ],
+    "pronunciation": "آوس‌وایس",
+    "type": "Person, Familie und Eigenschaften",
+    "Teil": "A"
+  },
+  {
+    "id": "42",
+    "level": "A2",
+    "word": "Führerschein",
+    "meaning": "گواهینامه رانندگی",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Ich habe meinen Führerschein.",
+        "fa": "گواهینامه رانندگی‌ام را دارم."
+      },
+      {
+        "de": "Der Führerschein ist neu.",
+        "fa": "گواهینامه جدید است."
+      },
+      {
+        "de": "Ohne Führerschein darf man nicht fahren.",
+        "fa": "بدون گواهینامه نمی‌توان رانندگی کرد."
+      }
+    ],
+    "pronunciation": "فوررزشاین",
+    "type": "Person, Familie und Eigenschaften",
+    "Teil": "A"
+  },
+  {
+    "id": "43",
+    "level": "A2",
+    "word": "Anmeldebestätigung",
+    "meaning": "تأیید ثبت‌نام / ثبت اقامت",
+    "antonyms": [],
+    "synonyms": ["Meldebescheinigung"],
+    "sentences": [
+      {
+        "de": "Ich brauche die Anmeldebestätigung.",
+        "fa": "به تأیید ثبت‌نام نیاز دارم."
+      },
+      {
+        "de": "Die Anmeldebestätigung ist für das Amt.",
+        "fa": "تأیید ثبت‌نام برای اداره است."
+      },
+      {
+        "de": "Haben Sie die Anmeldebestätigung?",
+        "fa": "تأیید ثبت‌نام را دارید؟"
+      }
+    ],
+    "pronunciation": "آن‌ملده‌بشتتیگونگ",
+    "type": "Person, Familie und Eigenschaften",
+    "Teil": "A"
+  },
+  {
+    "id": "44",
+    "level": "A2",
+    "word": "Reisepass",
+    "meaning": "گذرنامه",
+    "antonyms": [],
+    "synonyms": ["Pass"],
+    "sentences": [
+      {
+        "de": "Mein Reisepass ist gültig.",
+        "fa": "گذرنامه‌ام معتبر است."
+      },
+      {
+        "de": "Ich brauche einen neuen Reisepass.",
+        "fa": "به گذرنامه جدید نیاز دارم."
+      },
+      {
+        "de": "Der Reisepass liegt zu Hause.",
+        "fa": "گذرنامه در خانه است."
+      }
+    ],
+    "pronunciation": "رایزه‌پاس",
+    "type": "Person, Familie und Eigenschaften",
+    "Teil": "A"
+  },
+  {
+    "id": "45",
+    "level": "A2",
+    "word": "Telefon",
+    "meaning": "تلفن",
+    "antonyms": [],
+    "synonyms": ["Telefonnummer"],
+    "sentences": [
+      {
+        "de": "Rufen Sie mich auf dem Telefon an.",
+        "fa": "با تلفن با من تماس بگیرید."
+      },
+      {
+        "de": "Haben Sie ein Telefon?",
+        "fa": "تلفن دارید؟"
+      },
+      {
+        "de": "Das Telefon klingelt.",
+        "fa": "تلفن زنگ می‌زند."
+      }
+    ],
+    "pronunciation": "تلفون",
+    "type": "Person, Familie und Eigenschaften",
+    "Teil": "A"
+  },
+  {
+    "id": "46",
+    "level": "A2",
+    "word": "Handy",
+    "meaning": "موبایل",
+    "antonyms": [],
+    "synonyms": ["Mobiltelefon"],
+    "sentences": [
+      {
+        "de": "Meine Handynummer ist 0176...",
+        "fa": "شماره موبایل من ۰۱۷۶... است."
+      },
+      {
+        "de": "Ich habe mein Handy vergessen.",
+        "fa": "موبایلم را فراموش کرده‌ام."
+      },
+      {
+        "de": "Das Handy ist neu.",
+        "fa": "موبایل جدید است."
+      }
+    ],
+    "pronunciation": "هندی",
+    "type": "Person, Familie und Eigenschaften",
+    "Teil": "A"
+  },
+  {
+    "id": "47",
+    "level": "A2",
+    "word": "Telefonnummer",
+    "meaning": "شماره تلفن",
+    "antonyms": [],
+    "synonyms": ["Handynummer"],
+    "sentences": [
+      {
+        "de": "Geben Sie bitte Ihre Telefonnummer.",
+        "fa": "لطفاً شماره تلفن خود را بدهید."
+      },
+      {
+        "de": "Wie ist Ihre Telefonnummer?",
+        "fa": "شماره تلفن شما چیست؟"
+      },
+      {
+        "de": "Die Telefonnummer ist falsch.",
+        "fa": "شماره تلفن اشتباه است."
+      }
+    ],
+    "pronunciation": "تلفون‌نومر",
+    "type": "Person, Familie und Eigenschaften",
+    "Teil": "A"
+  },
+  {
+    "id": "48",
+    "level": "A2",
+    "word": "Anrufbeantworter",
+    "meaning": "پیغام‌گیر تلفنی",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Der Anrufbeantworter ist an.",
+        "fa": "پیغام‌گیر روشن است."
+      },
+      {
+        "de": "Hinterlassen Sie eine Nachricht auf dem Anrufbeantworter.",
+        "fa": "روی پیغام‌گیر پیام بگذارید."
+      },
+      {
+        "de": "Ich spreche auf den Anrufbeantworter.",
+        "fa": "روی پیغام‌گیر صحبت می‌کنم."
+      }
+    ],
+    "pronunciation": "آن‌روف‌بآن‌تورتر",
+    "type": "Person, Familie und Eigenschaften",
+    "Teil": "A"
+  },
+  {
+    "id": "49",
+    "level": "A2",
+    "word": "Hausnummer",
+    "meaning": "شماره خانه",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Die Hausnummer ist 25.",
+        "fa": "شماره خانه ۲۵ است."
+      },
+      {
+        "de": "Bitte geben Sie Straße und Hausnummer.",
+        "fa": "لطفاً خیابان و شماره خانه را بنویسید."
+      },
+      {
+        "de": "Welche Hausnummer haben Sie?",
+        "fa": "شماره خانه شما چیست؟"
+      }
+    ],
+    "pronunciation": "هاوس‌نومر",
+    "type": "Person, Familie und Eigenschaften",
+    "Teil": "A"
+  },
+  {
+    "id": "50",
+    "level": "A2",
+    "word": "E-Mail",
+    "meaning": "ایمیل",
+    "antonyms": [],
+    "synonyms": ["E-Mail-Adresse"],
+    "sentences": [
+      {
+        "de": "Meine E-Mail ist info@beispiel.de.",
+        "fa": "ایمیل من info@beispiel.de است."
+      },
+      {
+        "de": "Schreiben Sie mir eine E-Mail.",
+        "fa": "برای من ایمیل بنویسید."
+      },
+      {
+        "de": "Die E-Mail ist angekommen.",
+        "fa": "ایمیل رسیده است."
+      }
+    ],
+    "pronunciation": "ای-میل",
+    "type": "Person, Familie und Eigenschaften",
+    "Teil": "A"
+  },
+  {
+    "id": "52",
+    "level": "A2",
+    "word": "E-Mail-Adresse",
+    "meaning": "آدرس ایمیل",
+    "antonyms": [],
+    "synonyms": ["E-Mail"],
+    "sentences": [
+      {
+        "de": "Ihre E-Mail-Adresse bitte.",
+        "fa": "لطفاً آدرس ایمیل خود را بدهید."
+      },
+      {
+        "de": "Die E-Mail-Adresse ist falsch.",
+        "fa": "آدرس ایمیل اشتباه است."
+      },
+      {
+        "de": "Geben Sie Ihre E-Mail-Adresse ein.",
+        "fa": "آدرس ایمیل خود را وارد کنید."
+      }
+    ],
+    "pronunciation": "ای-میل‌آدرسه",
+    "type": "Person, Familie und Eigenschaften",
+    "Teil": "A"
+  },
+  {
+    "id": "53",
+    "level": "A2",
+    "word": "mailen",
+    "meaning": "ایمیل کردن",
+    "antonyms": [],
+    "synonyms": ["eine E-Mail schicken"],
+    "sentences": [
+      {
+        "de": "Ich maile dir morgen.",
+        "fa": "فردا برایت ایمیل می‌کنم."
+      },
+      {
+        "de": "Kannst du mir mailen?",
+        "fa": "می‌توانی برایم ایمیل بفرستی؟"
+      },
+      {
+        "de": "Mailen ist einfach.",
+        "fa": "ایمیل کردن آسان است."
+      }
+    ],
+    "pronunciation": "مایلن",
+    "type": "Person, Familie und Eigenschaften",
+    "Teil": "A"
+  },
+  {
+    "id": "54",
+    "level": "A2",
+    "word": "per Fax",
+    "meaning": "با فکس",
+    "antonyms": [],
+    "synonyms": ["per Telefax"],
+    "sentences": [
+      {
+        "de": "Schicken Sie das Dokument per Fax.",
+        "fa": "سند را با فکس بفرستید."
+      },
+      {
+        "de": "Ich sende es per Fax.",
+        "fa": "آن را با فکس می‌فرستم."
+      },
+      {
+        "de": "Per Fax oder per E-Mail?",
+        "fa": "با فکس یا با ایمیل؟"
+      }
+    ],
+    "pronunciation": "پر فاکس",
+    "type": "Person, Familie und Eigenschaften",
+    "Teil": "A"
+  },
+  
+  {
+    "id": "55",
+    "level": "A2",
+    "word": "Familie",
+    "meaning": "خانواده",
+    "antonyms": [],
+    "synonyms": [
+      "Verwandtschaft"
+    ],
+    "sentences": [
+      {
+        "de": "Meine Familie ist sehr groß.",
+        "fa": "خانواده من خیلی بزرگ است."
+      },
+      {
+        "de": "Wir essen jeden Sonntag mit der ganzen Familie.",
+        "fa": "ما هر یکشنبه با تمام خانواده غذا می‌خوریم."
+      },
+      {
+        "de": "Die Familie geht zusammen in den Park.",
+        "fa": "خانواده با هم به پارک می‌روند."
+      }
+    ],
+    "pronunciation": "فامیلیِه",
+    "type": "Person, Familie und Eigenschaften",
+    "Teil": "A"
+  },
+  {
+    "id": "56",
+    "level": "A2",
+    "word": "Eltern",
+    "meaning": "والدین",
+    "antonyms": [],
+    "synonyms": [
+      "Mutter und Vater"
+    ],
+    "sentences": [
+      {
+        "de": "Meine Eltern wohnen in Berlin.",
+        "fa": "والدین من در برلین زندگی می‌کنند."
+      },
+      {
+        "de": "Die Eltern helfen ihren Kindern bei den Hausaufgaben.",
+        "fa": "والدین به کودکانشان در تکالیف کمک می‌کنند."
+      },
+      {
+        "de": "Seine Eltern sind sehr nett.",
+        "fa": "والدین او خیلی مهربان هستند."
+      }
+    ],
+    "pronunciation": "الترن",
+    "type": "Person, Familie und Eigenschaften",
+    "Teil": "A"
+  },
+  {
+    "id": "57",
+    "level": "A2",
+    "word": "Ehepaar",
+    "meaning": "زن و شوهر / زوج",
+    "antonyms": [],
+    "synonyms": [
+      "Mann und Frau",
+      "Paar"
+    ],
+    "sentences": [
+      {
+        "de": "Das Ehepaar feiert heute Hochzeitstag.",
+        "fa": "زن و شوهر امروز سالگرد ازدواجشان را جشن می‌گیرند."
+      },
+      {
+        "de": "Das alte Ehepaar geht jeden Morgen spazieren.",
+        "fa": "زن و شوهر پیر هر صبح پیاده‌روی می‌کنند."
+      },
+      {
+        "de": "Sie sind ein glückliches Ehepaar.",
+        "fa": "آنها یک زوج خوشبخت هستند."
+      }
+    ],
+    "pronunciation": "ائه‌پار",
+    "type": "Person, Familie und Eigenschaften",
+    "Teil": "A"
+  },
+  {
+    "id": "58",
+    "level": "A2",
+    "word": "Kinder",
+    "meaning": "کودکان / بچه‌ها",
+    "antonyms": [
+      "Erwachsene"
+    ],
+    "synonyms": [
+      "Jungen und Mädchen"
+    ],
+    "sentences": [
+      {
+        "de": "Die Kinder spielen im Garten.",
+        "fa": "بچه‌ها در باغ بازی می‌کنند."
+      },
+      {
+        "de": "Viele Kinder gehen zur Schule.",
+        "fa": "بسیاری از کودکان به مدرسه می‌روند."
+      },
+      {
+        "de": "Die Kinder sind laut und fröhlich.",
+        "fa": "بچه‌ها پر سر و صدا و شاد هستند."
+      }
+    ],
+    "pronunciation": "کیندر",
+    "type": "Person, Familie und Eigenschaften",
+    "Teil": "A"
+  },
+  {
+    "id": "59",
+    "level": "A2",
+    "word": "Verwandte",
+    "meaning": "اقوام / خویشاوندان",
+    "antonyms": [],
+    "synonyms": [
+      "Familienmitglieder"
+    ],
+    "sentences": [
+      {
+        "de": "Wir besuchen unsere Verwandten im Sommer.",
+        "fa": "ما تابستان به دیدن اقواممان می‌رویم."
+      },
+      {
+        "de": "Alle Verwandte kommen zur Feier.",
+        "fa": "تمام اقوام به جشن می‌آیند."
+      },
+      {
+        "de": "Ich habe viele Verwandte in Deutschland.",
+        "fa": "من اقوام زیادی در آلمان دارم."
+      }
+    ],
+    "pronunciation": "فرواندته",
+    "type": "Person, Familie und Eigenschaften",
+    "Teil": "A"
+  },
+  {
+    "id": "60",
+    "level": "A2",
+    "word": "Oma",
+    "meaning": "مادربزرگ / مادربزرگ مادری یا پدری",
+    "antonyms": [],
+    "synonyms": [
+      "Großmutter"
+    ],
+    "sentences": [
+      {
+        "de": "Meine Oma backt den besten Kuchen.",
+        "fa": "مادربزرگ من بهترین کیک را می‌پزد."
+      },
+      {
+        "de": "Oma erzählt schöne Geschichten.",
+        "fa": "مادربزرگ داستان‌های قشنگ تعریف می‌کند."
+      },
+      {
+        "de": "Die Oma liest dem Baby ein Buch vor.",
+        "fa": "مادربزرگ برای نوزاد کتاب می‌خواند."
+      }
+    ],
+    "pronunciation": "اُما",
+    "type": "Person, Familie und Eigenschaften",
+    "Teil": "A"
+  },
+  {
+    "id": "61",
+    "level": "A2",
+    "word": "Opa",
+    "meaning": "پدربزرگ",
+    "antonyms": [],
+    "synonyms": [
+      "Großvater"
+    ],
+    "sentences": [
+      {
+        "de": "Mein Opa fährt gerne Fahrrad.",
+        "fa": "پدربزرگ من دوست دارد دوچرخه‌سواری کند."
+      },
+      {
+        "de": "Opa spielt Fußball mit den Kindern.",
+        "fa": "پدربزرگ با بچه‌ها فوتبال بازی می‌کند."
+      },
+      {
+        "de": "Der Opa hat einen schönen Garten.",
+        "fa": "پدربزرگ باغ قشنگی دارد."
+      }
+    ],
+    "pronunciation": "اُپا",
+    "type": "Person, Familie und Eigenschaften",
+    "Teil": "A"
+  },
+  {
+    "id": "62",
+    "level": "A2",
+    "word": "Baby",
+    "meaning": "نوزاد / بچه",
+    "antonyms": [
+      "Erwachsener"
+    ],
+    "synonyms": [
+      "Säugling",
+      "Kleinkind"
+    ],
+    "sentences": [
+      {
+        "de": "Das Baby schläft jetzt.",
+        "fa": "نوزاد حالا خواب است."
+      },
+      {
+        "de": "Das Baby lächelt seine Mutter an.",
+        "fa": "نوزاد به مادرش لبخند می‌زند."
+      },
+      {
+        "de": "Das Baby weint, weil es Hunger hat.",
+        "fa": "نوزاد گریه می‌کند چون گرسنه است."
+      }
+    ],
+    "pronunciation": "بِبی",
+    "type": "Person, Familie und Eigenschaften",
+    "Teil": "A"
+  },
+
+  {
+    "id": "63",
+    "level": "A2",
+    "word": "der Sohn",
+    "meaning": "پسر",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Mein Sohn ist zwölf Jahre alt.",
+        "fa": "پسر من دوازده ساله است."
+      },
+      {
+        "de": "Der Sohn hilft seiner Mutter in der Küche.",
+        "fa": "پسر به مادرش در آشپزخانه کمک می‌کند."
+      },
+      {
+        "de": "Sie hat einen Sohn und eine Tochter.",
+        "fa": "او یک پسر و یک دختر دارد."
+      }
+    ],
+    "pronunciation": "در زون",
+    "type": "Person, Familie und Eigenschaften",
+    "Teil": "A"
+  },
+  {
+    "id": "64",
+    "level": "A2",
+    "word": "der Bruder",
+    "meaning": "برادر",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Mein Bruder wohnt in Berlin.",
+        "fa": "برادر من در برلین زندگی می‌کند."
+      },
+      {
+        "de": "Ich habe zwei Brüder und eine Schwester.",
+        "fa": "من دو برادر و یک خواهر دارم."
+      },
+      {
+        "de": "Der Bruder spielt Fußball mit seinem Freund.",
+        "fa": "برادر با دوستش فوتبال بازی می‌کند."
+      }
+    ],
+    "pronunciation": "در برودر",
+    "type": "Person, Familie und Eigenschaften",
+    "Teil": "A"
+  },
+  {
+    "id": "65",
+    "level": "A2",
+    "word": "das Haar",
+    "meaning": "مو",
+    "antonyms": [],
+    "synonyms": ["die Haare"],
+    "sentences": [
+      {
+        "de": "Sie hat langes Haar.",
+        "fa": "او موهای بلندی دارد."
+      },
+      {
+        "de": "Mein Haar ist braun.",
+        "fa": "موهای من قهوه‌ای است."
+      },
+      {
+        "de": "Er kämmt sein Haar jeden Morgen.",
+        "fa": "او هر صبح موهایش را شانه می‌کند."
+      }
+    ],
+    "pronunciation": "داس هار",
+    "type": "Person, Familie und Eigenschaften",
+    "Teil": "A"
+  },
+  {
+    "id": "66",
+    "level": "A2",
+    "word": "lang",
+    "meaning": "بلند",
+    "antonyms": ["kurz"],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Sie hat lange Haare.",
+        "fa": "او موهای بلندی دارد."
+      },
+      {
+        "de": "Der Tisch ist lang.",
+        "fa": "میز بلند است."
+      },
+      {
+        "de": "Der Film ist zu lang.",
+        "fa": "فیلم خیلی طولانی است."
+      }
+    ],
+    "pronunciation": "لانگ",
+    "type": "Person, Familie und Eigenschaften",
+    "Teil": "A"
+  },
+  {
+    "id": "67",
+    "level": "A2",
+    "word": "dünn",
+    "meaning": "نازک / لاغر",
+    "antonyms": ["dick"],
+    "synonyms": ["schlank"],
+    "sentences": [
+      {
+        "de": "Sie ist sehr dünn.",
+        "fa": "او خیلی لاغر است."
+      },
+      {
+        "de": "Das Buch ist dünn.",
+        "fa": "کتاب نازک است."
+      },
+      {
+        "de": "Er trägt eine dünne Jacke.",
+        "fa": "او یک کت نازک پوشیده است."
+      }
+    ],
+    "pronunciation": "دون",
+    "type": "Person, Familie und Eigenschaften",
+    "Teil": "A"
+  },
+  {
+    "id": "68",
+    "level": "A2",
+    "word": "die Tochter",
+    "meaning": "دختر",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Meine Tochter geht zur Schule.",
+        "fa": "دختر من به مدرسه می‌رود."
+      },
+      {
+        "de": "Die Tochter hilft ihrem Vater.",
+        "fa": "دختر به پدرش کمک می‌کند."
+      },
+      {
+        "de": "Sie hat eine Tochter und zwei Söhne.",
+        "fa": "او یک دختر و دو پسر دارد."
+      }
+    ],
+    "pronunciation": "دی توختر",
+    "type": "Person, Familie und Eigenschaften",
+    "Teil": "A"
+  },
+  {
+    "id": "69",
+    "level": "A2",
+    "word": "die Großeltern",
+    "meaning": "پدربزرگ و مادربزرگ (جمع)",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Meine Großeltern wohnen auf dem Land.",
+        "fa": "پدربزرگ و مادربزرگ من در روستا زندگی می‌کنند."
+      },
+      {
+        "de": "Die Großeltern besuchen uns oft.",
+        "fa": "پدربزرگ و مادربزرگ اغلب به دیدن ما می‌آیند."
+      },
+      {
+        "de": "Ich liebe meine Großeltern sehr.",
+        "fa": "من پدربزرگ و مادربزرگم را خیلی دوست دارم."
+      }
+    ],
+    "pronunciation": "دی گروس الترن",
+    "type": "Person, Familie und Eigenschaften",
+    "Teil": "A"
+  },
+  {
+    "id": "70",
+    "level": "A2",
+    "word": "die Augenfarbe",
+    "meaning": "رنگ چشم",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Welche Augenfarbe hast du?",
+        "fa": "رنگ چشم تو چیست؟"
+      },
+      {
+        "de": "Ihre Augenfarbe ist blau.",
+        "fa": "رنگ چشم او آبی است."
+      },
+      {
+        "de": "Die Augenfarbe meines Bruders ist braun.",
+        "fa": "رنگ چشم برادر من قهوه‌ای است."
+      }
+    ],
+    "pronunciation": "دی آوگن فاربه",
+    "type": "Person, Familie und Eigenschaften",
+    "Teil": "A"
+  },
+  {
+    "id": "71",
+    "level": "A2",
+    "word": "hübsch",
+    "meaning": "زیبا / قشنگ",
+    "antonyms": ["hässlich"],
+    "synonyms": ["schön"],
+    "sentences": [
+      {
+        "de": "Sie ist sehr hübsch.",
+        "fa": "او خیلی زیبا است."
+      },
+      {
+        "de": "Das ist ein hübsches Haus.",
+        "fa": "این یک خانه قشنگ است."
+      },
+      {
+        "de": "Er findet seine Schwester hübsch.",
+        "fa": "او خواهرش را زیبا می‌بیند."
+      }
+    ],
+    "pronunciation": "هوپش",
+    "type": "Person, Familie und Eigenschaften",
+    "Teil": "A"
+  },
+  {
+    "id": "72",
+    "level": "A2",
+    "word": "die Schwester",
+    "meaning": "خواهر",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Meine Schwester ist älter als ich.",
+        "fa": "خواهر من بزرگتر از من است."
+      },
+      {
+        "de": "Die Schwester liest ein Buch.",
+        "fa": "خواهر یک کتاب می‌خواند."
+      },
+      {
+        "de": "Ich habe eine Schwester.",
+        "fa": "من یک خواهر دارم."
+      }
+    ],
+    "pronunciation": "دی شوستر",
+    "type": "Person, Familie und Eigenschaften",
+    "Teil": "A"
+  },
+  {
+    "id": "73",
+    "level": "A2",
+    "word": "der/die Ausländer/-in",
+    "meaning": "خارجی (مذکر/مؤنث)",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Er ist ein Ausländer aus Italien.",
+        "fa": "او یک خارجی از ایتالیا است."
+      },
+      {
+        "de": "Die Ausländerin lernt Deutsch.",
+        "fa": "زن خارجی آلمانی یاد می‌گیرد."
+      },
+      {
+        "de": "Viele Ausländer leben in dieser Stadt.",
+        "fa": "بسیاری از خارجی‌ها در این شهر زندگی می‌کنند."
+      }
+    ],
+    "pronunciation": "در/دی آوسلندر/این",
+    "type": "Person, Familie und Eigenschaften",
+    "Teil": "A"
+  },
+  {
+    "id": "74",
+    "level": "A2",
+    "word": "kurz",
+    "meaning": "کوتاه",
+    "antonyms": ["lang"],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Sie hat kurze Haare.",
+        "fa": "او موهای کوتاهی دارد."
+      },
+      {
+        "de": "Der Film ist kurz.",
+        "fa": "فیلم کوتاه است."
+      },
+      {
+        "de": "Es ist ein kurzer Weg.",
+        "fa": "این یک مسیر کوتاه است."
+      }
+    ],
+    "pronunciation": "کورتس",
+    "type": "Person, Familie und Eigenschaften",
+    "Teil": "A"
+  },
+  {
+    "id": "75",
+    "level": "A2",
+    "word": "dick",
+    "meaning": "ضخیم / چاق",
+    "antonyms": ["dünn"],
+    "synonyms": ["stark"],
+    "sentences": [
+      {
+        "de": "Er ist ein bisschen dick.",
+        "fa": "او کمی چاق است."
+      },
+      {
+        "de": "Das Buch ist dick.",
+        "fa": "کتاب ضخیم است."
+      },
+      {
+        "de": "Sie trägt eine dicke Jacke.",
+        "fa": "او یک کت ضخیم پوشیده است."
+      }
+    ],
+    "pronunciation": "دیک",
+    "type": "Person, Familie und Eigenschaften",
+    "Teil": "A"
+  },
+  {
+    "id": "76",
+    "level": "A2",
+    "word": "neugierig",
+    "meaning": "کنجکاو",
+    "antonyms": [
+      "uninteressiert",
+      "gleichgültig"
+    ],
+    "synonyms": [
+      "wissbegierig",
+      "interessiert"
+    ],
+    "sentences": [
+      {
+        "de": "Das Kind ist sehr neugierig und fragt viel.",
+        "fa": "کودک خیلی کنجکاو است و زیاد سؤال می‌پرسد."
+      },
+      {
+        "de": "Ich bin neugierig auf den neuen Film.",
+        "fa": "من نسبت به فیلم جدید کنجکاوم."
+      },
+      {
+        "de": "Sie ist neugierig und liest viele Bücher.",
+        "fa": "او کنجکاو است و کتاب‌های زیادی می‌خواند."
+      }
+    ],
+    "pronunciation": "نوی‌گیریش",
+    "type": "Person, Familie und Eigenschaften",
+    "Teil": "A"
+  },
+  {
+    "id": "77",
+    "level": "A2",
+    "word": "freundlich",
+    "meaning": "دوستانه / مهربان",
+    "antonyms": [
+      "unfreundlich"
+    ],
+    "synonyms": [
+      "nett",
+      "lieb"
+    ],
+    "sentences": [
+      {
+        "de": "Der Lehrer ist immer freundlich zu den Schülern.",
+        "fa": "معلم همیشه با دانش‌آموزان دوستانه رفتار می‌کند."
+      },
+      {
+        "de": "Sie hat ein freundliches Lächeln.",
+        "fa": "او لبخند دوستانه‌ای دارد."
+      },
+      {
+        "de": "In Deutschland sind die Leute oft freundlich.",
+        "fa": "در آلمان مردم اغلب دوستانه هستند."
+      }
+    ],
+    "pronunciation": "فرویندلیش",
+    "type": "Person, Familie und Eigenschaften",
+    "Teil": "A"
+  },
+  {
+    "id": "78",
+    "level": "A2",
+    "word": "sympathisch",
+    "meaning": "دوست‌داشتنی / جذاب",
+    "antonyms": [
+      "unsympathisch"
+    ],
+    "synonyms": [
+      "liebenswert",
+      "nett"
+    ],
+    "sentences": [
+      {
+        "de": "Mein Nachbar ist sehr sympathisch.",
+        "fa": "همسایه من خیلی دوست‌داشتنی است."
+      },
+      {
+        "de": "Sie findet ihn sympathisch.",
+        "fa": "او او را دوست‌داشتنی می‌بیند."
+      },
+      {
+        "de": "Das ist eine sympathische Familie.",
+        "fa": "این یک خانواده دوست‌داشتنی است."
+      }
+    ],
+    "pronunciation": "زومپاتی‌ش",
+    "type": "Person, Familie und Eigenschaften",
+    "Teil": "A"
+  },
+  {
+    "id": "79",
+    "level": "A2",
+    "word": "lügen",
+    "meaning": "دروغ گفتن",
+    "antonyms": [
+      "die Wahrheit sagen"
+    ],
+    "synonyms": [
+      "nicht ehrlich sein"
+    ],
+    "sentences": [
+      {
+        "de": "Du sollst nicht lügen.",
+        "fa": "نباید دروغ بگویی."
+      },
+      {
+        "de": "Er lügt oft über seine Arbeit.",
+        "fa": "او اغلب درباره کارش دروغ می‌گوید."
+      },
+      {
+        "de": "Kinder lügen manchmal, wenn sie Angst haben.",
+        "fa": "کودکان گاهی وقتی می‌ترسند دروغ می‌گویند."
+      }
+    ],
+    "pronunciation": "لوگن",
+    "type": "Person, Familie und Eigenschaften",
+    "Teil": "A"
+  },
+  {
+    "id": "80",
+    "level": "A2",
+    "word": "unfreundlich",
+    "meaning": "نامتعارف / بی‌مهر",
+    "antonyms": [
+      "freundlich"
+    ],
+    "synonyms": [
+      "gemein",
+      "unhöflich"
+    ],
+    "sentences": [
+      {
+        "de": "Der Mann war unfreundlich zu mir.",
+        "fa": "مرد با من بی‌مهر بود."
+      },
+      {
+        "de": "Warum bist du heute unfreundlich?",
+        "fa": "چرا امروز بی‌مهر هستی؟"
+      },
+      {
+        "de": "Das Hotelpersonal ist nie unfreundlich.",
+        "fa": "کارکنان هتل هرگز بی‌مهر نیستند."
+      }
+    ],
+    "pronunciation": "اون‌فرویندلیش",
+    "type": "Person, Familie und Eigenschaften",
+    "Teil": "A"
+  },
+  {
+    "id": "81",
+    "level": "A2",
+    "word": "zufrieden mit",
+    "meaning": "راضی از",
+    "antonyms": [
+      "unzufrieden mit"
+    ],
+    "synonyms": [
+      "glücklich mit"
+    ],
+    "sentences": [
+      {
+        "de": "Ich bin zufrieden mit meinem neuen Job.",
+        "fa": "من از کار جدیدم راضی‌ام."
+      },
+      {
+        "de": "Sie ist zufrieden mit ihrem Leben.",
+        "fa": "او از زندگی‌اش راضی است."
+      },
+      {
+        "de": "Bist du zufrieden mit dem Geschenk?",
+        "fa": "از هدیه راضی هستی؟"
+      }
+    ],
+    "pronunciation": "تسوفری‌دِن میت",
+    "type": "Person, Familie und Eigenschaften",
+    "Teil": "A"
+  },
+  {
+    "id": "82",
+    "level": "A2",
+    "word": "intelligent",
+    "meaning": "باهوش",
+    "antonyms": [
+      "dumm"
+    ],
+    "synonyms": [
+      "klug",
+      "schlau"
+    ],
+    "sentences": [
+      {
+        "de": "Der Schüler ist sehr intelligent.",
+        "fa": "دانش‌آموز خیلی باهوش است."
+      },
+      {
+        "de": "Sie hat eine intelligente Lösung gefunden.",
+        "fa": "او یک راه‌حل باهوشانه پیدا کرده است."
+      },
+      {
+        "de": "Intelligente Menschen lernen schnell.",
+        "fa": "مردم باهوش سریع یاد می‌گیرند."
+      }
+    ],
+    "pronunciation": "اینتلی‌گنت",
+    "type": "Person, Familie und Eigenschaften",
+    "Teil": "A"
+  },
+  {
+    "id": "83",
+    "level": "A2",
+    "word": "sportlich",
+    "meaning": "ورزشی",
+    "antonyms": [
+      "unsportlich"
+    ],
+    "synonyms": [
+      "aktiv"
+    ],
+    "sentences": [
+      {
+        "de": "Mein Bruder ist sehr sportlich.",
+        "fa": "برادر من خیلی ورزشی است."
+      },
+      {
+        "de": "Sie trägt sportliche Kleidung.",
+        "fa": "او لباس ورزشی می‌پوشد."
+      },
+      {
+        "de": "Sportliche Leute gehen oft ins Fitnessstudio.",
+        "fa": "مردم ورزشی اغلب به باشگاه می‌روند."
+      }
+    ],
+    "pronunciation": "شپورتلیش",
+    "type": "Person, Familie und Eigenschaften",
+    "Teil": "A"
+  },
+  {
+    "id": "84",
+    "level": "A2",
+    "word": "ehrlich",
+    "meaning": "صادق",
+    "antonyms": [
+      "unehrlich",
+      "lügnerisch"
+    ],
+    "synonyms": [
+      "aufrichtig"
+    ],
+    "sentences": [
+      {
+        "de": "Er ist ein ehrlicher Freund.",
+        "fa": "او دوست صادقی است."
+      },
+      {
+        "de": "Sag mir die ehrliche Meinung.",
+        "fa": "نظر صادقانه‌ات را بگو."
+      },
+      {
+        "de": "Ehrliche Menschen haben gute Freunde.",
+        "fa": "مردم صادق دوستان خوبی دارند."
+      }
+    ],
+    "pronunciation": "آرلیش",
+    "type": "Person, Familie und Eigenschaften",
+    "Teil": "A"
+  },
+  {
+    "id": "85",
+    "level": "A2",
+    "word": "ruhig",
+    "meaning": "آرام",
+    "antonyms": [
+      "nervös",
+      "laut"
+    ],
+    "synonyms": [
+      "still",
+      "gelassen"
+    ],
+    "sentences": [
+      {
+        "de": "Das Baby ist ruhig.",
+        "fa": "نوزاد آرام است."
+      },
+      {
+        "de": "Er spricht immer ruhig.",
+        "fa": "او همیشه آرام صحبت می‌کند."
+      },
+      {
+        "de": "In der Bibliothek ist es ruhig.",
+        "fa": "در کتابخانه آرام است."
+      }
+    ],
+    "pronunciation": "روایش",
+    "type": "Person, Familie und Eigenschaften",
+    "Teil": "A"
+  },
+  {
+    "id": "86",
+    "level": "A2",
+    "word": "eifersüchtig",
+    "meaning": "حسود",
+    "antonyms": [
+      "nicht eifersüchtig"
+    ],
+    "synonyms": [
+      "neidisch"
+    ],
+    "sentences": [
+      {
+        "de": "Er ist eifersüchtig auf seinen Bruder.",
+        "fa": "او به برادرش حسودی می‌کند."
+      },
+      {
+        "de": "Warum bist du eifersüchtig?",
+        "fa": "چرا حسود هستی؟"
+      },
+      {
+        "de": "Eifersüchtige Menschen sind oft unglücklich.",
+        "fa": "مردم حسود اغلب ناراضی هستند."
+      }
+    ],
+    "pronunciation": "آیفرزوئی‌شتیش",
+    "type": "Person, Familie und Eigenschaften",
+    "Teil": "A"
+  },
+  {
+    "id": "87",
+    "level": "A2",
+    "word": "fröhlich",
+    "meaning": "شاد / شادمان",
+    "antonyms": [
+      "traurig"
+    ],
+    "synonyms": [
+      "glücklich",
+      "lustig"
+    ],
+    "sentences": [
+      {
+        "de": "Die Kinder sind fröhlich im Park.",
+        "fa": "کودکان در پارک شاد هستند."
+      },
+      {
+        "de": "Sie singt ein fröhliches Lied.",
+        "fa": "او آهنگ شادی می‌خواند."
+      },
+      {
+        "de": "Fröhliche Menschen lächeln viel.",
+        "fa": "مردم شاد زیاد لبخند می‌زنند."
+      }
+    ],
+    "pronunciation": "فرویلیش",
+    "type": "Person, Familie und Eigenschaften",
+    "Teil": "A"
+  },
+  {
+    "id": "88",
+    "level": "A2",
+    "word": "lustig",
+    "meaning": "بامزه / خنده‌دار",
+    "antonyms": [
+      "ernst"
+    ],
+    "synonyms": [
+      "komisch",
+      "witzig"
+    ],
+    "sentences": [
+      {
+        "de": "Der Film ist sehr lustig.",
+        "fa": "فیلم خیلی بامزه است."
+      },
+      {
+        "de": "Er erzählt lustige Geschichten.",
+        "fa": "او داستان‌های بامزه تعریف می‌کند."
+      },
+      {
+        "de": "Wir haben einen lustigen Abend gehabt.",
+        "fa": "یک شب بامزه داشتیم."
+      }
+    ],
+    "pronunciation": "لوستی‌ش",
+    "type": "Person, Familie und Eigenschaften",
+    "Teil": "A"
+  },
+  {
+    "id": "89",
+    "level": "A2",
+    "word": "dunkel",
+    "meaning": "تیره / تاریک",
+    "antonyms": [
+      "hell",
+      "blond"
+    ],
+    "synonyms": [
+      "dunkelhaarig"
+    ],
+    "sentences": [
+      {
+        "de": "Er hat dunkle Haare.",
+        "fa": "او موهای تیره دارد."
+      },
+      {
+        "de": "Das Zimmer ist dunkel.",
+        "fa": "اتاق تاریک است."
+      },
+      {
+        "de": "Sie trägt ein dunkles Kleid.",
+        "fa": "او لباس تیره می‌پوشد."
+      }
+    ],
+    "pronunciation": "دونکل",
+    "type": "Person, Familie und Eigenschaften",
+    "Teil": "A"
+  },
+  {
+    "id": "90",
+    "level": "A2",
+    "word": "nett",
+    "meaning": "خوب / مهربان",
+    "antonyms": [
+      "unnett",
+      "gemein"
+    ],
+    "synonyms": [
+      "freundlich"
+    ],
+    "sentences": [
+      {
+        "de": "Das ist ein netter Mann.",
+        "fa": "این مرد خوبی است."
+      },
+      {
+        "de": "Sie ist immer nett zu mir.",
+        "fa": "او همیشه با من مهربان است."
+      },
+      {
+        "de": "Vielen Dank, das ist sehr nett!",
+        "fa": "ممنون خیلی، خیلی خوب است!"
+      }
+    ],
+    "pronunciation": "نت",
+    "type": "Person, Familie und Eigenschaften",
+    "Teil": "A"
+  },
+  {
+    "id": "91",
+    "level": "A2",
+    "word": "nervös",
+    "meaning": "عصبی",
+    "antonyms": [
+      "ruhig"
+    ],
+    "synonyms": [
+      "aufgeregt"
+    ],
+    "sentences": [
+      {
+        "de": "Vor der Prüfung bin ich nervös.",
+        "fa": "قبل از امتحان عصبی‌ام."
+      },
+      {
+        "de": "Sie ist nervös wegen des Interviews.",
+        "fa": "او به خاطر مصاحبه عصبی است."
+      },
+      {
+        "de": "Nervöse Menschen rauchen manchmal.",
+        "fa": "مردم عصبی گاهی سیگار می‌کشند."
+      }
+    ],
+    "pronunciation": "نِروُس",
+    "type": "Person, Familie und Eigenschaften",
+    "Teil": "A"
+  },
+  {
+    "id": "92",
+    "level": "A2",
+    "word": "dumm",
+    "meaning": "احمق",
+    "antonyms": [
+      "intelligent",
+      "klug"
+    ],
+    "synonyms": [
+      "blöd"
+    ],
+    "sentences": [
+      {
+        "de": "Das war eine dumme Frage.",
+        "fa": "این یک سؤال احمقانه بود."
+      },
+      {
+        "de": "Er fühlt sich nicht dumm.",
+        "fa": "او احساس احمق بودن نمی‌کند."
+      },
+      {
+        "de": "Mach keine dummen Sachen!",
+        "fa": "کارهای احمقانه نکن!"
+      }
+    ],
+    "pronunciation": "دوم",
+    "type": "Person, Familie und Eigenschaften",
+    "Teil": "A"
+  },
+  {
+    "id": "93",
+    "level": "A2",
+    "word": "blöd",
+    "meaning": "احمق / مسخره",
+    "antonyms": [
+      "klug"
+    ],
+    "synonyms": [
+      "dumm"
+    ],
+    "sentences": [
+      {
+        "de": "Das ist eine blöde Idee.",
+        "fa": "این ایده مسخره‌ای است."
+      },
+      {
+        "de": "Fühl dich nicht blöd.",
+        "fa": "احمق احساس نکن."
+      },
+      {
+        "de": "Er sagt manchmal blöde Dinge.",
+        "fa": "او گاهی چیزهای احمقانه می‌گوید."
+      }
+    ],
+    "pronunciation": "بلوت",
+    "type": "Person, Familie und Eigenschaften",
+    "Teil": "A"
+  },
+  {
+    "id": "94",
+    "level": "A2",
+    "word": "ernst",
+    "meaning": "جدی",
+    "antonyms": [
+      "lustig",
+      "fröhlich"
+    ],
+    "synonyms": [
+      "streng"
+    ],
+    "sentences": [
+      {
+        "de": "Er ist ein ernster Mann.",
+        "fa": "او مرد جدی‌ای است."
+      },
+      {
+        "de": "Das ist ein ernstes Problem.",
+        "fa": "این یک مشکل جدی است."
+      },
+      {
+        "de": "Sie nimmt das Leben ernst.",
+        "fa": "او زندگی را جدی می‌گیرد."
+      }
+    ],
+    "pronunciation": "آرنست",
+    "type": "Person, Familie und Eigenschaften",
+    "Teil": "A"
+  },
+  {
+    "id": "95",
+    "level": "A2",
+    "word": "was für ein Typ",
+    "meaning": "چه جور تیپی / چه نوع آدمی",
+    "antonyms": [],
+    "synonyms": [
+      "was für ein Mensch"
+    ],
+    "sentences": [
+      {
+        "de": "Was für ein Typ ist er?",
+        "fa": "او چه جور تیپی است؟"
+      },
+      {
+        "de": "Ich weiß nicht, was für ein Typ sie ist.",
+        "fa": "نمی‌دانم او چه نوع آدمی است."
+      },
+      {
+        "de": "Er ist ein cooler Typ.",
+        "fa": "او تیپ باحالی است."
+      }
+    ],
+    "pronunciation": "واس فور آین توپ",
+    "type": "Person, Familie und Eigenschaften",
+    "Teil": "A"
+  },
+  {
+    "id": "96",
+    "level": "A2",
+    "word": "traurig",
+    "meaning": "غمگین",
+    "antonyms": [
+      "glücklich",
+      "fröhlich"
+    ],
+    "synonyms": [
+      "unglücklich"
+    ],
+    "sentences": [
+      {
+        "de": "Sie ist traurig wegen des Films.",
+        "fa": "او به خاطر فیلم غمگین است."
+      },
+      {
+        "de": "Warum bist du traurig?",
+        "fa": "چرا غمگینی؟"
+      },
+      {
+        "de": "Traurige Menschen brauchen Freunde.",
+        "fa": "مردم غمگین به دوستان نیاز دارند."
+      }
+    ],
+    "pronunciation": "تراوریش",
+    "type": "Person, Familie und Eigenschaften",
+    "Teil": "A"
+  },
+  {
+    "id": "97",
+    "level": "A2",
+    "word": "glücklich",
+    "meaning": "خوشحال",
+    "antonyms": [
+      "traurig",
+      "unglücklich"
+    ],
+    "synonyms": [
+      "fröhlich"
+    ],
+    "sentences": [
+      {
+        "de": "Ich bin glücklich mit meiner Familie.",
+        "fa": "من با خانواده‌ام خوشحالم."
+      },
+      {
+        "de": "Sie sieht glücklich aus.",
+        "fa": "او خوشحال به نظر می‌رسد."
+      },
+      {
+        "de": "Glückliche Menschen lächeln oft.",
+        "fa": "مردم خوشحال اغلب لبخند می‌زنند."
+      }
+    ],
+    "pronunciation": "گلوک‌لیش",
+    "type": "Person, Familie und Eigenschaften",
+    "Teil": "A"
+  },
+  {
+    "id": "98",
+    "level": "A2",
+    "word": "Bart",
+    "meaning": "ریش",
+    "antonyms": [],
+    "synonyms": [
+      "Vollbart"
+    ],
+    "sentences": [
+      {
+        "de": "Er hat einen langen Bart.",
+        "fa": "او ریش بلندی دارد."
+      },
+      {
+        "de": "Mein Vater trägt einen Bart.",
+        "fa": "پدرم ریش دارد."
+      },
+      {
+        "de": "Der Bart steht ihm gut.",
+        "fa": "ریش به او می‌آید."
+      }
+    ],
+    "pronunciation": "بارت",
+    "type": "Person, Familie und Eigenschaften",
+    "Teil": "A"
+  },
+  {
+    "id": "99",
+    "level": "A2",
+    "word": "Humor",
+    "meaning": "حس شوخ‌طبعی",
+    "antonyms": [],
+    "synonyms": [
+      "Witz"
+    ],
+    "sentences": [
+      {
+        "de": "Er hat viel Humor.",
+        "fa": "او حس شوخ‌طبعی زیادی دارد."
+      },
+      {
+        "de": "Sie mag Männer mit Humor.",
+        "fa": "او مردانی با حس شوخ‌طبعی را دوست دارد."
+      },
+      {
+        "de": "Humor ist wichtig im Leben.",
+        "fa": "حس شوخ‌طبعی در زندگی مهم است."
+      }
+    ],
+    "pronunciation": "هومور",
+    "type": "Person, Familie und Eigenschaften",
+    "Teil": "A"
+  },
+  {
+    "id": "100",
+    "level": "A2",
+    "word": "komisch",
+    "meaning": "خنده‌دار / عجیب",
+    "antonyms": [
+      "normal"
+    ],
+    "synonyms": [
+      "lustig",
+      "seltsam"
+    ],
+    "sentences": [
+      {
+        "de": "Das ist eine komische Geschichte.",
+        "fa": "این داستان خنده‌داری است."
+      },
+      {
+        "de": "Er benimmt sich komisch.",
+        "fa": "او رفتار عجیبی دارد."
+      },
+      {
+        "de": "Der Witz war sehr komisch.",
+        "fa": "جوک خیلی خنده‌دار بود."
+      }
+    ],
+    "pronunciation": "کومیش",
+    "type": "Person, Familie und Eigenschaften",
+    "Teil": "A"
+  },
+  {
+    "id": "101",
+    "level": "A2",
+    "word": "du sagen",
+    "meaning": "تو گفتن (استفاده از ضمیر غیررسمی «du»)",
+    "antonyms": [
+      "Sie sagen"
+    ],
+    "synonyms": [
+      "informell sprechen"
+    ],
+    "sentences": [
+      {
+        "de": "Mit Freunden sage ich du.",
+        "fa": "با دوستانم «du» می‌گویم."
+      },
+      {
+        "de": "Wir sagen du zueinander.",
+        "fa": "ما به هم «du» می‌گوییم."
+      },
+      {
+        "de": "Kann ich du sagen?",
+        "fa": "می‌توانم «du» بگویم؟"
+      }
+    ],
+    "pronunciation": "دو زاگن",
+    "type": "Freunde und Kontakte",
+    "Teil": "B"
+  },
+  {
+    "id": "102",
+    "level": "A2",
+    "word": "Sie sagen",
+    "meaning": "شما گفتن (استفاده از ضمیر رسمی «Sie»)",
+    "antonyms": [
+      "du sagen"
+    ],
+    "synonyms": [
+      "formell sprechen"
+    ],
+    "sentences": [
+      {
+        "de": "Mit Kollegen sage ich Sie.",
+        "fa": "با همکارانم «Sie» می‌گویم."
+      },
+      {
+        "de": "Man sagt Sie zu unbekannten Personen.",
+        "fa": "به افراد ناشناس «Sie» گفته می‌شود."
+      },
+      {
+        "de": "Soll ich Sie sagen oder du?",
+        "fa": "باید «Sie» بگویم یا «du»؟"
+      }
+    ],
+    "pronunciation": "زی زاگن",
+    "type": "Freunde und Kontakte",
+    "Teil": "B"
+  },
+  {
+    "id": "103",
+    "level": "A2",
+    "word": "Kontakt",
+    "meaning": "تماس / ارتباط",
+    "antonyms": [
+      "kein Kontakt"
+    ],
+    "synonyms": [
+      "Verbindung",
+      "Beziehung"
+    ],
+    "sentences": [
+      {
+        "de": "Ich habe Kontakt mit meiner Kollegin.",
+        "fa": "من با همکارم تماس دارم."
+      },
+      {
+        "de": "Wir halten Kontakt per E-Mail.",
+        "fa": "ما از طریق ایمیل ارتباط نگه می‌داریم."
+      },
+      {
+        "de": "Hast du Kontakt zu deinem Nachbarn?",
+        "fa": "با همسایه‌ات ارتباط داری؟"
+      }
+    ],
+    "pronunciation": "کنتاکت",
+    "type": "Freunde und Kontakte",
+    "Teil": "B"
+  },
+  {
+    "id": "104",
+    "level": "A2",
+    "word": "Kollegin",
+    "meaning": "همکار زن",
+    "antonyms": [],
+    "synonyms": [
+      "Arbeitskollegin",
+      "Mitarbeiterin"
+    ],
+    "sentences": [
+      {
+        "de": "Meine Kollegin heißt Anna.",
+        "fa": "همکار زن من آنا نام دارد."
+      },
+      {
+        "de": "Ich treffe meine Kollegin im Büro.",
+        "fa": "من همکار زنم را در دفتر ملاقات می‌کنم."
+      },
+      {
+        "de": "Die Kollegin ist sehr nett.",
+        "fa": "همکار زن خیلی مهربان است."
+      }
+    ],
+    "pronunciation": "کولگین",
+    "type": "Freunde und Kontakte",
+    "Teil": "B"
+  },
+  {
+    "id": "105",
+    "level": "A2",
+    "word": "treffen",
+    "meaning": "ملاقات کردن",
+    "antonyms": [
+      "vermeiden"
+    ],
+    "synonyms": [
+      "sich sehen",
+      "besuchen"
+    ],
+    "sentences": [
+      {
+        "de": "Ich treffe meine Freundin morgen.",
+        "fa": "من فردا دوست دخترم را ملاقات می‌کنم."
+      },
+      {
+        "de": "Wir treffen uns um acht Uhr.",
+        "fa": "ما ساعت هشت ملاقات می‌کنیم."
+      },
+      {
+        "de": "Treffen wir uns im Café?",
+        "fa": "در کافه ملاقات کنیم؟"
+      }
+    ],
+    "pronunciation": "ترفن",
+    "type": "Freunde und Kontakte",
+    "Teil": "B"
+  },
+  {
+    "id": "106",
+    "level": "A2",
+    "word": "zusammen",
+    "meaning": "با هم / در کنار هم",
+    "antonyms": [
+      "allein",
+      "getrennt"
+    ],
+    "synonyms": [
+      "gemeinsam"
+    ],
+    "sentences": [
+      {
+        "de": "Wir gehen zusammen ins Kino.",
+        "fa": "ما با هم به سینما می‌رویم."
+      },
+      {
+        "de": "Sie wohnen zusammen.",
+        "fa": "آنها با هم زندگی می‌کنند."
+      },
+      {
+        "de": "Lass uns zusammen essen.",
+        "fa": "بیا با هم غذا بخوریم."
+      }
+    ],
+    "pronunciation": "تسامن",
+    "type": "Freunde und Kontakte",
+    "Teil": "B"
+  },
+  {
+    "id": "107",
+    "level": "A2",
+    "word": "kennen",
+    "meaning": "شناختن (شخص)",
+    "antonyms": [
+      "nicht kennen"
+    ],
+    "synonyms": [
+      "wissen von"
+    ],
+    "sentences": [
+      {
+        "de": "Ich kenne meinen Nachbarn gut.",
+        "fa": "من همسایه‌ام را خوب می‌شناسم."
+      },
+      {
+        "de": "Kennst du diese Kollegin?",
+        "fa": "این همکار زن را می‌شناسی؟"
+      },
+      {
+        "de": "Wir kennen uns schon lange.",
+        "fa": "ما خیلی وقت است که همدیگر را می‌شناسیم."
+      }
+    ],
+    "pronunciation": "کنن",
+    "type": "Freunde und Kontakte",
+    "Teil": "B"
+  },
+  {
+    "id": "108",
+    "level": "A2",
+    "word": "Nachbar",
+    "meaning": "همسایه",
+    "antonyms": [],
+    "synonyms": [
+      "Nebenmann"
+    ],
+    "sentences": [
+      {
+        "de": "Mein Nachbar ist sehr freundlich.",
+        "fa": "همسایه من خیلی دوستانه است."
+      },
+      {
+        "de": "Die Nachbarn machen eine Party.",
+        "fa": "همسایه‌ها مهممانی برگزار می‌کنند."
+      },
+      {
+        "de": "Ich helfe meinem Nachbarn.",
+        "fa": "به همسایه‌ام کمک می‌کنم."
+      }
+    ],
+    "pronunciation": "ناخبار",
+    "type": "Freunde und Kontakte",
+    "Teil": "B"
+  },
+  {
+    "id": "109",
+    "level": "A2",
+    "word": "Team",
+    "meaning": "تیم / گروه",
+    "antonyms": [],
+    "synonyms": [
+      "Gruppe",
+      "Mannschaft"
+    ],
+    "sentences": [
+      {
+        "de": "Unser Team arbeitet gut zusammen.",
+        "fa": "تیم ما خوب با هم کار می‌کند."
+      },
+      {
+        "de": "Ich bin in einem netten Team.",
+        "fa": "من در یک تیم دوستانه هستم."
+      },
+      {
+        "de": "Das Team trifft sich jeden Montag.",
+        "fa": "تیم هر دوشنبه ملاقات می‌کند."
+      }
+    ],
+    "pronunciation": "تیم",
+    "type": "Freunde und Kontakte",
+    "Teil": "B"
+  },
+  {
+    "id": "110",
+    "level": "A2",
+    "word": "gefallen",
+    "meaning": "خوش آمدن / پسندیدن",
+    "antonyms": [
+      "nicht gefallen"
+    ],
+    "synonyms": [
+      "mögen"
+    ],
+    "sentences": [
+      {
+        "de": "Das Buch gefällt mir sehr.",
+        "fa": "این کتاب خیلی به من خوش می‌آید."
+      },
+      {
+        "de": "Wie gefällt dir das Team?",
+        "fa": "تیم به تو چطور خوش می‌آید؟"
+      },
+      {
+        "de": "Der Film hat mir gut gefallen.",
+        "fa": "فیلم به من خوب خوش آمد."
+      }
+    ],
+    "pronunciation": "گfallback",
+    "type": "Freunde und Kontakte",
+    "Teil": "B"
+  },
+  {
+    "id": "111",
+    "level": "A2",
+    "word": "Partner / Partnerin",
+    "meaning": "شریک / همسر (در رابطه)",
+    "antonyms": [
+      "Single",
+      "Alleinstehende"
+    ],
+    "synonyms": [
+      "Lebenspartner",
+      "Freund / Freundin"
+    ],
+    "sentences": [
+      {
+        "de": "Mein Partner heißt Lukas.",
+        "fa": "شریک من لوکاس نام دارد."
+      },
+      {
+        "de": "Sie ist meine Partnerin seit zwei Jahren.",
+        "fa": "او دو سال است که شریک من است."
+      },
+      {
+        "de": "Wir sind Partner und wohnen zusammen.",
+        "fa": "ما شریک هستیم و با هم زندگی می‌کنیم."
+      }
+    ],
+    "pronunciation": "پارتنر / پارتنرین",
+    "type": "Freunde und Kontakte",
+    "Teil": "B"
+  },
+  {
+    "id": "112",
+    "level": "A2",
+    "word": "Freund / Freundin",
+    "meaning": "دوست (پسر / دختر)",
+    "antonyms": [
+      "Feind",
+      "Fremde"
+    ],
+    "synonyms": [
+      "Kumpel",
+      "Beste Freundin",
+      "guter Freund"
+    ],
+    "sentences": [
+      {
+        "de": "Das ist mein bester Freund.",
+        "fa": "این بهترین دوست من است."
+      },
+      {
+        "de": "Meine Freundin kommt morgen zu Besuch.",
+        "fa": "دوست دختر من فردا به دیدن می‌آید."
+      },
+      {
+        "de": "Wir sind gute Freunde seit der Schule.",
+        "fa": "ما از دوران مدرسه دوست خوب هستیم."
+      }
+    ],
+    "pronunciation": "فروند / فروندین",
+    "type": "Freunde und Kontakte",
+    "Teil": "B"
+  },
+  {
+    "id": "113",
+    "level": "A2",
+    "word": "Ehemann / Ehefrau",
+    "meaning": "شوهر / همسر (زن)",
+    "antonyms": [
+      "Single",
+      "geschieden"
+    ],
+    "synonyms": [
+      "Mann",
+      "Frau",
+      "Gatte / Gattin"
+    ],
+    "sentences": [
+      {
+        "de": "Mein Ehemann arbeitet in einer Bank.",
+        "fa": "شوهر من در یک بانک کار می‌کند."
+      },
+      {
+        "de": "Seine Ehefrau ist sehr nett.",
+        "fa": "همسر او خیلی مهربان است."
+      },
+      {
+        "de": "Sie sind seit zehn Jahren Ehemann und Ehefrau.",
+        "fa": "آنها ده سال است که شوهر و همسر هستند."
+      }
+    ],
+    "pronunciation": "ائه‌مان /ائه‌فراو",
+    "type": "Freunde und Kontakte",
+    "Teil": "B"
+  },
+  {
+    "id": "114",
+    "level": "A2",
+    "word": "die Kollegin",
+    "meaning": "همکار زن",
+    "antonyms": [],
+    "synonyms": [
+      "die Arbeitskollegin",
+      "die Mitarbeiterin"
+    ],
+    "sentences": [
+      {
+        "de": "Meine Kollegin heißt Anna.",
+        "fa": "همکار من آنا نام دارد."
+      },
+      {
+        "de": "Ich treffe meine Kollegin jeden Morgen.",
+        "fa": "من هر صبح همکارم را می‌بینم."
+      },
+      {
+        "de": "Die Kollegin hilft mir bei der Arbeit.",
+        "fa": "همکار زن به من در کار کمک می‌کند."
+      }
+    ],
+    "pronunciation": "دی کُلِگین",
+    "type": "Freunde und Kontakte",
+    "Teil": "B"
+  },
+  {
+    "id": "115",
+    "level": "A2",
+    "word": "erzählen",
+    "meaning": "تعریف کردن / داستان گفتن",
+    "antonyms": [
+      "schweigen"
+    ],
+    "synonyms": [
+      "berichten",
+      "sagen"
+    ],
+    "sentences": [
+      {
+        "de": "Er erzählt mir von seinem Tag.",
+        "fa": "او برای من از روزش تعریف می‌کند."
+      },
+      {
+        "de": "Meine Freundin erzählt gern lustige Geschichten.",
+        "fa": "دوست دخترم دوست دارد داستان‌های خنده‌دار تعریف کند."
+      },
+      {
+        "de": "Kannst du mir von deinem Urlaub erzählen?",
+        "fa": "می‌توانی برای من از تعطیلاتت بگویی؟"
+      }
+    ],
+    "pronunciation": "اِرتسِلِن",
+    "type": "Freunde und Kontakte",
+    "Teil": "B"
+  },
+  {
+    "id": "116",
+    "level": "A2",
+    "word": "küssen",
+    "meaning": "بوسیدن",
+    "antonyms": [],
+    "synonyms": [
+      "einen Kuss geben"
+    ],
+    "sentences": [
+      {
+        "de": "Er küsst seine Freundin auf die Wange.",
+        "fa": "او دوست دخترش را روی گونه می‌بوسد."
+      },
+      {
+        "de": "Sie küssen sich zum Abschied.",
+        "fa": "آنها برای خداحافظی هم را می‌بوسند."
+      },
+      {
+        "de": "Möchtest du mich küssen?",
+        "fa": "دوست داری من را ببوسی؟"
+      }
+    ],
+    "pronunciation": "کوسِن",
+    "type": "Freunde und Kontakte",
+    "Teil": "B"
+  },
+  {
+    "id": "117",
+    "level": "A2",
+    "word": "der Nachbar",
+    "meaning": "همسایه (مرد)",
+    "antonyms": [],
+    "synonyms": [
+      "der Nachbarin (für Frau)"
+    ],
+    "sentences": [
+      {
+        "de": "Mein Nachbar ist sehr freundlich.",
+        "fa": "همسایه من خیلی دوستانه است."
+      },
+      {
+        "de": "Ich spreche oft mit dem Nachbar.",
+        "fa": "من اغلب با همسایه صحبت می‌کنم."
+      },
+      {
+        "de": "Der Nachbar hat einen schönen Garten.",
+        "fa": "همسایه باغ قشنگی دارد."
+      }
+    ],
+    "pronunciation": "دِر ناخبار",
+    "type": "Freunde und Kontakte",
+    "Teil": "B"
+  },
+  {
+    "id": "118",
+    "level": "A2",
+    "word": "der Sex",
+    "meaning": "سکس / رابطه جنسی",
+    "antonyms": [],
+    "synonyms": [
+      "der Geschlechtsverkehr"
+    ],
+    "sentences": [
+      {
+        "de": "Sie sprechen über Sex.",
+        "fa": "آنها در مورد سکس صحبت می‌کنند."
+      },
+      {
+        "de": "Sex ist wichtig in einer Beziehung.",
+        "fa": "سکس در یک رابطه مهم است."
+      },
+      {
+        "de": "Sie haben guten Sex.",
+        "fa": "آنها سکس خوبی دارند."
+      }
+    ],
+    "pronunciation": "دِر زِکس",
+    "type": "Freunde und Kontakte",
+    "Teil": "B"
+  },
+  {
+    "id": "119",
+    "level": "A2",
+    "word": "der Kontakt",
+    "meaning": "تماس / ارتباط",
+    "antonyms": [
+      "die Distanz"
+    ],
+    "synonyms": [
+      "die Verbindung",
+      "der Umgang"
+    ],
+    "sentences": [
+      {
+        "de": "Ich habe guten Kontakt zu meiner Familie.",
+        "fa": "من ارتباط خوبی با خانواده‌ام دارم."
+      },
+      {
+        "de": "Wir halten den Kontakt per Telefon.",
+        "fa": "ما تماس را از طریق تلفن حفظ می‌کنیم."
+      },
+      {
+        "de": "Hast du noch Kontakt zu deinem alten Freund?",
+        "fa": "هنوز با دوست قدیمی‌ات در تماس هستی؟"
+      }
+    ],
+    "pronunciation": "دِر کُنتاکت",
+    "type": "Freunde und Kontakte",
+    "Teil": "B"
+  },
+  {
+    "id": "120",
+    "level": "A2",
+    "word": "sprechen über",
+    "meaning": "در مورد ... صحبت کردن",
+    "antonyms": [],
+    "synonyms": [
+      "reden über",
+      "diskutieren"
+    ],
+    "sentences": [
+      {
+        "de": "Wir sprechen über unsere Pläne.",
+        "fa": "ما در مورد برنامه‌هایمان صحبت می‌کنیم."
+      },
+      {
+        "de": "Sie sprechen über Liebe und Beziehungen.",
+        "fa": "آنها در مورد عشق و روابط صحبت می‌کنند."
+      },
+      {
+        "de": "Können wir über das Problem sprechen?",
+        "fa": "می‌توانیم در مورد مشکل صحبت کنیم؟"
+      }
+    ],
+    "pronunciation": "شپِرِخِن اُبِر",
+    "type": "Freunde und Kontakte",
+    "Teil": "B"
+  },
+  {
+    "id": "121",
+    "level": "A2",
+    "word": "lieb haben",
+    "meaning": "دوست داشتن (عاطفی)",
+    "antonyms": [
+      "hassen"
+    ],
+    "synonyms": [
+      "mögen",
+      "gern haben"
+    ],
+    "sentences": [
+      {
+        "de": "Ich habe dich sehr lieb.",
+        "fa": "من تو را خیلی دوست دارم."
+      },
+      {
+        "de": "Sie hat ihren Hund lieb.",
+        "fa": "او سگش را خیلی دوست دارد."
+      },
+      {
+        "de": "Wir haben unsere Freunde lieb.",
+        "fa": "ما دوستانمان را دوست داریم."
+      }
+    ],
+    "pronunciation": "لیب هابِن",
+    "type": "Freunde und Kontakte",
+    "Teil": "B"
+  },
+  {
+    "id": "122",
+    "level": "A2",
+    "word": "treffen",
+    "meaning": "دیدن / ملاقات کردن",
+    "antonyms": [],
+    "synonyms": [
+      "sich treffen",
+      "besuchen"
+    ],
+    "sentences": [
+      {
+        "de": "Ich treffe meinen Freund morgen.",
+        "fa": "فردا دوست پسرم را می‌بینم."
+      },
+      {
+        "de": "Lass uns uns am Wochenende treffen.",
+        "fa": "بیا آخر هفته همدیگر را ببینیم."
+      },
+      {
+        "de": "Wir treffen uns oft im Café.",
+        "fa": "ما اغلب در کافه همدیگر را ملاقات می‌کنیم."
+      }
+    ],
+    "pronunciation": "ترِفِن",
+    "type": "Freunde und Kontakte",
+    "Teil": "B"
+  },
+  {
+    "id": "123",
+    "level": "A2",
+    "word": "reden über",
+    "meaning": "در مورد ... حرف زدن",
+    "antonyms": [],
+    "synonyms": [
+      "sprechen über",
+      "diskutieren"
+    ],
+    "sentences": [
+      {
+        "de": "Wir reden über unsere Hobbys.",
+        "fa": "ما در مورد سرگرمی‌هایمان حرف می‌زنیم."
+      },
+      {
+        "de": "Sie reden über die neue Kollegin.",
+        "fa": "آنها در مورد همکار جدید حرف می‌زنند."
+      },
+      {
+        "de": "Reden wir über etwas Schönes!",
+        "fa": "در مورد چیزی قشنگ حرف بزنیم!"
+      }
+    ],
+    "pronunciation": "رِدِن اُبِر",
+    "type": "Freunde und Kontakte",
+    "Teil": "B"
+  },
+  {
+    "id": "124",
+    "level": "A2",
+    "word": "gern haben",
+    "meaning": "دوست داشتن",
+    "antonyms": [
+      "nicht mögen"
+    ],
+    "synonyms": [
+      "mögen",
+      "lieb haben"
+    ],
+    "sentences": [
+      {
+        "de": "Ich habe dich sehr gern.",
+        "fa": "من تو را خیلی دوست دارم."
+      },
+      {
+        "de": "Sie hat ihren Nachbarn gern.",
+        "fa": "او همسایه‌اش را دوست دارد."
+      },
+      {
+        "de": "Wir haben unsere Kollegen gern.",
+        "fa": "ما همکارانمان را دوست داریم."
+      }
+    ],
+    "pronunciation": "گِرن هابِن",
+    "type": "Freunde und Kontakte",
+    "Teil": "B"
+  },
+  {
+    "id": "125",
+    "level": "A2",
+    "word": "kennen",
+    "meaning": "شناختن",
+    "antonyms": [
+      "nicht kennen"
+    ],
+    "synonyms": [
+      "wissen von"
+    ],
+    "sentences": [
+      {
+        "de": "Ich kenne meine Kollegin gut.",
+        "fa": "من همکارم را خوب می‌شناسم."
+      },
+      {
+        "de": "Kennst du meinen Nachbarn?",
+        "fa": "همسایه من را می‌شناسی؟"
+      },
+      {
+        "de": "Sie kennen sich schon lange.",
+        "fa": "آنها مدت‌هاست همدیگر را می‌شناسند."
+      }
+    ],
+    "pronunciation": "کِنِن",
+    "type": "Freunde und Kontakte",
+    "Teil": "B"
+  },
+  {
+    "id": "126",
+    "level": "A2",
+    "word": "mögen",
+    "meaning": "دوست داشتن",
+    "antonyms": [
+      "nicht mögen"
+    ],
+    "synonyms": [
+      "gern haben",
+      "lieb haben"
+    ],
+    "sentences": [
+      {
+        "de": "Ich mag dich sehr.",
+        "fa": "من تو را خیلی دوست دارم."
+      },
+      {
+        "de": "Sie mag ihren Freund.",
+        "fa": "او دوست پسرش را دوست دارد."
+      },
+      {
+        "de": "Wir mögen unsere Nachbarn.",
+        "fa": "ما همسایه‌هایمان را دوست داریم."
+      }
+    ],
+    "pronunciation": "مُوگِن",
+    "type": "Freunde und Kontakte",
+    "Teil": "B"
+  },
+  {
+    "id": "127",
+    "level": "A2",
+    "word": "gefallen",
+    "meaning": "خوش آمدن / پسندیدن",
+    "antonyms": [],
+    "synonyms": [
+      "mögen"
+    ],
+    "sentences": [
+      {
+        "de": "Du gefällst mir.",
+        "fa": "تو به من خوش می‌آیی."
+      },
+      {
+        "de": "Das neue Mädchen gefällt ihm.",
+        "fa": "دختر جدید به او خوش آمده."
+      },
+      {
+        "de": "Gefalle ich dir?",
+        "fa": "به تو خوش آمده‌ام؟"
+      }
+    ],
+    "pronunciation": "گِفالِن",
+    "type": "Freunde und Kontakte",
+    "Teil": "B"
+  },
+  {
+    "id": "128",
+    "level": "A2",
+    "word": "lieben",
+    "meaning": "عاشق بودن / دوست داشتن عمیق",
+    "antonyms": [
+      "hassen"
+    ],
+    "synonyms": [
+      "verliebt sein"
+    ],
+    "sentences": [
+      {
+        "de": "Ich liebe dich.",
+        "fa": "من عاشق تو هستم."
+      },
+      {
+        "de": "Sie liebt ihren Freund sehr.",
+        "fa": "او عاشق دوست پسرش است."
+      },
+      {
+        "de": "Wir lieben unsere Freunde.",
+        "fa": "ما دوستانمان را خیلی دوست داریم."
+      }
+    ],
+    "pronunciation": "لیبِن",
+    "type": "Freunde und Kontakte",
+    "Teil": "B"
+  }
+
+
+
+
+
+
+
+]

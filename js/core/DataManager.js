@@ -10,16 +10,22 @@ export class DataManager {
     this.dataSetName = dataSetName;
   }
 
-  getStorageKeyWords(niveau, mode, caseFilter = "all", verbMode = "") {
+  getStorageKeyWords(niveau, mode, caseFilter = "all", verbMode = "", tail = "") {
+    if (tail && tail !== "all" && this.dataSetName === 'a2worter') {
+      if (verbMode && verbMode !== "verben") {
+        return `${CONFIG.STORAGE_PREFIX}words_${this.gameType}_${this.dataSetName}_${niveau}_${mode}_${verbMode}_${caseFilter}_tail_${tail}`;
+      }
+      return `${CONFIG.STORAGE_PREFIX}words_${this.gameType}_${this.dataSetName}_${niveau}_${mode}_${caseFilter}_tail_${tail}`;
+    }
     if (verbMode && verbMode !== "verben") {
       return `${CONFIG.STORAGE_PREFIX}words_${this.gameType}_${this.dataSetName}_${niveau}_${mode}_${verbMode}_${caseFilter}`;
     }
     return `${CONFIG.STORAGE_PREFIX}words_${this.gameType}_${this.dataSetName}_${niveau}_${mode}_${caseFilter}`;
   }
 
-  async loadWords(jsonPath, niveau, mode, caseFilter = "all", verbMode = "") {
+  async loadWords(jsonPath, niveau, mode, caseFilter = "all", verbMode = "", tail = "") {
     try {
-      console.log(`[LOAD JSON] game=${this.gameType} file=${jsonPath} level=${niveau} mode=${mode} case=${caseFilter} verbMode=${verbMode || 'default'}`);
+      console.log(`[LOAD JSON] game=${this.gameType} file=${jsonPath} level=${niveau} mode=${mode} case=${caseFilter} verbMode=${verbMode || 'default'} tail=${tail || 'all'}`);
 
       const response = await fetch(jsonPath);
       let words = await response.json();
@@ -33,7 +39,7 @@ export class DataManager {
         return clean;
       });
 
-      const key = this.getStorageKeyWords(niveau, mode, caseFilter, verbMode);
+      const key = this.getStorageKeyWords(niveau, mode, caseFilter, verbMode, tail);
       console.log(`[LOAD PROGRESS] game=${this.gameType} key=${key}`);
       const progressMap = data.get(key);
 
@@ -94,6 +100,11 @@ export class DataManager {
         words = words.filter(w => w.caseverb && w.caseverb.some(cv => cv.case === caseFilter));
       }
 
+      if (tail && tail !== "all" && this.dataSetName === 'a2worter') {
+        words = words.filter(w => w.Teil === tail);
+        console.log(`[TAIL FILTER] dataset=a2worter tail=${tail} remainingWords=${words.length}`);
+      }
+
       return words;
     } catch (error) {
       console.error("Error loading words:", error);
@@ -101,8 +112,8 @@ export class DataManager {
     }
   }
 
-  saveProgress(words, niveau, mode, caseFilter = "all", verbMode = "") {
-    const key = this.getStorageKeyWords(niveau, mode, caseFilter, verbMode);
+  saveProgress(words, niveau, mode, caseFilter = "all", verbMode = "", tail = "") {
+    const key = this.getStorageKeyWords(niveau, mode, caseFilter, verbMode, tail);
     const savedProgress = data.get(key) || {};
     const progressMap = {};
     let changedCount = 0;
@@ -151,7 +162,7 @@ export class DataManager {
     }
   }
 
-  saveWords(words, niveau, mode, caseFilter = "all", verbMode = "") {
-    this.saveProgress(words, niveau, mode, caseFilter, verbMode);
+  saveWords(words, niveau, mode, caseFilter = "all", verbMode = "", tail = "") {
+    this.saveProgress(words, niveau, mode, caseFilter, verbMode, tail);
   }
 }

@@ -52,6 +52,7 @@ document.addEventListener("DOMContentLoaded", async () => {
       reflexivverben: "German Reflexivverben",
       kollokationen: "German Kollokationen",
       slang: "German Slang",
+      a2worter: "A2 Wörter",
       verben: "German Verbs",
     };
 

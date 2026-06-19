@@ -49,6 +49,9 @@ export class AdaptiveLearningGame {
     this.pendingCorrectAnswer = null;
     this.verbMode = "";
     this.autoCompleteMode = 1;
+    this.currentTail = "all";
+    this.isA2Worter = dataSetName === 'a2worter';
+    this._allWords = [];
 
     // Question timing (ms since epoch)
     this.questionStartTime = null;
@@ -69,13 +72,33 @@ export class AdaptiveLearningGame {
    */
   async init() {
     try {
-      // بارگذاری داده‌ها
+      // A2 Wörter: force Niveau to A2 and lock it
+      if (this.isA2Worter) {
+        this.currentNiveau = "A2";
+      }
+
+      // Restore saved tail preference before loading words
+      this.currentTail = this._restoreTailPreference();
+
+      // بارگذاری داده‌ها — load unfiltered first to extract tail options
       this.words = await this.dataManager.loadWords(
         this.jsonPath,
         this.currentNiveau,
         this.currentMode,
         this.currentCase,
+        "",
+        "", // no tail filter for initial load
       );
+
+      // Populate tail dropdown from full dataset before applying filter
+      if (this.isA2Worter) {
+        this._allWords = this.words;
+        this.populateTailSelect();
+        // Apply tail filter to the loaded words
+        if (this.currentTail !== "all") {
+          this.words = this.words.filter(w => w.Teil === this.currentTail);
+        }
+      }
 
       this.populateCaseSelect(this.words);
 
@@ -86,7 +109,15 @@ export class AdaptiveLearningGame {
       this.setupEventListeners();
       this.updateUI();
 
-      // حالت همیشه Hard است — مودال انتخاب حالت حذف شد
+      // A2 Wörter: show tail selector and lock niveau
+      if (this.isA2Worter) {
+        document.getElementById("tailSelectContainer")?.classList.remove("hidden");
+        const levelSelect = document.getElementById("levelSelect");
+        if (levelSelect) {
+          levelSelect.value = "A2";
+          levelSelect.setAttribute("disabled", "disabled");
+        }
+      }
 
       // Enable panel click after page refresh initialization
       this.isGameStartEligible = true;
@@ -111,15 +142,59 @@ export class AdaptiveLearningGame {
     }
   }
 
+  populateTailSelect() {
+    const tailSet = new Set();
+    this._allWords.forEach(w => {
+      if (w.Teil) {
+        tailSet.add(w.Teil);
+      }
+    });
+    const tails = ["all", ...Array.from(tailSet).sort()];
+    const select = document.getElementById("tailSelect");
+    if (select) {
+      select.innerHTML = tails.map(t => `<option value="${t}">${t === "all" ? "Alle" : t}</option>`).join("");
+      select.value = this.currentTail;
+    }
+  }
+
+  async changeTail(newTail) {
+    if (newTail === this.currentTail) return;
+    if (window.loaderShow) window.loaderShow('Teil wird gewechselt...');
+    try {
+      this.saveData();
+      this.currentTail = newTail;
+      this._saveTailPreference();
+      await this.reloadWordsForCurrentCombination();
+      this.populateTailSelect();
+      this.forceResetUIState();
+      this.resetSession();
+      this.updateUI();
+      this.saveData();
+      console.log(`[TAIL CHANGE] tail=${newTail}`);
+    } finally {
+      if (window.loaderReady) window.loaderReady();
+    }
+  }
+
+  _saveTailPreference() {
+    data.set(`langgame_tail_${this.dataSetName}`, this.currentTail);
+  }
+
+  _restoreTailPreference() {
+    const saved = data.get(`langgame_tail_${this.dataSetName}`);
+    return saved || "all";
+  }
+
   /**
    * دریافت کلید ترکیب فعلی
    * Get current combination key
    */
   getCurrentKey() {
+    const tail = this.isA2Worter && this.currentTail && this.currentTail !== "all" ? `_tail_${this.currentTail}` : "";
     if (this.verbMode && this.verbMode !== "verben") {
-      return `${this.currentNiveau}_${this.currentMode}_${this.verbMode}_${this.currentCase}`;
+      return `${this.currentNiveau}_${this.currentMode}_${this.verbMode}_${this.currentCase}${tail}`;
     }
-    return `${this.currentNiveau}_${this.currentMode}_${this.currentCase}`;
+    return `${this.currentNiveau}_${this.currentMode}_${this.currentCase}${tail}`;
   }
 
   getCurrentState() {
@@ -128,6 +203,7 @@ export class AdaptiveLearningGame {
       this.currentMode,
       this.currentCase,
       this.verbMode,
+      this.currentTail,
     );
   }
 
@@ -155,8 +231,9 @@ export class AdaptiveLearningGame {
       this.currentMode,
       this.currentCase,
       this.verbMode,
+      this.currentTail,
     );
-    this.stateManager.saveState(this.currentNiveau, this.currentMode, this.currentCase, this.verbMode);
+    this.stateManager.saveState(this.currentNiveau, this.currentMode, this.currentCase, this.verbMode, this.currentTail);
   }
 
   /**
@@ -185,6 +262,10 @@ export class AdaptiveLearningGame {
     document
       .getElementById("caseSelect")
       ?.addEventListener("change", (e) => this.changeCase(e.target.value));
+
+    document
+      .getElementById("tailSelect")
+      ?.addEventListener("change", (e) => this.changeTail(e.target.value));
 
     // دکمه‌های اطمینان
     document
@@ -801,6 +882,7 @@ export class AdaptiveLearningGame {
         this.currentMode,
         this.currentCase,
         this.verbMode,
+        this.currentTail,
       );
       this.gameLogic = new GameLogic(this.words);
     } catch (error) {
@@ -821,7 +903,7 @@ export class AdaptiveLearningGame {
     if (window.loaderShow) window.loaderShow('Fortschritt wird zurückgesetzt...');
     try {
       // STEP 1 — Reset only this exact combination (preserves all others)
-      const result = await data.resetAllData(this.gameType, this.dataSetName, this.currentNiveau, this.currentMode, this.currentCase, this.verbMode);
+      const result = await data.resetAllData(this.gameType, this.dataSetName, this.currentNiveau, this.currentMode, this.currentCase, this.verbMode, this.currentTail);
       if (result.ok) {
         console.log('RESET OK: ' + this.gameType + '/' + this.dataSetName + '/' + this.getCurrentKey());
       } else {
@@ -829,7 +911,7 @@ export class AdaptiveLearningGame {
       }
 
       // STEP 2 — Clear local game state
-      this.stateManager.resetProgress(this.currentNiveau, this.currentMode, this.currentCase, this.verbMode);
+      this.stateManager.resetProgress(this.currentNiveau, this.currentMode, this.currentCase, this.verbMode, this.currentTail);
 
       // STEP 3 — Reset word objects in memory (dynamic defaults, never from JSON)
       const DEFAULT_WORD_STATE = {

@@ -13,6 +13,7 @@ export const MODULE_THEME_IDS = [
   "reflexivverben",
   "kollokationen",
   "slang",
+  "a2worter",
   "verben",
 ];
 

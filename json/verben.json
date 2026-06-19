@@ -7788,6 +7788,7 @@
     "word": "danken",
     "pronunciation": "دانْکِن",
     "meaning": "تشکر کردن",
+      "description": "کلمه danken به معنی «تشکر کردن» در حالت کلی و رسمی است و بیشتر برای بیان عمل تشکر به صورت مستقیم یا عمومی استفاده می‌شود، مثلاً وقتی کسی به طور کلی از دیگران قدردانی می‌کند. اما bedanken بیشتر به معنی «از کسی تشکر کردن» در یک موقعیت مشخص است و معمولاً با حرف اضافه bei همراه می‌شود (sich bei jemandem bedanken). یعنی bedanken حالت شخصی‌تر و کاربردی‌تر در مکالمه دارد، در حالی که danken عمومی‌تر و رسمی‌تر است. به طور خلاصه: danken = تشکر کردن (کلی و رسمی)، bedanken = از کسی تشکر کردن (شخصی و در موقعیت مشخص).",
     "antonyms": [],
     "synonyms": ["bedanken"],
     "prasens": [
@@ -16625,6 +16626,7 @@
     "word": "hören",
     "pronunciation": "هۆرِن",
     "meaning": "شنیدن",
+      "description": "کلمه hören به معنی «شنیدن» است و به عمل کلی و غیرارادی گوش دادن یا دریافت صداها اشاره دارد. این فعل معمولاً وقتی استفاده می‌شود که صدا به گوش می‌رسد بدون اینکه تمرکز یا توجه خاصی وجود داشته باشد. اما کلمه zuhören به معنی «با دقت گوش دادن» است و یک عمل کاملاً آگاهانه و ارادی محسوب می‌شود. در zuhören فرد تمرکز می‌کند، به صحبت‌های کسی توجه می‌کند و سعی می‌کند آن را بفهمد. بنابراین تفاوت اصلی این دو کلمه در میزان توجه و آگاهی است: hören شنیدن معمولی و غیرارادی است، در حالی که zuhören گوش دادن فعال و همراه با تمرکز است.",
     "antonyms": [],
     "synonyms": [],
     "prasens": [
@@ -32472,230 +32474,13 @@
   },
 
   {
-    "id": "156",
-    "level": "A2",
-    "type": "verb",
-    "word": "abholen",
-    "pronunciation": "آبهولِن",
-    "meaning": "تحویل گرفتن / بردن",
-    "antonyms": [],
-    "synonyms": ["holen", "abholen gehen"],
-    "prasens": [
-      {
-        "person": "Ich",
-        "form": "hole ab",
-        "fa": "من تحویل می‌گیرم."
-      },
-      {
-        "person": "du",
-        "form": "holst ab",
-        "fa": "تو تحویل می‌گیری."
-      },
-      {
-        "person": "er/sie/es",
-        "form": "holt ab",
-        "fa": "او/آن تحویل می‌گیرد."
-      },
-      {
-        "person": "wir",
-        "form": "holen ab",
-        "fa": "ما تحویل می‌گیریم."
-      },
-      {
-        "person": "ihr",
-        "form": "holt ab",
-        "fa": "شماها تحویل می‌گیرید."
-      },
-      {
-        "person": "sie/Sie",
-        "form": "holen ab",
-        "fa": "آنها تحویل می‌گیرند."
-      },
-      {
-        "sentences": [
-          {
-            "de": "Ich hole das Paket ab.",
-            "fa": "من بسته را تحویل می‌گیرم."
-          },
-          {
-            "de": "Holst du die Kinder ab?",
-            "fa": "تو بچه‌ها را می‌بری؟"
-          },
-          {
-            "de": "Sie holt den Wagen ab.",
-            "fa": "او ماشین را تحویل می‌گیرد."
-          },
-          {
-            "de": "Wir holen die Tickets ab.",
-            "fa": "ما بلیت‌ها را تحویل می‌گیریم."
-          }
-        ]
-      }
-    ],
-    "perfekt": [
-      {
-        "person": "Ich",
-        "form": "habe abgeholt",
-        "fa": "من تحویل گرفته‌ام."
-      },
-      {
-        "person": "du",
-        "form": "hast abgeholt",
-        "fa": "تو تحویل گرفته‌ای."
-      },
-      {
-        "person": "er/sie/es",
-        "form": "hat abgeholt",
-        "fa": "او/آن تحویل گرفته است."
-      },
-      {
-        "person": "wir",
-        "form": "haben abgeholt",
-        "fa": "ما تحویل گرفته‌ایم."
-      },
-      {
-        "person": "ihr",
-        "form": "habt abgeholt",
-        "fa": "شماها تحویل گرفته‌اید."
-      },
-      {
-        "person": "sie/Sie",
-        "form": "haben abgeholt",
-        "fa": "آنها تحویل گرفته‌اند."
-      },
-      {
-        "sentences": [
-          {
-            "de": "Ich habe meine Schwester vom Bahnhof abgeholt.",
-            "fa": "من خواهرم را از ایستگاه قطار بردم."
-          },
-          {
-            "de": "Hast du das Paket abgeholt?",
-            "fa": "تو بسته را تحویل گرفته‌ای؟"
-          },
-          {
-            "de": "Sie hat die Bestellung abgeholt.",
-            "fa": "او سفارش را تحویل گرفته است."
-          }
-        ]
-      }
-    ],
-    "prateritum": [
-      {
-        "person": "Ich",
-        "form": "holte ab",
-        "fa": "من تحویل گرفتم."
-      },
-      {
-        "person": "du",
-        "form": "holtest ab",
-        "fa": "تو تحویل گرفتی."
-      },
-      {
-        "person": "er/sie/es",
-        "form": "holte ab",
-        "fa": "او/آن تحویل گرفت."
-      },
-      {
-        "person": "wir",
-        "form": "holten ab",
-        "fa": "ما تحویل گرفتیم."
-      },
-      {
-        "person": "ihr",
-        "form": "holtet ab",
-        "fa": "شماها تحویل گرفتید."
-      },
-      {
-        "person": "sie/Sie",
-        "form": "holten ab",
-        "fa": "آنها تحویل گرفتند."
-      },
-      {
-        "sentences": [
-          {
-            "de": "Gestern holte ich meine Freunde ab.",
-            "fa": "دیروز دوستانم را بردم."
-          },
-          {
-            "de": "Wir holten die neuen Möbel ab.",
-            "fa": "ما مبل‌های جدید را تحویل گرفتیم."
-          },
-          {
-            "de": "Sie holten ihre Tochter ab.",
-            "fa": "آنها دخترشان را بردن."
-          }
-        ]
-      }
-    ],
-    "futur": [
-      {
-        "person": "Ich",
-        "form": "werde abholen",
-        "fa": "من تحویل خواهم گرفت."
-      },
-      {
-        "person": "du",
-        "form": "wirst abholen",
-        "fa": "تو تحویل خواهی گرفت."
-      },
-      {
-        "person": "er/sie/es",
-        "form": "wird abholen",
-        "fa": "او/آن تحویل خواهد گرفت."
-      },
-      {
-        "person": "wir",
-        "form": "werden abholen",
-        "fa": "ما تحویل خواهیم گرفت."
-      },
-      {
-        "person": "ihr",
-        "form": "werdet abholen",
-        "fa": "شماها تحویل خواهید گرفت."
-      },
-      {
-        "person": "sie/Sie",
-        "form": "werden abholen",
-        "fa": "آنها تحویل خواهند گرفت."
-      },
-      {
-        "sentences": [
-          {
-            "de": "Ich werde dich morgen abholen.",
-            "fa": "من تو را فردا می‌برم."
-          },
-          {
-            "de": "Wirst du die Wäsche abholen?",
-            "fa": "تو لباس‌ها را تحویل خواهی گرفت؟"
-          },
-          {
-            "de": "Sie werden die Gäste abholen.",
-            "fa": "آنها مهمانان را تحویل خواهند گرفت."
-          }
-        ]
-      }
-    ],
-
-    "caseverb": [
-      {
-        "case": "Akk",
-        "examples": [
-          {
-            "german": "Ich hole dich ab.",
-            "persian": "من تو را از جایی برمی‌دارم."
-          }
-        ]
-      }
-    ]
-  },
-  {
     "id": "157",
     "level": "A2",
     "type": "verb",
     "word": "abschließen",
     "pronunciation": "آبشلیسن",
     "meaning": "بستن / قفل کردن / تمام کردن",
+      "description": "کلمه «schließen» به معنی بستن است (مثل بستن در، بستن یک شیء یا پایان دادن به یک کار به صورت کلی). اما «abschließen» علاوه بر معنی بستن، بیشتر به معنی «قفل کردن» یا «به پایان رساندن کامل یک فرآیند، قرارداد یا کار» استفاده می‌شود. یعنی «schließen» یک بستن ساده و عمومی است، ولی «abschließen» بستن نهایی و کامل همراه با نتیجه‌گیری یا قفل کردن را نشان می‌دهد. همچنین «abschließen» معمولاً رسمی‌تر و دقیق‌تر از «schließen» به کار می‌رود.",
     "antonyms": ["öffnen"],
     "synonyms": ["verschließen", "beenden"],
     "prasens": [
@@ -33359,6 +33144,7 @@
     "word": "ansehen",
     "pronunciation": "آنزهِن",
     "meaning": "نگاه کردن / تماشا کردن",
+      "description": "«schauen» به معنی نگاه کردن یا خیره شدن به چیزی است و بیشتر حالت عمومی و غیررسمی دارد. معمولاً وقتی استفاده می‌شود که فقط عمل دیدن یا نگاه کردن به چیزی مطرح است، بدون تأکید بر دقت یا توجه زیاد. اما «ansehen» به معنی نگاه کردن با دقت، بررسی کردن یا تماشا کردن است و معمولاً زمانی استفاده می‌شود که فرد با تمرکز و توجه بیشتری چیزی را می‌بیند. «ansehen» می‌تواند معنای بررسی کردن یا ارزیابی کردن هم داشته باشد و اغلب رسمی‌تر و دقیق‌تر از «schauen» است. همچنین «ansehen» معمولاً با آکوزاتیو به کار می‌رود و می‌تواند حالت «به نظر رسیدن» (sich etwas ansehen) هم داشته باشد، در حالی که «schauen» بیشتر برای دیدن ساده یا نگاه کردن کوتاه استفاده می‌شود.",
     "antonyms": [],
     "synonyms": ["schauen", "betrachten"],
     "prasens": [
@@ -33566,7 +33352,8 @@
     "type": "verb",
     "word": "ärgern",
     "pronunciation": "اِرگِرن",
-    "meaning": "عصبانی کردن / اذیت کردن / عصبانی شدن)",
+    "meaning": "عصبانی کردن / اذیت کردن / عصبانی شدن",
+      "description": "عبارت wütend machen به معنی «عصبانی کردن کسی» است و بیشتر روی ایجاد نتیجه (عصبانی شدن فرد) تأکید دارد. در این ساختار معمولاً یک عامل باعث می‌شود شخص دیگری عصبانی شود. در مقابل، فعل ärgern به معنی «اذیت کردن، حرص دادن یا ناراحت کردن کسی» است و هم می‌تواند به صورت سبک‌تر (شوخی‌آمیز یا آزار جزئی) استفاده شود و هم در حالت جدی‌تر. تفاوت مهم این است که ärgern بیشتر حالت مستقیم‌تر و روزمره دارد و می‌تواند حتی دوطرفه یا خودکار (sich ärgern = عصبانی شدن از چیزی) استفاده شود، اما wütend machen بیشتر تأکید بر «رسیدن به حالت خشم شدید» در شخص دیگر دارد و رسمی‌تر و شدیدتر به نظر می‌رسد.",
     "antonyms": ["freuen"],
     "synonyms": ["wütend machen", "irritieren"],
     "prasens": [
@@ -36716,6 +36503,7 @@
     "word": "bedanken",
     "pronunciation": "بِدانکِن",
     "meaning": "تشکر کردن",
+      "description": "کلمه danken به معنی «تشکر کردن» در حالت کلی و رسمی است و بیشتر برای بیان عمل تشکر به صورت مستقیم یا عمومی استفاده می‌شود، مثلاً وقتی کسی به طور کلی از دیگران قدردانی می‌کند. اما bedanken بیشتر به معنی «از کسی تشکر کردن» در یک موقعیت مشخص است و معمولاً با حرف اضافه bei همراه می‌شود (sich bei jemandem bedanken). یعنی bedanken حالت شخصی‌تر و کاربردی‌تر در مکالمه دارد، در حالی که danken عمومی‌تر و رسمی‌تر است. به طور خلاصه: danken = تشکر کردن (کلی و رسمی)، bedanken = از کسی تشکر کردن (شخصی و در موقعیت مشخص).",
     "antonyms": [],
     "synonyms": ["danken"],
     "prasens": [
@@ -36937,6 +36725,7 @@
     "meaning": "عجله کردن",
     "antonyms": ["trödeln"],
     "synonyms": ["sich sputen"],
+      "description": "کلمات آلمانی «beeilen» و «sich sputen» هر دو به معنی «عجله کردن» هستند و برای بیان انجام کاری با سرعت بالا یا کمبود زمان استفاده می‌شوند. تفاوت اصلی در میزان رسمیت و کاربرد آن‌هاست. «beeilen» رایج‌تر و خنثی‌تر است و هم در گفتار روزمره و هم نوشتار استفاده می‌شود و می‌تواند هم به صورت فعل ساده و هم بازتابی به کار رود (sich beeilen). اما «sich sputen» بیشتر حالت محاوره‌ای و قدیمی‌تر دارد و در گفتار روزمره آلمانی کمتر استفاده می‌شود و کمی غیررسمی‌تر و احساسی‌تر به نظر می‌رسد. از نظر معنایی تفاوت زیادی ندارند، اما «sich sputen» معمولاً حس فشار زمانی یا عجله فوری بیشتری را منتقل می‌کند.",
     "prasens": [
       {
         "person": "Ich",
@@ -41417,7 +41206,8 @@
     "type": "verb",
     "word": "einziehen",
     "pronunciation": "آین‌تسیِن",
-    "meaning": "اسکان کردن /搬入 کردن",
+    "meaning": "اسکان کردن",
+      "description": "کلمه umziehen به معنی اسباب‌کشی کردن (جابجا شدن به خانه جدید) است و معمولاً وقتی استفاده می‌شود که فرد از یک خانه به خانه دیگر نقل مکان می‌کند. این فعل روی کل فرایند تغییر محل زندگی تمرکز دارد. در مقابل، einziehen به معنی وارد شدن به یک خانه جدید و ساکن شدن در آن است و بیشتر روی لحظه شروع زندگی در خانه جدید تمرکز دارد. به عبارت دیگر، umziehen یعنی جابجا شدن از خانه قبلی، اما einziehen یعنی وارد خانه جدید شدن و شروع زندگی در آن. این دو فعل از نظر کاربرد به هم مرتبط هستند اما جهت حرکت و تمرکز زمانی متفاوت دارند.",
     "antonyms": ["ausziehen"],
     "synonyms": ["umziehen"],
     "prasens": [
@@ -46070,220 +45860,6 @@
     "seenCount": 0
   },
   {
-    "id": "287",
-    "level": "A2",
-    "type": "verb",
-    "word": "kochen",
-    "pronunciation": "کُخِن",
-    "meaning": "پختن / آشپزی کردن",
-    "antonyms": [],
-    "synonyms": ["zubereiten"],
-    "prasens": [
-      {
-        "person": "Ich",
-        "form": "koche",
-        "fa": "من می‌پزم."
-      },
-      {
-        "person": "du",
-        "form": "kochst",
-        "fa": "تو می‌پزی."
-      },
-      {
-        "person": "er/sie/es",
-        "form": "kocht",
-        "fa": "او/آن می‌پزد."
-      },
-      {
-        "person": "wir",
-        "form": "kochen",
-        "fa": "ما می‌پزیم."
-      },
-      {
-        "person": "ihr",
-        "form": "kocht",
-        "fa": "شماها می‌پزید."
-      },
-      {
-        "person": "sie/Sie",
-        "form": "kochen",
-        "fa": "آنها می‌پزند."
-      },
-      {
-        "sentences": [
-          {
-            "de": "Ich koche gerne.",
-            "fa": "من دوست دارم آشپزی کنم."
-          },
-          {
-            "de": "Kochst du heute Abend?",
-            "fa": "امشب آشپزی می‌کنی؟"
-          },
-          {
-            "de": "Sie kocht das Essen.",
-            "fa": "او غذا را می‌پزد."
-          }
-        ]
-      }
-    ],
-    "perfekt": [
-      {
-        "person": "Ich",
-        "form": "habe gekocht",
-        "fa": "من پخته‌ام."
-      },
-      {
-        "person": "du",
-        "form": "hast gekocht",
-        "fa": "تو پخته‌ای."
-      },
-      {
-        "person": "er/sie/es",
-        "form": "hat gekocht",
-        "fa": "او/آن پخته است."
-      },
-      {
-        "person": "wir",
-        "form": "haben gekocht",
-        "fa": "ما پخته‌ایم."
-      },
-      {
-        "person": "ihr",
-        "form": "habt gekocht",
-        "fa": "شماها پخته‌اید."
-      },
-      {
-        "person": "sie/Sie",
-        "form": "haben gekocht",
-        "fa": "آنها پخته‌اند."
-      },
-      {
-        "sentences": [
-          {
-            "de": "Ich habe gestern gekocht.",
-            "fa": "دیروز آشپزی کردم."
-          },
-          {
-            "de": "Hat sie das Essen gekocht?",
-            "fa": "آیا او غذا را پخت؟"
-          },
-          {
-            "de": "Wir haben zusammen gekocht.",
-            "fa": "ما با هم آشپزی کردیم."
-          }
-        ]
-      }
-    ],
-    "prateritum": [
-      {
-        "person": "Ich",
-        "form": "kochte",
-        "fa": "من می‌پختم."
-      },
-      {
-        "person": "du",
-        "form": "kochtest",
-        "fa": "تو می‌پختی."
-      },
-      {
-        "person": "er/sie/es",
-        "form": "kochte",
-        "fa": "او/آن می‌پخت."
-      },
-      {
-        "person": "wir",
-        "form": "kochten",
-        "fa": "ما می‌پختیم."
-      },
-      {
-        "person": "ihr",
-        "form": "kochtet",
-        "fa": "شماها می‌پختید."
-      },
-      {
-        "person": "sie/Sie",
-        "form": "kochten",
-        "fa": "آنها می‌پختند."
-      },
-      {
-        "sentences": [
-          {
-            "de": "Früher kochte meine Mutter oft.",
-            "fa": "قبلاً مادرم اغلب آشپزی می‌کرد."
-          },
-          {
-            "de": "Wir kochten das Mittagessen.",
-            "fa": "ما ناهار را پختیم."
-          },
-          {
-            "de": "Er kochte eine Suppe.",
-            "fa": "او سوپ پخت."
-          }
-        ]
-      }
-    ],
-    "futur": [
-      {
-        "person": "Ich",
-        "form": "werde kochen",
-        "fa": "من خواهم پخت."
-      },
-      {
-        "person": "du",
-        "form": "wirst kochen",
-        "fa": "تو خواهی پخت."
-      },
-      {
-        "person": "er/sie/es",
-        "form": "wird kochen",
-        "fa": "او/آن خواهد پخت."
-      },
-      {
-        "person": "wir",
-        "form": "werden kochen",
-        "fa": "ما خواهیم پخت."
-      },
-      {
-        "person": "ihr",
-        "form": "werdet kochen",
-        "fa": "شماها خواهید پخت."
-      },
-      {
-        "person": "sie/Sie",
-        "form": "werden kochen",
-        "fa": "آنها خواهند پخت."
-      },
-      {
-        "sentences": [
-          {
-            "de": "Morgen werde ich kochen.",
-            "fa": "فردا آشپزی خواهم کرد."
-          },
-          {
-            "de": "Wirst du für uns kochen?",
-            "fa": "برای ما آشپزی خواهی کرد؟"
-          },
-          {
-            "de": "Sie werden zusammen kochen.",
-            "fa": "آنها با هم آشپزی خواهند کرد."
-          }
-        ]
-      }
-    ],
-
-    "caseverb": [
-      {
-        "case": "Akk",
-        "examples": [
-          {
-            "german": "Ich koche es.",
-            "persian": "من آن را می‌پزم."
-          }
-        ]
-      }
-    ]
-  },
-  {
     "id": "290",
     "level": "A2",
     "type": "verb",
@@ -46492,220 +46068,6 @@
           {
             "german": "Ich kontrolliere es.",
             "persian": "من آن را بررسی می‌کنم."
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "291",
-    "level": "A2",
-    "type": "verb",
-    "word": "kosten",
-    "pronunciation": "کُسْتِن",
-    "meaning": "هزینه داشتن / گران بودن",
-    "antonyms": [],
-    "synonyms": ["preis sein"],
-    "prasens": [
-      {
-        "person": "Ich",
-        "form": "koste",
-        "fa": "من هزینه دارم."
-      },
-      {
-        "person": "du",
-        "form": "kostest",
-        "fa": "تو هزینه داری."
-      },
-      {
-        "person": "er/sie/es",
-        "form": "kostet",
-        "fa": "او/آن هزینه دارد."
-      },
-      {
-        "person": "wir",
-        "form": "kosten",
-        "fa": "ما هزینه داریم."
-      },
-      {
-        "person": "ihr",
-        "form": "kostet",
-        "fa": "شماها هزینه دارید."
-      },
-      {
-        "person": "sie/Sie",
-        "form": "kosten",
-        "fa": "آنها هزینه دارند."
-      },
-      {
-        "sentences": [
-          {
-            "de": "Das kostet 10 Euro.",
-            "fa": "این ۱۰ یورو هزینه دارد."
-          },
-          {
-            "de": "Wie viel kostet das?",
-            "fa": "این چقدر هزینه دارد؟"
-          },
-          {
-            "de": "Es kostet zu viel.",
-            "fa": "خیلی گران است."
-          }
-        ]
-      }
-    ],
-    "perfekt": [
-      {
-        "person": "Ich",
-        "form": "habe gekostet",
-        "fa": "من هزینه داشته‌ام."
-      },
-      {
-        "person": "du",
-        "form": "hast gekostet",
-        "fa": "تو هزینه داشته‌ای."
-      },
-      {
-        "person": "er/sie/es",
-        "form": "hat gekostet",
-        "fa": "او/آن هزینه داشته است."
-      },
-      {
-        "person": "wir",
-        "form": "haben gekostet",
-        "fa": "ما هزینه داشته‌ایم."
-      },
-      {
-        "person": "ihr",
-        "form": "habt gekostet",
-        "fa": "شماها هزینه داشته‌اید."
-      },
-      {
-        "person": "sie/Sie",
-        "form": "haben gekostet",
-        "fa": "آنها هزینه داشته‌اند."
-      },
-      {
-        "sentences": [
-          {
-            "de": "Es hat viel gekostet.",
-            "fa": "خیلی هزینه داشت."
-          },
-          {
-            "de": "Der Urlaub hat 500 Euro gekostet.",
-            "fa": "تعطیلات ۵۰۰ یورو هزینه داشت."
-          },
-          {
-            "de": "Hat es sich gelohnt?",
-            "fa": "ارزشش را داشت؟"
-          }
-        ]
-      }
-    ],
-    "prateritum": [
-      {
-        "person": "Ich",
-        "form": "kostete",
-        "fa": "من هزینه داشتم."
-      },
-      {
-        "person": "du",
-        "form": "kostetest",
-        "fa": "تو هزینه داشتی."
-      },
-      {
-        "person": "er/sie/es",
-        "form": "kostete",
-        "fa": "او/آن هزینه داشت."
-      },
-      {
-        "person": "wir",
-        "form": "kosteten",
-        "fa": "ما هزینه داشتیم."
-      },
-      {
-        "person": "ihr",
-        "form": "kostetet",
-        "fa": "شماها هزینه داشتید."
-      },
-      {
-        "person": "sie/Sie",
-        "form": "kosteten",
-        "fa": "آنها هزینه داشتند."
-      },
-      {
-        "sentences": [
-          {
-            "de": "Früher kostete es weniger.",
-            "fa": "قبلاً کمتر هزینه داشت."
-          },
-          {
-            "de": "Das Auto kostete viel Geld.",
-            "fa": "ماشین پول زیادی هزینه داشت."
-          },
-          {
-            "de": "Es kostete Zeit.",
-            "fa": "زمان برد."
-          }
-        ]
-      }
-    ],
-    "futur": [
-      {
-        "person": "Ich",
-        "form": "werde kosten",
-        "fa": "من هزینه خواهم داشت."
-      },
-      {
-        "person": "du",
-        "form": "wirst kosten",
-        "fa": "تو هزینه خواهی داشت."
-      },
-      {
-        "person": "er/sie/es",
-        "form": "wird kosten",
-        "fa": "او/آن هزینه خواهد داشت."
-      },
-      {
-        "person": "wir",
-        "form": "werden kosten",
-        "fa": "ما هزینه خواهیم داشت."
-      },
-      {
-        "person": "ihr",
-        "form": "werdet kosten",
-        "fa": "شماها هزینه خواهید داشت."
-      },
-      {
-        "person": "sie/Sie",
-        "form": "werden kosten",
-        "fa": "آنها هزینه خواهند داشت."
-      },
-      {
-        "sentences": [
-          {
-            "de": "Das wird nicht viel kosten.",
-            "fa": "این زیاد هزینه نخواهد داشت."
-          },
-          {
-            "de": "Es wird teuer kosten.",
-            "fa": "گران خواهد بود."
-          },
-          {
-            "de": "Der Flug wird 200 Euro kosten.",
-            "fa": "پرواز ۲۰۰ یورو هزینه خواهد داشت."
-          }
-        ]
-      }
-    ],
-
-    "caseverb": [
-      {
-        "case": "Akk",
-        "examples": [
-          {
-            "german": "Es kostet mich viel.",
-            "persian": "برای من گران است."
           }
         ]
       }
@@ -53147,7 +52509,7 @@
     "type": "verb",
     "word": "Renovieren",
     "pronunciation": "رِنُوویرِن",
-    "meaning": "بازسازی کردن / renovieren کردن",
+    "meaning": "بازسازی کردن",
     "antonyms": [],
     "synonyms": [],
     "prasens": [
@@ -57659,6 +57021,7 @@
     "word": "tauschen",
     "pronunciation": "تَآوشِن",
     "meaning": "مبادله کردن / تعویض کردن",
+      "description": "کلمه «tauschen» به معنی «تعویض کردن یا جابه‌جا کردن چیزی با چیز دیگر» است و بیشتر در موقعیت‌هایی استفاده می‌شود که دو طرف چیزی را با هم مبادله می‌کنند (مثلاً تبادل اشیا، اطلاعات یا نقش‌ها). این فعل بیشتر حالت دوطرفه یا مبادله‌ای دارد.\n\nدر مقابل، «wechseln» به معنی «عوض کردن یا تغییر دادن یک چیز به چیز دیگر» است اما معمولاً یک‌طرفه است و تأکید آن بر تغییر وضعیت یا جایگزینی است، نه الزاماً تبادل بین دو طرف. برای مثال: عوض کردن لباس، تغییر مسیر، یا تعویض پول.\n\nتفاوت اصلی این است که «tauschen» بیشتر مفهوم تبادل دوطرفه دارد، اما «wechseln» بیشتر به تغییر یا جایگزینی یک‌طرفه اشاره می‌کند.",
     "antonyms": [],
     "synonyms": [],
     "prasens": [
@@ -59608,7 +58971,7 @@
     "word": "umziehen",
     "pronunciation": "اُوم‌تسی‌هِن",
     "meaning": "جابه‌جا شدن / نقل مکان کردن",
-    "antonyms": [],
+  "description": "کلمه «umziehen» به‌صورت جداگانه به معنی «اسباب‌کشی کردن / نقل مکان کردن به خانه یا شهر جدید» است و معمولاً برای تغییر محل زندگی استفاده می‌شود. اما «sich umziehen» یک فعل انعکاسی است و به معنی «لباس عوض کردن» است. تفاوت اصلی این دو در این است که اولی مربوط به تغییر محل زندگی و جابه‌جایی خانه است، در حالی که دومی فقط مربوط به تغییر لباس و پوشش بدن می‌شود. همچنین «sich umziehen» همیشه نیاز به ضمیر انعکاسی (sich) دارد، ولی «umziehen» بدون ضمیر استفاده می‌شود.",    "antonyms": [],
     "synonyms": [],
     "prasens": [
       {
@@ -59837,6 +59200,7 @@
     "word": "sich umziehen",
     "pronunciation": "زیخ اُوم‌تسی‌هِن",
     "meaning": "لباس عوض کردن",
+      "description": "کلمه «umziehen» به‌صورت جداگانه به معنی «اسباب‌کشی کردن / نقل مکان کردن به خانه یا شهر جدید» است و معمولاً برای تغییر محل زندگی استفاده می‌شود. اما «sich umziehen» یک فعل انعکاسی است و به معنی «لباس عوض کردن» است. تفاوت اصلی این دو در این است که اولی مربوط به تغییر محل زندگی و جابه‌جایی خانه است، در حالی که دومی فقط مربوط به تغییر لباس و پوشش بدن می‌شود. همچنین «sich umziehen» همیشه نیاز به ضمیر انعکاسی (sich) دارد، ولی «umziehen» بدون ضمیر استفاده می‌شود.",
     "antonyms": [],
     "synonyms": [],
     "prasens": [
@@ -63407,6 +62771,7 @@
     "word": "vorbereiten",
     "pronunciation": "فوربِرایتِن",
     "meaning": "آماده کردن / آماده شدن",
+      "description": "کلمه bereiten به معنی آماده کردن یا تهیه کردن است و معمولاً به یک عمل کلی آماده‌سازی اشاره دارد. اما vorbereiten به معنی آماده‌سازی دقیق و قبلی برای یک هدف مشخص است و معمولاً تأکید بیشتری بر برنامه‌ریزی و انجام کارهای مقدماتی دارد. در واقع vorbereiten شکل تقویتی و دقیق‌ترِ bereiten محسوب می‌شود و بیشتر در موقعیت‌هایی استفاده می‌شود که یک چیز را از قبل برای یک رویداد یا هدف خاص آماده می‌کنیم.",
     "antonyms": [],
     "synonyms": [],
     "prasens": [
@@ -64259,6 +63624,7 @@
     "word": "wechseln",
     "pronunciation": "وِخزِلن",
     "meaning": "تعویض کردن / تغییر دادن",
+      "description": "کلمه «tauschen» به معنی «تعویض کردن یا جابه‌جا کردن چیزی با چیز دیگر» است و بیشتر در موقعیت‌هایی استفاده می‌شود که دو طرف چیزی را با هم مبادله می‌کنند (مثلاً تبادل اشیا، اطلاعات یا نقش‌ها). این فعل بیشتر حالت دوطرفه یا مبادله‌ای دارد.\n\nدر مقابل، «wechseln» به معنی «عوض کردن یا تغییر دادن یک چیز به چیز دیگر» است اما معمولاً یک‌طرفه است و تأکید آن بر تغییر وضعیت یا جایگزینی است، نه الزاماً تبادل بین دو طرف. برای مثال: عوض کردن لباس، تغییر مسیر، یا تعویض پول.\n\nتفاوت اصلی این است که «tauschen» بیشتر مفهوم تبادل دوطرفه دارد، اما «wechseln» بیشتر به تغییر یا جایگزینی یک‌طرفه اشاره می‌کند.",
     "antonyms": [],
     "synonyms": [],
     "prasens": [
@@ -67656,6 +67022,7 @@
     "word": "zuhören",
     "pronunciation": "تسو‌هُورِن",
     "meaning": "گوش دادن",
+      "description": "کلمه hören به معنی «شنیدن» است و به عمل کلی و غیرارادی گوش دادن یا دریافت صداها اشاره دارد. این فعل معمولاً وقتی استفاده می‌شود که صدا به گوش می‌رسد بدون اینکه تمرکز یا توجه خاصی وجود داشته باشد. اما کلمه zuhören به معنی «با دقت گوش دادن» است و یک عمل کاملاً آگاهانه و ارادی محسوب می‌شود. در zuhören فرد تمرکز می‌کند، به صحبت‌های کسی توجه می‌کند و سعی می‌کند آن را بفهمد. بنابراین تفاوت اصلی این دو کلمه در میزان توجه و آگاهی است: hören شنیدن معمولی و غیرارادی است، در حالی که zuhören گوش دادن فعال و همراه با تمرکز است.",
     "antonyms": [],
     "synonyms": [],
     "prasens": [
