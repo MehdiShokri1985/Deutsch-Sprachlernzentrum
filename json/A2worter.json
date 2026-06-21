@@ -35643,7 +35643,996 @@
     "type": "Politik und Gesellschaft",
     "Teil": "L",
     "Tipp": "Häufige Kollokation: eine Lösung finden."
+  },
+  {
+    "id": "1321",
+    "level": "A2",
+    "word": "finden",
+    "meaning": "پیدا کردن",
+    "antonyms": ["verlieren"],
+    "synonyms": ["entdecken", "auffinden"],
+    "sentences": [
+      {
+        "de": "Ich finde meinen Schlüssel nicht.",
+        "fa": "کلیدم را پیدا نمی‌کنم."
+      },
+      {
+        "de": "Wo hast du das Buch gefunden?",
+        "fa": "کتاب را کجا پیدا کردی؟"
+      },
+      {
+        "de": "Ich finde das Wetter heute schön.",
+        "fa": "به نظرم هوا امروز خوب است."
+      }
+    ],
+    "pronunciation": "فینْدِن",
+    "type": "Verben",
+    "Teil": "M",
+    "Tipp": "finden + Akkusativ: چیزی را پیدا کردن (مستقیم)."
+  },
+  {
+    "id": "1322",
+    "level": "A2",
+    "word": "ausfüllen",
+    "meaning": "پر کردن (فرم)",
+    "antonyms": [],
+    "synonyms": ["ergänzen"],
+    "sentences": [
+      {
+        "de": "Bitte füllen Sie das Formular aus.",
+        "fa": "لطفاً فرم را پر کنید."
+      },
+      {
+        "de": "Ich habe den Test ausgeführt.",
+        "fa": "تست را پر کردم."
+      },
+      {
+        "de": "Kannst du das Blatt ausfüllen?",
+        "fa": "می‌توانی این برگه را پر کنی؟"
+      }
+    ],
+    "pronunciation": "آوس‌فیلِن",
+    "type": "Verben",
+    "Teil": "M",
+    "Tipp": "trennbar: aus + füllen → füll... aus."
+  },
+  {
+    "id": "1323",
+    "level": "A2",
+    "word": "dauern",
+    "meaning": "طول کشیدن",
+    "antonyms": ["schnell gehen"],
+    "synonyms": ["andauern"],
+    "sentences": [
+      {
+        "de": "Der Film dauert zwei Stunden.",
+        "fa": "فیلم دو ساعت طول می‌کشد."
+      },
+      {
+        "de": "Wie lange dauert der Flug?",
+        "fa": "پرواز چقدر طول می‌کشد؟"
+      },
+      {
+        "de": "Das Meeting hat lange gedauert.",
+        "fa": "جلسه طولانی طول کشید."
+      }
+    ],
+    "pronunciation": "دائورِن",
+    "type": "Verben",
+    "Teil": "M",
+    "Tipp": "dauern + Zeitangabe: مدت زمان را نشان می‌دهد."
+  },
+  {
+    "id": "1324",
+    "level": "A2",
+    "word": "umziehen",
+    "meaning": "جابجا شدن / لباس عوض کردن",
+    "antonyms": ["bleiben"],
+    "synonyms": ["wechseln"],
+    "sentences": [
+      {
+        "de": "Wir ziehen nächste Woche um.",
+        "fa": "هفته آینده جابجا می‌شویم."
+      },
+      {
+        "de": "Ich muss mich schnell umziehen.",
+        "fa": "باید سریع لباس عوض کنم."
+      },
+      {
+        "de": "Sie sind in eine neue Wohnung umgezogen.",
+        "fa": "به آپارتمان جدید نقل مکان کردند."
+      }
+    ],
+    "pronunciation": "اوم‌تسی‌هِن",
+    "type": "Verben",
+    "Teil": "M",
+    "Tipp": "trennbar و reflexive (sich umziehen = لباس عوض کردن)."
+  },
+  {
+    "id": "1325",
+    "level": "A2",
+    "word": "stellen",
+    "meaning": "قرار دادن (ایستاده)",
+    "antonyms": ["nehmen"],
+    "synonyms": ["legen", "setzen"],
+    "sentences": [
+      {
+        "de": "Stell die Flasche auf den Tisch.",
+        "fa": "بطری را روی میز بگذار (ایستاده)."
+      },
+      {
+        "de": "Ich stelle die Frage.",
+        "fa": "سؤال را مطرح می‌کنم."
+      },
+      {
+        "de": "Stellen Sie sich vor den Spiegel.",
+        "fa": "جلو آینه بایستید."
+      }
+    ],
+    "pronunciation": "اشتِلِن",
+    "type": "Verben",
+    "Teil": "M",
+    "Tipp": "Wechselpräpositionen: stellen → Akkusativ (Bewegung)."
+  },
+  {
+    "id": "1326",
+    "level": "A2",
+    "word": "suchen",
+    "meaning": "جستجو کردن",
+    "antonyms": ["finden"],
+    "synonyms": ["suchen nach"],
+    "sentences": [
+      {
+        "de": "Ich suche meine Brille.",
+        "fa": "عینکم را جستجو می‌کنم."
+      },
+      {
+        "de": "Suchst du einen Job?",
+        "fa": "به دنبال کار می‌گردی؟"
+      },
+      {
+        "de": "Wir suchen eine Wohnung.",
+        "fa": "به دنبال آپارتمان هستیم."
+      }
+    ],
+    "pronunciation": "زوخِن",
+    "type": "Verben",
+    "Teil": "M",
+    "Tipp": "suchen + Akkusativ: مستقیم چیزی را جستجو کردن."
+  },
+  {
+    "id": "1327",
+    "level": "A2",
+    "word": "nehmen",
+    "meaning": "گرفتن / برداشتن",
+    "antonyms": ["geben"],
+    "synonyms": ["nehmen"],
+    "sentences": [
+      {
+        "de": "Nimm bitte den Apfel.",
+        "fa": "لطفاً سیب را بردار."
+      },
+      {
+        "de": "Ich nehme den Bus.",
+        "fa": "اتوبوس را می‌گیرم."
+      },
+      {
+        "de": "Nehmen Sie den Zug um 9 Uhr.",
+        "fa": "قطار ساعت ۹ را بگیرید."
+      }
+    ],
+    "pronunciation": "نِمِن",
+    "type": "Verben",
+    "Teil": "M",
+    "Tipp": "starkes Verb: nimmt - nahm - genommen."
+  },
+  {
+    "id": "1328",
+    "level": "A2",
+    "word": "ankommen",
+    "meaning": "رسیدن",
+    "antonyms": ["abfahren"],
+    "synonyms": ["erreichen"],
+    "sentences": [
+      {
+        "de": "Der Zug kommt um 10 Uhr an.",
+        "fa": "قطار ساعت ۱۰ می‌رسد."
+      },
+      {
+        "de": "Wann kommst du in Berlin an?",
+        "fa": "کی به برلین می‌رسی؟"
+      },
+      {
+        "de": "Ich bin gestern angekommen.",
+        "fa": "دیروز رسیدم."
+      }
+    ],
+    "pronunciation": "آن‌کُمِن",
+    "type": "Verben",
+    "Teil": "M",
+    "Tipp": "trennbar: an + kommen → kommt ... an."
+  },
+  {
+    "id": "1329",
+    "level": "A2",
+    "word": "landen",
+    "meaning": "فرود آمدن",
+    "antonyms": ["starten"],
+    "synonyms": ["ankommen"],
+    "sentences": [
+      {
+        "de": "Das Flugzeug landet in München.",
+        "fa": "هواپیما در مونیخ فرود می‌آید."
+      },
+      {
+        "de": "Wir landen um 14 Uhr.",
+        "fa": "ساعت ۱۴ فرود می‌آییم."
+      },
+      {
+        "de": "Das Schiff ist im Hafen gelandet.",
+        "fa": "کشتی در بندر لنگر انداخت."
+      }
+    ],
+    "pronunciation": "لاندِن",
+    "type": "Verben",
+    "Teil": "M",
+    "Tipp": "برای هواپیما، کشتی یا توپ استفاده می‌شود."
+  },
+  {
+    "id": "1330",
+    "level": "A2",
+    "word": "verpassen",
+    "meaning": "از دست دادن (قطار و غیره)",
+    "antonyms": ["erreichen"],
+    "synonyms": ["versäumen"],
+    "sentences": [
+      {
+        "de": "Ich habe den Bus verpasst.",
+        "fa": "اتوبوس را از دست دادم."
+      },
+      {
+        "de": "Verpasse nicht den Zug!",
+        "fa": "قطار را از دست نده!"
+      },
+      {
+        "de": "Sie hat die Gelegenheit verpasst.",
+        "fa": "فرصت را از دست داد."
+      }
+    ],
+    "pronunciation": "فِرپاسِن",
+    "type": "Verben",
+    "Teil": "M",
+    "Tipp": "verpassen + Akkusativ: چیزی را از دست دادن."
+  },
+  {
+    "id": "1331",
+    "level": "A2",
+    "word": "verlieren",
+    "meaning": "گم کردن",
+    "antonyms": ["finden"],
+    "synonyms": ["verlegen"],
+    "sentences": [
+      {
+        "de": "Ich habe meinen Schlüssel verloren.",
+        "fa": "کلیدم را گم کردم."
+      },
+      {
+        "de": "Sie verliert oft ihre Sachen.",
+        "fa": "او اغلب وسایلش را گم می‌کند."
+      },
+      {
+        "de": "Das Team hat das Spiel verloren.",
+        "fa": "تیم بازی را باخت."
+      }
+    ],
+    "pronunciation": "فِرلی‌رِن",
+    "type": "Verben",
+    "Teil": "M",
+    "Tipp": "starkes Verb: verliert - verlor - verloren."
+  },
+  {
+    "id": "1332",
+    "level": "A2",
+    "word": "fliegen",
+    "meaning": "پرواز کردن",
+    "antonyms": [],
+    "synonyms": ["fliegen"],
+    "sentences": [
+      {
+        "de": "Ich fliege morgen nach Teheran.",
+        "fa": "فردا به تهران پرواز می‌کنم."
+      },
+      {
+        "de": "Das Flugzeug fliegt hoch.",
+        "fa": "هواپیما بالا پرواز می‌کند."
+      },
+      {
+        "de": "Wir sind gestern geflogen.",
+        "fa": "دیروز پرواز کردیم."
+      }
+    ],
+    "pronunciation": "فلی‌گِن",
+    "type": "Verben",
+    "Teil": "M",
+    "Tipp": "starkes Verb: fliegt - flog - geflogen."
+  },
+  {
+    "id": "1333",
+    "level": "A2",
+    "word": "anfangen",
+    "meaning": "شروع کردن",
+    "antonyms": ["aufhören"],
+    "synonyms": ["beginnen"],
+    "sentences": [
+      {
+        "de": "Der Kurs fängt um 9 Uhr an.",
+        "fa": "دوره ساعت ۹ شروع می‌شود."
+      },
+      {
+        "de": "Wann fängst du an zu arbeiten?",
+        "fa": "کی شروع به کار می‌کنی؟"
+      },
+      {
+        "de": "Das Konzert hat schon angefangen.",
+        "fa": "کنسرت شروع شده است."
+      }
+    ],
+    "pronunciation": "آن‌فانْگِن",
+    "type": "Verben",
+    "Teil": "M",
+    "Tipp": "trennbar: an + fangen → fängt ... an."
+  },
+  {
+    "id": "1334",
+    "level": "A2",
+    "word": "vergessen",
+    "meaning": "فراموش کردن",
+    "antonyms": ["erinnern"],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Ich habe meine Hausaufgaben vergessen.",
+        "fa": "تکالیفم را فراموش کردم."
+      },
+      {
+        "de": "Vergiss nicht den Schlüssel!",
+        "fa": "کلید را فراموش نکن!"
+      },
+      {
+        "de": "Sie vergisst oft ihren Termin.",
+        "fa": "او اغلب قرارش را فراموش می‌کند."
+      }
+    ],
+    "pronunciation": "فِرگِسِن",
+    "type": "Verben",
+    "Teil": "M",
+    "Tipp": "starkes Verb: vergisst - vergaß - vergessen."
+  },
+  {
+    "id": "1335",
+    "level": "A2",
+    "word": "kaufen",
+    "meaning": "خریدن",
+    "antonyms": ["verkaufen"],
+    "synonyms": ["erwerben"],
+    "sentences": [
+      {
+        "de": "Ich kaufe Brot im Supermarkt.",
+        "fa": "نان را از سوپرمارکت می‌خرم."
+      },
+      {
+        "de": "Was hast du gestern gekauft?",
+        "fa": "دیروز چه خریدی؟"
+      },
+      {
+        "de": "Sie kauft ein neues Auto.",
+        "fa": "او ماشین جدید می‌خرد."
+      }
+    ],
+    "pronunciation": "کائوفِن",
+    "type": "Verben",
+    "Teil": "M",
+    "Tipp": "kaufen + Akkusativ: مستقیم خریدن."
+  },
+  {
+    "id": "1336",
+    "level": "A2",
+    "word": "denken",
+    "meaning": "فکر کردن",
+    "antonyms": [],
+    "synonyms": ["überlegen"],
+    "sentences": [
+      {
+        "de": "Ich denke oft an dich.",
+        "fa": "اغلب به تو فکر می‌کنم."
+      },
+      {
+        "de": "Denkst du, es regnet morgen?",
+        "fa": "فکر می‌کنی فردا باران ببارد؟"
+      },
+      {
+        "de": "Wir haben an das Problem gedacht.",
+        "fa": "به مشکل فکر کردیم."
+      }
+    ],
+    "pronunciation": "دِنْکِن",
+    "type": "Verben",
+    "Teil": "M",
+    "Tipp": "denken an + Akkusativ: به چیزی فکر کردن."
+  },
+  {
+    "id": "1337",
+    "level": "A2",
+    "word": "tragen",
+    "meaning": "پوشیدن / حمل کردن",
+    "antonyms": [],
+    "synonyms": ["anziehen"],
+    "sentences": [
+      {
+        "de": "Sie trägt ein rotes Kleid.",
+        "fa": "او لباس قرمز می‌پوشد."
+      },
+      {
+        "de": "Ich trage den Koffer.",
+        "fa": "چمدان را حمل می‌کنم."
+      },
+      {
+        "de": "Trägst du eine Brille?",
+        "fa": "عینک می‌زنی؟"
+      }
+    ],
+    "pronunciation": "تراگِن",
+    "type": "Verben",
+    "Teil": "M",
+    "Tipp": "starkes Verb: trägt - trug - getragen."
+  },
+  {
+    "id": "1338",
+    "level": "A2",
+    "word": "bezahlen",
+    "meaning": "پرداخت کردن",
+    "antonyms": ["bekommen"],
+    "synonyms": ["zahlen"],
+    "sentences": [
+      {
+        "de": "Ich bezahle die Rechnung.",
+        "fa": "صورت‌حساب را پرداخت می‌کنم."
+      },
+      {
+        "de": "Hast du schon bezahlt?",
+        "fa": "پرداخت کردی؟"
+      },
+      {
+        "de": "Wir bezahlen mit Karte.",
+        "fa": "با کارت پرداخت می‌کنیم."
+      }
+    ],
+    "pronunciation": "بِتساهْلِن",
+    "type": "Verben",
+    "Teil": "M",
+    "Tipp": "bezahlen + Akkusativ: مستقیم پرداخت کردن."
+  },
+  {
+    "id": "1339",
+    "level": "A2",
+    "word": "passieren",
+    "meaning": "اتفاق افتادن",
+    "antonyms": [],
+    "synonyms": ["geschehen"],
+    "sentences": [
+      {
+        "de": "Was ist passiert?",
+        "fa": "چه اتفاقی افتاد؟"
+      },
+      {
+        "de": "Es ist nichts Schlimmes passiert.",
+        "fa": "هیچ چیز بدی اتفاق نیفتاد."
+      },
+      {
+        "de": "Ein Unfall ist passiert.",
+        "fa": "یک تصادف رخ داد."
+      }
+    ],
+    "pronunciation": "پاسی‌رِن",
+    "type": "Verben",
+    "Teil": "M",
+    "Tipp": "impersonal: Es passiert etwas."
+  },
+  {
+    "id": "1340",
+    "level": "A2",
+    "word": "reparieren",
+    "meaning": "تعمیر کردن",
+    "antonyms": ["kaputt machen"],
+    "synonyms": ["richten"],
+    "sentences": [
+      {
+        "de": "Der Mechaniker repariert das Auto.",
+        "fa": "مکانیک ماشین را تعمیر می‌کند."
+      },
+      {
+        "de": "Kannst du den Computer reparieren?",
+        "fa": "می‌توانی کامپیوتر را تعمیر کنی؟"
+      },
+      {
+        "de": "Ich habe mein Fahrrad repariert.",
+        "fa": "دوچرخه‌ام را تعمیر کردم."
+      }
+    ],
+    "pronunciation": "رِپاری‌رِن",
+    "type": "Verben",
+    "Teil": "M",
+    "Tipp": "reparieren + Akkusativ: مستقیم تعمیر کردن."
+  },
+  {
+    "id": "1341",
+    "level": "A2",
+    "word": "schminken",
+    "meaning": "آرایش کردن",
+    "antonyms": ["abschminken"],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Sie schminkt sich jeden Morgen.",
+        "fa": "هر صبح آرایش می‌کند."
+      },
+      {
+        "de": "Schmink dich nicht zu stark.",
+        "fa": "زیاد آرایش نکن."
+      },
+      {
+        "de": "Ich habe mich geschminkt.",
+        "fa": "آرایش کردم."
+      }
+    ],
+    "pronunciation": "شمیِنْکِن",
+    "type": "Verben",
+    "Teil": "M",
+    "Tipp": "reflexive: sich schminken."
+  },
+  {
+    "id": "1342",
+    "level": "A2",
+    "word": "kämmen",
+    "meaning": "شانه کردن",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Kämm deine Haare!",
+        "fa": "موهایت را شانه کن!"
+      },
+      {
+        "de": "Ich kämme mich schnell.",
+        "fa": "سریع موهایم را شانه می‌کنم."
+      },
+      {
+        "de": "Sie kämmt ihr Kind.",
+        "fa": "کودکش را شانه می‌کند."
+      }
+    ],
+    "pronunciation": "کِمِن",
+    "type": "Verben",
+    "Teil": "M",
+    "Tipp": "reflexive: sich kämmen."
+  },
+  {
+    "id": "1343",
+    "level": "A2",
+    "word": "ausruhen",
+    "meaning": "استراحت کردن",
+    "antonyms": ["arbeiten"],
+    "synonyms": ["erholen"],
+    "sentences": [
+      {
+        "de": "Ich ruhe mich nach der Arbeit aus.",
+        "fa": "بعد از کار استراحت می‌کنم."
+      },
+      {
+        "de": "Ruh dich ein bisschen aus!",
+        "fa": "کمی استراحت کن!"
+      },
+      {
+        "de": "Wir haben uns gut ausgeruht.",
+        "fa": "خوب استراحت کردیم."
+      }
+    ],
+    "pronunciation": "آوس‌روهن",
+    "type": "Verben",
+    "Teil": "M",
+    "Tipp": "reflexive: sich ausruhen."
+  },
+  {
+    "id": "1344",
+    "level": "A2",
+    "word": "beeilen",
+    "meaning": "عجله کردن",
+    "antonyms": ["langsam machen"],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Beeil dich, der Zug fährt gleich!",
+        "fa": "عجله کن، قطار скоро حرکت می‌کند!"
+      },
+      {
+        "de": "Ich muss mich beeilen.",
+        "fa": "باید عجله کنم."
+      },
+      {
+        "de": "Beeilt euch!",
+        "fa": "عجله کنید!"
+      }
+    ],
+    "pronunciation": "بِآیلِن",
+    "type": "Verben",
+    "Teil": "M",
+    "Tipp": "reflexive: sich beeilen."
+  },
+  {
+    "id": "1345",
+    "level": "A2",
+    "word": "waschen",
+    "meaning": "شستن",
+    "antonyms": [],
+    "synonyms": ["reinigen"],
+    "sentences": [
+      {
+        "de": "Ich wasche meine Wäsche.",
+        "fa": "لباس‌هایم را می‌شویم."
+      },
+      {
+        "de": "Wasch dir die Hände!",
+        "fa": "دستهایت را بشوی!"
+      },
+      {
+        "de": "Sie wäscht das Auto.",
+        "fa": "ماشین را می‌شوید."
+      }
+    ],
+    "pronunciation": "واشِن",
+    "type": "Verben",
+    "Teil": "M",
+    "Tipp": "starkes Verb: wäscht - wusch - gewaschen."
+  },
+  {
+    "id": "1346",
+    "level": "A2",
+    "word": "duschen",
+    "meaning": "دوش گرفتن",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Ich dusche jeden Morgen.",
+        "fa": "هر صبح دوش می‌گیرم."
+      },
+      {
+        "de": "Dusch dich schnell!",
+        "fa": "سریع دوش بگیر!"
+      },
+      {
+        "de": "Wir haben geduscht.",
+        "fa": "دوش گرفتیم."
+      }
+    ],
+    "pronunciation": "دوشِن",
+    "type": "Verben",
+    "Teil": "M",
+    "Tipp": "reflexive: sich duschen."
+  },
+  {
+    "id": "1347",
+    "level": "A2",
+    "word": "küssen",
+    "meaning": "بوسیدن",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Er küsst seine Frau.",
+        "fa": "همسرش را می‌بوسد."
+      },
+      {
+        "de": "Sie küssten sich.",
+        "fa": "همدیگر را بوسیدند."
+      },
+      {
+        "de": "Küss mich!",
+        "fa": "مرا ببوس!"
+      }
+    ],
+    "pronunciation": "کیسِن",
+    "type": "Verben",
+    "Teil": "M",
+    "Tipp": "küssen + Akkusativ: کسی را بوسیدن."
+  },
+  {
+    "id": "1348",
+    "level": "A2",
+    "word": "verabreden",
+    "meaning": "قرار گذاشتن",
+    "antonyms": [],
+    "synonyms": ["vereinbaren"],
+    "sentences": [
+      {
+        "de": "Ich verabrede mich mit Freunden.",
+        "fa": "با دوستان قرار می‌گذارم."
+      },
+      {
+        "de": "Wir haben uns für morgen verabredet.",
+        "fa": "برای فردا قرار گذاشتیم."
+      },
+      {
+        "de": "Verabredest du dich oft?",
+        "fa": "اغلب قرار می‌گذاری؟"
+      }
+    ],
+    "pronunciation": "فِرآبردِن",
+    "type": "Verben",
+    "Teil": "M",
+    "Tipp": "reflexive: sich verabreden (mit + Dativ)."
+  },
+  {
+    "id": "1349",
+    "level": "A2",
+    "word": "lieben",
+    "meaning": "دوست داشتن / عاشق بودن",
+    "antonyms": ["hassen"],
+    "synonyms": ["mögen"],
+    "sentences": [
+      {
+        "de": "Ich liebe dich.",
+        "fa": "دوستت دارم."
+      },
+      {
+        "de": "Sie liebt Schokolade.",
+        "fa": "عاشق شکلات است."
+      },
+      {
+        "de": "Wir lieben das Meer.",
+        "fa": "دریا را دوست داریم."
+      }
+    ],
+    "pronunciation": "لی‌بِن",
+    "type": "Verben",
+    "Teil": "M",
+    "Tipp": "lieben + Akkusativ: مستقیم دوست داشتن."
+  },
+  {
+    "id": "1350",
+    "level": "A2",
+    "word": "abtrocknen",
+    "meaning": "خشک کردن",
+    "antonyms": ["nass machen"],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Trockne dich ab!",
+        "fa": "خودت را خشک کن!"
+      },
+      {
+        "de": "Ich trockne das Geschirr ab.",
+        "fa": "ظروف را خشک می‌کنم."
+      },
+      {
+        "de": "Sie hat sich abgetrocknet.",
+        "fa": "خودش را خشک کرد."
+      }
+    ],
+    "pronunciation": "آپ‌تروکنِن",
+    "type": "Verben",
+    "Teil": "M",
+    "Tipp": "trennbar: ab + trocknen."
+  },
+  {
+    "id": "1351",
+    "level": "A2",
+    "word": "verabschieden",
+    "meaning": "خداحافظی کردن",
+    "antonyms": ["begrüßen"],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Ich verabschiede mich von dir.",
+        "fa": "از تو خداحافظی می‌کنم."
+      },
+      {
+        "de": "Wir haben uns verabschiedet.",
+        "fa": "خداحافظی کردیم."
+      },
+      {
+        "de": "Verabschiede dich von den Gästen.",
+        "fa": "از مهمانان خداحافظی کن."
+      }
+    ],
+    "pronunciation": "فِرآپ‌شیدن",
+    "type": "Verben",
+    "Teil": "M",
+    "Tipp": "reflexive: sich verabschieden (von + Dativ)."
+  },
+  {
+    "id": "1352",
+    "level": "A2",
+    "word": "eincremen",
+    "meaning": "کرم زدن",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Creme dich gut ein.",
+        "fa": "خوب کرم بزن."
+      },
+      {
+        "de": "Ich creme meine Hände ein.",
+        "fa": "دست‌هایم را کرم می‌زنم."
+      },
+      {
+        "de": "Sie hat sich eingecremt.",
+        "fa": "کرم زده است."
+      }
+    ],
+    "pronunciation": "آین‌کِرِمِن",
+    "type": "Verben",
+    "Teil": "M",
+    "Tipp": "trennbar و reflexive: sich eincremen."
+  },
+  {
+    "id": "1353",
+    "level": "A2",
+    "word": "ärgern",
+    "meaning": "عصبانی کردن",
+    "antonyms": ["freuen"],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Das ärgert mich sehr.",
+        "fa": "این خیلی مرا عصبانی می‌کند."
+      },
+      {
+        "de": "Ärgere dich nicht!",
+        "fa": "عصبانی نشو!"
+      },
+      {
+        "de": "Ich habe mich über den Fehler geärgert.",
+        "fa": "از اشتباه عصبانی شدم."
+      }
+    ],
+    "pronunciation": "اِرگِرن",
+    "type": "Verben",
+    "Teil": "M",
+    "Tipp": "reflexive: sich ärgern (über + Akkusativ)."
+  },
+  {
+    "id": "1354",
+    "level": "A2",
+    "word": "anziehen",
+    "meaning": "پوشیدن",
+    "antonyms": ["ausziehen"],
+    "synonyms": ["tragen"],
+    "sentences": [
+      {
+        "de": "Zieh deine Jacke an!",
+        "fa": "کاپشنت را بپوش!"
+      },
+      {
+        "de": "Ich ziehe mich an.",
+        "fa": "لباس می‌پوشم."
+      },
+      {
+        "de": "Sie hat sich schön angezogen.",
+        "fa": "خوب لباس پوشیده."
+      }
+    ],
+    "pronunciation": "آن‌تسی‌هِن",
+    "type": "Verben",
+    "Teil": "M",
+    "Tipp": "trennbar و reflexive: sich anziehen."
+  },
+  {
+    "id": "1355",
+    "level": "A2",
+    "word": "mögen",
+    "meaning": "دوست داشتن",
+    "antonyms": ["nicht mögen"],
+    "synonyms": ["lieben"],
+    "sentences": [
+      {
+        "de": "Ich mag Kaffee.",
+        "fa": "قهوه دوست دارم."
+      },
+      {
+        "de": "Magst du Musik?",
+        "fa": "موسیقی دوست داری؟"
+      },
+      {
+        "de": "Wir mögen das Buch.",
+        "fa": "کتاب را دوست داریم."
+      }
+    ],
+    "pronunciation": "مُگِن",
+    "type": "Verben",
+    "Teil": "M",
+    "Tipp": "Modalverb: ich mag, du magst."
+  },
+  {
+    "id": "1356",
+    "level": "A2",
+    "word": "wollen",
+    "meaning": "خواستن",
+    "antonyms": [],
+    "synonyms": ["möchten"],
+    "sentences": [
+      {
+        "de": "Ich will nach Hause gehen.",
+        "fa": "می‌خواهم به خانه بروم."
+      },
+      {
+        "de": "Was willst du essen?",
+        "fa": "چه می‌خواهی بخوری؟"
+      },
+      {
+        "de": "Wir wollen lernen.",
+        "fa": "می‌خواهیم یاد بگیریم."
+      }
+    ],
+    "pronunciation": "وُلِن",
+    "type": "Verben",
+    "Teil": "M",
+    "Tipp": "Modalverb: ich will, du willst."
+  },
+  {
+    "id": "1357",
+    "level": "A2",
+    "word": "müssen",
+    "meaning": "باید (اجبار)",
+    "antonyms": ["können"],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Ich muss arbeiten.",
+        "fa": "باید کار کنم."
+      },
+      {
+        "de": "Du musst das machen.",
+        "fa": "باید این کار را بکنی."
+      },
+      {
+        "de": "Wir mussten gehen.",
+        "fa": "باید می‌رفتیم."
+      }
+    ],
+    "pronunciation": "موسِن",
+    "type": "Verben",
+    "Teil": "M",
+    "Tipp": "Modalverb: ich muss, du musst."
+  },
+  {
+    "id": "1358",
+    "level": "A2",
+    "word": "dürfen",
+    "meaning": "اجازه داشتن",
+    "antonyms": ["verboten sein"],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Darf ich hier parken?",
+        "fa": "اجازه دارم اینجا پارک کنم؟"
+      },
+      {
+        "de": "Du darfst nicht rauchen.",
+        "fa": "اجازه نداری سیگار بکشی."
+      },
+      {
+        "de": "Wir dürfen das essen.",
+        "fa": "اجازه داریم این را بخوریم."
+      }
+    ],
+    "pronunciation": "دورفِن",
+    "type": "Verben",
+    "Teil": "M",
+    "Tipp": "Modalverb: ich darf, du darfst (Erlaubnis)."
   }
+
 
 
 
