@@ -1,0 +1,4110 @@
+[
+  {
+    "id": "1",
+    "level": "A2",
+    "word": "Familienname",
+    "meaning": "نام خانوادگی",
+    "antonyms": [],
+    "synonyms": ["Nachname"],
+    "sentences": [
+      {
+        "de": "Wie ist Ihr Familienname?",
+        "fa": "نام خانوادگی شما چیست؟"
+      },
+      {
+        "de": "Mein Familienname ist Müller.",
+        "fa": "نام خانوادگی من مولر است."
+      },
+      {
+        "de": "Bitte schreiben Sie Ihren Familienname hier.",
+        "fa": "لطفاً نام خانوادگی خود را اینجا بنویسید."
+      }
+    ],
+    "pronunciation": "فامیلی‌ین‌نامِ",
+    "type": "Kontakte, Informationen zur Person",
+    "Teil": "A",
+    "Tipp": "Familienname ist der offizielle Nachname in Formularen."
+  },
+  {
+    "id": "2",
+    "level": "A2",
+    "word": "Vorname",
+    "meaning": "نام کوچک",
+    "antonyms": [],
+    "synonyms": ["Rufname"],
+    "sentences": [
+      {
+        "de": "Wie ist Ihr Vorname?",
+        "fa": "نام کوچک شما چیست؟"
+      },
+      {
+        "de": "Mein Vorname ist Anna.",
+        "fa": "نام کوچک من آنا است."
+      },
+      {
+        "de": "Der Vorname steht vor dem Familienname.",
+        "fa": "نام کوچک قبل از نام خانوادگی قرار می‌گیرد."
+      }
+    ],
+    "pronunciation": "فورنِ",
+    "type": "Kontakte, Informationen zur Person",
+    "Teil": "A",
+    "Tipp": "Vorname ist der erste Name einer Person."
+  },
+  {
+    "id": "3",
+    "level": "A2",
+    "word": "Nationalität",
+    "meaning": "ملیت",
+    "antonyms": [],
+    "synonyms": ["Staatsangehörigkeit"],
+    "sentences": [
+      {
+        "de": "Welche Nationalität haben Sie?",
+        "fa": "ملیت شما چیست؟"
+      },
+      {
+        "de": "Ich habe die deutsche Nationalität.",
+        "fa": "من ملیت آلمانی دارم."
+      },
+      {
+        "de": "Die Nationalität ist wichtig im Antrag.",
+        "fa": "ملیت در فرم درخواست مهم است."
+      }
+    ],
+    "pronunciation": "ناسیونالیته",
+    "type": "Kontakte, Informationen zur Person",
+    "Teil": "A",
+    "Tipp": "Nationalität zeigt das Land der Staatsbürgerschaft."
+  },
+  {
+    "id": "4",
+    "level": "A2",
+    "word": "Straße",
+    "meaning": "خیابان",
+    "antonyms": [],
+    "synonyms": ["Weg"],
+    "sentences": [
+      {
+        "de": "In welcher Straße wohnen Sie?",
+        "fa": "در کدام خیابان زندگی می‌کنید؟"
+      },
+      {
+        "de": "Die Straße heißt Hauptstraße.",
+        "fa": "نام خیابان خیابان اصلی است."
+      },
+      {
+        "de": "Meine Straße ist ruhig.",
+        "fa": "خیابان من آرام است."
+      }
+    ],
+    "pronunciation": "اشتراسه",
+    "type": "Kontakte, Informationen zur Person",
+    "Teil": "A",
+    "Tipp": "Straße ist Teil der Adresse mit Hausnummer."
+  },
+  {
+    "id": "5",
+    "level": "A2",
+    "word": "Hausnummer",
+    "meaning": "شماره خانه",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Was ist Ihre Hausnummer?",
+        "fa": "شماره خانه شما چیست؟"
+      },
+      {
+        "de": "Die Hausnummer ist 12.",
+        "fa": "شماره خانه ۱۲ است."
+      },
+      {
+        "de": "Bitte geben Sie Straße und Hausnummer an.",
+        "fa": "لطفاً خیابان و شماره خانه را مشخص کنید."
+      }
+    ],
+    "pronunciation": "هاوس‌نومِر",
+    "type": "Kontakte, Informationen zur Person",
+    "Teil": "A",
+    "Tipp": "Hausnummer ist die Zahl am Gebäude."
+  },
+  {
+    "id": "6",
+    "level": "A2",
+    "word": "Postleitzahl",
+    "meaning": "کد پستی",
+    "antonyms": [],
+    "synonyms": ["PLZ"],
+    "sentences": [
+      {
+        "de": "Ihre Postleitzahl bitte.",
+        "fa": "کد پستی شما لطفاً."
+      },
+      {
+        "de": "Die Postleitzahl ist 10115.",
+        "fa": "کد پستی ۱۰۱۱۵ است."
+      },
+      {
+        "de": "Die Postleitzahl gehört zur Adresse.",
+        "fa": "کد پستی بخشی از آدرس است."
+      }
+    ],
+    "pronunciation": "پُست‌لایتساهل",
+    "type": "Kontakte, Informationen zur Person",
+    "Teil": "A",
+    "Tipp": "Postleitzahl ist immer fünf Zahlen in Deutschland."
+  },
+  {
+    "id": "7",
+    "level": "A2",
+    "word": "Geburtsdatum",
+    "meaning": "تاریخ تولد",
+    "antonyms": [],
+    "synonyms": ["Geburtstag"],
+    "sentences": [
+      {
+        "de": "Wann ist Ihr Geburtsdatum?",
+        "fa": "تاریخ تولد شما کی است؟"
+      },
+      {
+        "de": "Mein Geburtsdatum ist der 15. Mai 1990.",
+        "fa": "تاریخ تولد من ۱۵ مه ۱۹۹۰ است."
+      },
+      {
+        "de": "Bitte tragen Sie Ihr Geburtsdatum ein.",
+        "fa": "لطفاً تاریخ تولد خود را وارد کنید."
+      }
+    ],
+    "pronunciation": "گبور츠‌داتوم",
+    "type": "Kontakte, Informationen zur Person",
+    "Teil": "A",
+    "Tipp": "Geburtsdatum wird meist als TT.MM.JJJJ geschrieben."
+  },
+  {
+    "id": "8",
+    "level": "A2",
+    "word": "Wohnort",
+    "meaning": "محل سکونت",
+    "antonyms": [],
+    "synonyms": ["Wohnsitz"],
+    "sentences": [
+      {
+        "de": "Wo ist Ihr Wohnort?",
+        "fa": "محل سکونت شما کجاست؟"
+      },
+      {
+        "de": "Mein Wohnort ist Berlin.",
+        "fa": "محل سکونت من برلین است."
+      },
+      {
+        "de": "Der Wohnort steht im Ausweis.",
+        "fa": "محل سکونت در کارت شناسایی نوشته شده."
+      }
+    ],
+    "pronunciation": "وون‌اورت",
+    "type": "Kontakte, Informationen zur Person",
+    "Teil": "A",
+    "Tipp": "Wohnort ist die aktuelle Stadt des Wohnens."
+  },
+  {
+    "id": "9",
+    "level": "A2",
+    "word": "Mobiltelefon",
+    "meaning": "تلفن همراه",
+    "antonyms": [],
+    "synonyms": ["Handy"],
+    "sentences": [
+      {
+        "de": "Haben Sie ein Mobiltelefon?",
+        "fa": "تلفن همراه دارید؟"
+      },
+      {
+        "de": "Meine Mobiltelefonnummer ist 0176...",
+        "fa": "شماره تلفن همراه من ۰۱۷۶... است."
+      },
+      {
+        "de": "Rufen Sie mich auf dem Mobiltelefon an.",
+        "fa": "با تلفن همراه با من تماس بگیرید."
+      }
+    ],
+    "pronunciation": "موبیل‌تِلِفون",
+    "type": "Kontakte, Informationen zur Person",
+    "Teil": "A",
+    "Tipp": "Mobiltelefon ist das Handy für unterwegs."
+  },
+  {
+    "id": "10",
+    "level": "A2",
+    "word": "Telefon",
+    "meaning": "تلفن",
+    "antonyms": [],
+    "synonyms": ["Festnetz"],
+    "sentences": [
+      {
+        "de": "Wie ist Ihre Telefonnummer?",
+        "fa": "شماره تلفن شما چیست؟"
+      },
+      {
+        "de": "Das Telefon klingelt.",
+        "fa": "تلفن زنگ می‌زند."
+      },
+      {
+        "de": "Ich habe kein Telefon zu Hause.",
+        "fa": "من تلفن خانگی ندارم."
+      }
+    ],
+    "pronunciation": "تِلِفون",
+    "type": "Kontakte, Informationen zur Person",
+    "Teil": "A",
+    "Tipp": "Telefon kann Festnetz oder Mobil sein."
+  },
+  {
+    "id": "11",
+    "level": "A2",
+    "word": "Vorwahl",
+    "meaning": "پیش شماره",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Die Vorwahl von Berlin ist 030.",
+        "fa": "پیش شماره برلین ۰۳۰ است."
+      },
+      {
+        "de": "Bitte geben Sie die Vorwahl an.",
+        "fa": "لطفاً پیش شماره را وارد کنید."
+      },
+      {
+        "de": "Ohne Vorwahl funktioniert die Nummer nicht.",
+        "fa": "بدون پیش شماره شماره کار نمی‌کند."
+      }
+    ],
+    "pronunciation": "فوروال",
+    "type": "Kontakte, Informationen zur Person",
+    "Teil": "A",
+    "Tipp": "Vorwahl ist der regionale Code vor der Telefonnummer."
+  },
+  {
+    "id": "12",
+    "level": "A2",
+    "word": "E-Mail",
+    "meaning": "ایمیل",
+    "antonyms": [],
+    "synonyms": ["Mailadresse"],
+    "sentences": [
+      {
+        "de": "Ihre E-Mail-Adresse bitte.",
+        "fa": "آدرس ایمیل شما لطفاً."
+      },
+      {
+        "de": "Ich schreibe Ihnen eine E-Mail.",
+        "fa": "برای شما ایمیل می‌نویسم."
+      },
+      {
+        "de": "Die E-Mail ist wichtig für Kontakt.",
+        "fa": "ایمیل برای تماس مهم است."
+      }
+    ],
+    "pronunciation": "ای-میل",
+    "type": "Kontakte, Informationen zur Person",
+    "Teil": "A",
+    "Tipp": "E-Mail wird immer mit @ geschrieben."
+  },
+  {
+    "id": "13",
+    "level": "A2",
+    "word": "aktiv",
+    "meaning": "فعال",
+    "antonyms": ["passiv"],
+    "synonyms": ["tätig"],
+    "sentences": [
+      {
+        "de": "Ich bin aktiv im Verein.",
+        "fa": "من در انجمن فعال هستم."
+      },
+      {
+        "de": "Der Verein sucht aktive Mitglieder.",
+        "fa": "انجمن به دنبال اعضای فعال است."
+      },
+      {
+        "de": "Sie ist sehr aktiv in der Gruppe.",
+        "fa": "او خیلی در گروه فعال است."
+      }
+    ],
+    "pronunciation": "اکتیف",
+    "type": "Kontakte, Informationen zur Person",
+    "Teil": "A",
+    "Tipp": "Aktiv bedeutet engagiert und teilnehmend."
+  },
+  {
+    "id": "14",
+    "level": "A2",
+    "word": "Ermäßigung",
+    "meaning": "تخفیف",
+    "antonyms": [],
+    "synonyms": ["Rabatt"],
+    "sentences": [
+      {
+        "de": "Gibt es eine Ermäßigung?",
+        "fa": "تخفیف وجود دارد؟"
+      },
+      {
+        "de": "Studenten bekommen Ermäßigung.",
+        "fa": "دانشجویان تخفیف می‌گیرند."
+      },
+      {
+        "de": "Die Ermäßigung ist für Senioren.",
+        "fa": "تخفیف برای سالمندان است."
+      }
+    ],
+    "pronunciation": "ارمایسیگونگ",
+    "type": "Kontakte, Informationen zur Person",
+    "Teil": "A",
+    "Tipp": "Ermäßigung ist eine Preisreduktion."
+  },
+  {
+    "id": "15",
+    "level": "A2",
+    "word": "Konto",
+    "meaning": "حساب بانکی",
+    "antonyms": [],
+    "synonyms": ["Bankkonto"],
+    "sentences": [
+      {
+        "de": "Ich habe ein Konto bei der Bank.",
+        "fa": "من حساب بانکی در بانک دارم."
+      },
+      {
+        "de": "Bitte geben Sie Ihre Kontonummer an.",
+        "fa": "لطفاً شماره حساب خود را بدهید."
+      },
+      {
+        "de": "Das Geld kommt auf mein Konto.",
+        "fa": "پول به حساب من واریز می‌شود."
+      }
+    ],
+    "pronunciation": "کنتو",
+    "type": "Kontakte, Informationen zur Person",
+    "Teil": "A",
+    "Tipp": "Konto braucht IBAN und BIC für Überweisungen."
+  },
+  {
+    "id": "16",
+    "level": "A2",
+    "word": "Beitrag",
+    "meaning": "حق عضویت / کمک",
+    "antonyms": [],
+    "synonyms": ["Mitgliedsbeitrag"],
+    "sentences": [
+      {
+        "de": "Der Beitrag ist monatlich.",
+        "fa": "حق عضویت ماهانه است."
+      },
+      {
+        "de": "Ich zahle den Beitrag pünktlich.",
+        "fa": "حق عضویت را به موقع پرداخت می‌کنم."
+      },
+      {
+        "de": "Der Verein braucht Beiträge.",
+        "fa": "انجمن به حق عضویت نیاز دارد."
+      }
+    ],
+    "pronunciation": "بایت‌راخ",
+    "type": "Kontakte, Informationen zur Person",
+    "Teil": "A",
+    "Tipp": "Beitrag ist die regelmäßige Zahlung für Mitgliedschaft."
+  },
+  {
+    "id": "17",
+    "level": "A2",
+    "word": "der Verein",
+    "meaning": "انجمن / باشگاه",
+    "antonyms": [],
+    "synonyms": ["Club"],
+    "sentences": [
+      {
+        "de": "Ich bin im Verein.",
+        "fa": "من در انجمن هستم."
+      },
+      {
+        "de": "Der Verein organisiert Treffen.",
+        "fa": "انجمن جلسات برگزار می‌کند."
+      },
+      {
+        "de": "Willkommen im Verein!",
+        "fa": "به انجمن خوش آمدید!"
+      }
+    ],
+    "pronunciation": "در فِرآین",
+    "type": "Kontakte, Informationen zur Person",
+    "Teil": "A",
+    "Tipp": "Verein ist eine organisierte Gruppe mit Mitgliedern."
+  },
+  {
+    "id": "18",
+    "level": "A2",
+    "word": "die Zahlung",
+    "meaning": "پرداخت",
+    "antonyms": [],
+    "synonyms": ["Überweisung"],
+    "sentences": [
+      {
+        "de": "Die Zahlung ist erfolgt.",
+        "fa": "پرداخت انجام شد."
+      },
+      {
+        "de": "Ich mache die Zahlung per Bank.",
+        "fa": "پرداخت را از طریق بانک انجام می‌دهم."
+      },
+      {
+        "de": "Die Zahlung des Beitrags ist wichtig.",
+        "fa": "پرداخت حق عضویت مهم است."
+      }
+    ],
+    "pronunciation": "دی تسالونگ",
+    "type": "Kontakte, Informationen zur Person",
+    "Teil": "A",
+    "Tipp": "Zahlung ist der Vorgang des Geldgebens."
+  },
+  {
+    "id": "19",
+    "level": "A2",
+    "word": "die Unterschrift",
+    "meaning": "امضا",
+    "antonyms": [],
+    "synonyms": ["Signatur"],
+    "sentences": [
+      {
+        "de": "Bitte leisten Sie Ihre Unterschrift.",
+        "fa": "لطفاً امضای خود را بزنید."
+      },
+      {
+        "de": "Die Unterschrift ist auf dem Formular.",
+        "fa": "امضا روی فرم است."
+      },
+      {
+        "de": "Ihre Unterschrift ist nötig.",
+        "fa": "امضای شما لازم است."
+      }
+    ],
+    "pronunciation": "دی اونترشریفت",
+    "type": "Kontakte, Informationen zur Person",
+    "Teil": "A",
+    "Tipp": "Unterschrift muss handschriftlich sein."
+  },
+  {
+    "id": "20",
+    "level": "A2",
+    "word": "das Antragsformular",
+    "meaning": "فرم درخواست",
+    "antonyms": [],
+    "synonyms": ["Antrag"],
+    "sentences": [
+      {
+        "de": "Füllen Sie das Antragsformular aus.",
+        "fa": "فرم درخواست را پر کنید."
+      },
+      {
+        "de": "Das Antragsformular ist für die Mitgliedschaft.",
+        "fa": "فرم درخواست برای عضویت است."
+      },
+      {
+        "de": "Ich habe das Antragsformular schon.",
+        "fa": "فرم درخواست را قبلاً دارم."
+      }
+    ],
+    "pronunciation": "داس آنتراگس‌فورمولار",
+    "type": "Kontakte, Informationen zur Person",
+    "Teil": "A",
+    "Tipp": "Antragsformular braucht alle Personalien."
+  },
+  {
+    "id": "21",
+    "level": "A2",
+    "word": "die Konten",
+    "meaning": "حساب‌ها",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Die Konten sind ausgeglichen.",
+        "fa": "حساب‌ها متعادل هستند."
+      },
+      {
+        "de": "Ich habe mehrere Konten.",
+        "fa": "چند حساب دارم."
+      },
+      {
+        "de": "Die Bank verwaltet die Konten.",
+        "fa": "بانک حساب‌ها را مدیریت می‌کند."
+      }
+    ],
+    "pronunciation": "دی کنتن",
+    "type": "Kontakte, Informationen zur Person",
+    "Teil": "A",
+    "Tipp": "Konten ist Plural von Konto."
+  },
+  {
+    "id": "22",
+    "level": "A2",
+    "word": "der Wohnort",
+    "meaning": "محل سکونت",
+    "antonyms": [],
+    "synonyms": ["Wohnsitz"],
+    "sentences": [
+      {
+        "de": "Der Wohnort ist Berlin.",
+        "fa": "محل سکونت برلین است."
+      },
+      {
+        "de": "Ändern Sie Ihren Wohnort?",
+        "fa": "محل سکونت خود را تغییر می‌دهید؟"
+      },
+      {
+        "de": "Im Formular steht der Wohnort.",
+        "fa": "در فرم محل سکونت نوشته شده."
+      }
+    ],
+    "pronunciation": "در وون‌اورت",
+    "type": "Kontakte, Informationen zur Person",
+    "Teil": "A",
+    "Tipp": "Wohnort ist die Stadt, wo man lebt."
+  },
+  {
+    "id": "23",
+    "level": "A2",
+    "word": "der Beitrag",
+    "meaning": "حق عضویت",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Der Beitrag beträgt 50 Euro.",
+        "fa": "حق عضویت ۵۰ یورو است."
+      },
+      {
+        "de": "Zahlen Sie den Beitrag?",
+        "fa": "حق عضویت را پرداخت می‌کنید؟"
+      },
+      {
+        "de": "Der Beitrag ist jährlich.",
+        "fa": "حق عضویت سالانه است."
+      }
+    ],
+    "pronunciation": "در بایت‌راخ",
+    "type": "Kontakte, Informationen zur Person",
+    "Teil": "A",
+    "Tipp": "Beitrag wird meist regelmäßig gezahlt."
+  },
+  {
+    "id": "24",
+    "level": "A2",
+    "word": "das Mobiltelefon",
+    "meaning": "تلفن همراه",
+    "antonyms": [],
+    "synonyms": ["Handy"],
+    "sentences": [
+      {
+        "de": "Das Mobiltelefon ist neu.",
+        "fa": "تلفن همراه جدید است."
+      },
+      {
+        "de": "Ich verliere nie das Mobiltelefon.",
+        "fa": "هرگز تلفن همراهم را گم نمی‌کنم."
+      },
+      {
+        "de": "Das Mobiltelefon klingelt laut.",
+        "fa": "تلفن همراه بلند زنگ می‌زند."
+      }
+    ],
+    "pronunciation": "داس موبیل‌تِلِفون",
+    "type": "Kontakte, Informationen zur Person",
+    "Teil": "A",
+    "Tipp": "Mobiltelefon ersetzt oft das Festnetz."
+  },
+  {
+    "id": "25",
+    "level": "A2",
+    "word": "passiv",
+    "meaning": "منفعل / غیرفعال",
+    "antonyms": ["aktiv"],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Er ist passiv im Verein.",
+        "fa": "او در انجمن غیرفعال است."
+      },
+      {
+        "de": "Passiv zahlt man nur den Beitrag.",
+        "fa": "غیرفعال فقط حق عضویت پرداخت می‌کند."
+      },
+      {
+        "de": "Sie ist nicht passiv, sondern aktiv.",
+        "fa": "او غیرفعال نیست بلکه فعال است."
+      }
+    ],
+    "pronunciation": "پاسیف",
+    "type": "Kontakte, Informationen zur Person",
+    "Teil": "A",
+    "Tipp": "Passiv bedeutet nicht teilnehmend."
+  },
+  {
+    "id": "26",
+    "level": "A2",
+    "word": "beschäftigt",
+    "meaning": "مشغول / شاغل",
+    "antonyms": ["arbeitslos"],
+    "synonyms": ["berufstätig"],
+    "sentences": [
+      {
+        "de": "Ich bin beschäftigt.",
+        "fa": "من مشغول هستم."
+      },
+      {
+        "de": "Sie ist voll beschäftigt.",
+        "fa": "او کاملاً مشغول است."
+      },
+      {
+        "de": "Der Mitarbeiter ist beschäftigt.",
+        "fa": "کارمند مشغول است."
+      }
+    ],
+    "pronunciation": "بشفتیگت",
+    "type": "Kontakte, Informationen zur Person",
+    "Teil": "A",
+    "Tipp": "Beschäftigt bedeutet Arbeit haben."
+  },
+  {
+    "id": "27",
+    "level": "A2",
+    "word": "halbtags",
+    "meaning": "پاره وقت",
+    "antonyms": ["ganztags"],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Ich arbeite halbtags.",
+        "fa": "من پاره وقت کار می‌کنم."
+      },
+      {
+        "de": "Die Stelle ist halbtags.",
+        "fa": "موقعیت شغلی پاره وقت است."
+      },
+      {
+        "de": "Halbtags ist gut für Eltern.",
+        "fa": "پاره وقت برای والدین خوب است."
+      }
+    ],
+    "pronunciation": "هالبتاگس",
+    "type": "AdKontakte, Informationen zur Person",
+    "Teil": "A",
+    "Tipp": "Halbtags ist meist 20 Stunden pro Woche."
+  },
+  {
+    "id": "28",
+    "level": "A2",
+    "word": "angestellt",
+    "meaning": "استخدام شده",
+    "antonyms": ["arbeitslos"],
+    "synonyms": ["beschäftigt"],
+    "sentences": [
+      {
+        "de": "Er ist bei einer Firma angestellt.",
+        "fa": "او در یک شرکت استخدام شده است."
+      },
+      {
+        "de": "Ich bin fest angestellt.",
+        "fa": "من استخدام دائم هستم."
+      },
+      {
+        "de": "Die Frau ist angestellt.",
+        "fa": "زن استخدام شده است."
+      }
+    ],
+    "pronunciation": "آنگِشتِلت",
+    "type": "Kontakte, Informationen zur Person",
+    "Teil": "A",
+    "Tipp": "Angestellt bedeutet einen Arbeitsvertrag haben."
+  },
+  {
+    "id": "29",
+    "level": "A2",
+    "word": "herzlich willkommen",
+    "meaning": "خوش آمدید صمیمانه",
+    "antonyms": [],
+    "synonyms": ["Willkommen"],
+    "sentences": [
+      {
+        "de": "Herzlich willkommen im Verein!",
+        "fa": "به انجمن خوش آمدید صمیمانه!"
+      },
+      {
+        "de": "Herzlich willkommen zu Hause.",
+        "fa": "به خانه خوش آمدید."
+      },
+      {
+        "de": "Wir sagen herzlich willkommen.",
+        "fa": "ما صمیمانه خوش آمدید می‌گوییم."
+      }
+    ],
+    "pronunciation": "هرتسلیش ویلکومِن",
+    "type": "Ausdruck",
+    "Teil": "A",
+    "Tipp": "Herzlich willkommen ist eine freundliche Begrüßung."
+  },
+  {
+    "id": "30",
+    "level": "A2",
+    "word": "im Augenblick",
+    "meaning": "در حال حاضر",
+    "antonyms": [],
+    "synonyms": ["jetzt"],
+    "sentences": [
+      {
+        "de": "Im Augenblick bin ich beschäftigt.",
+        "fa": "در حال حاضر مشغول هستم."
+      },
+      {
+        "de": "Im Augenblick arbeite ich nicht.",
+        "fa": "در حال حاضر کار نمی‌کنم."
+      },
+      {
+        "de": "Was machen Sie im Augenblick?",
+        "fa": "در حال حاضر چه کار می‌کنید؟"
+      }
+    ],
+    "pronunciation": "ایم آوگن‌بلیک",
+    "type": "Ausdruck",
+    "Teil": "A",
+    "Tipp": "Im Augenblick bedeutet genau jetzt."
+  },
+  {
+    "id": "31",
+    "level": "A2",
+    "word": "arbeitslos",
+    "meaning": "بیکار",
+    "antonyms": ["beschäftigt"],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Er ist arbeitslos.",
+        "fa": "او بیکار است."
+      },
+      {
+        "de": "Ich suche Arbeit, weil ich arbeitslos bin.",
+        "fa": "کار جستجو می‌کنم چون بیکارم."
+      },
+      {
+        "de": "Viele Leute sind arbeitslos.",
+        "fa": "بسیاری از مردم بیکار هستند."
+      }
+    ],
+    "pronunciation": "آر‌بایتس‌لوس",
+    "type": "Kontakte, Informationen zur Person",
+    "Teil": "A",
+    "Tipp": "Arbeitslos bedeutet keine Stelle haben."
+  },
+  {
+    "id": "32",
+    "level": "A2",
+    "word": "sich vorstellen",
+    "meaning": "خود را معرفی کردن",
+    "antonyms": [],
+    "synonyms": ["bekannt machen"],
+    "sentences": [
+      {
+        "de": "Ich möchte mich vorstellen.",
+        "fa": "می‌خواهم خودم را معرفی کنم."
+      },
+      {
+        "de": "Stellen Sie sich bitte vor.",
+        "fa": "لطفاً خودتان را معرفی کنید."
+      },
+      {
+        "de": "Sie stellt sich der Gruppe vor.",
+        "fa": "او خود را به گروه معرفی می‌کند."
+      }
+    ],
+    "pronunciation": "زیخ فورشتِلِن",
+    "type": "Kontakte, Informationen zur Person",
+    "Teil": "A",
+    "Tipp": "Sich vorstellen verwendet ReflexivproKontakte, Informationen zur Person."
+  },
+  {
+    "id": "33",
+    "level": "A2",
+    "word": "berufstätig",
+    "meaning": "شاغل",
+    "antonyms": ["arbeitslos"],
+    "synonyms": ["beschäftigt"],
+    "sentences": [
+      {
+        "de": "Ich bin berufstätig.",
+        "fa": "من شاغل هستم."
+      },
+      {
+        "de": "Berufstätige zahlen mehr Beitrag.",
+        "fa": "شاغلان حق عضویت بیشتری پرداخت می‌کنند."
+      },
+      {
+        "de": "Sind Sie berufstätig?",
+        "fa": "شاغل هستید؟"
+      }
+    ],
+    "pronunciation": "بِروفس‌تِتیگ",
+    "type": "Kontakte, Informationen zur Person",
+    "Teil": "A",
+    "Tipp": "Berufstätig bedeutet eine Arbeit ausüben."
+  },
+  {
+    "id": "34",
+    "level": "A2",
+    "word": "von Beruf sein",
+    "meaning": "به شغل ... بودن",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Von Beruf bin ich Lehrer.",
+        "fa": "به شغل معلم هستم."
+      },
+      {
+        "de": "Was sind Sie von Beruf?",
+        "fa": "به شغل چه هستید؟"
+      },
+      {
+        "de": "Sie ist von Beruf Ärztin.",
+        "fa": "او به شغل پزشک است."
+      }
+    ],
+    "pronunciation": "فون بِروف زاین",
+    "type": "Ausdruck",
+    "Teil": "A",
+    "Tipp": "Von Beruf fragt nach der Hauptbeschäftigung."
+  },
+  {
+    "id": "35",
+    "level": "A2",
+    "word": "die Stelle",
+    "meaning": "موقعیت شغلی",
+    "antonyms": [],
+    "synonyms": ["Job", "Arbeitsplatz"],
+    "sentences": [
+      {
+        "de": "Ich suche eine Stelle.",
+        "fa": "به دنبال موقعیت شغلی هستم."
+      },
+      {
+        "de": "Die Stelle ist halbtags.",
+        "fa": "موقعیت شغلی پاره وقت است."
+      },
+      {
+        "de": "Er hat eine gute Stelle.",
+        "fa": "او موقعیت شغلی خوبی دارد."
+      }
+    ],
+    "pronunciation": "دی اشتِله",
+    "type": "Kontakte, Informationen zur Person",
+    "Teil": "A",
+    "Tipp": "Stelle ist eine offene Arbeitsposition."
+  },
+  {
+    "id": "36",
+    "level": "A2",
+    "word": "der Bereich",
+    "meaning": "حوزه / بخش",
+    "antonyms": [],
+    "synonyms": ["Gebiet"],
+    "sentences": [
+      {
+        "de": "In welchem Bereich arbeiten Sie?",
+        "fa": "در کدام حوزه کار می‌کنید؟"
+      },
+      {
+        "de": "Der Bereich ist Technik.",
+        "fa": "حوزه فناوری است."
+      },
+      {
+        "de": "Das ist mein Bereich.",
+        "fa": "این حوزه من است."
+      }
+    ],
+    "pronunciation": "در بِرایش",
+    "type": "Kontakte, Informationen zur Person",
+    "Teil": "A",
+    "Tipp": "Bereich beschreibt das Arbeitsfeld."
+  },
+  {
+    "id": "37",
+    "level": "A2",
+    "word": "nennen",
+    "meaning": "نام بردن",
+    "antonyms": [],
+    "synonyms": ["sagen"],
+    "sentences": [
+      {
+        "de": "Nennen Sie Ihren Namen.",
+        "fa": "نام خود را بگویید."
+      },
+      {
+        "de": "Wie nennt man das?",
+        "fa": "به این چه می‌گویند؟"
+      },
+      {
+        "de": "Er nennt seinen Beruf.",
+        "fa": "او شغل خود را نام می‌برد."
+      }
+    ],
+    "pronunciation": "نِنِن",
+    "type": "Kontakte, Informationen zur Person",
+    "Teil": "A",
+    "Tipp": "Nennen verwendet Akkusativ für das Genannte."
+  },
+  {
+    "id": "38",
+    "level": "A2",
+    "word": "der Arbeitsplatz",
+    "meaning": "محل کار",
+    "antonyms": [],
+    "synonyms": ["Stelle"],
+    "sentences": [
+      {
+        "de": "Der Arbeitsplatz ist sauber.",
+        "fa": "محل کار تمیز است."
+      },
+      {
+        "de": "Ich habe einen neuen Arbeitsplatz.",
+        "fa": "محل کار جدیدی دارم."
+      },
+      {
+        "de": "Am Arbeitsplatz bin ich konzentriert.",
+        "fa": "در محل کار متمرکز هستم."
+      }
+    ],
+    "pronunciation": "در آر‌بایتس‌پلاتس",
+    "type": "Kontakte, Informationen zur Person",
+    "Teil": "A",
+    "Tipp": "Arbeitsplatz ist der physische Ort der Arbeit."
+  },
+  {
+    "id": "39",
+    "level": "A2",
+    "word": "der Augenblick",
+    "meaning": "لحظه",
+    "antonyms": [],
+    "synonyms": ["Moment"],
+    "sentences": [
+      {
+        "de": "Im Augenblick bin ich frei.",
+        "fa": "در این لحظه آزادم."
+      },
+      {
+        "de": "Warten Sie einen Augenblick.",
+        "fa": "یک لحظه صبر کنید."
+      },
+      {
+        "de": "Der Augenblick ist wichtig.",
+        "fa": "این لحظه مهم است."
+      }
+    ],
+    "pronunciation": "در آوگن‌بلیک",
+    "type": "Kontakte, Informationen zur Person",
+    "Teil": "A",
+    "Tipp": "Augenblick bedeutet kurze Zeitspanne."
+  },
+  {
+    "id": "40",
+    "level": "A2",
+    "word": "bekannt machen",
+    "meaning": "معرفی کردن",
+    "antonyms": [],
+    "synonyms": ["vorstellen"],
+    "sentences": [
+      {
+        "de": "Ich mache Sie bekannt.",
+        "fa": "شما را معرفی می‌کنم."
+      },
+      {
+        "de": "Machen Sie die Kollegen bekannt.",
+        "fa": "همکاران را معرفی کنید."
+      },
+      {
+        "de": "Wir machen uns bekannt.",
+        "fa": "خودمان را معرفی می‌کنیم."
+      }
+    ],
+    "pronunciation": "بِکانت ماخِن",
+    "type": "Kontakte, Informationen zur Person",
+    "Teil": "A",
+    "Tipp": "Bekannt machen ist transitiv."
+  },
+  {
+    "id": "41",
+    "level": "A2",
+    "word": "das Studium",
+    "meaning": "تحصیلات دانشگاهی",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Ich mache mein Studium.",
+        "fa": "در حال تحصیل دانشگاهی هستم."
+      },
+      {
+        "de": "Das Studium dauert vier Jahre.",
+        "fa": "تحصیلات چهار سال طول می‌کشد."
+      },
+      {
+        "de": "Nach dem Studium arbeite ich.",
+        "fa": "پس از تحصیل کار می‌کنم."
+      }
+    ],
+    "pronunciation": "داس اشتودیوم",
+    "type": "Kontakte, Informationen zur Person",
+    "Teil": "A",
+    "Tipp": "Studium ist die Zeit an der Universität."
+  },
+  {
+    "id": "42",
+    "level": "A2",
+    "word": "die Kollegin",
+    "meaning": "همکار زن",
+    "antonyms": [],
+    "synonyms": ["Kollege (m)"],
+    "sentences": [
+      {
+        "de": "Das ist meine Kollegin.",
+        "fa": "این همکار زن من است."
+      },
+      {
+        "de": "Die Kollegin hilft mir.",
+        "fa": "همکار زن به من کمک می‌کند."
+      },
+      {
+        "de": "Ich treffe die Kollegin.",
+        "fa": "با همکار زن ملاقات می‌کنم."
+      }
+    ],
+    "pronunciation": "دی کُلِگین",
+    "type": "Kontakte, Informationen zur Person",
+    "Teil": "A",
+    "Tipp": "Kollegin ist weiblich, Kollege männlich."
+  },
+  {
+    "id": "43",
+    "level": "A2",
+    "word": "angenehm",
+    "meaning": "مطبوع / دلپذیر",
+    "antonyms": ["unangenehm"],
+    "synonyms": ["schön"],
+    "sentences": [
+      {
+        "de": "Es ist angenehm, Sie kennenzulernen.",
+        "fa": "ملاقات با شما دلپذیر است."
+      },
+      {
+        "de": "Das Wetter ist angenehm.",
+        "fa": "هوا مطبوع است."
+      },
+      {
+        "de": "Der Arbeitsplatz ist angenehm.",
+        "fa": "محل کار دلپذیر است."
+      }
+    ],
+    "pronunciation": "آنگِنِم",
+    "type": "Kontakte, Informationen zur Person",
+    "Teil": "A",
+    "Tipp": "Angenehm verwendet man bei Vorstellungen."
+  },
+  {
+    "id": "44",
+    "level": "A2",
+    "word": "kennenlernen",
+    "meaning": "آشنا شدن",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Freut mich, Sie kennenzulernen.",
+        "fa": "از آشنایی با شما خوشحالم."
+      },
+      {
+        "de": "Ich lerne neue Leute kennen.",
+        "fa": "با افراد جدید آشنا می‌شوم."
+      },
+      {
+        "de": "Wann lernen wir uns kennen?",
+        "fa": "کی با هم آشنا می‌شویم؟"
+      }
+    ],
+    "pronunciation": "کِنِن‌لِرنِن",
+    "type": "Kontakte, Informationen zur Person",
+    "Teil": "A",
+    "Tipp": "Kennenlernen ist trennbar."
+  },
+  {
+    "id": "45",
+    "level": "A2",
+    "word": "die Messe",
+    "meaning": "نمایشگاه",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Ich gehe auf die Messe.",
+        "fa": "به نمایشگاه می‌روم."
+      },
+      {
+        "de": "Die Messe ist groß.",
+        "fa": "نمایشگاه بزرگ است."
+      },
+      {
+        "de": "Auf der Messe treffe ich Kunden.",
+        "fa": "در نمایشگاه با مشتریان ملاقات می‌کنم."
+      }
+    ],
+    "pronunciation": "دی مِسِ",
+    "type": "Kontakte, Informationen zur Person",
+    "Teil": "A",
+    "Tipp": "Messe ist eine große Veranstaltung für Firmen."
+  },
+  {
+    "id": "46",
+    "level": "A2",
+    "word": "geben",
+    "meaning": "دادن",
+    "antonyms": ["nehmen"],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Geben Sie mir die Karte.",
+        "fa": "کارت را به من بدهید."
+      },
+      {
+        "de": "Ich gebe Ihnen meine Visitenkarte.",
+        "fa": "کارت ویزیتم را به شما می‌دهم."
+      },
+      {
+        "de": "Was geben Sie mir?",
+        "fa": "به من چه می‌دهید؟"
+      }
+    ],
+    "pronunciation": "گِبِن",
+    "type": "Kontakte, Informationen zur Person",
+    "Teil": "A",
+    "Tipp": "Geben verwendet Dativ für den Empfänger."
+  },
+  {
+    "id": "47",
+    "level": "A2",
+    "word": "die Visitenkarte",
+    "meaning": "کارت ویزیت",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Hier ist meine Visitenkarte.",
+        "fa": "این کارت ویزیت من است."
+      },
+      {
+        "de": "Geben Sie mir Ihre Visitenkarte.",
+        "fa": "کارت ویزیت خود را به من بدهید."
+      },
+      {
+        "de": "Auf der Visitenkarte steht die E-Mail.",
+        "fa": "روی کارت ویزیت ایمیل نوشته شده."
+      }
+    ],
+    "pronunciation": "دی ویزیتِن‌کارته",
+    "type": "Kontakte, Informationen zur Person",
+    "Teil": "A",
+    "Tipp": "Visitenkarte enthält Kontaktinformationen."
+  },
+  {
+    "id": "48",
+    "level": "A2",
+    "word": "selbstverständlich",
+    "meaning": "البته / بدیهی",
+    "antonyms": [],
+    "synonyms": ["natürlich"],
+    "sentences": [
+      {
+        "de": "Selbstverständlich helfe ich.",
+        "fa": "البته کمک می‌کنم."
+      },
+      {
+        "de": "Das ist selbstverständlich.",
+        "fa": "این بدیهی است."
+      },
+      {
+        "de": "Selbstverständlich komme ich.",
+        "fa": "البته می‌آیم."
+      }
+    ],
+    "pronunciation": "زِلپست‌فِرشتِن‌دیخ",
+    "type": "AdKontakte, Informationen zur Person",
+    "Teil": "A",
+    "Tipp": "Selbstverständlich drückt Zustimmung aus."
+  },
+  {
+    "id": "49",
+    "level": "A2",
+    "word": "haben",
+    "meaning": "داشتن",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Ich habe eine Frage.",
+        "fa": "سوالی دارم."
+      },
+      {
+        "de": "Haben Sie Zeit?",
+        "fa": "وقت دارید؟"
+      },
+      {
+        "de": "Wir haben ein neues Auto.",
+        "fa": "ما ماشین جدیدی داریم."
+      }
+    ],
+    "pronunciation": "ها‌بِن",
+    "type": "Kontakte, Informationen zur Person",
+    "Teil": "A",
+    "Tipp": "Haben ist HilfsKontakte, Informationen zur Person für Perfekt."
+  },
+  {
+    "id": "50",
+    "level": "A2",
+    "word": "sich melden",
+    "meaning": "تماس گرفتن / گزارش دادن",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Melden Sie sich bitte.",
+        "fa": "لطفاً تماس بگیرید."
+      },
+      {
+        "de": "Ich melde mich morgen.",
+        "fa": "فردا تماس می‌گیرم."
+      },
+      {
+        "de": "Die Kollegin meldet sich.",
+        "fa": "همکار تماس می‌گیرد."
+      }
+    ],
+    "pronunciation": "زیخ مِلدِن",
+    "type": "Kontakte, Informationen zur Person",
+    "Teil": "A",
+    "Tipp": "Sich melden ist reflexiv für Kontakt."
+  },
+  {
+    "id": "51",
+    "level": "A2",
+    "word": "die Dame",
+    "meaning": "خانم",
+    "antonyms": [],
+    "synonyms": ["Frau"],
+    "sentences": [
+      {
+        "de": "Die Dame ist nett.",
+        "fa": "خانم مهربان است."
+      },
+      {
+        "de": "Guten Tag, meine Dame.",
+        "fa": "روز بخیر خانم."
+      },
+      {
+        "de": "Die Dame arbeitet hier.",
+        "fa": "خانم اینجا کار می‌کند."
+      }
+    ],
+    "pronunciation": "دی دامِ",
+    "type": "Kontakte, Informationen zur Person",
+    "Teil": "A",
+    "Tipp": "Dame ist höfliche Anrede für Frau."
+  },
+  {
+    "id": "52",
+    "level": "A2",
+    "word": "die Reihenfolge",
+    "meaning": "ترتیب",
+    "antonyms": [],
+    "synonyms": ["Ordnung"],
+    "sentences": [
+      {
+        "de": "Die Reihenfolge ist wichtig.",
+        "fa": "ترتیب مهم است."
+      },
+      {
+        "de": "In der richtigen Reihenfolge.",
+        "fa": "به ترتیب درست."
+      },
+      {
+        "de": "Ändern Sie die Reihenfolge nicht.",
+        "fa": "ترتیب را تغییر ندهید."
+      }
+    ],
+    "pronunciation": "دی رایه‌ن‌فُلگِ",
+    "type": "Kontakte, Informationen zur Person",
+    "Teil": "A",
+    "Tipp": "Reihenfolge bedeutet die richtige Abfolge."
+  },
+  {
+    "id": "53",
+    "level": "A2",
+    "word": "der Beruf",
+    "meaning": "شغل",
+    "antonyms": [],
+    "synonyms": ["Job"],
+    "sentences": [
+      {
+        "de": "Was ist Ihr Beruf?",
+        "fa": "شغل شما چیست؟"
+      },
+      {
+        "de": "Mein Beruf ist interessant.",
+        "fa": "شغل من جالب است."
+      },
+      {
+        "de": "Der Beruf macht Spaß.",
+        "fa": "شغل لذت‌بخش است."
+      }
+    ],
+    "pronunciation": "در بِروف",
+    "type": "Kontakte, Informationen zur Person",
+    "Teil": "A",
+    "Tipp": "Beruf ist die ausgeübte Tätigkeit."
+  },
+  {
+    "id": "54",
+    "level": "A2",
+    "word": "privat",
+    "meaning": "خصوصی",
+    "antonyms": ["öffentlich"],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Das ist privat.",
+        "fa": "این خصوصی است."
+      },
+      {
+        "de": "Privat telefoniere ich nicht.",
+        "fa": "خصوصی تلفن نمی‌کنم."
+      },
+      {
+        "de": "Mein Privatleben ist wichtig.",
+        "fa": "زندگی خصوصی‌ام مهم است."
+      }
+    ],
+    "pronunciation": "پریوات",
+    "type": "Kontakte, Informationen zur Person",
+    "Teil": "A",
+    "Tipp": "Privat bedeutet nicht beruflich."
+  },
+  {
+    "id": "55",
+    "level": "A2",
+    "word": "beachten",
+    "meaning": "توجه کردن",
+    "antonyms": [],
+    "synonyms": ["achten auf"],
+    "sentences": [
+      {
+        "de": "Beachten Sie die Regeln.",
+        "fa": "به قوانین توجه کنید."
+      },
+      {
+        "de": "Ich beachte die Hinweise.",
+        "fa": "به راهنمایی‌ها توجه می‌کنم."
+      },
+      {
+        "de": "Bitte beachten Sie das.",
+        "fa": "لطفاً به این توجه کنید."
+      }
+    ],
+    "pronunciation": "بِآختِن",
+    "type": "Kontakte, Informationen zur Person",
+    "Teil": "A",
+    "Tipp": "Beachten verwendet Akkusativ."
+  },
+  {
+    "id": "56",
+    "level": "A2",
+    "word": "der Kunde",
+    "meaning": "مشتری",
+    "antonyms": [],
+    "synonyms": ["Klient"],
+    "sentences": [
+      {
+        "de": "Der Kunde ist zufrieden.",
+        "fa": "مشتری راضی است."
+      },
+      {
+        "de": "Ich helfe dem Kunden.",
+        "fa": "به مشتری کمک می‌کنم."
+      },
+      {
+        "de": "Viele Kunden kommen.",
+        "fa": "مشتریان زیادی می‌آیند."
+      }
+    ],
+    "pronunciation": "در کوندِ",
+    "type": "Kontakte, Informationen zur Person",
+    "Teil": "A",
+    "Tipp": "Kunde ist der Käufer oder Nutzer."
+  },
+  {
+    "id": "57",
+    "level": "A2",
+    "word": "die Situation",
+    "meaning": "وضعیت",
+    "antonyms": [],
+    "synonyms": ["Lage"],
+    "sentences": [
+      {
+        "de": "Die Situation ist gut.",
+        "fa": "وضعیت خوب است."
+      },
+      {
+        "de": "In dieser Situation helfe ich.",
+        "fa": "در این وضعیت کمک می‌کنم."
+      },
+      {
+        "de": "Verstehen Sie die Situation?",
+        "fa": "وضعیت را درک می‌کنید؟"
+      }
+    ],
+    "pronunciation": "دی زیتوآتسیون",
+    "type": "Kontakte, Informationen zur Person",
+    "Teil": "A",
+    "Tipp": "Situation beschreibt den aktuellen Zustand."
+  },
+  {
+    "id": "58",
+    "level": "A2",
+    "word": "die Person",
+    "meaning": "شخص",
+    "antonyms": [],
+    "synonyms": ["Mensch"],
+    "sentences": [
+      {
+        "de": "Die Person ist freundlich.",
+        "fa": "شخص مهربان است."
+      },
+      {
+        "de": "Jede Person braucht ein Formular.",
+        "fa": "هر شخص به فرم نیاز دارد."
+      },
+      {
+        "de": "Wer ist diese Person?",
+        "fa": "این شخص کیست؟"
+      }
+    ],
+    "pronunciation": "دی پِرزون",
+    "type": "Kontakte, Informationen zur Person",
+    "Teil": "A",
+    "Tipp": "Person ist ein einzelner Mensch."
+  },
+  {
+    "id": "59",
+    "level": "A2",
+    "word": "erfahren",
+    "meaning": "تجربه کردن / مطلع شدن",
+    "antonyms": [],
+    "synonyms": ["erleben"],
+    "sentences": [
+      {
+        "de": "Ich habe viel erfahren.",
+        "fa": "چیزهای زیادی تجربه کردم."
+      },
+      {
+        "de": "Erfahrene Mitarbeiter sind gut.",
+        "fa": "کارمندان باتجربه خوب هستند."
+      },
+      {
+        "de": "Was haben Sie erfahren?",
+        "fa": "چه چیزی مطلع شدید؟"
+      }
+    ],
+    "pronunciation": "اِرفارِن",
+    "type": "Kontakte, Informationen zur Person / Kontakte, Informationen zur Person",
+    "Teil": "A",
+    "Tipp": "Erfahren als Kontakte, Informationen zur Person bedeutet kompetent."
+  },
+  {
+    "id": "60",
+    "level": "A2",
+    "word": "der Mitarbeiter",
+    "meaning": "همکار / کارمند",
+    "antonyms": [],
+    "synonyms": ["Kollege"],
+    "sentences": [
+      {
+        "de": "Der Mitarbeiter arbeitet hart.",
+        "fa": "کارمند سخت کار می‌کند."
+      },
+      {
+        "de": "Meine Mitarbeiter sind nett.",
+        "fa": "همکارانم مهربان هستند."
+      },
+      {
+        "de": "Der Mitarbeiter hilft dem Kunden.",
+        "fa": "کارمند به مشتری کمک می‌کند."
+      }
+    ],
+    "pronunciation": "در میت‌آر‌بایتر",
+    "type": "Kontakte, Informationen zur Person",
+    "Teil": "A",
+    "Tipp": "Mitarbeiter arbeitet in einem Unternehmen."
+  },
+  {
+    "id": "61",
+    "level": "A2",
+    "word": "alt",
+    "meaning": "پیر / قدیمی",
+    "antonyms": ["jung", "neu"],
+    "synonyms": ["betagt"],
+    "sentences": [
+      {
+        "de": "Das Haus ist alt.",
+        "fa": "خانه قدیمی است."
+      },
+      {
+        "de": "Mein Vater ist alt.",
+        "fa": "پدرم پیر است."
+      },
+      {
+        "de": "Die Stadt ist sehr alt.",
+        "fa": "شهر خیلی قدیمی است."
+      }
+    ],
+    "pronunciation": "آلت",
+    "type": "Kontakte, Informationen zur Person",
+    "Teil": "A",
+    "Tipp": "Alt vergleicht mit jung oder neu."
+  },
+  {
+    "id": "62",
+    "level": "A2",
+    "word": "gelten",
+    "meaning": "معتبر بودن",
+    "antonyms": [],
+    "synonyms": ["gültig sein"],
+    "sentences": [
+      {
+        "de": "Der Ausweis gilt noch.",
+        "fa": "کارت شناسایی هنوز معتبر است."
+      },
+      {
+        "de": "Die Regel gilt für alle.",
+        "fa": "قانون برای همه معتبر است."
+      },
+      {
+        "de": "Das Ticket gilt einen Monat.",
+        "fa": "بلیت یک ماه معتبر است."
+      }
+    ],
+    "pronunciation": "گِلتِن",
+    "type": "Kontakte, Informationen zur Person",
+    "Teil": "A",
+    "Tipp": "Gelten bedeutet Gültigkeit haben."
+  },
+  {
+    "id": "63",
+    "level": "A2",
+    "word": "ledig",
+    "meaning": "مجرد",
+    "antonyms": ["verheiratet"],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Ich bin ledig.",
+        "fa": "مجرد هستم."
+      },
+      {
+        "de": "Sie ist ledig.",
+        "fa": "او مجرد است."
+      },
+      {
+        "de": "Ledig oder verheiratet?",
+        "fa": "مجرد یا متأهل؟"
+      }
+    ],
+    "pronunciation": "لِدیگ",
+    "type": "Kontakte, Informationen zur Person",
+    "Teil": "A",
+    "Tipp": "Ledig bedeutet nicht verheiratet."
+  },
+  {
+    "id": "64",
+    "level": "A2",
+    "word": "verheiratet",
+    "meaning": "متأهل",
+    "antonyms": ["ledig"],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Ich bin verheiratet.",
+        "fa": "متأهل هستم."
+      },
+      {
+        "de": "Sind Sie verheiratet?",
+        "fa": "متأهل هستید؟"
+      },
+      {
+        "de": "Er ist glücklich verheiratet.",
+        "fa": "او خوشبختانه متأهل است."
+      }
+    ],
+    "pronunciation": "فِرهایراتِت",
+    "type": "Kontakte, Informationen zur Person",
+    "Teil": "A",
+    "Tipp": "Verheiratet bedeutet Ehe haben."
+  },
+  {
+    "id": "65",
+    "level": "A2",
+    "word": "geboren",
+    "meaning": "متولد شده",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Ich bin in Berlin geboren.",
+        "fa": "در برلین متولد شده‌ام."
+      },
+      {
+        "de": "Wann sind Sie geboren?",
+        "fa": "کی متولد شده‌اید؟"
+      },
+      {
+        "de": "Das Baby ist gestern geboren.",
+        "fa": "نوزاد دیروز متولد شد."
+      }
+    ],
+    "pronunciation": "گِبورِن",
+    "type": "Kontakte, Informationen zur Person / Partizip",
+    "Teil": "A",
+    "Tipp": "Geboren verwendet man mit Ort und Jahr."
+  },
+  {
+    "id": "66",
+    "level": "A2",
+    "word": "geschieden",
+    "meaning": "طلاق گرفته",
+    "antonyms": ["verheiratet"],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Sie sind geschieden.",
+        "fa": "آنها طلاق گرفته‌اند."
+      },
+      {
+        "de": "Ich bin geschieden.",
+        "fa": "طلاق گرفته‌ام."
+      },
+      {
+        "de": "Geschieden oder verheiratet?",
+        "fa": "طلاق گرفته یا متأهل؟"
+      }
+    ],
+    "pronunciation": "گِشیدن",
+    "type": "Kontakte, Informationen zur Person",
+    "Teil": "A",
+    "Tipp": "Geschieden bedeutet Ehe beendet."
+  },
+  {
+    "id": "67",
+    "level": "A2",
+    "word": "getrennt lebend",
+    "meaning": "جدا زندگی کردن",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Wir leben getrennt.",
+        "fa": "جدا زندگی می‌کنیم."
+      },
+      {
+        "de": "Er ist getrennt lebend.",
+        "fa": "او جدا زندگی می‌کند."
+      },
+      {
+        "de": "Getrennt lebend aber nicht geschieden.",
+        "fa": "جدا زندگی می‌کنند اما طلاق نگرفته‌اند."
+      }
+    ],
+    "pronunciation": "گِترنت لِبِند",
+    "type": "Kontakte, Informationen zur Person",
+    "Teil": "A",
+    "Tipp": "Getrennt lebend ist vor der Scheidung."
+  },
+  {
+    "id": "68",
+    "level": "A2",
+    "word": "Faxnummer",
+    "meaning": "شماره فکس",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Ihre Faxnummer bitte.",
+        "fa": "شماره فکس لطفاً."
+      },
+      {
+        "de": "Die Faxnummer ist alt.",
+        "fa": "شماره فکس قدیمی است."
+      },
+      {
+        "de": "Schicken Sie es per Faxnummer.",
+        "fa": "با فکس بفرستید."
+      }
+    ],
+    "pronunciation": "فاکس‌نومِر",
+    "type": "Kontakte, Informationen zur Person",
+    "Teil": "A",
+    "Tipp": "Faxnummer ist für Faxgeräte."
+  },
+  {
+    "id": "69",
+    "level": "A2",
+    "word": "Wohnsitz",
+    "meaning": "محل اقامت",
+    "antonyms": [],
+    "synonyms": ["Wohnort"],
+    "sentences": [
+      {
+        "de": "Ihr Wohnsitz ist wichtig.",
+        "fa": "محل اقامت مهم است."
+      },
+      {
+        "de": "Ich habe meinen Wohnsitz in München.",
+        "fa": "محل اقامت من مونیخ است."
+      },
+      {
+        "de": "Ändern Sie den Wohnsitz?",
+        "fa": "محل اقامت را تغییر می‌دهید؟"
+      }
+    ],
+    "pronunciation": "وون‌زیتس",
+    "type": "Kontakte, Informationen zur Person",
+    "Teil": "A",
+    "Tipp": "Wohnsitz ist der offizielle Wohnort."
+  },
+  {
+    "id": "70",
+    "level": "A2",
+    "word": "Platz",
+    "meaning": "مکان / صندلی",
+    "antonyms": [],
+    "synonyms": ["Stelle"],
+    "sentences": [
+      {
+        "de": "Haben Sie einen Platz?",
+        "fa": "مکانی دارید؟"
+      },
+      {
+        "de": "Der Platz ist frei.",
+        "fa": "صندلی آزاد است."
+      },
+      {
+        "de": "Ich brauche mehr Platz.",
+        "fa": "به فضای بیشتری نیاز دارم."
+      }
+    ],
+    "pronunciation": "پلاتس",
+    "type": "Kontakte, Informationen zur Person",
+    "Teil": "A",
+    "Tipp": "Platz kann Ort oder Sitzplatz bedeuten."
+  },
+  {
+    "id": "71",
+    "level": "A2",
+    "word": "Mädchenname",
+    "meaning": "نام دوشیزگی",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Ihr Mädchenname bitte.",
+        "fa": "نام دوشیزگی لطفاً."
+      },
+      {
+        "de": "Der Mädchenname ist Schmidt.",
+        "fa": "نام دوشیزگی اشمیت است."
+      },
+      {
+        "de": "Nach der Heirat ändert sich der Mädchenname.",
+        "fa": "پس از ازدواج نام دوشیزگی تغییر می‌کند."
+      }
+    ],
+    "pronunciation": "مِدْخِن‌نامِ",
+    "type": "Kontakte, Informationen zur Person",
+    "Teil": "A",
+    "Tipp": "Mädchenname ist der Name vor der Ehe."
+  },
+  {
+    "id": "72",
+    "level": "A2",
+    "word": "geborene",
+    "meaning": "متولد (نام خانوادگی سابق)",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Anna Müller, geborene Schmidt.",
+        "fa": "آنا مولر، متولد اشمیت."
+      },
+      {
+        "de": "Sie ist geborene Schmidt.",
+        "fa": "او متولد اشمیت است."
+      },
+      {
+        "de": "Der Mädchenname ist geborene.",
+        "fa": "نام دوشیزگی با geborene نشان داده می‌شود."
+      }
+    ],
+    "pronunciation": "گِبورِنِ",
+    "type": "Kontakte, Informationen zur Person",
+    "Teil": "A",
+    "Tipp": "Geborene steht vor dem alten Nachnamen."
+  },
+  {
+    "id": "73",
+    "level": "A2",
+    "word": "Nachname",
+    "meaning": "نام خانوادگی",
+    "antonyms": [],
+    "synonyms": ["Familienname"],
+    "sentences": [
+      {
+        "de": "Wie heißt Ihr Nachname?",
+        "fa": "نام خانوادگی شما چیست؟"
+      },
+      {
+        "de": "Der Nachname ist Müller.",
+        "fa": "نام خانوادگی مولر است."
+      },
+      {
+        "de": "Familienname und Nachname sind gleich.",
+        "fa": "نام خانوادگی و Nachname یکی هستند."
+      }
+    ],
+    "pronunciation": "ناخ‌نامِ",
+    "type": "Kontakte, Informationen zur Person",
+    "Teil": "A",
+    "Tipp": "Nachname ist der Familienname."
+  },
+  {
+    "id": "74",
+    "level": "A2",
+    "word": "der Partner",
+    "meaning": "شریک",
+    "antonyms": [],
+    "synonyms": ["Ehepartner"],
+    "sentences": [
+      {
+        "de": "Mein Partner heißt Max.",
+        "fa": "شریکم ماکس نام دارد."
+      },
+      {
+        "de": "Der Partner hilft.",
+        "fa": "شریک کمک می‌کند."
+      },
+      {
+        "de": "Ich lebe mit meinem Partner.",
+        "fa": "با شریکم زندگی می‌کنم."
+      }
+    ],
+    "pronunciation": "در پارت‌نِر",
+    "type": "Kontakte, Informationen zur Person",
+    "Teil": "A",
+    "Tipp": "Partner kann Lebenspartner oder Geschäftspartner sein."
+  },
+  {
+    "id": "75",
+    "level": "A2",
+    "word": "Geburtstag",
+    "meaning": "روز تولد",
+    "antonyms": [],
+    "synonyms": ["Geburtsdatum"],
+    "sentences": [
+      {
+        "de": "Wann ist Ihr Geburtstag?",
+        "fa": "روز تولد شما کی است؟"
+      },
+      {
+        "de": "Herzlichen Glückwunsch zum Geburtstag!",
+        "fa": "تولدت مبارک!"
+      },
+      {
+        "de": "Mein Geburtstag ist im Mai.",
+        "fa": "روز تولدم در مه است."
+      }
+    ],
+    "pronunciation": "گِبورتس‌تاک",
+    "type": "Kontakte, Informationen zur Person",
+    "Teil": "A",
+    "Tipp": "Geburtstag feiert man jedes Jahr."
+  },
+  {
+    "id": "76",
+    "level": "A2",
+    "word": "Geburtsjahr",
+    "meaning": "سال تولد",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "In welchem Geburtsjahr sind Sie?",
+        "fa": "در کدام سال متولد شده‌اید؟"
+      },
+      {
+        "de": "Mein Geburtsjahr ist 1995.",
+        "fa": "سال تولدم ۱۹۹۵ است."
+      },
+      {
+        "de": "Das Geburtsjahr steht im Pass.",
+        "fa": "سال تولد در پاسپورت نوشته شده."
+      }
+    ],
+    "pronunciation": "گِبورتس‌یار",
+    "type": "Kontakte, Informationen zur Person",
+    "Teil": "A",
+    "Tipp": "Geburtsjahr ist nur die Jahreszahl."
+  },
+  {
+    "id": "77",
+    "level": "A2",
+    "word": "Geburtsort",
+    "meaning": "محل تولد",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Wo ist Ihr Geburtsort?",
+        "fa": "محل تولد شما کجاست؟"
+      },
+      {
+        "de": "Mein Geburtsort ist Teheran.",
+        "fa": "محل تولدم تهران است."
+      },
+      {
+        "de": "Der Geburtsort ist in Deutschland.",
+        "fa": "محل تولد در آلمان است."
+      }
+    ],
+    "pronunciation": "گِبورتس‌اورت",
+    "type": "Kontakte, Informationen zur Person",
+    "Teil": "A",
+    "Tipp": "Geburtsort ist die Stadt der Geburt."
+  },
+  {
+    "id": "78",
+    "level": "A2",
+    "word": "geboren am",
+    "meaning": "متولد در",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Geboren am 15. Mai 1990.",
+        "fa": "متولد ۱۵ مه ۱۹۹۰."
+      },
+      {
+        "de": "Ich bin geboren am Montag.",
+        "fa": "متولد روز دوشنبه هستم."
+      },
+      {
+        "de": "Geboren am in Berlin.",
+        "fa": "متولد در برلین."
+      }
+    ],
+    "pronunciation": "گِبورِن آم",
+    "type": "Ausdruck",
+    "Teil": "A",
+    "Tipp": "Geboren am steht vor dem Datum."
+  },
+  {
+    "id": "79",
+    "level": "A2",
+    "word": "allein",
+    "meaning": "تنها",
+    "antonyms": ["zusammen"],
+    "synonyms": ["einsam"],
+    "sentences": [
+      {
+        "de": "Ich lebe allein.",
+        "fa": "تنها زندگی می‌کنم."
+      },
+      {
+        "de": "Kommen Sie allein?",
+        "fa": "تنها می‌آیید؟"
+      },
+      {
+        "de": "Das Kind ist allein.",
+        "fa": "کودک تنها است."
+      }
+    ],
+    "pronunciation": "آل‌آین",
+    "type": "AdKontakte, Informationen zur Person",
+    "Teil": "A",
+    "Tipp": "Allein bedeutet ohne andere Personen."
+  },
+  {
+    "id": "80",
+    "level": "A2",
+    "word": "Freund",
+    "meaning": "دوست (مذکر)",
+    "antonyms": [],
+    "synonyms": ["Kumpel"],
+    "sentences": [
+      {
+        "de": "Mein Freund kommt.",
+        "fa": "دوست من می‌آید."
+      },
+      {
+        "de": "Ich habe viele Freunde.",
+        "fa": "دوستان زیادی دارم."
+      },
+      {
+        "de": "Der Freund hilft mir.",
+        "fa": "دوست به من کمک می‌کند."
+      }
+    ],
+    "pronunciation": "فروند",
+    "type": "Kontakte, Informationen zur Person",
+    "Teil": "A",
+    "Tipp": "Freund kann auch Lebenspartner bedeuten."
+  },
+  {
+    "id": "81",
+    "level": "A2",
+    "word": "die Verlobte",
+    "meaning": "نامزد (زن)",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Das ist meine Verlobte.",
+        "fa": "این نامزد من است."
+      },
+      {
+        "de": "Sie ist verlobt.",
+        "fa": "او نامزد است."
+      },
+      {
+        "de": "Die Verlobte trägt einen Ring.",
+        "fa": "نامزد حلقه دارد."
+      }
+    ],
+    "pronunciation": "دی فِرلُوبْتِ",
+    "type": "Kontakte, Informationen zur Person",
+    "Teil": "A",
+    "Tipp": "Verlobte ist die zukünftige Ehefrau."
+  },
+  {
+    "id": "82",
+    "level": "A2",
+    "word": "Gattin",
+    "meaning": "همسر (زن)",
+    "antonyms": [],
+    "synonyms": ["Ehefrau"],
+    "sentences": [
+      {
+        "de": "Meine Gattin ist hier.",
+        "fa": "همسرم اینجا است."
+      },
+      {
+        "de": "Die Gattin des Präsidenten.",
+        "fa": "همسر رئیس‌جمهور."
+      },
+      {
+        "de": "Er kommt mit seiner Gattin.",
+        "fa": "با همسرش می‌آید."
+      }
+    ],
+    "pronunciation": "گاتین",
+    "type": "Kontakte, Informationen zur Person",
+    "Teil": "A",
+    "Tipp": "Gattin ist formell für Ehefrau."
+  },
+  {
+    "id": "83",
+    "level": "A2",
+    "word": "Gatte",
+    "meaning": "همسر (مرد)",
+    "antonyms": [],
+    "synonyms": ["Ehemann"],
+    "sentences": [
+      {
+        "de": "Ihr Gatte ist nett.",
+        "fa": "همسرتان مهربان است."
+      },
+      {
+        "de": "Der Gatte arbeitet.",
+        "fa": "همسر کار می‌کند."
+      },
+      {
+        "de": "Mit meinem Gatten.",
+        "fa": "با همسرم."
+      }
+    ],
+    "pronunciation": "گاتِ",
+    "type": "Kontakte, Informationen zur Person",
+    "Teil": "A",
+    "Tipp": "Gatte ist formell für Ehemann."
+  },
+  {
+    "id": "84",
+    "level": "A2",
+    "word": "Ehefrau",
+    "meaning": "همسر زن",
+    "antonyms": [],
+    "synonyms": ["Gattin"],
+    "sentences": [
+      {
+        "de": "Meine Ehefrau heißt Anna.",
+        "fa": "همسرم آنا نام دارد."
+      },
+      {
+        "de": "Die Ehefrau kocht.",
+        "fa": "همسر آشپزی می‌کند."
+      },
+      {
+        "de": "Er und seine Ehefrau.",
+        "fa": "او و همسرش."
+      }
+    ],
+    "pronunciation": "اِه‌فراو",
+    "type": "Kontakte, Informationen zur Person",
+    "Teil": "A",
+    "Tipp": "Ehefrau ist die verheiratete Frau."
+  },
+  {
+    "id": "85",
+    "level": "A2",
+    "word": "Ehemann",
+    "meaning": "همسر مرد",
+    "antonyms": [],
+    "synonyms": ["Gatte"],
+    "sentences": [
+      {
+        "de": "Mein Ehemann ist Lehrer.",
+        "fa": "همسرم معلم است."
+      },
+      {
+        "de": "Der Ehemann hilft.",
+        "fa": "همسر کمک می‌کند."
+      },
+      {
+        "de": "Sie kommt mit ihrem Ehemann.",
+        "fa": "با همسرش می‌آید."
+      }
+    ],
+    "pronunciation": "اِه‌مان",
+    "type": "Kontakte, Informationen zur Person",
+    "Teil": "A",
+    "Tipp": "Ehemann ist der verheiratete Mann."
+  },
+  {
+    "id": "86",
+    "level": "A2",
+    "word": "Freundin",
+    "meaning": "دوست زن",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Meine Freundin kommt.",
+        "fa": "دوست دخترم می‌آید."
+      },
+      {
+        "de": "Ich treffe meine Freundin.",
+        "fa": "با دوست دخترم ملاقات می‌کنم."
+      },
+      {
+        "de": "Die Freundin ist nett.",
+        "fa": "دوست دختر مهربان است."
+      }
+    ],
+    "pronunciation": "فروندین",
+    "type": "Kontakte, Informationen zur Person",
+    "Teil": "A",
+    "Tipp": "Freundin kann auch Lebenspartnerin sein."
+  },
+  {
+    "id": "87",
+    "level": "A2",
+    "word": "die Jugend",
+    "meaning": "جوانی / نوجوانان",
+    "antonyms": ["Alter"],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "In der Jugend war ich aktiv.",
+        "fa": "در جوانی فعال بودم."
+      },
+      {
+        "de": "Die Jugend spielt Fußball.",
+        "fa": "نوجوانان فوتبال بازی می‌کنند."
+      },
+      {
+        "de": "Die Zeit der Jugend.",
+        "fa": "زمان جوانی."
+      }
+    ],
+    "pronunciation": "دی یوگِند",
+    "type": "Kontakte, Informationen zur Person",
+    "Teil": "A",
+    "Tipp": "Jugend bezieht sich auf junge Menschen."
+  },
+  {
+    "id": "88",
+    "level": "A2",
+    "word": "der Erwachsene",
+    "meaning": "بزرگسال",
+    "antonyms": ["Kind"],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Erwachsene zahlen mehr.",
+        "fa": "بزرگسالان بیشتر پرداخت می‌کنند."
+      },
+      {
+        "de": "Der Erwachsene hilft dem Kind.",
+        "fa": "بزرگسال به کودک کمک می‌کند."
+      },
+      {
+        "de": "Für Erwachsene ist der Film.",
+        "fa": "فیلم برای بزرگسالان است."
+      }
+    ],
+    "pronunciation": "در اِرواکزِنِ",
+    "type": "Kontakte, Informationen zur Person",
+    "Teil": "A",
+    "Tipp": "Erwachsene sind über 18 Jahre."
+  },
+  {
+    "id": "89",
+    "level": "A2",
+    "word": "das Baby",
+    "meaning": "نوزاد",
+    "antonyms": [],
+    "synonyms": ["Säugling"],
+    "sentences": [
+      {
+        "de": "Das Baby schläft.",
+        "fa": "نوزاد خوابیده."
+      },
+      {
+        "de": "Wir haben ein Baby.",
+        "fa": "یک نوزاد داریم."
+      },
+      {
+        "de": "Das Baby ist süß.",
+        "fa": "نوزاد شیرین است."
+      }
+    ],
+    "pronunciation": "داس بیبی",
+    "type": "Kontakte, Informationen zur Person",
+    "Teil": "A",
+    "Tipp": "Baby ist sehr junges Kind."
+  },
+  {
+    "id": "90",
+    "level": "A2",
+    "word": "die Verwandte",
+    "meaning": "خویشاوند زن",
+    "antonyms": [],
+    "synonyms": ["Verwandter (m)"],
+    "sentences": [
+      {
+        "de": "Die Verwandte besucht uns.",
+        "fa": "خویشاوند زن از ما بازدید می‌کند."
+      },
+      {
+        "de": "Meine Verwandten kommen.",
+        "fa": "خویشاوندانم می‌آیند."
+      },
+      {
+        "de": "Sie ist eine Verwandte.",
+        "fa": "او یک خویشاوند است."
+      }
+    ],
+    "pronunciation": "دی فِرواندتِ",
+    "type": "Kontakte, Informationen zur Person",
+    "Teil": "A",
+    "Tipp": "Verwandte sind Familienmitglieder."
+  },
+  {
+    "id": "91",
+    "level": "A2",
+    "word": "der Jugendliche",
+    "meaning": "نوجوان",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Der Jugendliche lernt.",
+        "fa": "نوجوان درس می‌خواند."
+      },
+      {
+        "de": "Jugendliche spielen.",
+        "fa": "نوجوانان بازی می‌کنند."
+      },
+      {
+        "de": "Für Jugendliche ist das Event.",
+        "fa": "رویداد برای نوجوانان است."
+      }
+    ],
+    "pronunciation": "در یوگِندلیخه",
+    "type": "Kontakte, Informationen zur Person",
+    "Teil": "A",
+    "Tipp": "Jugendliche sind zwischen Kind und Erwachsenem."
+  },
+  {
+    "id": "92",
+    "level": "A2",
+    "word": "die Familie",
+    "meaning": "خانواده",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Meine Familie ist groß.",
+        "fa": "خانواده‌ام بزرگ است."
+      },
+      {
+        "de": "Die Familie feiert zusammen.",
+        "fa": "خانواده با هم جشن می‌گیرد."
+      },
+      {
+        "de": "Ich liebe meine Familie.",
+        "fa": "خانواده‌ام را دوست دارم."
+      }
+    ],
+    "pronunciation": "دی فامیلیِ",
+    "type": "Kontakte, Informationen zur Person",
+    "Teil": "A",
+    "Tipp": "Familie umfasst Eltern und Kinder."
+  },
+  {
+    "id": "93",
+    "level": "A2",
+    "word": "der Familienangehörige",
+    "meaning": "عضو خانواده",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Der Familienangehörige hilft.",
+        "fa": "عضو خانواده کمک می‌کند."
+      },
+      {
+        "de": "Alle Familienangehörigen kommen.",
+        "fa": "همه اعضای خانواده می‌آیند."
+      },
+      {
+        "de": "Mein Familienangehöriger ist krank.",
+        "fa": "عضو خانواده‌ام بیمار است."
+      }
+    ],
+    "pronunciation": "در فامیلی‌ین‌آنگِهوریگِ",
+    "type": "Kontakte, Informationen zur Person",
+    "Teil": "A",
+    "Tipp": "Familienangehörige sind Verwandte."
+  },
+  {
+    "id": "94",
+    "level": "A2",
+    "word": "die Schwiegereltern",
+    "meaning": "والدین همسر",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Meine Schwiegereltern wohnen nah.",
+        "fa": "والدین همسرم نزدیک زندگی می‌کنند."
+      },
+      {
+        "de": "Die Schwiegereltern besuchen uns.",
+        "fa": "والدین همسر از ما بازدید می‌کنند."
+      },
+      {
+        "de": "Ich mag meine Schwiegereltern.",
+        "fa": "والدین همسرم را دوست دارم."
+      }
+    ],
+    "pronunciation": "دی شویگِرِلترن",
+    "type": "Kontakte, Informationen zur Person",
+    "Teil": "A",
+    "Tipp": "Schwiegereltern sind Eltern des Partners."
+  },
+  {
+    "id": "95",
+    "level": "A2",
+    "word": "die Geschwister",
+    "meaning": "خواهر و برادر",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Ich habe zwei Geschwister.",
+        "fa": "دو خواهر و برادر دارم."
+      },
+      {
+        "de": "Die Geschwister spielen.",
+        "fa": "خواهر و برادرها بازی می‌کنند."
+      },
+      {
+        "de": "Meine Geschwister sind älter.",
+        "fa": "خواهر و برادرهایم بزرگتر هستند."
+      }
+    ],
+    "pronunciation": "دی گِشویستر",
+    "type": "Kontakte, Informationen zur Person",
+    "Teil": "A",
+    "Tipp": "Geschwister sind Brüder und Schwestern."
+  },
+  {
+    "id": "96",
+    "level": "A2",
+    "word": "die Tante",
+    "meaning": "عمه / خاله",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Die Tante besucht uns.",
+        "fa": "عمه/خاله از ما بازدید می‌کند."
+      },
+      {
+        "de": "Meine Tante kocht gut.",
+        "fa": "عمه‌ام خوب آشپزی می‌کند."
+      },
+      {
+        "de": "Tante und Onkel kommen.",
+        "fa": "عمه و عمو می‌آیند."
+      }
+    ],
+    "pronunciation": "دی تانته",
+    "type": "Kontakte, Informationen zur Person",
+    "Teil": "A",
+    "Tipp": "Tante ist Schwester der Eltern."
+  },
+  {
+    "id": "97",
+    "level": "A2",
+    "word": "die Cousine",
+    "meaning": "دخترعموی",
+    "antonyms": [],
+    "synonyms": ["Cousin (m)"],
+    "sentences": [
+      {
+        "de": "Meine Cousine ist nett.",
+        "fa": "دخترعموم مهربان است."
+      },
+      {
+        "de": "Die Cousine kommt aus Frankreich.",
+        "fa": "دخترعموم از فرانسه می‌آید."
+      },
+      {
+        "de": "Ich spiele mit meiner Cousine.",
+        "fa": "با دخترعموم بازی می‌کنم."
+      }
+    ],
+    "pronunciation": "دی کوزینه",
+    "type": "Kontakte, Informationen zur Person",
+    "Teil": "A",
+    "Tipp": "Cousine ist Tochter von Tante oder Onkel."
+  },
+  {
+    "id": "98",
+    "level": "A2",
+    "word": "das Handy",
+    "meaning": "تلفن همراه",
+    "antonyms": [],
+    "synonyms": ["Mobiltelefon"],
+    "sentences": [
+      {
+        "de": "Wo ist mein Handy?",
+        "fa": "تلفن همراهم کجاست؟"
+      },
+      {
+        "de": "Das Handy klingelt.",
+        "fa": "تلفن همراه زنگ می‌زند."
+      },
+      {
+        "de": "Ich brauche ein neues Handy.",
+        "fa": "به تلفن همراه جدیدی نیاز دارم."
+      }
+    ],
+    "pronunciation": "داس هندی",
+    "type": "Kontakte, Informationen zur Person",
+    "Teil": "A",
+    "Tipp": "Handy ist die umgangssprachliche Bezeichnung für Mobiltelefon."
+  },
+  {
+    "id": "99",
+    "level": "A2",
+    "word": "der Onkel",
+    "meaning": "عمو / دایی",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Mein Onkel ist lustig.",
+        "fa": "عموم بامزه است."
+      },
+      {
+        "de": "Der Onkel erzählt Geschichten.",
+        "fa": "عمو داستان تعریف می‌کند."
+      },
+      {
+        "de": "Onkel und Tante.",
+        "fa": "عمو و خاله."
+      }
+    ],
+    "pronunciation": "در اونکل",
+    "type": "Kontakte, Informationen zur Person",
+    "Teil": "A",
+    "Tipp": "Onkel ist Bruder der Eltern."
+  },
+  {
+    "id": "100",
+    "level": "A2",
+    "word": "die Auskunft",
+    "meaning": "اطلاعات / راهنمایی",
+    "antonyms": [],
+    "synonyms": ["Information"],
+    "sentences": [
+      {
+        "de": "Geben Sie mir eine Auskunft.",
+        "fa": "اطلاعاتی به من بدهید."
+      },
+      {
+        "de": "Die Auskunft ist kostenlos.",
+        "fa": "اطلاعات رایگان است."
+      },
+      {
+        "de": "Ich brauche Auskunft über den Zug.",
+        "fa": "به اطلاعات قطار نیاز دارم."
+      }
+    ],
+    "pronunciation": "دی آوس‌کونفت",
+    "type": "Kontakte, Informationen zur Person",
+    "Teil": "A",
+    "Tipp": "Auskunft gibt Antworten auf Fragen."
+  },
+  {
+    "id": "101",
+    "level": "A2",
+    "word": "die Beziehung",
+    "meaning": "رابطه",
+    "antonyms": [],
+    "synonyms": ["Verhältnis"],
+    "sentences": [
+      {
+        "de": "Die Beziehung ist gut.",
+        "fa": "رابطه خوب است."
+      },
+      {
+        "de": "Ich habe eine Beziehung.",
+        "fa": "رابطه‌ای دارم."
+      },
+      {
+        "de": "In der Familie gibt es Beziehungen.",
+        "fa": "در خانواده روابط وجود دارد."
+      }
+    ],
+    "pronunciation": "دی بِتسیهونگ",
+    "type": "Kontakte, Informationen zur Person",
+    "Teil": "A",
+    "Tipp": "Beziehung kann partnerschaftlich oder familiär sein."
+  },
+  {
+    "id": "102",
+    "level": "A2",
+    "word": "Amerika",
+    "meaning": "آمریکا",
+    "antonyms": [],
+    "synonyms": ["USA"],
+    "sentences": [
+      {
+        "de": "Ich komme aus Amerika.",
+        "fa": "از آمریکا می‌آیم."
+      },
+      {
+        "de": "Amerika ist groß.",
+        "fa": "آمریکا بزرگ است."
+      },
+      {
+        "de": "In Amerika leben viele Leute.",
+        "fa": "در آمریکا افراد زیادی زندگی می‌کنند."
+      }
+    ],
+    "pronunciation": "آمِریکا",
+    "type": "Kontakte, Informationen zur Person",
+    "Teil": "A",
+    "Tipp": "Amerika bezieht sich oft auf die USA."
+  },
+  {
+    "id": "103",
+    "level": "A2",
+    "word": "Asien",
+    "meaning": "آسیا",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Asien ist ein Kontinent.",
+        "fa": "آسیا یک قاره است."
+      },
+      {
+        "de": "Ich reise nach Asien.",
+        "fa": "به آسیا سفر می‌کنم."
+      },
+      {
+        "de": "Viele Länder in Asien.",
+        "fa": "کشورهای زیادی در آسیا."
+      }
+    ],
+    "pronunciation": "آزیِن",
+    "type": "Kontakte, Informationen zur Person",
+    "Teil": "A",
+    "Tipp": "Asien ist der größte Kontinent."
+  },
+  {
+    "id": "104",
+    "level": "A2",
+    "word": "Europa",
+    "meaning": "اروپا",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Deutschland ist in Europa.",
+        "fa": "آلمان در اروپا است."
+      },
+      {
+        "de": "Europa hat viele Länder.",
+        "fa": "اروپا کشورهای زیادی دارد."
+      },
+      {
+        "de": "Ich lebe in Europa.",
+        "fa": "در اروپا زندگی می‌کنم."
+      }
+    ],
+    "pronunciation": "اُروپا",
+    "type": "Kontakte, Informationen zur Person",
+    "Teil": "A",
+    "Tipp": "Europa umfasst die EU-Länder."
+  },
+  {
+    "id": "105",
+    "level": "A2",
+    "word": "Afrika",
+    "meaning": "آفریقا",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Afrika ist warm.",
+        "fa": "آفریقا گرم است."
+      },
+      {
+        "de": "Viele Tiere in Afrika.",
+        "fa": "حیوانات زیادی در آفریقا."
+      },
+      {
+        "de": "Reisen nach Afrika.",
+        "fa": "سفر به آفریقا."
+      }
+    ],
+    "pronunciation": "آفریکا",
+    "type": "Kontakte, Informationen zur Person",
+    "Teil": "A",
+    "Tipp": "Afrika hat viele verschiedene Kulturen."
+  },
+  {
+    "id": "106",
+    "level": "A2",
+    "word": "Australien",
+    "meaning": "استرالیا",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Australien ist weit weg.",
+        "fa": "استرالیا خیلی دور است."
+      },
+      {
+        "de": "In Australien gibt es Kängurus.",
+        "fa": "در استرالیا کانگورو وجود دارد."
+      },
+      {
+        "de": "Ich möchte Australien besuchen.",
+        "fa": "می‌خواهم استرالیا را ببینم."
+      }
+    ],
+    "pronunciation": "آوست‌رالیا",
+    "type": "Kontakte, Informationen zur Person",
+    "Teil": "A",
+    "Tipp": "Australien ist ein Kontinent und Land."
+  },
+  {
+    "id": "107",
+    "level": "A2",
+    "word": "europäisch",
+    "meaning": "اروپایی",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Die europäische Union.",
+        "fa": "اتحادیه اروپایی."
+      },
+      {
+        "de": "Europäische Länder.",
+        "fa": "کشورهای اروپایی."
+      },
+      {
+        "de": "Ich bin europäisch.",
+        "fa": "اروپایی هستم."
+      }
+    ],
+    "pronunciation": "اُروپاییش",
+    "type": "Kontakte, Informationen zur Person",
+    "Teil": "A",
+    "Tipp": "Europäisch bezieht sich auf Europa."
+  },
+  {
+    "id": "108",
+    "level": "A2",
+    "word": "australisch",
+    "meaning": "استرالیایی",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Der australische Akzent.",
+        "fa": "لهجه استرالیایی."
+      },
+      {
+        "de": "Australische Tiere.",
+        "fa": "حیوانات استرالیایی."
+      },
+      {
+        "de": "Sie ist australisch.",
+        "fa": "او استرالیایی است."
+      }
+    ],
+    "pronunciation": "آوست‌رالیش",
+    "type": "Kontakte, Informationen zur Person",
+    "Teil": "A",
+    "Tipp": "Australisch beschreibt Dinge aus Australien."
+  },
+  {
+    "id": "109",
+    "level": "A2",
+    "word": "amerikanisch",
+    "meaning": "آمریکایی",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Der amerikanische Traum.",
+        "fa": "رویای آمریکایی."
+      },
+      {
+        "de": "Amerikanische Filme.",
+        "fa": "فیلم‌های آمریکایی."
+      },
+      {
+        "de": "Ich bin amerikanisch.",
+        "fa": "آمریکایی هستم."
+      }
+    ],
+    "pronunciation": "آمِریکاییش",
+    "type": "Kontakte, Informationen zur Person",
+    "Teil": "A",
+    "Tipp": "Amerikanisch meist für USA."
+  },
+  {
+    "id": "110",
+    "level": "A2",
+    "word": "afrikanisch",
+    "meaning": "آفریقایی",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Afrikanische Musik.",
+        "fa": "موسیقی آفریقایی."
+      },
+      {
+        "de": "Der afrikanische Kontinent.",
+        "fa": "قاره آفریقایی."
+      },
+      {
+        "de": "Afrikanische Länder.",
+        "fa": "کشورهای آفریقایی."
+      }
+    ],
+    "pronunciation": "آفریکاییش",
+    "type": "Kontakte, Informationen zur Person",
+    "Teil": "A",
+    "Tipp": "Afrikanisch bezieht sich auf Afrika."
+  },
+  {
+    "id": "111",
+    "level": "A2",
+    "word": "asiatisch",
+    "meaning": "آسیایی",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Asiatische Küche.",
+        "fa": "آشپزی آسیایی."
+      },
+      {
+        "de": "Asiatische Länder.",
+        "fa": "کشورهای آسیایی."
+      },
+      {
+        "de": "Die asiatische Kultur.",
+        "fa": "فرهنگ آسیایی."
+      }
+    ],
+    "pronunciation": "آزیایش",
+    "type": "Kontakte, Informationen zur Person",
+    "Teil": "A",
+    "Tipp": "Asiatisch beschreibt Asien."
+  },
+  {
+    "id": "112",
+    "level": "A2",
+    "word": "der Kontinent",
+    "meaning": "قاره",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Europa ist ein Kontinent.",
+        "fa": "اروپا یک قاره است."
+      },
+      {
+        "de": "Es gibt sieben Kontinente.",
+        "fa": "هفت قاره وجود دارد."
+      },
+      {
+        "de": "Welcher Kontinent?",
+        "fa": "کدام قاره؟"
+      }
+    ],
+    "pronunciation": "در کنتینِنت",
+    "type": "Kontakte, Informationen zur Person",
+    "Teil": "A",
+    "Tipp": "Kontinent ist eine große Landmasse."
+  },
+  {
+    "id": "113",
+    "level": "A2",
+    "word": "der Bewohner",
+    "meaning": "ساکن",
+    "antonyms": [],
+    "synonyms": ["Einwohner"],
+    "sentences": [
+      {
+        "de": "Die Bewohner der Stadt.",
+        "fa": "ساکنان شهر."
+      },
+      {
+        "de": "Ich bin Bewohner von Berlin.",
+        "fa": "ساکن برلین هستم."
+      },
+      {
+        "de": "Viele Bewohner.",
+        "fa": "ساکنان زیاد."
+      }
+    ],
+    "pronunciation": "در بِوونِر",
+    "type": "Kontakte, Informationen zur Person",
+    "Teil": "A",
+    "Tipp": "Bewohner leben an einem Ort."
+  },
+  {
+    "id": "114",
+    "level": "A2",
+    "word": "die Leute",
+    "meaning": "مردم",
+    "antonyms": [],
+    "synonyms": ["Menschen"],
+    "sentences": [
+      {
+        "de": "Die Leute sind freundlich.",
+        "fa": "مردم مهربان هستند."
+      },
+      {
+        "de": "Viele Leute auf der Straße.",
+        "fa": "مردم زیادی در خیابان."
+      },
+      {
+        "de": "Die Leute sprechen Deutsch.",
+        "fa": "مردم آلمانی صحبت می‌کنند."
+      }
+    ],
+    "pronunciation": "دی لُایتِ",
+    "type": "Kontakte, Informationen zur Person",
+    "Teil": "A",
+    "Tipp": "Leute ist umgangssprachlich für Menschen."
+  },
+  {
+    "id": "115",
+    "level": "A2",
+    "word": "der Ausweis",
+    "meaning": "کارت شناسایی",
+    "antonyms": [],
+    "synonyms": ["Pass"],
+    "sentences": [
+      {
+        "de": "Zeigen Sie Ihren Ausweis.",
+        "fa": "کارت شناسایی‌تان را نشان دهید."
+      },
+      {
+        "de": "Der Ausweis ist gültig.",
+        "fa": "کارت شناسایی معتبر است."
+      },
+      {
+        "de": "Ich brauche einen neuen Ausweis.",
+        "fa": "به کارت شناسایی جدیدی نیاز دارم."
+      }
+    ],
+    "pronunciation": "در آوس‌وایس",
+    "type": "Kontakte, Informationen zur Person",
+    "Teil": "A",
+    "Tipp": "Ausweis ist offizielles Dokument."
+  },
+  {
+    "id": "116",
+    "level": "A2",
+    "word": "die Personalien",
+    "meaning": "اطلاعات شخصی",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Geben Sie Ihre Personalien an.",
+        "fa": "اطلاعات شخصی‌تان را بدهید."
+      },
+      {
+        "de": "Die Personalien sind vollständig.",
+        "fa": "اطلاعات شخصی کامل است."
+      },
+      {
+        "de": "Im Formular stehen Personalien.",
+        "fa": "در فرم اطلاعات شخصی نوشته شده."
+      }
+    ],
+    "pronunciation": "دی پِرزونالی‌ین",
+    "type": "Kontakte, Informationen zur Person",
+    "Teil": "A",
+    "Tipp": "Personalien umfassen Name, Adresse, etc."
+  },
+  {
+    "id": "117",
+    "level": "A2",
+    "word": "die Papiere",
+    "meaning": "مدارک",
+    "antonyms": [],
+    "synonyms": ["Dokumente"],
+    "sentences": [
+      {
+        "de": "Bringen Sie Ihre Papiere.",
+        "fa": "مدارک‌تان را بیاورید."
+      },
+      {
+        "de": "Die Papiere sind wichtig.",
+        "fa": "مدارک مهم هستند."
+      },
+      {
+        "de": "Ohne Papiere geht es nicht.",
+        "fa": "بدون مدارک نمی‌شود."
+      }
+    ],
+    "pronunciation": "دی پاپیِرِ",
+    "type": "Kontakte, Informationen zur Person",
+    "Teil": "A",
+    "Tipp": "Papiere sind offizielle Unterlagen."
+  },
+  {
+    "id": "118",
+    "level": "A2",
+    "word": "das Dokument",
+    "meaning": "سند",
+    "antonyms": [],
+    "synonyms": ["Papier"],
+    "sentences": [
+      {
+        "de": "Das Dokument ist gültig.",
+        "fa": "سند معتبر است."
+      },
+      {
+        "de": "Ich brauche das Dokument.",
+        "fa": "به سند نیاز دارم."
+      },
+      {
+        "de": "Das Dokument ausfüllen.",
+        "fa": "سند را پر کنید."
+      }
+    ],
+    "pronunciation": "داس دُکومِنت",
+    "type": "Kontakte, Informationen zur Person",
+    "Teil": "A",
+    "Tipp": "Dokument ist ein offizielles Papier."
+  },
+  {
+    "id": "119",
+    "level": "A2",
+    "word": "ausstellen",
+    "meaning": "صادر کردن",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Die Behörde stellt den Ausweis aus.",
+        "fa": "اداره کارت شناسایی صادر می‌کند."
+      },
+      {
+        "de": "Das Dokument wird ausgestellt.",
+        "fa": "سند صادر می‌شود."
+      },
+      {
+        "de": "Kann man das hier ausstellen?",
+        "fa": "آیا اینجا می‌توان صادر کرد؟"
+      }
+    ],
+    "pronunciation": "آوس‌شتِلِن",
+    "type": "Kontakte, Informationen zur Person",
+    "Teil": "A",
+    "Tipp": "Ausstellen bedeutet offiziell erzeugen."
+  },
+  {
+    "id": "120",
+    "level": "A2",
+    "word": "gültig",
+    "meaning": "معتبر",
+    "antonyms": ["ungültig"],
+    "synonyms": ["geltend"],
+    "sentences": [
+      {
+        "de": "Der Pass ist gültig.",
+        "fa": "پاسپورت معتبر است."
+      },
+      {
+        "de": "Bis wann ist es gültig?",
+        "fa": "تا کی معتبر است؟"
+      },
+      {
+        "de": "Das Ticket ist nicht mehr gültig.",
+        "fa": "بلیت دیگر معتبر نیست."
+      }
+    ],
+    "pronunciation": "گولتیگ",
+    "type": "Kontakte, Informationen zur Person",
+    "Teil": "A",
+    "Tipp": "Gültig bedeutet noch verwendbar."
+  },
+  {
+    "id": "121",
+    "level": "A2",
+    "word": "verlängern",
+    "meaning": "تمدید کردن",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Ich muss den Ausweis verlängern.",
+        "fa": "باید کارت شناسایی را تمدید کنم."
+      },
+      {
+        "de": "Kann man das verlängern?",
+        "fa": "آیا می‌توان تمدید کرد؟"
+      },
+      {
+        "de": "Der Vertrag wird verlängert.",
+        "fa": "قرارداد تمدید می‌شود."
+      }
+    ],
+    "pronunciation": "فِرلِنگِرن",
+    "type": "Kontakte, Informationen zur Person",
+    "Teil": "A",
+    "Tipp": "Verlängern macht die Gültigkeit länger."
+  },
+  {
+    "id": "122",
+    "level": "A2",
+    "word": "die Senioren",
+    "meaning": "سالمندان",
+    "antonyms": ["Jugend"],
+    "synonyms": ["Alte"],
+    "sentences": [
+      {
+        "de": "Senioren bekommen Ermäßigung.",
+        "fa": "سالمندان تخفیف می‌گیرند."
+      },
+      {
+        "de": "Die Senioren treffen sich.",
+        "fa": "سالمندان با هم ملاقات می‌کنند."
+      },
+      {
+        "de": "Viele Senioren im Verein.",
+        "fa": "سالمندان زیادی در انجمن."
+      }
+    ],
+    "pronunciation": "دی زِنِیورِن",
+    "type": "Kontakte, Informationen zur Person",
+    "Teil": "A",
+    "Tipp": "Senioren sind ältere Menschen."
+  },
+  {
+    "id": "123",
+    "level": "A2",
+    "word": "der Staatsbürger",
+    "meaning": "شهروند",
+    "antonyms": [],
+    "synonyms": ["Bürger"],
+    "sentences": [
+      {
+        "de": "Ich bin Staatsbürger von Deutschland.",
+        "fa": "شهروند آلمان هستم."
+      },
+      {
+        "de": "Die Rechte des Staatsbürgers.",
+        "fa": "حقوق شهروند."
+      },
+      {
+        "de": "Staatsbürger haben Pflichten.",
+        "fa": "شهروندان وظایفی دارند."
+      }
+    ],
+    "pronunciation": "در اشتاتس‌بورگِر",
+    "type": "Kontakte, Informationen zur Person",
+    "Teil": "A",
+    "Tipp": "Staatsbürger hat die Nationalität eines Staates."
+  },
+  {
+    "id": "124",
+    "level": "A2",
+    "word": "die Bewerbung",
+    "meaning": "درخواست شغلی",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Ich schreibe eine Bewerbung.",
+        "fa": "درخواست شغلی می‌نویسم."
+      },
+      {
+        "de": "Die Bewerbung ist fertig.",
+        "fa": "درخواست شغلی آماده است."
+      },
+      {
+        "de": "Schicken Sie die Bewerbung.",
+        "fa": "درخواست شغلی را بفرستید."
+      }
+    ],
+    "pronunciation": "دی بِوِربونگ",
+    "type": "Kontakte, Informationen zur Person",
+    "Teil": "A",
+    "Tipp": "Bewerbung ist für eine Stelle."
+  },
+  {
+    "id": "125",
+    "level": "A2",
+    "word": "die Heiratsurkunde",
+    "meaning": "سند ازدواج",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Die Heiratsurkunde ist wichtig.",
+        "fa": "سند ازدواج مهم است."
+      },
+      {
+        "de": "Ich brauche die Heiratsurkunde.",
+        "fa": "به سند ازدواج نیاز دارم."
+      },
+      {
+        "de": "Die Heiratsurkunde ausstellen.",
+        "fa": "سند ازدواج صادر کنید."
+      }
+    ],
+    "pronunciation": "دی هایراتس‌اورکوندِ",
+    "type": "Kontakte, Informationen zur Person",
+    "Teil": "A",
+    "Tipp": "Heiratsurkunde beweist die Ehe."
+  },
+  {
+    "id": "126",
+    "level": "A2",
+    "word": "kontrollieren",
+    "meaning": "بررسی کردن",
+    "antonyms": [],
+    "synonyms": ["prüfen"],
+    "sentences": [
+      {
+        "de": "Kontrollieren Sie die Daten.",
+        "fa": "اطلاعات را بررسی کنید."
+      },
+      {
+        "de": "Ich kontrolliere den Ausweis.",
+        "fa": "کارت شناسایی را بررسی می‌کنم."
+      },
+      {
+        "de": "Die Polizei kontrolliert.",
+        "fa": "پلیس بررسی می‌کند."
+      }
+    ],
+    "pronunciation": "کنترولیرِن",
+    "type": "Kontakte, Informationen zur Person",
+    "Teil": "A",
+    "Tipp": "Kontrollieren bedeutet überprüfen."
+  },
+  {
+    "id": "127",
+    "level": "A2",
+    "word": "senden",
+    "meaning": "ارسال کردن",
+    "antonyms": ["erhalten"],
+    "synonyms": ["schicken"],
+    "sentences": [
+      {
+        "de": "Senden Sie das Formular.",
+        "fa": "فرم را ارسال کنید."
+      },
+      {
+        "de": "Ich sende eine E-Mail.",
+        "fa": "ایمیل ارسال می‌کنم."
+      },
+      {
+        "de": "Das Dokument wird gesendet.",
+        "fa": "سند ارسال می‌شود."
+      }
+    ],
+    "pronunciation": "زِندِن",
+    "type": "Kontakte, Informationen zur Person",
+    "Teil": "A",
+    "Tipp": "Senden ist für Briefe oder E-Mails."
+  },
+  {
+    "id": "128",
+    "level": "A2",
+    "word": "erhalten",
+    "meaning": "دریافت کردن",
+    "antonyms": ["senden"],
+    "synonyms": ["bekommen"],
+    "sentences": [
+      {
+        "de": "Ich erhalte den Brief.",
+        "fa": "نامه را دریافت می‌کنم."
+      },
+      {
+        "de": "Erhalten Sie die Antwort?",
+        "fa": "پاسخ را دریافت می‌کنید؟"
+      },
+      {
+        "de": "Das Dokument ist erhalten.",
+        "fa": "سند دریافت شد."
+      }
+    ],
+    "pronunciation": "اِرهالتِن",
+    "type": "Kontakte, Informationen zur Person",
+    "Teil": "A",
+    "Tipp": "Erhalten bedeutet bekommen."
+  },
+  {
+    "id": "129",
+    "level": "A2",
+    "word": "ausfüllen",
+    "meaning": "پر کردن",
+    "antonyms": [],
+    "synonyms": ["eintragen"],
+    "sentences": [
+      {
+        "de": "Füllen Sie das Formular aus.",
+        "fa": "فرم را پر کنید."
+      },
+      {
+        "de": "Ich fülle den Antrag aus.",
+        "fa": "درخواست را پر می‌کنم."
+      },
+      {
+        "de": "Das Formular ist ausgefüllt.",
+        "fa": "فرم پر شده است."
+      }
+    ],
+    "pronunciation": "آوس‌فولِن",
+    "type": "Kontakte, Informationen zur Person",
+    "Teil": "A",
+    "Tipp": "Ausfüllen ist für Formulare."
+  },
+  {
+    "id": "130",
+    "level": "A2",
+    "word": "der Staat",
+    "meaning": "دولت / کشور",
+    "antonyms": [],
+    "synonyms": ["Land"],
+    "sentences": [
+      {
+        "de": "Der Staat hilft.",
+        "fa": "دولت کمک می‌کند."
+      },
+      {
+        "de": "In diesem Staat leben.",
+        "fa": "در این کشور زندگی کردن."
+      },
+      {
+        "de": "Der Staat kontrolliert.",
+        "fa": "دولت بررسی می‌کند."
+      }
+    ],
+    "pronunciation": "در اشتات",
+    "type": "Kontakte, Informationen zur Person",
+    "Teil": "A",
+    "Tipp": "Staat ist die politische Einheit."
+  },
+  {
+    "id": "131",
+    "level": "A2",
+    "word": "Slowenien",
+    "meaning": "اسلوونی",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Slowenien ist in Europa.",
+        "fa": "اسلوونی در اروپا است."
+      },
+      {
+        "de": "Ich komme aus Slowenien.",
+        "fa": "از اسلوونی می‌آیم."
+      },
+      {
+        "de": "Die Hauptstadt von Slowenien.",
+        "fa": "پایتخت اسلوونی."
+      }
+    ],
+    "pronunciation": "اسلوِنیِن",
+    "type": "Kontakte, Informationen zur Person",
+    "Teil": "A",
+    "Tipp": "Slowenien ist ein EU-Land."
+  },
+  {
+    "id": "132",
+    "level": "A2",
+    "word": "Bulgarien",
+    "meaning": "بلغارستان",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Bulgarien liegt in Europa.",
+        "fa": "بلغارستان در اروپا قرار دارد."
+      },
+      {
+        "de": "Reise nach Bulgarien.",
+        "fa": "سفر به بلغارستان."
+      },
+      {
+        "de": "Die Leute aus Bulgarien.",
+        "fa": "مردم بلغارستان."
+      }
+    ],
+    "pronunciation": "بولگاریِن",
+    "type": "Kontakte, Informationen zur Person",
+    "Teil": "A",
+    "Tipp": "Bulgarien ist EU-Mitglied."
+  },
+  {
+    "id": "133",
+    "level": "A2",
+    "word": "Estland",
+    "meaning": "استونی",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Estland ist klein.",
+        "fa": "استونی کوچک است."
+      },
+      {
+        "de": "In Estland sprechen sie Estnisch.",
+        "fa": "در استونی به استونیایی صحبت می‌کنند."
+      },
+      {
+        "de": "Estland in der EU.",
+        "fa": "استونی در اتحادیه اروپا."
+      }
+    ],
+    "pronunciation": "اِستلاند",
+    "type": "Kontakte, Informationen zur Person",
+    "Teil": "A",
+    "Tipp": "Estland ist ein baltisches Land."
+  },
+  {
+    "id": "134",
+    "level": "A2",
+    "word": "Deutschland",
+    "meaning": "آلمان",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Ich lebe in Deutschland.",
+        "fa": "در آلمان زندگی می‌کنم."
+      },
+      {
+        "de": "Deutschland hat viele Städte.",
+        "fa": "آلمان شهرهای زیادی دارد."
+      },
+      {
+        "de": "Die Hauptstadt ist Berlin.",
+        "fa": "پایتخت برلین است."
+      }
+    ],
+    "pronunciation": "دویچلاند",
+    "type": "Kontakte, Informationen zur Person",
+    "Teil": "A",
+    "Tipp": "Deutschland ist das Land der deutschen Sprache."
+  },
+  {
+    "id": "135",
+    "level": "A2",
+    "word": "Tschechien",
+    "meaning": "جمهوری چک",
+    "antonyms": [],
+    "synonyms": ["Tschechische Republik"],
+    "sentences": [
+      {
+        "de": "Tschechien liegt in Mitteleuropa.",
+        "fa": "جمهوری چک در اروپای مرکزی است."
+      },
+      {
+        "de": "Prag ist in Tschechien.",
+        "fa": "پراگ در جمهوری چک است."
+      },
+      {
+        "de": "Aus Tschechien kommen.",
+        "fa": "از جمهوری چک آمدن."
+      }
+    ],
+    "pronunciation": "چخِین",
+    "type": "Kontakte, Informationen zur Person",
+    "Teil": "A",
+    "Tipp": "Tschechien ist Nachbar von Deutschland."
+  },
+  {
+    "id": "136",
+    "level": "A2",
+    "word": "Finnland",
+    "meaning": "فنلاند",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Finnland ist im Norden.",
+        "fa": "فنلاند در شمال است."
+      },
+      {
+        "de": "In Finnland ist es kalt.",
+        "fa": "در فنلاند سرد است."
+      },
+      {
+        "de": "Finnland hat Seen.",
+        "fa": "فنلاند دریاچه دارد."
+      }
+    ],
+    "pronunciation": "فینلاند",
+    "type": "Kontakte, Informationen zur Person",
+    "Teil": "A",
+    "Tipp": "Finnland ist bekannt für Sauna."
+  },
+  {
+    "id": "137",
+    "level": "A2",
+    "word": "Schweden",
+    "meaning": "سوئد",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Schweden ist in Skandinavien.",
+        "fa": "سوئد در اسکاندیناوی است."
+      },
+      {
+        "de": "Die Hauptstadt ist Stockholm.",
+        "fa": "پایتخت استکهلم است."
+      },
+      {
+        "de": "Aus Schweden kommen.",
+        "fa": "از سوئد آمدن."
+      }
+    ],
+    "pronunciation": "شوِدِن",
+    "type": "Kontakte, Informationen zur Person",
+    "Teil": "A",
+    "Tipp": "Schweden ist ein nordisches Land."
+  },
+  {
+    "id": "138",
+    "level": "A2",
+    "word": "Luxemburg",
+    "meaning": "لوکزامبورگ",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Luxemburg ist klein.",
+        "fa": "لوکزامبورگ کوچک است."
+      },
+      {
+        "de": "Luxemburg in der EU.",
+        "fa": "لوکزامبورگ در اتحادیه اروپا."
+      },
+      {
+        "de": "Die Sprache in Luxemburg.",
+        "fa": "زبان در لوکزامبورگ."
+      }
+    ],
+    "pronunciation": "لوکسِمبورگ",
+    "type": "Kontakte, Informationen zur Person",
+    "Teil": "A",
+    "Tipp": "Luxemburg ist eines der kleinsten EU-Länder."
+  },
+  {
+    "id": "139",
+    "level": "A2",
+    "word": "Belgien",
+    "meaning": "بلژیک",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Belgien hat drei Sprachen.",
+        "fa": "بلژیک سه زبان دارد."
+      },
+      {
+        "de": "Brüssel ist in Belgien.",
+        "fa": "بروکسل در بلژیک است."
+      },
+      {
+        "de": "Nach Belgien reisen.",
+        "fa": "به بلژیک سفر کردن."
+      }
+    ],
+    "pronunciation": "بِلگیِن",
+    "type": "Kontakte, Informationen zur Person",
+    "Teil": "A",
+    "Tipp": "Belgien grenzt an Deutschland."
+  },
+  {
+    "id": "140",
+    "level": "A2",
+    "word": "Großbritannien",
+    "meaning": "بریتانیای کبیر",
+    "antonyms": [],
+    "synonyms": ["UK"],
+    "sentences": [
+      {
+        "de": "Großbritannien hat London.",
+        "fa": "بریتانیای کبیر لندن دارد."
+      },
+      {
+        "de": "In Großbritannien sprechen sie Englisch.",
+        "fa": "در بریتانیای کبیر انگلیسی صحبت می‌کنند."
+      },
+      {
+        "de": "Großbritannien ist eine Insel.",
+        "fa": "بریتانیای کبیر جزیره است."
+      }
+    ],
+    "pronunciation": "گروس‌بریتانیِن",
+    "type": "Kontakte, Informationen zur Person",
+    "Teil": "A",
+    "Tipp": "Großbritannien umfasst England, Schottland, etc."
+  },
+  {
+    "id": "141",
+    "level": "A2",
+    "word": "Irland",
+    "meaning": "ایرلند",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Irland ist grün.",
+        "fa": "ایرلند سبز است."
+      },
+      {
+        "de": "Dublin ist die Hauptstadt von Irland.",
+        "fa": "دوبلین پایتخت ایرلند است."
+      },
+      {
+        "de": "Aus Irland kommen.",
+        "fa": "از ایرلند آمدن."
+      }
+    ],
+    "pronunciation": "ایرلاند",
+    "type": "Kontakte, Informationen zur Person",
+    "Teil": "A",
+    "Tipp": "Irland hat eine eigene Sprache."
+  },
+  {
+    "id": "142",
+    "level": "A2",
+    "word": "Österreich",
+    "meaning": "اتریش",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Österreich spricht Deutsch.",
+        "fa": "اتریش آلمانی صحبت می‌کند."
+      },
+      {
+        "de": "Wien ist in Österreich.",
+        "fa": "وین در اتریش است."
+      },
+      {
+        "de": "Nach Österreich fahren.",
+        "fa": "به اتریش رفتن."
+      }
+    ],
+    "pronunciation": "اوسترایش",
+    "type": "Kontakte, Informationen zur Person",
+    "Teil": "A",
+    "Tipp": "Österreich grenzt an Deutschland."
+  },
+  {
+    "id": "143",
+    "level": "A2",
+    "word": "Lettland",
+    "meaning": "لتونی",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Lettland ist baltisch.",
+        "fa": "لتونی بالتیک است."
+      },
+      {
+        "de": "In Lettland.",
+        "fa": "در لتونی."
+      },
+      {
+        "de": "Lettland in der EU.",
+        "fa": "لتونی در اتحادیه اروپا."
+      }
+    ],
+    "pronunciation": "لت‌لاند",
+    "type": "Kontakte, Informationen zur Person",
+    "Teil": "A",
+    "Tipp": "Lettland ist ein baltisches Land."
+  },
+  {
+    "id": "144",
+    "level": "A2",
+    "word": "Litauen",
+    "meaning": "لیتوانی",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Litauen liegt im Norden.",
+        "fa": "لیتوانی در شمال قرار دارد."
+      },
+      {
+        "de": "Die Hauptstadt von Litauen.",
+        "fa": "پایتخت لیتوانی."
+      },
+      {
+        "de": "Aus Litauen.",
+        "fa": "از لیتوانی."
+      }
+    ],
+    "pronunciation": "لیتائوِن",
+    "type": "Kontakte, Informationen zur Person",
+    "Teil": "A",
+    "Tipp": "Litauen ist EU-Mitglied."
+  },
+  {
+    "id": "145",
+    "level": "A2",
+    "word": "Frankreich",
+    "meaning": "فرانسه",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Paris ist in Frankreich.",
+        "fa": "پاریس در فرانسه است."
+      },
+      {
+        "de": "Frankreich hat guten Wein.",
+        "fa": "فرانسه شراب خوب دارد."
+      },
+      {
+        "de": "Nach Frankreich reisen.",
+        "fa": "به فرانسه سفر کردن."
+      }
+    ],
+    "pronunciation": "فرانکرایش",
+    "type": "Kontakte, Informationen zur Person",
+    "Teil": "A",
+    "Tipp": "Frankreich ist Nachbar von Deutschland."
+  },
+  {
+    "id": "146",
+    "level": "A2",
+    "word": "Malta",
+    "meaning": "مالت",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Malta ist eine Insel.",
+        "fa": "مالت جزیره است."
+      },
+      {
+        "de": "Malta in der EU.",
+        "fa": "مالت در اتحادیه اروپا."
+      },
+      {
+        "de": "Das warme Malta.",
+        "fa": "مالت گرم."
+      }
+    ],
+    "pronunciation": "مالتا",
+    "type": "Kontakte, Informationen zur Person",
+    "Teil": "A",
+    "Tipp": "Malta ist südlich in Europa."
+  },
+  {
+    "id": "147",
+    "level": "A2",
+    "word": "Niederlande",
+    "meaning": "هلند",
+    "antonyms": [],
+    "synonyms": ["Holland"],
+    "sentences": [
+      {
+        "de": "Die Niederlande haben viele Fahrräder.",
+        "fa": "هلند دوچرخه‌های زیادی دارد."
+      },
+      {
+        "de": "Amsterdam in den Niederlanden.",
+        "fa": "آمستردام در هلند."
+      },
+      {
+        "de": "Aus den Niederlanden.",
+        "fa": "از هلند."
+      }
+    ],
+    "pronunciation": "نیدِرلاندِ",
+    "type": "Kontakte, Informationen zur Person",
+    "Teil": "A",
+    "Tipp": "Niederlande sind die offizielle Bezeichnung."
+  },
+  {
+    "id": "148",
+    "level": "A2",
+    "word": "Griechenland",
+    "meaning": "یونان",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Griechenland hat alte Geschichte.",
+        "fa": "یونان تاریخ قدیمی دارد."
+      },
+      {
+        "de": "Athen ist in Griechenland.",
+        "fa": "آتن در یونان است."
+      },
+      {
+        "de": "Urlaub in Griechenland.",
+        "fa": "تعطیلات در یونان."
+      }
+    ],
+    "pronunciation": "گریشن‌لاند",
+    "type": "Kontakte, Informationen zur Person",
+    "Teil": "A",
+    "Tipp": "Griechenland ist bekannt für Antike."
+  },
+  {
+    "id": "149",
+    "level": "A2",
+    "word": "Portugal",
+    "meaning": "پرتغال",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Portugal liegt im Westen.",
+        "fa": "پرتغال در غرب قرار دارد."
+      },
+      {
+        "de": "Lissabon in Portugal.",
+        "fa": "لیسبون در پرتغال."
+      },
+      {
+        "de": "Aus Portugal kommen.",
+        "fa": "از پرتغال آمدن."
+      }
+    ],
+    "pronunciation": "پورتوگال",
+    "type": "Kontakte, Informationen zur Person",
+    "Teil": "A",
+    "Tipp": "Portugal hat guten Wein."
+  },
+  {
+    "id": "150",
+    "level": "A2",
+    "word": "Rumänien",
+    "meaning": "رومانی",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Rumänien in Osteuropa.",
+        "fa": "رومانی در اروپای شرقی."
+      },
+      {
+        "de": "Die Hauptstadt Bukarest.",
+        "fa": "پایتخت بخارست."
+      },
+      {
+        "de": "Rumänien ist EU-Mitglied.",
+        "fa": "رومانی عضو اتحادیه اروپا است."
+      }
+    ],
+    "pronunciation": "رومانیِن",
+    "type": "Kontakte, Informationen zur Person",
+    "Teil": "A",
+    "Tipp": "Rumänien hat schöne Berge."
+  },
+  {
+    "id": "151",
+    "level": "A2",
+    "word": "Polen",
+    "meaning": "لهستان",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Polen grenzt an Deutschland.",
+        "fa": "لهستان به آلمان هم‌مرز است."
+      },
+      {
+        "de": "Warschau ist in Polen.",
+        "fa": "ورشو در لهستان است."
+      },
+      {
+        "de": "Nach Polen fahren.",
+        "fa": "به لهستان رفتن."
+      }
+    ],
+    "pronunciation": "پولِن",
+    "type": "Kontakte, Informationen zur Person",
+    "Teil": "A",
+    "Tipp": "Polen ist östlicher Nachbar."
+  },
+  {
+    "id": "152",
+    "level": "A2",
+    "word": "Slowakei",
+    "meaning": "اسلواکی",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Die Slowakei ist klein.",
+        "fa": "اسلواکی کوچک است."
+      },
+      {
+        "de": "Bratislava in der Slowakei.",
+        "fa": "براتیسلاوا در اسلواکی."
+      },
+      {
+        "de": "Slowakei in der EU.",
+        "fa": "اسلواکی در اتحادیه اروپا."
+      }
+    ],
+    "pronunciation": "سلواکای",
+    "type": "Kontakte, Informationen zur Person",
+    "Teil": "A",
+    "Tipp": "Slowakei grenzt an Tschechien."
+  },
+  {
+    "id": "153",
+    "level": "A2",
+    "word": "Dänemark",
+    "meaning": "دانمارک",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Dänemark hat Kopenhagen.",
+        "fa": "دانمارک کپنهاگ دارد."
+      },
+      {
+        "de": "In Dänemark ist es schön.",
+        "fa": "در دانمارک زیبا است."
+      },
+      {
+        "de": "Dänemark ist nördlich.",
+        "fa": "دانمارک شمالی است."
+      }
+    ],
+    "pronunciation": "دِنِمارک",
+    "type": "Kontakte, Informationen zur Person",
+    "Teil": "A",
+    "Tipp": "Dänemark hat viele Inseln."
+  },
+  {
+    "id": "154",
+    "level": "A2",
+    "word": "Spanien",
+    "meaning": "اسپانیا",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Spanien hat Madrid.",
+        "fa": "اسپانیا مادرید دارد."
+      },
+      {
+        "de": "Urlaub in Spanien.",
+        "fa": "تعطیلات در اسپانیا."
+      },
+      {
+        "de": "Spanien ist sonnig.",
+        "fa": "اسپانیا آفتابی است."
+      }
+    ],
+    "pronunciation": "اشپانیِن",
+    "type": "Kontakte, Informationen zur Person",
+    "Teil": "A",
+    "Tipp": "Spanien hat viele Touristen."
+  },
+  {
+    "id": "155",
+    "level": "A2",
+    "word": "Italien",
+    "meaning": "ایتالیا",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Italien hat Rom.",
+        "fa": "ایتالیا رم دارد."
+      },
+      {
+        "de": "Pizza aus Italien.",
+        "fa": "پیتزا از ایتالیا."
+      },
+      {
+        "de": "Nach Italien reisen.",
+        "fa": "به ایتالیا سفر کردن."
+      }
+    ],
+    "pronunciation": "ایتالیِن",
+    "type": "Kontakte, Informationen zur Person",
+    "Teil": "A",
+    "Tipp": "Italien ist bekannt für Essen."
+  },
+  {
+    "id": "156",
+    "level": "A2",
+    "word": "Ungarn",
+    "meaning": "مجارستان",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Ungarn liegt in Osteuropa.",
+        "fa": "مجارستان در اروپای شرقی است."
+      },
+      {
+        "de": "Budapest in Ungarn.",
+        "fa": "بوداپست در مجارستان."
+      },
+      {
+        "de": "Aus Ungarn.",
+        "fa": "از مجارستان."
+      }
+    ],
+    "pronunciation": "اونگارن",
+    "type": "Kontakte, Informationen zur Person",
+    "Teil": "A",
+    "Tipp": "Ungarn hat Thermalbäder."
+  },
+  {
+    "id": "157",
+    "level": "A2",
+    "word": "Zypern",
+    "meaning": "قبرس",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Zypern ist eine Insel.",
+        "fa": "قبرس جزیره است."
+      },
+      {
+        "de": "Zypern in der EU.",
+        "fa": "قبرس در اتحادیه اروپا."
+      },
+      {
+        "de": "Das warme Zypern.",
+        "fa": "قبرس گرم."
+      }
+    ],
+    "pronunciation": "تسیپِرن",
+    "type": "Kontakte, Informationen zur Person",
+    "Teil": "A",
+    "Tipp": "Zypern hat zwei Teile."
+  },
+  {
+    "id": "158",
+    "level": "A2",
+    "word": "Kroatien",
+    "meaning": "کرواسی",
+    "antonyms": [],
+    "synonyms": [],
+    "sentences": [
+      {
+        "de": "Kroatien hat eine schöne Küste.",
+        "fa": "کرواسی ساحل زیبایی دارد."
+      },
+      {
+        "de": "Zagreb ist in Kroatien.",
+        "fa": "زاگرب در کرواسی است."
+      },
+      {
+        "de": "Urlaub in Kroatien.",
+        "fa": "تعطیلات در کرواسی."
+      }
+    ],
+    "pronunciation": "کروآتسیِن",
+    "type": "Kontakte, Informationen zur Person",
+    "Teil": "A",
+    "Tipp": "Kroatien ist ein beliebtes Urlaubsland."
+  }
+]
