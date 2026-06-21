@@ -353,44 +353,11 @@ export class UIManager {
       hardContainer.classList.remove("hidden");
       this.renderHardQuestion();
     } else {
-      wordDisplay.className = "falling-word font-bold relative";
+      wordDisplay.className = "falling-word relative";
       sentenceDisplay.classList.add("hidden");
       questionType.textContent = "";
 
-      const isSentence =
-        this.game.currentQuestionType.isSentence && this.game.currentSentence;
-      const target = isSentence
-        ? this.game.currentSentence
-        : this.game.currentWord;
-      const sureCount = target.sureCount || 0;
-      const typeLabel = this.getTypeLabelHTML();
-      console.log(this.game.currentWord);
-      switch (this.game.currentQuestionType.type) {
-        case "de_to_fa":
-          const pronDe = this.game.currentWord.pronunciation || "";
-          const pronHtmlDe = pronDe
-            ? `<br><span class="pronunciation">(${pronDe})</span>`
-            : "";
-          wordDisplay.innerHTML = `${typeLabel}<a href="https://translate.google.com/?sl=de&tl=fa&text=${encodeURIComponent(this.game.currentWord.word)}" target="_blank" class="theme-word-link hover:underline">${this.game.currentWord.word}</a>${pronHtmlDe}`;
-          // questionType.textContent = "Auf Persisch übersetzen";
-          break;
-        case "word_with_sentence":
-          sentenceDisplay.textContent = `"${this.game.currentSentence.fa}"`;
-          sentenceDisplay.classList.remove("hidden");
-          // questionType.textContent = "Finde das Adjektiv";
-          wordDisplay.innerHTML = `${typeLabel}?`;
-          break;
-        case "fa_to_de":
-          wordDisplay.innerHTML = `${typeLabel}${this.game.currentWord.meaning}`;
-          // questionType.textContent = "Ins Deutsche übersetzen";
-          break;
-        case "sentence_only":
-          sentenceDisplay.textContent = `"${this.game.currentSentence.de}"`;
-          sentenceDisplay.classList.remove("hidden");
-          // questionType.textContent = "Was bedeutet dieser Satz?";
-          wordDisplay.innerHTML = `${typeLabel}?`;
-          break;
-      }
+      wordDisplay.textContent = this.game.currentWord.meaning;
 
       questionType.textContent += `  ${(this.game.currentWord.seenCount || 0) + 1}-mal angezeigt`;
       this.generateAnswerOptions();
@@ -405,29 +372,11 @@ export class UIManager {
     const sentenceDisplay = document.getElementById("sentenceDisplay");
     const questionType = document.getElementById("questionType");
 
-    wordDisplay.className = "falling-word font-bold";
+    wordDisplay.className = "falling-word";
     sentenceDisplay.classList.add("hidden");
     questionType.textContent = "";
 
-    const isSentence =
-      this.game.currentQuestionType.isSentence && this.game.currentSentence;
-    const target = isSentence
-      ? this.game.currentSentence
-      : this.game.currentWord;
-    const sureCount = target.sureCount || 0;
-
-    if (
-      this.game.currentQuestionType.type === "word_with_sentence" ||
-      this.game.currentQuestionType.type === "sentence_only"
-    ) {
-      sentenceDisplay.textContent = `"${this.game.currentSentence.fa}"`;
-      sentenceDisplay.classList.remove("hidden");
-      // questionType.textContent = "Schreibe das passende Adjektiv";
-      wordDisplay.textContent = "?";
-    } else {
-      const verbEntry = this.game.currentVerbEntry;
-      wordDisplay.textContent = verbEntry ? verbEntry.fa : this.game.currentWord.meaning;
-    }
+    wordDisplay.textContent = this.game.currentWord.meaning;
 
     questionType.textContent += ` ${(this.game.currentWord.seenCount || 0) + 1}-mal angezeigt`;
   }
