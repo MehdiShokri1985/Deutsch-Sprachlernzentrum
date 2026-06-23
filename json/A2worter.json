@@ -3800,66 +3800,6 @@
         "Tipp":  ""
     },
     {
-        "id":  126,
-        "level":  "A2",
-        "word":  "die Kollegin, -nen",
-        "meaning":  "همکار زن",
-        "antonyms":  [
-
-                     ],
-        "synonyms":  [
-                         "die Mitarbeiterin"
-                     ],
-        "sentences":  [
-                          {
-                              "de":  "Meine Kollegin heißt Anna.",
-                              "fa":  "همکار زن من آنا نام دارد."
-                          },
-                          {
-                              "de":  "Ich treffe meine Kolleginnen nach der Arbeit.",
-                              "fa":  "من بعد از کار با همکارهای زنم دیدار می‌کنم."
-                          },
-                          {
-                              "de":  "Die Kollegin hilft mir bei dem Projekt.",
-                              "fa":  "همکار زن در پروژه به من کمک می‌کند."
-                          }
-                      ],
-        "pronunciation":  "دی کولیگین",
-        "type":  "Freunde und Kontakte",
-        "Teil":  "B",
-        "Tipp":  ""
-    },
-    {
-        "id":  128,
-        "level":  "A2",
-        "word":  "der Kontakt, -e",
-        "meaning":  "تماس / ارتباط",
-        "antonyms":  [
-
-                     ],
-        "synonyms":  [
-                         "die Verbindung"
-                     ],
-        "sentences":  [
-                          {
-                              "de":  "Ich habe guten Kontakt zu meinen Kollegen.",
-                              "fa":  "من تماس خوبی با همکارانم دارم."
-                          },
-                          {
-                              "de":  "Wir halten den Kontakt per Telefon.",
-                              "fa":  "ما تماس را با تلفن حفظ می‌کنیم."
-                          },
-                          {
-                              "de":  "Hast du noch Kontakt zu deinem Nachbarn?",
-                              "fa":  "هنوز با همسایه‌ات ارتباط داری؟"
-                          }
-                      ],
-        "pronunciation":  "در کنتاکت",
-        "type":  "Freunde und Kontakte",
-        "Teil":  "B",
-        "Tipp":  ""
-    },
-    {
         "id":  129,
         "level":  "A2",
         "word":  "die Geburtstagsparty, -s",
@@ -3922,7 +3862,7 @@
     {
         "id":  131,
         "level":  "A2",
-        "word":  "das Geschenk, -e",
+        "word":  "das Geschenk",
         "meaning":  "هدیه",
         "antonyms":  [
 
@@ -4772,7 +4712,7 @@
         "id":  159,
         "level":  "A2",
         "word":  "Bauch",
-        "meaning":  "شکم / belly",
+        "meaning":  "شکم",
         "antonyms":  [
 
                      ],
@@ -4862,7 +4802,7 @@
         "id":  162,
         "level":  "A2",
         "word":  "Fuß",
-        "meaning":  "پا / foot",
+        "meaning":  "پا ",
         "antonyms":  [
 
                      ],
@@ -4952,7 +4892,7 @@
         "id":  165,
         "level":  "A2",
         "word":  "Bein",
-        "meaning":  "پا / leg",
+        "meaning":  "پا ",
         "antonyms":  [
 
                      ],
