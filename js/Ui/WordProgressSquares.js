@@ -176,7 +176,9 @@ export class WordProgressSquares {
   }
 
   _storageKey(suffix) {
-    return `langgame_${suffix}_${this.game.gameType}_${this.game.dataSetName}_${this.game.currentNiveau}_${this.game.currentMode}`;
+    const tail = this.game.isA2Worter && this.game.currentTail && this.game.currentTail !== "all"
+      ? `_tail_${this.game.currentTail}` : "";
+    return `langgame_${suffix}_${this.game.gameType}_${this.game.dataSetName}_${this.game.currentNiveau}_${this.game.currentMode}${tail}`;
   }
 
   _getRoot() {
@@ -218,18 +220,8 @@ export class WordProgressSquares {
     return min + t * (max - min);
   }
 
-  _newSessionSeed() {
-    return `${Date.now()}-${Math.random().toString(36).slice(2, 9)}`;
-  }
-
   _getSessionSeed(comboKey) {
-    const key = `wps_layout_${comboKey}`;
-    let seed = sessionStorage.getItem(key);
-    if (!seed) {
-      seed = this._newSessionSeed();
-      sessionStorage.setItem(key, seed);
-    }
-    return seed;
+    return String(this._hashSeed(`layout_${comboKey}`));
   }
 
   _shapePoolForCount(count) {
@@ -479,25 +471,22 @@ export class WordProgressSquares {
     return best;
   }
 
-  _pickRandomShape(count) {
+  _pickShapeForCombo(comboKey, count) {
     const pool = this._shapePoolForCount(count);
-    return pool[Math.floor(Math.random() * pool.length)];
+    const seed = this._hashSeed(`${comboKey}_${count}`);
+    return pool[seed % pool.length];
   }
 
   _getSessionShape(comboKey, count) {
-    const key = `wps_shape_${comboKey}`;
     const pool = this._shapePoolForCount(count);
-    let shape = sessionStorage.getItem(key);
-    if (!shape || !pool.includes(shape)) {
-      shape = this._pickRandomShape(count);
-      sessionStorage.setItem(key, shape);
+    const shape = this._pickShapeForCombo(comboKey, count);
+    if (!pool.includes(shape)) {
+      return pool[0];
     }
     return shape;
   }
 
   _resetSessionLayout(comboKey, count) {
-    sessionStorage.setItem(`wps_layout_${comboKey}`, this._newSessionSeed());
-    sessionStorage.setItem(`wps_shape_${comboKey}`, this._pickRandomShape(count));
     this._chaoticLayout.clear();
     this._layoutSessionSeed = null;
   }

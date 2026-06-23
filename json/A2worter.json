@@ -3830,36 +3830,6 @@
         "Tipp":  ""
     },
     {
-        "id":  127,
-        "level":  "A2",
-        "word":  "der Nachbar, -n",
-        "meaning":  "همسایه (مذکر)",
-        "antonyms":  [
-
-                     ],
-        "synonyms":  [
-                         "der Anwohner"
-                     ],
-        "sentences":  [
-                          {
-                              "de":  "Mein Nachbar ist sehr nett.",
-                              "fa":  "همسایه من خیلی مهربان است."
-                          },
-                          {
-                              "de":  "Die Nachbarn helfen uns im Garten.",
-                              "fa":  "همسایه‌ها در باغ به ما کمک می‌کنند."
-                          },
-                          {
-                              "de":  "Ich spreche oft mit meinem Nachbarn.",
-                              "fa":  "من اغلب با همسایه‌ام صحبت می‌کنم."
-                          }
-                      ],
-        "pronunciation":  "در ناختبار",
-        "type":  "Freunde und Kontakte",
-        "Teil":  "B",
-        "Tipp":  ""
-    },
-    {
         "id":  128,
         "level":  "A2",
         "word":  "der Kontakt, -e",

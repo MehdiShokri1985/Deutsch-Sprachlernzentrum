@@ -81,7 +81,7 @@ export class AdaptiveLearningGame {
       this.currentTail = this._restoreTailPreference();
 
       // بارگذاری داده‌ها — load unfiltered first to extract tail options
-      this.words = await this.dataManager.loadWords(
+      const unfilteredWords = await this.dataManager.loadWords(
         this.jsonPath,
         this.currentNiveau,
         this.currentMode,
@@ -92,12 +92,24 @@ export class AdaptiveLearningGame {
 
       // Populate tail dropdown from full dataset before applying filter
       if (this.isA2Worter) {
-        this._allWords = this.words;
+        this._allWords = unfilteredWords;
         this.populateTailSelect();
-        // Apply tail filter to the loaded words
-        if (this.currentTail !== "all") {
-          this.words = this.words.filter(w => w.Teil === this.currentTail);
-        }
+      }
+
+      // Load words WITH the current tail so word progress is merged from
+      // the tail-specific key (e.g. langgame_words_game_a2worter_A2_hard_all_tail_A).
+      // This ensures sureCount, mistakeCount, etc. persist correctly per Tail.
+      if (this.isA2Worter && this.currentTail !== "all") {
+        this.words = await this.dataManager.loadWords(
+          this.jsonPath,
+          this.currentNiveau,
+          this.currentMode,
+          this.currentCase,
+          "",
+          this.currentTail,
+        );
+      } else {
+        this.words = unfilteredWords;
       }
 
       this.populateCaseSelect(this.words);
