@@ -9339,36 +9339,6 @@
         "Tipp":  "در اتریش Polster."
     },
     {
-        "id":  313,
-        "level":  "A2",
-        "word":  "der Schrank (A: der Kasten)",
-        "meaning":  "کمد",
-        "antonyms":  [
-
-                     ],
-        "synonyms":  [
-
-                     ],
-        "sentences":  [
-                          {
-                              "de":  "Der Schrank ist voll.",
-                              "fa":  "کمد پر است."
-                          },
-                          {
-                              "de":  "Kleider im Schrank.",
-                              "fa":  "لباس‌ها در کمد."
-                          },
-                          {
-                              "de":  "Ein großer Schrank.",
-                              "fa":  "کمد بزرگ."
-                          }
-                      ],
-        "pronunciation":  "در شرنک",
-        "type":  "Wohnen und Hausarbeit",
-        "Teil":  "D",
-        "Tipp":  "در اتریش Kasten."
-    },
-    {
         "id":  314,
         "level":  "A2",
         "word":  "der Teppich, -e",
@@ -10451,7 +10421,7 @@
     {
         "id":  350,
         "level":  "A2",
-        "word":  "der Schrank / der Kasten",
+        "word":  "der Schrank",
         "meaning":  "کمد",
         "antonyms":  [
 
