@@ -7599,36 +7599,6 @@
         "Tipp":  "فعل جدایی‌پذیر: ich ziehe aus."
     },
     {
-        "id":  255,
-        "level":  "A2",
-        "word":  "Miete",
-        "meaning":  "اجاره",
-        "antonyms":  [
-
-                     ],
-        "synonyms":  [
-                         "Mietpreis"
-                     ],
-        "sentences":  [
-                          {
-                              "de":  "Die Miete ist billig.",
-                              "fa":  "اجاره ارزان است."
-                          },
-                          {
-                              "de":  "Ich zahle die Miete jeden Monat.",
-                              "fa":  "هر ماه اجاره را پرداخت می‌کنم."
-                          },
-                          {
-                              "de":  "Wie hoch ist die Miete?",
-                              "fa":  "اجاره چقدر است؟"
-                          }
-                      ],
-        "pronunciation":  "میتِ",
-        "type":  "Wohnen und Hausarbeit",
-        "Teil":  "D",
-        "Tipp":  "با \u0027die\u0027 و اغلب با \u0027zahlen\u0027 ترکیب می‌شود."
-    },
-    {
         "id":  256,
         "level":  "A2",
         "word":  "Studentenwohnheim",
@@ -7929,66 +7899,6 @@
         "Tipp":  "im ersten Stock = طبقه همکف/اول."
     },
     {
-        "id":  266,
-        "level":  "A2",
-        "word":  "Treppen / Stiegen",
-        "meaning":  "پله‌ها",
-        "antonyms":  [
-
-                     ],
-        "synonyms":  [
-                         "Stufen"
-                     ],
-        "sentences":  [
-                          {
-                              "de":  "Die Treppe ist steil.",
-                              "fa":  "پله‌ها تند هستند."
-                          },
-                          {
-                              "de":  "Ich gehe die Treppe hoch.",
-                              "fa":  "از پله‌ها بالا می‌روم."
-                          },
-                          {
-                              "de":  "Es gibt keinen Lift, nur Treppen.",
-                              "fa":  "آسانسور ندارد، فقط پله."
-                          }
-                      ],
-        "pronunciation":  "ترپن / اشتيگن",
-        "type":  "Wohnen und Hausarbeit",
-        "Teil":  "D",
-        "Tipp":  "در اتریش Stiege رایج است."
-    },
-    {
-        "id":  267,
-        "level":  "A2",
-        "word":  "WC / Toilette",
-        "meaning":  "توالت",
-        "antonyms":  [
-
-                     ],
-        "synonyms":  [
-                         "Klo"
-                     ],
-        "sentences":  [
-                          {
-                              "de":  "Wo ist das WC?",
-                              "fa":  "توالت کجاست؟"
-                          },
-                          {
-                              "de":  "Die Toilette ist sauber.",
-                              "fa":  "توالت تمیز است."
-                          },
-                          {
-                              "de":  "Es gibt zwei Toiletten.",
-                              "fa":  "دو توالت وجود دارد."
-                          }
-                      ],
-        "pronunciation":  "وه تسه / توآلتِ",
-        "type":  "Wohnen und Hausarbeit",
-        "Teil":  "D",
-        "Tipp":  "WC رسمی‌تر است."
-    },
-    {
         "id":  268,
         "level":  "A2",
         "word":  "Hobbyraum",
@@ -8078,36 +7988,7 @@
         "Teil":  "D",
         "Tipp":  "برای کار خانگی."
     },
-    {
-        "id":  271,
-        "level":  "A2",
-        "word":  "Kinderzimmer",
-        "meaning":  "اتاق کودک",
-        "antonyms":  [
 
-                     ],
-        "synonyms":  [
-
-                     ],
-        "sentences":  [
-                          {
-                              "de":  "Das Kinderzimmer ist klein.",
-                              "fa":  "اتاق کودک کوچک است."
-                          },
-                          {
-                              "de":  "Im Kinderzimmer spielen die Kinder.",
-                              "fa":  "کودکان در اتاق کودک بازی می‌کنند."
-                          },
-                          {
-                              "de":  "Wir richten das Kinderzimmer ein.",
-                              "fa":  "اتاق کودک را مبله می‌کنیم."
-                          }
-                      ],
-        "pronunciation":  "کیندر تسیمر",
-        "type":  "Wohnen und Hausarbeit",
-        "Teil":  "D",
-        "Tipp":  "برای خانواده‌ها."
-    },
     {
         "id":  272,
         "level":  "A2",
@@ -8168,36 +8049,7 @@
         "Teil":  "D",
         "Tipp":  "با \u0027das\u0027."
     },
-    {
-        "id":  274,
-        "level":  "A2",
-        "word":  "Bad",
-        "meaning":  "حمام",
-        "antonyms":  [
 
-                     ],
-        "synonyms":  [
-                         "Badezimmer"
-                     ],
-        "sentences":  [
-                          {
-                              "de":  "Das Bad ist klein.",
-                              "fa":  "حمام کوچک است."
-                          },
-                          {
-                              "de":  "Ich dusche im Bad.",
-                              "fa":  "در حمام دوش می‌گیرم."
-                          },
-                          {
-                              "de":  "Es gibt ein Bad und ein WC.",
-                              "fa":  "یک حمام و یک توالت وجود دارد."
-                          }
-                      ],
-        "pronunciation":  "بات",
-        "type":  "Wohnen und Hausarbeit",
-        "Teil":  "D",
-        "Tipp":  "Bad = حمام کامل."
-    },
     {
         "id":  275,
         "level":  "A2",
@@ -9129,36 +8981,6 @@
         "Tipp":  "جمع: Türen."
     },
     {
-        "id":  307,
-        "level":  "A2",
-        "word":  "der Boden, Böden",
-        "meaning":  "کف",
-        "antonyms":  [
-
-                     ],
-        "synonyms":  [
-                         "Fußboden"
-                     ],
-        "sentences":  [
-                          {
-                              "de":  "Der Boden ist sauber.",
-                              "fa":  "کف تمیز است."
-                          },
-                          {
-                              "de":  "Holzboden.",
-                              "fa":  "کف چوبی."
-                          },
-                          {
-                              "de":  "Der Boden ist kalt.",
-                              "fa":  "کف سرد است."
-                          }
-                      ],
-        "pronunciation":  "در بودن",
-        "type":  "Wohnen und Hausarbeit",
-        "Teil":  "D",
-        "Tipp":  "جمع: Böden."
-    },
-    {
         "id":  308,
         "level":  "A2",
         "word":  "die Wand, Wände",
@@ -9279,36 +9101,6 @@
         "Tipp":  "جمع: Tische."
     },
     {
-        "id":  312,
-        "level":  "A2",
-        "word":  "das Kissen (A: das Polster)",
-        "meaning":  "بالش / کوسن",
-        "antonyms":  [
-
-                     ],
-        "synonyms":  [
-
-                     ],
-        "sentences":  [
-                          {
-                              "de":  "Das Kissen ist weich.",
-                              "fa":  "بالش نرم است."
-                          },
-                          {
-                              "de":  "Viele Kissen auf dem Sofa.",
-                              "fa":  "کوسن‌های زیاد روی کاناپه."
-                          },
-                          {
-                              "de":  "Ein rotes Kissen.",
-                              "fa":  "بالش قرمز."
-                          }
-                      ],
-        "pronunciation":  "داس کیسن",
-        "type":  "Wohnen und Hausarbeit",
-        "Teil":  "D",
-        "Tipp":  "در اتریش Polster."
-    },
-    {
         "id":  314,
         "level":  "A2",
         "word":  "der Teppich",
@@ -9367,36 +9159,6 @@
         "type":  "Wohnen und Hausarbeit",
         "Teil":  "D",
         "Tipp":  "جمع: Regale."
-    },
-    {
-        "id":  316,
-        "level":  "A2",
-        "word":  "die Uhr",
-        "meaning":  "ساعت دیواری",
-        "antonyms":  [
-
-                     ],
-        "synonyms":  [
-
-                     ],
-        "sentences":  [
-                          {
-                              "de":  "Die Uhr an der Wand.",
-                              "fa":  "ساعت روی دیوار."
-                          },
-                          {
-                              "de":  "Eine alte Uhr.",
-                              "fa":  "ساعت قدیمی."
-                          },
-                          {
-                              "de":  "Die Uhr zeigt die Zeit.",
-                              "fa":  "ساعت زمان را نشان می‌دهد."
-                          }
-                      ],
-        "pronunciation":  "دی اور",
-        "type":  "Wohnen und Hausarbeit",
-        "Teil":  "D",
-        "Tipp":  "ساعت دیواری."
     },
     {
         "id":  319,
@@ -9461,7 +9223,7 @@
     {
         "id":  321,
         "level":  "A2",
-        "word":  "Schalter",
+        "word":  "Der chalter",
         "meaning":  "کلید برق",
         "antonyms":  [
 
@@ -9849,36 +9611,6 @@
         "Tipp":  "داخل اتاق."
     },
     {
-        "id":  334,
-        "level":  "A2",
-        "word":  "das Regal",
-        "meaning":  "قفسه",
-        "antonyms":  [
-
-                     ],
-        "synonyms":  [
-
-                     ],
-        "sentences":  [
-                          {
-                              "de":  "Bücher ins Regal stellen.",
-                              "fa":  "کتاب‌ها را در قفسه گذاشتن."
-                          },
-                          {
-                              "de":  "Ein leeres Regal.",
-                              "fa":  "قفسه خالی."
-                          },
-                          {
-                              "de":  "Das Regal ist stabil.",
-                              "fa":  "قفسه محکم است."
-                          }
-                      ],
-        "pronunciation":  "داس رگال",
-        "type":  "Wohnen und Hausarbeit",
-        "Teil":  "D",
-        "Tipp":  "برای نگهداری."
-    },
-    {
         "id":  335,
         "level":  "A2",
         "word":  "das Öl",
@@ -10237,36 +9969,6 @@
         "type":  "Wohnen und Hausarbeit",
         "Teil":  "D",
         "Tipp":  "خواب."
-    },
-    {
-        "id":  347,
-        "level":  "A2",
-        "word":  "die Tür",
-        "meaning":  "در",
-        "antonyms":  [
-
-                     ],
-        "synonyms":  [
-
-                     ],
-        "sentences":  [
-                          {
-                              "de":  "Die Tür öffnen.",
-                              "fa":  "در را باز کردن."
-                          },
-                          {
-                              "de":  "Die Tür schließen.",
-                              "fa":  "در را بستن."
-                          },
-                          {
-                              "de":  "Eine offene Tür.",
-                              "fa":  "در باز."
-                          }
-                      ],
-        "pronunciation":  "دی تور",
-        "type":  "Wohnen und Hausarbeit",
-        "Teil":  "D",
-        "Tipp":  "ورودی."
     },
     {
         "id":  349,
