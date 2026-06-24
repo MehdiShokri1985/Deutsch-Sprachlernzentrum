@@ -10269,36 +10269,6 @@
         "Tipp":  "ورودی."
     },
     {
-        "id":  348,
-        "level":  "A2",
-        "word":  "der Tisch",
-        "meaning":  "میز",
-        "antonyms":  [
-
-                     ],
-        "synonyms":  [
-
-                     ],
-        "sentences":  [
-                          {
-                              "de":  "Am Tisch essen.",
-                              "fa":  "سر میز غذا خوردن."
-                          },
-                          {
-                              "de":  "Der Tisch ist rund.",
-                              "fa":  "میز گرد است."
-                          },
-                          {
-                              "de":  "Einen Tisch decken.",
-                              "fa":  "میز چیدن."
-                          }
-                      ],
-        "pronunciation":  "در تیش",
-        "type":  "Wohnen und Hausarbeit",
-        "Teil":  "D",
-        "Tipp":  "غذا."
-    },
-    {
         "id":  349,
         "level":  "A2",
         "word":  "der Teppich",
@@ -21860,32 +21830,7 @@
     "Teil": "G",
     "Tipp": "Artikel 'das'."
   },
-  {
-    "id": "770",
-    "level": "A2",
-    "word": "der Tisch",
-    "meaning": "میز",
-    "antonyms": [],
-    "synonyms": [],
-    "sentences": [
-      {
-        "de": "Der Tisch ist frei.",
-        "fa": "میز خالی است."
-      },
-      {
-        "de": "Am Tisch sitzen.",
-        "fa": "سر میز نشستن."
-      },
-      {
-        "de": "Reservierter Tisch.",
-        "fa": "میز رزرو شده."
-      }
-    ],
-    "pronunciation": "در تیش",
-    "type": "Essen und Trinken",
-    "Teil": "G",
-    "Tipp": "Artikel 'der'."
-  },
+
   {
     "id": "771",
     "level": "A2",
