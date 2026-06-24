@@ -8231,7 +8231,7 @@
     {
         "id":  276,
         "level":  "A2",
-        "word":  "Treppe (A: Stiege)",
+        "word":  "Treppe",
         "meaning":  "پله",
         "antonyms":  [
 
@@ -8769,36 +8769,6 @@
         "Tipp":  "در کشورهای آلمانی‌زبان آلپ."
     },
     {
-        "id":  294,
-        "level":  "A2",
-        "word":  "der Balkon, -e",
-        "meaning":  "بالکن",
-        "antonyms":  [
-
-                     ],
-        "synonyms":  [
-
-                     ],
-        "sentences":  [
-                          {
-                              "de":  "Der Balkon ist klein.",
-                              "fa":  "بالکن کوچک است."
-                          },
-                          {
-                              "de":  "Blumen auf dem Balkon.",
-                              "fa":  "گل‌ها روی بالکن."
-                          },
-                          {
-                              "de":  "Vom Balkon sieht man die Stadt.",
-                              "fa":  "از بالکن شهر دیده می‌شود."
-                          }
-                      ],
-        "pronunciation":  "در بالکن",
-        "type":  "Wohnen und Hausarbeit",
-        "Teil":  "D",
-        "Tipp":  "جمع: Balkone."
-    },
-    {
         "id":  295,
         "level":  "A2",
         "word":  "die Treppe, -n (A: die Stiege, -n)",
@@ -8981,7 +8951,7 @@
     {
         "id":  301,
         "level":  "A2",
-        "word":  "das Schlafzimmer, -",
+        "word":  "das Schlafzimmer",
         "meaning":  "اتاق خواب",
         "antonyms":  [
 
@@ -9427,66 +9397,6 @@
         "type":  "Wohnen und Hausarbeit",
         "Teil":  "D",
         "Tipp":  "ساعت دیواری."
-    },
-    {
-        "id":  317,
-        "level":  "A2",
-        "word":  "das Bild, -er",
-        "meaning":  "تابلو / عکس",
-        "antonyms":  [
-
-                     ],
-        "synonyms":  [
-
-                     ],
-        "sentences":  [
-                          {
-                              "de":  "Das Bild hängt an der Wand.",
-                              "fa":  "تابلو روی دیوار آویزان است."
-                          },
-                          {
-                              "de":  "Schöne Bilder.",
-                              "fa":  "تابلوهای زیبا."
-                          },
-                          {
-                              "de":  "Ein großes Bild.",
-                              "fa":  "تابلوی بزرگ."
-                          }
-                      ],
-        "pronunciation":  "داس بیلد",
-        "type":  "Wohnen und Hausarbeit",
-        "Teil":  "D",
-        "Tipp":  "جمع: Bilder."
-    },
-    {
-        "id":  318,
-        "level":  "A2",
-        "word":  "der Fernseher, -",
-        "meaning":  "تلویزیون",
-        "antonyms":  [
-
-                     ],
-        "synonyms":  [
-                         "TV"
-                     ],
-        "sentences":  [
-                          {
-                              "de":  "Der Fernseher ist neu.",
-                              "fa":  "تلویزیون جدید است."
-                          },
-                          {
-                              "de":  "Wir schauen Fernseher.",
-                              "fa":  "تلویزیون تماشا می‌کنیم."
-                          },
-                          {
-                              "de":  "Im Wohnzimmer steht der Fernseher.",
-                              "fa":  "تلویزیون در اتاق نشیمن است."
-                          }
-                      ],
-        "pronunciation":  "در فرنزه‌ر",
-        "type":  "Wohnen und Hausarbeit",
-        "Teil":  "D",
-        "Tipp":  "جمع: Fernseher."
     },
     {
         "id":  319,
