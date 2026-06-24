@@ -3802,7 +3802,7 @@
     {
         "id":  129,
         "level":  "A2",
-        "word":  "die Geburtstagsparty, -s",
+        "word":  "die Geburtstagsparty",
         "meaning":  "جشن تولد",
         "antonyms":  [
 
@@ -8351,7 +8351,7 @@
     {
         "id":  280,
         "level":  "A2",
-        "word":  "der Keller, -",
+        "word":  "der Keller",
         "meaning":  "زیرزمین",
         "antonyms":  [
 
@@ -8381,7 +8381,7 @@
     {
         "id":  281,
         "level":  "A2",
-        "word":  "das Bad, -er",
+        "word":  "das Bad",
         "meaning":  "حمام",
         "antonyms":  [
 
@@ -8471,7 +8471,7 @@
     {
         "id":  284,
         "level":  "A2",
-        "word":  "das Dach, -er",
+        "word":  "das Dach",
         "meaning":  "سقف",
         "antonyms":  [
 
@@ -8501,7 +8501,7 @@
     {
         "id":  285,
         "level":  "A2",
-        "word":  "das WC, -s",
+        "word":  "das WC",
         "meaning":  "توالت",
         "antonyms":  [
 
@@ -8531,7 +8531,7 @@
     {
         "id":  286,
         "level":  "A2",
-        "word":  "das Wohnzimmer, -",
+        "word":  "das Wohnzimmer",
         "meaning":  "اتاق نشیمن",
         "antonyms":  [
 
@@ -8591,7 +8591,7 @@
     {
         "id":  288,
         "level":  "A2",
-        "word":  "die Garage, -n",
+        "word":  "die Garage",
         "meaning":  "گاراژ",
         "antonyms":  [
 
@@ -8621,7 +8621,7 @@
     {
         "id":  289,
         "level":  "A2",
-        "word":  "die Terrasse, -n",
+        "word":  "die Terrasse",
         "meaning":  "تراس",
         "antonyms":  [
 
@@ -8681,7 +8681,7 @@
     {
         "id":  291,
         "level":  "A2",
-        "word":  "das Pflegeheim, -e",
+        "word":  "das Pflegeheim",
         "meaning":  "خانه سالمندان",
         "antonyms":  [
 
@@ -8711,7 +8711,7 @@
     {
         "id":  292,
         "level":  "A2",
-        "word":  "die Miete, -n",
+        "word":  "die Miete",
         "meaning":  "اجاره (بها)",
         "antonyms":  [
 
@@ -8741,7 +8741,7 @@
     {
         "id":  293,
         "level":  "A2",
-        "word":  "der Lift, -e",
+        "word":  "der Lift",
         "meaning":  "آسانسور",
         "antonyms":  [
 
@@ -8771,7 +8771,7 @@
     {
         "id":  295,
         "level":  "A2",
-        "word":  "die Treppe, -n (A: die Stiege, -n)",
+        "word":  "die Treppe",
         "meaning":  "پله",
         "antonyms":  [
 
@@ -8891,7 +8891,7 @@
     {
         "id":  299,
         "level":  "A2",
-        "word":  "die Wohnung, -en",
+        "word":  "die Wohnung",
         "meaning":  "آپارتمان",
         "antonyms":  [
 
@@ -8981,7 +8981,7 @@
     {
         "id":  302,
         "level":  "A2",
-        "word":  "das Kinderzimmer, -",
+        "word":  "das Kinderzimmer",
         "meaning":  "اتاق کودک",
         "antonyms":  [
 
@@ -9011,7 +9011,7 @@
     {
         "id":  303,
         "level":  "A2",
-        "word":  "die Küche, -n",
+        "word":  "die Küche",
         "meaning":  "آشپزخانه",
         "antonyms":  [
 
@@ -9041,7 +9041,7 @@
     {
         "id":  304,
         "level":  "A2",
-        "word":  "die Toilette, -n",
+        "word":  "die Toilette",
         "meaning":  "توالت",
         "antonyms":  [
 
@@ -9101,7 +9101,7 @@
     {
         "id":  306,
         "level":  "A2",
-        "word":  "die Tür, -en",
+        "word":  "die Tür",
         "meaning":  "در",
         "antonyms":  [
 
@@ -9251,7 +9251,7 @@
     {
         "id":  311,
         "level":  "A2",
-        "word":  "der Tisch, -e",
+        "word":  "der Tisch",
         "meaning":  "میز",
         "antonyms":  [
 
@@ -9311,7 +9311,7 @@
     {
         "id":  314,
         "level":  "A2",
-        "word":  "der Teppich, -e",
+        "word":  "der Teppich",
         "meaning":  "فرش",
         "antonyms":  [
 
@@ -9341,7 +9341,7 @@
     {
         "id":  315,
         "level":  "A2",
-        "word":  "das Regal, -e",
+        "word":  "das Regal",
         "meaning":  "قفسه",
         "antonyms":  [
 
@@ -9371,7 +9371,7 @@
     {
         "id":  316,
         "level":  "A2",
-        "word":  "die Uhr, -en",
+        "word":  "die Uhr",
         "meaning":  "ساعت دیواری",
         "antonyms":  [
 
