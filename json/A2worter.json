@@ -7688,96 +7688,7 @@
         "Teil":  "D",
         "Tipp":  "برای توصیف تجهیزات و طراحی خانه."
     },
-    {
-        "id":  259,
-        "level":  "A2",
-        "word":  "Lift",
-        "meaning":  "آسانسور",
-        "antonyms":  [
 
-                     ],
-        "synonyms":  [
-                         "Fahrstuhl"
-                     ],
-        "sentences":  [
-                          {
-                              "de":  "Es gibt einen Lift im Haus.",
-                              "fa":  "در ساختمان آسانسور وجود دارد."
-                          },
-                          {
-                              "de":  "Der Lift ist kaputt.",
-                              "fa":  "آسانسور خراب است."
-                          },
-                          {
-                              "de":  "Wir nehmen den Lift.",
-                              "fa":  "از آسانسور استفاده می‌کنیم."
-                          }
-                      ],
-        "pronunciation":  "لیفت",
-        "type":  "Wohnen und Hausarbeit",
-        "Teil":  "D",
-        "Tipp":  "در اتریش و سوئیس رایج‌تر از Fahrstuhl."
-    },
-    {
-        "id":  260,
-        "level":  "A2",
-        "word":  "Pflegeheim",
-        "meaning":  "خانه سالمندان / آسایشگاه",
-        "antonyms":  [
-
-                     ],
-        "synonyms":  [
-
-                     ],
-        "sentences":  [
-                          {
-                              "de":  "Meine Großmutter lebt im Pflegeheim.",
-                              "fa":  "مادربزرگم در خانه سالمندان زندگی می‌کند."
-                          },
-                          {
-                              "de":  "Das Pflegeheim ist ruhig.",
-                              "fa":  "خانه سالمندان آرام است."
-                          },
-                          {
-                              "de":  "Sie arbeitet im Pflegeheim.",
-                              "fa":  "او در خانه سالمندان کار می‌کند."
-                          }
-                      ],
-        "pronunciation":  "پفلگه‌هایم",
-        "type":  "Wohnen und Hausarbeit",
-        "Teil":  "D",
-        "Tipp":  "برای مراقبت از سالمندان."
-    },
-    {
-        "id":  261,
-        "level":  "A2",
-        "word":  "Garage",
-        "meaning":  "گاراژ",
-        "antonyms":  [
-
-                     ],
-        "synonyms":  [
-
-                     ],
-        "sentences":  [
-                          {
-                              "de":  "Das Auto steht in der Garage.",
-                              "fa":  "ماشین در گاراژ است."
-                          },
-                          {
-                              "de":  "Die Wohnung hat eine Garage.",
-                              "fa":  "آپارتمان گاراژ دارد."
-                          },
-                          {
-                              "de":  "Es gibt keine Garage.",
-                              "fa":  "گاراژی وجود ندارد."
-                          }
-                      ],
-        "pronunciation":  "گاراژ",
-        "type":  "Wohnen und Hausarbeit",
-        "Teil":  "D",
-        "Tipp":  "با \u0027die\u0027."
-    },
     {
         "id":  262,
         "level":  "A2",
@@ -7811,7 +7722,7 @@
     {
         "id":  263,
         "level":  "A2",
-        "word":  "Garten",
+        "word":  "der Garten",
         "meaning":  "باغ",
         "antonyms":  [
 
@@ -7929,36 +7840,6 @@
         "Tipp":  "معمولاً در زیرزمین."
     },
     {
-        "id":  269,
-        "level":  "A2",
-        "word":  "Keller",
-        "meaning":  "زیرزمین",
-        "antonyms":  [
-
-                     ],
-        "synonyms":  [
-
-                     ],
-        "sentences":  [
-                          {
-                              "de":  "Der Keller ist groß.",
-                              "fa":  "زیرزمین بزرگ است."
-                          },
-                          {
-                              "de":  "Wir lagern Wein im Keller.",
-                              "fa":  "شراب را در زیرزمین نگه می‌داریم."
-                          },
-                          {
-                              "de":  "Es gibt einen Keller.",
-                              "fa":  "زیرزمینی وجود دارد."
-                          }
-                      ],
-        "pronunciation":  "کلر",
-        "type":  "Wohnen und Hausarbeit",
-        "Teil":  "D",
-        "Tipp":  "با \u0027der\u0027."
-    },
-    {
         "id":  270,
         "level":  "A2",
         "word":  "Arbeitszimmer",
@@ -7987,37 +7868,6 @@
         "type":  "Wohnen und Hausarbeit",
         "Teil":  "D",
         "Tipp":  "برای کار خانگی."
-    },
-
-    {
-        "id":  272,
-        "level":  "A2",
-        "word":  "Küche",
-        "meaning":  "آشپزخانه",
-        "antonyms":  [
-
-                     ],
-        "synonyms":  [
-
-                     ],
-        "sentences":  [
-                          {
-                              "de":  "Die Küche ist modern.",
-                              "fa":  "آشپزخانه مدرن است."
-                          },
-                          {
-                              "de":  "Ich koche in der Küche.",
-                              "fa":  "در آشپزخانه غذا می‌پزم."
-                          },
-                          {
-                              "de":  "Die Küche hat einen großen Tisch.",
-                              "fa":  "آشپزخانه میز بزرگی دارد."
-                          }
-                      ],
-        "pronunciation":  "کیشه",
-        "type":  "Wohnen und Hausarbeit",
-        "Teil":  "D",
-        "Tipp":  "مرکز خانه."
     },
     {
         "id":  273,
@@ -8080,40 +7930,11 @@
         "Teil":  "D",
         "Tipp":  "برای استراحت."
     },
-    {
-        "id":  276,
-        "level":  "A2",
-        "word":  "Treppe",
-        "meaning":  "پله",
-        "antonyms":  [
 
-                     ],
-        "synonyms":  [
-
-                     ],
-        "sentences":  [
-                          {
-                              "de":  "Die Treppe ist alt.",
-                              "fa":  "پله قدیمی است."
-                          },
-                          {
-                              "de":  "Geh die Treppe runter!",
-                              "fa":  "از پله پایین برو!"
-                          },
-                          {
-                              "de":  "Es gibt viele Stiegen.",
-                              "fa":  "پله‌های زیادی وجود دارد."
-                          }
-                      ],
-        "pronunciation":  "ترپه / اشتيگه",
-        "type":  "Wohnen und Hausarbeit",
-        "Teil":  "D",
-        "Tipp":  "در اتریش Stiege."
-    },
     {
         "id":  277,
         "level":  "A2",
-        "word":  "Wohnzimmer (A: Stube)",
+        "word":  "das Wohnzimmer",
         "meaning":  "اتاق نشیمن",
         "antonyms":  [
 
@@ -8981,36 +8802,6 @@
         "Tipp":  "جمع: Türen."
     },
     {
-        "id":  308,
-        "level":  "A2",
-        "word":  "die Wand, Wände",
-        "meaning":  "دیوار",
-        "antonyms":  [
-
-                     ],
-        "synonyms":  [
-
-                     ],
-        "sentences":  [
-                          {
-                              "de":  "Die Wand ist weiß.",
-                              "fa":  "دیوار سفید است."
-                          },
-                          {
-                              "de":  "Bilder an der Wand.",
-                              "fa":  "تابلوها روی دیوار."
-                          },
-                          {
-                              "de":  "Dicke Wände.",
-                              "fa":  "دیوارهای ضخیم."
-                          }
-                      ],
-        "pronunciation":  "دی واند",
-        "type":  "Wohnen und Hausarbeit",
-        "Teil":  "D",
-        "Tipp":  "جمع: Wände."
-    },
-    {
         "id":  309,
         "level":  "A2",
         "word":  "der Sessel",
@@ -9163,7 +8954,7 @@
     {
         "id":  319,
         "level":  "A2",
-        "word":  "die Decke (A: der Plafond)",
+        "word":  "die Decke",
         "meaning":  "سقف اتاق",
         "antonyms":  [
 
@@ -9433,7 +9224,7 @@
     {
         "id":  328,
         "level":  "A2",
-        "word":  "das Spülbecken / das Lavabo",
+        "word":  "das Spülbecken",
         "meaning":  "سینک ظرفشویی",
         "antonyms":  [
 
@@ -9489,36 +9280,6 @@
         "type":  "Wohnen und Hausarbeit",
         "Teil":  "D",
         "Tipp":  "جمع‌نام."
-    },
-    {
-        "id":  330,
-        "level":  "A2",
-        "word":  "der Kühlschrank / der Eiskasten",
-        "meaning":  "یخچال",
-        "antonyms":  [
-
-                     ],
-        "synonyms":  [
-
-                     ],
-        "sentences":  [
-                          {
-                              "de":  "Der Kühlschrank ist voll.",
-                              "fa":  "یخچال پر است."
-                          },
-                          {
-                              "de":  "Essen im Kühlschrank.",
-                              "fa":  "غذا در یخچال."
-                          },
-                          {
-                              "de":  "Ein neuer Kühlschrank.",
-                              "fa":  "یخچال جدید."
-                          }
-                      ],
-        "pronunciation":  "در کول شرنک",
-        "type":  "Wohnen und Hausarbeit",
-        "Teil":  "D",
-        "Tipp":  "در اتریش Eiskasten."
     },
     {
         "id":  331,
@@ -9579,36 +9340,6 @@
         "type":  "Wohnen und Hausarbeit",
         "Teil":  "D",
         "Tipp":  "سیستم."
-    },
-    {
-        "id":  333,
-        "level":  "A2",
-        "word":  "die Decke",
-        "meaning":  "سقف اتاق",
-        "antonyms":  [
-
-                     ],
-        "synonyms":  [
-
-                     ],
-        "sentences":  [
-                          {
-                              "de":  "Hohe Decke.",
-                              "fa":  "سقف بلند."
-                          },
-                          {
-                              "de":  "Die Decke streichen.",
-                              "fa":  "رنگ کردن سقف."
-                          },
-                          {
-                              "de":  "Lampe an der Decke.",
-                              "fa":  "لامپ روی سقف."
-                          }
-                      ],
-        "pronunciation":  "دی دِکه",
-        "type":  "Wohnen und Hausarbeit",
-        "Teil":  "D",
-        "Tipp":  "داخل اتاق."
     },
     {
         "id":  335,
@@ -9849,36 +9580,6 @@
         "type":  "Wohnen und Hausarbeit",
         "Teil":  "D",
         "Tipp":  "لوازم الکترونیکی."
-    },
-    {
-        "id":  343,
-        "level":  "A2",
-        "word":  "der Sessel / der Fauteuil",
-        "meaning":  "صندلی راحتی",
-        "antonyms":  [
-
-                     ],
-        "synonyms":  [
-
-                     ],
-        "sentences":  [
-                          {
-                              "de":  "Im Sessel sitzen.",
-                              "fa":  "روی صندلی راحتی نشستن."
-                          },
-                          {
-                              "de":  "Bequemer Sessel.",
-                              "fa":  "صندلی راحتی راحت."
-                          },
-                          {
-                              "de":  "Fauteuil in der Schweiz.",
-                              "fa":  "فاوتوی در سوئیس."
-                          }
-                      ],
-        "pronunciation":  "در زسل",
-        "type":  "Wohnen und Hausarbeit",
-        "Teil":  "D",
-        "Tipp":  "راحتی."
     },
     {
         "id":  344,
@@ -10243,7 +9944,7 @@
     {
         "id":  358,
         "level":  "A2",
-        "word":  "Geschirr spülen / abwaschen",
+        "word":  "Geschirr spülen",
         "meaning":  "ظرف شستن",
         "antonyms":  [
 
@@ -10599,36 +10300,6 @@
         "type":  "Wohnen und Hausarbeit",
         "Teil":  "D",
         "Tipp":  "حالت."
-    },
-    {
-        "id":  370,
-        "level":  "A2",
-        "word":  "klingeln / läuten",
-        "meaning":  "زنگ زدن",
-        "antonyms":  [
-
-                     ],
-        "synonyms":  [
-
-                     ],
-        "sentences":  [
-                          {
-                              "de":  "Es klingelt an der Tür.",
-                              "fa":  "در زنگ می‌زند."
-                          },
-                          {
-                              "de":  "Die Glocke läutet.",
-                              "fa":  "زنگ به صدا درمی‌آید."
-                          },
-                          {
-                              "de":  "Klingeln Sie bitte!",
-                              "fa":  "لطفاً زنگ بزنید!"
-                          }
-                      ],
-        "pronunciation":  "کلینگلن",
-        "type":  "Wohnen und Hausarbeit",
-        "Teil":  "D",
-        "Tipp":  "ورودی."
     },
     {
         "id":  371,
@@ -22997,24 +22668,6 @@
     "Tipp": "kurzärmelig."
   },
   {
-    "id": "844",
-    "level": "A2",
-    "word": "die Uhr",
-    "meaning": "ساعت",
-    "antonyms": [],
-    "synonyms": [],
-    "sentences": [
-      {
-        "de": "Die Uhr ist teuer.",
-        "fa": "ساعت گران است."
-      }
-    ],
-    "pronunciation": "دی اور",
-    "type": "Geschäfte und Einkaufen",
-    "Teil": "H",
-    "Tipp": "Armbanduhr."
-  },
-  {
     "id": "845",
     "level": "A2",
     "word": "gratis",
@@ -23301,24 +22954,6 @@
     "type": "Geschäfte und Einkaufen",
     "Teil": "H",
     "Tipp": "EC-Karte auch üblich."
-  },
-  {
-    "id": "861",
-    "level": "A2",
-    "word": "das Regal",
-    "meaning": "قفسه",
-    "antonyms": [],
-    "synonyms": [],
-    "sentences": [
-      {
-        "de": "Das Brot ist im Regal.",
-        "fa": "نان در قفسه است."
-      }
-    ],
-    "pronunciation": "داس رِگال",
-    "type": "Geschäfte und Einkaufen",
-    "Teil": "H",
-    "Tipp": "im Supermarkt."
   },
   {
     "id": "862",
